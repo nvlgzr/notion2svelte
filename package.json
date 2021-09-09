@@ -1,5 +1,6 @@
 {
   "name": "notion2svelte",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,5 +10,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^0.3.1"
+  }
 }
