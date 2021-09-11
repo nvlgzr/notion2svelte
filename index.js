@@ -13,9 +13,7 @@ async function fetchAllPages() {
     const response = await notion.databases.query({
       database_id: dbId,
     })
-    const results = response.results
-    console.log(JSON.stringify(results, null, 2))
-
+    log(response.results, { label: 'all pages' })
   } catch (error) {
     console.error('💥', error)
   }
