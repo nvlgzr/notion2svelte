@@ -1,10 +1,9 @@
 import log from './lib/log.js'
-import dotenv from 'dotenv'
 import { Client } from "@notionhq/client"
+import env from './env.js'
 
-const envs = dotenv.config().parsed
-const apiKey = envs.NOTION_API_KEY;
-const dbId = envs.NOTION_DATABASE_ID;
+const apiKey = env.NOTION_API_KEY;
+const dbId = env.NOTION_DATABASE_ID;
 const notion = new Client({ auth: apiKey })
 
 async function fetchAllPages() {
