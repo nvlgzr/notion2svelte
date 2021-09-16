@@ -13,10 +13,13 @@ fetchAllPages().then(pages => {
       const title = plain(pageTitle(page))
       const path = resolveTilde(out) + slug(page) + '.svelte'
       let contents = h.headTitle(title) + h._ + h.title(title)
+      let scriptChunks = new Set()
 
       for (let block of blocks) {
         try {
-          contents += h.fromNotion(block) + h.___
+          const [html, code] = h.fromNotion(block)
+          contents += html + h._ + h.___ + h._
+          scriptChunks.add(code)
         } catch (error) {
           if (block.type !== 'unsupported') {
             // This isn't worth reporting as Notion simply, well
@@ -30,6 +33,8 @@ fetchAllPages().then(pages => {
       }
 
       contents += h._ + `<style>\n${styles}\n</style>`;
+      let scriptSection = `<script>${Array.from(scriptChunks).join('\n')}\n</script>`
+      contents = scriptSection + h._ + contents
 
       fs.writeFile(path, contents, (err) => {
         if (err) throw err;
