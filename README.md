@@ -1,1 +1,5 @@
-This simple setup brought to you by [some random blog post](https://nodogmablog.bryanhogan.net/2020/09/the-simplest-hello-world-in-node-js/).
+# notion2svelte
+
+When `notion2svelte` is ready, it will allow me to add a page to my Pages database in Notion, mark it as "ready to publish", and, once notion2svelte has been run, have that page committed as a new, Svelte-native page in my website's repo, where it's just one quick push to actually publish.
+
+🤞

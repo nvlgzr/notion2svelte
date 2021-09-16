@@ -1,8 +1,3 @@
-// console.log(process.cwd())
-/Users/c/Documents/1-Due/notion2svelte
-Example Input
-See allPagesReduced
-
 # MVP — Full Stack Transformation: just title and plaintext
 
 §goal(
@@ -11,11 +6,15 @@ I can run `npm run dev -- --out="~/2-Ongoing/navelgazer/navelgazer.club/src/rout
 status: in progress, render: true
 }
 
-## ToDo
+## 🐞 Known Bugs
 
-- Create (or resuscitate) Svelte Kit app to host navelgazer.com
-- Replace App.svelte with version that has the animated logo centered
-- Duplicate barebones leveluptuts blog index page
+-
+
+# 🐝 Tasks/Ideas
+
+- ~~Create two samples of the kind of output I'm expecting and use them to test the svelte side of things.~~
+
+- Save {title}.svelte
 - For each incoming page, replace title with post title and output to {title}.svelte
 - For each incoming page, for each block, output a div with that block's plain_text
 - Run `npm run dev -- --out="~/2-Ongoing/navelgazer/navelgazer.club/src/routes/the-storyteller/` & verify that pages show up in the Svelte app
@@ -26,3 +25,8 @@ status: in progress, render: true
     <div>First block</div>
     <div>Second block</div>
     …
+
+# Icebox
+
+- Replace App.svelte with version that has the animated logo centered
+- Duplicate barebones leveluptuts blog index page
