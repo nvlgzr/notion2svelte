@@ -53,6 +53,7 @@ status: in progress, render: true
     - pdf
     - bookmark
     - unsupported
+- Improve support for numbered items (currently have no way to get the number shown in Notion, which means having to maintain a stateful count to show the right number which means a bit more careful thinking, architecturally.)
 
 # Icebox
 
