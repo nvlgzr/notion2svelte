@@ -12,19 +12,45 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- ~~Create two samples of the kind of output I'm expecting and use them to test the svelte side of things.~~
-
-- Save {title}.svelte
-- For each incoming page, replace title with post title and output to {title}.svelte
-- For each incoming page, for each block, output a div with that block's plain_text
-- Run `npm run dev -- --out="~/2-Ongoing/navelgazer/navelgazer.club/src/routes/the-storyteller/` & verify that pages show up in the Svelte app
-- Goof around and have fun!
-
-- For each incoming page, output to a specific directory: `npm run start -- --output=../myproj/src/routes/blog/` → foo.svelte. Contents, something like
-    <h1>Dummy Title</h1> // how to integrate w/_layout, again?
-    <div>First block</div>
-    <div>Second block</div>
-    …
+- Finish adding support for remaining block types' `plain_text`
+  - All Block types. (I've done an MVP for any not listed.)
+    - paragraph
+    - bulleted_list_item
+    - numbered_list_item
+    - toggle
+    - child_page\*\*
+    - embed
+    - image
+    - video
+    - file
+    - pdf
+    - bookmark
+    - unsupported
+- Add support for rendering annotations:
+  - All Annotations
+    - bold
+    - italic
+    - strikethrough
+    - underline
+    - code
+    - color
+  - All Block types. The ones in bold come with annotated children (though I'll probably duck-type it in the end, rather than attending to the types)
+    - **paragraph**
+    - **heading_1** (unofficial)
+    - **heading_2** (unofficial)
+    - **heading_3** (unofficial)
+    - **bulleted_list_item**
+    - **numbered_list_item**
+    - **to_do**
+    - **toggle**
+    - **child_page**
+    - embed
+    - image
+    - video
+    - file
+    - pdf
+    - bookmark
+    - unsupported
 
 # Icebox
 
