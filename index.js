@@ -18,7 +18,7 @@ fetchAllPages().then(pages => {
       for (let block of blocks) {
         try {
           const [html, code] = h.fromNotion(block)
-          contents += html + h._ + h.___ + h._
+          contents += html + h.br
           scriptChunks.add(code)
         } catch (error) {
           if (block.type !== 'unsupported') {

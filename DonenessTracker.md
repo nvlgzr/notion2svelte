@@ -13,20 +13,21 @@ status: in progress, render: true
 # 🐝 Tasks/Ideas
 
 - Finish adding support for remaining block types' `plain_text`
-  - All Block types. (I've done an MVP for any not listed.)
-    - paragraph
-    - bulleted_list_item
-    - numbered_list_item
-    - toggle
-    - child_page\*\*
+  - All Block types. Ignore the ones not in bold. (I've done an MVP for any not listed.)
+    - **paragraph**
+    - **bulleted_list_item**
+    - **numbered_list_item**
+    - **toggle**
+    - child_page
+      - title property only (other than the usual id, type, archived, etc.)
     - embed
     - image
     - video
     - file
     - pdf
-    - bookmark
+    - bookmark ???
     - unsupported
-- Add support for rendering annotations:
+- Add support for rendering annotations in text blocks:
   - All Annotations
     - bold
     - italic
@@ -34,11 +35,12 @@ status: in progress, render: true
     - underline
     - code
     - color
-  - All Block types. The ones in bold come with annotated children (though I'll probably duck-type it in the end, rather than attending to the types)
+- Add support for rendering child blocks (e.g., indented):
+  - All Block types. The ones in bold have a `children` block representing indented blocks
     - **paragraph**
-    - **heading_1** (unofficial)
-    - **heading_2** (unofficial)
-    - **heading_3** (unofficial)
+    - heading_1
+    - heading_2
+    - heading_3
     - **bulleted_list_item**
     - **numbered_list_item**
     - **to_do**
