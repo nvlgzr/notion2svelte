@@ -1,5 +1,7 @@
+import log from './lib/log.js'
+
 import fs from 'fs'
-import { fetchAllPages, fetchPageBlocks, pageTitle, plain, slug } from './lib/notion.js'
+import { fetchAllPages, fetchPageBlocks, slug } from './lib/notion.js'
 import { resolveTilde } from './lib/resolve-tilde.js'
 import h from './lib/sveltifier.js'
 import env from './env.js'
@@ -7,40 +9,58 @@ import env from './env.js'
 const out = env.OUTPUT_PATH;
 const styles = fs.readFileSync('./styles.css', { encoding: 'utf8' })
 
-fetchAllPages().then(pages => {
+async function go() {
+  const pages = await fetchAllPages()
   for (let page of pages) {
-    fetchPageBlocks(page).then(blocks => {
-      const title = plain(pageTitle(page))
-      const path = resolveTilde(out) + slug(page) + '.svelte'
-      let contents = h.headTitle(title) + h._ + h.title(title)
-      let scriptChunks = new Set()
+    const path = resolveTilde(out) + slug(page) + '.svelte'
+    const title = + h.title(page.title);
+    let svelteHead = h.headTitle(title) + h._;
+    let scriptChunks = new Set()
+    let html = h.title(title) + h._;
+    let renderedBlocks = '';
 
-      for (let block of blocks) {
-        try {
-          const [html, code] = h.fromNotion(block)
-          contents += html + h.br
+    const blocks = await fetchPageBlocks(page);
+
+    for (let block of blocks) {
+      try {
+        if (block.type !== 'unsupported') {
+          const [comp, code] = h.fromNotion(block)
+          renderedBlocks += comp + h.br
           scriptChunks.add(code)
-        } catch (error) {
-          if (block.type !== 'unsupported') {
-            // This isn't worth reporting as Notion simply, well
-            // doesn't support some blocks yet.
-          } else {
-            console.log(
-              `🚨 Error → ${error} | block → ${JSON.stringify(block)}`
-            )
-          }
         }
+      } catch (error) {
+        log(
+          `🚨 Error → ${error} | block → ${JSON.stringify(block)}`
+        )
       }
+    }
 
-      contents += h._ + `<style>\n${styles}\n</style>`;
-      let scriptSection = `<script>${Array.from(scriptChunks).join('\n')}\n</script>`
-      contents = scriptSection + h._ + contents
+    scriptChunks.add(`\nlet curtainDrawn = false`)
 
-      fs.writeFile(path, contents, (err) => {
-        if (err) throw err;
+    html += `
+{#if !curtainDrawn }
+  ${renderedBlocks}
+{:else }
+  <h1>Blocks</h1>
+  <pre>{JSON.stringify(${JSON.stringify(blocks, null, 2)}, null, 2)}</pre>
+  <h1>Page</h1>
+  <pre>{JSON.stringify(${JSON.stringify(page, null, 2)}, null, 2)}</pre>
+{/if}
+    `
 
-        // console.log(`File saved to ${path}\n↓\n`, contents);
-      });
+    let script = `
+<script>
+${Array.from(scriptChunks).join('\n')}
+</script>
+
+<button on:click={() => curtainDrawn = !curtainDrawn}>𒅒</button>
+`
+    fs.writeFile(path, svelteHead + script + html, (err) => {
+      if (err) throw err;
+
+      // log(`File saved to ${path}\n↓\n`, contents);
     })
   }
-})
+}
+
+go()

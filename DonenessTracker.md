@@ -12,21 +12,6 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Finish adding support for remaining block types' `plain_text`
-  - All Block types. Ignore the ones not in bold. (I've done an MVP for any not listed.)
-    - **paragraph**
-    - **bulleted_list_item**
-    - **numbered_list_item**
-    - **toggle**
-    - child_page
-      - title property only (other than the usual id, type, archived, etc.)
-    - embed
-    - image
-    - video
-    - file
-    - pdf
-    - bookmark ???
-    - unsupported
 - Add support for rendering annotations in text blocks:
   - All Annotations
     - bold
