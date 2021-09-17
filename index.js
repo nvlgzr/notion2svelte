@@ -39,7 +39,7 @@ fetchAllPages().then(pages => {
       fs.writeFile(path, contents, (err) => {
         if (err) throw err;
 
-        console.log(`File saved to ${path}\n↓\n`, contents);
+        // console.log(`File saved to ${path}\n↓\n`, contents);
       });
     })
   }
