@@ -12,8 +12,8 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Add support for links
 - Add support for rendering child blocks (e.g., indented):
+  - Update the test doc (or make a new one) with test scenarios
   - All Block types. The ones in bold have a `children` block representing indented blocks
     - **paragraph**
     - heading_1
@@ -32,6 +32,9 @@ status: in progress, render: true
     - bookmark
     - unsupported
 - Improve support for numbered items (currently have no way to get the number shown in Notion, which means having to maintain a stateful count to show the right number which means a bit more careful thinking, architecturally.)
+- Download and embed images so that Amazon expiry timestamps don't break the site.
+- Add a Katex interpreter for `expression`s?
+- Experiment with having the script do a git commit after successfully saving. Here, I suspect, many monsters lurk, so probably the first working something will be pretty problematic
 
 # Icebox
 
