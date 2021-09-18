@@ -8,13 +8,11 @@ status: in progress, render: true
 
 ## 🐞 Known Bugs
 
--
+- Spaces get dropped when annotation styles are present, presumably due to something I'm doing in translation.
 
 # 🐝 Tasks/Ideas
 
-- Add support for rendering annotations in text blocks:
-  - Remaining Annotations
-    - color
+- Add support for links
 - Add support for rendering child blocks (e.g., indented):
   - All Block types. The ones in bold have a `children` block representing indented blocks
     - **paragraph**

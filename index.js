@@ -14,9 +14,9 @@ async function go() {
   for (let page of pages) {
     const path = resolveTilde(out) + slug(page) + '.svelte'
     const title = + h.title(page.title);
-    let svelteHead = h.headTitle(title);
     let scriptChunks = new Set([
       'import InlineCode from "$lib/notion2svelte/InlineCode.svelte"',
+      'import InlineColor from "$lib/notion2svelte/InlineColor.svelte"',
     ])
     let html = h.title(title);
     let renderedBlocks = '';
@@ -57,7 +57,7 @@ ${Array.from(scriptChunks).join('\n')}
 
 <button on:click={() => curtainDrawn = !curtainDrawn}>𒅒</button>
 `
-    fs.writeFile(path, svelteHead + script + html, (err) => {
+    fs.writeFile(path, h.headTitle(title) + script + html, (err) => {
       if (err) throw err;
 
       // log(`File saved to ${path}\n↓\n`, contents);
