@@ -14,7 +14,6 @@ status: in progress, render: true
 
 - Add support for rendering annotations in text blocks:
   - Remaining Annotations
-    - code
     - color
 - Add support for rendering child blocks (e.g., indented):
   - All Block types. The ones in bold have a `children` block representing indented blocks

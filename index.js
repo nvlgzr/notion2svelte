@@ -14,9 +14,11 @@ async function go() {
   for (let page of pages) {
     const path = resolveTilde(out) + slug(page) + '.svelte'
     const title = + h.title(page.title);
-    let svelteHead = h.headTitle(title) + h._;
-    let scriptChunks = new Set()
-    let html = h.title(title) + h._;
+    let svelteHead = h.headTitle(title);
+    let scriptChunks = new Set([
+      'import InlineCode from "$lib/notion2svelte/InlineCode.svelte"',
+    ])
+    let html = h.title(title);
     let renderedBlocks = '';
 
     const blocks = await fetchPageBlocks(page);
