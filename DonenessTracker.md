@@ -13,11 +13,7 @@ status: in progress, render: true
 # 🐝 Tasks/Ideas
 
 - Add support for rendering annotations in text blocks:
-  - All Annotations
-    - bold
-    - italic
-    - strikethrough
-    - underline
+  - Remaining Annotations
     - code
     - color
 - Add support for rendering child blocks (e.g., indented):
