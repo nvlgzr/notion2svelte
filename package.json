@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "run-once": "node index.js",
+    "start": "./watch",
     "dev": "node -r dotenv/config index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

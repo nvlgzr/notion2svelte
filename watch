@@ -1,0 +1,3 @@
+#!/usr/local/bin/fish
+
+ls lib/* *.js | entr node index.js
