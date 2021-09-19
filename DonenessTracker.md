@@ -13,6 +13,9 @@ status: in progress, render: true
 # 🐝 Tasks/Ideas
 
 - Add a test suite, then use it to guide a bit of refactoring in preparation for new features
+- Add password-based Admin mode with links back to Notion pages
+  - MVP: security through obscurity -> type secret into the void to magically toggle
+  - Later: Add actual Auth^2, but still with no affordances
 - Choose a set of pages to release as the first version of the site, and test each one, fixing what are sure to be numerous issues, as they crop up. Note that this is (still) not about getting the layout and cosmetic design right. It's about ensuring that the functionality will work as hoped for, and also getting a feel for the sorts of future modifications I'm likely to want on this list! ↓
 - Add support for rendering child blocks (e.g., indented):
   - Update the test doc (or make a new one) with test scenarios
