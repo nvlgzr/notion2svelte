@@ -57,8 +57,14 @@ async function go() {
 ${Array.from(scriptChunks).join('\n')}
 </script>
 
-<button on:click={() => curtainDrawn = !curtainDrawn}>𒅒</button>
+<button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by ${process.env.npm_package_name} ${process.env.npm_package_version} 𒅒</button>
 `
+    // ↑ This npm stuff is mainly just an excuse to remind myself of this
+    //   interesting-but-probably-useless-to-me tip that I encountered the
+    //   other day, presented as a package.json _script_ entry:
+    //
+    //   `"check-env": "node -e 'console.log(process.env)' | grep npm"
+
     fs.writeFile(path, h.headTitle(titleText) + script + html, (err) => {
       if (err) throw err;
 
