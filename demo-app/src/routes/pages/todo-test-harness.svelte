@@ -27,9 +27,9 @@ let curtainDrawn = false
 <br style="display:none;"/>
 <p>(<b>paragraph</b> has children)</p>
 <br style="display:none;"/>
-<TodoItem checked={false}>"<InlineColor value='default'>Commit the resulting&thinsp;</InlineColor><InlineColor value='default'><InlineCode>.svelte</InlineCode></InlineColor><InlineColor value='default'>&thinsp;files</InlineColor>"</TodoItem>
+<TodoItem checked={true}>"<InlineColor value='default'>Commit the resulting&thinsp;</InlineColor><InlineColor value='default'><InlineCode>.svelte</InlineCode></InlineColor><InlineColor value='default'>&thinsp;files</InlineColor>"</TodoItem>
 <br style="display:none;"/>
-<TodoItem checked={false}>"<InlineColor value='default'>Introduce some change to how blocks are processed that subtly changes the output: the undesired changes should show up as soon as you go to close out your next&thinsp;</InlineColor><InlineColor value='default'><InlineCode>git commit</InlineCode></InlineColor><InlineColor value='default'>!</InlineColor>"</TodoItem>
+<TodoItem checked={false}>"<InlineColor value='default'>Introduce some change to how blocks are processed that subtly changes the output: the undesired changes should show up as soon as you go to close out your next&thinsp;</InlineColor><InlineColor value='default'><InlineCode>git commit</InlineCode></InlineColor><InlineColor value='default'>! (Note that these are currently harder to spot than they should be because the Amazon-hosted images Notion hosts are constantly getting their URLs rearranged. I'm not sure how best to solve this.</InlineColor>"</TodoItem>
 <br style="display:none;"/>
 <TodoItem checked={false}>"<InlineColor value='default'>Use the above approach to safely implement the next feature (child blocks) without fear of breaking existing features</InlineColor>"</TodoItem>
 <br style="display:none;"/>
@@ -401,7 +401,7 @@ let curtainDrawn = false
     "object": "block",
     "id": "5f0b13a3-f22f-4a91-8216-b892e4f93001",
     "created_time": "2021-09-20T10:00:00.000Z",
-    "last_edited_time": "2021-09-20T10:00:00.000Z",
+    "last_edited_time": "2021-09-20T10:44:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "to_do",
@@ -459,14 +459,14 @@ let curtainDrawn = false
           "href": null
         }
       ],
-      "checked": false
+      "checked": true
     }
   },
   {
     "object": "block",
     "id": "e8eb4b38-66b0-45c5-b0c0-60d2e30cc466",
     "created_time": "2021-09-20T10:19:00.000Z",
-    "last_edited_time": "2021-09-20T10:21:00.000Z",
+    "last_edited_time": "2021-09-20T10:45:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "to_do",
@@ -509,7 +509,7 @@ let curtainDrawn = false
         {
           "type": "text",
           "text": {
-            "content": "!",
+            "content": "! (Note that these are currently harder to spot than they should be because the Amazon-hosted images Notion hosts are constantly getting their URLs rearranged. I'm not sure how best to solve this.",
             "link": null
           },
           "annotations": {
@@ -520,7 +520,7 @@ let curtainDrawn = false
             "code": false,
             "color": "default"
           },
-          "plain_text": "!",
+          "plain_text": "! (Note that these are currently harder to spot than they should be because the Amazon-hosted images Notion hosts are constantly getting their URLs rearranged. I'm not sure how best to solve this.",
           "href": null
         }
       ],
@@ -794,7 +794,7 @@ let curtainDrawn = false
   "object": "page",
   "id": "816f31ee-9651-4a39-8960-841d33a9f2d4",
   "created_time": "2021-09-19T06:41:00.000Z",
-  "last_edited_time": "2021-09-20T10:24:00.000Z",
+  "last_edited_time": "2021-09-20T10:45:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {

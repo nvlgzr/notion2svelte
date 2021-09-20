@@ -71,7 +71,7 @@ ${Array.from(scriptChunks).join('\n')}
     fs.writeFile(path, contents, (err) => {
       if (err) throw err;
 
-      log(`Page saved to ${path}\n↓\n`, '🏁');
+      log(`Page saved to ${path}`, `${new Date()}`, { emoji: '\n⇓ ', delimiter: '⇓\n\n' });
     })
   }
 }

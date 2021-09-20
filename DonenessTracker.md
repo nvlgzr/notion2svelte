@@ -44,6 +44,7 @@ status: in progress, render: true
 
 # Icebox
 
+- Side note: I think image embeds are going to be an issue pretty soon. Consider asking for help with this piece!!!
 - Publish to npm
 - Extract page processing from db access so that individual pages can be targeted for rapid exploration
 - Replace App.svelte with version that has the animated logo centered
