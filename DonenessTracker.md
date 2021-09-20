@@ -49,3 +49,4 @@ status: in progress, render: true
 - Replace App.svelte with version that has the animated logo centered
 - Duplicate barebones leveluptuts blog index page
 - Add config for custom component names so that naming conflicts can be avoided.
+- Default to `prerender=true`?

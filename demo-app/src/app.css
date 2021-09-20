@@ -5,9 +5,9 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--pure-white: #ffffff;
-	--primary-color: #b9c6d2;
-	--secondary-color: #d0dde9;
-	--tertiary-color: #edf0f8;
+	--primary-color: hsl(206, 88%, 95%);
+	--secondary-color: hsl(206, 60%, 95%);
+	--tertiary-color: hsl(206, 50%, 98%);
 	--accent-color: #ff3e00;
 	--heading-color: rgba(0, 0, 0, 0.7);
 	--text-color: #444444;
@@ -52,6 +52,7 @@ body::before {
 
 h1,
 h2,
+h3,
 p {
 	font-weight: 400;
 	color: var(--heading-color);
@@ -59,6 +60,10 @@ p {
 
 p {
 	line-height: 1.5;
+	margin: 0.25rem;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	min-height: 1rem;
 }
 
 a {
@@ -71,12 +76,16 @@ a:hover {
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 3.5rem;
 	text-align: center;
 }
 
 h2 {
-	font-size: 1rem;
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 1.5rem;
 }
 
 pre {
@@ -102,6 +111,6 @@ button:focus:not(:focus-visible) {
 
 @media (min-width: 720px) {
 	h1 {
-		font-size: 2.4rem;
+		font-size: 3rem;
 	}
 }
