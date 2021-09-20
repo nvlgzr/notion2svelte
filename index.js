@@ -66,10 +66,12 @@ ${Array.from(scriptChunks).join('\n')}
     //
     //   `"check-env": "node -e 'console.log(process.env)' | grep npm"
 
-    fs.writeFile(path, h.headTitle(titleText) + script + html, (err) => {
+    const contents = h.headTitle(titleText) + script + html
+
+    fs.writeFile(path, contents, (err) => {
       if (err) throw err;
 
-      // log(`File saved to ${path}\n↓\n`, contents);
+      log(`Page saved to ${path}\n↓\n`, '🏁');
     })
   }
 }
