@@ -34,9 +34,9 @@ async function go() {
           scriptChunks.add(code)
         }
       } catch (error) {
-        log(
-          `🚨 Error → ${error} | block → ${JSON.stringify(block)}`
-        )
+        const message = `🚨 Error → ${error} | block → ${JSON.stringify(block)}`
+        renderedBlocks += `<!-- ${message} -->`
+        log(message)
       }
     }
 
