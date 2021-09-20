@@ -1,6 +1,7 @@
 import log from './lib/log.js'
 
 import fs from 'fs'
+import { join } from 'path'
 import { fetchAllPages, fetchPageBlocks, plain, pageTitle, slug } from './lib/notion.js'
 import { resolveTilde } from './lib/resolve-tilde.js'
 import h from './lib/sveltifier.js'
@@ -13,7 +14,7 @@ async function go() {
   const pages = await fetchAllPages()
   for (let page of pages) {
     const titleText = plain(pageTitle(page))
-    const path = resolveTilde(out) + slug(page) + '.svelte'
+    const path = join(resolveTilde(out), slug(page) + '.svelte')
     const title = + h.title(titleText);
     let scriptChunks = new Set([
       'import Title from "$lib/notion2svelte/Title.svelte"',
