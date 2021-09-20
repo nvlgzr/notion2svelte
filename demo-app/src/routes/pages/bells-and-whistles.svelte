@@ -18,7 +18,7 @@ let curtainDrawn = false
 <Title>Test Page w/All* the Bells and Whistles 🎉</Title>
 
 {#if !curtainDrawn }
-  <h1><InlineColor value='default'>A More&thinsp;</InlineColor><InlineColor value='default'><em>Realistic</em></InlineColor><InlineColor value='default'>&thinsp;</InlineColor><InlineColor value='red_background'>Test</InlineColor><InlineColor value='default'>&thinsp;Case</InlineColor></h1>
+  <h1><InlineColor value='default'>A More (un?)</InlineColor><InlineColor value='default'><em>Realistic</em></InlineColor><InlineColor value='default'>&thinsp;</InlineColor><InlineColor value='red_background'>Test</InlineColor><InlineColor value='default'>&thinsp;Case</InlineColor></h1>
 <br style="display:none;"/>
 <p><InlineColor value='default'>Link to another&thinsp;</InlineColor><a href="/816f31ee96514a398960841d33a9f2d4"><InlineColor value='default'>Notion page</InlineColor></a></p>
 <br style="display:none;"/>
@@ -28,7 +28,7 @@ let curtainDrawn = false
 <br style="display:none;"/>
 <p><InlineColor value='default'>In addition to formatted text and links, we can also expect plenty of&thinsp;</InlineColor><InlineColor value='red_background'>embedded</InlineColor><InlineColor value='default'>&thinsp;images, and (maybe) other media types. For now, images w/out sizing and alt=caption is good enough to be getting on.</InlineColor></p>
 <br style="display:none;"/>
-<Image url="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T102502Z&X-Amz-Expires=3600&X-Amz-Signature=eaae06cd2f8e5ae52522f38fd818ba5cb6b6898dd84cdd8853b0c3dfd0865d26&X-Amz-SignedHeaders=host" caption="<InlineColor value='default'>Obsolescence</InlineColor>" />
+<Image url="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T105935Z&X-Amz-Expires=3600&X-Amz-Signature=bd982da66248518af9ac552ec74147ceaa87838c6931e4c5b950f2c171b71432&X-Amz-SignedHeaders=host" caption="<InlineColor value='default'>Obsolescence</InlineColor>" />
 <br style="display:none;"/>
 <p><InlineColor value='default'>Although almost all penguin species are native to the Southern Hemisphere, they are not found only in cold climates, such as Antarctica. In fact, only a few species of penguin actually live so far south. Several species live in the temperate zone;</InlineColor></p>
 <br style="display:none;"/>
@@ -78,9 +78,9 @@ child_page
 <br style="display:none;"/>
 <p><InlineColor value='default'>↓ image block</InlineColor></p>
 <br style="display:none;"/>
-<Image url="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T102502Z&X-Amz-Expires=3600&X-Amz-Signature=af82bb37fe53eae686c281e70c09c8680e5bdb0e33f6004e2957f35902094648&X-Amz-SignedHeaders=host" caption="<InlineColor value='default'>Aphid Caption</InlineColor>" />
+<Image url="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T105935Z&X-Amz-Expires=3600&X-Amz-Signature=3e4bf752df9da5c4b0792b29950c88dca4a0bef2a65b92d7085dbc404525f601&X-Amz-SignedHeaders=host" caption="<InlineColor value='default'>Aphid Caption</InlineColor>" />
 <br style="display:none;"/>
-<Image url="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T102502Z&X-Amz-Expires=3600&X-Amz-Signature=af82bb37fe53eae686c281e70c09c8680e5bdb0e33f6004e2957f35902094648&X-Amz-SignedHeaders=host" caption="<InlineColor value='default'>I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first</InlineColor>" />
+<Image url="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T105935Z&X-Amz-Expires=3600&X-Amz-Signature=3e4bf752df9da5c4b0792b29950c88dca4a0bef2a65b92d7085dbc404525f601&X-Amz-SignedHeaders=host" caption="<InlineColor value='default'>I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first</InlineColor>" />
 <br style="display:none;"/>
 <h1><InlineColor value='default'>Synced Blocks</InlineColor></h1>
 <br style="display:none;"/>
@@ -94,7 +94,7 @@ child_page
     "object": "block",
     "id": "1aca2b38-169f-412f-93d6-81dd6b59b19b",
     "created_time": "2021-09-20T10:05:00.000Z",
-    "last_edited_time": "2021-09-20T10:05:00.000Z",
+    "last_edited_time": "2021-09-20T10:56:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "heading_1",
@@ -103,7 +103,7 @@ child_page
         {
           "type": "text",
           "text": {
-            "content": "A More ",
+            "content": "A More (un?)",
             "link": null
           },
           "annotations": {
@@ -114,7 +114,7 @@ child_page
             "code": false,
             "color": "default"
           },
-          "plain_text": "A More ",
+          "plain_text": "A More (un?)",
           "href": null
         },
         {
@@ -1031,8 +1031,8 @@ child_page
       ],
       "type": "file",
       "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T102502Z&X-Amz-Expires=3600&X-Amz-Signature=eaae06cd2f8e5ae52522f38fd818ba5cb6b6898dd84cdd8853b0c3dfd0865d26&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-09-20T11:25:01.977Z"
+        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T105935Z&X-Amz-Expires=3600&X-Amz-Signature=bd982da66248518af9ac552ec74147ceaa87838c6931e4c5b950f2c171b71432&X-Amz-SignedHeaders=host",
+        "expiry_time": "2021-09-20T11:59:35.479Z"
       }
     }
   },
@@ -1886,8 +1886,8 @@ child_page
       ],
       "type": "file",
       "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T102502Z&X-Amz-Expires=3600&X-Amz-Signature=af82bb37fe53eae686c281e70c09c8680e5bdb0e33f6004e2957f35902094648&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-09-20T11:25:01.990Z"
+        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T105935Z&X-Amz-Expires=3600&X-Amz-Signature=3e4bf752df9da5c4b0792b29950c88dca4a0bef2a65b92d7085dbc404525f601&X-Amz-SignedHeaders=host",
+        "expiry_time": "2021-09-20T11:59:35.483Z"
       }
     }
   },
@@ -1921,8 +1921,8 @@ child_page
       ],
       "type": "file",
       "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T102502Z&X-Amz-Expires=3600&X-Amz-Signature=af82bb37fe53eae686c281e70c09c8680e5bdb0e33f6004e2957f35902094648&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-09-20T11:25:01.986Z"
+        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T105935Z&X-Amz-Expires=3600&X-Amz-Signature=3e4bf752df9da5c4b0792b29950c88dca4a0bef2a65b92d7085dbc404525f601&X-Amz-SignedHeaders=host",
+        "expiry_time": "2021-09-20T11:59:35.483Z"
       }
     }
   },
@@ -2022,7 +2022,7 @@ child_page
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-09-20T10:15:00.000Z",
+  "last_edited_time": "2021-09-20T10:56:00.000Z",
   "cover": {
     "type": "external",
     "external": {
