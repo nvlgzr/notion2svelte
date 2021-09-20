@@ -12,7 +12,6 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Add a test suite, then use it to guide a bit of refactoring in preparation for new features
 - Add support for rendering child blocks (e.g., indented):
   - Update the test doc (or make a new one) with test scenarios
   - All Block types. The ones in bold have a `children` block representing indented blocks

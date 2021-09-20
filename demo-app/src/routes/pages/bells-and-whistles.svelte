@@ -6,7 +6,6 @@ import Title from "$lib/notion2svelte/Title.svelte"
 import InlineCode from "$lib/notion2svelte/InlineCode.svelte"
 import InlineColor from "$lib/notion2svelte/InlineColor.svelte"
 
-import Image from '$lib/notion2svelte/Image.svelte';
 import TodoItem from '$lib/notion2svelte/TodoItem.svelte';
 import BulletedListItem from "$lib/notion2svelte/BulletedListItem.svelte";
 import NumberedListItem from "$lib/notion2svelte/NumberedListItem.svelte";
@@ -18,7 +17,13 @@ let curtainDrawn = false
 <Title>Test Page w/All* the Bells and Whistles 🎉</Title>
 
 {#if !curtainDrawn }
-  <h1><InlineColor value='default'>A More (un?)</InlineColor><InlineColor value='default'><em>Realistic</em></InlineColor><InlineColor value='default'>&thinsp;</InlineColor><InlineColor value='red_background'>Test</InlineColor><InlineColor value='default'>&thinsp;Case</InlineColor></h1>
+  <p><InlineColor value='default'>*Except images. Until I work out how to extract images from their Amazon+Notion vault, they'll keep changing URLs every time&thinsp;</InlineColor><InlineColor value='default'><InlineCode>notion2svelte</InlineCode></InlineColor><InlineColor value='default'>&thinsp;runs! That's slowing me down at the moment, so images will instead go here:</InlineColor></p>
+<br style="display:none;"/>
+<p>(<b>child_page</b> has children)</p>
+<br style="display:none;"/>
+<h1><InlineColor value='default'>Here's some paragraphs about some stuff</InlineColor></h1>
+<br style="display:none;"/>
+<p><InlineColor value='default'><em>(Mostly penguins)</em></InlineColor></p>
 <br style="display:none;"/>
 <p><InlineColor value='default'>Link to another&thinsp;</InlineColor><a href="/816f31ee96514a398960841d33a9f2d4"><InlineColor value='default'>Notion page</InlineColor></a></p>
 <br style="display:none;"/>
@@ -27,8 +32,6 @@ let curtainDrawn = false
 <p><InlineColor value='default'>Perhaps one in 50,000 penguins (of most species) are born with brown rather than black plumage. These are called&thinsp;</InlineColor><InlineColor value='red_background'>isabelline penguins. Isabellinism is different from albinism. Isabelline penguins tend to live shorter lives than</InlineColor><InlineColor value='default'>&thinsp;normal</InlineColor><InlineColor value='yellow_background'>&thinsp;penguins, as they are</InlineColor><InlineColor value='default'>&thinsp;not well-</InlineColor><InlineColor value='green'>camouflaged</InlineColor><InlineColor value='default'>&thinsp;against the deep and are often passed over as mates.</InlineColor></p>
 <br style="display:none;"/>
 <p><InlineColor value='default'>In addition to formatted text and links, we can also expect plenty of&thinsp;</InlineColor><InlineColor value='red_background'>embedded</InlineColor><InlineColor value='default'>&thinsp;images, and (maybe) other media types. For now, images w/out sizing and alt=caption is good enough to be getting on.</InlineColor></p>
-<br style="display:none;"/>
-<Image url="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T105935Z&X-Amz-Expires=3600&X-Amz-Signature=bd982da66248518af9ac552ec74147ceaa87838c6931e4c5b950f2c171b71432&X-Amz-SignedHeaders=host" caption="<InlineColor value='default'>Obsolescence</InlineColor>" />
 <br style="display:none;"/>
 <p><InlineColor value='default'>Although almost all penguin species are native to the Southern Hemisphere, they are not found only in cold climates, such as Antarctica. In fact, only a few species of penguin actually live so far south. Several species live in the temperate zone;</InlineColor></p>
 <br style="display:none;"/>
@@ -51,6 +54,10 @@ let curtainDrawn = false
 <TodoItem checked={true}>"<InlineColor value='default'>This is finished</InlineColor>"</TodoItem>
 <br style="display:none;"/>
 <TodoItem checked={false}>"<InlineColor value='default'>And one for good luck   &thinsp;</InlineColor>"</TodoItem>
+<br style="display:none;"/>
+<p>(<b>paragraph</b> has children)</p>
+<br style="display:none;"/>
+<p></p>
 <br style="display:none;"/>
 <p>(<b>toggle</b> has children)</p>
 <br style="display:none;"/>
@@ -76,12 +83,6 @@ child_page
 <br style="display:none;"/>
 <p><InlineColor value='default'>↑ empty block</InlineColor></p>
 <br style="display:none;"/>
-<p><InlineColor value='default'>↓ image block</InlineColor></p>
-<br style="display:none;"/>
-<Image url="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T105935Z&X-Amz-Expires=3600&X-Amz-Signature=3e4bf752df9da5c4b0792b29950c88dca4a0bef2a65b92d7085dbc404525f601&X-Amz-SignedHeaders=host" caption="<InlineColor value='default'>Aphid Caption</InlineColor>" />
-<br style="display:none;"/>
-<Image url="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T105935Z&X-Amz-Expires=3600&X-Amz-Signature=3e4bf752df9da5c4b0792b29950c88dca4a0bef2a65b92d7085dbc404525f601&X-Amz-SignedHeaders=host" caption="<InlineColor value='default'>I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first</InlineColor>" />
-<br style="display:none;"/>
 <h1><InlineColor value='default'>Synced Blocks</InlineColor></h1>
 <br style="display:none;"/>
 <h1><InlineColor value='default'>3 Columns</InlineColor></h1>
@@ -92,18 +93,18 @@ child_page
   <pre>{JSON.stringify([
   {
     "object": "block",
-    "id": "1aca2b38-169f-412f-93d6-81dd6b59b19b",
-    "created_time": "2021-09-20T10:05:00.000Z",
-    "last_edited_time": "2021-09-20T10:56:00.000Z",
+    "id": "6b5c0bda-d1ae-4fc2-b4b6-468d05d9f19c",
+    "created_time": "2021-09-20T23:34:00.000Z",
+    "last_edited_time": "2021-09-20T23:37:00.000Z",
     "has_children": false,
     "archived": false,
-    "type": "heading_1",
-    "heading_1": {
+    "type": "paragraph",
+    "paragraph": {
       "text": [
         {
           "type": "text",
           "text": {
-            "content": "A More (un?)",
+            "content": "*Except images. Until I work out how to extract images from their Amazon+Notion vault, they'll keep changing URLs every time ",
             "link": null
           },
           "annotations": {
@@ -114,13 +115,102 @@ child_page
             "code": false,
             "color": "default"
           },
-          "plain_text": "A More (un?)",
+          "plain_text": "*Except images. Until I work out how to extract images from their Amazon+Notion vault, they'll keep changing URLs every time ",
           "href": null
         },
         {
           "type": "text",
           "text": {
-            "content": "Realistic",
+            "content": "notion2svelte",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "notion2svelte",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " runs! That's slowing me down at the moment, so images will instead go here:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " runs! That's slowing me down at the moment, so images will instead go here:",
+          "href": null
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "b9d69a79-0544-4908-b449-cdba8550df08",
+    "created_time": "2021-09-20T23:35:00.000Z",
+    "last_edited_time": "2021-09-20T23:40:00.000Z",
+    "has_children": true,
+    "archived": false,
+    "type": "child_page",
+    "child_page": {
+      "title": "Images Sub-Page"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1aca2b38-169f-412f-93d6-81dd6b59b19b",
+    "created_time": "2021-09-20T10:05:00.000Z",
+    "last_edited_time": "2021-09-20T23:36:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "heading_1",
+    "heading_1": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Here's some paragraphs about some stuff",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Here's some paragraphs about some stuff",
+          "href": null
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "91f7d335-e78e-49f1-839d-d87809ab262f",
+    "created_time": "2021-09-20T23:36:00.000Z",
+    "last_edited_time": "2021-09-20T23:36:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "(Mostly penguins)",
             "link": null
           },
           "annotations": {
@@ -131,58 +221,7 @@ child_page
             "code": false,
             "color": "default"
           },
-          "plain_text": "Realistic",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "Test",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "red_background"
-          },
-          "plain_text": "Test",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " Case",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " Case",
+          "plain_text": "(Mostly penguins)",
           "href": null
         }
       ]
@@ -1003,41 +1042,6 @@ child_page
   },
   {
     "object": "block",
-    "id": "f3cee0d8-b99c-4bb0-8004-ebf84e83c165",
-    "created_time": "2021-09-20T10:05:00.000Z",
-    "last_edited_time": "2021-09-20T10:05:00.000Z",
-    "has_children": false,
-    "archived": false,
-    "type": "image",
-    "image": {
-      "caption": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Obsolescence",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Obsolescence",
-          "href": null
-        }
-      ],
-      "type": "file",
-      "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T105935Z&X-Amz-Expires=3600&X-Amz-Signature=bd982da66248518af9ac552ec74147ceaa87838c6931e4c5b950f2c171b71432&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-09-20T11:59:35.479Z"
-      }
-    }
-  },
-  {
-    "object": "block",
     "id": "debc298d-8fb5-4c7f-8a00-41d84d48ae5f",
     "created_time": "2021-09-20T10:05:00.000Z",
     "last_edited_time": "2021-09-20T10:05:00.000Z",
@@ -1369,6 +1373,48 @@ child_page
         }
       ],
       "checked": false
+    }
+  },
+  {
+    "object": "block",
+    "id": "dfd35b92-2351-44d7-a3c3-3ccf785db494",
+    "created_time": "2021-09-20T21:47:00.000Z",
+    "last_edited_time": "2021-09-20T21:48:00.000Z",
+    "has_children": true,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This simple text block has 3 children",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This simple text block has 3 children",
+          "href": null
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "597f34c5-8acc-45d0-88be-fd726b30161f",
+    "created_time": "2021-09-20T21:47:00.000Z",
+    "last_edited_time": "2021-09-20T21:48:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": []
     }
   },
   {
@@ -1828,106 +1874,6 @@ child_page
   },
   {
     "object": "block",
-    "id": "11f72f5f-7152-4eda-835b-0d6e2925efe8",
-    "created_time": "2021-09-20T10:05:00.000Z",
-    "last_edited_time": "2021-09-20T10:05:00.000Z",
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "↓ image block",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "↓ image block",
-          "href": null
-        }
-      ]
-    }
-  },
-  {
-    "object": "block",
-    "id": "e639ccd6-3a44-43cb-a020-b1bd52454a19",
-    "created_time": "2021-09-20T10:05:00.000Z",
-    "last_edited_time": "2021-09-20T10:05:00.000Z",
-    "has_children": false,
-    "archived": false,
-    "type": "image",
-    "image": {
-      "caption": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Aphid Caption",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Aphid Caption",
-          "href": null
-        }
-      ],
-      "type": "file",
-      "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T105935Z&X-Amz-Expires=3600&X-Amz-Signature=3e4bf752df9da5c4b0792b29950c88dca4a0bef2a65b92d7085dbc404525f601&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-09-20T11:59:35.483Z"
-      }
-    }
-  },
-  {
-    "object": "block",
-    "id": "b27dd7c2-235a-482a-af83-80595baeebae",
-    "created_time": "2021-09-20T10:05:00.000Z",
-    "last_edited_time": "2021-09-20T10:05:00.000Z",
-    "has_children": false,
-    "archived": false,
-    "type": "image",
-    "image": {
-      "caption": [
-        {
-          "type": "text",
-          "text": {
-            "content": "I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
-          "href": null
-        }
-      ],
-      "type": "file",
-      "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T105935Z&X-Amz-Expires=3600&X-Amz-Signature=3e4bf752df9da5c4b0792b29950c88dca4a0bef2a65b92d7085dbc404525f601&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-09-20T11:59:35.483Z"
-      }
-    }
-  },
-  {
-    "object": "block",
     "id": "43f48af4-5d47-445e-b676-acba023eadd7",
     "created_time": "2021-09-20T10:05:00.000Z",
     "last_edited_time": "2021-09-20T10:05:00.000Z",
@@ -2022,7 +1968,7 @@ child_page
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-09-20T10:56:00.000Z",
+  "last_edited_time": "2021-09-20T23:40:00.000Z",
   "cover": {
     "type": "external",
     "external": {
