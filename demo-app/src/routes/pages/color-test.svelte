@@ -22,7 +22,7 @@ let curtainDrawn = false
 <br style="display:none;"/>
 <h1><InlineColor value='default'>Color Test 4</InlineColor></h1>
 <br style="display:none;"/>
-<p></p>
+<div></div>
 <br style="display:none;"/>
 
 {:else }

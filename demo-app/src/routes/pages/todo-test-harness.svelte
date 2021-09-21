@@ -25,7 +25,7 @@ let curtainDrawn = false
 <br style="display:none;"/>
 <TodoItem checked={true}>"<InlineColor value='default'>Run&thinsp;</InlineColor><InlineColor value='default'><InlineCode>notion2svelte</InlineCode></InlineColor>"</TodoItem>
 <br style="display:none;"/>
-<p>(<b>paragraph</b> has children)</p>
+<div>(<b>paragraph</b> has children)</div>
 <br style="display:none;"/>
 <TodoItem checked={true}>"<InlineColor value='default'>Commit the resulting&thinsp;</InlineColor><InlineColor value='default'><InlineCode>.svelte</InlineCode></InlineColor><InlineColor value='default'>&thinsp;files</InlineColor>"</TodoItem>
 <br style="display:none;"/>
@@ -33,11 +33,11 @@ let curtainDrawn = false
 <br style="display:none;"/>
 <TodoItem checked={false}>"<InlineColor value='default'>Use the above approach to safely implement the next feature (child blocks) without fear of breaking existing features</InlineColor>"</TodoItem>
 <br style="display:none;"/>
-<p>(<b>to_do</b> has children)</p>
+<div>(<b>to_do</b> has children)</div>
 <br style="display:none;"/>
-<p></p>
+<div></div>
 <br style="display:none;"/>
-<p></p>
+<div></div>
 <br style="display:none;"/>
 <h3><InlineColor value='default'>De-prioritized:</InlineColor></h3>
 <br style="display:none;"/>

@@ -17,31 +17,31 @@ let curtainDrawn = false
 <Title>Test Page w/All* the Bells and Whistles 🎉</Title>
 
 {#if !curtainDrawn }
-  <p><InlineColor value='default'>*Except images. Until I work out how to extract images from their Amazon+Notion vault, they'll keep changing URLs every time&thinsp;</InlineColor><InlineColor value='default'><InlineCode>notion2svelte</InlineCode></InlineColor><InlineColor value='default'>&thinsp;runs! That's slowing me down at the moment, so images will instead go here:</InlineColor></p>
+  <div><InlineColor value='default'>*Except images. Until I work out how to extract images from their Amazon+Notion vault, they'll keep changing URLs every time&thinsp;</InlineColor><InlineColor value='default'><InlineCode>notion2svelte</InlineCode></InlineColor><InlineColor value='default'>&thinsp;runs! That's slowing me down at the moment, so images will instead go here:</InlineColor></div>
 <br style="display:none;"/>
-<p>(<b>child_page</b> has children)</p>
+<div>(<b>child_page</b> has children)</div>
 <br style="display:none;"/>
 <h1><InlineColor value='default'>Here's some paragraphs about some stuff</InlineColor></h1>
 <br style="display:none;"/>
-<p><InlineColor value='default'><em>(Mostly penguins)</em></InlineColor></p>
+<div><InlineColor value='default'><em>(Mostly penguins)</em></InlineColor></div>
 <br style="display:none;"/>
-<p><InlineColor value='default'>Link to another&thinsp;</InlineColor><a href="/816f31ee96514a398960841d33a9f2d4"><InlineColor value='default'>Notion page</InlineColor></a></p>
+<div><InlineColor value='default'>Link to another&thinsp;</InlineColor><a href="/816f31ee96514a398960841d33a9f2d4"><InlineColor value='default'>Notion page</InlineColor></a></div>
 <br style="display:none;"/>
-<p><InlineColor value='default'>Eventually, plain_text isn't going to cut it. It doesn't display&thinsp;</InlineColor><InlineColor value='default'><em>italics</em></InlineColor><InlineColor value='default'>,&thinsp;</InlineColor><InlineColor value='default'><strong>bold</strong></InlineColor><InlineColor value='default'>,&thinsp;</InlineColor><InlineColor value='default'><s>strikethrough</s></InlineColor><InlineColor value='default'>,&thinsp;</InlineColor><InlineColor value='default'><InlineCode>code</InlineCode></InlineColor><InlineColor value='default'>,&thinsp;</InlineColor><InlineColor value='red'><strong>c</strong></InlineColor><InlineColor value='orange'><strong>o</strong></InlineColor><InlineColor value='yellow'><strong>l</strong></InlineColor><InlineColor value='green'><strong>o</strong></InlineColor><InlineColor value='blue'><strong>r</strong></InlineColor><InlineColor value='purple'><strong>s</strong></InlineColor><InlineColor value='default'>, or, of course,&thinsp;</InlineColor><a href="https://ilovelife.com"><InlineColor value='default'>links</InlineColor></a><InlineColor value='default'>. (Let alone&thinsp;</InlineColor><InlineColor value='default'><em><strong>crazy</strong></em></InlineColor><InlineColor value='default'>&thinsp;</InlineColor><a href="http://navelgazer.club"><InlineColor value='purple'>co</InlineColor></a><a href="http://navelgazer.club"><InlineColor value='green_background'><em>m</em></InlineColor></a><a href="http://navelgazer.club"><InlineColor value='purple'>b</InlineColor></a><a href="http://navelgazer.club"><InlineColor value='purple'><strong>i</strong></InlineColor></a><a href="http://navelgazer.club"><InlineColor value='default'><strong>na</strong></InlineColor></a><a href="http://navelgazer.club"><InlineColor value='orange_background'><strong>ti</strong></InlineColor></a><a href="http://navelgazer.club"><InlineColor value='orange_background'>o</InlineColor></a><a href="http://navelgazer.club"><InlineColor value='default'>ns</InlineColor></a><InlineColor value='default'>&thinsp;of these.) Eventually, there's no reason to think&thinsp;</InlineColor><InlineColor value='default'><InlineCode>notion2svelte</InlineCode></InlineColor><InlineColor value='default'>&thinsp;couldn't also handle inline & block latex, and, well, anything Notion cares to expose!</InlineColor></p>
+<div><InlineColor value='default'>Eventually, plain_text isn't going to cut it. It doesn't display&thinsp;</InlineColor><InlineColor value='default'><em>italics</em></InlineColor><InlineColor value='default'>,&thinsp;</InlineColor><InlineColor value='default'><strong>bold</strong></InlineColor><InlineColor value='default'>,&thinsp;</InlineColor><InlineColor value='default'><s>strikethrough</s></InlineColor><InlineColor value='default'>,&thinsp;</InlineColor><InlineColor value='default'><InlineCode>code</InlineCode></InlineColor><InlineColor value='default'>,&thinsp;</InlineColor><InlineColor value='red'><strong>c</strong></InlineColor><InlineColor value='orange'><strong>o</strong></InlineColor><InlineColor value='yellow'><strong>l</strong></InlineColor><InlineColor value='green'><strong>o</strong></InlineColor><InlineColor value='blue'><strong>r</strong></InlineColor><InlineColor value='purple'><strong>s</strong></InlineColor><InlineColor value='default'>, or, of course,&thinsp;</InlineColor><a href="https://ilovelife.com"><InlineColor value='default'>links</InlineColor></a><InlineColor value='default'>. (Let alone&thinsp;</InlineColor><InlineColor value='default'><em><strong>crazy</strong></em></InlineColor><InlineColor value='default'>&thinsp;</InlineColor><a href="http://navelgazer.club"><InlineColor value='purple'>co</InlineColor></a><a href="http://navelgazer.club"><InlineColor value='green_background'><em>m</em></InlineColor></a><a href="http://navelgazer.club"><InlineColor value='purple'>b</InlineColor></a><a href="http://navelgazer.club"><InlineColor value='purple'><strong>i</strong></InlineColor></a><a href="http://navelgazer.club"><InlineColor value='default'><strong>na</strong></InlineColor></a><a href="http://navelgazer.club"><InlineColor value='orange_background'><strong>ti</strong></InlineColor></a><a href="http://navelgazer.club"><InlineColor value='orange_background'>o</InlineColor></a><a href="http://navelgazer.club"><InlineColor value='default'>ns</InlineColor></a><InlineColor value='default'>&thinsp;of these.) Eventually, there's no reason to think&thinsp;</InlineColor><InlineColor value='default'><InlineCode>notion2svelte</InlineCode></InlineColor><InlineColor value='default'>&thinsp;couldn't also handle inline & block latex, and, well, anything Notion cares to expose!</InlineColor></div>
 <br style="display:none;"/>
-<p><InlineColor value='default'>Perhaps one in 50,000 penguins (of most species) are born with brown rather than black plumage. These are called&thinsp;</InlineColor><InlineColor value='red_background'>isabelline penguins. Isabellinism is different from albinism. Isabelline penguins tend to live shorter lives than</InlineColor><InlineColor value='default'>&thinsp;normal</InlineColor><InlineColor value='yellow_background'>&thinsp;penguins, as they are</InlineColor><InlineColor value='default'>&thinsp;not well-</InlineColor><InlineColor value='green'>camouflaged</InlineColor><InlineColor value='default'>&thinsp;against the deep and are often passed over as mates.</InlineColor></p>
+<div><InlineColor value='default'>Perhaps one in 50,000 penguins (of most species) are born with brown rather than black plumage. These are called&thinsp;</InlineColor><InlineColor value='red_background'>isabelline penguins. Isabellinism is different from albinism. Isabelline penguins tend to live shorter lives than</InlineColor><InlineColor value='default'>&thinsp;normal</InlineColor><InlineColor value='yellow_background'>&thinsp;penguins, as they are</InlineColor><InlineColor value='default'>&thinsp;not well-</InlineColor><InlineColor value='green'>camouflaged</InlineColor><InlineColor value='default'>&thinsp;against the deep and are often passed over as mates.</InlineColor></div>
 <br style="display:none;"/>
-<p><InlineColor value='default'>In addition to formatted text and links, we can also expect plenty of&thinsp;</InlineColor><InlineColor value='red_background'>embedded</InlineColor><InlineColor value='default'>&thinsp;images, and (maybe) other media types. For now, images w/out sizing and alt=caption is good enough to be getting on.</InlineColor></p>
+<div><InlineColor value='default'>In addition to formatted text and links, we can also expect plenty of&thinsp;</InlineColor><InlineColor value='red_background'>embedded</InlineColor><InlineColor value='default'>&thinsp;images, and (maybe) other media types. For now, images w/out sizing and alt=caption is good enough to be getting on.</InlineColor></div>
 <br style="display:none;"/>
-<p><InlineColor value='default'>Although almost all penguin species are native to the Southern Hemisphere, they are not found only in cold climates, such as Antarctica. In fact, only a few species of penguin actually live so far south. Several species live in the temperate zone;</InlineColor></p>
+<div><InlineColor value='default'>Although almost all penguin species are native to the Southern Hemisphere, they are not found only in cold climates, such as Antarctica. In fact, only a few species of penguin actually live so far south. Several species live in the temperate zone;</InlineColor></div>
 <br style="display:none;"/>
-<p><InlineColor value='default'>Several authors have suggested that penguins are a good example of Bergmann's Rule</InlineColor></p>
+<div><InlineColor value='default'>Several authors have suggested that penguins are a good example of Bergmann's Rule</InlineColor></div>
 <br style="display:none;"/>
-<p><InlineColor value='default'>Major populations of penguins are found in Angola, Antarctica, Argentina, Australia, Chile, Namibia, New Zealand, and South Africa.</InlineColor></p>
+<div><InlineColor value='default'>Major populations of penguins are found in Angola, Antarctica, Argentina, Australia, Chile, Namibia, New Zealand, and South Africa.</InlineColor></div>
 <br style="display:none;"/>
-<p><InlineColor value='default'>Penguins for the most part breed in large colonies, the exceptions being the yellow-eyed and Fiordland species; these colonies may range in size from as few as 100 pairs for gentoo penguins to several hundred thousand in the case of king, macaroni and chinstrap penguins.</InlineColor></p>
+<div><InlineColor value='default'>Penguins for the most part breed in large colonies, the exceptions being the yellow-eyed and Fiordland species; these colonies may range in size from as few as 100 pairs for gentoo penguins to several hundred thousand in the case of king, macaroni and chinstrap penguins.</InlineColor></div>
 <br style="display:none;"/>
-<p></p>
+<div></div>
 <br style="display:none;"/>
 <h1><InlineColor value='default'>This is a header size 1</InlineColor></h1>
 <br style="display:none;"/>
@@ -55,17 +55,17 @@ let curtainDrawn = false
 <br style="display:none;"/>
 <TodoItem checked={false}>"<InlineColor value='default'>And one for good luck   &thinsp;</InlineColor>"</TodoItem>
 <br style="display:none;"/>
-<p>(<b>paragraph</b> has children)</p>
+<div>(<b>paragraph</b> has children)</div>
 <br style="display:none;"/>
-<p></p>
+<div></div>
 <br style="display:none;"/>
-<p>(<b>toggle</b> has children)</p>
+<div>(<b>toggle</b> has children)</div>
 <br style="display:none;"/>
 child_page
 <br style="display:none;"/>
 <BulletedListItem>"<InlineColor value='default'>This is a&thinsp;</InlineColor><InlineColor value='default'><InlineCode>bulleted_list_item</InlineCode></InlineColor>"</BulletedListItem>
 <br style="display:none;"/>
-<p>(<b>bulleted_list_item</b> has children)</p>
+<div>(<b>bulleted_list_item</b> has children)</div>
 <br style="display:none;"/>
 <NumberedListItem>"<InlineColor value='default'>This is a&thinsp;</InlineColor><InlineColor value='default'><InlineCode>numbered_list_item</InlineCode></InlineColor>"</NumberedListItem>
 <br style="display:none;"/>
@@ -73,15 +73,15 @@ child_page
 <br style="display:none;"/>
 <NumberedListItem>"<InlineColor value='default'>Good thing (because it's number 3</InlineColor>"</NumberedListItem>
 <br style="display:none;"/>
-<p><InlineColor value='default'>↑ Dividers are not supported :(</InlineColor></p>
+<div><InlineColor value='default'>↑ Dividers are not supported :(</InlineColor></div>
 <br style="display:none;"/>
-<p><InlineColor value='default'>↑ Whole-block page links are also, I believe, not supported :(</InlineColor></p>
+<div><InlineColor value='default'>↑ Whole-block page links are also, I believe, not supported :(</InlineColor></div>
 <br style="display:none;"/>
-<p><InlineColor value='default'>Would be cool for&thinsp;</InlineColor><InlineColor value='default'><InlineCode>ouroboros</InlineCode></InlineColor><InlineColor value='default'>&thinsp;to support latex —&thinsp;</InlineColor>⟣<InlineCode><InlineColor value='default'>E = mc^2</InlineColor></InlineCode>⟢<InlineColor value='default'>&thinsp;— and whatnot</InlineColor></p>
+<div><InlineColor value='default'>Would be cool for&thinsp;</InlineColor><InlineColor value='default'><InlineCode>ouroboros</InlineCode></InlineColor><InlineColor value='default'>&thinsp;to support latex —&thinsp;</InlineColor>⟣<InlineCode><InlineColor value='default'>E = mc^2</InlineColor></InlineCode>⟢<InlineColor value='default'>&thinsp;— and whatnot</InlineColor></div>
 <br style="display:none;"/>
-<p></p>
+<div></div>
 <br style="display:none;"/>
-<p><InlineColor value='default'>↑ empty block</InlineColor></p>
+<div><InlineColor value='default'>↑ empty block</InlineColor></div>
 <br style="display:none;"/>
 <h1><InlineColor value='default'>Synced Blocks</InlineColor></h1>
 <br style="display:none;"/>
