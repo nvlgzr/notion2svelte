@@ -14,7 +14,6 @@ async function go() {
   const pages = await fetchAllPages()
   for (let page of pages) {
     const titleText = plain(pageTitle(page))
-    const path = join(resolveTilde(out), slug(page) + '.svelte')
     const title = + h.title(titleText);
     let scriptChunks = new Set([
       'import Title from "$lib/notion2svelte/Title.svelte"',
@@ -68,10 +67,11 @@ ${Array.from(scriptChunks).join('\n')}
 
     const contents = h.headTitle(titleText) + script + html
 
+    const path = join(resolveTilde(out), slug(page) + '.svelte')
     fs.writeFile(path, contents, (err) => {
       if (err) throw err;
 
-      log(`Page saved to ${path}`, `${new Date()}`, { emoji: '\n⇓ ', delimiter: '⇓\n\n' });
+      log(`︽ Page saved to ${path}`, `${new Date()}`, { emoji: '\n⇓ ', delimiter: '⇓\n\n' });
     })
   }
 }
