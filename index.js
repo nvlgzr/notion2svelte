@@ -8,7 +8,6 @@ import h from './lib/sveltifier.js'
 import env from './env.js'
 
 const out = env.OUTPUT_PATH;
-const styles = fs.readFileSync('./styles.css', { encoding: 'utf8' })
 
 async function go() {
   const pages = await fetchAllPages()
