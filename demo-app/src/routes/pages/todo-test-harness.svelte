@@ -33,10 +33,6 @@ let curtainDrawn = false
 <br style="display:none;"/>
 <TodoItem checked={false}>"<InlineColor value='default'>Use the above approach to safely implement the next feature (child blocks) without fear of breaking existing features</InlineColor>"</TodoItem>
 <br style="display:none;"/>
-<p></p>
-<br style="display:none;"/>
-<p><InlineColor value='default'>Next:</InlineColor></p>
-<br style="display:none;"/>
 <p>(<b>to_do</b> has children)</p>
 <br style="display:none;"/>
 <p></p>
@@ -565,7 +561,7 @@ let curtainDrawn = false
     "object": "block",
     "id": "f85e5a8d-c0c8-439b-8d9b-2152675428e8",
     "created_time": "2021-09-20T10:17:00.000Z",
-    "last_edited_time": "2021-09-20T10:18:00.000Z",
+    "last_edited_time": "2021-09-20T21:45:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "to_do",
@@ -594,51 +590,9 @@ let curtainDrawn = false
   },
   {
     "object": "block",
-    "id": "0e0aef84-76d6-4db1-840e-f62d29bb1390",
-    "created_time": "2021-09-20T10:18:00.000Z",
-    "last_edited_time": "2021-09-20T10:18:00.000Z",
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "text": []
-    }
-  },
-  {
-    "object": "block",
-    "id": "29c6a765-1263-4adc-a19c-668b696588c1",
-    "created_time": "2021-09-20T10:18:00.000Z",
-    "last_edited_time": "2021-09-20T10:18:00.000Z",
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Next:",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Next:",
-          "href": null
-        }
-      ]
-    }
-  },
-  {
-    "object": "block",
     "id": "e68022a3-3db5-4b04-87e8-181f9604998e",
     "created_time": "2021-09-20T09:46:00.000Z",
-    "last_edited_time": "2021-09-20T10:18:00.000Z",
+    "last_edited_time": "2021-09-20T21:45:00.000Z",
     "has_children": true,
     "archived": false,
     "type": "to_do",
@@ -647,7 +601,7 @@ let curtainDrawn = false
         {
           "type": "text",
           "text": {
-            "content": "Child blocks",
+            "content": "Next up: child blocks! 🧒🏽",
             "link": null
           },
           "annotations": {
@@ -658,7 +612,7 @@ let curtainDrawn = false
             "code": false,
             "color": "default"
           },
-          "plain_text": "Child blocks",
+          "plain_text": "Next up: child blocks! 🧒🏽",
           "href": null
         }
       ],
@@ -828,7 +782,7 @@ let curtainDrawn = false
   "object": "page",
   "id": "816f31ee-9651-4a39-8960-841d33a9f2d4",
   "created_time": "2021-09-19T06:41:00.000Z",
-  "last_edited_time": "2021-09-20T10:59:00.000Z",
+  "last_edited_time": "2021-09-21T22:59:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
