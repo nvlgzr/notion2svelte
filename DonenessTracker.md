@@ -13,8 +13,8 @@ status: in progress, render: true
 # 🐝 Tasks/Ideas
 
 - Add support for rendering child blocks (e.g., indented):
-  - Update the test doc (or make a new one) with test scenarios
   - All Block types. The ones in bold have a `children` block representing indented blocks
+    Note: I'm going to start with just plain nested text blocks.
     - **paragraph**
     - heading_1
     - heading_2
