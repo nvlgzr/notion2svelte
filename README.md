@@ -5,3 +5,8 @@ When `notion2svelte` is ready, it will allow me to add a page to my Pages databa
 🤞
 
 (Note: to use `npm run magic`, firt install `entr`. On my Mac, this involved no more than `brew install entr`)
+
+## Current Progress:
+
+https://user-images.githubusercontent.com/88254481/134451893-499cf04e-4eb2-47f1-8b20-108872c2e369.mov
+
