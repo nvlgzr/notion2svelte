@@ -2,7 +2,7 @@ import log from './lib/log.js'
 
 import fs from 'fs'
 import { join } from 'path'
-import { fetchAllPages, fetchPageBlocks, plain, pageTitle, slug } from './lib/notion.js'
+import { fetchAllPages, slug } from './lib/notion.js'
 import { resolveTilde } from './lib/resolve-tilde.js'
 import h from './lib/sveltifier.js'
 import env from './env.js'
