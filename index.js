@@ -1,26 +1,34 @@
-import log from './lib/log.js'
-
-import fs from 'fs'
+import { promises as fs } from "fs";
 import { join } from 'path'
-import { fetchAllPages, slug } from './lib/notion.js'
+import { fetchAllPages, fetchFullPage } from './lib/notion.js'
 import { resolveTilde } from './lib/resolve-tilde.js'
-import h from './lib/sveltifier.js'
+import h, { slug } from './lib/sveltifier.js'
 import env from './env.js'
 
 const out = env.OUTPUT_PATH;
 
 async function go() {
-  const pages = await fetchAllPages()
+  let pages = [''];
+  let fake;
+  try {
+    const page = await fs.readFile("./nested-text.json", "utf-8")
+    fake = JSON.parse(page)
+  } catch (error) {
+    pages = await fetchAllPages()
+  }
 
   for (let page of pages) {
-    const contents = await h.renderPage(page)
+    if (fake) page = fake
     const path = join(resolveTilde(out), slug(page) + '.svelte')
+    const fullPage = fake ? fake : await fetchFullPage(page.id)
 
-    fs.writeFile(path, contents, (err) => {
-      if (err) throw err;
+    const jpath = join('./', slug(page) + '.json')
+    await fs.writeFile(jpath, JSON.stringify(fullPage, null, 2))
 
-      log(`︽ Page saved to ${path}`, `${new Date()}`, { emoji: '\n⇓ ', delimiter: '⇓\n\n' });
-    })
+    const contents = h.renderPage(fullPage)
+
+    await fs.writeFile(path, contents)
+    console.log('⚘ FIN ⚘')
   }
 }
 
