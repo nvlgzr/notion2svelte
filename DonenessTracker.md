@@ -14,10 +14,11 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Pass svelte output through https://github.com/sveltejs/prettier-plugin-svelte
+- Replace hacky hard-coded `nested-text` "VCR" with something .ENV-configurable so that debugging _other_ pages can be less of a chore.
 
 # Icebox
 
+- Support Numbered Lists
 - Add password-based Admin mode with links back to Notion pages
   - MVP: security through obscurity -> type secret into the void to magically toggle
   - Later: Add actual Auth^2, but still with no affordances

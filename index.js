@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 import { join } from 'path'
+import { exec } from 'child_process'
 import { fetchAllPages, fetchFullPage } from './lib/notion.js'
 import { resolveTilde } from './lib/resolve-tilde.js'
 import h, { slug } from './lib/sveltifier.js'
@@ -28,7 +29,20 @@ async function go() {
     const contents = h.renderPage(fullPage)
 
     await fs.writeFile(path, contents)
-    console.log('⚘ FIN ⚘')
+
+    exec(
+      `prettier --write ${path}`,
+      (error, stdout, stderr) => {
+        if (error) {
+          console.log(`error: ${error.message}`);
+          return;
+        }
+        if (stderr) {
+          console.log(`stderr: ${stderr}`);
+          return;
+        }
+        console.log(`⚘ ${stdout.trim()} ⚘`);
+      });
   }
 }
 

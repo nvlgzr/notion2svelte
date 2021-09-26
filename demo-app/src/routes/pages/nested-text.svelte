@@ -1,236 +1,147 @@
-<svelte:head>
-  <title>Nested Text</title>
-</svelte:head><script>
-  import BulletedListItem from "$lib/notion2svelte/BulletedListItem.svelte"
-  import Image from "$lib/notion2svelte/Image.svelte"
-  import IndentGroup from "$lib/notion2svelte/IndentGroup.svelte"
-  import InlineCode from "$lib/notion2svelte/InlineCode.svelte"
-  import InlineColor from "$lib/notion2svelte/InlineColor.svelte"
-  import NumberedListItem from "$lib/notion2svelte/NumberedListItem.svelte"
-  import Title from "$lib/notion2svelte/Title.svelte"
-  import TodoItem from "$lib/notion2svelte/TodoItem.svelte"
-  import Toggle from "$lib/notion2svelte/Toggle.svelte"
+<script>
+	import BulletedListItem from '$lib/notion2svelte/BulletedListItem.svelte';
+	import Image from '$lib/notion2svelte/Image.svelte';
+	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
+	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
+	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
+	import NumberedListItem from '$lib/notion2svelte/NumberedListItem.svelte';
+	import Title from '$lib/notion2svelte/Title.svelte';
+	import TodoItem from '$lib/notion2svelte/TodoItem.svelte';
+	import Toggle from '$lib/notion2svelte/Toggle.svelte';
 
-  let curtainDrawn = false
+	let curtainDrawn = false;
 </script>
-  <Title>Nested Text</Title>
 
+<svelte:head>
+	<title>Nested Text</title>
+</svelte:head><Title>Nested Text</Title>
 
+<button on:click={() => (curtainDrawn = !curtainDrawn)}
+	>𒅒 Brought to you by undefined undefined 𒅒</button
+>
 
-  <button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by undefined undefined 𒅒</button>
+{#if !curtainDrawn}
+	<div>A childless block</div>
 
-{#if !curtainDrawn }
-  <div>
-A childless block
-</div>
+	<br style="display:none;" />
+	<div>A root block</div>
+	<IndentGroup>
+		<Toggle
+			>Indented Toggle 1
+			<span slot="children"
+				><Toggle
+					>Indented Toggle 2
+					<span slot="children"
+						><div>Toggle content</div>
+						<Toggle
+							>Inented Toggle 3 (empty)
+							<span slot="children" /></Toggle
+						></span
+					></Toggle
+				>
+				<div>Toggle content</div>
+			</span></Toggle
+		><TodoItem checked={false}>"Child block: Indent Level 1"</TodoItem>
+		<IndentGroup>
+			<BulletedListItem>"Child block: Indent Level 2"</BulletedListItem>
+		</IndentGroup>
+		child_page
+	</IndentGroup>
 
-<br style="display:none;"/>
-<div>
-A root block
-</div>
-<IndentGroup>
-  <Toggle>Indented Toggle 1
-<span slot="children"><Toggle>Indented Toggle 2
-<span slot="children"><div>
-Toggle content
-</div>
-<Toggle>Inented Toggle 3 (empty)
-<span slot="children"></span></Toggle></span></Toggle><div>
-Toggle content
-</div>
-</span></Toggle><TodoItem checked={false}>"Child block: Indent Level 1"</TodoItem>
-<IndentGroup>
-  <BulletedListItem>"Child block: Indent Level 2"</BulletedListItem>
+	<br style="display:none;" />
+	<div />
 
-</IndentGroup>
-child_page
-</IndentGroup>
+	<br style="display:none;" />
+	<div>Root</div>
+	<IndentGroup>
+		<h1>Indented H1</h1>
+		<h2>Indented H2</h2>
+		<h3>Indented H3</h3>
+		<div>Indent Level One</div>
+		<IndentGroup>
+			<div>Indent Level Two</div>
+			<IndentGroup>
+				<div>Indent Level Three</div>
+				<IndentGroup>
+					<div>Indent Level Four</div>
+					<IndentGroup>
+						<div>Indent Level Five</div>
+						<IndentGroup>
+							<div>Indent Level Six</div>
+							<IndentGroup>
+								<div>Indent Level Seven</div>
+								<IndentGroup>
+									<div>Indent Level Eight</div>
+									<IndentGroup>
+										<div>Indent Level Nine</div>
+										<IndentGroup>
+											<div>Indent Level Ten</div>
+											<IndentGroup>
+												<div>Indent Level Eleven</div>
+												<IndentGroup>
+													<div>Indent Level Twelve</div>
+													<IndentGroup>
+														<div>Indent Level Thirteen</div>
+														<IndentGroup>
+															<div>Indent Level Fourteen</div>
+															<IndentGroup>
+																<div>Indent Level Fifteen</div>
+																<IndentGroup>
+																	<div>Indent Level Sixteen</div>
+																	<IndentGroup>
+																		<div>Indent Level Seventeen</div>
+																		<IndentGroup>
+																			<div>Indent Level Eighteen</div>
+																			<IndentGroup>
+																				<div>Indent Level Nineteen</div>
+																				<IndentGroup>
+																					<div>Indent Level Twenty</div>
+																				</IndentGroup>
+																			</IndentGroup>
+																		</IndentGroup>
+																	</IndentGroup>
+																</IndentGroup>
+															</IndentGroup>
+														</IndentGroup>
+													</IndentGroup>
+												</IndentGroup>
+											</IndentGroup>
+										</IndentGroup>
+									</IndentGroup>
+								</IndentGroup>
+							</IndentGroup>
+						</IndentGroup>
+					</IndentGroup>
+				</IndentGroup>
+			</IndentGroup>
+		</IndentGroup>
+		<div>Indent Level One (#2)</div>
+		<div>Indent Level One (#3)</div>
+	</IndentGroup>
 
-<br style="display:none;"/>
-<div>
+	<br style="display:none;" />
+	<div>Other Root</div>
+	<IndentGroup>
+		<div>1</div>
+		<IndentGroup>
+			<div>1.1</div>
+		</IndentGroup>
+		<div>2</div>
+		<div>3</div>
+		<IndentGroup>
+			<div>3.1</div>
+			<IndentGroup>
+				<div>3.1.1</div>
+			</IndentGroup>
+			<div>3.2</div>
+		</IndentGroup>
+		<div>4</div>
+	</IndentGroup>
 
-</div>
-
-<br style="display:none;"/>
-<div>
-Root
-</div>
-<IndentGroup>
-  <h1>Indented H1</h1>
-<h2>Indented H2</h2>
-<h3>Indented H3</h3>
-<div>
-Indent Level One
-</div>
-<IndentGroup>
-  <div>
-Indent Level Two
-</div>
-<IndentGroup>
-  <div>
-Indent Level Three
-</div>
-<IndentGroup>
-  <div>
-Indent Level Four
-</div>
-<IndentGroup>
-  <div>
-Indent Level Five
-</div>
-<IndentGroup>
-  <div>
-Indent Level Six
-</div>
-<IndentGroup>
-  <div>
-Indent Level Seven
-</div>
-<IndentGroup>
-  <div>
-Indent Level Eight
-</div>
-<IndentGroup>
-  <div>
-Indent Level Nine
-</div>
-<IndentGroup>
-  <div>
-Indent Level Ten
-</div>
-<IndentGroup>
-  <div>
-Indent Level Eleven
-</div>
-<IndentGroup>
-  <div>
-Indent Level Twelve
-</div>
-<IndentGroup>
-  <div>
-Indent Level Thirteen
-</div>
-<IndentGroup>
-  <div>
-Indent Level Fourteen
-</div>
-<IndentGroup>
-  <div>
-Indent Level Fifteen
-</div>
-<IndentGroup>
-  <div>
-Indent Level Sixteen
-</div>
-<IndentGroup>
-  <div>
-Indent Level Seventeen
-</div>
-<IndentGroup>
-  <div>
-Indent Level Eighteen
-</div>
-<IndentGroup>
-  <div>
-Indent Level Nineteen
-</div>
-<IndentGroup>
-  <div>
-Indent Level Twenty
-</div>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-
-</IndentGroup>
-<div>
-Indent Level One (#2)
-</div>
-<div>
-Indent Level One (#3)
-</div>
-
-</IndentGroup>
-
-<br style="display:none;"/>
-<div>
-Other Root
-</div>
-<IndentGroup>
-  <div>
-1
-</div>
-<IndentGroup>
-  <div>
-1.1
-</div>
-
-</IndentGroup>
-<div>
-2
-</div>
-<div>
-3
-</div>
-<IndentGroup>
-  <div>
-3.1
-</div>
-<IndentGroup>
-  <div>
-3.1.1
-</div>
-
-</IndentGroup>
-<div>
-3.2
-</div>
-
-</IndentGroup>
-<div>
-4
-</div>
-
-</IndentGroup>
-
-<br style="display:none;"/>
-
-{:else }
-  <h1>Blocks</h1>
-  <pre>{JSON.stringify([
+	<br style="display:none;" />
+{:else}
+	<h1>Blocks</h1>
+	<pre>{JSON.stringify([
   {
     "object": "block",
     "id": "5ba1ffd4-fa84-46cf-a70d-524b1dd808ed",
@@ -1633,8 +1544,8 @@ Other Root
     ]
   }
 ], null, 2)}</pre>
-  <h1>Page</h1>
-  <pre>{JSON.stringify({
+	<h1>Page</h1>
+	<pre>{JSON.stringify({
   "object": "page",
   "id": "ad21e02e-f808-44e5-94d6-5719dd58e27b",
   "created_time": "2021-09-21T03:33:00.000Z",
@@ -3109,4 +3020,3 @@ Other Root
   ]
 }, null, 2)}</pre>
 {/if}
-  
