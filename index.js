@@ -37,7 +37,7 @@ async function go() {
           console.log(`error: ${error.message}`);
           return;
         }
-        if (stderr) {
+        if (stderr && !stderr.includes('Debugger attached')) {
           console.log(`stderr: ${stderr}`);
           return;
         }
