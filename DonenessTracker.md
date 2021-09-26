@@ -8,12 +8,16 @@ status: in progress, render: true
 
 ## 🐞 Known Bugs
 
--
+- Numbered lists don't preserve numbering
+- Child pages render as lame text label
+- Soft carriage returns get stripped from final HTML
 
 # 🐝 Tasks/Ideas
 
-- Add functional Toggle component
 - Pass svelte output through https://github.com/sveltejs/prettier-plugin-svelte
+
+# Icebox
+
 - Add password-based Admin mode with links back to Notion pages
   - MVP: security through obscurity -> type secret into the void to magically toggle
   - Later: Add actual Auth^2, but still with no affordances
@@ -23,13 +27,10 @@ status: in progress, render: true
 - Add a Katex interpreter for `expression`s?
 - Experiment with having the script do a git commit after successfully saving. Here, I suspect, many monsters lurk, so probably the first working something will be pretty problematic
 - Mark the transformed page `4. Published` in Notion
-
-# Icebox
-
-- Side note: I think image embeds are going to be an issue pretty soon. Consider asking for help with this piece!!!
-- Publish to npm
-- Extract page processing from db access so that individual pages can be targeted for rapid exploration
-- Replace App.svelte with version that has the animated logo centered
+- Implement child_page blocks
+- Implement internal links
 - Duplicate barebones leveluptuts blog index page
+- Publish to npm
+- Side note: I think image embeds are going to be an issue pretty soon. Consider asking for help with this piece!!!
 - Add config for custom component names so that naming conflicts can be avoided.
 - Default to `prerender=true`?

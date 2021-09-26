@@ -1,134 +1,236 @@
-<script>
-	import BulletedListItem from '$lib/notion2svelte/BulletedListItem.svelte';
-	import Image from '$lib/notion2svelte/Image.svelte';
-	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
-	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
-	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
-	import NumberedListItem from '$lib/notion2svelte/NumberedListItem.svelte';
-	import Title from '$lib/notion2svelte/Title.svelte';
-	import TodoItem from '$lib/notion2svelte/TodoItem.svelte';
-
-	let curtainDrawn = false;
-</script>
-
 <svelte:head>
-	<title>Nested Text</title>
-</svelte:head><Title>Nested Text</Title>
+  <title>Nested Text</title>
+</svelte:head><script>
+  import BulletedListItem from "$lib/notion2svelte/BulletedListItem.svelte"
+  import Image from "$lib/notion2svelte/Image.svelte"
+  import IndentGroup from "$lib/notion2svelte/IndentGroup.svelte"
+  import InlineCode from "$lib/notion2svelte/InlineCode.svelte"
+  import InlineColor from "$lib/notion2svelte/InlineColor.svelte"
+  import NumberedListItem from "$lib/notion2svelte/NumberedListItem.svelte"
+  import Title from "$lib/notion2svelte/Title.svelte"
+  import TodoItem from "$lib/notion2svelte/TodoItem.svelte"
+  import Toggle from "$lib/notion2svelte/Toggle.svelte"
 
-<button on:click={() => (curtainDrawn = !curtainDrawn)}
-	>𒅒 Brought to you by undefined undefined 𒅒</button
->
+  let curtainDrawn = false
+</script>
+  <Title>Nested Text</Title>
 
-{#if !curtainDrawn}
-	<div>A childless block</div>
 
-	<br style="display:none;" />
-	<div>A root block</div>
-	<IndentGroup>
-		<TodoItem checked={false}>"Child block: Indent Level 1"</TodoItem>
-		<IndentGroup>
-			<BulletedListItem>"Child block: Indent Level 2"</BulletedListItem>
-		</IndentGroup>
-	</IndentGroup>
 
-	<br style="display:none;" />
-	<div />
+  <button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by undefined undefined 𒅒</button>
 
-	<br style="display:none;" />
-	<div>Root</div>
-	<IndentGroup>
-		<h1>Indented H1</h1>
-		<h2>Indented H2</h2>
-		<h3>Indented H3</h3>
-		<div>Indent Level One</div>
-		<IndentGroup>
-			<div>Indent Level Two</div>
-			<IndentGroup>
-				<div>Indent Level Three</div>
-				<IndentGroup>
-					<div>Indent Level Four</div>
-					<IndentGroup>
-						<div>Indent Level Five</div>
-						<IndentGroup>
-							toggle<IndentGroup>
-								<div>Toggle content</div>
-							</IndentGroup>
-							child_page
-							<div>Indent Level Six</div>
-							<IndentGroup>
-								<div>Indent Level Seven</div>
-								<IndentGroup>
-									<div>Indent Level Eight</div>
-									<IndentGroup>
-										<div>Indent Level Nine</div>
-										<IndentGroup>
-											<div>Indent Level Ten</div>
-											<IndentGroup>
-												<div>Indent Level Eleven</div>
-												<IndentGroup>
-													<div>Indent Level Twelve</div>
-													<IndentGroup>
-														<div>Indent Level Thirteen</div>
-														<IndentGroup>
-															<div>Indent Level Fourteen</div>
-															<IndentGroup>
-																<div>Indent Level Fifteen</div>
-																<IndentGroup>
-																	<div>Indent Level Sixteen</div>
-																	<IndentGroup>
-																		<div>Indent Level Seventeen</div>
-																		<IndentGroup>
-																			<div>Indent Level Eighteen</div>
-																			<IndentGroup>
-																				<div>Indent Level Nineteen</div>
-																				<IndentGroup>
-																					<div>Indent Level Twenty</div>
-																				</IndentGroup>
-																			</IndentGroup>
-																		</IndentGroup>
-																	</IndentGroup>
-																</IndentGroup>
-															</IndentGroup>
-														</IndentGroup>
-													</IndentGroup>
-												</IndentGroup>
-											</IndentGroup>
-										</IndentGroup>
-									</IndentGroup>
-								</IndentGroup>
-							</IndentGroup>
-						</IndentGroup>
-					</IndentGroup>
-				</IndentGroup>
-			</IndentGroup>
-		</IndentGroup>
-		<div>Indent Level One (#2)</div>
-		<div>Indent Level One (#3)</div>
-	</IndentGroup>
+{#if !curtainDrawn }
+  <div>
+A childless block
+</div>
 
-	<br style="display:none;" />
-	<div>Other Root</div>
-	<IndentGroup>
-		<div>1</div>
-		<IndentGroup>
-			<div>1.1</div>
-		</IndentGroup>
-		<div>2</div>
-		<div>3</div>
-		<IndentGroup>
-			<div>3.1</div>
-			<IndentGroup>
-				<div>3.1.1</div>
-			</IndentGroup>
-			<div>3.2</div>
-		</IndentGroup>
-		<div>4</div>
-	</IndentGroup>
+<br style="display:none;"/>
+<div>
+A root block
+</div>
+<IndentGroup>
+  <Toggle>Indented Toggle 1
+<span slot="children"><Toggle>Indented Toggle 2
+<span slot="children"><div>
+Toggle content
+</div>
+<Toggle>Inented Toggle 3 (empty)
+<span slot="children"></span></Toggle></span></Toggle><div>
+Toggle content
+</div>
+</span></Toggle><TodoItem checked={false}>"Child block: Indent Level 1"</TodoItem>
+<IndentGroup>
+  <BulletedListItem>"Child block: Indent Level 2"</BulletedListItem>
 
-	<br style="display:none;" />
-{:else}
-	<h1>Blocks</h1>
-	<pre>{JSON.stringify([
+</IndentGroup>
+child_page
+</IndentGroup>
+
+<br style="display:none;"/>
+<div>
+
+</div>
+
+<br style="display:none;"/>
+<div>
+Root
+</div>
+<IndentGroup>
+  <h1>Indented H1</h1>
+<h2>Indented H2</h2>
+<h3>Indented H3</h3>
+<div>
+Indent Level One
+</div>
+<IndentGroup>
+  <div>
+Indent Level Two
+</div>
+<IndentGroup>
+  <div>
+Indent Level Three
+</div>
+<IndentGroup>
+  <div>
+Indent Level Four
+</div>
+<IndentGroup>
+  <div>
+Indent Level Five
+</div>
+<IndentGroup>
+  <div>
+Indent Level Six
+</div>
+<IndentGroup>
+  <div>
+Indent Level Seven
+</div>
+<IndentGroup>
+  <div>
+Indent Level Eight
+</div>
+<IndentGroup>
+  <div>
+Indent Level Nine
+</div>
+<IndentGroup>
+  <div>
+Indent Level Ten
+</div>
+<IndentGroup>
+  <div>
+Indent Level Eleven
+</div>
+<IndentGroup>
+  <div>
+Indent Level Twelve
+</div>
+<IndentGroup>
+  <div>
+Indent Level Thirteen
+</div>
+<IndentGroup>
+  <div>
+Indent Level Fourteen
+</div>
+<IndentGroup>
+  <div>
+Indent Level Fifteen
+</div>
+<IndentGroup>
+  <div>
+Indent Level Sixteen
+</div>
+<IndentGroup>
+  <div>
+Indent Level Seventeen
+</div>
+<IndentGroup>
+  <div>
+Indent Level Eighteen
+</div>
+<IndentGroup>
+  <div>
+Indent Level Nineteen
+</div>
+<IndentGroup>
+  <div>
+Indent Level Twenty
+</div>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+<div>
+Indent Level One (#2)
+</div>
+<div>
+Indent Level One (#3)
+</div>
+
+</IndentGroup>
+
+<br style="display:none;"/>
+<div>
+Other Root
+</div>
+<IndentGroup>
+  <div>
+1
+</div>
+<IndentGroup>
+  <div>
+1.1
+</div>
+
+</IndentGroup>
+<div>
+2
+</div>
+<div>
+3
+</div>
+<IndentGroup>
+  <div>
+3.1
+</div>
+<IndentGroup>
+  <div>
+3.1.1
+</div>
+
+</IndentGroup>
+<div>
+3.2
+</div>
+
+</IndentGroup>
+<div>
+4
+</div>
+
+</IndentGroup>
+
+<br style="display:none;"/>
+
+{:else }
+  <h1>Blocks</h1>
+  <pre>{JSON.stringify([
   {
     "object": "block",
     "id": "5ba1ffd4-fa84-46cf-a70d-524b1dd808ed",
@@ -163,7 +265,7 @@
     "object": "block",
     "id": "d5d23e50-560a-44ee-8897-bf6b7687a796",
     "created_time": "2021-09-21T03:34:00.000Z",
-    "last_edited_time": "2021-09-26T02:04:00.000Z",
+    "last_edited_time": "2021-09-26T04:05:00.000Z",
     "has_children": true,
     "archived": false,
     "type": "paragraph",
@@ -191,9 +293,163 @@
     "blocks": [
       {
         "object": "block",
+        "id": "d86ababe-c1bc-4168-bf1f-e1efc9857087",
+        "created_time": "2021-09-26T02:08:00.000Z",
+        "last_edited_time": "2021-09-26T04:05:00.000Z",
+        "has_children": true,
+        "archived": false,
+        "type": "toggle",
+        "toggle": {
+          "text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Indented Toggle 1",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Indented Toggle 1",
+              "href": null
+            }
+          ]
+        },
+        "blocks": [
+          {
+            "object": "block",
+            "id": "3eb0e3bf-b83e-4d91-813e-024fde2660f2",
+            "created_time": "2021-09-26T04:05:00.000Z",
+            "last_edited_time": "2021-09-26T04:06:00.000Z",
+            "has_children": true,
+            "archived": false,
+            "type": "toggle",
+            "toggle": {
+              "text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "Indented Toggle 2",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "Indented Toggle 2",
+                  "href": null
+                }
+              ]
+            },
+            "blocks": [
+              {
+                "object": "block",
+                "id": "027547b0-ac19-4a54-bac7-1734a0fd88c4",
+                "created_time": "2021-09-26T04:05:00.000Z",
+                "last_edited_time": "2021-09-26T04:05:00.000Z",
+                "has_children": false,
+                "archived": false,
+                "type": "paragraph",
+                "paragraph": {
+                  "text": [
+                    {
+                      "type": "text",
+                      "text": {
+                        "content": "Toggle content",
+                        "link": null
+                      },
+                      "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                      },
+                      "plain_text": "Toggle content",
+                      "href": null
+                    }
+                  ]
+                }
+              },
+              {
+                "object": "block",
+                "id": "2b993123-d9bf-463e-8296-cb8171258222",
+                "created_time": "2021-09-26T03:15:00.000Z",
+                "last_edited_time": "2021-09-26T04:06:00.000Z",
+                "has_children": false,
+                "archived": false,
+                "type": "toggle",
+                "toggle": {
+                  "text": [
+                    {
+                      "type": "text",
+                      "text": {
+                        "content": "Inented Toggle 3 (empty)",
+                        "link": null
+                      },
+                      "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                      },
+                      "plain_text": "Inented Toggle 3 (empty)",
+                      "href": null
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "object": "block",
+            "id": "2c36cdb4-90d1-45c2-82a3-fcf9727b001b",
+            "created_time": "2021-09-26T02:08:00.000Z",
+            "last_edited_time": "2021-09-26T02:08:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+              "text": [
+                {
+                  "type": "text",
+                  "text": {
+                    "content": "Toggle content",
+                    "link": null
+                  },
+                  "annotations": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "underline": false,
+                    "code": false,
+                    "color": "default"
+                  },
+                  "plain_text": "Toggle content",
+                  "href": null
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "object": "block",
         "id": "41d54add-1c88-4a65-b5d1-ee2affa8c74b",
         "created_time": "2021-09-21T03:34:00.000Z",
-        "last_edited_time": "2021-09-26T02:04:00.000Z",
+        "last_edited_time": "2021-09-26T03:21:00.000Z",
         "has_children": true,
         "archived": false,
         "type": "to_do",
@@ -251,6 +507,18 @@
             }
           }
         ]
+      },
+      {
+        "object": "block",
+        "id": "c76d2af2-a7bc-4015-9a2e-cdb6fa6169d4",
+        "created_time": "2021-09-26T02:08:00.000Z",
+        "last_edited_time": "2021-09-26T03:21:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "type": "child_page",
+        "child_page": {
+          "title": "Indented Child Page"
+        }
       }
     ]
   },
@@ -420,7 +688,7 @@
             "object": "block",
             "id": "6b08fa1c-8af5-4ce2-903b-c402320a8fa7",
             "created_time": "2021-09-26T02:07:00.000Z",
-            "last_edited_time": "2021-09-26T02:07:00.000Z",
+            "last_edited_time": "2021-09-26T03:20:00.000Z",
             "has_children": true,
             "archived": false,
             "type": "paragraph",
@@ -450,7 +718,7 @@
                 "object": "block",
                 "id": "4fe3c05e-5ec9-4e03-9007-13a0117992a6",
                 "created_time": "2021-09-26T02:07:00.000Z",
-                "last_edited_time": "2021-09-26T02:07:00.000Z",
+                "last_edited_time": "2021-09-26T03:20:00.000Z",
                 "has_children": true,
                 "archived": false,
                 "type": "paragraph",
@@ -510,7 +778,7 @@
                         "object": "block",
                         "id": "11b42786-275d-41f5-b739-b0c9bad3ac6c",
                         "created_time": "2021-09-26T02:05:00.000Z",
-                        "last_edited_time": "2021-09-26T02:08:00.000Z",
+                        "last_edited_time": "2021-09-26T03:20:00.000Z",
                         "has_children": true,
                         "archived": false,
                         "type": "paragraph",
@@ -536,80 +804,6 @@
                           ]
                         },
                         "blocks": [
-                          {
-                            "object": "block",
-                            "id": "d86ababe-c1bc-4168-bf1f-e1efc9857087",
-                            "created_time": "2021-09-26T02:08:00.000Z",
-                            "last_edited_time": "2021-09-26T02:08:00.000Z",
-                            "has_children": true,
-                            "archived": false,
-                            "type": "toggle",
-                            "toggle": {
-                              "text": [
-                                {
-                                  "type": "text",
-                                  "text": {
-                                    "content": "Indented Toggle",
-                                    "link": null
-                                  },
-                                  "annotations": {
-                                    "bold": false,
-                                    "italic": false,
-                                    "strikethrough": false,
-                                    "underline": false,
-                                    "code": false,
-                                    "color": "default"
-                                  },
-                                  "plain_text": "Indented Toggle",
-                                  "href": null
-                                }
-                              ]
-                            },
-                            "blocks": [
-                              {
-                                "object": "block",
-                                "id": "2c36cdb4-90d1-45c2-82a3-fcf9727b001b",
-                                "created_time": "2021-09-26T02:08:00.000Z",
-                                "last_edited_time": "2021-09-26T02:08:00.000Z",
-                                "has_children": false,
-                                "archived": false,
-                                "type": "paragraph",
-                                "paragraph": {
-                                  "text": [
-                                    {
-                                      "type": "text",
-                                      "text": {
-                                        "content": "Toggle content",
-                                        "link": null
-                                      },
-                                      "annotations": {
-                                        "bold": false,
-                                        "italic": false,
-                                        "strikethrough": false,
-                                        "underline": false,
-                                        "code": false,
-                                        "color": "default"
-                                      },
-                                      "plain_text": "Toggle content",
-                                      "href": null
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          },
-                          {
-                            "object": "block",
-                            "id": "c76d2af2-a7bc-4015-9a2e-cdb6fa6169d4",
-                            "created_time": "2021-09-26T02:08:00.000Z",
-                            "last_edited_time": "2021-09-26T02:08:00.000Z",
-                            "has_children": false,
-                            "archived": false,
-                            "type": "child_page",
-                            "child_page": {
-                              "title": "Indented Child Page"
-                            }
-                          },
                           {
                             "object": "block",
                             "id": "d6bfcd35-113d-4709-9915-c3a8242d498d",
@@ -1439,12 +1633,12 @@
     ]
   }
 ], null, 2)}</pre>
-	<h1>Page</h1>
-	<pre>{JSON.stringify({
+  <h1>Page</h1>
+  <pre>{JSON.stringify({
   "object": "page",
   "id": "ad21e02e-f808-44e5-94d6-5719dd58e27b",
   "created_time": "2021-09-21T03:33:00.000Z",
-  "last_edited_time": "2021-09-26T02:08:00.000Z",
+  "last_edited_time": "2021-09-26T04:06:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -1545,7 +1739,7 @@
       "object": "block",
       "id": "d5d23e50-560a-44ee-8897-bf6b7687a796",
       "created_time": "2021-09-21T03:34:00.000Z",
-      "last_edited_time": "2021-09-26T02:04:00.000Z",
+      "last_edited_time": "2021-09-26T04:05:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "paragraph",
@@ -1573,9 +1767,163 @@
       "blocks": [
         {
           "object": "block",
+          "id": "d86ababe-c1bc-4168-bf1f-e1efc9857087",
+          "created_time": "2021-09-26T02:08:00.000Z",
+          "last_edited_time": "2021-09-26T04:05:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "toggle",
+          "toggle": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Indented Toggle 1",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Indented Toggle 1",
+                "href": null
+              }
+            ]
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "3eb0e3bf-b83e-4d91-813e-024fde2660f2",
+              "created_time": "2021-09-26T04:05:00.000Z",
+              "last_edited_time": "2021-09-26T04:06:00.000Z",
+              "has_children": true,
+              "archived": false,
+              "type": "toggle",
+              "toggle": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Indented Toggle 2",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Indented Toggle 2",
+                    "href": null
+                  }
+                ]
+              },
+              "blocks": [
+                {
+                  "object": "block",
+                  "id": "027547b0-ac19-4a54-bac7-1734a0fd88c4",
+                  "created_time": "2021-09-26T04:05:00.000Z",
+                  "last_edited_time": "2021-09-26T04:05:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "paragraph",
+                  "paragraph": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "Toggle content",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "Toggle content",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "2b993123-d9bf-463e-8296-cb8171258222",
+                  "created_time": "2021-09-26T03:15:00.000Z",
+                  "last_edited_time": "2021-09-26T04:06:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "toggle",
+                  "toggle": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "Inented Toggle 3 (empty)",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "Inented Toggle 3 (empty)",
+                        "href": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "object": "block",
+              "id": "2c36cdb4-90d1-45c2-82a3-fcf9727b001b",
+              "created_time": "2021-09-26T02:08:00.000Z",
+              "last_edited_time": "2021-09-26T02:08:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Toggle content",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Toggle content",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "object": "block",
           "id": "41d54add-1c88-4a65-b5d1-ee2affa8c74b",
           "created_time": "2021-09-21T03:34:00.000Z",
-          "last_edited_time": "2021-09-26T02:04:00.000Z",
+          "last_edited_time": "2021-09-26T03:21:00.000Z",
           "has_children": true,
           "archived": false,
           "type": "to_do",
@@ -1633,6 +1981,18 @@
               }
             }
           ]
+        },
+        {
+          "object": "block",
+          "id": "c76d2af2-a7bc-4015-9a2e-cdb6fa6169d4",
+          "created_time": "2021-09-26T02:08:00.000Z",
+          "last_edited_time": "2021-09-26T03:21:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "child_page",
+          "child_page": {
+            "title": "Indented Child Page"
+          }
         }
       ]
     },
@@ -1802,7 +2162,7 @@
               "object": "block",
               "id": "6b08fa1c-8af5-4ce2-903b-c402320a8fa7",
               "created_time": "2021-09-26T02:07:00.000Z",
-              "last_edited_time": "2021-09-26T02:07:00.000Z",
+              "last_edited_time": "2021-09-26T03:20:00.000Z",
               "has_children": true,
               "archived": false,
               "type": "paragraph",
@@ -1832,7 +2192,7 @@
                   "object": "block",
                   "id": "4fe3c05e-5ec9-4e03-9007-13a0117992a6",
                   "created_time": "2021-09-26T02:07:00.000Z",
-                  "last_edited_time": "2021-09-26T02:07:00.000Z",
+                  "last_edited_time": "2021-09-26T03:20:00.000Z",
                   "has_children": true,
                   "archived": false,
                   "type": "paragraph",
@@ -1892,7 +2252,7 @@
                           "object": "block",
                           "id": "11b42786-275d-41f5-b739-b0c9bad3ac6c",
                           "created_time": "2021-09-26T02:05:00.000Z",
-                          "last_edited_time": "2021-09-26T02:08:00.000Z",
+                          "last_edited_time": "2021-09-26T03:20:00.000Z",
                           "has_children": true,
                           "archived": false,
                           "type": "paragraph",
@@ -1918,80 +2278,6 @@
                             ]
                           },
                           "blocks": [
-                            {
-                              "object": "block",
-                              "id": "d86ababe-c1bc-4168-bf1f-e1efc9857087",
-                              "created_time": "2021-09-26T02:08:00.000Z",
-                              "last_edited_time": "2021-09-26T02:08:00.000Z",
-                              "has_children": true,
-                              "archived": false,
-                              "type": "toggle",
-                              "toggle": {
-                                "text": [
-                                  {
-                                    "type": "text",
-                                    "text": {
-                                      "content": "Indented Toggle",
-                                      "link": null
-                                    },
-                                    "annotations": {
-                                      "bold": false,
-                                      "italic": false,
-                                      "strikethrough": false,
-                                      "underline": false,
-                                      "code": false,
-                                      "color": "default"
-                                    },
-                                    "plain_text": "Indented Toggle",
-                                    "href": null
-                                  }
-                                ]
-                              },
-                              "blocks": [
-                                {
-                                  "object": "block",
-                                  "id": "2c36cdb4-90d1-45c2-82a3-fcf9727b001b",
-                                  "created_time": "2021-09-26T02:08:00.000Z",
-                                  "last_edited_time": "2021-09-26T02:08:00.000Z",
-                                  "has_children": false,
-                                  "archived": false,
-                                  "type": "paragraph",
-                                  "paragraph": {
-                                    "text": [
-                                      {
-                                        "type": "text",
-                                        "text": {
-                                          "content": "Toggle content",
-                                          "link": null
-                                        },
-                                        "annotations": {
-                                          "bold": false,
-                                          "italic": false,
-                                          "strikethrough": false,
-                                          "underline": false,
-                                          "code": false,
-                                          "color": "default"
-                                        },
-                                        "plain_text": "Toggle content",
-                                        "href": null
-                                      }
-                                    ]
-                                  }
-                                }
-                              ]
-                            },
-                            {
-                              "object": "block",
-                              "id": "c76d2af2-a7bc-4015-9a2e-cdb6fa6169d4",
-                              "created_time": "2021-09-26T02:08:00.000Z",
-                              "last_edited_time": "2021-09-26T02:08:00.000Z",
-                              "has_children": false,
-                              "archived": false,
-                              "type": "child_page",
-                              "child_page": {
-                                "title": "Indented Child Page"
-                              }
-                            },
                             {
                               "object": "block",
                               "id": "d6bfcd35-113d-4709-9915-c3a8242d498d",
@@ -2823,3 +3109,4 @@
   ]
 }, null, 2)}</pre>
 {/if}
+  
