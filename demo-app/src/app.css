@@ -59,12 +59,13 @@ div {
 	color: var(--heading-color);
 }
 
+h1,
+h2,
+h3,
 p,
 div {
 	line-height: 1.5;
-	margin: 0.25rem;
-	margin-top: 1px;
-	margin-bottom: 1px;
+	margin: 1px 0.25rem 1px 0;
 	min-height: 1rem;
 }
 
@@ -79,7 +80,6 @@ a:hover {
 
 h1 {
 	font-size: 3.5rem;
-	text-align: center;
 }
 
 h2 {

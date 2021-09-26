@@ -12,25 +12,7 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Add support for rendering child blocks (e.g., indented):
-  - All Block types. The ones in bold have a `children` block representing indented blocks
-    Note: I'm going to start with just plain nested text blocks.
-    - **paragraph**
-    - heading_1
-    - heading_2
-    - heading_3
-    - **bulleted_list_item**
-    - **numbered_list_item**
-    - **to_do**
-    - **toggle**
-    - **child_page**
-    - embed
-    - image
-    - video
-    - file
-    - pdf
-    - bookmark
-    - unsupported
+- Add functional Toggle component
 - Pass svelte output through https://github.com/sveltejs/prettier-plugin-svelte
 - Add password-based Admin mode with links back to Notion pages
   - MVP: security through obscurity -> type secret into the void to magically toggle
