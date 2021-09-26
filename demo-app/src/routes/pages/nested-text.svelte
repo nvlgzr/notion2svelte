@@ -1,23 +1,32 @@
 <svelte:head>
   <title>Nested Text</title>
-</svelte:head>
-<script>
-import Title from "$lib/notion2svelte/Title.svelte"
-import IndentGroup from "$lib/notion2svelte/IndentGroup.svelte"
-import InlineCode from "$lib/notion2svelte/InlineCode.svelte"
-import InlineColor from "$lib/notion2svelte/InlineColor.svelte"
+</svelte:head><script>
+  import BulletedListItem from "$lib/notion2svelte/BulletedListItem.svelte"
+  import Image from "$lib/notion2svelte/Image.svelte"
+  import IndentGroup from "$lib/notion2svelte/IndentGroup.svelte"
+  import InlineCode from "$lib/notion2svelte/InlineCode.svelte"
+  import InlineColor from "$lib/notion2svelte/InlineColor.svelte"
+  import NumberedListItem from "$lib/notion2svelte/NumberedListItem.svelte"
+  import Title from "$lib/notion2svelte/Title.svelte"
+  import TodoItem from "$lib/notion2svelte/TodoItem.svelte"
 
-
-let curtainDrawn = false
+  let curtainDrawn = false
 </script>
+  <Title>Nested Text</Title>
 
-<button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by undefined undefined 𒅒</button>
-<Title>Nested Text</Title>
+
+  <button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by undefined undefined 𒅒</button>
 
 {#if !curtainDrawn }
   <div><InlineColor value='default'>A childless block</InlineColor></div>
 <br style="display:none;"/>
-<IndentGroup><div><InlineColor value='default'>A root block</InlineColor></div>,<IndentGroup><div><InlineColor value='default'>Child block: Indent Level 1</InlineColor></div>,<div><InlineColor value='default'>Child block: Indent Level 2</InlineColor></div>,</IndentGroup>,</IndentGroup>
+<div><InlineColor value='default'>A root block</InlineColor></div><IndentGroup>
+  <TodoItem checked={false}>"<InlineColor value='default'>Child block: Indent Level 1</InlineColor>"</TodoItem><IndentGroup>
+  <BulletedListItem>"<InlineColor value='default'>Child block: Indent Level 2</InlineColor>"</BulletedListItem>
+</IndentGroup>
+
+</IndentGroup>
+
 <br style="display:none;"/>
 
 {:else }
@@ -87,11 +96,11 @@ let curtainDrawn = false
         "object": "block",
         "id": "41d54add-1c88-4a65-b5d1-ee2affa8c74b",
         "created_time": "2021-09-21T03:34:00.000Z",
-        "last_edited_time": "2021-09-25T09:14:00.000Z",
+        "last_edited_time": "2021-09-26T00:00:00.000Z",
         "has_children": true,
         "archived": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "to_do",
+        "to_do": {
           "text": [
             {
               "type": "text",
@@ -110,18 +119,19 @@ let curtainDrawn = false
               "plain_text": "Child block: Indent Level 1",
               "href": null
             }
-          ]
+          ],
+          "checked": false
         },
         "blocks": [
           {
             "object": "block",
             "id": "200253b9-b2d5-44cf-a81c-1a998d8c6d28",
             "created_time": "2021-09-21T03:34:00.000Z",
-            "last_edited_time": "2021-09-25T09:14:00.000Z",
+            "last_edited_time": "2021-09-26T00:00:00.000Z",
             "has_children": false,
             "archived": false,
-            "type": "paragraph",
-            "paragraph": {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
               "text": [
                 {
                   "type": "text",
@@ -153,7 +163,7 @@ let curtainDrawn = false
   "object": "page",
   "id": "ad21e02e-f808-44e5-94d6-5719dd58e27b",
   "created_time": "2021-09-21T03:33:00.000Z",
-  "last_edited_time": "2021-09-25T09:14:00.000Z",
+  "last_edited_time": "2021-09-26T00:00:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -284,11 +294,11 @@ let curtainDrawn = false
           "object": "block",
           "id": "41d54add-1c88-4a65-b5d1-ee2affa8c74b",
           "created_time": "2021-09-21T03:34:00.000Z",
-          "last_edited_time": "2021-09-25T09:14:00.000Z",
+          "last_edited_time": "2021-09-26T00:00:00.000Z",
           "has_children": true,
           "archived": false,
-          "type": "paragraph",
-          "paragraph": {
+          "type": "to_do",
+          "to_do": {
             "text": [
               {
                 "type": "text",
@@ -307,18 +317,19 @@ let curtainDrawn = false
                 "plain_text": "Child block: Indent Level 1",
                 "href": null
               }
-            ]
+            ],
+            "checked": false
           },
           "blocks": [
             {
               "object": "block",
               "id": "200253b9-b2d5-44cf-a81c-1a998d8c6d28",
               "created_time": "2021-09-21T03:34:00.000Z",
-              "last_edited_time": "2021-09-25T09:14:00.000Z",
+              "last_edited_time": "2021-09-26T00:00:00.000Z",
               "has_children": false,
               "archived": false,
-              "type": "paragraph",
-              "paragraph": {
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
                 "text": [
                   {
                     "type": "text",

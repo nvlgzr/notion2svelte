@@ -31,6 +31,7 @@ status: in progress, render: true
     - pdf
     - bookmark
     - unsupported
+- Pass svelte output through https://github.com/sveltejs/prettier-plugin-svelte
 - Add password-based Admin mode with links back to Notion pages
   - MVP: security through obscurity -> type secret into the void to magically toggle
   - Later: Add actual Auth^2, but still with no affordances
