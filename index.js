@@ -13,77 +13,7 @@ const cacheToken = env.CACHE_TOKEN
 
 async function go() {
   if (testPageId) {
-    console.log('🐞', testPageId)
-
-    const testPagePath = join(out, 'test.json')
-    let pageJSON = ''
-
-    try {
-      console.log(`0. Checking for existing test cache…`)
-      const cache = await fs.readFile(testPagePath, "utf-8")
-      console.log(`1. Cache found. Parsing.`)
-      pageJSON = JSON.parse(cache)
-    }
-    catch (e) {
-      // Usually just means the file's not there, which is expected
-      // behavior, e.g., on first run, so there's no point spamming
-      // the console.
-      // console.log(`💥🐛: ${e}`)
-    }
-
-    if (!pageJSON || testPageId !== cacheToken) {
-      try {
-        console.log(`1a. Cache empty or broken. Fetching fresh page data for #${testPageId}`)
-        pageJSON = await fetchFullPage(testPageId)
-      }
-      catch (e1) {
-        console.error('💥🙉 Abort! Abort!', e1, testPageId)
-        return
-      }
-
-      try {
-        console.log('1b. Writing to test cache.')
-        await fs.writeFile(testPagePath, JSON.stringify(pageJSON, null, 2))
-        exec(
-          `perl -pi.bak -e 's/CACHE_TOKEN=.*/CACHE_TOKEN=${testPageId}/g' .env; rm .env.bak`,
-          (error, stdout, stderr) => {
-            if (error) {
-              console.log(`error: ${error.message}`);
-              return;
-            }
-            if (stderr && !stderr.includes('Debugger attached')) {
-              console.log(`stderr: ${stderr}`);
-              return;
-            }
-            console.log(`⚘ ${stdout.trim()} ⚘`);
-          });
-      }
-      catch (e2) {
-        console.warn(`FYI: Unable to save cache to ${testPagePath}: ${e2}`)
-      }
-    }
-
-    let renderedPage = '';
-
-    try {
-      console.log(`2. Rendering data`)
-      renderedPage = h.renderPage(pageJSON)
-    }
-    catch (e3) {
-      console.log(`💥🐛 Mayday! Mayday!: ${pageJSON}`)
-      return
-    }
-
-    try {
-      const sveltePath = join(out, 'test.svelte')
-      console.log(`3. Writing rendered Svelte page to ${sveltePath}`)
-      await fs.writeFile(sveltePath, renderedPage)
-      console.log(`⟢ FIN ⟣\n`)
-    } catch (error) {
-      console.log(`⚰️ Dead at the finish line: ${error}`)
-      return
-    }
-
+    runTest()
   } else {
     console.log('🏭')
 
@@ -133,6 +63,77 @@ async function go() {
   }
 }
 
+async function runTest() {
+  console.log('🐞', testPageId)
 
+  const testPagePath = join(out, 'test.json')
+  let pageJSON = ''
+
+  try {
+    console.log(`0. Checking for existing test cache…`)
+    const cache = await fs.readFile(testPagePath, "utf-8")
+    console.log(`1. Cache found. Parsing.`)
+    pageJSON = JSON.parse(cache)
+  }
+  catch (e) {
+    // Usually just means the file's not there, which is expected
+    // behavior, e.g., on first run, so there's no point spamming
+    // the console.
+    // console.log(`💥🐛: ${e}`)
+  }
+
+  if (!pageJSON || testPageId !== cacheToken) {
+    try {
+      console.log(`1a. Cache empty or broken. Fetching fresh page data for #${testPageId}`)
+      pageJSON = await fetchFullPage(testPageId)
+    }
+    catch (e1) {
+      console.error('💥🙉 Abort! Abort!', e1, testPageId)
+      return
+    }
+
+    try {
+      console.log('1b. Writing to test cache.')
+      await fs.writeFile(testPagePath, JSON.stringify(pageJSON, null, 2))
+      exec(
+        `perl -pi.bak -e 's/CACHE_TOKEN=.*/CACHE_TOKEN=${testPageId}/g' .env; rm .env.bak`,
+        (error, stdout, stderr) => {
+          if (error) {
+            console.log(`error: ${error.message}`);
+            return;
+          }
+          if (stderr && !stderr.includes('Debugger attached')) {
+            console.log(`stderr: ${stderr}`);
+            return;
+          }
+          console.log(`⚘ ${stdout.trim()} ⚘`);
+        });
+    }
+    catch (e2) {
+      console.warn(`FYI: Unable to save cache to ${testPagePath}: ${e2}`)
+    }
+  }
+
+  let renderedPage = '';
+
+  try {
+    console.log(`2. Rendering data`)
+    renderedPage = h.renderPage(pageJSON)
+  }
+  catch (e3) {
+    console.log(`💥🐛 Mayday! Mayday!: ${pageJSON}`)
+    return
+  }
+
+  try {
+    const sveltePath = join(out, 'test.svelte')
+    console.log(`3. Writing rendered Svelte page to ${sveltePath}`)
+    await fs.writeFile(sveltePath, renderedPage)
+    console.log(`⟢ FIN ⟣\n`)
+  } catch (error) {
+    console.log(`⚰️ Dead at the finish line: ${error}`)
+    return
+  }
+}
 
 go()
