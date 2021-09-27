@@ -14,7 +14,10 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Download and embed images so that Amazon expiry timestamps don't break the site.
+- Mark the transformed page `4. Published` in Notion
+- Implement internal links
+- Implement child_page blocks (currently, notion2svelte is rendering sub-pages inline!)
+- Add config for custom component names so that naming conflicts can be avoided.
 
 # Icebox
 
@@ -22,13 +25,8 @@ status: in progress, render: true
 
 - Add a Katex interpreter for `expression`s?
 - Experiment with having the script do a git commit after successfully saving. Here, I suspect, many monsters lurk, so probably the first working something will be pretty problematic
-- Mark the transformed page `4. Published` in Notion
-- Implement child_page blocks
-- Implement internal links
 - Duplicate barebones leveluptuts blog index page
 - Publish to npm
-- Side note: I think image embeds are going to be an issue pretty soon. Consider asking for help with this piece!!!
-- Add config for custom component names so that naming conflicts can be avoided.
 - Default to `prerender=true`?
 - Add password-based Admin mode with links back to Notion pages
   - MVP: security through obscurity -> type secret into the void to magically toggle
