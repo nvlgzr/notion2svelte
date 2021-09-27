@@ -8,22 +8,17 @@ status: in progress, render: true
 
 ## 🐞 Known Bugs
 
-- Numbered lists don't preserve numbering
 - Child pages render as lame text label
 - Soft carriage returns get stripped from final HTML
 - the npm\_\* variables on the buttons have been rendering `undefined` for awhile now. Scrap or fix.
 
 # 🐝 Tasks/Ideas
 
-- Support Numbered Lists
+- Implement paging for 100+-block queries
 
 # Icebox
 
-- Add password-based Admin mode with links back to Notion pages
-  - MVP: security through obscurity -> type secret into the void to magically toggle
-  - Later: Add actual Auth^2, but still with no affordances
 - Choose a set of pages to release as the first version of the site, and test each one, fixing what are sure to be numerous issues, as they crop up. Note that this is (still) not about getting the layout and cosmetic design right. It's about ensuring that the functionality will work as hoped for, and also getting a feel for the sorts of future modifications I'm likely to want on this list! ↓
-- Improve support for numbered items (currently have no way to get the number shown in Notion, which means having to maintain a stateful count to show the right number which means a bit more careful thinking, architecturally.)
 - Download and embed images so that Amazon expiry timestamps don't break the site.
 - Add a Katex interpreter for `expression`s?
 - Experiment with having the script do a git commit after successfully saving. Here, I suspect, many monsters lurk, so probably the first working something will be pretty problematic
@@ -35,3 +30,6 @@ status: in progress, render: true
 - Side note: I think image embeds are going to be an issue pretty soon. Consider asking for help with this piece!!!
 - Add config for custom component names so that naming conflicts can be avoided.
 - Default to `prerender=true`?
+- Add password-based Admin mode with links back to Notion pages
+  - MVP: security through obscurity -> type secret into the void to magically toggle
+  - Later: Add actual Auth^2, but still with no affordances
