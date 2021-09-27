@@ -14,12 +14,12 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Implement paging for 100+-block queries
+- Download and embed images so that Amazon expiry timestamps don't break the site.
 
 # Icebox
 
 - Choose a set of pages to release as the first version of the site, and test each one, fixing what are sure to be numerous issues, as they crop up. Note that this is (still) not about getting the layout and cosmetic design right. It's about ensuring that the functionality will work as hoped for, and also getting a feel for the sorts of future modifications I'm likely to want on this list! ↓
-- Download and embed images so that Amazon expiry timestamps don't break the site.
+
 - Add a Katex interpreter for `expression`s?
 - Experiment with having the script do a git commit after successfully saving. Here, I suspect, many monsters lurk, so probably the first working something will be pretty problematic
 - Mark the transformed page `4. Published` in Notion
