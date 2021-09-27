@@ -11,14 +11,14 @@ status: in progress, render: true
 - Numbered lists don't preserve numbering
 - Child pages render as lame text label
 - Soft carriage returns get stripped from final HTML
+- the npm\_\* variables on the buttons have been rendering `undefined` for awhile now. Scrap or fix.
 
 # 🐝 Tasks/Ideas
 
-- Replace hacky hard-coded `nested-text` "VCR" with something .ENV-configurable so that debugging _other_ pages can be less of a chore.
+- Support Numbered Lists
 
 # Icebox
 
-- Support Numbered Lists
 - Add password-based Admin mode with links back to Notion pages
   - MVP: security through obscurity -> type secret into the void to magically toggle
   - Later: Add actual Auth^2, but still with no affordances
