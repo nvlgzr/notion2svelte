@@ -82,7 +82,7 @@ async function runTest() {
     // console.log(`💥🐛: ${e}`)
   }
 
-  if (!pageJSON || testPageId !== cacheToken) {
+  if (!pageJSON || testPageId !== cacheToken || env.FORCE_REFRESH) {
     try {
       console.log(`1a. Cache empty or broken. Fetching fresh page data for #${testPageId}`)
       pageJSON = await fetchFullPage(testPageId)
