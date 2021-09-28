@@ -11,56 +11,60 @@ const testPageId = env.NOTION_TEST_PAGE_ID
 const db = env.NOTION_DATABASE_ID;
 const cacheToken = env.CACHE_TOKEN
 
-async function go() {
+function go() {
   if (testPageId) {
     runTest()
   } else {
-    console.log('🏭')
-
-    let pages = [''];
-
-    try {
-      console.log(`1. Fetching publishable pages from Database #${db}`)
-      pages = await fetchAllPages(db)
-    }
-    catch (e1) {
-      console.error('💥🙉 Abort! Abort!', e1)
-      return
-    }
-
-    console.log(`2. Processing ${pages.length} ${pages.length === 1 ? 'page' : 'pages'}`)
-    for (let page of pages) {
-      console.log(` › Fetching #${page.id}`)
-      const path = join(out, slug(page) + '.svelte')
-      const fullPage = await fetchFullPage(page.id)
-
-      const jsonPath = join(out, slug(page) + '.json')
-      console.log(` › Writing JSON to ${jsonPath}`)
-      await fs.writeFile(jsonPath, JSON.stringify(fullPage, null, 2))
-
-      console.log(` › Rendering…`)
-      const contents = h.renderPage(fullPage)
-
-      console.log(` › Writing rendered page to #${path}`)
-      await fs.writeFile(path, contents)
-
-      console.log(` › Formatting file…`)
-      exec(
-        `prettier --write ${path}`,
-        (error, stdout, stderr) => {
-          if (error) {
-            console.log(`error: ${error.message}`);
-            return;
-          }
-          if (stderr && !stderr.includes('Debugger attached')) {
-            console.log(`stderr: ${stderr}`);
-            return;
-          }
-          console.log(`⚘ ${stdout.trim()} ⚘`);
-        });
-    }
-    console.log(`⟢ FIN ⟣\n`)
+    run()
   }
+}
+
+async function run() {
+  console.log('🏭')
+
+  let pages = [''];
+
+  try {
+    console.log(`1. Fetching publishable pages from Database #${db}`)
+    pages = await fetchAllPages(db)
+  }
+  catch (e1) {
+    console.error('💥🙉 Abort! Abort!', e1)
+    return
+  }
+
+  console.log(`2. Processing ${pages.length} ${pages.length === 1 ? 'page' : 'pages'}`)
+  for (let page of pages) {
+    console.log(` › Fetching #${page.id}`)
+    const path = join(out, slug(page) + '.svelte')
+    const fullPage = await fetchFullPage(page.id)
+
+    const jsonPath = join(out, slug(page) + '.json')
+    console.log(` › Writing JSON to ${jsonPath}`)
+    await fs.writeFile(jsonPath, JSON.stringify(fullPage, null, 2))
+
+    console.log(` › Rendering…`)
+    const contents = h.renderPage(fullPage)
+
+    console.log(` › Writing rendered page to #${path}`)
+    await fs.writeFile(path, contents)
+
+    console.log(` › Formatting file…`)
+    exec(
+      `prettier --write ${path}`,
+      (error, stdout, stderr) => {
+        if (error) {
+          console.log(`error: ${error.message}`);
+          return;
+        }
+        if (stderr && !stderr.includes('Debugger attached')) {
+          console.log(`stderr: ${stderr}`);
+          return;
+        }
+        console.log(`⚘ ${stdout.trim()} ⚘`);
+      });
+  }
+  console.log(`⟢ FIN ⟣\n`)
 }
 
 async function runTest() {
