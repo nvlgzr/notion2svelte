@@ -29,8 +29,8 @@ async function run() {
     console.log(`1. Fetching publishable pages from Database #${db}`)
     pages = await fetchAllPages(db)
   }
-  catch (e1) {
-    console.error('💥🙉 Abort! Abort!', e1)
+  catch (e) {
+    console.error('💥🙉 Abort! Abort!', e)
     return
   }
 
@@ -53,16 +53,16 @@ async function run() {
     console.log(` › Formatting file…`)
     exec(
       `prettier --write ${path}`,
-      (error, stdout, stderr) => {
-        if (error) {
-          console.log(`error: ${error.message}`);
+      (e, stdout, stderr) => {
+        if (e) {
+          console.log(` › error: ${e.message}`);
           return;
         }
         if (stderr && !stderr.includes('Debugger attached')) {
-          console.log(`stderr: ${stderr}`);
+          console.log(` › stderr: ${stderr}`);
           return;
         }
-        console.log(`⚘ ${stdout.trim()} ⚘`);
+        console.log(` › ${stdout.trim()}`);
       });
   }
   console.log(`⟢ FIN ⟣\n`)
@@ -92,8 +92,8 @@ async function runTest() {
       console.log(`1a. Cache empty or broken. Fetching fresh page data for #${testPageId}`)
       pageJSON = await fetchFullPage(testPageId)
     }
-    catch (e1) {
-      console.error('💥🙉 Abort! Abort!', e1, testPageId)
+    catch (e) {
+      console.error('💥🙉 Abort! Abort!', e, testPageId)
       return
     }
 
@@ -102,20 +102,20 @@ async function runTest() {
       await fs.writeFile(testPagePath, JSON.stringify(pageJSON, null, 2))
       exec(
         `perl -pi.bak -e 's/CACHE_TOKEN=.*/CACHE_TOKEN=${testPageId}/g' .env; rm .env.bak`,
-        (error, stdout, stderr) => {
-          if (error) {
-            console.log(`error: ${error.message}`);
+        (e, stdout, stderr) => {
+          if (e) {
+            console.log(`1b. error: ${e.message}`);
             return;
           }
-          if (stderr && !stderr.includes('Debugger attached')) {
-            console.log(`stderr: ${stderr}`);
+          if (stderr) {
+            console.log(`1b. stderr: ${stderr}`);
             return;
           }
-          console.log(`⚘ ${stdout.trim()} ⚘`);
+          console.log(`1b. ${stdout.trim()}`);
         });
     }
-    catch (e2) {
-      console.warn(`FYI: Unable to save cache to ${testPagePath}: ${e2}`)
+    catch (e) {
+      console.warn(`FYI: Unable to save cache to ${testPagePath}: ${e}`)
     }
   }
 
@@ -125,8 +125,8 @@ async function runTest() {
     console.log(`2. Rendering data`)
     renderedPage = h.renderPage(pageJSON)
   }
-  catch (e3) {
-    console.log(`💥🐛 Mayday! Mayday!: ${pageJSON}`)
+  catch (e) {
+    console.log(`💥🐛 Mayday! Mayday!:\n\n${e}\n\njson ↴\n${JSON.stringify(pageJSON)}\n\n`)
     return
   }
 
@@ -135,8 +135,8 @@ async function runTest() {
     console.log(`3. Writing rendered Svelte page to ${sveltePath}`)
     await fs.writeFile(sveltePath, renderedPage)
     console.log(`⟢ FIN ⟣\n`)
-  } catch (error) {
-    console.log(`⚰️ Dead at the finish line: ${error}`)
+  } catch (e) {
+    console.log(`⚰️ Dead at the finish line: ${e}`)
     return
   }
 }

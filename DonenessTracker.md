@@ -8,6 +8,8 @@ status: in progress, render: true
 
 ## 🐞 Known Bugs
 
+- Image captions with "richtext" annotations get clobbered by Svelte without @html.
+  -I want to fix this "securely" but don't think that's likely without more effort than I'm willing to put in right now This suggests that I"ll be making notion2svelte quite insecure by default, which means the README will need a massive opening Caveat.
 - Child pages render as lame text label
 - Soft carriage returns get stripped from final HTML
 - the npm\_\* variables on the buttons have been rendering `undefined` for awhile now. Scrap or fix.
@@ -23,6 +25,7 @@ status: in progress, render: true
 
 - Choose a set of pages to release as the first version of the site, and test each one, fixing what are sure to be numerous issues, as they crop up. Note that this is (still) not about getting the layout and cosmetic design right. It's about ensuring that the functionality will work as hoped for, and also getting a feel for the sorts of future modifications I'm likely to want on this list! ↓
 
+- Notion API Explorer: hover over a block to see its JSON.
 - Add a Katex interpreter for `expression`s?
 - Experiment with having the script do a git commit after successfully saving. Here, I suspect, many monsters lurk, so probably the first working something will be pretty problematic
 - Duplicate barebones leveluptuts blog index page
