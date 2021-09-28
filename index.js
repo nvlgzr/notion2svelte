@@ -6,10 +6,11 @@ import { resolveTilde } from './lib/resolve-tilde.js'
 import h, { slug } from './lib/sveltifier.js'
 import env from './env.js'
 
-const out = resolveTilde(env.OUTPUT_PATH);
+const out = resolveTilde(env.OUTPUT_PATH)
 const testPageId = env.NOTION_TEST_PAGE_ID
-const db = env.NOTION_DATABASE_ID;
+const db = env.NOTION_DATABASE_ID
 const cacheToken = env.CACHE_TOKEN
+const ignoreCache = env.FORCE_REFRESH
 
 function go() {
   if (testPageId) {
@@ -86,7 +87,7 @@ async function runTest() {
     // console.log(`💥🐛: ${e}`)
   }
 
-  if (!pageJSON || testPageId !== cacheToken || env.FORCE_REFRESH) {
+  if (!pageJSON || testPageId !== cacheToken || ignoreCache) {
     try {
       console.log(`1a. Cache empty or broken. Fetching fresh page data for #${testPageId}`)
       pageJSON = await fetchFullPage(testPageId)
