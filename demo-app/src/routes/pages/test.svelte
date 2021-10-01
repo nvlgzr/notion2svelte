@@ -17,10 +17,10 @@
 
 
 
-  <button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by undefined undefined 𒅒</button>
+  <button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by notion2svelte 1.0.0 𒅒</button>
 
 {#if !curtainDrawn }
-  <Image url="/images/image-saving/aa2941b1-13b6-4111-bb26-068c7f5065df.jpg" caption="UFO" />
+  <Image url="/images/image-saving/aa2941b1-13b6-4111-bb26-068c7f5065df.jpg" caption="What do we do about&thinsp;<strong>annotations, inlucing</strong>&thinsp;<InlineColor value='red'>C</InlineColor><InlineColor value='orange'>o</InlineColor><InlineColor value='yellow'>l</InlineColor><InlineColor value='green'>o</InlineColor><InlineColor value='blue'>r</InlineColor><InlineColor value='brown'>s&thinsp;</InlineColor>and&thinsp;<a href="https://www.beyonce.com/">links</a>?" />
 
 <br style="display:none;"/>
 <Image url="/images/image-saving/5bc5c0dc-dbad-4b37-9741-bc18736e0c27.jpg" caption="From unsplash" />
@@ -37,7 +37,7 @@
     "object": "block",
     "id": "aa2941b1-13b6-4111-bb26-068c7f5065df",
     "created_time": "2021-09-27T07:09:00.000Z",
-    "last_edited_time": "2021-09-27T09:02:00.000Z",
+    "last_edited_time": "2021-10-01T01:51:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "image",
@@ -46,7 +46,7 @@
         {
           "type": "text",
           "text": {
-            "content": "UFO",
+            "content": "What do we do about ",
             "link": null
           },
           "annotations": {
@@ -57,14 +57,203 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "UFO",
+          "plain_text": "What do we do about ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "annotations, inlucing",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "annotations, inlucing",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "C",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "red"
+          },
+          "plain_text": "C",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "o",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "orange"
+          },
+          "plain_text": "o",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "l",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "yellow"
+          },
+          "plain_text": "l",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "o",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "green"
+          },
+          "plain_text": "o",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "r",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "blue"
+          },
+          "plain_text": "r",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "s ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "brown"
+          },
+          "plain_text": "s ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "and ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "and ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "links",
+            "link": {
+              "url": "https://www.beyonce.com/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "links",
+          "href": "https://www.beyonce.com/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "?",
           "href": null
         }
       ],
       "type": "file",
       "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210928T015959Z&X-Amz-Expires=3600&X-Amz-Signature=3beb70972c35d4ffed64c64aea7404844197e5bcfc829c3b833fe4fe9889102a&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-09-28T02:59:59.233Z"
+        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211001T015157Z&X-Amz-Expires=3600&X-Amz-Signature=22db68c51bd499627a3103741c79b9ae177bfe3d73b30e6ca638c2d0ee7aba39&X-Amz-SignedHeaders=host",
+        "expiry_time": "2021-10-01T02:51:57.345Z"
       }
     }
   },
@@ -72,7 +261,7 @@
     "object": "block",
     "id": "5bc5c0dc-dbad-4b37-9741-bc18736e0c27",
     "created_time": "2021-09-27T09:02:00.000Z",
-    "last_edited_time": "2021-09-27T09:02:00.000Z",
+    "last_edited_time": "2021-10-01T01:48:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "image",
@@ -132,8 +321,8 @@
       ],
       "type": "file",
       "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210928T015959Z&X-Amz-Expires=3600&X-Amz-Signature=3b6364ebeb5a414593cfd0adcf41daac21ffc5426bfa9f290d622f089713ba63&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-09-28T02:59:59.234Z"
+        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211001T015157Z&X-Amz-Expires=3600&X-Amz-Signature=e935f5cf6c1c022ce76debc27244bea5879a40be98e34da463d628d34fa3062a&X-Amz-SignedHeaders=host",
+        "expiry_time": "2021-10-01T02:51:57.319Z"
       }
     }
   }
@@ -143,7 +332,7 @@
   "object": "page",
   "id": "2000dfbb-5b5a-435c-b32d-9009c7466476",
   "created_time": "2021-09-27T07:09:00.000Z",
-  "last_edited_time": "2021-09-27T09:26:00.000Z",
+  "last_edited_time": "2021-10-01T01:51:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -179,9 +368,9 @@
       "id": "Yyjg",
       "type": "select",
       "select": {
-        "id": "3",
-        "name": "Completed",
-        "color": "green"
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
       }
     },
     "Name": {
@@ -214,7 +403,7 @@
       "object": "block",
       "id": "aa2941b1-13b6-4111-bb26-068c7f5065df",
       "created_time": "2021-09-27T07:09:00.000Z",
-      "last_edited_time": "2021-09-27T09:02:00.000Z",
+      "last_edited_time": "2021-10-01T01:51:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "image",
@@ -223,7 +412,7 @@
           {
             "type": "text",
             "text": {
-              "content": "UFO",
+              "content": "What do we do about ",
               "link": null
             },
             "annotations": {
@@ -234,14 +423,203 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "UFO",
+            "plain_text": "What do we do about ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "annotations, inlucing",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "annotations, inlucing",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "C",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "red"
+            },
+            "plain_text": "C",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "o",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "orange"
+            },
+            "plain_text": "o",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "l",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "yellow"
+            },
+            "plain_text": "l",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "o",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "o",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "r",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue"
+            },
+            "plain_text": "r",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "s ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "brown"
+            },
+            "plain_text": "s ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "and ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "and ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "links",
+              "link": {
+                "url": "https://www.beyonce.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "links",
+            "href": "https://www.beyonce.com/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "?",
             "href": null
           }
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210928T015959Z&X-Amz-Expires=3600&X-Amz-Signature=3beb70972c35d4ffed64c64aea7404844197e5bcfc829c3b833fe4fe9889102a&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-09-28T02:59:59.233Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211001T015157Z&X-Amz-Expires=3600&X-Amz-Signature=22db68c51bd499627a3103741c79b9ae177bfe3d73b30e6ca638c2d0ee7aba39&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-10-01T02:51:57.345Z"
         }
       }
     },
@@ -249,7 +627,7 @@
       "object": "block",
       "id": "5bc5c0dc-dbad-4b37-9741-bc18736e0c27",
       "created_time": "2021-09-27T09:02:00.000Z",
-      "last_edited_time": "2021-09-27T09:02:00.000Z",
+      "last_edited_time": "2021-10-01T01:48:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "image",
@@ -309,8 +687,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210928T015959Z&X-Amz-Expires=3600&X-Amz-Signature=3b6364ebeb5a414593cfd0adcf41daac21ffc5426bfa9f290d622f089713ba63&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-09-28T02:59:59.234Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211001T015157Z&X-Amz-Expires=3600&X-Amz-Signature=e935f5cf6c1c022ce76debc27244bea5879a40be98e34da463d628d34fa3062a&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-10-01T02:51:57.319Z"
         }
       }
     }
