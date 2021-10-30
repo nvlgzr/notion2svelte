@@ -17,16 +17,16 @@
 
 
 
-  <button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by notion2svelte 1.0.0 𒅒</button>
+  <button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by @nvlgzr/notion2svelte 1.0.0 𒅒</button>
 
 {#if !curtainDrawn }
-  <Image url="/images/image-saving/aa2941b1-13b6-4111-bb26-068c7f5065df.jpg" caption="What do we do about&thinsp;<strong>annotations, inlucing</strong>&thinsp;<InlineColor value='red'>C</InlineColor><InlineColor value='orange'>o</InlineColor><InlineColor value='yellow'>l</InlineColor><InlineColor value='green'>o</InlineColor><InlineColor value='blue'>r</InlineColor><InlineColor value='brown'>s&thinsp;</InlineColor>and&thinsp;<a href="https://www.beyonce.com/">links</a>?" />
+  <Image url="/images/image-saving/aa2941b1-13b6-4111-bb26-068c7f5065df.jpg">What do we do about&thinsp;<strong>annotations, including</strong>&thinsp;<InlineColor value='red'>C</InlineColor><InlineColor value='orange'>o</InlineColor><InlineColor value='yellow'>l</InlineColor><InlineColor value='green'>o</InlineColor><InlineColor value='blue'>r</InlineColor><InlineColor value='brown'>s&thinsp;</InlineColor>and&thinsp;<a href="https://www.beyonce.com/">links</a>?</Image>
 
 <br style="display:none;"/>
-<Image url="/images/image-saving/5bc5c0dc-dbad-4b37-9741-bc18736e0c27.jpg" caption="From unsplash" />
+<Image url="/images/image-saving/5bc5c0dc-dbad-4b37-9741-bc18736e0c27.jpg">From unsplash</Image>
 
 <br style="display:none;"/>
-<Image url="/images/image-saving/0e08e06e-8780-460e-a7b0-37f1cf0eeb3a.jpg" caption="cresting orca" />
+<Image url="/images/image-saving/0e08e06e-8780-460e-a7b0-37f1cf0eeb3a.jpg">cresting orca</Image>
 
 <br style="display:none;"/>
 
@@ -37,7 +37,7 @@
     "object": "block",
     "id": "aa2941b1-13b6-4111-bb26-068c7f5065df",
     "created_time": "2021-09-27T07:09:00.000Z",
-    "last_edited_time": "2021-10-01T01:51:00.000Z",
+    "last_edited_time": "2021-10-30T22:57:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "image",
@@ -63,7 +63,7 @@
         {
           "type": "text",
           "text": {
-            "content": "annotations, inlucing",
+            "content": "annotations, including",
             "link": null
           },
           "annotations": {
@@ -74,7 +74,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "annotations, inlucing",
+          "plain_text": "annotations, including",
           "href": null
         },
         {
@@ -252,8 +252,8 @@
       ],
       "type": "file",
       "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211001T015157Z&X-Amz-Expires=3600&X-Amz-Signature=22db68c51bd499627a3103741c79b9ae177bfe3d73b30e6ca638c2d0ee7aba39&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-10-01T02:51:57.345Z"
+        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211030T233628Z&X-Amz-Expires=3600&X-Amz-Signature=f1f2bcfe9461670717b70f8caf8dc27a8ad6ea83f8187bc7f503d3391bca0517&X-Amz-SignedHeaders=host",
+        "expiry_time": "2021-10-31T00:36:28.816Z"
       }
     }
   },
@@ -321,8 +321,8 @@
       ],
       "type": "file",
       "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211001T015157Z&X-Amz-Expires=3600&X-Amz-Signature=e935f5cf6c1c022ce76debc27244bea5879a40be98e34da463d628d34fa3062a&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-10-01T02:51:57.319Z"
+        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211030T233628Z&X-Amz-Expires=3600&X-Amz-Signature=059fe4b84f6d8d105ddda0bc33047861808ee7bcb7eb5dc88e59f6915026add2&X-Amz-SignedHeaders=host",
+        "expiry_time": "2021-10-31T00:36:28.817Z"
       }
     }
   }
@@ -332,7 +332,7 @@
   "object": "page",
   "id": "2000dfbb-5b5a-435c-b32d-9009c7466476",
   "created_time": "2021-09-27T07:09:00.000Z",
-  "last_edited_time": "2021-10-01T01:51:00.000Z",
+  "last_edited_time": "2021-10-30T22:57:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -373,7 +373,12 @@
         "color": "pink"
       }
     },
-    "Name": {
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
       "id": "title",
       "type": "title",
       "title": [
@@ -403,7 +408,7 @@
       "object": "block",
       "id": "aa2941b1-13b6-4111-bb26-068c7f5065df",
       "created_time": "2021-09-27T07:09:00.000Z",
-      "last_edited_time": "2021-10-01T01:51:00.000Z",
+      "last_edited_time": "2021-10-30T22:57:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "image",
@@ -429,7 +434,7 @@
           {
             "type": "text",
             "text": {
-              "content": "annotations, inlucing",
+              "content": "annotations, including",
               "link": null
             },
             "annotations": {
@@ -440,7 +445,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "annotations, inlucing",
+            "plain_text": "annotations, including",
             "href": null
           },
           {
@@ -618,8 +623,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211001T015157Z&X-Amz-Expires=3600&X-Amz-Signature=22db68c51bd499627a3103741c79b9ae177bfe3d73b30e6ca638c2d0ee7aba39&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-10-01T02:51:57.345Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211030T233628Z&X-Amz-Expires=3600&X-Amz-Signature=f1f2bcfe9461670717b70f8caf8dc27a8ad6ea83f8187bc7f503d3391bca0517&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-10-31T00:36:28.816Z"
         }
       }
     },
@@ -687,8 +692,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211001T015157Z&X-Amz-Expires=3600&X-Amz-Signature=e935f5cf6c1c022ce76debc27244bea5879a40be98e34da463d628d34fa3062a&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-10-01T02:51:57.319Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211030T233628Z&X-Amz-Expires=3600&X-Amz-Signature=059fe4b84f6d8d105ddda0bc33047861808ee7bcb7eb5dc88e59f6915026add2&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-10-31T00:36:28.817Z"
         }
       }
     }

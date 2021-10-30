@@ -8,11 +8,20 @@ status: in progress, render: true
 
 ## 🐞 Known Bugs
 
-- Image captions with "richtext" annotations get clobbered by Svelte without @html.
-  -I want to fix this "securely" but don't think that's likely without more effort than I'm willing to put in right now This suggests that I"ll be making notion2svelte quite insecure by default, which means the README will need a massive opening Caveat.
+- Add new .env options
+
+  - ◻️ PUBLISHABLE_STATUS
+    - Default: Publishable
+    - Either use "Publishable" in your source DB's status field, when you want a page to get 'seen' by `@nvlgzr/notion2svelte`, or set this _env_ to match whatever you're using in Notion.
+  - ◻️ PAGE_TITLE_FIELD
+    - Default: Name
+    - In new databases, the default column id on the db's pages is called "Name", hence this default. If, like me, you prefer, say, "Title," then change it both here (by setting this _env_) and in Notion.
+  - Add Documentation for .env config keys
+
 - Child pages render as lame text label
 - Soft carriage returns get stripped from final HTML
 - the npm\_\* variables on the buttons have been rendering `undefined` for awhile now. Scrap or fix.
+- Add support for newly-supported quotes & callouts (and maybe more?!?)
 
 # 🐝 Tasks/Ideas
 
