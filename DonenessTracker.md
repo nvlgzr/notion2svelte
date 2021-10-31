@@ -8,15 +8,15 @@ status: in progress, render: true
 
 ## 🐞 Known Bugs
 
-
 # 🐝 Tasks/Ideas
 
 Add support for…
 
-- Quotes
 - Callouts
 - Sub-pages
+- Dividers
 
+- Question: Do all block types currently support children correctly???
 - Notion API Explorer: hover over a block to see its JSON.
 - Duplicate barebones leveluptuts blog index page
 - Implement internal links
