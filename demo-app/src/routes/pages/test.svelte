@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Image Saving Test</title>
+  <title>Soft Carriage Returns</title>
 </svelte:head><script>
   import BulletedListItem from "$lib/notion2svelte/BulletedListItem.svelte"
   import Image from "$lib/notion2svelte/Image.svelte"
@@ -13,20 +13,25 @@
 
   let curtainDrawn = false
 </script>
-  <Title>Image Saving Test</Title>
+  <Title>Soft Carriage Returns</Title>
 
 
 
   <button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by @nvlgzr/notion2svelte 1.0.0 𒅒</button>
 
 {#if !curtainDrawn }
-  <Image url="/images/image-saving/aa2941b1-13b6-4111-bb26-068c7f5065df.jpg">What do we do about&thinsp;<strong>annotations, including</strong>&thinsp;<InlineColor value='red'>C</InlineColor><InlineColor value='orange'>o</InlineColor><InlineColor value='yellow'>l</InlineColor><InlineColor value='green'>o</InlineColor><InlineColor value='blue'>r</InlineColor><InlineColor value='brown'>s&thinsp;</InlineColor>and&thinsp;<a href="https://www.beyonce.com/">links</a>?</Image>
+  <div>
+This is the first line
+<br />
+and this is the second
+</div>
 
 <br style="display:none;"/>
-<Image url="/images/image-saving/5bc5c0dc-dbad-4b37-9741-bc18736e0c27.jpg">From unsplash</Image>
-
-<br style="display:none;"/>
-<Image url="/images/image-saving/0e08e06e-8780-460e-a7b0-37f1cf0eeb3a.jpg">cresting orca</Image>
+<div>
+This block also has
+<br />
+2 lines
+</div>
 
 <br style="display:none;"/>
 
@@ -35,18 +40,18 @@
   <pre>{JSON.stringify([
   {
     "object": "block",
-    "id": "aa2941b1-13b6-4111-bb26-068c7f5065df",
-    "created_time": "2021-09-27T07:09:00.000Z",
-    "last_edited_time": "2021-10-30T22:57:00.000Z",
+    "id": "915a2199-df9c-46e6-865a-35e130a59ed8",
+    "created_time": "2021-10-31T02:28:00.000Z",
+    "last_edited_time": "2021-10-31T02:28:00.000Z",
     "has_children": false,
     "archived": false,
-    "type": "image",
-    "image": {
-      "caption": [
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
         {
           "type": "text",
           "text": {
-            "content": "What do we do about ",
+            "content": "This is the first line\nand this is the second",
             "link": null
           },
           "annotations": {
@@ -57,220 +62,26 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "What do we do about ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "annotations, including",
-            "link": null
-          },
-          "annotations": {
-            "bold": true,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "annotations, including",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "C",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "red"
-          },
-          "plain_text": "C",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "o",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "orange"
-          },
-          "plain_text": "o",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "l",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "yellow"
-          },
-          "plain_text": "l",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "o",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "green"
-          },
-          "plain_text": "o",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "r",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "blue"
-          },
-          "plain_text": "r",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "s ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "brown"
-          },
-          "plain_text": "s ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "and ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "and ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "links",
-            "link": {
-              "url": "https://www.beyonce.com/"
-            }
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "links",
-          "href": "https://www.beyonce.com/"
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "?",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "?",
+          "plain_text": "This is the first line\nand this is the second",
           "href": null
         }
-      ],
-      "type": "file",
-      "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211031T011654Z&X-Amz-Expires=3600&X-Amz-Signature=f8ffc854078a1b61971a3b277e20de907a9395747c2269d40532ace31faba624&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-10-31T02:16:54.679Z"
-      }
+      ]
     }
   },
   {
     "object": "block",
-    "id": "5bc5c0dc-dbad-4b37-9741-bc18736e0c27",
-    "created_time": "2021-09-27T09:02:00.000Z",
-    "last_edited_time": "2021-10-01T01:48:00.000Z",
+    "id": "ff5fa045-ed74-4a54-82bb-42d5c25635af",
+    "created_time": "2021-10-31T02:28:00.000Z",
+    "last_edited_time": "2021-10-31T02:28:00.000Z",
     "has_children": false,
     "archived": false,
-    "type": "image",
-    "image": {
-      "caption": [
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
         {
           "type": "text",
           "text": {
-            "content": "From unsplash",
+            "content": "This block also has\n2 lines",
             "link": null
           },
           "annotations": {
@@ -281,58 +92,19 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "From unsplash",
+          "plain_text": "This block also has\n2 lines",
           "href": null
         }
-      ],
-      "type": "external",
-      "external": {
-        "url": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
-      }
-    }
-  },
-  {
-    "object": "block",
-    "id": "0e08e06e-8780-460e-a7b0-37f1cf0eeb3a",
-    "created_time": "2021-09-27T09:03:00.000Z",
-    "last_edited_time": "2021-09-27T09:03:00.000Z",
-    "has_children": false,
-    "archived": false,
-    "type": "image",
-    "image": {
-      "caption": [
-        {
-          "type": "text",
-          "text": {
-            "content": "cresting orca",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "cresting orca",
-          "href": null
-        }
-      ],
-      "type": "file",
-      "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211031T011654Z&X-Amz-Expires=3600&X-Amz-Signature=1b77b4abc66c1108e37782bfd9ad3138d75a134ee4639a2ade0eed39200df07c&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-10-31T02:16:54.683Z"
-      }
+      ]
     }
   }
 ], null, 2)}</pre>
   <h1>Page</h1>
   <pre>{JSON.stringify({
   "object": "page",
-  "id": "2000dfbb-5b5a-435c-b32d-9009c7466476",
-  "created_time": "2021-09-27T07:09:00.000Z",
-  "last_edited_time": "2021-10-31T01:15:00.000Z",
+  "id": "454e8b89-4aa5-4533-b494-8853e8fb4df1",
+  "created_time": "2021-10-31T02:24:00.000Z",
+  "last_edited_time": "2021-10-31T03:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -348,7 +120,7 @@
         {
           "type": "text",
           "text": {
-            "content": "image-saving",
+            "content": "soft-carriage-returns",
             "link": null
           },
           "annotations": {
@@ -359,7 +131,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "image-saving",
+          "plain_text": "soft-carriage-returns",
           "href": null
         }
       ]
@@ -368,9 +140,9 @@
       "id": "Yyjg",
       "type": "select",
       "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
+        "id": "3",
+        "name": "Completed",
+        "color": "green"
       }
     },
     "URL": {
@@ -385,7 +157,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Image Saving Test",
+            "content": "Soft Carriage Returns",
             "link": null
           },
           "annotations": {
@@ -396,28 +168,28 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Image Saving Test",
+          "plain_text": "Soft Carriage Returns",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/Image-Saving-Test-2000dfbb5b5a435cb32d9009c7466476",
+  "url": "https://www.notion.so/Soft-Carriage-Returns-454e8b894aa54533b4948853e8fb4df1",
   "blocks": [
     {
       "object": "block",
-      "id": "aa2941b1-13b6-4111-bb26-068c7f5065df",
-      "created_time": "2021-09-27T07:09:00.000Z",
-      "last_edited_time": "2021-10-30T22:57:00.000Z",
+      "id": "915a2199-df9c-46e6-865a-35e130a59ed8",
+      "created_time": "2021-10-31T02:28:00.000Z",
+      "last_edited_time": "2021-10-31T02:28:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "image",
-      "image": {
-        "caption": [
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
           {
             "type": "text",
             "text": {
-              "content": "What do we do about ",
+              "content": "This is the first line\nand this is the second",
               "link": null
             },
             "annotations": {
@@ -428,220 +200,26 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "What do we do about ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "annotations, including",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "annotations, including",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "C",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "red"
-            },
-            "plain_text": "C",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "o",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "orange"
-            },
-            "plain_text": "o",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "l",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "yellow"
-            },
-            "plain_text": "l",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "o",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "green"
-            },
-            "plain_text": "o",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "r",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "blue"
-            },
-            "plain_text": "r",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "s ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "brown"
-            },
-            "plain_text": "s ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "and ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "and ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "links",
-              "link": {
-                "url": "https://www.beyonce.com/"
-              }
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "links",
-            "href": "https://www.beyonce.com/"
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "?",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "?",
+            "plain_text": "This is the first line\nand this is the second",
             "href": null
           }
-        ],
-        "type": "file",
-        "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211031T011654Z&X-Amz-Expires=3600&X-Amz-Signature=f8ffc854078a1b61971a3b277e20de907a9395747c2269d40532ace31faba624&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-10-31T02:16:54.679Z"
-        }
+        ]
       }
     },
     {
       "object": "block",
-      "id": "5bc5c0dc-dbad-4b37-9741-bc18736e0c27",
-      "created_time": "2021-09-27T09:02:00.000Z",
-      "last_edited_time": "2021-10-01T01:48:00.000Z",
+      "id": "ff5fa045-ed74-4a54-82bb-42d5c25635af",
+      "created_time": "2021-10-31T02:28:00.000Z",
+      "last_edited_time": "2021-10-31T02:28:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "image",
-      "image": {
-        "caption": [
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
           {
             "type": "text",
             "text": {
-              "content": "From unsplash",
+              "content": "This block also has\n2 lines",
               "link": null
             },
             "annotations": {
@@ -652,49 +230,10 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "From unsplash",
+            "plain_text": "This block also has\n2 lines",
             "href": null
           }
-        ],
-        "type": "external",
-        "external": {
-          "url": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
-        }
-      }
-    },
-    {
-      "object": "block",
-      "id": "0e08e06e-8780-460e-a7b0-37f1cf0eeb3a",
-      "created_time": "2021-09-27T09:03:00.000Z",
-      "last_edited_time": "2021-09-27T09:03:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "image",
-      "image": {
-        "caption": [
-          {
-            "type": "text",
-            "text": {
-              "content": "cresting orca",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "cresting orca",
-            "href": null
-          }
-        ],
-        "type": "file",
-        "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211031T011654Z&X-Amz-Expires=3600&X-Amz-Signature=1b77b4abc66c1108e37782bfd9ad3138d75a134ee4639a2ade0eed39200df07c&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-10-31T02:16:54.683Z"
-        }
+        ]
       }
     }
   ]

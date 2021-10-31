@@ -8,11 +8,14 @@ status: in progress, render: true
 
 ## 🐞 Known Bugs
 
-- Soft carriage returns get stripped from final HTML
-- the npm\_\* variables on the buttons have been rendering `undefined` for awhile now. Scrap or fix.
-- Add support for newly-supported quotes, callouts, and sub-pages (and maybe more?!?)
 
 # 🐝 Tasks/Ideas
+
+Add support for…
+
+- Quotes
+- Callouts
+- Sub-pages
 
 - Notion API Explorer: hover over a block to see its JSON.
 - Duplicate barebones leveluptuts blog index page
