@@ -11,6 +11,8 @@ const testPageId = env.NOTION_TEST_PAGE_ID
 const db = env.NOTION_DATABASE_ID
 const cacheToken = env.CACHE_TOKEN
 const ignoreCache = env.FORCE_REFRESH
+const titleField = env.PAGE_TITLE_FIELD || "Name"
+const publishableStatus = env.PUBLISHABLE_STATUS || "Publishable"
 
 function go() {
   if (testPageId) {
@@ -27,7 +29,10 @@ async function run() {
 
   try {
     console.log(`1. Fetching publishable pages from Database #${db}`)
-    pages = await fetchAllPages(db)
+    pages = await fetchAllPages({
+      dbId: db,
+      publishableStatus
+    })
   }
   catch (e) {
     console.error('💥🙉 Abort! Abort!', e)
@@ -45,7 +50,7 @@ async function run() {
     await fs.writeFile(jsonPath, JSON.stringify(fullPage, null, 2))
 
     console.log(` › Rendering…`)
-    const contents = h.renderPage(fullPage)
+    const contents = h.renderPage(fullPage, titleField)
 
     console.log(` › Writing rendered page to #${path}`)
     await fs.writeFile(path, contents)
@@ -123,7 +128,7 @@ async function runTest() {
 
   try {
     console.log(`2. Rendering data`)
-    renderedPage = h.renderPage(pageJSON)
+    renderedPage = h.renderPage(pageJSON, titleField)
   }
   catch (e) {
     console.log(`💥🐛 Mayday! Mayday!:\n\n${e}\n\njson ↴\n${JSON.stringify(pageJSON)}\n\n`)
