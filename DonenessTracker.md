@@ -12,7 +12,10 @@ status: in progress, render: true
 
 Add support for…
 
-- Dividers
+- Cover Photo
+  page.cover[page.cover.type].url (If external. Hopefully I've already dealt with the other type(s), but if not, finish that now!)
+- Page Icon
+  page.icon[page.icon.type].emoji (set up trial pages to test for other icon types)
 - Sub-pages
 
 - Question: Do all block types currently support children correctly???
