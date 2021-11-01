@@ -2,55 +2,62 @@
 	import Portal from './Portal.svelte';
 
 	export let coverURL = '';
+	export let iconEmoji = '';
 </script>
 
 <Portal target="#cover">
-	<div>
-		<img src={coverURL} alt="Sorry. Not sure how to do per-page alts yet for cover images" />
+	<div class="cover-wrapper">
+		<img
+			class="cover"
+			src={coverURL}
+			alt="Sorry. Not sure how to do per-page alts yet for cover images"
+		/>
 	</div>
+	{#if iconEmoji}
+		<div class="emoji">{iconEmoji}</div>
+	{/if}
 	<!-- spacer -->
-	<span>&nbsp;</span>
+	<span>&nbsp; </span>
 </Portal>
 
 <style>
+	.emoji {
+		font-size: 15rem;
+		position: absolute;
+		left: calc(min(10rem, 10vw));
+		top: calc(min(25vh, 25vw));
+		color: black;
+	}
+
 	span {
 		display: block;
 		margin: calc(min(22vh, 22vw) - 2rem);
 	}
 
-	div {
+	.cover-wrapper {
 		position: absolute;
 		top: 0;
-		background-color: #333;
 		width: 100%;
 		height: calc(min(40vh, 40vw));
 		overflow: hidden;
-		border: 2px #333 solid;
+		border: 2px hsla(0, 0%, 83%, 0.5) solid;
 		z-index: -1;
 	}
 
-	img {
+	.cover {
 		width: 100%;
 		height: calc(max(auto, min(40vh, 40vw)));
-		animation: kenburns 20s infinite;
+		animation: kenburns 10s 1;
 		/* vertical center */
 	}
 
 	@keyframes kenburns {
 		0% {
+			transform: scale3d(2, 2, 2) translate3d(50px, 50px, 50px) rotate(-0.02turn);
 			opacity: 0;
-		}
-		5% {
-			opacity: 1;
-		}
-		95% {
-			transform: scale3d(1.5, 1.5, 1.5) translate3d(-190px, -120px, 0px);
-			animation-timing-function: ease-in;
-			opacity: 1;
 		}
 		100% {
-			transform: scale3d(2, 2, 2) translate3d(-170px, -100px, 0px);
-			opacity: 0;
+			transform: scale3d(1, 1, 1) translate3d(0, 0, 0) rotate(0);
 		}
 	}
 </style>

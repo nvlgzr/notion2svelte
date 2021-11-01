@@ -1,5 +1,3 @@
-# MVP — Full Stack Transformation: just title and plaintext
-
 §goal(
 I can run `npm run dev -- --out="~/2-Ongoing/navelgazer/navelgazer.club/src/routes/the-storyteller/"` with 3 Notion pages in the "The Navelgazer Club" database, 2 set to "to publish" and 1 set to "probably trash", and get two pages, named exactly the title of each "to publish" page + ".svelte", and containing exactly an h1 of the title and subsequent paragraphs for every block, with "UNSUPPORTED" output for unsupported blocks. 😩
 ){
@@ -12,10 +10,15 @@ status: in progress, render: true
 
 Add support for…
 
-- Cover Photo
-  page.cover[page.cover.type].url (If external. Hopefully I've already dealt with the other type(s), but if not, finish that now!)
-- Page Icon
-  page.icon[page.icon.type].emoji (set up trial pages to test for other icon types)
+- PageCover (cover photo & icon)
+  `page.cover.type` → `page.cover.external.url` ✅
+  → page.cover is null
+  "(only type of "external" is supported currently)"
+  `page.icon.type` → `page.icon.emoji` ✅
+  → `page.icon.file.url` (includes expiry_time…which I don't currently need)
+  → `page.icon.external.url`
+  → page.icon is null
+
 - Sub-pages
 
 - Question: Do all block types currently support children correctly???
