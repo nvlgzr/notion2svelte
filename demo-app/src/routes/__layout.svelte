@@ -5,6 +5,7 @@
 
 <Header />
 
+<div id="cover">&nbsp;</div>
 <main>
 	<slot />
 </main>

@@ -2,7 +2,7 @@
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-01T03:03:00.000Z",
+  "last_edited_time": "2021-11-01T03:53:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -96,7 +96,7 @@
       "object": "block",
       "id": "1aca2b38-169f-412f-93d6-81dd6b59b19b",
       "created_time": "2021-09-20T10:05:00.000Z",
-      "last_edited_time": "2021-09-27T09:31:00.000Z",
+      "last_edited_time": "2021-11-01T03:44:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "heading_1",
@@ -156,7 +156,7 @@
       "object": "block",
       "id": "f862ec49-86ca-440d-9c96-abbf21a79225",
       "created_time": "2021-09-20T10:05:00.000Z",
-      "last_edited_time": "2021-11-01T03:00:00.000Z",
+      "last_edited_time": "2021-11-01T03:44:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "callout",
@@ -1580,8 +1580,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T031407Z&X-Amz-Expires=3600&X-Amz-Signature=094d4386ed2537e4bdfb9d8f21459b4fb5bb1b708bd8e54e90d8de049b87441e&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-11-01T04:14:07.958Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T045046Z&X-Amz-Expires=3600&X-Amz-Signature=5b135695387ed2d558ecf37a07336a29d92fc5e586d7509cca0036efe013b0d2&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-01T05:50:46.574Z"
         }
       }
     },
@@ -1649,8 +1649,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T031407Z&X-Amz-Expires=3600&X-Amz-Signature=6c21f5bb8bb71bfb7ed6dec29bdc02f9cc501edb3591d3e19d68a31c7f582774&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-11-01T04:14:07.952Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T045046Z&X-Amz-Expires=3600&X-Amz-Signature=159f57e958377a566d85ed8ae780aed76f384051f23c021bf9cd0f25cb3cea6e&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-01T05:50:46.570Z"
         }
       }
     },
@@ -2630,8 +2630,8 @@
             ],
             "type": "file",
             "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T031408Z&X-Amz-Expires=3600&X-Amz-Signature=0d6d41f6f2e4d4eb10cda17dbd18490b506cbe77dafb324661bb5339650cb077&X-Amz-SignedHeaders=host",
-              "expiry_time": "2021-11-01T04:14:08.168Z"
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T045046Z&X-Amz-Expires=3600&X-Amz-Signature=73b27ce4d9cffb8442128884b9c275ffe4a033ffdb6bbe6005adabcbc353b096&X-Amz-SignedHeaders=host",
+              "expiry_time": "2021-11-01T05:50:46.773Z"
             }
           }
         },
@@ -2695,8 +2695,8 @@
             ],
             "type": "file",
             "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T031408Z&X-Amz-Expires=3600&X-Amz-Signature=9f9266ace88efc627790fc0bbbf4796a2ff9ebae3c4c469569447d33f4162973&X-Amz-SignedHeaders=host",
-              "expiry_time": "2021-11-01T04:14:08.171Z"
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T045046Z&X-Amz-Expires=3600&X-Amz-Signature=13c60fe02c57c614d79aba1278d51679a8bcadab2d5996a3b6173b50798e993b&X-Amz-SignedHeaders=host",
+              "expiry_time": "2021-11-01T05:50:46.774Z"
             }
           }
         },
@@ -2730,8 +2730,8 @@
             ],
             "type": "file",
             "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T031408Z&X-Amz-Expires=3600&X-Amz-Signature=9f9266ace88efc627790fc0bbbf4796a2ff9ebae3c4c469569447d33f4162973&X-Amz-SignedHeaders=host",
-              "expiry_time": "2021-11-01T04:14:08.172Z"
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T045046Z&X-Amz-Expires=3600&X-Amz-Signature=13c60fe02c57c614d79aba1278d51679a8bcadab2d5996a3b6173b50798e993b&X-Amz-SignedHeaders=host",
+              "expiry_time": "2021-11-01T05:50:46.775Z"
             }
           }
         }
