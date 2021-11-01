@@ -12,9 +12,8 @@ status: in progress, render: true
 
 Add support for…
 
-- Callouts
-- Sub-pages
 - Dividers
+- Sub-pages
 
 - Question: Do all block types currently support children correctly???
 - Notion API Explorer: hover over a block to see its JSON.

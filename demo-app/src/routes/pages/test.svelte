@@ -1,7 +1,8 @@
 <svelte:head>
-  <title>Quote Blocks</title>
+  <title>Callouts</title>
 </svelte:head><script>
   import BulletedListItem from "$lib/notion2svelte/BulletedListItem.svelte"
+  import Callout from "$lib/notion2svelte/Callout.svelte"
   import Image from "$lib/notion2svelte/Image.svelte"
   import IndentGroup from "$lib/notion2svelte/IndentGroup.svelte"
   import InlineCode from "$lib/notion2svelte/InlineCode.svelte"
@@ -14,56 +15,42 @@
 
   let curtainDrawn = false
 </script>
-  <Title>Quote Blocks</Title>
+  <Title>Callouts</Title>
 
 
 
   <button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by @nvlgzr/notion2svelte 1.0.0 𒅒</button>
 
 {#if !curtainDrawn }
-  <Quote>"Everyone deserves a voice, but not everyone deserves a microphone." —Kara Swisher, I think</Quote>
-<br style="display:none;"/>
-<div>
-Keep in mind that Quotes are now containerable: "Is the quote bug happening here, too?"
+  <div>
+Here's some normal text, for reference.
 </div>
 
 <br style="display:none;"/>
+<Callout emoji="🦥">The simplest of callouts, with default styling and, for some reason, an "undefined" emojus.</Callout>
+<br style="display:none;"/>
 <div>
-'and is it on single quotes, too?'
+Here's some more normal text, for reference. Repeated for to fill ze space: Here's some more normal text, for reference. Repeated for to fill ze space: Here's some more normal text, for reference.&thinsp;
 </div>
 
 <br style="display:none;"/>
-<Quote><InlineCode>notion2svelte</InlineCode>&thinsp;lets us style the first quote block separately from the others. Not sure whether that's worth keeping, but I'll check it in for now.<span slot="children"><div>
-
+<Callout emoji="🦥">This callout has an orange background (not available via the API as of this writing),&thinsp;<InlineColor value='red'><strong>colored text</strong></InlineColor>, and children…<span slot="children"><div>
+…like this
 </div>
-<div>
-"Eat it, I say!"
-</div>
-<div>
-'and is it on single quotes, too?'
-</div>
-<div>
-&thinsp;                               —Sumbuddy's Dadduh
-</div>
-<div>
-
-</div>
-<Quote>Wait. Notion (and&thinsp;<InlineCode>notion2svelte</InlineCode>&thinsp;can nest a quote inside a quote??? Not that I have anything useful to say in this quote. I just want to have a long enough run of text to see the effects of text-align-last on a multi-line element.</Quote><Toggle>And even a quote
-<span slot="children"><Quote>inside a toggle?</Quote><h1>Quazy!</h1>
-</span></Toggle></span></Quote>
+<BulletedListItem>"and this"</BulletedListItem>
+<BulletedListItem>"and this"</BulletedListItem>
+<Toggle>Oh, and also…
+<span slot="children"><Callout emoji="🦦">Here's a nested callout with a sea otter</Callout></span></Toggle></span></Callout>
 <br style="display:none;"/>
 <div>
 
 </div>
 
 <br style="display:none;"/>
-<Quote><span slot="children"><div>
-This is an empty quote with one  text child and one empty text child.
-</div>
 <div>
 
 </div>
-</span></Quote>
+
 <br style="display:none;"/>
 
 {:else }
@@ -71,39 +58,9 @@ This is an empty quote with one  text child and one empty text child.
   <pre>{JSON.stringify([
   {
     "object": "block",
-    "id": "a310c1ff-61c0-48fb-8b19-39a1fd2cc313",
-    "created_time": "2021-10-31T03:12:00.000Z",
-    "last_edited_time": "2021-10-31T03:16:00.000Z",
-    "has_children": false,
-    "archived": false,
-    "type": "quote",
-    "quote": {
-      "text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "\"Everyone deserves a voice, but not everyone deserves a microphone.\" —Kara Swisher, I think",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "\"Everyone deserves a voice, but not everyone deserves a microphone.\" —Kara Swisher, I think",
-          "href": null
-        }
-      ]
-    }
-  },
-  {
-    "object": "block",
-    "id": "92db9a94-b3b3-4c0b-87af-850964d38187",
-    "created_time": "2021-10-31T03:14:00.000Z",
-    "last_edited_time": "2021-10-31T03:27:00.000Z",
+    "id": "20c310ca-8ae0-4590-90a5-756b664e23df",
+    "created_time": "2021-10-31T09:36:00.000Z",
+    "last_edited_time": "2021-10-31T09:36:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -112,7 +69,7 @@ This is an empty quote with one  text child and one empty text child.
         {
           "type": "text",
           "text": {
-            "content": "Keep in mind that Quotes are now containerable: \"Is the quote bug happening here, too?\"",
+            "content": "Here's some normal text, for reference.",
             "link": null
           },
           "annotations": {
@@ -123,7 +80,7 @@ This is an empty quote with one  text child and one empty text child.
             "code": false,
             "color": "default"
           },
-          "plain_text": "Keep in mind that Quotes are now containerable: \"Is the quote bug happening here, too?\"",
+          "plain_text": "Here's some normal text, for reference.",
           "href": null
         }
       ]
@@ -131,9 +88,43 @@ This is an empty quote with one  text child and one empty text child.
   },
   {
     "object": "block",
-    "id": "e4e70c44-1386-4754-970b-35722ce8abe0",
-    "created_time": "2021-10-31T03:27:00.000Z",
-    "last_edited_time": "2021-10-31T03:27:00.000Z",
+    "id": "1a0a06cb-1897-4275-ae7f-c55d422427f3",
+    "created_time": "2021-10-31T06:27:00.000Z",
+    "last_edited_time": "2021-10-31T09:52:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "callout",
+    "callout": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The simplest of callouts, with default styling and, for some reason, an \"undefined\" emojus.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The simplest of callouts, with default styling and, for some reason, an \"undefined\" emojus.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🦥"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "3a8117d1-b7d0-4dc2-a974-6d61a552e777",
+    "created_time": "2021-10-31T06:27:00.000Z",
+    "last_edited_time": "2021-10-31T09:44:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -142,7 +133,7 @@ This is an empty quote with one  text child and one empty text child.
         {
           "type": "text",
           "text": {
-            "content": "'and is it on single quotes, too?'",
+            "content": "Here's some more normal text, for reference. Repeated for to fill ze space: Here's some more normal text, for reference. Repeated for to fill ze space: Here's some more normal text, for reference. ",
             "link": null
           },
           "annotations": {
@@ -153,7 +144,7 @@ This is an empty quote with one  text child and one empty text child.
             "code": false,
             "color": "default"
           },
-          "plain_text": "'and is it on single quotes, too?'",
+          "plain_text": "Here's some more normal text, for reference. Repeated for to fill ze space: Here's some more normal text, for reference. Repeated for to fill ze space: Here's some more normal text, for reference. ",
           "href": null
         }
       ]
@@ -161,18 +152,18 @@ This is an empty quote with one  text child and one empty text child.
   },
   {
     "object": "block",
-    "id": "0277e588-66f3-42ca-911d-07bf319779ef",
-    "created_time": "2021-10-31T03:14:00.000Z",
-    "last_edited_time": "2021-10-31T06:23:00.000Z",
+    "id": "3bf9da91-ada1-44da-8bc3-626538f67bec",
+    "created_time": "2021-10-31T06:27:00.000Z",
+    "last_edited_time": "2021-10-31T09:54:00.000Z",
     "has_children": true,
     "archived": false,
-    "type": "quote",
-    "quote": {
+    "type": "callout",
+    "callout": {
       "text": [
         {
           "type": "text",
           "text": {
-            "content": "notion2svelte",
+            "content": "This callout has an orange background (not available via the API as of this writing), ",
             "link": null
           },
           "annotations": {
@@ -180,16 +171,33 @@ This is an empty quote with one  text child and one empty text child.
             "italic": false,
             "strikethrough": false,
             "underline": false,
-            "code": true,
+            "code": false,
             "color": "default"
           },
-          "plain_text": "notion2svelte",
+          "plain_text": "This callout has an orange background (not available via the API as of this writing), ",
           "href": null
         },
         {
           "type": "text",
           "text": {
-            "content": " lets us style the first quote block separately from the others. Not sure whether that's worth keeping, but I'll check it in for now.",
+            "content": "colored text",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "red"
+          },
+          "plain_text": "colored text",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", and children…",
             "link": null
           },
           "annotations": {
@@ -200,29 +208,21 @@ This is an empty quote with one  text child and one empty text child.
             "code": false,
             "color": "default"
           },
-          "plain_text": " lets us style the first quote block separately from the others. Not sure whether that's worth keeping, but I'll check it in for now.",
+          "plain_text": ", and children…",
           "href": null
         }
-      ]
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🦥"
+      }
     },
     "blocks": [
       {
         "object": "block",
-        "id": "c48af9fa-2111-492f-996e-c6cd413e1037",
-        "created_time": "2021-10-31T06:14:00.000Z",
-        "last_edited_time": "2021-10-31T06:14:00.000Z",
-        "has_children": false,
-        "archived": false,
-        "type": "paragraph",
-        "paragraph": {
-          "text": []
-        }
-      },
-      {
-        "object": "block",
-        "id": "1f00d8c4-0b85-438f-b48a-4acbf94a07bc",
-        "created_time": "2021-10-31T03:15:00.000Z",
-        "last_edited_time": "2021-10-31T06:14:00.000Z",
+        "id": "6126c5b4-cbf8-4499-8d7f-c22807d02721",
+        "created_time": "2021-10-31T06:29:00.000Z",
+        "last_edited_time": "2021-10-31T06:29:00.000Z",
         "has_children": false,
         "archived": false,
         "type": "paragraph",
@@ -231,7 +231,7 @@ This is an empty quote with one  text child and one empty text child.
             {
               "type": "text",
               "text": {
-                "content": "\"Eat it, I say!\"",
+                "content": "…like this",
                 "link": null
               },
               "annotations": {
@@ -242,7 +242,7 @@ This is an empty quote with one  text child and one empty text child.
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "\"Eat it, I say!\"",
+              "plain_text": "…like this",
               "href": null
             }
           ]
@@ -250,18 +250,18 @@ This is an empty quote with one  text child and one empty text child.
       },
       {
         "object": "block",
-        "id": "7958b9a7-9a7e-40fe-beb5-abf869413870",
-        "created_time": "2021-10-31T03:28:00.000Z",
-        "last_edited_time": "2021-10-31T06:14:00.000Z",
+        "id": "bc195d52-f3c3-42e3-9e97-385603c1470f",
+        "created_time": "2021-10-31T06:29:00.000Z",
+        "last_edited_time": "2021-10-31T06:29:00.000Z",
         "has_children": false,
         "archived": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "text": [
             {
               "type": "text",
               "text": {
-                "content": "'and is it on single quotes, too?'",
+                "content": "and this",
                 "link": null
               },
               "annotations": {
@@ -272,7 +272,7 @@ This is an empty quote with one  text child and one empty text child.
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "'and is it on single quotes, too?'",
+              "plain_text": "and this",
               "href": null
             }
           ]
@@ -280,18 +280,18 @@ This is an empty quote with one  text child and one empty text child.
       },
       {
         "object": "block",
-        "id": "fb660a97-8d09-495f-905f-24cfcdbdfce0",
-        "created_time": "2021-10-31T03:17:00.000Z",
-        "last_edited_time": "2021-10-31T06:14:00.000Z",
+        "id": "7f231e02-eaa9-4baf-8606-ffe43e8dc639",
+        "created_time": "2021-10-31T06:29:00.000Z",
+        "last_edited_time": "2021-10-31T06:29:00.000Z",
         "has_children": false,
         "archived": false,
-        "type": "paragraph",
-        "paragraph": {
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
           "text": [
             {
               "type": "text",
               "text": {
-                "content": "                                —Sumbuddy's Dadduh",
+                "content": "and this",
                 "link": null
               },
               "annotations": {
@@ -302,7 +302,7 @@ This is an empty quote with one  text child and one empty text child.
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "                                —Sumbuddy's Dadduh",
+              "plain_text": "and this",
               "href": null
             }
           ]
@@ -310,85 +310,9 @@ This is an empty quote with one  text child and one empty text child.
       },
       {
         "object": "block",
-        "id": "01ccd7e1-2852-4a15-9a1d-fe3beafb34f7",
-        "created_time": "2021-10-31T06:14:00.000Z",
-        "last_edited_time": "2021-10-31T06:14:00.000Z",
-        "has_children": false,
-        "archived": false,
-        "type": "paragraph",
-        "paragraph": {
-          "text": []
-        }
-      },
-      {
-        "object": "block",
-        "id": "c30807cf-c23f-48a2-a757-776bb9206d6b",
-        "created_time": "2021-10-31T05:38:00.000Z",
-        "last_edited_time": "2021-10-31T06:20:00.000Z",
-        "has_children": false,
-        "archived": false,
-        "type": "quote",
-        "quote": {
-          "text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "Wait. Notion (and ",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "Wait. Notion (and ",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": "notion2svelte",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": true,
-                "color": "default"
-              },
-              "plain_text": "notion2svelte",
-              "href": null
-            },
-            {
-              "type": "text",
-              "text": {
-                "content": " can nest a quote inside a quote??? Not that I have anything useful to say in this quote. I just want to have a long enough run of text to see the effects of text-align-last on a multi-line element.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": " can nest a quote inside a quote??? Not that I have anything useful to say in this quote. I just want to have a long enough run of text to see the effects of text-align-last on a multi-line element.",
-              "href": null
-            }
-          ]
-        }
-      },
-      {
-        "object": "block",
-        "id": "1ca5a107-1443-4c25-87f7-75fda4687f78",
-        "created_time": "2021-10-31T05:39:00.000Z",
-        "last_edited_time": "2021-10-31T06:16:00.000Z",
+        "id": "d2076c78-1038-4d47-b395-bc3c49294822",
+        "created_time": "2021-10-31T06:29:00.000Z",
+        "last_edited_time": "2021-10-31T06:29:00.000Z",
         "has_children": true,
         "archived": false,
         "type": "toggle",
@@ -397,7 +321,7 @@ This is an empty quote with one  text child and one empty text child.
             {
               "type": "text",
               "text": {
-                "content": "And even a quote",
+                "content": "Oh, and also…",
                 "link": null
               },
               "annotations": {
@@ -408,7 +332,7 @@ This is an empty quote with one  text child and one empty text child.
                 "code": false,
                 "color": "default"
               },
-              "plain_text": "And even a quote",
+              "plain_text": "Oh, and also…",
               "href": null
             }
           ]
@@ -416,18 +340,18 @@ This is an empty quote with one  text child and one empty text child.
         "blocks": [
           {
             "object": "block",
-            "id": "458db28b-d2d2-47bd-8a06-93ad02e5ea33",
-            "created_time": "2021-10-31T05:39:00.000Z",
-            "last_edited_time": "2021-10-31T05:39:00.000Z",
+            "id": "1eeb9632-86e1-4b1a-93b3-de4011ea858d",
+            "created_time": "2021-10-31T06:29:00.000Z",
+            "last_edited_time": "2021-10-31T09:53:00.000Z",
             "has_children": false,
             "archived": false,
-            "type": "quote",
-            "quote": {
+            "type": "callout",
+            "callout": {
               "text": [
                 {
                   "type": "text",
                   "text": {
-                    "content": "inside a toggle?",
+                    "content": "Here's a nested callout with a sea otter",
                     "link": null
                   },
                   "annotations": {
@@ -438,40 +362,14 @@ This is an empty quote with one  text child and one empty text child.
                     "code": false,
                     "color": "default"
                   },
-                  "plain_text": "inside a toggle?",
+                  "plain_text": "Here's a nested callout with a sea otter",
                   "href": null
                 }
-              ]
-            }
-          },
-          {
-            "object": "block",
-            "id": "58d7f41d-0afa-4bac-a265-81a6f95e83ab",
-            "created_time": "2021-10-31T05:39:00.000Z",
-            "last_edited_time": "2021-10-31T05:40:00.000Z",
-            "has_children": false,
-            "archived": false,
-            "type": "heading_1",
-            "heading_1": {
-              "text": [
-                {
-                  "type": "text",
-                  "text": {
-                    "content": "Quazy!",
-                    "link": null
-                  },
-                  "annotations": {
-                    "bold": false,
-                    "italic": false,
-                    "strikethrough": false,
-                    "underline": false,
-                    "code": false,
-                    "color": "default"
-                  },
-                  "plain_text": "Quazy!",
-                  "href": null
-                }
-              ]
+              ],
+              "icon": {
+                "type": "emoji",
+                "emoji": "🦦"
+              }
             }
           }
         ]
@@ -480,9 +378,9 @@ This is an empty quote with one  text child and one empty text child.
   },
   {
     "object": "block",
-    "id": "21e62933-b367-4a79-9eec-e4e6aa38cd9d",
-    "created_time": "2021-10-31T06:16:00.000Z",
-    "last_edited_time": "2021-10-31T06:16:00.000Z",
+    "id": "e00f1793-4602-4a08-b0a3-60709be28e71",
+    "created_time": "2021-10-31T06:27:00.000Z",
+    "last_edited_time": "2021-10-31T06:29:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "paragraph",
@@ -492,67 +390,23 @@ This is an empty quote with one  text child and one empty text child.
   },
   {
     "object": "block",
-    "id": "3a0f4c62-98ba-4a57-8ef6-f2ef06a1c567",
-    "created_time": "2021-10-31T06:16:00.000Z",
-    "last_edited_time": "2021-10-31T06:16:00.000Z",
-    "has_children": true,
+    "id": "60abf1cb-64c1-4bd4-a0c4-919c8d7fd64c",
+    "created_time": "2021-10-31T06:29:00.000Z",
+    "last_edited_time": "2021-10-31T06:29:00.000Z",
+    "has_children": false,
     "archived": false,
-    "type": "quote",
-    "quote": {
+    "type": "paragraph",
+    "paragraph": {
       "text": []
-    },
-    "blocks": [
-      {
-        "object": "block",
-        "id": "19aad121-a9c0-456f-bf36-465527c76ab6",
-        "created_time": "2021-10-31T06:16:00.000Z",
-        "last_edited_time": "2021-10-31T06:16:00.000Z",
-        "has_children": false,
-        "archived": false,
-        "type": "paragraph",
-        "paragraph": {
-          "text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "This is an empty quote with one  text child and one empty text child.",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "This is an empty quote with one  text child and one empty text child.",
-              "href": null
-            }
-          ]
-        }
-      },
-      {
-        "object": "block",
-        "id": "46aa2755-e2cd-4761-87b9-e210840510f8",
-        "created_time": "2021-10-31T06:16:00.000Z",
-        "last_edited_time": "2021-10-31T06:16:00.000Z",
-        "has_children": false,
-        "archived": false,
-        "type": "paragraph",
-        "paragraph": {
-          "text": []
-        }
-      }
-    ]
+    }
   }
 ], null, 2)}</pre>
   <h1>Page</h1>
   <pre>{JSON.stringify({
   "object": "page",
-  "id": "b03746aa-d83a-4564-b879-b7a5dda81159",
-  "created_time": "2021-10-31T03:12:00.000Z",
-  "last_edited_time": "2021-10-31T06:23:00.000Z",
+  "id": "97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82",
+  "created_time": "2021-10-31T06:26:00.000Z",
+  "last_edited_time": "2021-10-31T09:54:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -568,7 +422,7 @@ This is an empty quote with one  text child and one empty text child.
         {
           "type": "text",
           "text": {
-            "content": "quotes",
+            "content": "callouts",
             "link": null
           },
           "annotations": {
@@ -579,7 +433,7 @@ This is an empty quote with one  text child and one empty text child.
             "code": false,
             "color": "default"
           },
-          "plain_text": "quotes",
+          "plain_text": "callouts",
           "href": null
         }
       ]
@@ -605,7 +459,7 @@ This is an empty quote with one  text child and one empty text child.
         {
           "type": "text",
           "text": {
-            "content": "Quote Blocks",
+            "content": "Callouts",
             "link": null
           },
           "annotations": {
@@ -616,49 +470,19 @@ This is an empty quote with one  text child and one empty text child.
             "code": false,
             "color": "default"
           },
-          "plain_text": "Quote Blocks",
+          "plain_text": "Callouts",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/Quote-Blocks-b03746aad83a4564b879b7a5dda81159",
+  "url": "https://www.notion.so/Callouts-97c150a64f394fd5b10b8e8cc0d2ec82",
   "blocks": [
     {
       "object": "block",
-      "id": "a310c1ff-61c0-48fb-8b19-39a1fd2cc313",
-      "created_time": "2021-10-31T03:12:00.000Z",
-      "last_edited_time": "2021-10-31T03:16:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "quote",
-      "quote": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "\"Everyone deserves a voice, but not everyone deserves a microphone.\" —Kara Swisher, I think",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "\"Everyone deserves a voice, but not everyone deserves a microphone.\" —Kara Swisher, I think",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "92db9a94-b3b3-4c0b-87af-850964d38187",
-      "created_time": "2021-10-31T03:14:00.000Z",
-      "last_edited_time": "2021-10-31T03:27:00.000Z",
+      "id": "20c310ca-8ae0-4590-90a5-756b664e23df",
+      "created_time": "2021-10-31T09:36:00.000Z",
+      "last_edited_time": "2021-10-31T09:36:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -667,7 +491,7 @@ This is an empty quote with one  text child and one empty text child.
           {
             "type": "text",
             "text": {
-              "content": "Keep in mind that Quotes are now containerable: \"Is the quote bug happening here, too?\"",
+              "content": "Here's some normal text, for reference.",
               "link": null
             },
             "annotations": {
@@ -678,7 +502,7 @@ This is an empty quote with one  text child and one empty text child.
               "code": false,
               "color": "default"
             },
-            "plain_text": "Keep in mind that Quotes are now containerable: \"Is the quote bug happening here, too?\"",
+            "plain_text": "Here's some normal text, for reference.",
             "href": null
           }
         ]
@@ -686,9 +510,43 @@ This is an empty quote with one  text child and one empty text child.
     },
     {
       "object": "block",
-      "id": "e4e70c44-1386-4754-970b-35722ce8abe0",
-      "created_time": "2021-10-31T03:27:00.000Z",
-      "last_edited_time": "2021-10-31T03:27:00.000Z",
+      "id": "1a0a06cb-1897-4275-ae7f-c55d422427f3",
+      "created_time": "2021-10-31T06:27:00.000Z",
+      "last_edited_time": "2021-10-31T09:52:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "callout",
+      "callout": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The simplest of callouts, with default styling and, for some reason, an \"undefined\" emojus.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The simplest of callouts, with default styling and, for some reason, an \"undefined\" emojus.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "🦥"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "3a8117d1-b7d0-4dc2-a974-6d61a552e777",
+      "created_time": "2021-10-31T06:27:00.000Z",
+      "last_edited_time": "2021-10-31T09:44:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -697,7 +555,7 @@ This is an empty quote with one  text child and one empty text child.
           {
             "type": "text",
             "text": {
-              "content": "'and is it on single quotes, too?'",
+              "content": "Here's some more normal text, for reference. Repeated for to fill ze space: Here's some more normal text, for reference. Repeated for to fill ze space: Here's some more normal text, for reference. ",
               "link": null
             },
             "annotations": {
@@ -708,7 +566,7 @@ This is an empty quote with one  text child and one empty text child.
               "code": false,
               "color": "default"
             },
-            "plain_text": "'and is it on single quotes, too?'",
+            "plain_text": "Here's some more normal text, for reference. Repeated for to fill ze space: Here's some more normal text, for reference. Repeated for to fill ze space: Here's some more normal text, for reference. ",
             "href": null
           }
         ]
@@ -716,18 +574,18 @@ This is an empty quote with one  text child and one empty text child.
     },
     {
       "object": "block",
-      "id": "0277e588-66f3-42ca-911d-07bf319779ef",
-      "created_time": "2021-10-31T03:14:00.000Z",
-      "last_edited_time": "2021-10-31T06:23:00.000Z",
+      "id": "3bf9da91-ada1-44da-8bc3-626538f67bec",
+      "created_time": "2021-10-31T06:27:00.000Z",
+      "last_edited_time": "2021-10-31T09:54:00.000Z",
       "has_children": true,
       "archived": false,
-      "type": "quote",
-      "quote": {
+      "type": "callout",
+      "callout": {
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "notion2svelte",
+              "content": "This callout has an orange background (not available via the API as of this writing), ",
               "link": null
             },
             "annotations": {
@@ -735,16 +593,33 @@ This is an empty quote with one  text child and one empty text child.
               "italic": false,
               "strikethrough": false,
               "underline": false,
-              "code": true,
+              "code": false,
               "color": "default"
             },
-            "plain_text": "notion2svelte",
+            "plain_text": "This callout has an orange background (not available via the API as of this writing), ",
             "href": null
           },
           {
             "type": "text",
             "text": {
-              "content": " lets us style the first quote block separately from the others. Not sure whether that's worth keeping, but I'll check it in for now.",
+              "content": "colored text",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "red"
+            },
+            "plain_text": "colored text",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", and children…",
               "link": null
             },
             "annotations": {
@@ -755,29 +630,21 @@ This is an empty quote with one  text child and one empty text child.
               "code": false,
               "color": "default"
             },
-            "plain_text": " lets us style the first quote block separately from the others. Not sure whether that's worth keeping, but I'll check it in for now.",
+            "plain_text": ", and children…",
             "href": null
           }
-        ]
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "🦥"
+        }
       },
       "blocks": [
         {
           "object": "block",
-          "id": "c48af9fa-2111-492f-996e-c6cd413e1037",
-          "created_time": "2021-10-31T06:14:00.000Z",
-          "last_edited_time": "2021-10-31T06:14:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": []
-          }
-        },
-        {
-          "object": "block",
-          "id": "1f00d8c4-0b85-438f-b48a-4acbf94a07bc",
-          "created_time": "2021-10-31T03:15:00.000Z",
-          "last_edited_time": "2021-10-31T06:14:00.000Z",
+          "id": "6126c5b4-cbf8-4499-8d7f-c22807d02721",
+          "created_time": "2021-10-31T06:29:00.000Z",
+          "last_edited_time": "2021-10-31T06:29:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "paragraph",
@@ -786,7 +653,7 @@ This is an empty quote with one  text child and one empty text child.
               {
                 "type": "text",
                 "text": {
-                  "content": "\"Eat it, I say!\"",
+                  "content": "…like this",
                   "link": null
                 },
                 "annotations": {
@@ -797,7 +664,7 @@ This is an empty quote with one  text child and one empty text child.
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "\"Eat it, I say!\"",
+                "plain_text": "…like this",
                 "href": null
               }
             ]
@@ -805,18 +672,18 @@ This is an empty quote with one  text child and one empty text child.
         },
         {
           "object": "block",
-          "id": "7958b9a7-9a7e-40fe-beb5-abf869413870",
-          "created_time": "2021-10-31T03:28:00.000Z",
-          "last_edited_time": "2021-10-31T06:14:00.000Z",
+          "id": "bc195d52-f3c3-42e3-9e97-385603c1470f",
+          "created_time": "2021-10-31T06:29:00.000Z",
+          "last_edited_time": "2021-10-31T06:29:00.000Z",
           "has_children": false,
           "archived": false,
-          "type": "paragraph",
-          "paragraph": {
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
             "text": [
               {
                 "type": "text",
                 "text": {
-                  "content": "'and is it on single quotes, too?'",
+                  "content": "and this",
                   "link": null
                 },
                 "annotations": {
@@ -827,7 +694,7 @@ This is an empty quote with one  text child and one empty text child.
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "'and is it on single quotes, too?'",
+                "plain_text": "and this",
                 "href": null
               }
             ]
@@ -835,18 +702,18 @@ This is an empty quote with one  text child and one empty text child.
         },
         {
           "object": "block",
-          "id": "fb660a97-8d09-495f-905f-24cfcdbdfce0",
-          "created_time": "2021-10-31T03:17:00.000Z",
-          "last_edited_time": "2021-10-31T06:14:00.000Z",
+          "id": "7f231e02-eaa9-4baf-8606-ffe43e8dc639",
+          "created_time": "2021-10-31T06:29:00.000Z",
+          "last_edited_time": "2021-10-31T06:29:00.000Z",
           "has_children": false,
           "archived": false,
-          "type": "paragraph",
-          "paragraph": {
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
             "text": [
               {
                 "type": "text",
                 "text": {
-                  "content": "                                —Sumbuddy's Dadduh",
+                  "content": "and this",
                   "link": null
                 },
                 "annotations": {
@@ -857,7 +724,7 @@ This is an empty quote with one  text child and one empty text child.
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "                                —Sumbuddy's Dadduh",
+                "plain_text": "and this",
                 "href": null
               }
             ]
@@ -865,85 +732,9 @@ This is an empty quote with one  text child and one empty text child.
         },
         {
           "object": "block",
-          "id": "01ccd7e1-2852-4a15-9a1d-fe3beafb34f7",
-          "created_time": "2021-10-31T06:14:00.000Z",
-          "last_edited_time": "2021-10-31T06:14:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": []
-          }
-        },
-        {
-          "object": "block",
-          "id": "c30807cf-c23f-48a2-a757-776bb9206d6b",
-          "created_time": "2021-10-31T05:38:00.000Z",
-          "last_edited_time": "2021-10-31T06:20:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "quote",
-          "quote": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "Wait. Notion (and ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Wait. Notion (and ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "notion2svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": true,
-                  "color": "default"
-                },
-                "plain_text": "notion2svelte",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " can nest a quote inside a quote??? Not that I have anything useful to say in this quote. I just want to have a long enough run of text to see the effects of text-align-last on a multi-line element.",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " can nest a quote inside a quote??? Not that I have anything useful to say in this quote. I just want to have a long enough run of text to see the effects of text-align-last on a multi-line element.",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "1ca5a107-1443-4c25-87f7-75fda4687f78",
-          "created_time": "2021-10-31T05:39:00.000Z",
-          "last_edited_time": "2021-10-31T06:16:00.000Z",
+          "id": "d2076c78-1038-4d47-b395-bc3c49294822",
+          "created_time": "2021-10-31T06:29:00.000Z",
+          "last_edited_time": "2021-10-31T06:29:00.000Z",
           "has_children": true,
           "archived": false,
           "type": "toggle",
@@ -952,7 +743,7 @@ This is an empty quote with one  text child and one empty text child.
               {
                 "type": "text",
                 "text": {
-                  "content": "And even a quote",
+                  "content": "Oh, and also…",
                   "link": null
                 },
                 "annotations": {
@@ -963,7 +754,7 @@ This is an empty quote with one  text child and one empty text child.
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "And even a quote",
+                "plain_text": "Oh, and also…",
                 "href": null
               }
             ]
@@ -971,18 +762,18 @@ This is an empty quote with one  text child and one empty text child.
           "blocks": [
             {
               "object": "block",
-              "id": "458db28b-d2d2-47bd-8a06-93ad02e5ea33",
-              "created_time": "2021-10-31T05:39:00.000Z",
-              "last_edited_time": "2021-10-31T05:39:00.000Z",
+              "id": "1eeb9632-86e1-4b1a-93b3-de4011ea858d",
+              "created_time": "2021-10-31T06:29:00.000Z",
+              "last_edited_time": "2021-10-31T09:53:00.000Z",
               "has_children": false,
               "archived": false,
-              "type": "quote",
-              "quote": {
+              "type": "callout",
+              "callout": {
                 "text": [
                   {
                     "type": "text",
                     "text": {
-                      "content": "inside a toggle?",
+                      "content": "Here's a nested callout with a sea otter",
                       "link": null
                     },
                     "annotations": {
@@ -993,40 +784,14 @@ This is an empty quote with one  text child and one empty text child.
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "inside a toggle?",
+                    "plain_text": "Here's a nested callout with a sea otter",
                     "href": null
                   }
-                ]
-              }
-            },
-            {
-              "object": "block",
-              "id": "58d7f41d-0afa-4bac-a265-81a6f95e83ab",
-              "created_time": "2021-10-31T05:39:00.000Z",
-              "last_edited_time": "2021-10-31T05:40:00.000Z",
-              "has_children": false,
-              "archived": false,
-              "type": "heading_1",
-              "heading_1": {
-                "text": [
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": "Quazy!",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": false,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "default"
-                    },
-                    "plain_text": "Quazy!",
-                    "href": null
-                  }
-                ]
+                ],
+                "icon": {
+                  "type": "emoji",
+                  "emoji": "🦦"
+                }
               }
             }
           ]
@@ -1035,9 +800,9 @@ This is an empty quote with one  text child and one empty text child.
     },
     {
       "object": "block",
-      "id": "21e62933-b367-4a79-9eec-e4e6aa38cd9d",
-      "created_time": "2021-10-31T06:16:00.000Z",
-      "last_edited_time": "2021-10-31T06:16:00.000Z",
+      "id": "e00f1793-4602-4a08-b0a3-60709be28e71",
+      "created_time": "2021-10-31T06:27:00.000Z",
+      "last_edited_time": "2021-10-31T06:29:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1047,59 +812,15 @@ This is an empty quote with one  text child and one empty text child.
     },
     {
       "object": "block",
-      "id": "3a0f4c62-98ba-4a57-8ef6-f2ef06a1c567",
-      "created_time": "2021-10-31T06:16:00.000Z",
-      "last_edited_time": "2021-10-31T06:16:00.000Z",
-      "has_children": true,
+      "id": "60abf1cb-64c1-4bd4-a0c4-919c8d7fd64c",
+      "created_time": "2021-10-31T06:29:00.000Z",
+      "last_edited_time": "2021-10-31T06:29:00.000Z",
+      "has_children": false,
       "archived": false,
-      "type": "quote",
-      "quote": {
+      "type": "paragraph",
+      "paragraph": {
         "text": []
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "19aad121-a9c0-456f-bf36-465527c76ab6",
-          "created_time": "2021-10-31T06:16:00.000Z",
-          "last_edited_time": "2021-10-31T06:16:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "This is an empty quote with one  text child and one empty text child.",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "This is an empty quote with one  text child and one empty text child.",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "46aa2755-e2cd-4761-87b9-e210840510f8",
-          "created_time": "2021-10-31T06:16:00.000Z",
-          "last_edited_time": "2021-10-31T06:16:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": []
-          }
-        }
-      ]
+      }
     }
   ]
 }, null, 2)}</pre>
