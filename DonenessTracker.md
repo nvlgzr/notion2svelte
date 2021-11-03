@@ -10,15 +10,6 @@ status: in progress, render: true
 
 Add support for…
 
-- PageCover (cover photo & icon)
-  `page.cover.type` → `page.cover.external.url` ✅
-  → page.cover is null
-  "(only type of "external" is supported currently)"
-  `page.icon.type` → `page.icon.emoji` ✅
-  → `page.icon.file.url` (includes expiry_time…which I don't currently need)
-  → `page.icon.external.url`
-  → page.icon is null
-
 - Sub-pages
 
 - Question: Do all block types currently support children correctly???

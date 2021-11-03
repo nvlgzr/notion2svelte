@@ -1,7 +1,7 @@
 <svelte:head>
-  <title>Cover with Emoji Icon</title>
+  <title>No Cover or Icon</title>
 </svelte:head><script>
-  import PageCover from "$lib/notion2svelte/PageCover.svelte"
+  import Cover from "$lib/notion2svelte/Cover.svelte"
   import Title from "$lib/notion2svelte/Title.svelte"
   import BulletedListItem from "$lib/notion2svelte/BulletedListItem.svelte"
   import Callout from "$lib/notion2svelte/Callout.svelte"
@@ -17,81 +17,26 @@
 
   let curtainDrawn = false
 </script>
-  <PageCover coverURL={"https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"} iconEmoji={"🦦"} />
-  <Title>Cover with Emoji Icon</Title>
+  
+  <Title>No Cover or Icon</Title>
 
 
 
 <button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by @nvlgzr/notion2svelte 1.0.0 𒅒</button>
 
 {#if !curtainDrawn }
-  <h1>Sea Otters!</h1>
-
-<br style="display:none;"/>
-<Divider />
-
-<br style="display:none;"/>
-
+  
 {:else }
   <h1>Blocks</h1>
-  <pre>{JSON.stringify([
-  {
-    "object": "block",
-    "id": "93a1b2f8-30b8-475b-b72a-b412b6580341",
-    "created_time": "2021-11-01T20:40:00.000Z",
-    "last_edited_time": "2021-11-01T20:40:00.000Z",
-    "has_children": false,
-    "archived": false,
-    "type": "heading_1",
-    "heading_1": {
-      "text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Sea Otters!",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Sea Otters!",
-          "href": null
-        }
-      ]
-    }
-  },
-  {
-    "object": "block",
-    "id": "48ef9c4a-966b-4237-b176-7fd509673cd0",
-    "created_time": "2021-11-01T20:40:00.000Z",
-    "last_edited_time": "2021-11-01T20:40:00.000Z",
-    "has_children": false,
-    "archived": false,
-    "type": "divider",
-    "divider": {}
-  }
-], null, 2)}</pre>
+  <pre>{JSON.stringify([], null, 2)}</pre>
   <h1>Page</h1>
   <pre>{JSON.stringify({
   "object": "page",
-  "id": "ddc1044b-b946-4de8-89f5-ec771d11276e",
-  "created_time": "2021-11-01T20:39:00.000Z",
-  "last_edited_time": "2021-11-01T20:40:00.000Z",
-  "cover": {
-    "type": "external",
-    "external": {
-      "url": "https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
-    }
-  },
-  "icon": {
-    "type": "emoji",
-    "emoji": "🦦"
-  },
+  "id": "0d4052f9-522e-4c1f-b915-2ee4d54c7bdb",
+  "created_time": "2021-11-03T07:58:00.000Z",
+  "last_edited_time": "2021-11-03T08:04:00.000Z",
+  "cover": null,
+  "icon": null,
   "parent": {
     "type": "database_id",
     "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
@@ -105,7 +50,7 @@
         {
           "type": "text",
           "text": {
-            "content": "cover",
+            "content": "no-cover",
             "link": null
           },
           "annotations": {
@@ -116,7 +61,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "cover",
+          "plain_text": "no-cover",
           "href": null
         }
       ]
@@ -142,7 +87,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Cover with Emoji Icon",
+            "content": "No Cover or Icon",
             "link": null
           },
           "annotations": {
@@ -153,55 +98,14 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Cover with Emoji Icon",
+          "plain_text": "No Cover or Icon",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/Cover-with-Emoji-Icon-ddc1044bb9464de889f5ec771d11276e",
-  "blocks": [
-    {
-      "object": "block",
-      "id": "93a1b2f8-30b8-475b-b72a-b412b6580341",
-      "created_time": "2021-11-01T20:40:00.000Z",
-      "last_edited_time": "2021-11-01T20:40:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Sea Otters!",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Sea Otters!",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "48ef9c4a-966b-4237-b176-7fd509673cd0",
-      "created_time": "2021-11-01T20:40:00.000Z",
-      "last_edited_time": "2021-11-01T20:40:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "divider",
-      "divider": {}
-    }
-  ]
+  "url": "https://www.notion.so/No-Cover-or-Icon-0d4052f9522e4c1fb9152ee4d54c7bdb",
+  "blocks": []
 }, null, 2)}</pre>
 {/if}
   
