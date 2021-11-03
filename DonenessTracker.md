@@ -8,15 +8,13 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-Add support for…
-
-- Sub-pages
-
-- Question: Do all block types currently support children correctly???
+- Implement internal links
+  - Sub-pages
+  - Links to Notion pages (in publishing db)
+  - Links to Notion pages (outside publishing db)
+  - @links
 - Notion API Explorer: hover over a block to see its JSON.
 - Duplicate barebones leveluptuts blog index page
-- Implement internal links
-- Implement child_page blocks (currently, notion2svelte is rendering sub-pages inline!)
 - Add config for custom component names so that naming conflicts can be avoided.
 
 # Icebox
@@ -31,3 +29,5 @@ Add support for…
 - Add password-based Admin mode with links back to Notion pages
   - MVP: security through obscurity -> type secret into the void to magically toggle
   - Later: Add actual Auth^2, but still with no affordances
+- Add support for Sub-pages
+  - Implement child_page blocks (currently, notion2svelte is rendering sub-pages inline!) (← I haven't recently validated this statement, so…caveat lector)

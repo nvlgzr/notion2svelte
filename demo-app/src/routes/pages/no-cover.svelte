@@ -18,8 +18,7 @@
 
 <svelte:head>
 	<title>No Cover or Icon</title>
-</svelte:head>null
-<Title>No Cover or Icon</Title>
+</svelte:head><Title>No Cover or Icon</Title>
 
 <button on:click={() => (curtainDrawn = !curtainDrawn)}
 	>𒅒 Brought to you by @nvlgzr/notion2svelte 1.0.0 𒅒</button
@@ -33,7 +32,7 @@
   "object": "page",
   "id": "0d4052f9-522e-4c1f-b915-2ee4d54c7bdb",
   "created_time": "2021-11-03T07:58:00.000Z",
-  "last_edited_time": "2021-11-03T07:58:00.000Z",
+  "last_edited_time": "2021-11-04T23:47:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {

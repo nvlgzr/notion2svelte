@@ -1,11 +1,15 @@
 <script>
+	import Cover from '$lib/notion2svelte/Cover.svelte';
+	import Title from '$lib/notion2svelte/Title.svelte';
 	import BulletedListItem from '$lib/notion2svelte/BulletedListItem.svelte';
+	import Callout from '$lib/notion2svelte/Callout.svelte';
+	import Divider from '$lib/notion2svelte/Divider.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
 	import NumberedListItem from '$lib/notion2svelte/NumberedListItem.svelte';
-	import Title from '$lib/notion2svelte/Title.svelte';
+	import Quote from '$lib/notion2svelte/Quote.svelte';
 	import TodoItem from '$lib/notion2svelte/TodoItem.svelte';
 	import Toggle from '$lib/notion2svelte/Toggle.svelte';
 
@@ -14,35 +18,18 @@
 
 <svelte:head>
 	<title>Test Page w/Some Bells and Whistles 🎉</title>
-</svelte:head><Title>Test Page w/Some Bells and Whistles 🎉</Title>
+</svelte:head><Cover
+	coverURL={'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'}
+	iconEmojiOrURL={'🦦'}
+/>
+<Title>Test Page w/Some Bells and Whistles 🎉</Title>
 
 <button on:click={() => (curtainDrawn = !curtainDrawn)}
-	>𒅒 Brought to you by undefined undefined 𒅒</button
+	>𒅒 Brought to you by @nvlgzr/notion2svelte 1.0.0 𒅒</button
 >
 
 {#if !curtainDrawn}
-	<div>
-		*Except images. Until I work out how to extract images from their Amazon+Notion vault, they'll
-		keep changing URLs every time&thinsp;<InlineCode>notion2svelte</InlineCode>&thinsp;runs! That's
-		slowing me down at the moment, so images will instead go here:
-	</div>
-
-	<br style="display:none;" />
-	child_page<IndentGroup>
-		<Image
-			url="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T050926Z&X-Amz-Expires=3600&X-Amz-Signature=d9ee7861e21ee054efd9bfc65f69e011f63b717360f6968b946818f0735ece1a&X-Amz-SignedHeaders=host"
-			caption="Obsolescence"
-		/>
-		<div>↓ image block</div>
-		<Image
-			url="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T050926Z&X-Amz-Expires=3600&X-Amz-Signature=d82e515a3d9758e6d07a06ed9d9d9e207cc2c4aeb6c880807947059cffd706e1&X-Amz-SignedHeaders=host"
-			caption="Aphid Caption"
-		/>
-		<Image
-			url="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T050926Z&X-Amz-Expires=3600&X-Amz-Signature=d82e515a3d9758e6d07a06ed9d9d9e207cc2c4aeb6c880807947059cffd706e1&X-Amz-SignedHeaders=host"
-			caption="I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first"
-		/>
-	</IndentGroup>
+	<Divider />
 
 	<br style="display:none;" />
 	<h1>Here's some paragraphs about some stuff</h1>
@@ -52,6 +39,17 @@
 		<em>(Mostly penguins)</em>
 	</div>
 
+	<br style="display:none;" />
+	<Callout emoji="💡"
+		>I guess callouts just have to be treated as comments?<span slot="children"
+			><div>
+				At any rate, the "lorem" paragraphs below about penguins come, fwiw, from&thinsp;<a
+					href="https://www.boom-online.co.uk/lorem-ipsum/##results"
+					>https://www.boom-online.co.uk/lorem-ipsum/##results</a
+				>.
+			</div>
+		</span></Callout
+	>
 	<br style="display:none;" />
 	<div>
 		Link to another&thinsp;<a href="/816f31ee96514a398960841d33a9f2d4">Notion page</a>
@@ -130,14 +128,48 @@
 	<div />
 
 	<br style="display:none;" />
-	<h1>This is a header size 1</h1>
+	<Divider />
+
+	<br style="display:none;" />
+	<h1>This is a header size 1&thinsp;<em>with formatting</em></h1>
 
 	<br style="display:none;" />
 	<h2>Header size 2</h2>
 
 	<br style="display:none;" />
+	<Image url="/images/bells-and-whistles/c877cf0a-9681-4e15-a321-bdd5c5bfce1f.jpg"
+		>Captions, too, can inclue&thinsp;<em>italics</em>,&thinsp;<strong>bold</strong>,&thinsp;<s
+			>strikethrough</s
+		>,&thinsp;<InlineCode>code</InlineCode>,&thinsp;<InlineColor value="red"
+			><strong>c</strong></InlineColor
+		><InlineColor value="orange"><strong>o</strong></InlineColor><InlineColor value="yellow"
+			><strong>l</strong></InlineColor
+		><InlineColor value="green"><strong>o</strong></InlineColor><InlineColor value="blue"
+			><strong>r</strong></InlineColor
+		><InlineColor value="purple"><strong>s</strong></InlineColor>, and&thinsp;<a
+			href="https://ilovelife.com">links</a
+		></Image
+	>
+
+	<br style="display:none;" />
+	<Image url="/images/bells-and-whistles/2a886060-dcff-46f3-87a1-fa80ea583025.jpg"
+		>From unsplash</Image
+	>
+
+	<br style="display:none;" />
+	<Image url="/images/bells-and-whistles/655a2330-d9fa-427c-b592-152d547c94c5.jpg"
+		>cresting orca</Image
+	>
+
+	<br style="display:none;" />
 	<h3>h3</h3>
 
+	<br style="display:none;" />
+	<Callout emoji="☣️"
+		>*Note: the title has more than one element because I bolded the asterisk<span slot="children"
+			><BulletedListItem>"This callout has two sub-blocks, btw"</BulletedListItem>
+		</span></Callout
+	>
 	<br style="display:none;" />
 	<TodoItem checked={false}>"I should finish this"</TodoItem>
 
@@ -160,7 +192,9 @@
 
 	<br style="display:none;" />
 	<Toggle
-		>Toggle label soft return!
+		>Toggle label
+		<br />
+		soft return!
 		<span slot="children"
 			><div>Toggle contents</div>
 			<div>More toggle contents</div>
@@ -182,17 +216,23 @@
 	</IndentGroup>
 
 	<br style="display:none;" />
-	<NumberedListItem>"This is a&thinsp;<InlineCode>numbered_list_item</InlineCode>"</NumberedListItem
+	<NumberedListItem number="1">
+		This is a&thinsp;<InlineCode>numbered_list_item</InlineCode></NumberedListItem
 	>
 
 	<br style="display:none;" />
-	<NumberedListItem>"What numbered item is this? 1 or 2? (hint: it's 2)"</NumberedListItem>
+	<NumberedListItem number="2">What numbered item is this? 1 or 2? (hint: it's 2)</NumberedListItem>
 
 	<br style="display:none;" />
-	<NumberedListItem>"Good thing (because it's number 3"</NumberedListItem>
+	<NumberedListItem number="3">Good thing (because it's number 3</NumberedListItem>
 
 	<br style="display:none;" />
-	<div>↑ Dividers are not supported :(</div>
+	<Quote>Why aren't quotes supported? This is insane?</Quote>
+	<br style="display:none;" />
+	<Divider />
+
+	<br style="display:none;" />
+	<div>↑ Dividers are now supported! 8D</div>
 
 	<br style="display:none;" />
 	<div>↑ Whole-block page links are also, I believe, not supported :(</div>
@@ -211,10 +251,53 @@
 	<div>↑ empty block</div>
 
 	<br style="display:none;" />
+	<div />
+
+	<br style="display:none;" />
+	<div>
+		Whoa. Check it out. Sub-pages are currently have their children rendered inline, which is why
+		Images Sub-Page isn't shown here, but instead we see its images, indented ↓!
+	</div>
+
+	<br style="display:none;" />
+	child_page<IndentGroup>
+		<Image url="/images/bells-and-whistles/f3cee0d8-b99c-4bb0-8004-ebf84e83c165.jpg"
+			>Obsolescence</Image
+		>
+		<div>↓ image block</div>
+		<Image url="/images/bells-and-whistles/e639ccd6-3a44-43cb-a020-b1bd52454a19.jpg"
+			>Aphid Caption</Image
+		>
+		<Image url="/images/bells-and-whistles/b27dd7c2-235a-482a-af83-80595baeebae.jpg"
+			>I'm guessing presentation sizing info isn't part of images. This one's identical to-, but
+			presented smaller than-, the first</Image
+		>
+	</IndentGroup>
+
+	<br style="display:none;" />
 	<h1>Synced Blocks</h1>
 
 	<br style="display:none;" />
 	<h1>3 Columns</h1>
+
+	<br style="display:none;" />
+	column_list<IndentGroup>
+		column<IndentGroup>
+			<div>
+				I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?
+			</div>
+		</IndentGroup>
+		column<IndentGroup>
+			<div>
+				I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?
+			</div>
+		</IndentGroup>
+		column<IndentGroup>
+			<div>
+				I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?
+			</div>
+		</IndentGroup>
+	</IndentGroup>
 
 	<br style="display:none;" />
 {:else}
@@ -222,222 +305,19 @@
 	<pre>{JSON.stringify([
   {
     "object": "block",
-    "id": "6b5c0bda-d1ae-4fc2-b4b6-468d05d9f19c",
-    "created_time": "2021-09-20T23:34:00.000Z",
-    "last_edited_time": "2021-09-20T23:37:00.000Z",
+    "id": "8d749953-c2f4-4314-be4b-8b9d68b4b69c",
+    "created_time": "2021-11-01T03:00:00.000Z",
+    "last_edited_time": "2021-11-01T03:03:00.000Z",
     "has_children": false,
     "archived": false,
-    "type": "paragraph",
-    "paragraph": {
-      "text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "*Except images. Until I work out how to extract images from their Amazon+Notion vault, they'll keep changing URLs every time ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "*Except images. Until I work out how to extract images from their Amazon+Notion vault, they'll keep changing URLs every time ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "notion2svelte",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "notion2svelte",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " runs! That's slowing me down at the moment, so images will instead go here:",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " runs! That's slowing me down at the moment, so images will instead go here:",
-          "href": null
-        }
-      ]
-    }
-  },
-  {
-    "object": "block",
-    "id": "b9d69a79-0544-4908-b449-cdba8550df08",
-    "created_time": "2021-09-20T23:35:00.000Z",
-    "last_edited_time": "2021-09-20T23:40:00.000Z",
-    "has_children": true,
-    "archived": false,
-    "type": "child_page",
-    "child_page": {
-      "title": "Images Sub-Page"
-    },
-    "blocks": [
-      {
-        "object": "block",
-        "id": "f3cee0d8-b99c-4bb0-8004-ebf84e83c165",
-        "created_time": "2021-09-20T10:05:00.000Z",
-        "last_edited_time": "2021-09-20T23:36:00.000Z",
-        "has_children": false,
-        "archived": false,
-        "type": "image",
-        "image": {
-          "caption": [
-            {
-              "type": "text",
-              "text": {
-                "content": "Obsolescence",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "Obsolescence",
-              "href": null
-            }
-          ],
-          "type": "file",
-          "file": {
-            "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T050926Z&X-Amz-Expires=3600&X-Amz-Signature=d9ee7861e21ee054efd9bfc65f69e011f63b717360f6968b946818f0735ece1a&X-Amz-SignedHeaders=host",
-            "expiry_time": "2021-09-26T06:09:26.945Z"
-          }
-        }
-      },
-      {
-        "object": "block",
-        "id": "11f72f5f-7152-4eda-835b-0d6e2925efe8",
-        "created_time": "2021-09-20T10:05:00.000Z",
-        "last_edited_time": "2021-09-20T23:40:00.000Z",
-        "has_children": false,
-        "archived": false,
-        "type": "paragraph",
-        "paragraph": {
-          "text": [
-            {
-              "type": "text",
-              "text": {
-                "content": "↓ image block",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "↓ image block",
-              "href": null
-            }
-          ]
-        }
-      },
-      {
-        "object": "block",
-        "id": "e639ccd6-3a44-43cb-a020-b1bd52454a19",
-        "created_time": "2021-09-20T10:05:00.000Z",
-        "last_edited_time": "2021-09-20T23:40:00.000Z",
-        "has_children": false,
-        "archived": false,
-        "type": "image",
-        "image": {
-          "caption": [
-            {
-              "type": "text",
-              "text": {
-                "content": "Aphid Caption",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "Aphid Caption",
-              "href": null
-            }
-          ],
-          "type": "file",
-          "file": {
-            "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T050926Z&X-Amz-Expires=3600&X-Amz-Signature=d82e515a3d9758e6d07a06ed9d9d9e207cc2c4aeb6c880807947059cffd706e1&X-Amz-SignedHeaders=host",
-            "expiry_time": "2021-09-26T06:09:26.944Z"
-          }
-        }
-      },
-      {
-        "object": "block",
-        "id": "b27dd7c2-235a-482a-af83-80595baeebae",
-        "created_time": "2021-09-20T10:05:00.000Z",
-        "last_edited_time": "2021-09-20T23:40:00.000Z",
-        "has_children": false,
-        "archived": false,
-        "type": "image",
-        "image": {
-          "caption": [
-            {
-              "type": "text",
-              "text": {
-                "content": "I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
-                "link": null
-              },
-              "annotations": {
-                "bold": false,
-                "italic": false,
-                "strikethrough": false,
-                "underline": false,
-                "code": false,
-                "color": "default"
-              },
-              "plain_text": "I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
-              "href": null
-            }
-          ],
-          "type": "file",
-          "file": {
-            "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T050926Z&X-Amz-Expires=3600&X-Amz-Signature=d82e515a3d9758e6d07a06ed9d9d9e207cc2c4aeb6c880807947059cffd706e1&X-Amz-SignedHeaders=host",
-            "expiry_time": "2021-09-26T06:09:26.945Z"
-          }
-        }
-      }
-    ]
+    "type": "divider",
+    "divider": {}
   },
   {
     "object": "block",
     "id": "1aca2b38-169f-412f-93d6-81dd6b59b19b",
     "created_time": "2021-09-20T10:05:00.000Z",
-    "last_edited_time": "2021-09-20T23:36:00.000Z",
+    "last_edited_time": "2021-11-01T03:44:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "heading_1",
@@ -497,11 +377,35 @@
     "object": "block",
     "id": "f862ec49-86ca-440d-9c96-abbf21a79225",
     "created_time": "2021-09-20T10:05:00.000Z",
-    "last_edited_time": "2021-09-20T10:11:00.000Z",
+    "last_edited_time": "2021-11-01T03:44:00.000Z",
     "has_children": true,
     "archived": false,
-    "type": "unsupported",
-    "unsupported": {},
+    "type": "callout",
+    "callout": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I guess callouts just have to be treated as comments?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I guess callouts just have to be treated as comments?",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      }
+    },
     "blocks": [
       {
         "object": "block",
@@ -1513,14 +1417,14 @@
     "last_edited_time": "2021-09-20T10:05:00.000Z",
     "has_children": false,
     "archived": false,
-    "type": "unsupported",
-    "unsupported": {}
+    "type": "divider",
+    "divider": {}
   },
   {
     "object": "block",
     "id": "f71d7859-80a6-4179-af1c-9bcdae9ba72c",
     "created_time": "2021-09-20T10:05:00.000Z",
-    "last_edited_time": "2021-09-20T10:05:00.000Z",
+    "last_edited_time": "2021-09-28T10:00:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "heading_1",
@@ -1529,7 +1433,7 @@
         {
           "type": "text",
           "text": {
-            "content": "This is a header size 1",
+            "content": "This is a header size 1 ",
             "link": null
           },
           "annotations": {
@@ -1540,7 +1444,24 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "This is a header size 1",
+          "plain_text": "This is a header size 1 ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "with formatting",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "with formatting",
           "href": null
         }
       ]
@@ -1574,6 +1495,384 @@
           "href": null
         }
       ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "c877cf0a-9681-4e15-a321-bdd5c5bfce1f",
+    "created_time": "2021-09-28T09:06:00.000Z",
+    "last_edited_time": "2021-09-28T09:09:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "image",
+    "image": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Captions, too, can inclue ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Captions, too, can inclue ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "italics",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "italics",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "bold",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "bold",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "strikethrough",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": true,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "strikethrough",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "code",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "code",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "c",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "red"
+          },
+          "plain_text": "c",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "o",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "orange"
+          },
+          "plain_text": "o",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "l",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "yellow"
+          },
+          "plain_text": "l",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "o",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "green"
+          },
+          "plain_text": "o",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "r",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "blue"
+          },
+          "plain_text": "r",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "s",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "purple"
+          },
+          "plain_text": "s",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", and ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", and ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "links",
+            "link": {
+              "url": "https://ilovelife.com"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "links",
+          "href": "https://ilovelife.com"
+        }
+      ],
+      "type": "file",
+      "file": {
+        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T232200Z&X-Amz-Expires=3600&X-Amz-Signature=743553480bdd9231db289ad5354ab956b777b103e4c5d81267df055b9910ac5a&X-Amz-SignedHeaders=host",
+        "expiry_time": "2021-11-05T00:22:00.224Z"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "2a886060-dcff-46f3-87a1-fa80ea583025",
+    "created_time": "2021-09-28T09:06:00.000Z",
+    "last_edited_time": "2021-09-28T09:06:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "image",
+    "image": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "From unsplash",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "From unsplash",
+          "href": null
+        }
+      ],
+      "type": "external",
+      "external": {
+        "url": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "655a2330-d9fa-427c-b592-152d547c94c5",
+    "created_time": "2021-09-28T09:06:00.000Z",
+    "last_edited_time": "2021-09-28T09:06:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "image",
+    "image": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "cresting orca",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "cresting orca",
+          "href": null
+        }
+      ],
+      "type": "file",
+      "file": {
+        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T232200Z&X-Amz-Expires=3600&X-Amz-Signature=7a5c3af98f6a0eddc6b7c5dae8180be4274f3d507d967877246a4c87f12798b5&X-Amz-SignedHeaders=host",
+        "expiry_time": "2021-11-05T00:22:00.236Z"
+      }
     }
   },
   {
@@ -1613,8 +1912,32 @@
     "last_edited_time": "2021-09-20T10:05:00.000Z",
     "has_children": true,
     "archived": false,
-    "type": "unsupported",
-    "unsupported": {},
+    "type": "callout",
+    "callout": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "*Note: the title has more than one element because I bolded the asterisk",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "*Note: the title has more than one element because I bolded the asterisk",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "☣️"
+      }
+    },
     "blocks": [
       {
         "object": "block",
@@ -2202,33 +2525,13 @@
     "last_edited_time": "2021-09-20T10:05:00.000Z",
     "has_children": false,
     "archived": false,
-    "type": "unsupported",
-    "unsupported": {}
-  },
-  {
-    "object": "block",
-    "id": "a0fa14c9-a200-4527-b8ad-9798f88ac13c",
-    "created_time": "2021-09-20T10:05:00.000Z",
-    "last_edited_time": "2021-09-20T10:05:00.000Z",
-    "has_children": false,
-    "archived": false,
-    "type": "unsupported",
-    "unsupported": {}
-  },
-  {
-    "object": "block",
-    "id": "38fe9223-4636-45f9-a0c9-fdff7cbbb779",
-    "created_time": "2021-09-20T10:05:00.000Z",
-    "last_edited_time": "2021-09-20T10:05:00.000Z",
-    "has_children": false,
-    "archived": false,
-    "type": "paragraph",
-    "paragraph": {
+    "type": "quote",
+    "quote": {
       "text": [
         {
           "type": "text",
           "text": {
-            "content": "↑ Dividers are not supported :(",
+            "content": "Why aren't quotes supported? This is insane?",
             "link": null
           },
           "annotations": {
@@ -2239,7 +2542,47 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "↑ Dividers are not supported :(",
+          "plain_text": "Why aren't quotes supported? This is insane?",
+          "href": null
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "a0fa14c9-a200-4527-b8ad-9798f88ac13c",
+    "created_time": "2021-09-20T10:05:00.000Z",
+    "last_edited_time": "2021-09-20T10:05:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "38fe9223-4636-45f9-a0c9-fdff7cbbb779",
+    "created_time": "2021-09-20T10:05:00.000Z",
+    "last_edited_time": "2021-10-31T10:06:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "↑ Dividers are now supported! 8D",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "↑ Dividers are now supported! 8D",
           "href": null
         }
       ]
@@ -2426,6 +2769,197 @@
   },
   {
     "object": "block",
+    "id": "c546e0f9-0595-4799-a1e0-f9972e455b38",
+    "created_time": "2021-09-28T09:06:00.000Z",
+    "last_edited_time": "2021-09-28T09:06:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": []
+    }
+  },
+  {
+    "object": "block",
+    "id": "6b5c0bda-d1ae-4fc2-b4b6-468d05d9f19c",
+    "created_time": "2021-09-20T23:34:00.000Z",
+    "last_edited_time": "2021-09-28T09:06:00.000Z",
+    "has_children": false,
+    "archived": false,
+    "type": "paragraph",
+    "paragraph": {
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Whoa. Check it out. Sub-pages are currently have their children rendered inline, which is why Images Sub-Page isn't shown here, but instead we see its images, indented ↓!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Whoa. Check it out. Sub-pages are currently have their children rendered inline, which is why Images Sub-Page isn't shown here, but instead we see its images, indented ↓!",
+          "href": null
+        }
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "b9d69a79-0544-4908-b449-cdba8550df08",
+    "created_time": "2021-09-20T23:35:00.000Z",
+    "last_edited_time": "2021-09-28T09:06:00.000Z",
+    "has_children": true,
+    "archived": false,
+    "type": "child_page",
+    "child_page": {
+      "title": "Images Sub-Page"
+    },
+    "blocks": [
+      {
+        "object": "block",
+        "id": "f3cee0d8-b99c-4bb0-8004-ebf84e83c165",
+        "created_time": "2021-09-20T10:05:00.000Z",
+        "last_edited_time": "2021-09-20T23:36:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "type": "image",
+        "image": {
+          "caption": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Obsolescence",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Obsolescence",
+              "href": null
+            }
+          ],
+          "type": "file",
+          "file": {
+            "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T232200Z&X-Amz-Expires=3600&X-Amz-Signature=b985ff94fbdcf7ee0cea88d66b8b44bcc727c99e49711c1ebc28cd9ef2c79747&X-Amz-SignedHeaders=host",
+            "expiry_time": "2021-11-05T00:22:00.435Z"
+          }
+        }
+      },
+      {
+        "object": "block",
+        "id": "11f72f5f-7152-4eda-835b-0d6e2925efe8",
+        "created_time": "2021-09-20T10:05:00.000Z",
+        "last_edited_time": "2021-09-20T23:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "type": "paragraph",
+        "paragraph": {
+          "text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "↓ image block",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "↓ image block",
+              "href": null
+            }
+          ]
+        }
+      },
+      {
+        "object": "block",
+        "id": "e639ccd6-3a44-43cb-a020-b1bd52454a19",
+        "created_time": "2021-09-20T10:05:00.000Z",
+        "last_edited_time": "2021-09-20T23:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "type": "image",
+        "image": {
+          "caption": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Aphid Caption",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Aphid Caption",
+              "href": null
+            }
+          ],
+          "type": "file",
+          "file": {
+            "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T232200Z&X-Amz-Expires=3600&X-Amz-Signature=02f8ddaddc92b74cab8cfe70e1663ad0df848025a7d6556c141344f72818da04&X-Amz-SignedHeaders=host",
+            "expiry_time": "2021-11-05T00:22:00.436Z"
+          }
+        }
+      },
+      {
+        "object": "block",
+        "id": "b27dd7c2-235a-482a-af83-80595baeebae",
+        "created_time": "2021-09-20T10:05:00.000Z",
+        "last_edited_time": "2021-09-20T23:40:00.000Z",
+        "has_children": false,
+        "archived": false,
+        "type": "image",
+        "image": {
+          "caption": [
+            {
+              "type": "text",
+              "text": {
+                "content": "I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
+              "href": null
+            }
+          ],
+          "type": "file",
+          "file": {
+            "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T232200Z&X-Amz-Expires=3600&X-Amz-Signature=02f8ddaddc92b74cab8cfe70e1663ad0df848025a7d6556c141344f72818da04&X-Amz-SignedHeaders=host",
+            "expiry_time": "2021-11-05T00:22:00.434Z"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "object": "block",
     "id": "43f48af4-5d47-445e-b676-acba023eadd7",
     "created_time": "2021-09-20T10:05:00.000Z",
     "last_edited_time": "2021-09-20T10:05:00.000Z",
@@ -2511,8 +3045,8 @@
     "last_edited_time": "2021-09-20T10:05:00.000Z",
     "has_children": true,
     "archived": false,
-    "type": "unsupported",
-    "unsupported": {},
+    "type": "column_list",
+    "column_list": {},
     "blocks": [
       {
         "object": "block",
@@ -2521,8 +3055,8 @@
         "last_edited_time": "2021-09-20T10:05:00.000Z",
         "has_children": true,
         "archived": false,
-        "type": "unsupported",
-        "unsupported": {},
+        "type": "column",
+        "column": {},
         "blocks": [
           {
             "object": "block",
@@ -2563,8 +3097,8 @@
         "last_edited_time": "2021-09-20T10:05:00.000Z",
         "has_children": true,
         "archived": false,
-        "type": "unsupported",
-        "unsupported": {},
+        "type": "column",
+        "column": {},
         "blocks": [
           {
             "object": "block",
@@ -2605,8 +3139,8 @@
         "last_edited_time": "2021-09-20T10:05:00.000Z",
         "has_children": true,
         "archived": false,
-        "type": "unsupported",
-        "unsupported": {},
+        "type": "column",
+        "column": {},
         "blocks": [
           {
             "object": "block",
@@ -2648,11 +3182,11 @@
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-09-26T02:06:00.000Z",
+  "last_edited_time": "2021-11-04T23:21:00.000Z",
   "cover": {
     "type": "external",
     "external": {
-      "url": "https://images.unsplash.com/photo-1576727298631-92d3ed600ce9?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+      "url": "https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
     }
   },
   "icon": {
@@ -2694,10 +3228,15 @@
       "select": {
         "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
         "name": "Publish me!",
-        "color": "orange"
+        "color": "pink"
       }
     },
-    "Name": {
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
       "id": "title",
       "type": "title",
       "title": [
@@ -2725,222 +3264,19 @@
   "blocks": [
     {
       "object": "block",
-      "id": "6b5c0bda-d1ae-4fc2-b4b6-468d05d9f19c",
-      "created_time": "2021-09-20T23:34:00.000Z",
-      "last_edited_time": "2021-09-20T23:37:00.000Z",
+      "id": "8d749953-c2f4-4314-be4b-8b9d68b4b69c",
+      "created_time": "2021-11-01T03:00:00.000Z",
+      "last_edited_time": "2021-11-01T03:03:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "*Except images. Until I work out how to extract images from their Amazon+Notion vault, they'll keep changing URLs every time ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "*Except images. Until I work out how to extract images from their Amazon+Notion vault, they'll keep changing URLs every time ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " runs! That's slowing me down at the moment, so images will instead go here:",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " runs! That's slowing me down at the moment, so images will instead go here:",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "b9d69a79-0544-4908-b449-cdba8550df08",
-      "created_time": "2021-09-20T23:35:00.000Z",
-      "last_edited_time": "2021-09-20T23:40:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "child_page",
-      "child_page": {
-        "title": "Images Sub-Page"
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "f3cee0d8-b99c-4bb0-8004-ebf84e83c165",
-          "created_time": "2021-09-20T10:05:00.000Z",
-          "last_edited_time": "2021-09-20T23:36:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "image",
-          "image": {
-            "caption": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "Obsolescence",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Obsolescence",
-                "href": null
-              }
-            ],
-            "type": "file",
-            "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T050926Z&X-Amz-Expires=3600&X-Amz-Signature=d9ee7861e21ee054efd9bfc65f69e011f63b717360f6968b946818f0735ece1a&X-Amz-SignedHeaders=host",
-              "expiry_time": "2021-09-26T06:09:26.945Z"
-            }
-          }
-        },
-        {
-          "object": "block",
-          "id": "11f72f5f-7152-4eda-835b-0d6e2925efe8",
-          "created_time": "2021-09-20T10:05:00.000Z",
-          "last_edited_time": "2021-09-20T23:40:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "↓ image block",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "↓ image block",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "e639ccd6-3a44-43cb-a020-b1bd52454a19",
-          "created_time": "2021-09-20T10:05:00.000Z",
-          "last_edited_time": "2021-09-20T23:40:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "image",
-          "image": {
-            "caption": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "Aphid Caption",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Aphid Caption",
-                "href": null
-              }
-            ],
-            "type": "file",
-            "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T050926Z&X-Amz-Expires=3600&X-Amz-Signature=d82e515a3d9758e6d07a06ed9d9d9e207cc2c4aeb6c880807947059cffd706e1&X-Amz-SignedHeaders=host",
-              "expiry_time": "2021-09-26T06:09:26.944Z"
-            }
-          }
-        },
-        {
-          "object": "block",
-          "id": "b27dd7c2-235a-482a-af83-80595baeebae",
-          "created_time": "2021-09-20T10:05:00.000Z",
-          "last_edited_time": "2021-09-20T23:40:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "image",
-          "image": {
-            "caption": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
-                "href": null
-              }
-            ],
-            "type": "file",
-            "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T050926Z&X-Amz-Expires=3600&X-Amz-Signature=d82e515a3d9758e6d07a06ed9d9d9e207cc2c4aeb6c880807947059cffd706e1&X-Amz-SignedHeaders=host",
-              "expiry_time": "2021-09-26T06:09:26.945Z"
-            }
-          }
-        }
-      ]
+      "type": "divider",
+      "divider": {}
     },
     {
       "object": "block",
       "id": "1aca2b38-169f-412f-93d6-81dd6b59b19b",
       "created_time": "2021-09-20T10:05:00.000Z",
-      "last_edited_time": "2021-09-20T23:36:00.000Z",
+      "last_edited_time": "2021-11-01T03:44:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "heading_1",
@@ -3000,11 +3336,35 @@
       "object": "block",
       "id": "f862ec49-86ca-440d-9c96-abbf21a79225",
       "created_time": "2021-09-20T10:05:00.000Z",
-      "last_edited_time": "2021-09-20T10:11:00.000Z",
+      "last_edited_time": "2021-11-01T03:44:00.000Z",
       "has_children": true,
       "archived": false,
-      "type": "unsupported",
-      "unsupported": {},
+      "type": "callout",
+      "callout": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I guess callouts just have to be treated as comments?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I guess callouts just have to be treated as comments?",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
+        }
+      },
       "blocks": [
         {
           "object": "block",
@@ -4016,14 +4376,14 @@
       "last_edited_time": "2021-09-20T10:05:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "unsupported",
-      "unsupported": {}
+      "type": "divider",
+      "divider": {}
     },
     {
       "object": "block",
       "id": "f71d7859-80a6-4179-af1c-9bcdae9ba72c",
       "created_time": "2021-09-20T10:05:00.000Z",
-      "last_edited_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-09-28T10:00:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "heading_1",
@@ -4032,7 +4392,7 @@
           {
             "type": "text",
             "text": {
-              "content": "This is a header size 1",
+              "content": "This is a header size 1 ",
               "link": null
             },
             "annotations": {
@@ -4043,7 +4403,24 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "This is a header size 1",
+            "plain_text": "This is a header size 1 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "with formatting",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "with formatting",
             "href": null
           }
         ]
@@ -4077,6 +4454,384 @@
             "href": null
           }
         ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "c877cf0a-9681-4e15-a321-bdd5c5bfce1f",
+      "created_time": "2021-09-28T09:06:00.000Z",
+      "last_edited_time": "2021-09-28T09:09:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Captions, too, can inclue ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Captions, too, can inclue ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "italics",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "italics",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "bold",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "bold",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "strikethrough",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": true,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "strikethrough",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "code",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "code",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "c",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "red"
+            },
+            "plain_text": "c",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "o",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "orange"
+            },
+            "plain_text": "o",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "l",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "yellow"
+            },
+            "plain_text": "l",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "o",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "o",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "r",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue"
+            },
+            "plain_text": "r",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "s",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "purple"
+            },
+            "plain_text": "s",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", and ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", and ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "links",
+              "link": {
+                "url": "https://ilovelife.com"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "links",
+            "href": "https://ilovelife.com"
+          }
+        ],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T232200Z&X-Amz-Expires=3600&X-Amz-Signature=743553480bdd9231db289ad5354ab956b777b103e4c5d81267df055b9910ac5a&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-05T00:22:00.224Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "2a886060-dcff-46f3-87a1-fa80ea583025",
+      "created_time": "2021-09-28T09:06:00.000Z",
+      "last_edited_time": "2021-09-28T09:06:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "From unsplash",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "From unsplash",
+            "href": null
+          }
+        ],
+        "type": "external",
+        "external": {
+          "url": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "655a2330-d9fa-427c-b592-152d547c94c5",
+      "created_time": "2021-09-28T09:06:00.000Z",
+      "last_edited_time": "2021-09-28T09:06:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "cresting orca",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "cresting orca",
+            "href": null
+          }
+        ],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T232200Z&X-Amz-Expires=3600&X-Amz-Signature=7a5c3af98f6a0eddc6b7c5dae8180be4274f3d507d967877246a4c87f12798b5&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-05T00:22:00.236Z"
+        }
       }
     },
     {
@@ -4116,8 +4871,32 @@
       "last_edited_time": "2021-09-20T10:05:00.000Z",
       "has_children": true,
       "archived": false,
-      "type": "unsupported",
-      "unsupported": {},
+      "type": "callout",
+      "callout": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "*Note: the title has more than one element because I bolded the asterisk",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "*Note: the title has more than one element because I bolded the asterisk",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "☣️"
+        }
+      },
       "blocks": [
         {
           "object": "block",
@@ -4705,33 +5484,13 @@
       "last_edited_time": "2021-09-20T10:05:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "unsupported",
-      "unsupported": {}
-    },
-    {
-      "object": "block",
-      "id": "a0fa14c9-a200-4527-b8ad-9798f88ac13c",
-      "created_time": "2021-09-20T10:05:00.000Z",
-      "last_edited_time": "2021-09-20T10:05:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "unsupported",
-      "unsupported": {}
-    },
-    {
-      "object": "block",
-      "id": "38fe9223-4636-45f9-a0c9-fdff7cbbb779",
-      "created_time": "2021-09-20T10:05:00.000Z",
-      "last_edited_time": "2021-09-20T10:05:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
+      "type": "quote",
+      "quote": {
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "↑ Dividers are not supported :(",
+              "content": "Why aren't quotes supported? This is insane?",
               "link": null
             },
             "annotations": {
@@ -4742,7 +5501,47 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "↑ Dividers are not supported :(",
+            "plain_text": "Why aren't quotes supported? This is insane?",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "a0fa14c9-a200-4527-b8ad-9798f88ac13c",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-09-20T10:05:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "38fe9223-4636-45f9-a0c9-fdff7cbbb779",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-10-31T10:06:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "↑ Dividers are now supported! 8D",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "↑ Dividers are now supported! 8D",
             "href": null
           }
         ]
@@ -4929,6 +5728,197 @@
     },
     {
       "object": "block",
+      "id": "c546e0f9-0595-4799-a1e0-f9972e455b38",
+      "created_time": "2021-09-28T09:06:00.000Z",
+      "last_edited_time": "2021-09-28T09:06:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "6b5c0bda-d1ae-4fc2-b4b6-468d05d9f19c",
+      "created_time": "2021-09-20T23:34:00.000Z",
+      "last_edited_time": "2021-09-28T09:06:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Whoa. Check it out. Sub-pages are currently have their children rendered inline, which is why Images Sub-Page isn't shown here, but instead we see its images, indented ↓!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Whoa. Check it out. Sub-pages are currently have their children rendered inline, which is why Images Sub-Page isn't shown here, but instead we see its images, indented ↓!",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "b9d69a79-0544-4908-b449-cdba8550df08",
+      "created_time": "2021-09-20T23:35:00.000Z",
+      "last_edited_time": "2021-09-28T09:06:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "child_page",
+      "child_page": {
+        "title": "Images Sub-Page"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "f3cee0d8-b99c-4bb0-8004-ebf84e83c165",
+          "created_time": "2021-09-20T10:05:00.000Z",
+          "last_edited_time": "2021-09-20T23:36:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "image",
+          "image": {
+            "caption": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Obsolescence",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Obsolescence",
+                "href": null
+              }
+            ],
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T232200Z&X-Amz-Expires=3600&X-Amz-Signature=b985ff94fbdcf7ee0cea88d66b8b44bcc727c99e49711c1ebc28cd9ef2c79747&X-Amz-SignedHeaders=host",
+              "expiry_time": "2021-11-05T00:22:00.435Z"
+            }
+          }
+        },
+        {
+          "object": "block",
+          "id": "11f72f5f-7152-4eda-835b-0d6e2925efe8",
+          "created_time": "2021-09-20T10:05:00.000Z",
+          "last_edited_time": "2021-09-20T23:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "↓ image block",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "↓ image block",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "e639ccd6-3a44-43cb-a020-b1bd52454a19",
+          "created_time": "2021-09-20T10:05:00.000Z",
+          "last_edited_time": "2021-09-20T23:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "image",
+          "image": {
+            "caption": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Aphid Caption",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Aphid Caption",
+                "href": null
+              }
+            ],
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T232200Z&X-Amz-Expires=3600&X-Amz-Signature=02f8ddaddc92b74cab8cfe70e1663ad0df848025a7d6556c141344f72818da04&X-Amz-SignedHeaders=host",
+              "expiry_time": "2021-11-05T00:22:00.436Z"
+            }
+          }
+        },
+        {
+          "object": "block",
+          "id": "b27dd7c2-235a-482a-af83-80595baeebae",
+          "created_time": "2021-09-20T10:05:00.000Z",
+          "last_edited_time": "2021-09-20T23:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "image",
+          "image": {
+            "caption": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
+                "href": null
+              }
+            ],
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211104T232200Z&X-Amz-Expires=3600&X-Amz-Signature=02f8ddaddc92b74cab8cfe70e1663ad0df848025a7d6556c141344f72818da04&X-Amz-SignedHeaders=host",
+              "expiry_time": "2021-11-05T00:22:00.434Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
       "id": "43f48af4-5d47-445e-b676-acba023eadd7",
       "created_time": "2021-09-20T10:05:00.000Z",
       "last_edited_time": "2021-09-20T10:05:00.000Z",
@@ -5014,8 +6004,8 @@
       "last_edited_time": "2021-09-20T10:05:00.000Z",
       "has_children": true,
       "archived": false,
-      "type": "unsupported",
-      "unsupported": {},
+      "type": "column_list",
+      "column_list": {},
       "blocks": [
         {
           "object": "block",
@@ -5024,8 +6014,8 @@
           "last_edited_time": "2021-09-20T10:05:00.000Z",
           "has_children": true,
           "archived": false,
-          "type": "unsupported",
-          "unsupported": {},
+          "type": "column",
+          "column": {},
           "blocks": [
             {
               "object": "block",
@@ -5066,8 +6056,8 @@
           "last_edited_time": "2021-09-20T10:05:00.000Z",
           "has_children": true,
           "archived": false,
-          "type": "unsupported",
-          "unsupported": {},
+          "type": "column",
+          "column": {},
           "blocks": [
             {
               "object": "block",
@@ -5108,8 +6098,8 @@
           "last_edited_time": "2021-09-20T10:05:00.000Z",
           "has_children": true,
           "archived": false,
-          "type": "unsupported",
-          "unsupported": {},
+          "type": "column",
+          "column": {},
           "blocks": [
             {
               "object": "block",
