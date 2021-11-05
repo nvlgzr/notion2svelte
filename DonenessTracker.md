@@ -9,7 +9,6 @@ status: in progress, render: true
 # 🐝 Tasks/Ideas
 
 - Implement internal links
-  - Sub-pages
   - Links to Notion pages (in publishing db)
   - Links to Notion pages (outside publishing db)
   - @links
