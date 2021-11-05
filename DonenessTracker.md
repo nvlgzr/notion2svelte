@@ -11,7 +11,6 @@ status: in progress, render: true
 - Implement internal links
   - Links to Notion pages (in publishing db)
   - Links to Notion pages (outside publishing db)
-  - @links
 - Notion API Explorer: hover over a block to see its JSON.
 - Duplicate barebones leveluptuts blog index page
 - Add config for custom component names so that naming conflicts can be avoided.
