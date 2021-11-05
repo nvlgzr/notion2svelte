@@ -41,6 +41,7 @@ async function run() {
 
   console.log(`2. Processing ${pages.length} ${pages.length === 1 ? 'page' : 'pages'}`)
   for (let page of pages) {
+    console.log(" › ———")
     console.log(` › Fetching #${page.id}`)
     const path = join(out, slug(page) + '.svelte')
     const fullPage = await fetchFullPage(page.id)
