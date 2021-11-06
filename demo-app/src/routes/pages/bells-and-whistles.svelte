@@ -19,7 +19,8 @@
 
 <svelte:head>
 	<title>Test Page w/Some Bells and Whistles 🎉</title>
-</svelte:head><Cover
+</svelte:head>
+<Cover
 	coverURL={'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'}
 	iconEmojiOrURL={'🦦'}
 />
@@ -53,7 +54,15 @@
 	>
 	<br style="display:none;" />
 	<div>
-		Link to another&thinsp;<a href="/816f31ee96514a398960841d33a9f2d4">Notion page</a>
+		Link to another&thinsp;
+		<p
+			style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
+		>
+			⚠️ k(t, url): <span
+				style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
+				>Notion page.</span
+			>&nbsp;No slug found for page id 816f31ee96514a398960841d33a9f2d4
+		</p>
 	</div>
 
 	<br style="display:none;" />
@@ -203,11 +212,11 @@
 	>
 	<br style="display:none;" />
 	<p
-		style="background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
+		style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
 	>
-		⚠️ child_page <span
-			style="color:gray; border: 2px solid pink; display: inline; padding: 3px; border-radius: 3px;"
-			>Inline subpage w/no content, icon, or cover</span
+		⚠️ child_page: <span
+			style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
+			>Inline subpage w/no content, icon, or cover.</span
 		>&nbsp;has no content
 	</p>
 	<br style="display:none;" />
@@ -1808,8 +1817,8 @@
       ],
       "type": "file",
       "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211105T091056Z&X-Amz-Expires=3600&X-Amz-Signature=0b48cd644ad3b242ce0cefa6531c43a371c1cbd63aa01a9b6f4dbe5f64529575&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-11-05T10:10:56.073Z"
+        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211106T085510Z&X-Amz-Expires=3600&X-Amz-Signature=41c60974aecbe4c201943f97a78ef60dc8681d6e1ea1664fc245e4676857768b&X-Amz-SignedHeaders=host",
+        "expiry_time": "2021-11-06T09:55:10.217Z"
       }
     }
   },
@@ -1877,8 +1886,8 @@
       ],
       "type": "file",
       "file": {
-        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211105T091056Z&X-Amz-Expires=3600&X-Amz-Signature=0234b88c3eb2f0f641ff21ba734c084926d0338907d2fdd49079829a68decf5d&X-Amz-SignedHeaders=host",
-        "expiry_time": "2021-11-05T10:10:56.060Z"
+        "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211106T085510Z&X-Amz-Expires=3600&X-Amz-Signature=3c92b38105f405b1c2601ef764592657b60c074d6188d6befd1aa5cc37c586a3&X-Amz-SignedHeaders=host",
+        "expiry_time": "2021-11-06T09:55:10.215Z"
       }
     }
   },
@@ -2858,8 +2867,8 @@
           ],
           "type": "file",
           "file": {
-            "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211105T091056Z&X-Amz-Expires=3600&X-Amz-Signature=7d66dd5cfd0cbb061a37aea4b33f782fe46d9fca4436d33d36b911e86b1f9a72&X-Amz-SignedHeaders=host",
-            "expiry_time": "2021-11-05T10:10:56.224Z"
+            "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211106T085510Z&X-Amz-Expires=3600&X-Amz-Signature=49c1abfa3d70e151e74124d4e8cd8b93aaeaa4f992e4494f81884c83373f80db&X-Amz-SignedHeaders=host",
+            "expiry_time": "2021-11-06T09:55:10.698Z"
           }
         }
       },
@@ -2923,8 +2932,8 @@
           ],
           "type": "file",
           "file": {
-            "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211105T091056Z&X-Amz-Expires=3600&X-Amz-Signature=74d35baccace64bcf1ad599a1d35616d26dd5011a7919996b5f9bc249f3f055e&X-Amz-SignedHeaders=host",
-            "expiry_time": "2021-11-05T10:10:56.223Z"
+            "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211106T085510Z&X-Amz-Expires=3600&X-Amz-Signature=f780785c6b37c10a28143143043b035ce32d0cf499838dd54b3ae1a0b86e554f&X-Amz-SignedHeaders=host",
+            "expiry_time": "2021-11-06T09:55:10.696Z"
           }
         }
       },
@@ -2958,8 +2967,8 @@
           ],
           "type": "file",
           "file": {
-            "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211105T091056Z&X-Amz-Expires=3600&X-Amz-Signature=74d35baccace64bcf1ad599a1d35616d26dd5011a7919996b5f9bc249f3f055e&X-Amz-SignedHeaders=host",
-            "expiry_time": "2021-11-05T10:10:56.226Z"
+            "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211106T085510Z&X-Amz-Expires=3600&X-Amz-Signature=f780785c6b37c10a28143143043b035ce32d0cf499838dd54b3ae1a0b86e554f&X-Amz-SignedHeaders=host",
+            "expiry_time": "2021-11-06T09:55:10.697Z"
           }
         }
       }
@@ -3189,7 +3198,7 @@
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-05T04:00:00.000Z",
+  "last_edited_time": "2021-11-05T23:32:00.000Z",
   "cover": {
     "type": "external",
     "external": {

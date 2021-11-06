@@ -3,7 +3,7 @@ import { join } from 'path'
 import { exec } from 'child_process'
 import { fetchAllPages, fetchFullPage } from './lib/notion.js'
 import { resolveTilde } from './lib/resolve-tilde.js'
-import h, { slug } from './lib/sveltifier.js'
+import h, { stripDashes, slug } from './lib/sveltifier.js'
 import env from './env.js'
 
 const out = resolveTilde(env.OUTPUT_PATH)
@@ -41,10 +41,12 @@ async function run() {
 
   console.log(`2. Processing ${pages.length} ${pages.length === 1 ? 'page' : 'pages'}`)
   for (let page of pages) {
+    const pageId = stripDashes(page.id)
+
     console.log(" › ———")
-    console.log(` › Fetching #${page.id}`)
+    console.log(` › Fetching #${pageId}`)
     const path = join(out, slug(page) + '.svelte')
-    const fullPage = await fetchFullPage(page.id)
+    const fullPage = await fetchFullPage(pageId)
 
     const jsonPath = join(out, slug(page) + '.json')
     console.log(` › Writing JSON to ${jsonPath}`)

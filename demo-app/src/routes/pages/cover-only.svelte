@@ -19,7 +19,8 @@
 
 <svelte:head>
 	<title>Cover Only</title>
-</svelte:head><Cover
+</svelte:head>
+<Cover
 	coverURL={'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'}
 	iconEmojiOrURL={''}
 />
@@ -36,7 +37,11 @@
 	<Divider />
 
 	<br style="display:none;" />
-	<div />
+	<div>
+		With any luck, this should link to the&thinsp;<a href="bells-and-whistles"
+			>bells and whistles page</a
+		>.
+	</div>
 
 	<br style="display:none;" />
 {:else}
@@ -96,12 +101,66 @@
     "object": "block",
     "id": "1a594bac-9024-44cb-90c6-f68533216ef7",
     "created_time": "2021-11-03T07:11:00.000Z",
-    "last_edited_time": "2021-11-03T07:11:00.000Z",
+    "last_edited_time": "2021-11-06T00:26:00.000Z",
     "has_children": false,
     "archived": false,
     "type": "paragraph",
     "paragraph": {
-      "text": []
+      "text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "With any luck, this should link to the ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "With any luck, this should link to the ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "bells and whistles page",
+            "link": {
+              "url": "/6bca4379f36245a690cfd35beebba87a"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "bells and whistles page",
+          "href": "/6bca4379f36245a690cfd35beebba87a"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
+          "href": null
+        }
+      ]
     }
   }
 ], null, 2)}</pre>
@@ -110,7 +169,7 @@
   "object": "page",
   "id": "8eb305de-5ebe-43a4-80cb-0ec7c9df5ab7",
   "created_time": "2021-11-03T07:11:00.000Z",
-  "last_edited_time": "2021-11-05T07:53:00.000Z",
+  "last_edited_time": "2021-11-06T00:26:00.000Z",
   "cover": {
     "type": "external",
     "external": {
