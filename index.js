@@ -3,7 +3,7 @@ import { join } from 'path'
 import { exec } from 'child_process'
 import { fetchAllPages, fetchFullPage } from './lib/notion.js'
 import { resolveTilde } from './lib/resolve-tilde.js'
-import h, { stripDashes, slug } from './lib/sveltifier.js'
+import { renderPage, stripDashes, slug } from './lib/sveltifier.js'
 import env from './env.js'
 
 const out = resolveTilde(env.OUTPUT_PATH)
@@ -53,7 +53,7 @@ async function run() {
     await fs.writeFile(jsonPath, JSON.stringify(fullPage, null, 2))
 
     console.log(` › Rendering…`)
-    const contents = h.renderPage(fullPage, titleField)
+    const contents = renderPage(fullPage, titleField)
 
     console.log(` › Writing rendered page to #${path}`)
     await fs.writeFile(path, contents)
@@ -138,7 +138,7 @@ async function runTest() {
 
   try {
     console.log(`2. Rendering data`)
-    renderedPage = h.renderPage(pageJSON, titleField)
+    renderedPage = renderPage(pageJSON, titleField)
   }
   catch (e) {
     console.log(`💥🐛 Mayday! Mayday!:\n\n${e}\n\njson ↴\n${JSON.stringify(pageJSON)}\n\n`)
