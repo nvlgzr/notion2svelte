@@ -6,6 +6,14 @@
 	export let page;
 	export let block;
 	export let show; // Show JSON
+
+	// ↓ Just an excuse to avoid an unused `page` warning.
+	console.log(
+		`I know this seems redundant, since it's the same for every page, but I want to be able to reference the page metadata from within any block without having to over-specify communication between the two — for an idea I have for dead-simple reader feedback — so that's why I've included the page object for ${page.properties.Title.title.reduce(
+			(acc, curr, idx) => acc + curr.plain_text,
+			''
+		)}.`
+	);
 </script>
 
 {#if show}
@@ -13,11 +21,11 @@
 		<slot />
 	</div>
 {:else}
-	<div class="side-by-side">
-		<div class="fancy-card">
+	<div>
+		<div class="card">
 			<slot />
 			<pre>
-{block}
+{JSON.stringify(block, null, 2)}
       </pre>
 		</div>
 	</div>
@@ -29,7 +37,7 @@
 		padding: 0;
 	}
 
-	.fancy-card {
+	.card {
 		display: grid;
 		background-color: #fff;
 		border-radius: 4px;
