@@ -8,7 +8,6 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Notion API Explorer: hover over a block to see its JSON.
 - Duplicate barebones leveluptuts blog index page
 
 # Icebox

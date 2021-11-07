@@ -16,15 +16,12 @@
         import Quote from "$lib/notion2svelte/Quote.svelte"
         import TodoItem from "$lib/notion2svelte/TodoItem.svelte"
         import Toggle from "$lib/notion2svelte/Toggle.svelte"
-
-        let curtainDrawn = true
       </script>
         <Cover coverURL={"https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"} iconEmojiOrURL={"🦦"} />
   <Title>Test Page w/Some Bells and Whistles 🎉</Title>
 
 
 
-<button on:click={() => curtainDrawn = !curtainDrawn}>𒅒 Brought to you by @nvlgzr/notion2svelte 1.0.0 𒅒</button>
 
   <Magic page={{
   "object": "page",
@@ -136,7 +133,7 @@
   "archived": false,
   "type": "divider",
   "divider": {}
-}} show={curtainDrawn}><Divider />
+}}><Divider />
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -269,7 +266,7 @@
       }
     ]
   }
-}} show={curtainDrawn}><h1>&thinsp;Here's some paragraphs about some stuff</h1>
+}}><h1>&thinsp;Here's some paragraphs about some stuff</h1>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -402,7 +399,7 @@
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 <em>(Mostly penguins)</em>
 </div>
 </Magic> 
@@ -609,7 +606,7 @@
       }
     }
   ]
-}} show={curtainDrawn}><Callout emoji="💡">I guess callouts just have to be treated as comments?<span slot="children"><div>
+}}><Callout emoji="💡">I guess callouts just have to be treated as comments?<span slot="children"><div>
 At any rate, the "lorem" paragraphs below about penguins come, fwiw, from&thinsp;<a href="https://www.boom-online.co.uk/lorem-ipsum/##results">https://www.boom-online.co.uk/lorem-ipsum/##results</a>.
 </div>
 </span></Callout></Magic> 
@@ -763,7 +760,7 @@ At any rate, the "lorem" paragraphs below about penguins come, fwiw, from&thinsp
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 Link to another&thinsp;<p style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; ">⚠️ k(t, url): <span style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Notion page.</span>&nbsp;No slug found for page id 816f31ee96514a398960841d33a9f2d4</p>
 </div>
 </Magic> 
@@ -1426,7 +1423,7 @@ Link to another&thinsp;<p style="display: inline-block; background: floralwhite;
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 Eventually, plain_text isn't going to cut it. It doesn't display&thinsp;<em>italics</em>,&thinsp;<strong>bold</strong>,&thinsp;<s>strikethrough</s>,&thinsp;<InlineCode>code</InlineCode>,&thinsp;<InlineColor value='red'><strong>c</strong></InlineColor><InlineColor value='orange'><strong>o</strong></InlineColor><InlineColor value='yellow'><strong>l</strong></InlineColor><InlineColor value='green'><strong>o</strong></InlineColor><InlineColor value='blue'><strong>r</strong></InlineColor><InlineColor value='purple'><strong>s</strong></InlineColor>, or, of course,&thinsp;<a href="https://ilovelife.com">links</a>. (Let alone&thinsp;<em><strong>crazy</strong></em>&thinsp;<a href="http://navelgazer.club"><InlineColor value='purple'>co</InlineColor></a><a href="http://navelgazer.club"><InlineColor value='green_background'><em>m</em></InlineColor></a><a href="http://navelgazer.club"><InlineColor value='purple'>b</InlineColor></a><a href="http://navelgazer.club"><InlineColor value='purple'><strong>i</strong></InlineColor></a><a href="http://navelgazer.club"><strong>na</strong></a><a href="http://navelgazer.club"><InlineColor value='orange_background'><strong>ti</strong></InlineColor></a><a href="http://navelgazer.club"><InlineColor value='orange_background'>o</InlineColor></a><a href="http://navelgazer.club">ns</a>&thinsp;of these.) Eventually, there's no reason to think&thinsp;<InlineCode>notion2svelte</InlineCode>&thinsp;couldn't also handle inline & block latex, and, well, anything Notion cares to expose!
 </div>
 </Magic> 
@@ -1663,7 +1660,7 @@ Eventually, plain_text isn't going to cut it. It doesn't display&thinsp;<em>ital
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 Perhaps one in 50,000 penguins (of most species) are born with brown rather than black plumage. These are called&thinsp;<InlineColor value='red_background'>isabelline penguins. Isabellinism is different from albinism. Isabelline penguins tend to live shorter lives than</InlineColor>&thinsp;normal<InlineColor value='yellow_background'>&thinsp;penguins, as they are</InlineColor>&thinsp;not well-<InlineColor value='green'>camouflaged</InlineColor>&thinsp;against the deep and are often passed over as mates.
 </div>
 </Magic> 
@@ -1832,7 +1829,7 @@ Perhaps one in 50,000 penguins (of most species) are born with brown rather than
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 In addition to formatted text and links, we can also expect plenty of&thinsp;<InlineColor value='red_background'>embedded</InlineColor>&thinsp;images, and (maybe) other media types. For now, images w/out sizing and alt=caption is good enough to be getting on.
 </div>
 </Magic> 
@@ -1967,7 +1964,7 @@ In addition to formatted text and links, we can also expect plenty of&thinsp;<In
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 Although almost all penguin species are native to the Southern Hemisphere, they are not found only in cold climates, such as Antarctica. In fact, only a few species of penguin actually live so far south. Several species live in the temperate zone;
 </div>
 </Magic> 
@@ -2102,7 +2099,7 @@ Although almost all penguin species are native to the Southern Hemisphere, they 
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 Several authors have suggested that penguins are a good example of Bergmann's Rule
 </div>
 </Magic> 
@@ -2237,7 +2234,7 @@ Several authors have suggested that penguins are a good example of Bergmann's Ru
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 Major populations of penguins are found in Angola, Antarctica, Argentina, Australia, Chile, Namibia, New Zealand, and South Africa.
 </div>
 </Magic> 
@@ -2372,7 +2369,7 @@ Major populations of penguins are found in Angola, Antarctica, Argentina, Austra
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 Penguins for the most part breed in large colonies, the exceptions being the yellow-eyed and Fiordland species; these colonies may range in size from as few as 100 pairs for gentoo penguins to several hundred thousand in the case of king, macaroni and chinstrap penguins.
 </div>
 </Magic> 
@@ -2489,7 +2486,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "paragraph": {
     "text": []
   }
-}} show={curtainDrawn}><div>
+}}><div>
 
 </div>
 </Magic> 
@@ -2604,7 +2601,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "archived": false,
   "type": "divider",
   "divider": {}
-}} show={curtainDrawn}><Divider />
+}}><Divider />
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -2754,7 +2751,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
       }
     ]
   }
-}} show={curtainDrawn}><h1>This is a header size 1&thinsp;<em>with formatting</em></h1>
+}}><h1>This is a header size 1&thinsp;<em>with formatting</em></h1>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -2887,7 +2884,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
       }
     ]
   }
-}} show={curtainDrawn}><h2>Header size 2</h2>
+}}><h2>Header size 2</h2>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -3299,7 +3296,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
       "expiry_time": "2021-11-07T07:07:39.982Z"
     }
   }
-}} show={curtainDrawn}><Image url="/images/bells-and-whistles/c877cf0a-9681-4e15-a321-bdd5c5bfce1f.jpg">Captions, too, can inclue&thinsp;<em>italics</em>,&thinsp;<strong>bold</strong>,&thinsp;<s>strikethrough</s>,&thinsp;<InlineCode>code</InlineCode>,&thinsp;<InlineColor value='red'><strong>c</strong></InlineColor><InlineColor value='orange'><strong>o</strong></InlineColor><InlineColor value='yellow'><strong>l</strong></InlineColor><InlineColor value='green'><strong>o</strong></InlineColor><InlineColor value='blue'><strong>r</strong></InlineColor><InlineColor value='purple'><strong>s</strong></InlineColor>, and&thinsp;<a href="https://ilovelife.com">links</a></Image>
+}}><Image url="/images/bells-and-whistles/c877cf0a-9681-4e15-a321-bdd5c5bfce1f.jpg">Captions, too, can inclue&thinsp;<em>italics</em>,&thinsp;<strong>bold</strong>,&thinsp;<s>strikethrough</s>,&thinsp;<InlineCode>code</InlineCode>,&thinsp;<InlineColor value='red'><strong>c</strong></InlineColor><InlineColor value='orange'><strong>o</strong></InlineColor><InlineColor value='yellow'><strong>l</strong></InlineColor><InlineColor value='green'><strong>o</strong></InlineColor><InlineColor value='blue'><strong>r</strong></InlineColor><InlineColor value='purple'><strong>s</strong></InlineColor>, and&thinsp;<a href="https://ilovelife.com">links</a></Image>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -3436,7 +3433,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
       "url": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
     }
   }
-}} show={curtainDrawn}><Image url="/images/bells-and-whistles/2a886060-dcff-46f3-87a1-fa80ea583025.jpg">From unsplash</Image>
+}}><Image url="/images/bells-and-whistles/2a886060-dcff-46f3-87a1-fa80ea583025.jpg">From unsplash</Image>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -3574,7 +3571,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
       "expiry_time": "2021-11-07T07:07:40.018Z"
     }
   }
-}} show={curtainDrawn}><Image url="/images/bells-and-whistles/655a2330-d9fa-427c-b592-152d547c94c5.jpg">cresting orca</Image>
+}}><Image url="/images/bells-and-whistles/655a2330-d9fa-427c-b592-152d547c94c5.jpg">cresting orca</Image>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -3707,7 +3704,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
       }
     ]
   }
-}} show={curtainDrawn}><h3>h3</h3>
+}}><h3>h3</h3>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -3876,7 +3873,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
       }
     }
   ]
-}} show={curtainDrawn}><Callout emoji="☣️">*Note: the title has more than one element because I bolded the asterisk<span slot="children"><BulletedListItem>"This callout has two sub-blocks, btw"</BulletedListItem>
+}}><Callout emoji="☣️">*Note: the title has more than one element because I bolded the asterisk<span slot="children"><BulletedListItem>"This callout has two sub-blocks, btw"</BulletedListItem>
 </span></Callout></Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -4010,7 +4007,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
     ],
     "checked": false
   }
-}} show={curtainDrawn}><TodoItem checked={false}>"I should finish this"</TodoItem>
+}}><TodoItem checked={false}>"I should finish this"</TodoItem>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -4144,7 +4141,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
     ],
     "checked": true
   }
-}} show={curtainDrawn}><TodoItem checked={true}>"This is finished"</TodoItem>
+}}><TodoItem checked={true}>"This is finished"</TodoItem>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -4278,7 +4275,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
     ],
     "checked": false
   }
-}} show={curtainDrawn}><TodoItem checked={false}>"And one for good luck   &thinsp;"</TodoItem>
+}}><TodoItem checked={false}>"And one for good luck   &thinsp;"</TodoItem>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -4503,7 +4500,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
       }
     }
   ]
-}} show={curtainDrawn}><div>
+}}><div>
 This simple text block has 3 children
 </div>
 <IndentGroup>
@@ -4632,7 +4629,7 @@ This simple text block has 3 children
   "paragraph": {
     "text": []
   }
-}} show={curtainDrawn}><div>
+}}><div>
 
 </div>
 </Magic> 
@@ -4829,7 +4826,7 @@ This simple text block has 3 children
       }
     }
   ]
-}} show={curtainDrawn}><Toggle>Toggle label
+}}><Toggle>Toggle label
 <br />
 soft return!
 <span slot="children"><div>
@@ -4952,7 +4949,7 @@ More toggle contents
   "child_page": {
     "title": "Inline subpage w/no content, icon, or cover"
   }
-}} show={curtainDrawn}><p style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; ">⚠️ child_page: <span style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Inline subpage w/no content, icon, or cover.</span>&nbsp;has no content</p></Magic> 
+}}><p style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; ">⚠️ child_page: <span style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Inline subpage w/no content, icon, or cover.</span>&nbsp;has no content</p></Magic> 
 <br style="display:none;"/>
 <Magic page={{
   "object": "page",
@@ -5101,7 +5098,7 @@ More toggle contents
       }
     ]
   }
-}} show={curtainDrawn}><BulletedListItem>"This is a&thinsp;<InlineCode>bulleted_list_item</InlineCode>"</BulletedListItem>
+}}><BulletedListItem>"This is a&thinsp;<InlineCode>bulleted_list_item</InlineCode>"</BulletedListItem>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -5266,7 +5263,7 @@ More toggle contents
       }
     }
   ]
-}} show={curtainDrawn}><BulletedListItem>"And here's another one"</BulletedListItem>
+}}><BulletedListItem>"And here's another one"</BulletedListItem>
 <IndentGroup>
   <BulletedListItem>"All good things come in threes, so they say, but this 3rd bullet point is nested, so presumably only shows up by getting children of the parent block?"</BulletedListItem>
 
@@ -5420,7 +5417,7 @@ More toggle contents
       }
     ]
   }
-}} show={curtainDrawn}><NumberedListItem number=1> This is a&thinsp;<InlineCode>numbered_list_item</InlineCode></NumberedListItem>
+}}><NumberedListItem number=1> This is a&thinsp;<InlineCode>numbered_list_item</InlineCode></NumberedListItem>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -5553,7 +5550,7 @@ More toggle contents
       }
     ]
   }
-}} show={curtainDrawn}><NumberedListItem number=2> What numbered item is this? 1 or 2? (hint: it's 2)</NumberedListItem>
+}}><NumberedListItem number=2> What numbered item is this? 1 or 2? (hint: it's 2)</NumberedListItem>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -5686,7 +5683,7 @@ More toggle contents
       }
     ]
   }
-}} show={curtainDrawn}><NumberedListItem number=3> Good thing (because it's number 3</NumberedListItem>
+}}><NumberedListItem number=3> Good thing (because it's number 3</NumberedListItem>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -5819,7 +5816,7 @@ More toggle contents
       }
     ]
   }
-}} show={curtainDrawn}><Quote>Why aren't quotes supported? This is insane?</Quote></Magic> 
+}}><Quote>Why aren't quotes supported? This is insane?</Quote></Magic> 
 <br style="display:none;"/>
 <Magic page={{
   "object": "page",
@@ -5931,7 +5928,7 @@ More toggle contents
   "archived": false,
   "type": "divider",
   "divider": {}
-}} show={curtainDrawn}><Divider />
+}}><Divider />
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -6064,7 +6061,7 @@ More toggle contents
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 ↑ Dividers are now supported! 8D
 </div>
 </Magic> 
@@ -6199,7 +6196,7 @@ More toggle contents
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 ↑ Whole-block page links are also, I believe, not supported :(
 </div>
 </Magic> 
@@ -6401,7 +6398,7 @@ More toggle contents
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 Would be cool for&thinsp;<InlineCode>ouroboros</InlineCode>&thinsp;to support latex —&thinsp;⟣<InlineCode>E = mc^2</InlineCode>⟢&thinsp;— and whatnot
 </div>
 </Magic> 
@@ -6518,7 +6515,7 @@ Would be cool for&thinsp;<InlineCode>ouroboros</InlineCode>&thinsp;to support la
   "paragraph": {
     "text": []
   }
-}} show={curtainDrawn}><div>
+}}><div>
 
 </div>
 </Magic> 
@@ -6653,7 +6650,7 @@ Would be cool for&thinsp;<InlineCode>ouroboros</InlineCode>&thinsp;to support la
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 ↑ empty block
 </div>
 </Magic> 
@@ -6770,7 +6767,7 @@ Would be cool for&thinsp;<InlineCode>ouroboros</InlineCode>&thinsp;to support la
   "paragraph": {
     "text": []
   }
-}} show={curtainDrawn}><div>
+}}><div>
 
 </div>
 </Magic> 
@@ -6905,7 +6902,7 @@ Would be cool for&thinsp;<InlineCode>ouroboros</InlineCode>&thinsp;to support la
       }
     ]
   }
-}} show={curtainDrawn}><div>
+}}><div>
 Whoa. Check it out. Sub-pages currently have their children rendered inline, which is why Images Sub-Page isn't shown here, but instead we see its images, indented ↓!
 </div>
 </Magic> 
@@ -7159,7 +7156,7 @@ Whoa. Check it out. Sub-pages currently have their children rendered inline, whi
       }
     }
   ]
-}} show={curtainDrawn}><ChildPage title="Images Sub-Page"><Image url="/images/bells-and-whistles/f3cee0d8-b99c-4bb0-8004-ebf84e83c165.jpg">Obsolescence</Image>
+}}><ChildPage title="Images Sub-Page"><Image url="/images/bells-and-whistles/f3cee0d8-b99c-4bb0-8004-ebf84e83c165.jpg">Obsolescence</Image>
 <div>
 ↓ image block
 </div>
@@ -7297,7 +7294,7 @@ Whoa. Check it out. Sub-pages currently have their children rendered inline, whi
       }
     ]
   }
-}} show={curtainDrawn}><h1>Synced Blocks</h1>
+}}><h1>Synced Blocks</h1>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -7430,7 +7427,7 @@ Whoa. Check it out. Sub-pages currently have their children rendered inline, whi
       }
     ]
   }
-}} show={curtainDrawn}><h1>3 Columns</h1>
+}}><h1>3 Columns</h1>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
@@ -7671,7 +7668,7 @@ Whoa. Check it out. Sub-pages currently have their children rendered inline, whi
       ]
     }
   ]
-}} show={curtainDrawn}>column_list<IndentGroup>
+}}>column_list<IndentGroup>
   column<IndentGroup>
   <div>
 I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?
