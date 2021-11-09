@@ -6,6 +6,9 @@ status: in progress, render: true
 
 ## 🐞 Known Bugs
 
+- External icons suffer the same issue as images (and presumably other media) embedded in Notion
+  → the Amazon URL has a short TTL, so the icon disappears over time
+
 # 🐝 Tasks/Ideas
 
 - Duplicate barebones leveluptuts blog index page

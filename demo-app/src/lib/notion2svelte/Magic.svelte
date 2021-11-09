@@ -42,6 +42,7 @@
 	div {
 		margin: 0;
 		padding: 0;
+		display: contents;
 	}
 
 	.card {
