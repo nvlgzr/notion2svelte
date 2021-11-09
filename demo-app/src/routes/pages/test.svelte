@@ -27,7 +27,7 @@
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -140,7 +140,7 @@
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -273,7 +273,7 @@
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -408,7 +408,7 @@
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -615,7 +615,7 @@ At any rate, the "lorem" paragraphs below about penguins come, fwiw, from&thinsp
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -769,7 +769,7 @@ Link to another&thinsp;<p style="display: inline-block; background: floralwhite;
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -1432,7 +1432,7 @@ Eventually, plain_text isn't going to cut it. It doesn't display&thinsp;<em>ital
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -1669,7 +1669,7 @@ Perhaps one in 50,000 penguins (of most species) are born with brown rather than
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -1838,7 +1838,7 @@ In addition to formatted text and links, we can also expect plenty of&thinsp;<In
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -1973,7 +1973,7 @@ Although almost all penguin species are native to the Southern Hemisphere, they 
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -2108,7 +2108,7 @@ Several authors have suggested that penguins are a good example of Bergmann's Ru
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -2243,7 +2243,7 @@ Major populations of penguins are found in Angola, Antarctica, Argentina, Austra
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -2378,7 +2378,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -2495,7 +2495,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -2608,7 +2608,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -2758,7 +2758,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -2891,7 +2891,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -3292,8 +3292,8 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
     ],
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T060740Z&X-Amz-Expires=3600&X-Amz-Signature=77d5c27a03751114d095702ace52df4d0a52c6ab957967f1b2b5dcb7643643fe&X-Amz-SignedHeaders=host",
-      "expiry_time": "2021-11-07T07:07:39.982Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211109T063751Z&X-Amz-Expires=3600&X-Amz-Signature=28f9ff66a676e3c597f0ba27852f093d2fb9a47afa9b75b66a63d3903b0bfd82&X-Amz-SignedHeaders=host",
+      "expiry_time": "2021-11-09T07:37:51.490Z"
     }
   }
 }}><Image url="/images/bells-and-whistles/c877cf0a-9681-4e15-a321-bdd5c5bfce1f.jpg">Captions, too, can inclue&thinsp;<em>italics</em>,&thinsp;<strong>bold</strong>,&thinsp;<s>strikethrough</s>,&thinsp;<InlineCode>code</InlineCode>,&thinsp;<InlineColor value='red'><strong>c</strong></InlineColor><InlineColor value='orange'><strong>o</strong></InlineColor><InlineColor value='yellow'><strong>l</strong></InlineColor><InlineColor value='green'><strong>o</strong></InlineColor><InlineColor value='blue'><strong>r</strong></InlineColor><InlineColor value='purple'><strong>s</strong></InlineColor>, and&thinsp;<a href="https://ilovelife.com">links</a></Image>
@@ -3303,7 +3303,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -3440,7 +3440,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -3567,8 +3567,8 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
     ],
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T060740Z&X-Amz-Expires=3600&X-Amz-Signature=b7222198d408dac0165867e7f766c8303c5ab157627b2012237876b89a376388&X-Amz-SignedHeaders=host",
-      "expiry_time": "2021-11-07T07:07:40.018Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211109T063751Z&X-Amz-Expires=3600&X-Amz-Signature=d51fe9c19dfd8e45e7704b6109b7126702de792e01947934bba5922e0aa1b6d9&X-Amz-SignedHeaders=host",
+      "expiry_time": "2021-11-09T07:37:51.494Z"
     }
   }
 }}><Image url="/images/bells-and-whistles/655a2330-d9fa-427c-b592-152d547c94c5.jpg">cresting orca</Image>
@@ -3578,7 +3578,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -3711,7 +3711,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -3880,7 +3880,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -4014,7 +4014,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -4148,7 +4148,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -4282,7 +4282,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -4521,7 +4521,7 @@ This simple text block has 3 children
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -4638,7 +4638,7 @@ This simple text block has 3 children
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -4841,7 +4841,7 @@ More toggle contents
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -4955,7 +4955,7 @@ More toggle contents
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -5105,7 +5105,7 @@ More toggle contents
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -5274,7 +5274,7 @@ More toggle contents
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -5424,7 +5424,7 @@ More toggle contents
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -5557,7 +5557,7 @@ More toggle contents
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -5690,7 +5690,7 @@ More toggle contents
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -5822,7 +5822,7 @@ More toggle contents
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -5935,7 +5935,7 @@ More toggle contents
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6070,7 +6070,7 @@ More toggle contents
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6205,7 +6205,7 @@ More toggle contents
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6407,7 +6407,7 @@ Would be cool for&thinsp;<InlineCode>ouroboros</InlineCode>&thinsp;to support la
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6524,7 +6524,7 @@ Would be cool for&thinsp;<InlineCode>ouroboros</InlineCode>&thinsp;to support la
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6659,7 +6659,7 @@ Would be cool for&thinsp;<InlineCode>ouroboros</InlineCode>&thinsp;to support la
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6776,7 +6776,7 @@ Would be cool for&thinsp;<InlineCode>ouroboros</InlineCode>&thinsp;to support la
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6911,7 +6911,7 @@ Whoa. Check it out. Sub-pages currently have their children rendered inline, whi
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -7050,8 +7050,8 @@ Whoa. Check it out. Sub-pages currently have their children rendered inline, whi
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T060740Z&X-Amz-Expires=3600&X-Amz-Signature=28707558cdc6477c63c2e8d7b79b726ac01836a413caf520b7830ccb66ce4f20&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-11-07T07:07:40.232Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211109T063751Z&X-Amz-Expires=3600&X-Amz-Signature=dcc7efce78d378fc34bb0b17b2ba2ab40c216fb0851529537bdcc427a061d5a6&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-09T07:37:51.738Z"
         }
       }
     },
@@ -7115,8 +7115,8 @@ Whoa. Check it out. Sub-pages currently have their children rendered inline, whi
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T060740Z&X-Amz-Expires=3600&X-Amz-Signature=20f608bda50f19a30b7930205ed5d77181799edd66a048824163a24a28a45552&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-11-07T07:07:40.229Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211109T063751Z&X-Amz-Expires=3600&X-Amz-Signature=96d958924add4b8b61fab74e11b7558ad331fcdb550ac747be432af5f79b6d33&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-09T07:37:51.737Z"
         }
       }
     },
@@ -7150,8 +7150,8 @@ Whoa. Check it out. Sub-pages currently have their children rendered inline, whi
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T060740Z&X-Amz-Expires=3600&X-Amz-Signature=20f608bda50f19a30b7930205ed5d77181799edd66a048824163a24a28a45552&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-11-07T07:07:40.234Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211109T063751Z&X-Amz-Expires=3600&X-Amz-Signature=96d958924add4b8b61fab74e11b7558ad331fcdb550ac747be432af5f79b6d33&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-09T07:37:51.737Z"
         }
       }
     }
@@ -7168,7 +7168,7 @@ Whoa. Check it out. Sub-pages currently have their children rendered inline, whi
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -7301,7 +7301,283 @@ Whoa. Check it out. Sub-pages currently have their children rendered inline, whi
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
+  "cover": {
+    "type": "external",
+    "external": {
+      "url": "https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+    }
+  },
+  "icon": {
+    "type": "emoji",
+    "emoji": "🦦"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "bells-and-whistles",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "bells-and-whistles",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Test Page",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test Page",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " w/Some Bells and Whistles 🎉",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " w/Some Bells and Whistles 🎉",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "f7f29332-919a-4b3a-a70b-bcd2cd33e66c",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-09-20T10:05:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "synced_block",
+  "synced_block": {
+    "synced_from": {
+      "type": "block_id",
+      "block_id": "9264df38-d039-47a0-b23c-1b37ab8330d7"
+    }
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "29b1c815-8a5d-4067-9a43-6c64fb84a9c0",
+      "created_time": "2021-09-17T04:46:00.000Z",
+      "last_edited_time": "2021-09-17T04:47:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This is a synced block. The block adjacent to it, with the identical text, is a synced copy",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This is a synced block. The block adjacent to it, with the identical text, is a synced copy",
+            "href": null
+          }
+        ]
+      }
+    }
+  ]
+}}>synced_block<IndentGroup>
+  <div>
+This is a synced block. The block adjacent to it, with the identical text, is a synced copy
+</div>
+
+</IndentGroup>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
+  "cover": {
+    "type": "external",
+    "external": {
+      "url": "https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+    }
+  },
+  "icon": {
+    "type": "emoji",
+    "emoji": "🦦"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "bells-and-whistles",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "bells-and-whistles",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Test Page",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test Page",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " w/Some Bells and Whistles 🎉",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " w/Some Bells and Whistles 🎉",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "7af83e89-caae-460d-ac1f-d0d557f7ffd9",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-09-20T10:05:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "synced_block",
+  "synced_block": {
+    "synced_from": {
+      "type": "block_id",
+      "block_id": "9264df38-d039-47a0-b23c-1b37ab8330d7"
+    }
+  },
+  "blocks": []
+}}>synced_block<IndentGroup>
+  
+</IndentGroup>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -7434,7 +7710,7 @@ Whoa. Check it out. Sub-pages currently have their children rendered inline, whi
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-07T06:07:00.000Z",
+  "last_edited_time": "2021-11-08T04:05:00.000Z",
   "cover": {
     "type": "external",
     "external": {

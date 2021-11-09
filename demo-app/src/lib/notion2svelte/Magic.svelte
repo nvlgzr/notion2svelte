@@ -4,18 +4,10 @@
 	// in case YOU need something that's not on MY radar.
 	import { scale, fade } from 'svelte/transition';
 
-	export let page;
+	// export let page; // Not used in this instance.
 	export let block;
 
 	let showJSON = false;
-
-	// ↓ Just an excuse to avoid an unused `page` warning.
-	console.log(
-		`I know this seems redundant, since it's the same for every page, but I want to be able to reference the page metadata from within any block without having to over-specify communication between the two — for an idea I have for dead-simple reader feedback — so that's why I've included the page object for ${page.properties.Title.title.reduce(
-			(acc, curr, idx) => acc + curr.plain_text,
-			''
-		)}.`
-	);
 </script>
 
 <div
