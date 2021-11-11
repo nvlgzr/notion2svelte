@@ -8,27 +8,47 @@
 	export const plain = (title) => title.reduce((acc, curr, idx) => acc + curr.plain_text, '');
 	export const plainText = (blockExtras) => blockExtras.map((s) => s.plain_text).join('');
 
-	// Load json files from ./
-	export async function load() {
+	/**
+	 * Load json files from . (i.e., routes/pages)
+	 */
+	export async function load({ page /*, fetch, session, stuff */ }) {
+		//
+		// Performance note
+		//
 		// For low number of pages, pre-loading everything synchronously,
 		// via Eager globbing, is fine:
-		const globs = import.meta.globEager('./*.json');
+		const globs = import.meta.globEager(`./*.json`);
 
-		const pages = Object.values(globs).map((page) => {
-			return {
-				slug: slug(page),
-				title: plain(pageTitle(page, 'Title')),
-				lastModified: page.last_edited_time
-			};
-		});
-		return { props: { pages } };
+		const pages = Object.values(globs)
+			.filter((page) => slug(page) !== 'index')
+			.map((page) => {
+				return {
+					slug: slug(page),
+					title: plain(pageTitle(page, 'Title')),
+					lastModified: page.last_edited_time
+				};
+			});
+		return {
+			props: {
+				pages,
+				//
+				// Note re: isIndex
+				//
+				// If we're at <site-root>/pages then the relative URL will be
+				// <site-root>/, not <site-root>/pages, causing nav links to fail
+				// on the index page. This, of course, fixes that.
+				isIndex: page.path === '/pages'
+			}
+		};
 	}
 </script>
 
 <script>
+	import * as path from 'path';
 	import Divider from '$lib/notion2svelte/Divider.svelte';
 
 	export let pages;
+	export let isIndex = false;
 </script>
 
 <slot />
@@ -39,7 +59,7 @@
 
 <div class="container">
 	{#each pages as p}
-		<a href={p.slug}>
+		<a href={isIndex ? path.join('pages', p.slug) : p.slug}>
 			<span class="title">{p.title}</span>
 			<div class="annotation">
 				<span class="last-edited">Last Edited</span>

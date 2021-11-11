@@ -11,7 +11,7 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Duplicate barebones leveluptuts blog index page
+- Spike: keyboard to toggle "distractions"
 
 # Icebox
 
