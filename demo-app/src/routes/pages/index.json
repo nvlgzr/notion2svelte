@@ -1,0 +1,839 @@
+{
+  "object": "page",
+  "id": "2c97ea2f-4abe-4fcb-80ed-0e478560ab04",
+  "created_time": "2021-11-09T21:40:00.000Z",
+  "last_edited_time": "2021-11-11T13:08:00.000Z",
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "index",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "index",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "notion2svelte Demo Pages",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "notion2svelte Demo Pages",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/notion2svelte-Demo-Pages-2c97ea2f4abe4fcb80ed0e478560ab04",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "d168982e-a30d-4f26-bde0-98d5253edfc0",
+      "created_time": "2021-11-09T21:55:00.000Z",
+      "last_edited_time": "2021-11-09T22:17:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I write. A lot. And most of the time, I'm writing in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I write. A lot. And most of the time, I'm writing in ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Notion",
+              "link": {
+                "url": "https://notion.so"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Notion",
+            "href": "https://notion.so"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". That's just a fact, and it defines the Input side of my publishing dreams. But what about the output? That's a bit complex because there isn't an existing tool (that I know of) that covers my strange and geeky criteria for my Ideal Publishing Platform (IPP).",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". That's just a fact, and it defines the Input side of my publishing dreams. But what about the output? That's a bit complex because there isn't an existing tool (that I know of) that covers my strange and geeky criteria for my Ideal Publishing Platform (IPP).",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "c0519dcc-c60b-49ae-ad30-772bce67aaf0",
+      "created_time": "2021-11-09T22:17:00.000Z",
+      "last_edited_time": "2021-11-09T22:21:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "252c7baf-7658-47af-a061-8c8d0278ff51",
+          "created_time": "2021-11-09T22:17:00.000Z",
+          "last_edited_time": "2021-11-09T22:18:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "My IPP (codenamed in my notes, ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "My IPP (codenamed in my notes, ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Ouroboros",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Ouroboros",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ") has these criteria:",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ") has these criteria:",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "6608ed68-9f06-4640-9686-828620712afd",
+          "created_time": "2021-11-09T22:18:00.000Z",
+          "last_edited_time": "2021-11-09T22:19:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Custom domain (pretty standard, but Notion still doesn't support it)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Custom domain (pretty standard, but Notion still doesn't support it)",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "fa777048-46e5-42a7-b0a1-692620af0400",
+          "created_time": "2021-11-09T22:19:00.000Z",
+          "last_edited_time": "2021-11-09T22:21:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Custom design — my own styles, layout, navigation, etc.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Custom design — my own styles, layout, navigation, etc.",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "5e7a2cae-599c-4c36-9216-b9c97f286de8",
+          "created_time": "2021-11-09T22:15:00.000Z",
+          "last_edited_time": "2021-11-09T22:21:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Maximum long-term maintainability",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Maximum long-term maintainability",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "358e1587-0d20-46f0-bea7-79ffbf433b38",
+          "created_time": "2021-11-09T22:21:00.000Z",
+          "last_edited_time": "2021-11-09T22:21:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": []
+          }
+        },
+        {
+          "object": "block",
+          "id": "52047d69-c79c-4555-8e06-4bda03586622",
+          "created_time": "2021-11-09T22:20:00.000Z",
+          "last_edited_time": "2021-11-09T22:30:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "In short: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "In short: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "maximum freedom, minimum fuss.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "maximum freedom, minimum fuss.",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "69967da3-4111-4787-8741-d3559cbcf55e",
+      "created_time": "2021-11-09T22:38:00.000Z",
+      "last_edited_time": "2021-11-09T22:38:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "c51de137-bd0c-4029-9366-3abab25f46d6",
+      "created_time": "2021-11-09T22:38:00.000Z",
+      "last_edited_time": "2021-11-09T22:46:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Whereas Notion makes writing prose easy and beautiful and, dare I say, even fun, Svelte does the same for the code side of things. Once my words are in the context of Svelte pages, the sky's the limit for not just how they look, but also how they ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Whereas Notion makes writing prose easy and beautiful and, dare I say, even fun, Svelte does the same for the code side of things. Once my words are in the context of Svelte pages, the sky's the limit for not just how they look, but also how they ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "work",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "work",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". As Michael Butterick put it: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". As Michael Butterick put it: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "the book is a program",
+              "link": {
+                "url": "https://docs.racket-lang.org/pollen/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "the book is a program",
+            "href": "https://docs.racket-lang.org/pollen/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "ce87a363-0c67-4b4c-9004-addcd0852e48",
+      "created_time": "2021-11-09T22:47:00.000Z",
+      "last_edited_time": "2021-11-09T22:47:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "14380520-4943-4de2-afc1-68a976a65d51",
+      "created_time": "2021-11-09T22:47:00.000Z",
+      "last_edited_time": "2021-11-09T22:47:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How does ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How does ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": {
+                "url": "https://github.com/nvlgzr/notion2svelte"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": "https://github.com/nvlgzr/notion2svelte"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " fit in? Well, if the name isn't enough of a giveaway, I use ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " fit in? Well, if the name isn't enough of a giveaway, I use ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " to convert my notion pages into .svelte files.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " to convert my notion pages into .svelte files.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "d2ab2bc3-4c0c-4435-88df-b3efc6e572b1",
+      "created_time": "2021-11-09T22:47:00.000Z",
+      "last_edited_time": "2021-11-09T22:47:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "33661f34-b34d-4778-96a9-d94e8705d24e",
+      "created_time": "2021-11-09T22:47:00.000Z",
+      "last_edited_time": "2021-11-09T22:47:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "863447c9-a397-455b-a0eb-5734c15d81b7",
+      "created_time": "2021-11-09T21:40:00.000Z",
+      "last_edited_time": "2021-11-09T21:53:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "So. What are we looking at here?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "So. What are we looking at here?",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "648c086c-3aea-400e-b667-ff0283fde7a4",
+      "created_time": "2021-11-09T21:40:00.000Z",
+      "last_edited_time": "2021-11-09T21:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "ef251b52-7096-474c-8aa7-5b29112634e8",
+      "created_time": "2021-11-09T21:40:00.000Z",
+      "last_edited_time": "2021-11-09T21:49:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Each page below started life as a page in a single Notion database. It's open to the public, so you can can ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Each page below started life as a page in a single Notion database. It's open to the public, so you can can ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "check it out if you like",
+              "link": {
+                "url": "/c317033af18a479fbbfb7072cc7f53da?v=d6af76dea3be43eeb9428efce104d242"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "check it out if you like",
+            "href": "/c317033af18a479fbbfb7072cc7f53da?v=d6af76dea3be43eeb9428efce104d242"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". If you're into publishing jargon, think of Notion as the CMS in this scenario.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". If you're into publishing jargon, think of Notion as the CMS in this scenario.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "dc632771-ca65-46cf-981a-dbc1d96a07ac",
+      "created_time": "2021-11-09T21:49:00.000Z",
+      "last_edited_time": "2021-11-09T21:49:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "380eea2e-ff3c-4fef-9c11-cda8051cb0fa",
+      "created_time": "2021-11-09T21:49:00.000Z",
+      "last_edited_time": "2021-11-09T21:53:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "When I was ready to pre-flight each page, I marked its Status as ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "When I was ready to pre-flight each page, I marked its Status as ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Publish me! ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Publish me! ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "in the page props, gave the page a slug to determine its eventual URL, then ran ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "in the page props, gave the page a slug to determine its eventual URL, then ran ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": {
+                "url": "https://github.com/nvlgzr/notion2svelte"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": "https://github.com/nvlgzr/notion2svelte"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " on my laptop. (There was som setup involved there. See the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " on my laptop. (There was som setup involved there. See the ",
+            "href": null
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -11,20 +11,21 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Spike: keyboard to toggle "distractions"
+- Add KeyStroke + localStorage toggle of JSON hover. (I: Inspector mode) Rationale: it's annoying to see that JSON when you're actually focused on the content.
+- Update ReadMe
+  - Remember to call out keyboard interactions:
+    - O: Displays sub-pages. Not sure why I chose 'O'
+    - D: Distraction mode (shows external links)
+    - I: Inspector mode
+- Publish to npm
 
 # Icebox
-
-- Choose a set of pages to release as the first version of the site, and test each one, fixing what are sure to be numerous issues, as they crop up. Note that this is (still) not about getting the layout and cosmetic design right. It's about ensuring that the functionality will work as hoped for, and also getting a feel for the sorts of future modifications I'm likely to want on this list! ↓
 
 - Add config for custom component names so that naming conflicts can be avoided.
 - Change the transformed page's Status to `Published` in Notion (w/appropriate .env override)
 - Add a Katex interpreter for `expression`s?
 - Experiment with having the script do a git commit after successfully saving. Here, I suspect, many monsters lurk, so probably the first working something will be pretty problematic
-- Publish to npm
 - Default to `prerender=true`?
 - Add password-based Admin mode with links back to Notion pages
   - MVP: security through obscurity -> type secret into the void to magically toggle
   - Later: Add actual Auth^2, but still with no affordances
-- Add support for Sub-pages
-  - Implement child_page blocks (currently, notion2svelte is rendering sub-pages inline!) (← I haven't recently validated this statement, so…caveat lector)
