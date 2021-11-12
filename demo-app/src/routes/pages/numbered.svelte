@@ -28,7 +28,7 @@ undefined
 		object: 'page',
 		id: '35b38be7-359d-47c7-93b3-f6ce9098176c',
 		created_time: '2021-09-26T05:16:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-12T22:00:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -296,7 +296,7 @@ undefined
 		object: 'page',
 		id: '35b38be7-359d-47c7-93b3-f6ce9098176c',
 		created_time: '2021-09-26T05:16:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-12T22:00:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -617,16 +617,16 @@ undefined
 			}
 		]
 	}}
-	><NumberedListItem number="1">2nd Item</NumberedListItem>
+	><NumberedListItem number="2">2nd Item</NumberedListItem>
 	<IndentGroup>
-		<NumberedListItem number="1">Some subtopic</NumberedListItem>
+		<NumberedListItem number="a">Some subtopic</NumberedListItem>
 		<IndentGroup>
 			<NumberedListItem number="i">Sub-sub-topic i.</NumberedListItem>
 			<NumberedListItem number="ii">Sub-sub-topic ii.</NumberedListItem>
 			<NumberedListItem number="iii">Sub-sub-topic iii.</NumberedListItem>
 			<NumberedListItem number="iv">Sub-sub-topic iv.</NumberedListItem>
 		</IndentGroup>
-		<NumberedListItem number="a">
+		<NumberedListItem number="b">
 			b<InlineColor value="gray">.</InlineColor>&thinsp;2nd sub-Item</NumberedListItem
 		>
 	</IndentGroup>
@@ -637,7 +637,7 @@ undefined
 		object: 'page',
 		id: '35b38be7-359d-47c7-93b3-f6ce9098176c',
 		created_time: '2021-09-26T05:16:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-12T22:00:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -730,7 +730,7 @@ undefined
 		object: 'page',
 		id: '35b38be7-359d-47c7-93b3-f6ce9098176c',
 		created_time: '2021-09-26T05:16:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-12T22:00:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -1243,7 +1243,7 @@ undefined
 			Notice, this is a&thinsp;<InlineCode>1.</InlineCode>, not&thinsp;<InlineCode>a.</InlineCode
 			>&thinsp;or&thinsp;<InlineCode>i.</InlineCode></NumberedListItem
 		>
-		<NumberedListItem number="1">This is a&thinsp;<InlineCode>2.</InlineCode></NumberedListItem>
+		<NumberedListItem number="2">This is a&thinsp;<InlineCode>2.</InlineCode></NumberedListItem>
 		<IndentGroup>
 			<NumberedListItem number="a">This is an&thinsp;<InlineCode>a.</InlineCode></NumberedListItem>
 			<div>but this is blank, so…</div>
@@ -1264,7 +1264,7 @@ undefined
 		object: 'page',
 		id: '35b38be7-359d-47c7-93b3-f6ce9098176c',
 		created_time: '2021-09-26T05:16:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-12T22:00:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -1357,7 +1357,7 @@ undefined
 		object: 'page',
 		id: '35b38be7-359d-47c7-93b3-f6ce9098176c',
 		created_time: '2021-09-26T05:16:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-12T22:00:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -1509,7 +1509,7 @@ undefined
 	><Toggle
 		>Because of this ↑ rule, toggles always start with numbered children
 		<span slot="children"
-			><NumberedListItem number="1">N'est pas?</NumberedListItem>
+			><NumberedListItem number="a">N'est pas?</NumberedListItem>
 			<IndentGroup>
 				<NumberedListItem number="i" />
 			</IndentGroup>
@@ -1522,7 +1522,7 @@ undefined
 		object: 'page',
 		id: '35b38be7-359d-47c7-93b3-f6ce9098176c',
 		created_time: '2021-09-26T05:16:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-12T22:00:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -1615,7 +1615,7 @@ undefined
 		object: 'page',
 		id: '35b38be7-359d-47c7-93b3-f6ce9098176c',
 		created_time: '2021-09-26T05:16:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-12T22:00:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -1726,7 +1726,7 @@ undefined
 		object: 'page',
 		id: '35b38be7-359d-47c7-93b3-f6ce9098176c',
 		created_time: '2021-09-26T05:16:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-12T22:00:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -6870,9 +6870,9 @@ undefined
 	}}
 	><NumberedListItem number="1">1.</NumberedListItem>
 	<IndentGroup>
-		<NumberedListItem number="1"><InlineCode>a.</InlineCode></NumberedListItem>
+		<NumberedListItem number="a"><InlineCode>a.</InlineCode></NumberedListItem>
 		<IndentGroup>
-			<NumberedListItem number="1"><InlineCode>i.</InlineCode></NumberedListItem>
+			<NumberedListItem number="i"><InlineCode>i.</InlineCode></NumberedListItem>
 			<IndentGroup>
 				<NumberedListItem number="1">Ok, so it goes Arabic…</NumberedListItem>
 				<IndentGroup>
@@ -6885,20 +6885,19 @@ undefined
 					</IndentGroup>
 				</IndentGroup>
 			</IndentGroup>
-			<NumberedListItem number="i"><InlineCode>ii.</InlineCode></NumberedListItem>
-			<NumberedListItem number="ii"><InlineCode>iii.</InlineCode></NumberedListItem>
-			<NumberedListItem number="iii"><InlineCode>iv.</InlineCode></NumberedListItem>
-			<NumberedListItem number="iv"><InlineCode>v.</InlineCode></NumberedListItem>
-			<NumberedListItem number="v"><InlineCode>vi.</InlineCode></NumberedListItem>
-			<NumberedListItem number="vi"><InlineCode>vii.</InlineCode></NumberedListItem>
-			<NumberedListItem number="vii"><InlineCode>viii.</InlineCode></NumberedListItem>
-			<NumberedListItem number="viii"><InlineCode>ix.</InlineCode></NumberedListItem>
-			<NumberedListItem number="ix"><InlineCode>x.</InlineCode></NumberedListItem>
-			<NumberedListItem number="x"><InlineCode>xi.</InlineCode></NumberedListItem>
-			<NumberedListItem number="xi"><InlineCode>xii.</InlineCode></NumberedListItem>
-			<NumberedListItem number="xii"><InlineCode>xiii.</InlineCode></NumberedListItem>
-			<NumberedListItem number="xiii"><InlineCode>xiv.</InlineCode></NumberedListItem>
-			<NumberedListItem number="xiv">…</NumberedListItem>
+			<NumberedListItem number="ii"><InlineCode>ii.</InlineCode></NumberedListItem>
+			<NumberedListItem number="iii"><InlineCode>iii.</InlineCode></NumberedListItem>
+			<NumberedListItem number="iv"><InlineCode>iv.</InlineCode></NumberedListItem>
+			<NumberedListItem number="v"><InlineCode>v.</InlineCode></NumberedListItem>
+			<NumberedListItem number="vi"><InlineCode>vi.</InlineCode></NumberedListItem>
+			<NumberedListItem number="vii"><InlineCode>vii.</InlineCode></NumberedListItem>
+			<NumberedListItem number="viii"><InlineCode>viii.</InlineCode></NumberedListItem>
+			<NumberedListItem number="ix"><InlineCode>ix.</InlineCode></NumberedListItem>
+			<NumberedListItem number="x"><InlineCode>x.</InlineCode></NumberedListItem>
+			<NumberedListItem number="xi"><InlineCode>xi.</InlineCode></NumberedListItem>
+			<NumberedListItem number="xii"><InlineCode>xii.</InlineCode></NumberedListItem>
+			<NumberedListItem number="xiii"><InlineCode>xiii.</InlineCode></NumberedListItem>
+			<NumberedListItem number="xiv"><InlineCode>xiv.</InlineCode></NumberedListItem>
 			<NumberedListItem number="xv">…</NumberedListItem>
 			<NumberedListItem number="xvi">…</NumberedListItem>
 			<NumberedListItem number="xvii">…</NumberedListItem>
@@ -7017,11 +7016,11 @@ undefined
 			<NumberedListItem number="cxxx">…</NumberedListItem>
 			<NumberedListItem number="cxxxi">…</NumberedListItem>
 			<NumberedListItem number="cxxxii">…</NumberedListItem>
+			<NumberedListItem number="cxxxiii">…</NumberedListItem>
 		</IndentGroup>
-		<NumberedListItem number="a"><InlineCode>b.</InlineCode></NumberedListItem>
-		<NumberedListItem number="b"><InlineCode>c.</InlineCode></NumberedListItem>
-		<NumberedListItem number="c"><InlineCode>d.</InlineCode></NumberedListItem>
-		<NumberedListItem number="d">…</NumberedListItem>
+		<NumberedListItem number="b"><InlineCode>b.</InlineCode></NumberedListItem>
+		<NumberedListItem number="c"><InlineCode>c.</InlineCode></NumberedListItem>
+		<NumberedListItem number="d"><InlineCode>d.</InlineCode></NumberedListItem>
 		<NumberedListItem number="e">…</NumberedListItem>
 		<NumberedListItem number="f">…</NumberedListItem>
 		<NumberedListItem number="g">…</NumberedListItem>
@@ -7043,10 +7042,11 @@ undefined
 		<NumberedListItem number="w">…</NumberedListItem>
 		<NumberedListItem number="x">…</NumberedListItem>
 		<NumberedListItem number="y">…</NumberedListItem>
-		<NumberedListItem number="z"><InlineCode>aa.</InlineCode></NumberedListItem>
-		<NumberedListItem number="aa"><InlineCode>ab.</InlineCode></NumberedListItem>
-		<NumberedListItem number="ab">…</NumberedListItem>
-		<NumberedListItem number="ac">
+		<NumberedListItem number="z">…</NumberedListItem>
+		<NumberedListItem number="aa"><InlineCode>aa.</InlineCode></NumberedListItem>
+		<NumberedListItem number="ab"><InlineCode>ab.</InlineCode></NumberedListItem>
+		<NumberedListItem number="ac">…</NumberedListItem>
+		<NumberedListItem number="ad">
 			and so on until&thinsp;<InlineCode>ba.</InlineCode></NumberedListItem
 		>
 	</IndentGroup>

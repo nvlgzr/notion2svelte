@@ -28,7 +28,7 @@ undefined
 		object: 'page',
 		id: '9540300e-200c-410b-8a7f-ae42f1768781',
 		created_time: '2021-09-26T06:38:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-12T21:02:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -417,7 +417,7 @@ undefined
 		<InlineColor value="gray">1.</InlineColor>&thinsp;First Item</NumberedListItem
 	>
 	<IndentGroup>
-		<NumberedListItem number="1">
+		<NumberedListItem number="a">
 			<InlineColor value="gray">a.</InlineColor>&thinsp;First sub-Item</NumberedListItem
 		>
 		<IndentGroup>
@@ -426,10 +426,10 @@ undefined
 			<NumberedListItem number="iii">Sub-sub-topic iii.</NumberedListItem>
 			<NumberedListItem number="iv">Sub-sub-topic iv.</NumberedListItem>
 		</IndentGroup>
-		<NumberedListItem number="a">
+		<NumberedListItem number="b">
 			<InlineColor value="gray">b.</InlineColor>&thinsp;2nd sub-Item</NumberedListItem
 		>
-		<NumberedListItem number="b">
+		<NumberedListItem number="c">
 			<InlineColor value="gray">c.</InlineColor>&thinsp;3rd sub-item</NumberedListItem
 		>
 	</IndentGroup>
@@ -440,7 +440,7 @@ undefined
 		object: 'page',
 		id: '9540300e-200c-410b-8a7f-ae42f1768781',
 		created_time: '2021-09-26T06:38:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-12T21:02:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -656,7 +656,7 @@ undefined
 			}
 		]
 	}}
-	><NumberedListItem number="1">
+	><NumberedListItem number="2">
 		<InlineColor value="gray">2.</InlineColor>&thinsp;2nd Item</NumberedListItem
 	>
 	<IndentGroup>
@@ -674,7 +674,7 @@ undefined
 		object: 'page',
 		id: '9540300e-200c-410b-8a7f-ae42f1768781',
 		created_time: '2021-09-26T06:38:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-12T21:02:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -794,8 +794,101 @@ undefined
 			]
 		}
 	}}
-	><NumberedListItem number="1">
+	><NumberedListItem number="3">
 		<InlineColor value="gray">3.</InlineColor>&thinsp;3rd item</NumberedListItem
 	>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '9540300e-200c-410b-8a7f-ae42f1768781',
+		created_time: '2021-09-26T06:38:00.000Z',
+		last_edited_time: '2021-11-12T21:02:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'numbering-shallow',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'numbering-shallow',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Numbering (Shallow)',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Numbering (Shallow)',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Numbering-Shallow-9540300e200c410b8a7fae42f1768781',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '295e5801-6704-4736-8214-f45a84015f57',
+		created_time: '2021-11-12T21:02:00.000Z',
+		last_edited_time: '2021-11-12T21:02:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: []
+		}
+	}}
+	><div />
 </Magic>
 <br style="display:none;" />

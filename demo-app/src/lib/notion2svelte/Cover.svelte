@@ -19,7 +19,6 @@
 	$: if (coverURL.length < 8) {
 		height = '0px';
 		k = '-16vh';
-		console.log(k);
 	} else if (!iconEmojiOrURL) {
 		k = '85vh';
 	}

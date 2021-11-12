@@ -6,8 +6,6 @@ status: in progress, render: true
 
 ## 🐞 Known Bugs
 
-- Numbering no longer seems to be working. Everything seems to just start with 1. (Guessing this went bust when I introduced Magic.svelte)
-
 # 🐝 Tasks/Ideas
 
 - Add KeyStroke + localStorage toggle of JSON hover. (I: Inspector mode) Rationale: it's annoying to see that JSON when you're actually focused on the content.
