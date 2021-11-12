@@ -3,17 +3,33 @@
 	// which get reference to the raw page and the entire block, just
 	// in case YOU need something that's not on MY radar.
 	import { scale, fade } from 'svelte/transition';
+	import { browser } from '$app/env';
+	import { writable } from 'svelte/store';
+	import KeyStroke from 'svelte-keystroke';
 
 	// export let page; // Not used in this instance.
 	export let block;
 
+	const storageKey = '@nvlgzr.ouroboros.inspectorModeOn';
+	const defaultValue = false;
+	const initialValue = browser ? window.localStorage.getItem(storageKey) === 'true' : defaultValue;
+	const inspectorModeOn = writable(initialValue);
+
 	let showJSON = false;
+
+	$: if (browser) {
+		window.localStorage.setItem(storageKey, $inspectorModeOn);
+	}
 </script>
+
+<KeyStroke on:i={() => ($inspectorModeOn = !$inspectorModeOn)} />
 
 <div
 	transition:fade
 	class:showJSON
-	on:mouseenter={() => (showJSON = true)}
+	on:mouseenter={() => {
+		if ($inspectorModeOn) showJSON = true;
+	}}
 	on:mouseleave={() => (showJSON = false)}
 >
 	<slot />

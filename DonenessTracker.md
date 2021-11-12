@@ -8,7 +8,6 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Add KeyStroke + localStorage toggle of JSON hover. (I: Inspector mode) Rationale: it's annoying to see that JSON when you're actually focused on the content.
 - Update ReadMe
   - Remember to call out keyboard interactions:
     - O: Displays sub-pages. Not sure why I chose 'O'
