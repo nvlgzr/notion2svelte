@@ -6,8 +6,7 @@ status: in progress, render: true
 
 ## 🐞 Known Bugs
 
-- External icons suffer the same issue as images (and presumably other media) embedded in Notion
-  → the Amazon URL has a short TTL, so the icon disappears over time
+- Numbering no longer seems to be working. Everything seems to just start with 1. (Guessing this went bust when I introduced Magic.svelte)
 
 # 🐝 Tasks/Ideas
 

@@ -20,5 +20,5 @@
 <svelte:head>
 	<title>No Cover or Icon</title>
 </svelte:head>
-
+undefined
 <Title>No Cover or Icon</Title>

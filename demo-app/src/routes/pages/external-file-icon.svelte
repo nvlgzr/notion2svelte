@@ -22,7 +22,7 @@
 </svelte:head>
 <Cover
 	coverURL={'https://www.notion.so/images/page-cover/solid_beige.png'}
-	iconEmojiOrURL={'https://img.icons8.com/ios/250/000000/light-on.png'}
+	iconEmojiOrURL={'/images/external-file-icon/icon.png'}
 />
 <Title>External File Icon</Title>
 
@@ -31,7 +31,7 @@
 		object: 'page',
 		id: 'c5194121-d72d-40b5-9cc1-9be0b7193bfc',
 		created_time: '2021-11-01T09:35:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:04:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -333,7 +333,7 @@
 		object: 'page',
 		id: 'c5194121-d72d-40b5-9cc1-9be0b7193bfc',
 		created_time: '2021-11-01T09:35:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:04:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -434,7 +434,7 @@
 		object: 'page',
 		id: 'c5194121-d72d-40b5-9cc1-9be0b7193bfc',
 		created_time: '2021-11-01T09:35:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:04:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -568,7 +568,7 @@
 		object: 'page',
 		id: 'c5194121-d72d-40b5-9cc1-9be0b7193bfc',
 		created_time: '2021-11-01T09:35:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:04:00.000Z',
 		cover: {
 			type: 'external',
 			external: {

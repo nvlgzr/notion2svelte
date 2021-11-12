@@ -22,7 +22,7 @@
 </svelte:head>
 <Cover
 	coverURL={'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'}
-	iconEmojiOrURL={''}
+	iconEmojiOrURL={'undefined'}
 />
 <Title>Cover-Only</Title>
 
@@ -31,7 +31,7 @@
 		object: 'page',
 		id: '8eb305de-5ebe-43a4-80cb-0ec7c9df5ab7',
 		created_time: '2021-11-03T07:11:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -133,7 +133,7 @@
 		object: 'page',
 		id: '8eb305de-5ebe-43a4-80cb-0ec7c9df5ab7',
 		created_time: '2021-11-03T07:11:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -249,7 +249,7 @@
 		object: 'page',
 		id: '8eb305de-5ebe-43a4-80cb-0ec7c9df5ab7',
 		created_time: '2021-11-03T07:11:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -345,7 +345,7 @@
 		object: 'page',
 		id: '8eb305de-5ebe-43a4-80cb-0ec7c9df5ab7',
 		created_time: '2021-11-03T07:11:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -501,7 +501,7 @@
 		object: 'page',
 		id: '8eb305de-5ebe-43a4-80cb-0ec7c9df5ab7',
 		created_time: '2021-11-03T07:11:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {

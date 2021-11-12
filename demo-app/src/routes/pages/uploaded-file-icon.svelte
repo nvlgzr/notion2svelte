@@ -20,10 +20,7 @@
 <svelte:head>
 	<title>Uploaded File Icon</title>
 </svelte:head>
-<Cover
-	coverURL={''}
-	iconEmojiOrURL={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a61cbc7-8c85-4cea-9806-94d0ee9205bc/navelgazer-third-eye.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211111T184105Z&X-Amz-Expires=3600&X-Amz-Signature=63e5827841f8af34890155dd8c3e0459660301d4291a3112a69a473781129bd3&X-Amz-SignedHeaders=host'}
-/>
+<Cover coverURL={''} iconEmojiOrURL={'/images/uploaded-file-icon/icon.png'} />
 <Title>Uploaded File Icon</Title>
 
 <Magic
@@ -31,13 +28,13 @@
 		object: 'page',
 		id: 'c7ae46cd-e8e6-4c4f-8617-b35aac4809a3',
 		created_time: '2021-11-01T09:34:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:04:00.000Z',
 		cover: null,
 		icon: {
 			type: 'file',
 			file: {
-				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a61cbc7-8c85-4cea-9806-94d0ee9205bc/navelgazer-third-eye.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211111T184105Z&X-Amz-Expires=3600&X-Amz-Signature=63e5827841f8af34890155dd8c3e0459660301d4291a3112a69a473781129bd3&X-Amz-SignedHeaders=host',
-				expiry_time: '2021-11-11T19:41:05.741Z'
+				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a61cbc7-8c85-4cea-9806-94d0ee9205bc/navelgazer-third-eye.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211112T062900Z&X-Amz-Expires=3600&X-Amz-Signature=fd7d78ba5d66d7ebd0062190d36b6aab3be2bdd90caac0b977b9e52c547f6bc3&X-Amz-SignedHeaders=host',
+				expiry_time: '2021-11-12T07:29:00.177Z'
 			}
 		},
 		parent: {
@@ -326,13 +323,13 @@
 		object: 'page',
 		id: 'c7ae46cd-e8e6-4c4f-8617-b35aac4809a3',
 		created_time: '2021-11-01T09:34:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:04:00.000Z',
 		cover: null,
 		icon: {
 			type: 'file',
 			file: {
-				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a61cbc7-8c85-4cea-9806-94d0ee9205bc/navelgazer-third-eye.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211111T184105Z&X-Amz-Expires=3600&X-Amz-Signature=63e5827841f8af34890155dd8c3e0459660301d4291a3112a69a473781129bd3&X-Amz-SignedHeaders=host',
-				expiry_time: '2021-11-11T19:41:05.741Z'
+				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a61cbc7-8c85-4cea-9806-94d0ee9205bc/navelgazer-third-eye.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211112T062900Z&X-Amz-Expires=3600&X-Amz-Signature=fd7d78ba5d66d7ebd0062190d36b6aab3be2bdd90caac0b977b9e52c547f6bc3&X-Amz-SignedHeaders=host',
+				expiry_time: '2021-11-12T07:29:00.177Z'
 			}
 		},
 		parent: {
@@ -443,13 +440,13 @@
 		object: 'page',
 		id: 'c7ae46cd-e8e6-4c4f-8617-b35aac4809a3',
 		created_time: '2021-11-01T09:34:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:04:00.000Z',
 		cover: null,
 		icon: {
 			type: 'file',
 			file: {
-				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a61cbc7-8c85-4cea-9806-94d0ee9205bc/navelgazer-third-eye.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211111T184105Z&X-Amz-Expires=3600&X-Amz-Signature=63e5827841f8af34890155dd8c3e0459660301d4291a3112a69a473781129bd3&X-Amz-SignedHeaders=host',
-				expiry_time: '2021-11-11T19:41:05.741Z'
+				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a61cbc7-8c85-4cea-9806-94d0ee9205bc/navelgazer-third-eye.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211112T062900Z&X-Amz-Expires=3600&X-Amz-Signature=fd7d78ba5d66d7ebd0062190d36b6aab3be2bdd90caac0b977b9e52c547f6bc3&X-Amz-SignedHeaders=host',
+				expiry_time: '2021-11-12T07:29:00.177Z'
 			}
 		},
 		parent: {
@@ -560,13 +557,13 @@
 		object: 'page',
 		id: 'c7ae46cd-e8e6-4c4f-8617-b35aac4809a3',
 		created_time: '2021-11-01T09:34:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:04:00.000Z',
 		cover: null,
 		icon: {
 			type: 'file',
 			file: {
-				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a61cbc7-8c85-4cea-9806-94d0ee9205bc/navelgazer-third-eye.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211111T184105Z&X-Amz-Expires=3600&X-Amz-Signature=63e5827841f8af34890155dd8c3e0459660301d4291a3112a69a473781129bd3&X-Amz-SignedHeaders=host',
-				expiry_time: '2021-11-11T19:41:05.741Z'
+				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a61cbc7-8c85-4cea-9806-94d0ee9205bc/navelgazer-third-eye.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211112T062900Z&X-Amz-Expires=3600&X-Amz-Signature=fd7d78ba5d66d7ebd0062190d36b6aab3be2bdd90caac0b977b9e52c547f6bc3&X-Amz-SignedHeaders=host',
+				expiry_time: '2021-11-12T07:29:00.177Z'
 			}
 		},
 		parent: {
@@ -677,13 +674,13 @@
 		object: 'page',
 		id: 'c7ae46cd-e8e6-4c4f-8617-b35aac4809a3',
 		created_time: '2021-11-01T09:34:00.000Z',
-		last_edited_time: '2021-11-11T13:08:00.000Z',
+		last_edited_time: '2021-11-12T06:04:00.000Z',
 		cover: null,
 		icon: {
 			type: 'file',
 			file: {
-				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a61cbc7-8c85-4cea-9806-94d0ee9205bc/navelgazer-third-eye.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211111T184105Z&X-Amz-Expires=3600&X-Amz-Signature=63e5827841f8af34890155dd8c3e0459660301d4291a3112a69a473781129bd3&X-Amz-SignedHeaders=host',
-				expiry_time: '2021-11-11T19:41:05.741Z'
+				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3a61cbc7-8c85-4cea-9806-94d0ee9205bc/navelgazer-third-eye.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211112T062900Z&X-Amz-Expires=3600&X-Amz-Signature=fd7d78ba5d66d7ebd0062190d36b6aab3be2bdd90caac0b977b9e52c547f6bc3&X-Amz-SignedHeaders=host',
+				expiry_time: '2021-11-12T07:29:00.177Z'
 			}
 		},
 		parent: {
