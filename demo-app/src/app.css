@@ -5,9 +5,9 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--pure-white: #ffffff;
-	--primary-color: hsl(206, 88%, 95%);
-	--secondary-color: hsl(206, 60%, 95%);
-	--tertiary-color: hsl(206, 50%, 98%);
+	--primary-color: hsl(206, 88%, 50%);
+	--secondary-color: hsl(206, 80%, 70%);
+	--tertiary-color: hsl(206, 50%, 88%);
 	--accent-color: #ff3e00;
 	--heading-color: rgba(0, 0, 0, 0.7);
 	--text-color: #444444;

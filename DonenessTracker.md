@@ -8,6 +8,9 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
+- Implement `column_list` and `column`
+- Implement `equation` (spike katex interpretation, just to see what happens!)
+- Implement `embed`, `video` and `file` types
 - Update ReadMe
   - Remember to call out keyboard interactions:
     - O: Displays sub-pages. Not sure why I chose 'O'
@@ -25,3 +28,8 @@ status: in progress, render: true
 - Add password-based Admin mode with links back to Notion pages
   - MVP: security through obscurity -> type secret into the void to magically toggle
   - Later: Add actual Auth^2, but still with no affordances
+- Implement all `mention` types
+- Implement `bookmark`?
+- Implement `table_of_contents`?
+- Implement `breadcrumb`?
+- Implement `link_preview` (Not sure how to make one of these in Notion 😬)
