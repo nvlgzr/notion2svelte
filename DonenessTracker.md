@@ -8,7 +8,6 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Implement `column_list` and `column`
 - Implement `equation` (spike katex interpretation, just to see what happens!)
 - Implement `embed`, `video` and `file` types
 - Update ReadMe

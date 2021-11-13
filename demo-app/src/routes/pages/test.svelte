@@ -6,6 +6,8 @@
         import BulletedListItem from "$lib/notion2svelte/BulletedListItem.svelte"
         import Callout from "$lib/notion2svelte/Callout.svelte"
         import ChildPage from "$lib/notion2svelte/ChildPage.svelte"
+        import ColumnList from "$lib/notion2svelte/ColumnList.svelte"
+        import Column from "$lib/notion2svelte/Column.svelte"
         import Divider from "$lib/notion2svelte/Divider.svelte"
         import Image from "$lib/notion2svelte/Image.svelte"
         import IndentGroup from "$lib/notion2svelte/IndentGroup.svelte"
@@ -28,7 +30,7 @@
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -141,7 +143,7 @@
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -274,7 +276,7 @@
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -481,7 +483,7 @@
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -667,7 +669,7 @@
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -802,7 +804,7 @@ Although almost all penguin species are native to the Southern Hemisphere, they 
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -937,7 +939,7 @@ Several authors have suggested that penguins are a good example of Bergmann's Ru
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -1140,7 +1142,7 @@ Major populations of penguins are found in&thinsp;<em>Angola, Antarctica, Argent
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -1292,7 +1294,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -1409,7 +1411,7 @@ Penguins for the most part breed in large colonies, the exceptions being the yel
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -1578,7 +1580,7 @@ But enough about penguins. What about&thinsp;<em>notion2svelte</em>?!
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -1695,7 +1697,7 @@ But enough about penguins. What about&thinsp;<em>notion2svelte</em>?!
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -1845,7 +1847,7 @@ But enough about penguins. What about&thinsp;<em>notion2svelte</em>?!
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -1980,7 +1982,7 @@ Headers size 1 are, obviously, fine ↑. Ditto for H2s ↓ and H3s ↓↓.
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -2181,7 +2183,7 @@ Headers size 1 are, obviously, fine ↑. Ditto for H2s ↓ and H3s ↓↓.
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -2384,7 +2386,7 @@ It's interesting to note that, while Notion doesn't&thinsp;<em>display</em>&thin
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -2517,7 +2519,7 @@ It's interesting to note that, while Notion doesn't&thinsp;<em>display</em>&thin
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -3102,7 +3104,7 @@ Obviously&thinsp;<InlineCode>text</InlineCode>&thinsp;blocks are supported, but 
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -3235,7 +3237,7 @@ Obviously&thinsp;<InlineCode>text</InlineCode>&thinsp;blocks are supported, but 
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -3472,7 +3474,7 @@ If you create a&thinsp;<em>divider&thinsp;</em>in Notion using&thinsp;<InlineCod
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -3585,7 +3587,7 @@ If you create a&thinsp;<em>divider&thinsp;</em>in Notion using&thinsp;<InlineCod
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -3686,7 +3688,7 @@ If you create a&thinsp;<em>divider&thinsp;</em>in Notion using&thinsp;<InlineCod
   "object": "block",
   "id": "99c1a97d-017e-4472-baff-6d75aabfd0fe",
   "created_time": "2021-11-13T02:55:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T03:00:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -3729,7 +3731,7 @@ If you create a&thinsp;<em>divider&thinsp;</em>in Notion using&thinsp;<InlineCod
       {
         "type": "text",
         "text": {
-          "content": ". So this <span style=\"height: 1rem;\"><Divider /></span> turns into an awkwardly-inlined SVG, whereas this gets rehydrated into a demonstration of component syntax:  &lt;Divider />.",
+          "content": ". So this <span style=\"height: 1rem; line-height: 1rem;\"><Divider /></span> turns into an awkwardly-inlined SVG, whereas this gets rehydrated into a demonstration of component syntax:  &lt;Divider />.",
           "link": null
         },
         "annotations": {
@@ -3740,13 +3742,13 @@ If you create a&thinsp;<em>divider&thinsp;</em>in Notion using&thinsp;<InlineCod
           "code": false,
           "color": "default"
         },
-        "plain_text": ". So this <span style=\"height: 1rem;\"><Divider /></span> turns into an awkwardly-inlined SVG, whereas this gets rehydrated into a demonstration of component syntax:  &lt;Divider />.",
+        "plain_text": ". So this <span style=\"height: 1rem; line-height: 1rem;\"><Divider /></span> turns into an awkwardly-inlined SVG, whereas this gets rehydrated into a demonstration of component syntax:  &lt;Divider />.",
         "href": null
       }
     ]
   }
 }}><div>
-Incidentally, components referenced in your Svelte text will get rendered if you don't escape the opening&thinsp;<InlineCode>&lt;</InlineCode>. So this <span style="height: 1rem;"><Divider /></span> turns into an awkwardly-inlined SVG, whereas this gets rehydrated into a demonstration of component syntax:  &lt;Divider />.
+Incidentally, components referenced in your Svelte text will get rendered if you don't escape the opening&thinsp;<InlineCode>&lt;</InlineCode>. So this <span style="height: 1rem; line-height: 1rem;"><Divider /></span> turns into an awkwardly-inlined SVG, whereas this gets rehydrated into a demonstration of component syntax:  &lt;Divider />.
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -3754,7 +3756,7 @@ Incidentally, components referenced in your Svelte text will get rendered if you
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -3887,7 +3889,7 @@ Incidentally, components referenced in your Svelte text will get rendered if you
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -4193,7 +4195,7 @@ Here are the three basic types of link generated when pasting a URL:
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -4310,7 +4312,7 @@ Here are the three basic types of link generated when pasting a URL:
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -4553,7 +4555,7 @@ Links to&thinsp;<MagicLink href="https://navelgazer.club">external sites</MagicL
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -4760,7 +4762,7 @@ Links to&thinsp;<MagicLink href="https://navelgazer.club">external sites</MagicL
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -4873,7 +4875,7 @@ Links to&thinsp;<MagicLink href="https://navelgazer.club">external sites</MagicL
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -5006,7 +5008,7 @@ Links to&thinsp;<MagicLink href="https://navelgazer.club">external sites</MagicL
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -5107,7 +5109,7 @@ Links to&thinsp;<MagicLink href="https://navelgazer.club">external sites</MagicL
   "object": "block",
   "id": "8edec5d5-0850-414d-90a0-f5e736557582",
   "created_time": "2021-11-12T23:11:00.000Z",
-  "last_edited_time": "2021-11-12T23:11:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "has_children": true,
   "archived": false,
   "type": "column_list",
@@ -5117,7 +5119,7 @@ Links to&thinsp;<MagicLink href="https://navelgazer.club">external sites</MagicL
       "object": "block",
       "id": "c4efff0d-9617-4c69-9be1-676782df6c45",
       "created_time": "2021-11-12T23:11:00.000Z",
-      "last_edited_time": "2021-11-12T23:45:00.000Z",
+      "last_edited_time": "2021-11-13T04:13:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "column",
@@ -5257,7 +5259,7 @@ Links to&thinsp;<MagicLink href="https://navelgazer.club">external sites</MagicL
       "object": "block",
       "id": "ad930823-32e6-422a-b7c1-cd84f2e3331a",
       "created_time": "2021-11-12T23:11:00.000Z",
-      "last_edited_time": "2021-11-12T23:40:00.000Z",
+      "last_edited_time": "2021-11-13T04:13:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "column",
@@ -5567,312 +5569,123 @@ Links to&thinsp;<MagicLink href="https://navelgazer.club">external sites</MagicL
             ],
             "type": "file",
             "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T030003Z&X-Amz-Expires=3600&X-Amz-Signature=5df3f1568ea79dc57aa0a5d69a5d822ea18764394303707453aeae0b6d067e7c&X-Amz-SignedHeaders=host",
-              "expiry_time": "2021-11-13T04:00:03.600Z"
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T041515Z&X-Amz-Expires=3600&X-Amz-Signature=4576437ef10093fffda209e6879923a7af242f6cfce4070ddb757dfd56b90349&X-Amz-SignedHeaders=host",
+              "expiry_time": "2021-11-13T05:15:15.855Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "036135ac-35d4-4a0c-a541-02e3be113de1",
+      "created_time": "2021-11-13T04:13:00.000Z",
+      "last_edited_time": "2021-11-13T04:13:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "2a886060-dcff-46f3-87a1-fa80ea583025",
+          "created_time": "2021-09-28T09:06:00.000Z",
+          "last_edited_time": "2021-11-13T04:13:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "image",
+          "image": {
+            "caption": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "From unsplash",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "From unsplash",
+                "href": null
+              }
+            ],
+            "type": "external",
+            "external": {
+              "url": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "15c1bd08-1360-427c-b86b-850f96193831",
+      "created_time": "2021-11-13T04:13:00.000Z",
+      "last_edited_time": "2021-11-13T04:13:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "655a2330-d9fa-427c-b592-152d547c94c5",
+          "created_time": "2021-09-28T09:06:00.000Z",
+          "last_edited_time": "2021-11-13T04:13:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "image",
+          "image": {
+            "caption": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "cresting orca",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "cresting orca",
+                "href": null
+              }
+            ],
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T041515Z&X-Amz-Expires=3600&X-Amz-Signature=3d2b54c0fdb17b0c04b02234c556a8e166258b6df728adf076c20ffaa8776796&X-Amz-SignedHeaders=host",
+              "expiry_time": "2021-11-13T05:15:15.778Z"
             }
           }
         }
       ]
     }
   ]
-}}>column_list<IndentGroup>
-  column<IndentGroup>
-  <div>
+}}><ColumnList cols={4}><Column><div>
 I haven't yet implemented&thinsp;<InlineCode>column_list</InlineCode>&thinsp;or&thinsp;<InlineCode>column</InlineCode>&thinsp;so you'll be seeing the default "block.type" output for them.
 </div>
 <div>
 Not sure whether the Notion API supports column sizing at all. It doesn't seem to support image sizing, fwiw.
 </div>
-
-</IndentGroup>
-column<IndentGroup>
-  <Image url="/images/bells-and-whistles/c877cf0a-9681-4e15-a321-bdd5c5bfce1f.jpg">Captions, too, can include&thinsp;<em>italics</em>,&thinsp;<strong>bold</strong>,&thinsp;<s>strikethrough</s>,&thinsp;<InlineCode>code</InlineCode>,&thinsp;<InlineColor value='red'><strong>c</strong></InlineColor><InlineColor value='orange'><strong>o</strong></InlineColor><InlineColor value='yellow'><strong>l</strong></InlineColor><InlineColor value='green'><strong>o</strong></InlineColor><InlineColor value='blue'><strong>r</strong></InlineColor><InlineColor value='purple'><strong>s</strong></InlineColor>, and&thinsp;<MagicLink href="https://ilovelife.com">links</MagicLink></Image>
-
-</IndentGroup>
-
-</IndentGroup>
-</Magic> 
+</Column><Column><Image url="/images/bells-and-whistles/c877cf0a-9681-4e15-a321-bdd5c5bfce1f.jpg">Captions, too, can include&thinsp;<em>italics</em>,&thinsp;<strong>bold</strong>,&thinsp;<s>strikethrough</s>,&thinsp;<InlineCode>code</InlineCode>,&thinsp;<InlineColor value='red'><strong>c</strong></InlineColor><InlineColor value='orange'><strong>o</strong></InlineColor><InlineColor value='yellow'><strong>l</strong></InlineColor><InlineColor value='green'><strong>o</strong></InlineColor><InlineColor value='blue'><strong>r</strong></InlineColor><InlineColor value='purple'><strong>s</strong></InlineColor>, and&thinsp;<MagicLink href="https://ilovelife.com">links</MagicLink></Image>
+</Column><Column><Image url="/images/bells-and-whistles/2a886060-dcff-46f3-87a1-fa80ea583025.jpg">From unsplash</Image>
+</Column><Column><Image url="/images/bells-and-whistles/655a2330-d9fa-427c-b592-152d547c94c5.jpg">cresting orca</Image>
+</Column></ColumnList></Magic> 
 <br style="display:none;"/>
 <Magic page={{
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
-  "cover": {
-    "type": "external",
-    "external": {
-      "url": "https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
-    }
-  },
-  "icon": {
-    "type": "emoji",
-    "emoji": "🦦"
-  },
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "bells-and-whistles",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "bells-and-whistles",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Test Page",
-            "link": null
-          },
-          "annotations": {
-            "bold": true,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Test Page",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " w/Some Bells and Whistles 🎉",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " w/Some Bells and Whistles 🎉",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "2a886060-dcff-46f3-87a1-fa80ea583025",
-  "created_time": "2021-09-28T09:06:00.000Z",
-  "last_edited_time": "2021-09-28T09:06:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "image",
-  "image": {
-    "caption": [
-      {
-        "type": "text",
-        "text": {
-          "content": "From unsplash",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "From unsplash",
-        "href": null
-      }
-    ],
-    "type": "external",
-    "external": {
-      "url": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
-    }
-  }
-}}><Image url="/images/bells-and-whistles/2a886060-dcff-46f3-87a1-fa80ea583025.jpg">From unsplash</Image>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
-  "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
-  "cover": {
-    "type": "external",
-    "external": {
-      "url": "https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
-    }
-  },
-  "icon": {
-    "type": "emoji",
-    "emoji": "🦦"
-  },
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "bells-and-whistles",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "bells-and-whistles",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Test Page",
-            "link": null
-          },
-          "annotations": {
-            "bold": true,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Test Page",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " w/Some Bells and Whistles 🎉",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " w/Some Bells and Whistles 🎉",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "655a2330-d9fa-427c-b592-152d547c94c5",
-  "created_time": "2021-09-28T09:06:00.000Z",
-  "last_edited_time": "2021-11-12T23:13:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "image",
-  "image": {
-    "caption": [
-      {
-        "type": "text",
-        "text": {
-          "content": "cresting orca",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "cresting orca",
-        "href": null
-      }
-    ],
-    "type": "file",
-    "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T030003Z&X-Amz-Expires=3600&X-Amz-Signature=09e89e251a153af414294befb0e65904de5c70130d8d6a421bacfb2639922195&X-Amz-SignedHeaders=host",
-      "expiry_time": "2021-11-13T04:00:03.076Z"
-    }
-  }
-}}><Image url="/images/bells-and-whistles/655a2330-d9fa-427c-b592-152d547c94c5.jpg">cresting orca</Image>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
-  "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6005,7 +5818,7 @@ column<IndentGroup>
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6344,7 +6157,7 @@ I've chosen some pretty rudimentary styles for&thinsp;<em>checkboxes,</em>&thins
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6478,7 +6291,7 @@ I've chosen some pretty rudimentary styles for&thinsp;<em>checkboxes,</em>&thins
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6612,7 +6425,7 @@ I've chosen some pretty rudimentary styles for&thinsp;<em>checkboxes,</em>&thins
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6746,7 +6559,7 @@ I've chosen some pretty rudimentary styles for&thinsp;<em>checkboxes,</em>&thins
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -6863,7 +6676,7 @@ I've chosen some pretty rudimentary styles for&thinsp;<em>checkboxes,</em>&thins
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -7101,7 +6914,7 @@ What about block-level text colors?
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -7218,7 +7031,7 @@ What about block-level text colors?
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -7387,7 +7200,7 @@ What about block-level text colors?
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -7504,7 +7317,7 @@ What about block-level text colors?
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -7654,7 +7467,7 @@ What about block-level text colors?
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -7823,7 +7636,7 @@ What about block-level text colors?
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -7940,7 +7753,7 @@ What about block-level text colors?
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -8109,7 +7922,7 @@ Whereas Notion seems to rely on Javascript to set the number/letter prefixes in 
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -8376,7 +8189,7 @@ And one child block that's unnumbered
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -8975,7 +8788,7 @@ And one child block that's unnumbered
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -9108,7 +8921,7 @@ And one child block that's unnumbered
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -9221,7 +9034,7 @@ And one child block that's unnumbered
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -9354,7 +9167,7 @@ And one child block that's unnumbered
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -9523,7 +9336,7 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -9662,8 +9475,8 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T030003Z&X-Amz-Expires=3600&X-Amz-Signature=796bcc0168253670521457023533fae41ccb57ecd493ae7cd071652d821998f0&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-11-13T04:00:03.409Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T041515Z&X-Amz-Expires=3600&X-Amz-Signature=a9786cac91e8f1653355fe3761bc5a8dadc823c981d01647e34a3c5c2684c2ec&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-13T05:15:15.668Z"
         }
       }
     },
@@ -9727,8 +9540,8 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T030003Z&X-Amz-Expires=3600&X-Amz-Signature=6440e2b1660fbbb8cc99909886cf3335f00811fcc59dd8c083798c688d68ecae&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-11-13T04:00:03.406Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T041515Z&X-Amz-Expires=3600&X-Amz-Signature=bed14f6933eb9672b3983dba93c70c3e366ecf49b44da6e85e2d3eed5a201caa&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-13T05:15:15.669Z"
         }
       }
     },
@@ -9762,8 +9575,8 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T030003Z&X-Amz-Expires=3600&X-Amz-Signature=6440e2b1660fbbb8cc99909886cf3335f00811fcc59dd8c083798c688d68ecae&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-11-13T04:00:03.418Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T041515Z&X-Amz-Expires=3600&X-Amz-Signature=bed14f6933eb9672b3983dba93c70c3e366ecf49b44da6e85e2d3eed5a201caa&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-13T05:15:15.669Z"
         }
       }
     }
@@ -9780,7 +9593,7 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -9915,7 +9728,7 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -10029,7 +9842,7 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -10164,7 +9977,7 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -10277,7 +10090,7 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -10410,7 +10223,7 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -10663,7 +10476,7 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -10776,7 +10589,7 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -10909,7 +10722,7 @@ Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCo
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -11111,7 +10924,7 @@ At this point, inline- and block equations just get formatted kinda like&thinsp;
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -11225,7 +11038,7 @@ At this point, inline- and block equations just get formatted kinda like&thinsp;
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -11358,7 +11171,7 @@ At this point, inline- and block equations just get formatted kinda like&thinsp;
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -11604,7 +11417,7 @@ synced_block<IndentGroup>
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -11737,7 +11550,7 @@ synced_block<IndentGroup>
   "object": "page",
   "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
   "created_time": "2021-09-20T10:05:00.000Z",
-  "last_edited_time": "2021-11-13T02:59:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -12005,28 +11818,16 @@ synced_block<IndentGroup>
       ]
     }
   ]
-}}>column_list<IndentGroup>
-  column<IndentGroup>
-  <div>
+}}><ColumnList cols={3}><Column><div>
 This should work
 </div>
-
-</IndentGroup>
-column<IndentGroup>
-  <div>
+</Column><Column><div>
 once I implement
 </div>
-
-</IndentGroup>
-column<IndentGroup>
-  <div>
+</Column><Column><div>
 <InlineCode>column_list</InlineCode>&thinsp;and&thinsp;<InlineCode>column</InlineCode>
 </div>
-
-</IndentGroup>
-
-</IndentGroup>
-</Magic> 
+</Column></ColumnList></Magic> 
 <br style="display:none;"/>
 
   
