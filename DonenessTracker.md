@@ -8,7 +8,6 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Implement `BlockEquation`
 - Implement `embed`, `video` and `file` types
 - Update ReadMe
   - Remember to call out keyboard interactions:

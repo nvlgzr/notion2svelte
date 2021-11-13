@@ -13,7 +13,7 @@
         import IndentGroup from "$lib/notion2svelte/IndentGroup.svelte"
         import InlineCode from "$lib/notion2svelte/InlineCode.svelte"
         import InlineColor from "$lib/notion2svelte/InlineColor.svelte"
-        import InlineEquation from "$lib/notion2svelte/InlineEquation.svelte"
+        import Equation from "$lib/notion2svelte/Equation.svelte"
         import Magic from "$lib/notion2svelte/Magic.svelte"
         import MagicLink from "$lib/notion2svelte/MagicLink.svelte"
         import NumberedListItem from "$lib/notion2svelte/NumberedListItem.svelte"
@@ -31,7 +31,7 @@
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -156,7 +156,7 @@
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -522,7 +522,7 @@
     ]
   }
 }}><div>
-In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>, <strong>mass–energy equivalence</strong> is the relationship between <MagicLink href="https://en.wikipedia.org/wiki/Mass">mass</MagicLink> and <MagicLink href="https://en.wikipedia.org/wiki/Energy">energy</MagicLink> in a system's <MagicLink href="https://en.wikipedia.org/wiki/Rest_frame">rest frame</MagicLink>, where the two values differ only by a constant and the units of measurement. The principle is described by the physicist <MagicLink href="https://en.wikipedia.org/wiki/Albert_Einstein">Albert Einstein</MagicLink>'s famous formula:&thinsp;<InlineEquation katexString="E = mc^2" />.
+In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>, <strong>mass–energy equivalence</strong> is the relationship between <MagicLink href="https://en.wikipedia.org/wiki/Mass">mass</MagicLink> and <MagicLink href="https://en.wikipedia.org/wiki/Energy">energy</MagicLink> in a system's <MagicLink href="https://en.wikipedia.org/wiki/Rest_frame">rest frame</MagicLink>, where the two values differ only by a constant and the units of measurement. The principle is described by the physicist <MagicLink href="https://en.wikipedia.org/wiki/Albert_Einstein">Albert Einstein</MagicLink>'s famous formula:&thinsp;<Equation block={false} katexString="E = mc^2" />.
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -530,7 +530,7 @@ In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>,
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -639,7 +639,7 @@ In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>,
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -757,7 +757,7 @@ In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>,
     ]
   }
 }}><div>
-<InlineEquation katexString="\KaTeX\ | \LaTeX\ is\ HUGE!" />
+<Equation block={false} katexString="\KaTeX\ | \LaTeX\ is\ HUGE!" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -765,7 +765,7 @@ In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>,
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -874,7 +874,7 @@ In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>,
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -1026,7 +1026,7 @@ In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>,
     ]
   }
 }}><div>
-This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
+This is an inline&thinsp;<Equation block={false} katexString="|x| = \begin{'{'}cases}
   x, &\quad x \geq 0 \\
   -x, &\quad x < 0 \\
   0, &\quad x < 0 \\
@@ -1039,7 +1039,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -1148,7 +1148,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -1301,14 +1301,14 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
       }
     ]
   }
-}}><h3><MagicLink href="https://katex.org/docs/supported.html">Accents</MagicLink>&thinsp;supported by&thinsp;<InlineEquation katexString="\KaTeX" /></h3>
+}}><h3><MagicLink href="https://katex.org/docs/supported.html">Accents</MagicLink>&thinsp;supported by&thinsp;<Equation block={false} katexString="\KaTeX" /></h3>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -1426,7 +1426,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
     ]
   }
 }}><div>
-<InlineEquation katexString="a'\ a''\ a^{'{'}\prime}\ \acute{'{'}a}\ \bar{'{'}y}\ \breve{'{'}a}\ \check{'{'}a}\ \dot{'{'}a}\ \ddot{'{'}a}\ \grave{'{'}a}\ \hat{'{'}\theta}\ \widehat{'{'}widehat}" />
+<Equation block={false} katexString="a'\ a''\ a^{'{'}\prime}\ \acute{'{'}a}\ \bar{'{'}y}\ \breve{'{'}a}\ \check{'{'}a}\ \dot{'{'}a}\ \ddot{'{'}a}\ \grave{'{'}a}\ \hat{'{'}\theta}\ \widehat{'{'}widehat}" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -1434,7 +1434,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -1552,7 +1552,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
     ]
   }
 }}><div>
-<InlineEquation katexString="\tilde{'{'}tilde}\ \widetilde{'{'}widetilde}\ \utilde{'{'}utilde}\ \vec{'{'}vec}\ \overleftarrow{'{'}overleftarrow}\ \underleftarrow{'{'}underleftarrow}" />
+<Equation block={false} katexString="\tilde{'{'}tilde}\ \widetilde{'{'}widetilde}\ \utilde{'{'}utilde}\ \vec{'{'}vec}\ \overleftarrow{'{'}overleftarrow}\ \underleftarrow{'{'}underleftarrow}" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -1560,7 +1560,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -1678,7 +1678,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
     ]
   }
 }}><div>
-<InlineEquation katexString="\overleftharpoon{'{'}overleftharpoon}\ \overleftrightarrow{'{'}overleftrightarrow}\ \underleftrightarrow{'{'}underleftrightarrow}" />
+<Equation block={false} katexString="\overleftharpoon{'{'}overleftharpoon}\ \overleftrightarrow{'{'}overleftrightarrow}\ \underleftrightarrow{'{'}underleftrightarrow}" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -1686,7 +1686,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -1804,7 +1804,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
     ]
   }
 }}><div>
-<InlineEquation katexString="\overline{'{'}overline}\ \underline{'{'}underline}\ \ \underbar{'{'}underbar}\ \widecheck{'{'}widecheck}" />
+<Equation block={false} katexString="\overline{'{'}overline}\ \underline{'{'}underline}\ \ \underbar{'{'}underbar}\ \widecheck{'{'}widecheck}" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -1812,7 +1812,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -1930,7 +1930,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
     ]
   }
 }}><div>
-<InlineEquation katexString="\mathring{'{'}mathring}\ \overgroup{'{'}overgroup}\ \undergroup{'{'}undergroup}\ \Overrightarrow{'{'}Overrightarrow}" />
+<Equation block={false} katexString="\mathring{'{'}mathring}\ \overgroup{'{'}overgroup}\ \undergroup{'{'}undergroup}\ \Overrightarrow{'{'}Overrightarrow}" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -1938,7 +1938,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -2056,7 +2056,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
     ]
   }
 }}><div>
-<InlineEquation katexString="\overrightarrow{'{'}overrightarrow}\ \underrightarrow{'{'}underrightarrow}\ \overrightharpoon{'{'}overrightharpoon}\ \overbrace{'{'}overbrace}" />
+<Equation block={false} katexString="\overrightarrow{'{'}overrightarrow}\ \underrightarrow{'{'}underrightarrow}\ \overrightharpoon{'{'}overrightharpoon}\ \overbrace{'{'}overbrace}" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -2064,7 +2064,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -2182,7 +2182,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
     ]
   }
 }}><div>
-<InlineEquation katexString="\underbrace{'{'}underbrace}\ \overlinesegment{'{'}overlinesegment}\ \underlinesegment{'{'}underlinesegment}\ \underbar{'{'}underbar}" />
+<Equation block={false} katexString="\underbrace{'{'}underbrace}\ \overlinesegment{'{'}overlinesegment}\ \underlinesegment{'{'}underlinesegment}\ \underbar{'{'}underbar}" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -2190,7 +2190,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -2315,7 +2315,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -2433,7 +2433,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
     ]
   }
 }}><div>
-<InlineEquation katexString="(foo)\ [foo]\ \{'{'}foo\}\ \lang{'{'}foo}\rang\  |foo|\ \|foo\|\ \lt{'{'}foo}\gt\ \lceil{'{'}foo}\rceil\ \lfloor{'{'}foo}\rfloor" />
+<Equation block={false} katexString="(foo)\ [foo]\ \{'{'}foo\}\ \lang{'{'}foo}\rang\  |foo|\ \|foo\|\ \lt{'{'}foo}\gt\ \lceil{'{'}foo}\rceil\ \lfloor{'{'}foo}\rfloor" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -2441,7 +2441,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -2559,7 +2559,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
     ]
   }
 }}><div>
-<InlineEquation katexString="\lmoustache{'{'}foo}\rmoustache\ \lgroup{'{'}foo}\rgroup\ \ulcorner{'{'}foo}\urcorner\ \llcorner{'{'}foo}\lrcorner\ \llbracket{'{'}foo}\rrbracket\ ↑\ ↓\ \updownarrow\ ⇑\ ⇓\ \Updownarrow\ \backslash \lBrace{'{'}foo}\rBrace" />
+<Equation block={false} katexString="\lmoustache{'{'}foo}\rmoustache\ \lgroup{'{'}foo}\rgroup\ \ulcorner{'{'}foo}\urcorner\ \llcorner{'{'}foo}\lrcorner\ \llbracket{'{'}foo}\rrbracket\ ↑\ ↓\ \updownarrow\ ⇑\ ⇓\ \Updownarrow\ \backslash \lBrace{'{'}foo}\rBrace" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -2567,7 +2567,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -2692,7 +2692,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -2810,7 +2810,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
     ]
   }
 }}><div>
-<InlineEquation katexString="\left\lang\LARGE{'{'}LARGE}\right\rang" />
+<Equation block={false} katexString="\left\lang\LARGE{'{'}LARGE}\right\rang" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -2818,7 +2818,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -2936,7 +2936,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
     ]
   }
 }}><div>
-<InlineEquation katexString="\lang\big\lang\Big\lang\bigg\lang\Bigg\lang" />
+<Equation block={false} katexString="\lang\big\lang\Big\lang\bigg\lang\Bigg\lang" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -2944,7 +2944,7 @@ This is an inline&thinsp;<InlineEquation katexString="|x| = \begin{'{'}cases}
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -3309,7 +3309,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -3434,7 +3434,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -3689,10 +3689,10 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
     ]
   }
 }}><div>
-<InlineCode>\begin{'{'}matrix}…</InlineCode>&thinsp;→&thinsp;<InlineEquation katexString="\begin{'{'}matrix}
+<InlineCode>\begin{'{'}matrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}matrix}
    a & b \\
    c & d
-\end{'{'}matrix}" />&thinsp;, which is&thinsp;<MagicLink href="https://tex.stackexchange.com/questions/324455/matrix-vs-array-environments"><em>almost</em></MagicLink>&thinsp;identical to&thinsp;<InlineCode>array</InlineCode>&thinsp;→&thinsp;<InlineEquation katexString="\begin{'{'}array}{'{'}cc}a & b \\ c & d \end{'{'}array}" />
+\end{'{'}matrix}" />&thinsp;, which is&thinsp;<MagicLink href="https://tex.stackexchange.com/questions/324455/matrix-vs-array-environments"><em>almost</em></MagicLink>&thinsp;identical to&thinsp;<InlineCode>array</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}array}{'{'}cc}a & b \\ c & d \end{'{'}array}" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -3700,7 +3700,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -3852,7 +3852,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
     ]
   }
 }}><div>
-<InlineCode>\begin{'{'}pmatrix}…</InlineCode>&thinsp;→&thinsp;<InlineEquation katexString="\begin{'{'}pmatrix}
+<InlineCode>\begin{'{'}pmatrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}pmatrix}
    a & b \\
    c & d
 \end{'{'}pmatrix}" />
@@ -3863,7 +3863,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -4015,7 +4015,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
     ]
   }
 }}><div>
-<InlineCode>\begin{'{'}bmatrix}…</InlineCode>&thinsp;→&thinsp;<InlineEquation katexString="\begin{'{'}bmatrix}
+<InlineCode>\begin{'{'}bmatrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}bmatrix}
    a & b \\
    c & d
 \end{'{'}bmatrix}" />
@@ -4026,7 +4026,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -4178,7 +4178,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
     ]
   }
 }}><div>
-<InlineCode>\begin{'{'}vmatrix}…</InlineCode>&thinsp;→&thinsp;<InlineEquation katexString="\begin{'{'}vmatrix}
+<InlineCode>\begin{'{'}vmatrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}vmatrix}
    a & b \\
    c & d
 \end{'{'}vmatrix}" />
@@ -4189,7 +4189,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -4341,7 +4341,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
     ]
   }
 }}><div>
-<InlineCode>\begin{'{'}Vmatrix}…</InlineCode>&thinsp;→&thinsp;<InlineEquation katexString="\begin{'{'}Vmatrix}
+<InlineCode>\begin{'{'}Vmatrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}Vmatrix}
    a & b \\
    c & d
 \end{'{'}Vmatrix}" />
@@ -4352,7 +4352,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -4504,7 +4504,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
     ]
   }
 }}><div>
-<InlineCode>\begin{'{'}Bmatrix}…</InlineCode>&thinsp;→&thinsp;<InlineEquation katexString="\begin{'{'}Bmatrix}
+<InlineCode>\begin{'{'}Bmatrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}Bmatrix}
    a & b \\
    c & d
 \end{'{'}Bmatrix}" />
@@ -4515,7 +4515,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -4752,7 +4752,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
     ]
   }
 }}><div>
-<InlineCode>\def\arraystretch{'{'}1.5}…</InlineCode>&thinsp;→&thinsp;<InlineEquation katexString="\def\arraystretch{'{'}1.5}
+<InlineCode>\def\arraystretch{'{'}1.5}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\def\arraystretch{'{'}1.5}
 \begin{'{'}array}{'{'}c:c:c}
    a & b & c \\ \hline
    d & e & f \\
@@ -4766,7 +4766,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -4918,7 +4918,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
     ]
   }
 }}><div>
-<InlineCode>\begin{'{'}cases}…</InlineCode>&thinsp;→&thinsp;<InlineEquation katexString="x = \begin{'{'}cases}
+<InlineCode>\begin{'{'}cases}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="x = \begin{'{'}cases}
    a &\text{'{'}if } b \\
    c &\text{'{'}if } d
 \end{'{'}cases}" />
@@ -4929,7 +4929,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -5081,7 +5081,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
     ]
   }
 }}><div>
-<InlineCode>\begin{'{'}rcases}…</InlineCode>&thinsp;→&thinsp;<InlineEquation katexString="\begin{'{'}rcases}
+<InlineCode>\begin{'{'}rcases}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}rcases}
    a &\text{'{'}if } b \\
    c &\text{'{'}if } d
 \end{'{'}rcases}⇒…" />
@@ -5092,7 +5092,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -5244,7 +5244,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
     ]
   }
 }}><div>
-<InlineCode>\begin{'{'}smallmatrix}…</InlineCode>&thinsp;→&thinsp;<InlineEquation katexString="\begin{'{'}smallmatrix}
+<InlineCode>\begin{'{'}smallmatrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}smallmatrix}
    a & b \\
    c & d
 \end{'{'}smallmatrix}" />
@@ -5255,7 +5255,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -5543,8 +5543,8 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
             "caption": [],
             "type": "file",
             "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8008d292-129c-4c61-b33e-4157fd36c4b8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T110718Z&X-Amz-Expires=3600&X-Amz-Signature=c96e8b2a52e3ec21e05d38d62b9453ce6bd1e6bccbba4fbca77fd7f99aa5654a&X-Amz-SignedHeaders=host",
-              "expiry_time": "2021-11-13T12:07:18.411Z"
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8008d292-129c-4c61-b33e-4157fd36c4b8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T231244Z&X-Amz-Expires=3600&X-Amz-Signature=9641ce0c3e3cfbcc4bc1c7b72b0ae1b3fbf878274251d210b11ab143a73948fc&X-Amz-SignedHeaders=host",
+              "expiry_time": "2021-11-14T00:12:44.085Z"
             }
           }
         }
@@ -5576,7 +5576,7 @@ Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineC
     }
   ]
 }}><ColumnList cols={4}><Column><div>
-<InlineCode>\sum_…subarray…</InlineCode>&thinsp;→&thinsp;<InlineEquation katexString="\sum_{'{'}
+<InlineCode>\sum_…subarray…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\sum_{'{'}
 \begin{'{'}subarray}{'{'}l}
    i\in\Lambda\\
    0<j<n
@@ -5601,7 +5601,7 @@ Though&thinsp;<MagicLink href="http://katex.org">katex.org</MagicLink>&thinsp;re
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -5899,7 +5899,7 @@ Though&thinsp;<MagicLink href="http://katex.org">katex.org</MagicLink>&thinsp;re
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -6017,7 +6017,7 @@ Though&thinsp;<MagicLink href="http://katex.org">katex.org</MagicLink>&thinsp;re
     ]
   }
 }}><div>
-<InlineEquation katexString="\bcancel{'{'}bcancel}" />
+<Equation block={false} katexString="\bcancel{'{'}bcancel}" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -6025,7 +6025,7 @@ Though&thinsp;<MagicLink href="http://katex.org">katex.org</MagicLink>&thinsp;re
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -6143,7 +6143,7 @@ Though&thinsp;<MagicLink href="http://katex.org">katex.org</MagicLink>&thinsp;re
     ]
   }
 }}><div>
-<InlineEquation katexString="\bigcirc\ —\ \ominus\ \triangle\ \oplus\ \bigstar\ \odot\ \times" />
+<Equation block={false} katexString="\bigcirc\ —\ \ominus\ \triangle\ \oplus\ \bigstar\ \odot\ \times" />
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -6151,113 +6151,7 @@ Though&thinsp;<MagicLink href="http://katex.org">katex.org</MagicLink>&thinsp;re
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "b5c0543d-d0e6-4e92-83a4-e5fac8fdd226",
-  "created_time": "2021-11-13T11:02:00.000Z",
-  "last_edited_time": "2021-11-13T11:03:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "equation",
-  "equation": {
-    "expression": "The\\ \\Complex{omplect}"
-  }
-}}>equation</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -6350,7 +6244,7 @@ Though&thinsp;<MagicLink href="http://katex.org">katex.org</MagicLink>&thinsp;re
   "object": "block",
   "id": "cb8f66f2-6c26-4570-84f1-b4f28fff9aa7",
   "created_time": "2021-11-13T11:04:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:11:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -6423,11 +6317,28 @@ Though&thinsp;<MagicLink href="http://katex.org">katex.org</MagicLink>&thinsp;re
         },
         "plain_text": "\\pu{123 kJ//mol}",
         "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ". ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ". ",
+        "href": null
       }
     ]
   }
 }}><div>
-Out-of-the-box&thinsp;<InlineCode>katex</InlineCode>&thinsp;doesn't seem to support this, though it renders fine in Notion:&thinsp;<InlineCode>\pu{'{'}123 kJ//mol}</InlineCode>
+Out-of-the-box&thinsp;<InlineCode>katex</InlineCode>&thinsp;doesn't seem to support this, though it renders fine in Notion:&thinsp;<InlineCode>\pu{'{'}123 kJ//mol}</InlineCode>.&thinsp;
 </div>
 </Magic> 
 <br style="display:none;"/>
@@ -6435,7 +6346,167 @@ Out-of-the-box&thinsp;<InlineCode>katex</InlineCode>&thinsp;doesn't seem to supp
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "equations",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "equations",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Equations, rendered by ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Equations, rendered by ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "katex",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "katex",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "1a44c724-c065-4fbe-a271-83b1d8fe9355",
+  "created_time": "2021-11-13T23:11:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Welcome to ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Welcome to ",
+        "href": null
+      },
+      {
+        "type": "equation",
+        "equation": {
+          "expression": "The\\ \\Complex{omplect}"
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "The\\ \\Complex{omplect}",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "!",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "!",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect}" />!
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "83792b44-9a18-4037-ae24-15bc07543054",
+  "created_time": "2021-11-13T08:47:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -6528,7 +6599,7 @@ Out-of-the-box&thinsp;<InlineCode>katex</InlineCode>&thinsp;doesn't seem to supp
   "object": "block",
   "id": "53317945-0ebc-43dd-8ec1-b426ddd0ec49",
   "created_time": "2021-11-13T09:57:00.000Z",
-  "last_edited_time": "2021-11-13T09:58:00.000Z",
+  "last_edited_time": "2021-11-13T23:09:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "heading_1",
@@ -6537,7 +6608,7 @@ Out-of-the-box&thinsp;<InlineCode>katex</InlineCode>&thinsp;doesn't seem to supp
       {
         "type": "text",
         "text": {
-          "content": "Block",
+          "content": "Blocks",
           "link": null
         },
         "annotations": {
@@ -6548,19 +6619,146 @@ Out-of-the-box&thinsp;<InlineCode>katex</InlineCode>&thinsp;doesn't seem to supp
           "code": false,
           "color": "default"
         },
-        "plain_text": "Block",
+        "plain_text": "Blocks",
         "href": null
       }
     ]
   }
-}}><h1>Block</h1>
+}}><h1>Blocks</h1>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "equations",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "equations",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Equations, rendered by ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Equations, rendered by ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "katex",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "katex",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "bf6ce139-6897-4f7b-91c8-1ca174e31c29",
+  "created_time": "2021-11-13T23:09:00.000Z",
+  "last_edited_time": "2021-11-13T23:09:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "(the content's no different, so…fewer examples)",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "(the content's no different, so…fewer examples)",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+(the content's no different, so…fewer examples)
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "83792b44-9a18-4037-ae24-15bc07543054",
+  "created_time": "2021-11-13T08:47:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -6660,13 +6858,129 @@ Out-of-the-box&thinsp;<InlineCode>katex</InlineCode>&thinsp;doesn't seem to supp
   "equation": {
     "expression": "\\begin{CD}\n   A @>a>> B \\\\\n@VbVV @AAcA \\\\\n   C @= D\n\\end{CD}"
   }
-}}>equation</Magic> 
+}}><Equation block={true} katexString="\begin{'{'}CD}
+   A @>a>> B \\
+@VbVV @AAcA \\
+   C @= D
+\end{'{'}CD}" /></Magic> 
 <br style="display:none;"/>
 <Magic page={{
   "object": "page",
   "id": "83792b44-9a18-4037-ae24-15bc07543054",
   "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T11:07:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "equations",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "equations",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Equations, rendered by ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Equations, rendered by ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "katex",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "katex",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "f5fba538-5a66-419d-a16b-8db72107d800",
+  "created_time": "2021-11-13T23:08:00.000Z",
+  "last_edited_time": "2021-11-13T23:08:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "equation",
+  "equation": {
+    "expression": "\\def\\arraystretch{1.5}\n\\begin{array}{c:c:c}\n   a & b & c \\\\ \\hline\n   d & e & f \\\\\n   \\hdashline\n   g & h & i\n\\end{array}"
+  }
+}}><Equation block={true} katexString="\def\arraystretch{'{'}1.5}
+\begin{'{'}array}{'{'}c:c:c}
+   a & b & c \\ \hline
+   d & e & f \\
+   \hdashline
+   g & h & i
+\end{'{'}array}" /></Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "83792b44-9a18-4037-ae24-15bc07543054",
+  "created_time": "2021-11-13T08:47:00.000Z",
+  "last_edited_time": "2021-11-13T23:12:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {

@@ -2,10 +2,13 @@
 	import katex from 'katex';
 
 	export let katexString = '';
+	export let block = false;
 
-	$: html = katex.renderToString(katexString);
+	$: html = render ? katex.renderToString(katexString, { displayMode: block }) : katexString;
 
 	let render = true;
+
+	const click = () => (render = !render);
 </script>
 
 <svelte:head>
@@ -17,17 +20,27 @@
 	/>
 </svelte:head>
 
-<span on:click={() => (render = !render)}>
-	{#if render}
+{#if block}
+	<div on:click={click}>
 		{@html html}
-	{:else}
-		{katexString}
-	{/if}
-</span>
+	</div>
+{:else}
+	<span on:click={click}>
+		{@html html}
+	</span>
+{/if}
 
 <style>
+	div {
+		border-radius: 3px;
+		margin: 1rem auto;
+		width: 80%;
+		background: #f9f9f9;
+		border: 0.25rem solid hsl(0, 90%, 88%);
+		padding: 1rem;
+		border-radius: 0.5rem;
+	}
 	span {
-		font-family: 'SFMono-Regular', Menlo, Consolas, 'PT Mono', 'Liberation Mono', Courier, monospace;
 		line-height: normal;
 		border-radius: 3px;
 		font-size: 85%;
