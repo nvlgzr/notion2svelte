@@ -4,6 +4,8 @@
 	import BulletedListItem from '$lib/notion2svelte/BulletedListItem.svelte';
 	import Callout from '$lib/notion2svelte/Callout.svelte';
 	import ChildPage from '$lib/notion2svelte/ChildPage.svelte';
+	import ColumnList from '$lib/notion2svelte/ColumnList.svelte';
+	import Column from '$lib/notion2svelte/Column.svelte';
 	import Divider from '$lib/notion2svelte/Divider.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
@@ -28,7 +30,7 @@ undefined
 		object: 'page',
 		id: '97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82',
 		created_time: '2021-10-31T06:26:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-13T04:47:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -139,7 +141,7 @@ undefined
 		object: 'page',
 		id: '97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82',
 		created_time: '2021-10-31T06:26:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-13T04:47:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -216,7 +218,7 @@ undefined
 		object: 'block',
 		id: '1a0a06cb-1897-4275-ae7f-c55d422427f3',
 		created_time: '2021-10-31T06:27:00.000Z',
-		last_edited_time: '2021-10-31T09:52:00.000Z',
+		last_edited_time: '2021-11-13T04:47:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'callout',
@@ -225,8 +227,7 @@ undefined
 				{
 					type: 'text',
 					text: {
-						content:
-							'The simplest of callouts, with default styling and, for some reason, an "undefined" emojus.',
+						content: 'The simplest of callouts, with default styling',
 						link: null
 					},
 					annotations: {
@@ -237,8 +238,7 @@ undefined
 						code: false,
 						color: 'default'
 					},
-					plain_text:
-						'The simplest of callouts, with default styling and, for some reason, an "undefined" emojus.',
+					plain_text: 'The simplest of callouts, with default styling',
 					href: null
 				}
 			],
@@ -247,10 +247,7 @@ undefined
 				emoji: '🦥'
 			}
 		}
-	}}
-	><Callout emoji="🦥"
-		>The simplest of callouts, with default styling and, for some reason, an "undefined" emojus.</Callout
-	></Magic
+	}}><Callout emoji="🦥">The simplest of callouts, with default styling</Callout></Magic
 >
 <br style="display:none;" />
 <Magic
@@ -258,7 +255,7 @@ undefined
 		object: 'page',
 		id: '97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82',
 		created_time: '2021-10-31T06:26:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-13T04:47:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -375,7 +372,7 @@ undefined
 		object: 'page',
 		id: '97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82',
 		created_time: '2021-10-31T06:26:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-13T04:47:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -698,7 +695,7 @@ undefined
 		object: 'page',
 		id: '97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82',
 		created_time: '2021-10-31T06:26:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-13T04:47:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -791,7 +788,7 @@ undefined
 		object: 'page',
 		id: '97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82',
 		created_time: '2021-10-31T06:26:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
+		last_edited_time: '2021-11-13T04:47:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {

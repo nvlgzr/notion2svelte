@@ -4,6 +4,8 @@
 	import BulletedListItem from '$lib/notion2svelte/BulletedListItem.svelte';
 	import Callout from '$lib/notion2svelte/Callout.svelte';
 	import ChildPage from '$lib/notion2svelte/ChildPage.svelte';
+	import ColumnList from '$lib/notion2svelte/ColumnList.svelte';
+	import Column from '$lib/notion2svelte/Column.svelte';
 	import Divider from '$lib/notion2svelte/Divider.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
@@ -31,7 +33,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -147,7 +149,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -249,7 +251,7 @@
 		object: 'block',
 		id: '1aca2b38-169f-412f-93d6-81dd6b59b19b',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-05T00:26:00.000Z',
+		last_edited_time: '2021-11-12T22:42:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'heading_1',
@@ -258,7 +260,7 @@
 				{
 					type: 'text',
 					text: {
-						content: " Here's some paragraphs about some stuff",
+						content: 'Lorem Penguin',
 						link: null
 					},
 					annotations: {
@@ -269,13 +271,13 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: " Here's some paragraphs about some stuff",
+					plain_text: 'Lorem Penguin',
 					href: null
 				}
 			]
 		}
 	}}
-	><h1>&thinsp;Here's some paragraphs about some stuff</h1>
+	><h1>Lorem Penguin</h1>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -283,145 +285,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '91f7d335-e78e-49f1-839d-d87809ab262f',
-		created_time: '2021-09-20T23:36:00.000Z',
-		last_edited_time: '2021-09-20T23:36:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: '(Mostly penguins)',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: true,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: '(Mostly penguins)',
-					href: null
-				}
-			]
-		}
-	}}
-	><div>
-		<em>(Mostly penguins)</em>
-	</div>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -523,7 +387,7 @@
 		object: 'block',
 		id: 'f862ec49-86ca-440d-9c96-abbf21a79225',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-10T05:00:00.000Z',
+		last_edited_time: '2021-11-12T22:43:00.000Z',
 		has_children: true,
 		archived: false,
 		type: 'callout',
@@ -532,7 +396,7 @@
 				{
 					type: 'text',
 					text: {
-						content: 'I guess callouts just have to be treated as comments?',
+						content: "In case you're curious…",
 						link: null
 					},
 					annotations: {
@@ -543,7 +407,7 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'I guess callouts just have to be treated as comments?',
+					plain_text: "In case you're curious…",
 					href: null
 				}
 			],
@@ -555,21 +419,9 @@
 		blocks: [
 			{
 				object: 'block',
-				id: 'aa3558f1-fac5-4aff-bf61-b847028e1aa0',
-				created_time: '2021-11-10T05:00:00.000Z',
-				last_edited_time: '2021-11-10T05:00:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'paragraph',
-				paragraph: {
-					text: []
-				}
-			},
-			{
-				object: 'block',
 				id: '4078c58c-2aa3-4f80-91ee-e4937b301f3a',
 				created_time: '2021-09-20T10:05:00.000Z',
-				last_edited_time: '2021-11-10T05:00:00.000Z',
+				last_edited_time: '2021-11-12T22:44:00.000Z',
 				has_children: false,
 				archived: false,
 				type: 'paragraph',
@@ -578,7 +430,7 @@
 						{
 							type: 'text',
 							text: {
-								content: 'Fwiw, the "lorem" paragraphs below about penguins come from ',
+								content: '…the text below about penguins come from ',
 								link: null
 							},
 							annotations: {
@@ -589,7 +441,7 @@
 								code: false,
 								color: 'default'
 							},
-							plain_text: 'Fwiw, the "lorem" paragraphs below about penguins come from ',
+							plain_text: '…the text below about penguins come from ',
 							href: null
 						},
 						{
@@ -634,10 +486,9 @@
 		]
 	}}
 	><Callout emoji="💡"
-		>I guess callouts just have to be treated as comments?<span slot="children"
-			><div />
-			<div>
-				Fwiw, the "lorem" paragraphs below about penguins come from&thinsp;<MagicLink
+		>In case you're curious…<span slot="children"
+			><div>
+				…the text below about penguins come from&thinsp;<MagicLink
 					href="https://www.boom-online.co.uk/lorem-ipsum/##results"
 					>https://www.boom-online.co.uk/lorem-ipsum/##results</MagicLink
 				>.
@@ -651,864 +502,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '69871bc6-2a89-4e3f-87a7-4c71fad3849b',
-		created_time: '2021-09-20T10:11:00.000Z',
-		last_edited_time: '2021-09-20T10:15:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: 'Link to another ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'Link to another ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'Notion page',
-						link: {
-							url: '/816f31ee96514a398960841d33a9f2d4'
-						}
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'Notion page',
-					href: '/816f31ee96514a398960841d33a9f2d4'
-				}
-			]
-		}
-	}}
-	><div>
-		Link to another&thinsp;
-		<p
-			style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-		>
-			⚠️ k(t, url): <span
-				style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-				>Notion page.</span
-			>&nbsp;No slug found for page id 816f31ee96514a398960841d33a9f2d4
-		</p>
-	</div>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: 'f1183c50-4b09-4203-a55a-588cc42d7cc7',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: "Eventually, plain_text isn't going to cut it. It doesn't display ",
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: "Eventually, plain_text isn't going to cut it. It doesn't display ",
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'italics',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: true,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'italics',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ', ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ', ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'bold',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'bold',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ', ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ', ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'strikethrough',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: true,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'strikethrough',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ', ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ', ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'code',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: true,
-						color: 'default'
-					},
-					plain_text: 'code',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ', ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ', ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'c',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'red'
-					},
-					plain_text: 'c',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'o',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'orange'
-					},
-					plain_text: 'o',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'l',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'yellow'
-					},
-					plain_text: 'l',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'o',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'green'
-					},
-					plain_text: 'o',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'r',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'blue'
-					},
-					plain_text: 'r',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 's',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'purple'
-					},
-					plain_text: 's',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ', or, of course, ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ', or, of course, ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'links',
-						link: {
-							url: 'https://ilovelife.com'
-						}
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'links',
-					href: 'https://ilovelife.com'
-				},
-				{
-					type: 'text',
-					text: {
-						content: '. (Let alone ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: '. (Let alone ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'crazy',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: true,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'crazy',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ' ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ' ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'co',
-						link: {
-							url: 'http://navelgazer.club'
-						}
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'purple'
-					},
-					plain_text: 'co',
-					href: 'http://navelgazer.club'
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'm',
-						link: {
-							url: 'http://navelgazer.club'
-						}
-					},
-					annotations: {
-						bold: false,
-						italic: true,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'green_background'
-					},
-					plain_text: 'm',
-					href: 'http://navelgazer.club'
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'b',
-						link: {
-							url: 'http://navelgazer.club'
-						}
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'purple'
-					},
-					plain_text: 'b',
-					href: 'http://navelgazer.club'
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'i',
-						link: {
-							url: 'http://navelgazer.club'
-						}
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'purple'
-					},
-					plain_text: 'i',
-					href: 'http://navelgazer.club'
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'na',
-						link: {
-							url: 'http://navelgazer.club'
-						}
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'na',
-					href: 'http://navelgazer.club'
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'ti',
-						link: {
-							url: 'http://navelgazer.club'
-						}
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'orange_background'
-					},
-					plain_text: 'ti',
-					href: 'http://navelgazer.club'
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'o',
-						link: {
-							url: 'http://navelgazer.club'
-						}
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'orange_background'
-					},
-					plain_text: 'o',
-					href: 'http://navelgazer.club'
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'ns',
-						link: {
-							url: 'http://navelgazer.club'
-						}
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'ns',
-					href: 'http://navelgazer.club'
-				},
-				{
-					type: 'text',
-					text: {
-						content: " of these.) Eventually, there's no reason to think ",
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: " of these.) Eventually, there's no reason to think ",
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'notion2svelte',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: true,
-						color: 'default'
-					},
-					plain_text: 'notion2svelte',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content:
-							" couldn't also handle inline & block latex, and, well, anything Notion cares to expose!",
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text:
-						" couldn't also handle inline & block latex, and, well, anything Notion cares to expose!",
-					href: null
-				}
-			]
-		}
-	}}
-	><div>
-		Eventually, plain_text isn't going to cut it. It doesn't display&thinsp;<em>italics</em
-		>,&thinsp;<strong>bold</strong>,&thinsp;<s>strikethrough</s>,&thinsp;<InlineCode
-			>code</InlineCode
-		>,&thinsp;<InlineColor value="red"><strong>c</strong></InlineColor><InlineColor value="orange"
-			><strong>o</strong></InlineColor
-		><InlineColor value="yellow"><strong>l</strong></InlineColor><InlineColor value="green"
-			><strong>o</strong></InlineColor
-		><InlineColor value="blue"><strong>r</strong></InlineColor><InlineColor value="purple"
-			><strong>s</strong></InlineColor
-		>, or, of course,&thinsp;<MagicLink href="https://ilovelife.com">links</MagicLink>. (Let
-		alone&thinsp;<em><strong>crazy</strong></em>&thinsp;<MagicLink href="http://navelgazer.club"
-			><InlineColor value="purple">co</InlineColor></MagicLink
-		><MagicLink href="http://navelgazer.club"
-			><InlineColor value="green_background"><em>m</em></InlineColor></MagicLink
-		><MagicLink href="http://navelgazer.club"><InlineColor value="purple">b</InlineColor></MagicLink
-		><MagicLink href="http://navelgazer.club"
-			><InlineColor value="purple"><strong>i</strong></InlineColor></MagicLink
-		><MagicLink href="http://navelgazer.club"><strong>na</strong></MagicLink><MagicLink
-			href="http://navelgazer.club"
-			><InlineColor value="orange_background"><strong>ti</strong></InlineColor></MagicLink
-		><MagicLink href="http://navelgazer.club"
-			><InlineColor value="orange_background">o</InlineColor></MagicLink
-		><MagicLink href="http://navelgazer.club">ns</MagicLink>&thinsp;of these.) Eventually, there's
-		no reason to think&thinsp;<InlineCode>notion2svelte</InlineCode>&thinsp;couldn't also handle
-		inline & block latex, and, well, anything Notion cares to expose!
-	</div>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -1610,7 +604,7 @@
 		object: 'block',
 		id: '86ab1425-3931-44bd-b010-3a75422b75fc',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T22:45:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -1619,8 +613,25 @@
 				{
 					type: 'text',
 					text: {
+						content: 'Perhaps one in 50,000 penguins',
+						link: null
+					},
+					annotations: {
+						bold: true,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Perhaps one in 50,000 penguins',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
 						content:
-							'Perhaps one in 50,000 penguins (of most species) are born with brown rather than black plumage. These are called ',
+							' (of most species) are born with brown rather than black plumage. These are called ',
 						link: null
 					},
 					annotations: {
@@ -1632,14 +643,31 @@
 						color: 'default'
 					},
 					plain_text:
-						'Perhaps one in 50,000 penguins (of most species) are born with brown rather than black plumage. These are called ',
+						' (of most species) are born with brown rather than black plumage. These are called ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'isabelline',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'isabelline',
 					href: null
 				},
 				{
 					type: 'text',
 					text: {
 						content:
-							'isabelline penguins. Isabellinism is different from albinism. Isabelline penguins tend to live shorter lives than',
+							' penguins. Isabellinism is different from albinism. Isabelline penguins tend to live shorter lives than normal penguins, as they are not well-camouflaged against the deep and are often passed over as mates.',
 						link: null
 					},
 					annotations: {
@@ -1648,108 +676,21 @@
 						strikethrough: false,
 						underline: false,
 						code: false,
-						color: 'red_background'
+						color: 'default'
 					},
 					plain_text:
-						'isabelline penguins. Isabellinism is different from albinism. Isabelline penguins tend to live shorter lives than',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ' normal',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ' normal',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ' penguins, as they are',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'yellow_background'
-					},
-					plain_text: ' penguins, as they are',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ' not well-',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ' not well-',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'camouflaged',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'green'
-					},
-					plain_text: 'camouflaged',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ' against the deep and are often passed over as mates.',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ' against the deep and are often passed over as mates.',
+						' penguins. Isabellinism is different from albinism. Isabelline penguins tend to live shorter lives than normal penguins, as they are not well-camouflaged against the deep and are often passed over as mates.',
 					href: null
 				}
 			]
 		}
 	}}
 	><div>
-		Perhaps one in 50,000 penguins (of most species) are born with brown rather than black plumage.
-		These are called&thinsp;<InlineColor value="red_background"
-			>isabelline penguins. Isabellinism is different from albinism. Isabelline penguins tend to
-			live shorter lives than</InlineColor
-		>&thinsp;normal<InlineColor value="yellow_background">&thinsp;penguins, as they are</InlineColor
-		>&thinsp;not well-<InlineColor value="green">camouflaged</InlineColor>&thinsp;against the deep
-		and are often passed over as mates.
+		<strong>Perhaps one in 50,000 penguins</strong>&thinsp;(of most species) are born with brown
+		rather than black plumage. These are called&thinsp;<em>isabelline</em>&thinsp;penguins.
+		Isabellinism is different from albinism. Isabelline penguins tend to live shorter lives than
+		normal penguins, as they are not well-camouflaged against the deep and are often passed over as
+		mates.
 	</div>
 </Magic>
 <br style="display:none;" />
@@ -1758,184 +699,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '2b83405d-e15c-4877-ba12-f87526bdbc83',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: 'In addition to formatted text and links, we can also expect plenty of ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'In addition to formatted text and links, we can also expect plenty of ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'embedded',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'red_background'
-					},
-					plain_text: 'embedded',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content:
-							' images, and (maybe) other media types. For now, images w/out sizing and alt=caption is good enough to be getting on.',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text:
-						' images, and (maybe) other media types. For now, images w/out sizing and alt=caption is good enough to be getting on.',
-					href: null
-				}
-			]
-		}
-	}}
-	><div>
-		In addition to formatted text and links, we can also expect plenty of&thinsp;<InlineColor
-			value="red_background">embedded</InlineColor
-		>&thinsp;images, and (maybe) other media types. For now, images w/out sizing and alt=caption is
-		good enough to be getting on.
-	</div>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -2077,7 +841,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -2215,7 +979,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -2317,7 +1081,7 @@
 		object: 'block',
 		id: 'e666a879-0009-46d0-bc59-ffe677b18963',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T22:46:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -2326,8 +1090,7 @@
 				{
 					type: 'text',
 					text: {
-						content:
-							'Major populations of penguins are found in Angola, Antarctica, Argentina, Australia, Chile, Namibia, New Zealand, and South Africa.',
+						content: 'Major populations of penguins are found in ',
 						link: null
 					},
 					annotations: {
@@ -2338,16 +1101,84 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text:
-						'Major populations of penguins are found in Angola, Antarctica, Argentina, Australia, Chile, Namibia, New Zealand, and South Africa.',
+					plain_text: 'Major populations of penguins are found in ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'Angola, Antarctica, Argentina, Australia, Chile, Namibia, New Zealand',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Angola, Antarctica, Argentina, Australia, Chile, Namibia, New Zealand',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ', and ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ', and ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'South Africa',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'South Africa',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: '.',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: '.',
 					href: null
 				}
 			]
 		}
 	}}
 	><div>
-		Major populations of penguins are found in Angola, Antarctica, Argentina, Australia, Chile,
-		Namibia, New Zealand, and South Africa.
+		Major populations of penguins are found in&thinsp;<em
+			>Angola, Antarctica, Argentina, Australia, Chile, Namibia, New Zealand</em
+		>, and&thinsp;<em>South Africa</em>.
 	</div>
 </Magic>
 <br style="display:none;" />
@@ -2356,7 +1187,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -2458,7 +1289,7 @@
 		object: 'block',
 		id: '32fa47dc-5a9e-4aeb-b3e0-1142530e3556',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T22:46:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -2467,8 +1298,25 @@
 				{
 					type: 'text',
 					text: {
+						content: 'Penguins for the most part breed in large colonies',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Penguins for the most part breed in large colonies',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
 						content:
-							'Penguins for the most part breed in large colonies, the exceptions being the yellow-eyed and Fiordland species; these colonies may range in size from as few as 100 pairs for gentoo penguins to several hundred thousand in the case of king, macaroni and chinstrap penguins.',
+							', the exceptions being the yellow-eyed and Fiordland species; these colonies may range in size from as few as 100 pairs for gentoo penguins to several hundred thousand in the case of king, macaroni and chinstrap penguins.',
 						link: null
 					},
 					annotations: {
@@ -2480,7 +1328,7 @@
 						color: 'default'
 					},
 					plain_text:
-						'Penguins for the most part breed in large colonies, the exceptions being the yellow-eyed and Fiordland species; these colonies may range in size from as few as 100 pairs for gentoo penguins to several hundred thousand in the case of king, macaroni and chinstrap penguins.',
+						', the exceptions being the yellow-eyed and Fiordland species; these colonies may range in size from as few as 100 pairs for gentoo penguins to several hundred thousand in the case of king, macaroni and chinstrap penguins.',
 					href: null
 				}
 			]
@@ -2498,7 +1346,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -2599,8 +1447,8 @@
 	block={{
 		object: 'block',
 		id: 'cdd23b0b-e9c9-4f78-b181-0bee34b0ef63',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		created_time: '2021-11-12T22:46:00.000Z',
+		last_edited_time: '2021-11-12T22:46:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -2616,7 +1464,2126 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '3841a8c9-c256-449b-b81d-d2b65c92f924',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T00:01:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'But enough about penguins. What about ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'But enough about penguins. What about ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'notion2svelte',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'notion2svelte',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: '?!',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: '?!',
+					href: null
+				}
+			]
+		}
+	}}
+	><div>
+		But enough about penguins. What about&thinsp;<em>notion2svelte</em>?!
+	</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'c9a068a5-08d8-4164-929f-81ecbe2567db',
+		created_time: '2021-11-13T00:01:00.000Z',
+		last_edited_time: '2021-11-13T00:01:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: []
+		}
+	}}
+	><div />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'fbb57766-562c-4c5d-afd2-29a59d7b7212',
+		created_time: '2021-11-12T22:47:00.000Z',
+		last_edited_time: '2021-11-12T23:05:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'heading_1',
+		heading_1: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Supported in ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Supported in ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'notion2svelte',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'notion2svelte',
+					href: null
+				}
+			]
+		}
+	}}
+	><h1>Supported in&thinsp;<em>notion2svelte</em></h1>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '97388197-9215-4ddf-a1be-af2958edfaeb',
+		created_time: '2021-11-12T22:59:00.000Z',
+		last_edited_time: '2021-11-12T23:00:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Headers size 1 are, obviously, fine ↑. Ditto for H2s ↓ and H3s ↓↓.',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Headers size 1 are, obviously, fine ↑. Ditto for H2s ↓ and H3s ↓↓.',
+					href: null
+				}
+			]
+		}
+	}}
+	><div>Headers size 1 are, obviously, fine ↑. Ditto for H2s ↓ and H3s ↓↓.</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'ee893b7b-3b01-48e0-a2e0-0f18c3aa50af',
+		created_time: '2021-11-12T22:53:00.000Z',
+		last_edited_time: '2021-11-12T23:06:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'heading_2',
+		heading_2: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Demo ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Demo ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'H2',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'pink_background'
+					},
+					plain_text: 'H2',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ' ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ' ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'with',
+						link: null
+					},
+					annotations: {
+						bold: true,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'purple'
+					},
+					plain_text: 'with',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ' formatting',
+						link: null
+					},
+					annotations: {
+						bold: true,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ' formatting',
+					href: null
+				}
+			]
+		}
+	}}
+	><h2>
+		Demo&thinsp;<InlineColor value="pink_background">H2</InlineColor>&thinsp;<InlineColor
+			value="purple"><em><strong>with</strong></em></InlineColor
+		><strong>&thinsp;formatting</strong>
+	</h2>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '04aadeb3-9691-4a34-a97f-47da50ee8ef3',
+		created_time: '2021-11-12T23:07:00.000Z',
+		last_edited_time: '2021-11-12T23:09:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: "It's interesting to note that, while Notion doesn't ",
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: "It's interesting to note that, while Notion doesn't ",
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'display',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'display',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ' bold formatting in its own rendering of size 2 headers, it does ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ' bold formatting in its own rendering of size 2 headers, it does ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'report',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'report',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content:
+							' that formatting through the API, as demonstrated here. This seems to be a positive side effect of supporting easy conversion between block types (and page titles). 🤓👍',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						' that formatting through the API, as demonstrated here. This seems to be a positive side effect of supporting easy conversion between block types (and page titles). 🤓👍',
+					href: null
+				}
+			]
+		}
+	}}
+	><div>
+		It's interesting to note that, while Notion doesn't&thinsp;<em>display</em>&thinsp;bold
+		formatting in its own rendering of size 2 headers, it does&thinsp;<em>report</em>&thinsp;that
+		formatting through the API, as demonstrated here. This seems to be a positive side effect of
+		supporting easy conversion between block types (and page titles). 🤓👍
+	</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '6cebbab5-ed41-4cc9-8287-963276d0f9ab',
+		created_time: '2021-11-12T22:54:00.000Z',
+		last_edited_time: '2021-11-12T23:00:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'heading_3',
+		heading_3: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Text blocks with indentation and numbering',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Text blocks with indentation and numbering',
+					href: null
+				}
+			]
+		}
+	}}
+	><h3>Text blocks with indentation and numbering</h3>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'a23de80b-cf8b-4f6b-8bd6-fa0566a1370e',
+		created_time: '2021-11-12T22:47:00.000Z',
+		last_edited_time: '2021-11-12T22:52:00.000Z',
+		has_children: true,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Obviously ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Obviously ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'text',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: 'text',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content:
+							' blocks are supported, but so are the 6 annotation types used to format sub-strings in a block:',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						' blocks are supported, but so are the 6 annotation types used to format sub-strings in a block:',
+					href: null
+				}
+			]
+		},
+		blocks: [
+			{
+				object: 'block',
+				id: 'a4c1ce6e-eebc-4eaf-b3d9-bc4f487a986d',
+				created_time: '2021-11-12T22:48:00.000Z',
+				last_edited_time: '2021-11-12T22:48:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'bold',
+								link: null
+							},
+							annotations: {
+								bold: true,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'bold',
+							href: null
+						}
+					]
+				}
+			},
+			{
+				object: 'block',
+				id: '85ddf488-a451-4235-b94a-2268e5b125b8',
+				created_time: '2021-11-12T22:48:00.000Z',
+				last_edited_time: '2021-11-12T22:48:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'italic',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: true,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'italic',
+							href: null
+						}
+					]
+				}
+			},
+			{
+				object: 'block',
+				id: '9d5c96ab-1af8-4b18-ba89-065a7aa51460',
+				created_time: '2021-11-12T22:48:00.000Z',
+				last_edited_time: '2021-11-12T22:48:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'strikethrough',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: true,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'strikethrough',
+							href: null
+						}
+					]
+				}
+			},
+			{
+				object: 'block',
+				id: 'd379a19f-cb28-410e-b842-e66cce605253',
+				created_time: '2021-11-12T22:48:00.000Z',
+				last_edited_time: '2021-11-12T22:49:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'underline',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: true,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'underline',
+							href: null
+						}
+					]
+				}
+			},
+			{
+				object: 'block',
+				id: '0c93495a-5367-4ec7-b1c4-8b15148a64f8',
+				created_time: '2021-11-12T22:49:00.000Z',
+				last_edited_time: '2021-11-12T22:49:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'code',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: true,
+								color: 'default'
+							},
+							plain_text: 'code',
+							href: null
+						}
+					]
+				}
+			},
+			{
+				object: 'block',
+				id: '3afebd1b-9681-4112-96ec-923302343dac',
+				created_time: '2021-11-12T22:49:00.000Z',
+				last_edited_time: '2021-11-12T22:52:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'c',
+								link: null
+							},
+							annotations: {
+								bold: true,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'red'
+							},
+							plain_text: 'c',
+							href: null
+						},
+						{
+							type: 'text',
+							text: {
+								content: 'o',
+								link: null
+							},
+							annotations: {
+								bold: true,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'orange'
+							},
+							plain_text: 'o',
+							href: null
+						},
+						{
+							type: 'text',
+							text: {
+								content: 'l',
+								link: null
+							},
+							annotations: {
+								bold: true,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'yellow'
+							},
+							plain_text: 'l',
+							href: null
+						},
+						{
+							type: 'text',
+							text: {
+								content: 'o',
+								link: null
+							},
+							annotations: {
+								bold: true,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'green'
+							},
+							plain_text: 'o',
+							href: null
+						},
+						{
+							type: 'text',
+							text: {
+								content: 'r',
+								link: null
+							},
+							annotations: {
+								bold: true,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'blue'
+							},
+							plain_text: 'r',
+							href: null
+						}
+					]
+				},
+				blocks: [
+					{
+						object: 'block',
+						id: '8bdb942a-401d-4178-ae65-cce355ca144e',
+						created_time: '2021-11-12T22:49:00.000Z',
+						last_edited_time: '2021-11-12T22:54:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'paragraph',
+						paragraph: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: '(Including background ',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: '(Including background ',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'c',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'green_background'
+									},
+									plain_text: 'c',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'o',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'orange_background'
+									},
+									plain_text: 'o',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'l',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'pink_background'
+									},
+									plain_text: 'l',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'o',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'purple_background'
+									},
+									plain_text: 'o',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'r',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'blue_background'
+									},
+									plain_text: 'r',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 's',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'brown_background'
+									},
+									plain_text: 's',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: ')',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: ')',
+									href: null
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}}
+	><div>
+		Obviously&thinsp;<InlineCode>text</InlineCode>&thinsp;blocks are supported, but so are the 6
+		annotation types used to format sub-strings in a block:
+	</div>
+	<IndentGroup>
+		<NumberedListItem number="a"><strong>bold</strong></NumberedListItem>
+		<NumberedListItem number="b"><em>italic</em></NumberedListItem>
+		<NumberedListItem number="c"><s>strikethrough</s></NumberedListItem>
+		<NumberedListItem number="d">
+			<span style="text-decoration:underline;">underline</span></NumberedListItem
+		>
+		<NumberedListItem number="e"><InlineCode>code</InlineCode></NumberedListItem>
+		<NumberedListItem number="f">
+			<InlineColor value="red"><strong>c</strong></InlineColor><InlineColor value="orange"
+				><strong>o</strong></InlineColor
+			><InlineColor value="yellow"><strong>l</strong></InlineColor><InlineColor value="green"
+				><strong>o</strong></InlineColor
+			><InlineColor value="blue"><strong>r</strong></InlineColor></NumberedListItem
+		>
+		<IndentGroup>
+			<div>
+				(Including background&thinsp;<InlineColor value="green_background"
+					><strong>c</strong></InlineColor
+				><InlineColor value="orange_background"><strong>o</strong></InlineColor><InlineColor
+					value="pink_background"><strong>l</strong></InlineColor
+				><InlineColor value="purple_background"><strong>o</strong></InlineColor><InlineColor
+					value="blue_background"><strong>r</strong></InlineColor
+				><InlineColor value="brown_background"><strong>s</strong></InlineColor>)
+			</div>
+		</IndentGroup>
+	</IndentGroup>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'f45947ba-a6c1-4875-98d5-9d9f2e48cbc9',
+		created_time: '2021-11-12T22:53:00.000Z',
+		last_edited_time: '2021-11-12T22:59:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'heading_3',
+		heading_3: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Dividers',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Dividers',
+					href: null
+				}
+			]
+		}
+	}}
+	><h3>Dividers</h3>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '0607059d-c517-4a59-8244-3a64a7314da0',
+		created_time: '2021-11-12T22:55:00.000Z',
+		last_edited_time: '2021-11-13T02:48:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'If you create a ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'If you create a ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'divider ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'divider ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'in Notion using ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'in Notion using ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: '---',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: '---',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ", it'll get converted to a ",
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ", it'll get converted to a ",
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: '&lt;Divider />',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: '&lt;Divider />',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content:
+							' component in the notion2svelte output. You can make the actual output look like whatever you want. Here we see a wide SVG, hastily-sketched in Figma:',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						' component in the notion2svelte output. You can make the actual output look like whatever you want. Here we see a wide SVG, hastily-sketched in Figma:',
+					href: null
+				}
+			]
+		}
+	}}
+	><div>
+		If you create a&thinsp;<em>divider&thinsp;</em>in Notion using&thinsp;<InlineCode
+			>---</InlineCode
+		>, it'll get converted to a&thinsp;<InlineCode>&lt;Divider /></InlineCode>&thinsp;component in
+		the notion2svelte output. You can make the actual output look like whatever you want. Here we
+		see a wide SVG, hastily-sketched in Figma:
+	</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -2732,7 +3699,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -2832,18 +3799,19 @@
 	}}
 	block={{
 		object: 'block',
-		id: 'f71d7859-80a6-4179-af1c-9bcdae9ba72c',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-28T10:00:00.000Z',
+		id: '99c1a97d-017e-4472-baff-6d75aabfd0fe',
+		created_time: '2021-11-13T02:55:00.000Z',
+		last_edited_time: '2021-11-13T03:00:00.000Z',
 		has_children: false,
 		archived: false,
-		type: 'heading_1',
-		heading_1: {
+		type: 'paragraph',
+		paragraph: {
 			text: [
 				{
 					type: 'text',
 					text: {
-						content: 'This is a header size 1 ',
+						content:
+							"Incidentally, components referenced in your Svelte text will get rendered if you don't escape the opening ",
 						link: null
 					},
 					annotations: {
@@ -2854,30 +3822,55 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'This is a header size 1 ',
+					plain_text:
+						"Incidentally, components referenced in your Svelte text will get rendered if you don't escape the opening ",
 					href: null
 				},
 				{
 					type: 'text',
 					text: {
-						content: 'with formatting',
+						content: '&lt;',
 						link: null
 					},
 					annotations: {
 						bold: false,
-						italic: true,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: '&lt;',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content:
+							'. So this <span style="height: 1rem; line-height: 1rem;"><Divider /></span> turns into an awkwardly-inlined SVG, whereas this gets rehydrated into a demonstration of component syntax:  &lt;Divider />.',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
 						strikethrough: false,
 						underline: false,
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'with formatting',
+					plain_text:
+						'. So this <span style="height: 1rem; line-height: 1rem;"><Divider /></span> turns into an awkwardly-inlined SVG, whereas this gets rehydrated into a demonstration of component syntax:  &lt;Divider />.',
 					href: null
 				}
 			]
 		}
 	}}
-	><h1>This is a header size 1&thinsp;<em>with formatting</em></h1>
+	><div>
+		Incidentally, components referenced in your Svelte text will get rendered if you don't escape
+		the opening&thinsp;<InlineCode>&lt;</InlineCode>. So this
+		<span style="height: 1rem; line-height: 1rem;"><Divider /></span> turns into an awkwardly-inlined
+		SVG, whereas this gets rehydrated into a demonstration of component syntax: &lt;Divider />.
+	</div>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -2885,7 +3878,1162 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'ec4f9e77-27a7-42a6-ac63-05b9159425a1',
+		created_time: '2021-11-12T22:58:00.000Z',
+		last_edited_time: '2021-11-13T02:55:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'heading_3',
+		heading_3: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Links',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Links',
+					href: null
+				}
+			]
+		}
+	}}
+	><h3>Links</h3>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '5ba4c80e-4b35-4814-8896-8611d4f6ca8d',
+		created_time: '2021-11-13T00:29:00.000Z',
+		last_edited_time: '2021-11-13T00:32:00.000Z',
+		has_children: true,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Here are the three basic types of link generated when pasting a URL:',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Here are the three basic types of link generated when pasting a URL:',
+					href: null
+				}
+			]
+		},
+		blocks: [
+			{
+				object: 'block',
+				id: 'd86b72a9-e1d4-4f75-b12a-8ee71e3e2e19',
+				created_time: '2021-11-13T00:29:00.000Z',
+				last_edited_time: '2021-11-13T00:30:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: '"Dismiss": ',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: '"Dismiss": ',
+							href: null
+						},
+						{
+							type: 'text',
+							text: {
+								content: 'http://ilovelife.com',
+								link: {
+									url: 'http://ilovelife.com/'
+								}
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'http://ilovelife.com',
+							href: 'http://ilovelife.com/'
+						}
+					]
+				}
+			},
+			{
+				object: 'block',
+				id: 'cfcbd820-e33a-42d3-8b06-00d06aae2a1b',
+				created_time: '2021-11-13T00:30:00.000Z',
+				last_edited_time: '2021-11-13T00:30:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'Bookmark ↓',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'Bookmark ↓',
+							href: null
+						}
+					]
+				},
+				blocks: [
+					{
+						object: 'block',
+						id: 'b2527bb8-bda6-4263-9ef7-55b6f62e9845',
+						created_time: '2021-11-13T00:29:00.000Z',
+						last_edited_time: '2021-11-13T00:30:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bookmark',
+						bookmark: {
+							caption: [],
+							url: 'http://ilovelife.com'
+						}
+					}
+				]
+			},
+			{
+				object: 'block',
+				id: '0350131d-4bca-41ff-99f3-c0c3b891736e',
+				created_time: '2021-11-13T00:29:00.000Z',
+				last_edited_time: '2021-11-13T02:46:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'Embedded Link w/caption ↓',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'Embedded Link w/caption ↓',
+							href: null
+						}
+					]
+				},
+				blocks: [
+					{
+						object: 'block',
+						id: 'a7f8da3a-2b63-4472-b396-24e972fa363b',
+						created_time: '2021-11-13T00:26:00.000Z',
+						last_edited_time: '2021-11-13T02:47:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'embed',
+						embed: {
+							caption: [
+								{
+									type: 'text',
+									text: {
+										content:
+											'I love how very obviously hand-written this website is. And hey, free mp3s for the kids!',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text:
+										'I love how very obviously hand-written this website is. And hey, free mp3s for the kids!',
+									href: null
+								}
+							],
+							url: 'http://ilovelife.com'
+						}
+					}
+				]
+			}
+		]
+	}}
+	><div>Here are the three basic types of link generated when pasting a URL:</div>
+	<IndentGroup>
+		<NumberedListItem number="a">
+			"Dismiss":&thinsp;<MagicLink href="http://ilovelife.com/">http://ilovelife.com</MagicLink
+			></NumberedListItem
+		>
+		<NumberedListItem number="b">Bookmark ↓</NumberedListItem>
+		<IndentGroup>bookmark</IndentGroup>
+		<NumberedListItem number="c">Embedded Link w/caption ↓</NumberedListItem>
+		<IndentGroup>embed</IndentGroup>
+	</IndentGroup>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '78b76cf7-c7ba-4b8b-9ebe-f640978acc0c',
+		created_time: '2021-11-13T00:32:00.000Z',
+		last_edited_time: '2021-11-13T00:32:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: []
+		}
+	}}
+	><div />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'f4c69c3b-68c3-42e1-9da7-ff456a776f18',
+		created_time: '2021-09-20T10:11:00.000Z',
+		last_edited_time: '2021-11-13T00:29:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Links to ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Links to ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'external sites',
+						link: {
+							url: 'https://navelgazer.club'
+						}
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'external sites',
+					href: 'https://navelgazer.club'
+				},
+				{
+					type: 'text',
+					text: {
+						content: ' work fine, as do links to other pages ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ' work fine, as do links to other pages ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'published with notion2svelte',
+						link: {
+							url: '/cd0fd95d9c9042319368379d2e911479'
+						}
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'published with notion2svelte',
+					href: '/cd0fd95d9c9042319368379d2e911479'
+				},
+				{
+					type: 'text',
+					text: {
+						content:
+							". By contrast, a Notion page that notion2svelte doesn't know about shows up as an ",
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						". By contrast, a Notion page that notion2svelte doesn't know about shows up as an ",
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'inline error',
+						link: {
+							url: '/816f31ee96514a398960841d33a9f2d4'
+						}
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'inline error',
+					href: '/816f31ee96514a398960841d33a9f2d4'
+				},
+				{
+					type: 'text',
+					text: {
+						content: '.',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: '.',
+					href: null
+				}
+			]
+		}
+	}}
+	><div>
+		Links to&thinsp;<MagicLink href="https://navelgazer.club">external sites</MagicLink>&thinsp;work
+		fine, as do links to other pages&thinsp;<a href="color">published with notion2svelte</a>. By
+		contrast, a Notion page that notion2svelte doesn't know about shows up as an&thinsp;
+		<p
+			style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
+		>
+			⚠️ k(t, url): <span
+				style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
+				>inline error.</span
+			>&nbsp;No slug found for page id 816f31ee96514a398960841d33a9f2d4
+		</p>
+		.
+	</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '49a86a0c-b83f-4345-91b3-b6017aabfce4',
+		created_time: '2021-11-12T23:40:00.000Z',
+		last_edited_time: '2021-11-13T00:15:00.000Z',
+		has_children: true,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content:
+							"↑ There's a Link block there, but you can't see it because, as of 11/12/21*, it's unsupported by the Notion API.",
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						"↑ There's a Link block there, but you can't see it because, as of 11/12/21*, it's unsupported by the Notion API.",
+					href: null
+				}
+			]
+		},
+		blocks: [
+			{
+				object: 'block',
+				id: 'd334fa98-b191-482d-bace-79d42f9267f9',
+				created_time: '2021-11-13T00:15:00.000Z',
+				last_edited_time: '2021-11-13T00:21:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'paragraph',
+				paragraph: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content:
+									'*I tried to use "@Today", but that just exposed the fact that I haven\'t covered all the different types of ',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'gray'
+							},
+							plain_text:
+								'*I tried to use "@Today", but that just exposed the fact that I haven\'t covered all the different types of ',
+							href: null
+						},
+						{
+							type: 'text',
+							text: {
+								content: 'mention',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: true,
+								color: 'gray'
+							},
+							plain_text: 'mention',
+							href: null
+						},
+						{
+							type: 'text',
+							text: {
+								content: ' yet.',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'gray'
+							},
+							plain_text: ' yet.',
+							href: null
+						}
+					]
+				}
+			}
+		]
+	}}
+	><div>
+		↑ There's a Link block there, but you can't see it because, as of 11/12/21*, it's unsupported by
+		the Notion API.
+	</div>
+	<IndentGroup>
+		<div>
+			<InlineColor value="gray"
+				>*I tried to use "@Today", but that just exposed the fact that I haven't covered all the
+				different types of&thinsp;</InlineColor
+			><InlineColor value="gray"><InlineCode>mention</InlineCode></InlineColor><InlineColor
+				value="gray">&thinsp;yet.</InlineColor
+			>
+		</div>
+	</IndentGroup>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '8eb0abf8-7d55-4a09-94ab-cf3c894f3e74',
+		created_time: '2021-11-12T23:05:00.000Z',
+		last_edited_time: '2021-11-12T23:05:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'divider',
+		divider: {}
+	}}
+	><Divider />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -2987,16 +5135,16 @@
 		object: 'block',
 		id: '46ca3835-bdb8-45ca-acde-dcb3510864b5',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:09:00.000Z',
 		has_children: false,
 		archived: false,
-		type: 'heading_2',
-		heading_2: {
+		type: 'heading_3',
+		heading_3: {
 			text: [
 				{
 					type: 'text',
 					text: {
-						content: 'Header size 2',
+						content: 'Images',
 						link: null
 					},
 					annotations: {
@@ -3007,13 +5155,13 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'Header size 2',
+					plain_text: 'Images',
 					href: null
 				}
 			]
 		}
 	}}
-	><h2>Header size 2</h2>
+	><h3>Images</h3>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -3021,7 +5169,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -3121,619 +5269,615 @@
 	}}
 	block={{
 		object: 'block',
-		id: 'c877cf0a-9681-4e15-a321-bdd5c5bfce1f',
-		created_time: '2021-09-28T09:06:00.000Z',
-		last_edited_time: '2021-09-28T09:09:00.000Z',
-		has_children: false,
+		id: '8edec5d5-0850-414d-90a0-f5e736557582',
+		created_time: '2021-11-12T23:11:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		has_children: true,
 		archived: false,
-		type: 'image',
-		image: {
-			caption: [
-				{
-					type: 'text',
-					text: {
-						content: 'Captions, too, can inclue ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'Captions, too, can inclue ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'italics',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: true,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'italics',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ', ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ', ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'bold',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'bold',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ', ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ', ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'strikethrough',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: true,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'strikethrough',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ', ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ', ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'code',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: true,
-						color: 'default'
-					},
-					plain_text: 'code',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ', ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ', ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'c',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'red'
-					},
-					plain_text: 'c',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'o',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'orange'
-					},
-					plain_text: 'o',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'l',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'yellow'
-					},
-					plain_text: 'l',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'o',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'green'
-					},
-					plain_text: 'o',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'r',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'blue'
-					},
-					plain_text: 'r',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 's',
-						link: null
-					},
-					annotations: {
-						bold: true,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'purple'
-					},
-					plain_text: 's',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ', and ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ', and ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'links',
-						link: {
-							url: 'https://ilovelife.com'
+		type: 'column_list',
+		column_list: {},
+		blocks: [
+			{
+				object: 'block',
+				id: 'c4efff0d-9617-4c69-9be1-676782df6c45',
+				created_time: '2021-11-12T23:11:00.000Z',
+				last_edited_time: '2021-11-13T04:13:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'column',
+				column: {},
+				blocks: [
+					{
+						object: 'block',
+						id: 'a2a3efba-87d3-46d2-a79b-b6b45ed6ded3',
+						created_time: '2021-11-12T23:10:00.000Z',
+						last_edited_time: '2021-11-12T23:45:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'paragraph',
+						paragraph: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: "I haven't yet implemented ",
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: "I haven't yet implemented ",
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'column_list',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: true,
+										color: 'default'
+									},
+									plain_text: 'column_list',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: ' or ',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: ' or ',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'column',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: true,
+										color: 'default'
+									},
+									plain_text: 'column',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: ' so you\'ll be seeing the default "block.type" output for them.',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: ' so you\'ll be seeing the default "block.type" output for them.',
+									href: null
+								}
+							]
 						}
 					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'links',
-					href: 'https://ilovelife.com'
-				}
-			],
-			type: 'file',
-			file: {
-				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211112T062908Z&X-Amz-Expires=3600&X-Amz-Signature=4f5dafbb3465525a5fc206a4bdcedef7e50bad8cd64622550584d92d08add06c&X-Amz-SignedHeaders=host',
-				expiry_time: '2021-11-12T07:29:08.751Z'
+					{
+						object: 'block',
+						id: 'c0217029-ed5c-451c-83ec-f7306fbc1d0c',
+						created_time: '2021-11-12T23:45:00.000Z',
+						last_edited_time: '2021-11-12T23:47:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'paragraph',
+						paragraph: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content:
+											"Not sure whether the Notion API supports column sizing at all. It doesn't seem to support image sizing, fwiw.",
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text:
+										"Not sure whether the Notion API supports column sizing at all. It doesn't seem to support image sizing, fwiw.",
+									href: null
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				object: 'block',
+				id: 'ad930823-32e6-422a-b7c1-cd84f2e3331a',
+				created_time: '2021-11-12T23:11:00.000Z',
+				last_edited_time: '2021-11-13T04:13:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'column',
+				column: {},
+				blocks: [
+					{
+						object: 'block',
+						id: 'c877cf0a-9681-4e15-a321-bdd5c5bfce1f',
+						created_time: '2021-09-28T09:06:00.000Z',
+						last_edited_time: '2021-11-12T23:13:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'image',
+						image: {
+							caption: [
+								{
+									type: 'text',
+									text: {
+										content: 'Captions, too, can include ',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Captions, too, can include ',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'italics',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: true,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'italics',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: ', ',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: ', ',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'bold',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'bold',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: ', ',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: ', ',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'strikethrough',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: true,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'strikethrough',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: ', ',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: ', ',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'code',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: true,
+										color: 'default'
+									},
+									plain_text: 'code',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: ', ',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: ', ',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'c',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'red'
+									},
+									plain_text: 'c',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'o',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'orange'
+									},
+									plain_text: 'o',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'l',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'yellow'
+									},
+									plain_text: 'l',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'o',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'green'
+									},
+									plain_text: 'o',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'r',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'blue'
+									},
+									plain_text: 'r',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 's',
+										link: null
+									},
+									annotations: {
+										bold: true,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'purple'
+									},
+									plain_text: 's',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: ', and ',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: ', and ',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'links',
+										link: {
+											url: 'https://ilovelife.com'
+										}
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'links',
+									href: 'https://ilovelife.com'
+								}
+							],
+							type: 'file',
+							file: {
+								url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T044858Z&X-Amz-Expires=3600&X-Amz-Signature=61fb4752df0ba371fe353a5b7dc9e19e08d10458d5961d759d8faaea6e776b08&X-Amz-SignedHeaders=host',
+								expiry_time: '2021-11-13T05:48:58.617Z'
+							}
+						}
+					}
+				]
+			},
+			{
+				object: 'block',
+				id: '036135ac-35d4-4a0c-a541-02e3be113de1',
+				created_time: '2021-11-13T04:13:00.000Z',
+				last_edited_time: '2021-11-13T04:13:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'column',
+				column: {},
+				blocks: [
+					{
+						object: 'block',
+						id: '2a886060-dcff-46f3-87a1-fa80ea583025',
+						created_time: '2021-09-28T09:06:00.000Z',
+						last_edited_time: '2021-11-13T04:13:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'image',
+						image: {
+							caption: [
+								{
+									type: 'text',
+									text: {
+										content: 'From unsplash',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'From unsplash',
+									href: null
+								}
+							],
+							type: 'external',
+							external: {
+								url: 'https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+							}
+						}
+					}
+				]
+			},
+			{
+				object: 'block',
+				id: '15c1bd08-1360-427c-b86b-850f96193831',
+				created_time: '2021-11-13T04:13:00.000Z',
+				last_edited_time: '2021-11-13T04:13:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'column',
+				column: {},
+				blocks: [
+					{
+						object: 'block',
+						id: '655a2330-d9fa-427c-b592-152d547c94c5',
+						created_time: '2021-09-28T09:06:00.000Z',
+						last_edited_time: '2021-11-13T04:13:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'image',
+						image: {
+							caption: [
+								{
+									type: 'text',
+									text: {
+										content: 'cresting orca',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'cresting orca',
+									href: null
+								}
+							],
+							type: 'file',
+							file: {
+								url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T044858Z&X-Amz-Expires=3600&X-Amz-Signature=7644a69629b282fbb1858318889fa9eb283ccd479eaa468f0e61a92d11f18a8e&X-Amz-SignedHeaders=host',
+								expiry_time: '2021-11-13T05:48:58.786Z'
+							}
+						}
+					}
+				]
 			}
-		}
+		]
 	}}
-	><Image url="/images/bells-and-whistles/c877cf0a-9681-4e15-a321-bdd5c5bfce1f.jpg"
-		>Captions, too, can inclue&thinsp;<em>italics</em>,&thinsp;<strong>bold</strong>,&thinsp;<s
-			>strikethrough</s
-		>,&thinsp;<InlineCode>code</InlineCode>,&thinsp;<InlineColor value="red"
-			><strong>c</strong></InlineColor
-		><InlineColor value="orange"><strong>o</strong></InlineColor><InlineColor value="yellow"
-			><strong>l</strong></InlineColor
-		><InlineColor value="green"><strong>o</strong></InlineColor><InlineColor value="blue"
-			><strong>r</strong></InlineColor
-		><InlineColor value="purple"><strong>s</strong></InlineColor>, and&thinsp;<MagicLink
-			href="https://ilovelife.com">links</MagicLink
-		></Image
-	>
-</Magic>
+	><ColumnList cols={4}
+		><Column
+			><div>
+				I haven't yet implemented&thinsp;<InlineCode>column_list</InlineCode
+				>&thinsp;or&thinsp;<InlineCode>column</InlineCode>&thinsp;so you'll be seeing the default
+				"block.type" output for them.
+			</div>
+			<div>
+				Not sure whether the Notion API supports column sizing at all. It doesn't seem to support
+				image sizing, fwiw.
+			</div>
+		</Column><Column
+			><Image url="/images/bells-and-whistles/c877cf0a-9681-4e15-a321-bdd5c5bfce1f.jpg"
+				>Captions, too, can include&thinsp;<em>italics</em>,&thinsp;<strong>bold</strong>,&thinsp;<s
+					>strikethrough</s
+				>,&thinsp;<InlineCode>code</InlineCode>,&thinsp;<InlineColor value="red"
+					><strong>c</strong></InlineColor
+				><InlineColor value="orange"><strong>o</strong></InlineColor><InlineColor value="yellow"
+					><strong>l</strong></InlineColor
+				><InlineColor value="green"><strong>o</strong></InlineColor><InlineColor value="blue"
+					><strong>r</strong></InlineColor
+				><InlineColor value="purple"><strong>s</strong></InlineColor>, and&thinsp;<MagicLink
+					href="https://ilovelife.com">links</MagicLink
+				></Image
+			>
+		</Column><Column
+			><Image url="/images/bells-and-whistles/2a886060-dcff-46f3-87a1-fa80ea583025.jpg"
+				>From unsplash</Image
+			>
+		</Column><Column
+			><Image url="/images/bells-and-whistles/655a2330-d9fa-427c-b592-152d547c94c5.jpg"
+				>cresting orca</Image
+			>
+		</Column></ColumnList
+	></Magic
+>
 <br style="display:none;" />
 <Magic
 	page={{
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '2a886060-dcff-46f3-87a1-fa80ea583025',
-		created_time: '2021-09-28T09:06:00.000Z',
-		last_edited_time: '2021-09-28T09:06:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'image',
-		image: {
-			caption: [
-				{
-					type: 'text',
-					text: {
-						content: 'From unsplash',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'From unsplash',
-					href: null
-				}
-			],
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		}
-	}}
-	><Image url="/images/bells-and-whistles/2a886060-dcff-46f3-87a1-fa80ea583025.jpg"
-		>From unsplash</Image
-	>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '655a2330-d9fa-427c-b592-152d547c94c5',
-		created_time: '2021-09-28T09:06:00.000Z',
-		last_edited_time: '2021-09-28T09:06:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'image',
-		image: {
-			caption: [
-				{
-					type: 'text',
-					text: {
-						content: 'cresting orca',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'cresting orca',
-					href: null
-				}
-			],
-			type: 'file',
-			file: {
-				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211112T062908Z&X-Amz-Expires=3600&X-Amz-Signature=7b9295542a48e6afd61bb4708eeb932f43e82480d6d1bd543b4d04557a4fe26c&X-Amz-SignedHeaders=host',
-				expiry_time: '2021-11-12T07:29:08.743Z'
-			}
-		}
-	}}
-	><Image url="/images/bells-and-whistles/655a2330-d9fa-427c-b592-152d547c94c5.jpg"
-		>cresting orca</Image
-	>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -3835,7 +5979,7 @@
 		object: 'block',
 		id: '7d405da9-5cec-4724-b56b-391f21542043',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:24:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'heading_3',
@@ -3844,7 +5988,7 @@
 				{
 					type: 'text',
 					text: {
-						content: 'h3',
+						content: 'To Dos, Toggles, Bullets, and Blanks',
 						link: null
 					},
 					annotations: {
@@ -3855,13 +5999,13 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'h3',
+					plain_text: 'To Dos, Toggles, Bullets, and Blanks',
 					href: null
 				}
 			]
 		}
 	}}
-	><h3>h3</h3>
+	><h3>To Dos, Toggles, Bullets, and Blanks</h3>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -3869,7 +6013,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -3969,18 +6113,18 @@
 	}}
 	block={{
 		object: 'block',
-		id: '7f986cdb-e93b-4665-a027-02007184b2d4',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
-		has_children: true,
+		id: '52ae4934-38e6-4c2a-a355-9cd41b86c332',
+		created_time: '2021-11-12T23:13:00.000Z',
+		last_edited_time: '2021-11-12T23:18:00.000Z',
+		has_children: false,
 		archived: false,
-		type: 'callout',
-		callout: {
+		type: 'paragraph',
+		paragraph: {
 			text: [
 				{
 					type: 'text',
 					text: {
-						content: '*Note: the title has more than one element because I bolded the asterisk',
+						content: "I've chosen some pretty rudimentary styles for ",
 						link: null
 					},
 					annotations: {
@@ -3991,61 +6135,231 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: '*Note: the title has more than one element because I bolded the asterisk',
+					plain_text: "I've chosen some pretty rudimentary styles for ",
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'checkboxes,',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'checkboxes,',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ' ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ' ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'toggles, ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'toggles, ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'and ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'and ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'bullet points',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'bullet points',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: '. Create your own ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: '. Create your own ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'TodoItem',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: 'TodoItem',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ', ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ', ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'Toggle',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: 'Toggle',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ', and ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ', and ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'BulletedListItem',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: 'BulletedListItem',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ' components to style these just the way you like.',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ' components to style these just the way you like.',
 					href: null
 				}
-			],
-			icon: {
-				type: 'emoji',
-				emoji: '☣️'
-			}
-		},
-		blocks: [
-			{
-				object: 'block',
-				id: 'fbb374de-b3a9-4b42-8529-d020be53ed07',
-				created_time: '2021-09-20T10:05:00.000Z',
-				last_edited_time: '2021-09-20T10:05:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'bulleted_list_item',
-				bulleted_list_item: {
-					text: [
-						{
-							type: 'text',
-							text: {
-								content: 'This callout has two sub-blocks, btw',
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text: 'This callout has two sub-blocks, btw',
-							href: null
-						}
-					]
-				}
-			}
-		]
+			]
+		}
 	}}
-	><Callout emoji="☣️"
-		>*Note: the title has more than one element because I bolded the asterisk<span slot="children"
-			><BulletedListItem>"This callout has two sub-blocks, btw"</BulletedListItem>
-		</span></Callout
-	></Magic
->
+	><div>
+		I've chosen some pretty rudimentary styles for&thinsp;<em>checkboxes,</em>&thinsp;<em
+			>toggles,&thinsp;</em
+		>and&thinsp;<em>bullet points</em>. Create your own&thinsp;<InlineCode>TodoItem</InlineCode
+		>,&thinsp;<InlineCode>Toggle</InlineCode>, and&thinsp;<InlineCode>BulletedListItem</InlineCode
+		>&thinsp;components to style these just the way you like.
+	</div>
+</Magic>
 <br style="display:none;" />
 <Magic
 	page={{
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -4147,7 +6461,7 @@
 		object: 'block',
 		id: 'd9c985a2-67a8-42bf-8a9a-92d6693e7e05',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:40:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'to_do',
@@ -4182,7 +6496,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -4284,7 +6598,7 @@
 		object: 'block',
 		id: '046218a7-08ce-48ba-8b3b-2c3218d5d43e',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:40:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'to_do',
@@ -4319,7 +6633,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -4421,7 +6735,7 @@
 		object: 'block',
 		id: '5f01eab5-e7d1-4988-a064-259ae3628b7f',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:40:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'to_do',
@@ -4430,7 +6744,7 @@
 				{
 					type: 'text',
 					text: {
-						content: 'And one for good luck    ',
+						content: 'And one for good luck',
 						link: null
 					},
 					annotations: {
@@ -4441,14 +6755,14 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'And one for good luck    ',
+					plain_text: 'And one for good luck',
 					href: null
 				}
 			],
 			checked: false
 		}
 	}}
-	><TodoItem checked={false}>"And one for good luck &thinsp;"</TodoItem>
+	><TodoItem checked={false}>"And one for good luck"</TodoItem>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -4456,7 +6770,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -4556,242 +6870,9 @@
 	}}
 	block={{
 		object: 'block',
-		id: 'dfd35b92-2351-44d7-a3c3-3ccf785db494',
-		created_time: '2021-09-20T21:47:00.000Z',
-		last_edited_time: '2021-09-20T21:48:00.000Z',
-		has_children: true,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: 'This simple text block has 3 children',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'This simple text block has 3 children',
-					href: null
-				}
-			]
-		},
-		blocks: [
-			{
-				object: 'block',
-				id: '9540076a-c281-408a-ad7c-820d9b88c2a7',
-				created_time: '2021-09-20T21:47:00.000Z',
-				last_edited_time: '2021-09-20T21:47:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'paragraph',
-				paragraph: {
-					text: [
-						{
-							type: 'text',
-							text: {
-								content: '1️⃣',
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text: '1️⃣',
-							href: null
-						}
-					]
-				}
-			},
-			{
-				object: 'block',
-				id: '4a53af32-a646-44f8-abb6-eeb331a63f5b',
-				created_time: '2021-09-20T21:47:00.000Z',
-				last_edited_time: '2021-09-20T21:48:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'paragraph',
-				paragraph: {
-					text: [
-						{
-							type: 'text',
-							text: {
-								content: '👬',
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text: '👬',
-							href: null
-						}
-					]
-				}
-			},
-			{
-				object: 'block',
-				id: '5c4dacf1-8f90-4fea-80c6-2c94312f72ce',
-				created_time: '2021-09-20T21:48:00.000Z',
-				last_edited_time: '2021-09-20T21:48:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'paragraph',
-				paragraph: {
-					text: [
-						{
-							type: 'text',
-							text: {
-								content: '🕒',
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text: '🕒',
-							href: null
-						}
-					]
-				}
-			}
-		]
-	}}
-	><div>This simple text block has 3 children</div>
-	<IndentGroup>
-		<div>1️⃣</div>
-		<div>👬</div>
-		<div>🕒</div>
-	</IndentGroup>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '597f34c5-8acc-45d0-88be-fd726b30161f',
-		created_time: '2021-09-20T21:47:00.000Z',
-		last_edited_time: '2021-09-20T21:48:00.000Z',
+		id: '8f27ed81-6976-4a2b-b623-13334d90f160',
+		created_time: '2021-11-12T23:26:00.000Z',
+		last_edited_time: '2021-11-12T23:26:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -4807,7 +6888,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -4909,7 +6990,7 @@
 		object: 'block',
 		id: '8c8a2656-3a2f-4978-a3c2-88937f71a613',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:40:00.000Z',
 		has_children: true,
 		archived: false,
 		type: 'toggle',
@@ -4918,7 +6999,374 @@
 				{
 					type: 'text',
 					text: {
-						content: 'Toggle label\nsoft return!',
+						content:
+							'This toggle uses a soft return to show\n3 lines of text in the toggle "anchor"\n(badly-formatted)',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'orange_background'
+					},
+					plain_text:
+						'This toggle uses a soft return to show\n3 lines of text in the toggle "anchor"\n(badly-formatted)',
+					href: null
+				}
+			]
+		},
+		blocks: [
+			{
+				object: 'block',
+				id: '55a65dfe-f717-46e9-a07d-dabb5dd2bfad',
+				created_time: '2021-09-20T10:05:00.000Z',
+				last_edited_time: '2021-11-12T23:23:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'paragraph',
+				paragraph: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: "I'm part of the toggle's contents",
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'blue_background'
+							},
+							plain_text: "I'm part of the toggle's contents",
+							href: null
+						}
+					]
+				}
+			},
+			{
+				object: 'block',
+				id: '3ceeec79-20b1-4331-9026-b0552168c4ed',
+				created_time: '2021-09-20T10:05:00.000Z',
+				last_edited_time: '2021-11-12T23:22:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'paragraph',
+				paragraph: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'More toggle contents. Notice how the block-level colors get ignored',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'blue_background'
+							},
+							plain_text: 'More toggle contents. Notice how the block-level colors get ignored',
+							href: null
+						}
+					]
+				}
+			},
+			{
+				object: 'block',
+				id: '39e51e01-13a7-4058-9e78-2b3b4bf12d1d',
+				created_time: '2021-11-12T23:21:00.000Z',
+				last_edited_time: '2021-11-12T23:21:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'paragraph',
+				paragraph: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'What about block-level text colors?',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'What about block-level text colors?',
+							href: null
+						}
+					]
+				}
+			}
+		]
+	}}
+	><Toggle
+		><InlineColor value="orange_background"
+			>This toggle uses a soft return to show
+			<br />
+			3 lines of text in the toggle "anchor"
+			<br />
+			(badly-formatted)</InlineColor
+		>
+		<span slot="children"
+			><div>
+				<InlineColor value="blue_background">I'm part of the toggle's contents</InlineColor>
+			</div>
+			<div>
+				<InlineColor value="blue_background"
+					>More toggle contents. Notice how the block-level colors get ignored</InlineColor
+				>
+			</div>
+			<div>What about block-level text colors?</div>
+		</span></Toggle
+	></Magic
+>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '597f34c5-8acc-45d0-88be-fd726b30161f',
+		created_time: '2021-11-12T23:24:00.000Z',
+		last_edited_time: '2021-11-12T23:24:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: []
+		}
+	}}
+	><div />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'eae0e6ab-25fe-4e3a-b35b-d8722e7462bb',
+		created_time: '2021-09-20T21:47:00.000Z',
+		last_edited_time: '2021-11-12T23:48:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: '↑ notion2svelte ',
 						link: null
 					},
 					annotations: {
@@ -4929,7 +7377,452 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'Toggle label\nsoft return!',
+					plain_text: '↑ notion2svelte ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'does',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'does',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: " render blank lines, as you'd expect. ↓",
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: " render blank lines, as you'd expect. ↓",
+					href: null
+				}
+			]
+		}
+	}}
+	><div>
+		↑ notion2svelte&thinsp;<em>does</em>&thinsp;render blank lines, as you'd expect. ↓
+	</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'd9db5167-5bd2-4bf5-8851-22cecb2703de',
+		created_time: '2021-11-12T23:24:00.000Z',
+		last_edited_time: '2021-11-12T23:24:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: []
+		}
+	}}
+	><div />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '25a41cc0-1e6e-42f5-85fe-9a1928b95e4e',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:40:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'bulleted_list_item',
+		bulleted_list_item: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'This is a ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'This is a ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'bulleted_list_item',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: 'bulleted_list_item',
+					href: null
+				}
+			]
+		}
+	}}
+	><BulletedListItem
+		>"This is a&thinsp;<InlineCode>bulleted_list_item</InlineCode>"</BulletedListItem
+	>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'd95ca015-5625-499f-9dd7-e629694f3e99',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:40:00.000Z',
+		has_children: true,
+		archived: false,
+		type: 'bulleted_list_item',
+		bulleted_list_item: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: "And here's another one",
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: "And here's another one",
 					href: null
 				}
 			]
@@ -4937,18 +7830,19 @@
 		blocks: [
 			{
 				object: 'block',
-				id: '55a65dfe-f717-46e9-a07d-dabb5dd2bfad',
+				id: '3de7536c-3c0b-4706-847e-f15d5664519a',
 				created_time: '2021-09-20T10:05:00.000Z',
-				last_edited_time: '2021-09-20T10:05:00.000Z',
+				last_edited_time: '2021-11-12T23:40:00.000Z',
 				has_children: false,
 				archived: false,
-				type: 'paragraph',
-				paragraph: {
+				type: 'bulleted_list_item',
+				bulleted_list_item: {
 					text: [
 						{
 							type: 'text',
 							text: {
-								content: 'Toggle contents',
+								content:
+									'All good things come in threes, so they say, but this 3rd bullet point is nested, so presumably only shows up by getting children of the parent block?',
 								link: null
 							},
 							annotations: {
@@ -4959,37 +7853,8 @@
 								code: false,
 								color: 'default'
 							},
-							plain_text: 'Toggle contents',
-							href: null
-						}
-					]
-				}
-			},
-			{
-				object: 'block',
-				id: '3ceeec79-20b1-4331-9026-b0552168c4ed',
-				created_time: '2021-09-20T10:05:00.000Z',
-				last_edited_time: '2021-09-20T10:05:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'paragraph',
-				paragraph: {
-					text: [
-						{
-							type: 'text',
-							text: {
-								content: 'More toggle contents',
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text: 'More toggle contents',
+							plain_text:
+								'All good things come in threes, so they say, but this 3rd bullet point is nested, so presumably only shows up by getting children of the parent block?',
 							href: null
 						}
 					]
@@ -4997,15 +7862,2005 @@
 			}
 		]
 	}}
-	><Toggle
-		>Toggle label
-		<br />
-		soft return!
-		<span slot="children"
-			><div>Toggle contents</div>
-			<div>More toggle contents</div>
-		</span></Toggle
-	></Magic
+	><BulletedListItem>"And here's another one"</BulletedListItem>
+	<IndentGroup>
+		<BulletedListItem
+			>"All good things come in threes, so they say, but this 3rd bullet point is nested, so
+			presumably only shows up by getting children of the parent block?"</BulletedListItem
+		>
+	</IndentGroup>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '5e886318-af01-46f9-99f0-afd38e5856e7',
+		created_time: '2021-11-12T23:31:00.000Z',
+		last_edited_time: '2021-11-12T23:31:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: []
+		}
+	}}
+	><div />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '904b54f6-2f62-4272-8294-b398eba6b31c',
+		created_time: '2021-11-12T23:26:00.000Z',
+		last_edited_time: '2021-11-12T23:31:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content:
+							'Whereas Notion seems to rely on Javascript to set the number/letter prefixes in numbered outlines, ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						'Whereas Notion seems to rely on Javascript to set the number/letter prefixes in numbered outlines, ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'notion2svelte',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'notion2svelte',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content:
+							' hard-renders them, at least for now, leaning toward static-rendered results.',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						' hard-renders them, at least for now, leaning toward static-rendered results.',
+					href: null
+				}
+			]
+		}
+	}}
+	><div>
+		Whereas Notion seems to rely on Javascript to set the number/letter prefixes in numbered
+		outlines,&thinsp;<em>notion2svelte</em>&thinsp;hard-renders them, at least for now, leaning
+		toward static-rendered results.
+	</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'd7565143-adf1-45c7-b17f-e70943425bb7',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:40:00.000Z',
+		has_children: true,
+		archived: false,
+		type: 'numbered_list_item',
+		numbered_list_item: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'This is a ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'This is a ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'numbered_list_item',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: 'numbered_list_item',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ' …',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ' …',
+					href: null
+				}
+			]
+		},
+		blocks: [
+			{
+				object: 'block',
+				id: '9b13502b-295f-4f4d-bd71-3834c2e59660',
+				created_time: '2021-11-12T23:26:00.000Z',
+				last_edited_time: '2021-11-12T23:40:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'with two numbered sub-items',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'with two numbered sub-items',
+							href: null
+						}
+					]
+				}
+			},
+			{
+				object: 'block',
+				id: 'ddf8fb27-48da-488a-85db-8a4f5241cbf3',
+				created_time: '2021-11-12T23:26:00.000Z',
+				last_edited_time: '2021-11-12T23:40:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'labelled a. and b.',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'labelled a. and b.',
+							href: null
+						}
+					]
+				}
+			},
+			{
+				object: 'block',
+				id: '4760eceb-1556-49d0-b7e4-cf559f4f060f',
+				created_time: '2021-11-12T23:27:00.000Z',
+				last_edited_time: '2021-11-12T23:27:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'paragraph',
+				paragraph: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: "And one child block that's unnumbered",
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: "And one child block that's unnumbered",
+							href: null
+						}
+					]
+				}
+			}
+		]
+	}}
+	><NumberedListItem number="1">
+		This is a&thinsp;<InlineCode>numbered_list_item</InlineCode>&thinsp;…</NumberedListItem
+	>
+	<IndentGroup>
+		<NumberedListItem number="a">with two numbered sub-items</NumberedListItem>
+		<NumberedListItem number="b">labelled a. and b.</NumberedListItem>
+		<div>And one child block that's unnumbered</div>
+	</IndentGroup>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '4eba6149-47f4-47b6-91fe-6baf7962947f',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:40:00.000Z',
+		has_children: true,
+		archived: false,
+		type: 'numbered_list_item',
+		numbered_list_item: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: " This time, let's go ahead and create a more lively, branching tree",
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: " This time, let's go ahead and create a more lively, branching tree",
+					href: null
+				}
+			]
+		},
+		blocks: [
+			{
+				object: 'block',
+				id: 'd286d944-0674-403d-a069-6d5839f3356d',
+				created_time: '2021-11-12T23:31:00.000Z',
+				last_edited_time: '2021-11-12T23:40:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'a.',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'a.',
+							href: null
+						}
+					]
+				},
+				blocks: [
+					{
+						object: 'block',
+						id: '3a3262fa-651e-4c1f-9985-e3d5d2a6947a',
+						created_time: '2021-11-12T23:32:00.000Z',
+						last_edited_time: '2021-11-12T23:40:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'numbered_list_item',
+						numbered_list_item: {
+							text: []
+						}
+					},
+					{
+						object: 'block',
+						id: 'ac0744c5-4fb5-4090-921f-a75061ba30d3',
+						created_time: '2021-11-12T23:32:00.000Z',
+						last_edited_time: '2021-11-12T23:40:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'numbered_list_item',
+						numbered_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'ii. (with blank content for ↑ i.)',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'ii. (with blank content for ↑ i.)',
+									href: null
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				object: 'block',
+				id: '452e1948-d88b-4d55-972f-abfee1689887',
+				created_time: '2021-11-12T23:32:00.000Z',
+				last_edited_time: '2021-11-12T23:40:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'numbered_list_item',
+				numbered_list_item: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: 'b.',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'b.',
+							href: null
+						}
+					]
+				},
+				blocks: [
+					{
+						object: 'block',
+						id: 'b6a7ee31-e1ef-4c22-bfc9-ab0c4c886dbf',
+						created_time: '2021-11-12T23:32:00.000Z',
+						last_edited_time: '2021-11-12T23:40:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'numbered_list_item',
+						numbered_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'i.',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'i.',
+									href: null
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: 'fd734659-6089-472e-a1ba-fff3861021d9',
+						created_time: '2021-11-12T23:32:00.000Z',
+						last_edited_time: '2021-11-12T23:40:00.000Z',
+						has_children: true,
+						archived: false,
+						type: 'numbered_list_item',
+						numbered_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'ii.',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'ii.',
+									href: null
+								}
+							]
+						},
+						blocks: [
+							{
+								object: 'block',
+								id: '20dc7d4e-b27a-44cf-b076-60eb09a541ad',
+								created_time: '2021-11-12T23:32:00.000Z',
+								last_edited_time: '2021-11-12T23:40:00.000Z',
+								has_children: true,
+								archived: false,
+								type: 'numbered_list_item',
+								numbered_list_item: {
+									text: [
+										{
+											type: 'text',
+											text: {
+												content: '1. (again!)',
+												link: null
+											},
+											annotations: {
+												bold: false,
+												italic: false,
+												strikethrough: false,
+												underline: false,
+												code: false,
+												color: 'default'
+											},
+											plain_text: '1. (again!)',
+											href: null
+										}
+									]
+								},
+								blocks: [
+									{
+										object: 'block',
+										id: '4ebc8617-e4e0-4478-8146-f3e1189dbbec',
+										created_time: '2021-11-12T23:33:00.000Z',
+										last_edited_time: '2021-11-12T23:40:00.000Z',
+										has_children: true,
+										archived: false,
+										type: 'numbered_list_item',
+										numbered_list_item: {
+											text: [
+												{
+													type: 'text',
+													text: {
+														content: 'I',
+														link: null
+													},
+													annotations: {
+														bold: false,
+														italic: false,
+														strikethrough: false,
+														underline: false,
+														code: false,
+														color: 'default'
+													},
+													plain_text: 'I',
+													href: null
+												}
+											]
+										},
+										blocks: [
+											{
+												object: 'block',
+												id: '9dfc6968-1948-4f9d-80cf-343d43f0059d',
+												created_time: '2021-11-12T23:33:00.000Z',
+												last_edited_time: '2021-11-12T23:40:00.000Z',
+												has_children: true,
+												archived: false,
+												type: 'numbered_list_item',
+												numbered_list_item: {
+													text: [
+														{
+															type: 'text',
+															text: {
+																content: 'Can',
+																link: null
+															},
+															annotations: {
+																bold: false,
+																italic: false,
+																strikethrough: false,
+																underline: false,
+																code: false,
+																color: 'default'
+															},
+															plain_text: 'Can',
+															href: null
+														}
+													]
+												},
+												blocks: [
+													{
+														object: 'block',
+														id: '1d82c0be-5603-4001-b995-139f26adbd18',
+														created_time: '2021-11-12T23:33:00.000Z',
+														last_edited_time: '2021-11-12T23:40:00.000Z',
+														has_children: true,
+														archived: false,
+														type: 'numbered_list_item',
+														numbered_list_item: {
+															text: [
+																{
+																	type: 'text',
+																	text: {
+																		content: 'Do',
+																		link: null
+																	},
+																	annotations: {
+																		bold: false,
+																		italic: false,
+																		strikethrough: false,
+																		underline: false,
+																		code: false,
+																		color: 'default'
+																	},
+																	plain_text: 'Do',
+																	href: null
+																}
+															]
+														},
+														blocks: [
+															{
+																object: 'block',
+																id: '086b57d1-9dec-4344-84d9-06e36e4de536',
+																created_time: '2021-11-12T23:33:00.000Z',
+																last_edited_time: '2021-11-12T23:40:00.000Z',
+																has_children: true,
+																archived: false,
+																type: 'numbered_list_item',
+																numbered_list_item: {
+																	text: [
+																		{
+																			type: 'text',
+																			text: {
+																				content: 'This',
+																				link: null
+																			},
+																			annotations: {
+																				bold: false,
+																				italic: false,
+																				strikethrough: false,
+																				underline: false,
+																				code: false,
+																				color: 'default'
+																			},
+																			plain_text: 'This',
+																			href: null
+																		}
+																	]
+																},
+																blocks: [
+																	{
+																		object: 'block',
+																		id: 'a3402212-f86b-43e3-8f6d-7baafcda5201',
+																		created_time: '2021-11-12T23:33:00.000Z',
+																		last_edited_time: '2021-11-12T23:40:00.000Z',
+																		has_children: true,
+																		archived: false,
+																		type: 'numbered_list_item',
+																		numbered_list_item: {
+																			text: [
+																				{
+																					type: 'text',
+																					text: {
+																						content: 'All',
+																						link: null
+																					},
+																					annotations: {
+																						bold: false,
+																						italic: false,
+																						strikethrough: false,
+																						underline: false,
+																						code: false,
+																						color: 'default'
+																					},
+																					plain_text: 'All',
+																					href: null
+																				}
+																			]
+																		},
+																		blocks: [
+																			{
+																				object: 'block',
+																				id: '28b70d15-38aa-47e6-83d9-6af3a6ec127b',
+																				created_time: '2021-11-12T23:33:00.000Z',
+																				last_edited_time: '2021-11-12T23:40:00.000Z',
+																				has_children: false,
+																				archived: false,
+																				type: 'numbered_list_item',
+																				numbered_list_item: {
+																					text: [
+																						{
+																							type: 'text',
+																							text: {
+																								content: 'Day',
+																								link: null
+																							},
+																							annotations: {
+																								bold: false,
+																								italic: false,
+																								strikethrough: false,
+																								underline: false,
+																								code: false,
+																								color: 'default'
+																							},
+																							plain_text: 'Day',
+																							href: null
+																						}
+																					]
+																				}
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						object: 'block',
+						id: '7d1c29e9-d034-4710-9aeb-172417f5b123',
+						created_time: '2021-11-12T23:32:00.000Z',
+						last_edited_time: '2021-11-12T23:40:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'numbered_list_item',
+						numbered_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'iii.',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'iii.',
+									href: null
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}}
+	><NumberedListItem number="2">
+		&thinsp;This time, let's go ahead and create a more lively, branching tree</NumberedListItem
+	>
+	<IndentGroup>
+		<NumberedListItem number="a">a.</NumberedListItem>
+		<IndentGroup>
+			<NumberedListItem number="i" />
+			<NumberedListItem number="ii">ii. (with blank content for ↑ i.)</NumberedListItem>
+		</IndentGroup>
+		<NumberedListItem number="b">b.</NumberedListItem>
+		<IndentGroup>
+			<NumberedListItem number="i">i.</NumberedListItem>
+			<NumberedListItem number="ii">ii.</NumberedListItem>
+			<IndentGroup>
+				<NumberedListItem number="1">1. (again!)</NumberedListItem>
+				<IndentGroup>
+					<NumberedListItem number="1">I</NumberedListItem>
+					<IndentGroup>
+						<NumberedListItem number="1">Can</NumberedListItem>
+						<IndentGroup>
+							<NumberedListItem number="1">Do</NumberedListItem>
+							<IndentGroup>
+								<NumberedListItem number="1">This</NumberedListItem>
+								<IndentGroup>
+									<NumberedListItem number="1">All</NumberedListItem>
+									<IndentGroup>
+										<NumberedListItem number="1">Day</NumberedListItem>
+									</IndentGroup>
+								</IndentGroup>
+							</IndentGroup>
+						</IndentGroup>
+					</IndentGroup>
+				</IndentGroup>
+			</IndentGroup>
+			<NumberedListItem number="iii">iii.</NumberedListItem>
+		</IndentGroup>
+	</IndentGroup>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '5477436f-7760-41b0-a800-b306bd2695c0',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:48:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'numbered_list_item',
+		numbered_list_item: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Last, but not least, #3, with no child blocks',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Last, but not least, #3, with no child blocks',
+					href: null
+				}
+			]
+		}
+	}}
+	><NumberedListItem number="3">Last, but not least, #3, with no child blocks</NumberedListItem>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'e7703c74-61c1-48c6-a33b-a303cc29e494',
+		created_time: '2021-11-12T23:25:00.000Z',
+		last_edited_time: '2021-11-12T23:48:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'divider',
+		divider: {}
+	}}
+	><Divider />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'b9a6ca36-4ab9-44b3-8abf-affd88cc71ee',
+		created_time: '2021-11-12T23:48:00.000Z',
+		last_edited_time: '2021-11-12T23:48:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'heading_3',
+		heading_3: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Sub-pages',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Sub-pages',
+					href: null
+				}
+			]
+		}
+	}}
+	><h3>Sub-pages</h3>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '598aadf2-fc79-4b6e-934b-0acf0cff0361',
+		created_time: '2021-11-12T23:48:00.000Z',
+		last_edited_time: '2021-11-12T23:51:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Sub-pages are rendered by your custom ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Sub-pages are rendered by your custom ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: '<ChildPage />',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: '<ChildPage />',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content:
+							' component. Just for kicks, made mine so that sub-pages are hidden unless you choose to toggle their display by typing `O`…',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						' component. Just for kicks, made mine so that sub-pages are hidden unless you choose to toggle their display by typing `O`…',
+					href: null
+				}
+			]
+		}
+	}}
+	><div>
+		Sub-pages are rendered by your custom&thinsp;<InlineCode><ChildPage /></InlineCode
+		>&thinsp;component. Just for kicks, made mine so that sub-pages are hidden unless you choose to
+		toggle their display by typing `O`…
+	</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'b9d69a79-0544-4908-b449-cdba8550df08',
+		created_time: '2021-09-20T23:35:00.000Z',
+		last_edited_time: '2021-11-12T23:51:00.000Z',
+		has_children: true,
+		archived: false,
+		type: 'child_page',
+		child_page: {
+			title: 'Images Sub-Page'
+		},
+		blocks: [
+			{
+				object: 'block',
+				id: 'f3cee0d8-b99c-4bb0-8004-ebf84e83c165',
+				created_time: '2021-09-20T10:05:00.000Z',
+				last_edited_time: '2021-09-20T23:36:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'image',
+				image: {
+					caption: [
+						{
+							type: 'text',
+							text: {
+								content: 'Obsolescence',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'Obsolescence',
+							href: null
+						}
+					],
+					type: 'file',
+					file: {
+						url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T044858Z&X-Amz-Expires=3600&X-Amz-Signature=253c1fb869e8a05359cb1f94584791457838c0ea432d29ed311639ed2fab6402&X-Amz-SignedHeaders=host',
+						expiry_time: '2021-11-13T05:48:58.444Z'
+					}
+				}
+			},
+			{
+				object: 'block',
+				id: '11f72f5f-7152-4eda-835b-0d6e2925efe8',
+				created_time: '2021-09-20T10:05:00.000Z',
+				last_edited_time: '2021-09-20T23:40:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'paragraph',
+				paragraph: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: '↓ image block',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: '↓ image block',
+							href: null
+						}
+					]
+				}
+			},
+			{
+				object: 'block',
+				id: 'e639ccd6-3a44-43cb-a020-b1bd52454a19',
+				created_time: '2021-09-20T10:05:00.000Z',
+				last_edited_time: '2021-09-20T23:40:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'image',
+				image: {
+					caption: [
+						{
+							type: 'text',
+							text: {
+								content: 'Aphid Caption',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: 'Aphid Caption',
+							href: null
+						}
+					],
+					type: 'file',
+					file: {
+						url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T044858Z&X-Amz-Expires=3600&X-Amz-Signature=5826edabfbe37651e2647737223956a816af1dab5fd9375b8a82f43e4c0692c8&X-Amz-SignedHeaders=host',
+						expiry_time: '2021-11-13T05:48:58.442Z'
+					}
+				}
+			},
+			{
+				object: 'block',
+				id: 'b27dd7c2-235a-482a-af83-80595baeebae',
+				created_time: '2021-09-20T10:05:00.000Z',
+				last_edited_time: '2021-09-20T23:40:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'image',
+				image: {
+					caption: [
+						{
+							type: 'text',
+							text: {
+								content:
+									"I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text:
+								"I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
+							href: null
+						}
+					],
+					type: 'file',
+					file: {
+						url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T044858Z&X-Amz-Expires=3600&X-Amz-Signature=5826edabfbe37651e2647737223956a816af1dab5fd9375b8a82f43e4c0692c8&X-Amz-SignedHeaders=host',
+						expiry_time: '2021-11-13T05:48:58.443Z'
+					}
+				}
+			}
+		]
+	}}
+	><ChildPage title="Images Sub-Page"
+		><Image url="/images/bells-and-whistles/f3cee0d8-b99c-4bb0-8004-ebf84e83c165.jpg"
+			>Obsolescence</Image
+		>
+		<div>↓ image block</div>
+		<Image url="/images/bells-and-whistles/e639ccd6-3a44-43cb-a020-b1bd52454a19.jpg"
+			>Aphid Caption</Image
+		>
+		<Image url="/images/bells-and-whistles/b27dd7c2-235a-482a-af83-80595baeebae.jpg"
+			>I'm guessing presentation sizing info isn't part of images. This one's identical to-, but
+			presented smaller than-, the first</Image
+		>
+	</ChildPage></Magic
 >
 <br style="display:none;" />
 <Magic
@@ -5013,7 +9868,143 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'efd2c786-682e-4d48-b072-80201e525398',
+		created_time: '2021-11-12T23:51:00.000Z',
+		last_edited_time: '2021-11-12T23:51:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: '↑ …at which point, the Sub-Page will be rendered inline here!',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: '↑ …at which point, the Sub-Page will be rendered inline here!',
+					href: null
+				}
+			]
+		}
+	}}
+	><div>↑ …at which point, the Sub-Page will be rendered inline here!</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -5138,7 +10129,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -5238,18 +10229,18 @@
 	}}
 	block={{
 		object: 'block',
-		id: '25a41cc0-1e6e-42f5-85fe-9a1928b95e4e',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		id: '5fb92ab7-04d4-4344-a7f3-3759c401cae3',
+		created_time: '2021-11-12T23:51:00.000Z',
+		last_edited_time: '2021-11-12T23:52:00.000Z',
 		has_children: false,
 		archived: false,
-		type: 'bulleted_list_item',
-		bulleted_list_item: {
+		type: 'paragraph',
+		paragraph: {
 			text: [
 				{
 					type: 'text',
 					text: {
-						content: 'This is a ',
+						content: '↑ Sub-pages without content currently render as an inline error',
 						link: null
 					},
 					annotations: {
@@ -5260,32 +10251,13 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'This is a ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'bulleted_list_item',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: true,
-						color: 'default'
-					},
-					plain_text: 'bulleted_list_item',
+					plain_text: '↑ Sub-pages without content currently render as an inline error',
 					href: null
 				}
 			]
 		}
 	}}
-	><BulletedListItem
-		>"This is a&thinsp;<InlineCode>bulleted_list_item</InlineCode>"</BulletedListItem
-	>
+	><div>↑ Sub-pages without content currently render as an inline error</div>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -5293,7 +10265,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -5393,194 +10365,134 @@
 	}}
 	block={{
 		object: 'block',
-		id: 'd95ca015-5625-499f-9dd7-e629694f3e99',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
-		has_children: true,
-		archived: false,
-		type: 'bulleted_list_item',
-		bulleted_list_item: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: "And here's another one",
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: "And here's another one",
-					href: null
-				}
-			]
-		},
-		blocks: [
-			{
-				object: 'block',
-				id: '3de7536c-3c0b-4706-847e-f15d5664519a',
-				created_time: '2021-09-20T10:05:00.000Z',
-				last_edited_time: '2021-09-20T10:05:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'bulleted_list_item',
-				bulleted_list_item: {
-					text: [
-						{
-							type: 'text',
-							text: {
-								content:
-									'All good things come in threes, so they say, but this 3rd bullet point is nested, so presumably only shows up by getting children of the parent block?',
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text:
-								'All good things come in threes, so they say, but this 3rd bullet point is nested, so presumably only shows up by getting children of the parent block?',
-							href: null
-						}
-					]
-				}
-			}
-		]
-	}}
-	><BulletedListItem>"And here's another one"</BulletedListItem>
-	<IndentGroup>
-		<BulletedListItem
-			>"All good things come in threes, so they say, but this 3rd bullet point is nested, so
-			presumably only shows up by getting children of the parent block?"</BulletedListItem
-		>
-	</IndentGroup>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: 'd7565143-adf1-45c7-b17f-e70943425bb7',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		id: '89c6742c-ba57-4e93-9520-c4ed1cd76a6d',
+		created_time: '2021-11-12T23:52:00.000Z',
+		last_edited_time: '2021-11-12T23:52:00.000Z',
 		has_children: false,
 		archived: false,
-		type: 'numbered_list_item',
-		numbered_list_item: {
+		type: 'divider',
+		divider: {}
+	}}
+	><Divider />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
+		created_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
+		cover: {
+			type: 'external',
+			external: {
+				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
+			}
+		},
+		icon: {
+			type: 'emoji',
+			emoji: '🦦'
+		},
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'bells-and-whistles',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'bells-and-whistles',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Test Page',
+							link: null
+						},
+						annotations: {
+							bold: true,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Test Page',
+						href: null
+					},
+					{
+						type: 'text',
+						text: {
+							content: ' w/Some Bells and Whistles 🎉',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: ' w/Some Bells and Whistles 🎉',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '02b98380-c5bf-4be7-8a2e-7771356a4fe4',
+		created_time: '2021-11-12T23:52:00.000Z',
+		last_edited_time: '2021-11-12T23:52:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'heading_3',
+		heading_3: {
 			text: [
 				{
 					type: 'text',
 					text: {
-						content: 'This is a ',
+						content: 'Quotes',
 						link: null
 					},
 					annotations: {
@@ -5591,32 +10503,13 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'This is a ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'numbered_list_item',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: true,
-						color: 'default'
-					},
-					plain_text: 'numbered_list_item',
+					plain_text: 'Quotes',
 					href: null
 				}
 			]
 		}
 	}}
-	><NumberedListItem number="1">
-		This is a&thinsp;<InlineCode>numbered_list_item</InlineCode></NumberedListItem
-	>
+	><h3>Quotes</h3>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -5624,281 +10517,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '4eba6149-47f4-47b6-91fe-6baf7962947f',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'numbered_list_item',
-		numbered_list_item: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: "What numbered item is this? 1 or 2? (hint: it's 2)",
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: "What numbered item is this? 1 or 2? (hint: it's 2)",
-					href: null
-				}
-			]
-		}
-	}}
-	><NumberedListItem number="2">
-		What numbered item is this? 1 or 2? (hint: it's 2)</NumberedListItem
-	>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '5477436f-7760-41b0-a800-b306bd2695c0',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'numbered_list_item',
-		numbered_list_item: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: "Good thing (because it's number 3",
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: "Good thing (because it's number 3",
-					href: null
-				}
-			]
-		}
-	}}
-	><NumberedListItem number="3">Good thing (because it's number 3</NumberedListItem>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -6000,8 +10619,8 @@
 		object: 'block',
 		id: '8c593de7-7950-4011-a707-340fa2b29aa9',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
-		has_children: false,
+		last_edited_time: '2021-11-12T23:40:00.000Z',
+		has_children: true,
 		archived: false,
 		type: 'quote',
 		quote: {
@@ -6009,7 +10628,7 @@
 				{
 					type: 'text',
 					text: {
-						content: "Why aren't quotes supported? This is insane?",
+						content: 'Quote Block w/Children',
 						link: null
 					},
 					annotations: {
@@ -6020,12 +10639,133 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: "Why aren't quotes supported? This is insane?",
+					plain_text: 'Quote Block w/Children',
 					href: null
 				}
 			]
-		}
-	}}><Quote>Why aren't quotes supported? This is insane?</Quote></Magic
+		},
+		blocks: [
+			{
+				object: 'block',
+				id: '2519200d-2cce-48db-9dff-7dfa753263f8',
+				created_time: '2021-11-12T23:40:00.000Z',
+				last_edited_time: '2021-11-12T23:40:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'paragraph',
+				paragraph: {
+					text: []
+				},
+				blocks: [
+					{
+						object: 'block',
+						id: 'd5b707b2-3d40-4ae5-b591-103328484778',
+						created_time: '2021-11-12T23:40:00.000Z',
+						last_edited_time: '2021-11-12T23:40:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'paragraph',
+						paragraph: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: '"We don\'t see things as they are, we see them as we are."',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: '"We don\'t see things as they are, we see them as we are."',
+									href: null
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: 'c0857cd2-a997-464e-b509-86d50aa27ef4',
+						created_time: '2021-11-12T23:34:00.000Z',
+						last_edited_time: '2021-11-12T23:40:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'paragraph',
+						paragraph: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: '"Be yourself; everyone else is already taken." —Oscar Wilde',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: '"Be yourself; everyone else is already taken." —Oscar Wilde',
+									href: null
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: 'd4e42df8-ffa5-4146-af50-3c3ca1d8b6ea',
+						created_time: '2021-11-12T23:34:00.000Z',
+						last_edited_time: '2021-11-12T23:40:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'paragraph',
+						paragraph: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content:
+											'"Be who you are and say what you feel, because those who mind don\'t matter, and those who matter don\'t mind." —Bernard M. Baruch',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text:
+										'"Be who you are and say what you feel, because those who mind don\'t matter, and those who matter don\'t mind." —Bernard M. Baruch',
+									href: null
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}}
+	><Quote
+		>Quote Block w/Children<span slot="children"
+			><div />
+			<IndentGroup>
+				<div>"We don't see things as they are, we see them as we are."</div>
+				<div>"Be yourself; everyone else is already taken." —Oscar Wilde</div>
+				<div>
+					"Be who you are and say what you feel, because those who mind don't matter, and those who
+					matter don't mind." —Bernard M. Baruch
+				</div>
+			</IndentGroup>
+		</span></Quote
+	></Magic
 >
 <br style="display:none;" />
 <Magic
@@ -6033,7 +10773,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -6135,7 +10875,7 @@
 		object: 'block',
 		id: 'a0fa14c9-a200-4527-b8ad-9798f88ac13c',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:36:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'divider',
@@ -6149,7 +10889,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -6249,18 +10989,18 @@
 	}}
 	block={{
 		object: 'block',
-		id: '38fe9223-4636-45f9-a0c9-fdff7cbbb779',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-10-31T10:06:00.000Z',
+		id: '2334838c-b65c-43fc-a062-0f3833031b5d',
+		created_time: '2021-11-12T23:55:00.000Z',
+		last_edited_time: '2021-11-12T23:55:00.000Z',
 		has_children: false,
 		archived: false,
-		type: 'paragraph',
-		paragraph: {
+		type: 'heading_3',
+		heading_3: {
 			text: [
 				{
 					type: 'text',
 					text: {
-						content: '↑ Dividers are now supported! 8D',
+						content: 'Equations',
 						link: null
 					},
 					annotations: {
@@ -6271,13 +11011,13 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: '↑ Dividers are now supported! 8D',
+					plain_text: 'Equations',
 					href: null
 				}
 			]
 		}
 	}}
-	><div>↑ Dividers are now supported! 8D</div>
+	><h3>Equations</h3>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -6285,7 +11025,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -6385,9 +11125,9 @@
 	}}
 	block={{
 		object: 'block',
-		id: '86402c3d-7749-4f02-a3a9-ba59dd0748a1',
+		id: '53336a72-e7f5-4db3-80f5-f4ce2c800e84',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		last_edited_time: '2021-11-12T23:59:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -6396,7 +11136,7 @@
 				{
 					type: 'text',
 					text: {
-						content: '↑ Whole-block page links are also, I believe, not supported :(',
+						content: 'At this point, inline- and block equations just get formatted kinda like ',
 						link: null
 					},
 					annotations: {
@@ -6407,149 +11147,13 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: '↑ Whole-block page links are also, I believe, not supported :(',
-					href: null
-				}
-			]
-		}
-	}}
-	><div>↑ Whole-block page links are also, I believe, not supported :(</div>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '09ffb394-800c-4d2e-b4f2-c7cf0a2de7ce',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: 'Would be cool for ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'Would be cool for ',
+					plain_text: 'At this point, inline- and block equations just get formatted kinda like ',
 					href: null
 				},
 				{
 					type: 'text',
 					text: {
-						content: 'ouroboros',
+						content: 'code',
 						link: null
 					},
 					annotations: {
@@ -6560,13 +11164,13 @@
 						code: true,
 						color: 'default'
 					},
-					plain_text: 'ouroboros',
+					plain_text: 'code',
 					href: null
 				},
 				{
 					type: 'text',
 					text: {
-						content: ' to support latex — ',
+						content: ". In future, I hope to add Katex interpretation. Here's an inline equation… ",
 						link: null
 					},
 					annotations: {
@@ -6577,7 +11181,8 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: ' to support latex — ',
+					plain_text:
+						". In future, I hope to add Katex interpretation. Here's an inline equation… ",
 					href: null
 				},
 				{
@@ -6599,7 +11204,7 @@
 				{
 					type: 'text',
 					text: {
-						content: ' — and whatnot',
+						content: "… and here's a block equation:",
 						link: null
 					},
 					annotations: {
@@ -6610,16 +11215,18 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: ' — and whatnot',
+					plain_text: "… and here's a block equation:",
 					href: null
 				}
 			]
 		}
 	}}
 	><div>
-		Would be cool for&thinsp;<InlineCode>ouroboros</InlineCode>&thinsp;to support latex —&thinsp;⟣<InlineCode
+		At this point, inline- and block equations just get formatted kinda like&thinsp;<InlineCode
+			>code</InlineCode
+		>. In future, I hope to add Katex interpretation. Here's an inline equation…&thinsp;⟣<InlineCode
 			>E = mc^2</InlineCode
-		>⟢&thinsp;— and whatnot
+		>⟢… and here's a block equation:
 	</div>
 </Magic>
 <br style="display:none;" />
@@ -6628,7 +11235,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -6728,681 +11335,16 @@
 	}}
 	block={{
 		object: 'block',
-		id: 'b9082e4a-ed48-4ec2-acd5-57c78cf1681a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		id: 'f2ade210-e901-4830-81c8-52d155772a35',
+		created_time: '2021-11-12T23:55:00.000Z',
+		last_edited_time: '2021-11-12T23:55:00.000Z',
 		has_children: false,
 		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: []
+		type: 'equation',
+		equation: {
+			expression: '\\begin{CD}\n   A @>a>> B \\\\\n@VbVV @AAcA \\\\\n   C @= D\n\\end{CD}'
 		}
-	}}
-	><div />
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '6209fbaf-915a-44ab-8c41-c033ebbfe620',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: '↑ empty block',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: '↑ empty block',
-					href: null
-				}
-			]
-		}
-	}}
-	><div>↑ empty block</div>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: 'c546e0f9-0595-4799-a1e0-f9972e455b38',
-		created_time: '2021-09-28T09:06:00.000Z',
-		last_edited_time: '2021-09-28T09:06:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: []
-		}
-	}}
-	><div />
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '6b5c0bda-d1ae-4fc2-b4b6-468d05d9f19c',
-		created_time: '2021-09-20T23:34:00.000Z',
-		last_edited_time: '2021-11-07T06:07:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content:
-							"Whoa. Check it out. Sub-pages currently have their children rendered inline, which is why Images Sub-Page isn't shown here, but instead we see its images, indented ↓!",
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text:
-						"Whoa. Check it out. Sub-pages currently have their children rendered inline, which is why Images Sub-Page isn't shown here, but instead we see its images, indented ↓!",
-					href: null
-				}
-			]
-		}
-	}}
-	><div>
-		Whoa. Check it out. Sub-pages currently have their children rendered inline, which is why Images
-		Sub-Page isn't shown here, but instead we see its images, indented ↓!
-	</div>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: 'b9d69a79-0544-4908-b449-cdba8550df08',
-		created_time: '2021-09-20T23:35:00.000Z',
-		last_edited_time: '2021-09-28T09:06:00.000Z',
-		has_children: true,
-		archived: false,
-		type: 'child_page',
-		child_page: {
-			title: 'Images Sub-Page'
-		},
-		blocks: [
-			{
-				object: 'block',
-				id: 'f3cee0d8-b99c-4bb0-8004-ebf84e83c165',
-				created_time: '2021-09-20T10:05:00.000Z',
-				last_edited_time: '2021-09-20T23:36:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'image',
-				image: {
-					caption: [
-						{
-							type: 'text',
-							text: {
-								content: 'Obsolescence',
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text: 'Obsolescence',
-							href: null
-						}
-					],
-					type: 'file',
-					file: {
-						url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211112T062908Z&X-Amz-Expires=3600&X-Amz-Signature=8bc46091e94e0fb3bfb3a079746da0e86b81a3b7e41101523c3e31ce14a6adf7&X-Amz-SignedHeaders=host',
-						expiry_time: '2021-11-12T07:29:08.971Z'
-					}
-				}
-			},
-			{
-				object: 'block',
-				id: '11f72f5f-7152-4eda-835b-0d6e2925efe8',
-				created_time: '2021-09-20T10:05:00.000Z',
-				last_edited_time: '2021-09-20T23:40:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'paragraph',
-				paragraph: {
-					text: [
-						{
-							type: 'text',
-							text: {
-								content: '↓ image block',
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text: '↓ image block',
-							href: null
-						}
-					]
-				}
-			},
-			{
-				object: 'block',
-				id: 'e639ccd6-3a44-43cb-a020-b1bd52454a19',
-				created_time: '2021-09-20T10:05:00.000Z',
-				last_edited_time: '2021-09-20T23:40:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'image',
-				image: {
-					caption: [
-						{
-							type: 'text',
-							text: {
-								content: 'Aphid Caption',
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text: 'Aphid Caption',
-							href: null
-						}
-					],
-					type: 'file',
-					file: {
-						url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211112T062908Z&X-Amz-Expires=3600&X-Amz-Signature=78f1b1378aba6f331fd6e6dc5163a410eba097dd85052d98bd6cd6206f52f507&X-Amz-SignedHeaders=host',
-						expiry_time: '2021-11-12T07:29:08.972Z'
-					}
-				}
-			},
-			{
-				object: 'block',
-				id: 'b27dd7c2-235a-482a-af83-80595baeebae',
-				created_time: '2021-09-20T10:05:00.000Z',
-				last_edited_time: '2021-09-20T23:40:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'image',
-				image: {
-					caption: [
-						{
-							type: 'text',
-							text: {
-								content:
-									"I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text:
-								"I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
-							href: null
-						}
-					],
-					type: 'file',
-					file: {
-						url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211112T062908Z&X-Amz-Expires=3600&X-Amz-Signature=78f1b1378aba6f331fd6e6dc5163a410eba097dd85052d98bd6cd6206f52f507&X-Amz-SignedHeaders=host',
-						expiry_time: '2021-11-12T07:29:08.974Z'
-					}
-				}
-			}
-		]
-	}}
-	><ChildPage title="Images Sub-Page"
-		><Image url="/images/bells-and-whistles/f3cee0d8-b99c-4bb0-8004-ebf84e83c165.jpg"
-			>Obsolescence</Image
-		>
-		<div>↓ image block</div>
-		<Image url="/images/bells-and-whistles/e639ccd6-3a44-43cb-a020-b1bd52454a19.jpg"
-			>Aphid Caption</Image
-		>
-		<Image url="/images/bells-and-whistles/b27dd7c2-235a-482a-af83-80595baeebae.jpg"
-			>I'm guessing presentation sizing info isn't part of images. This one's identical to-, but
-			presented smaller than-, the first</Image
-		>
-	</ChildPage></Magic
+	}}>equation</Magic
 >
 <br style="display:none;" />
 <Magic
@@ -7410,7 +11352,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -7546,7 +11488,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -7646,57 +11588,146 @@
 	}}
 	block={{
 		object: 'block',
-		id: 'f7f29332-919a-4b3a-a70b-bcd2cd33e66c',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
+		id: 'b36b3054-6300-42c1-97e7-7d9e432d16e9',
+		created_time: '2021-11-12T23:56:00.000Z',
+		last_edited_time: '2021-11-12T23:57:00.000Z',
 		has_children: true,
 		archived: false,
-		type: 'synced_block',
-		synced_block: {
-			synced_from: {
-				type: 'block_id',
-				block_id: '9264df38-d039-47a0-b23c-1b37ab8330d7'
-			}
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Clearly I have some ways to go with ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Clearly I have some ways to go with ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'synced_block',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: 'synced_block',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: " type. Here's one of those (and its synced opy) indented:",
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: " type. Here's one of those (and its synced opy) indented:",
+					href: null
+				}
+			]
 		},
 		blocks: [
 			{
 				object: 'block',
-				id: '29b1c815-8a5d-4067-9a43-6c64fb84a9c0',
-				created_time: '2021-09-17T04:46:00.000Z',
-				last_edited_time: '2021-09-17T04:47:00.000Z',
-				has_children: false,
+				id: 'f7f29332-919a-4b3a-a70b-bcd2cd33e66c',
+				created_time: '2021-09-20T10:05:00.000Z',
+				last_edited_time: '2021-11-12T23:57:00.000Z',
+				has_children: true,
 				archived: false,
-				type: 'paragraph',
-				paragraph: {
-					text: [
-						{
-							type: 'text',
-							text: {
-								content:
-									'This is a synced block. The block adjacent to it, with the identical text, is a synced copy',
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text:
-								'This is a synced block. The block adjacent to it, with the identical text, is a synced copy',
-							href: null
+				type: 'synced_block',
+				synced_block: {
+					synced_from: {
+						type: 'block_id',
+						block_id: '9264df38-d039-47a0-b23c-1b37ab8330d7'
+					}
+				},
+				blocks: [
+					{
+						object: 'block',
+						id: '29b1c815-8a5d-4067-9a43-6c64fb84a9c0',
+						created_time: '2021-09-17T04:46:00.000Z',
+						last_edited_time: '2021-09-17T04:47:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'paragraph',
+						paragraph: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content:
+											'This is a synced block. The block adjacent to it, with the identical text, is a synced copy',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text:
+										'This is a synced block. The block adjacent to it, with the identical text, is a synced copy',
+									href: null
+								}
+							]
 						}
-					]
-				}
+					}
+				]
+			},
+			{
+				object: 'block',
+				id: '7af83e89-caae-460d-ac1f-d0d557f7ffd9',
+				created_time: '2021-09-20T10:05:00.000Z',
+				last_edited_time: '2021-11-12T23:57:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'synced_block',
+				synced_block: {
+					synced_from: {
+						type: 'block_id',
+						block_id: '9264df38-d039-47a0-b23c-1b37ab8330d7'
+					}
+				},
+				blocks: []
 			}
 		]
 	}}
-	>synced_block<IndentGroup>
-		<div>
-			This is a synced block. The block adjacent to it, with the identical text, is a synced copy
-		</div>
+	><div>
+		Clearly I have some ways to go with&thinsp;<InlineCode>synced_block</InlineCode>&thinsp;type.
+		Here's one of those (and its synced opy) indented:
+	</div>
+	<IndentGroup>
+		synced_block<IndentGroup>
+			<div>
+				This is a synced block. The block adjacent to it, with the identical text, is a synced copy
+			</div>
+		</IndentGroup>
+		synced_block<IndentGroup />
 	</IndentGroup>
 </Magic>
 <br style="display:none;" />
@@ -7705,129 +11736,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
-		cover: {
-			type: 'external',
-			external: {
-				url: 'https://images.unsplash.com/photo-1597382389726-fbe8c7a6905e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb'
-			}
-		},
-		icon: {
-			type: 'emoji',
-			emoji: '🦦'
-		},
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'bells-and-whistles',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'bells-and-whistles',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Test Page',
-							link: null
-						},
-						annotations: {
-							bold: true,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Test Page',
-						href: null
-					},
-					{
-						type: 'text',
-						text: {
-							content: ' w/Some Bells and Whistles 🎉',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: ' w/Some Bells and Whistles 🎉',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Test-Page-w-Some-Bells-and-Whistles-6bca4379f36245a690cfd35beebba87a',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '7af83e89-caae-460d-ac1f-d0d557f7ffd9',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-09-20T10:05:00.000Z',
-		has_children: true,
-		archived: false,
-		type: 'synced_block',
-		synced_block: {
-			synced_from: {
-				type: 'block_id',
-				block_id: '9264df38-d039-47a0-b23c-1b37ab8330d7'
-			}
-		},
-		blocks: []
-	}}
-	>synced_block<IndentGroup />
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
-		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -7963,7 +11872,7 @@
 		object: 'page',
 		id: '6bca4379-f362-45a6-90cf-d35beebba87a',
 		created_time: '2021-09-20T10:05:00.000Z',
-		last_edited_time: '2021-11-11T11:58:00.000Z',
+		last_edited_time: '2021-11-13T04:13:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -8085,7 +11994,7 @@
 						object: 'block',
 						id: '674cd117-fb68-4b19-8ee9-79f998a878dc',
 						created_time: '2021-09-20T10:05:00.000Z',
-						last_edited_time: '2021-09-20T10:05:00.000Z',
+						last_edited_time: '2021-11-12T23:58:00.000Z',
 						has_children: false,
 						archived: false,
 						type: 'paragraph',
@@ -8094,8 +12003,7 @@
 								{
 									type: 'text',
 									text: {
-										content:
-											"I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?",
+										content: 'This should work',
 										link: null
 									},
 									annotations: {
@@ -8106,8 +12014,7 @@
 										code: false,
 										color: 'default'
 									},
-									plain_text:
-										"I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?",
+									plain_text: 'This should work',
 									href: null
 								}
 							]
@@ -8129,7 +12036,7 @@
 						object: 'block',
 						id: '832fae03-5bac-45f8-9c44-77d9ebdb5c70',
 						created_time: '2021-09-20T10:05:00.000Z',
-						last_edited_time: '2021-09-20T10:05:00.000Z',
+						last_edited_time: '2021-11-12T23:58:00.000Z',
 						has_children: false,
 						archived: false,
 						type: 'paragraph',
@@ -8138,8 +12045,7 @@
 								{
 									type: 'text',
 									text: {
-										content:
-											"I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?",
+										content: 'once I implement',
 										link: null
 									},
 									annotations: {
@@ -8150,8 +12056,7 @@
 										code: false,
 										color: 'default'
 									},
-									plain_text:
-										"I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?",
+									plain_text: 'once I implement',
 									href: null
 								}
 							]
@@ -8173,7 +12078,7 @@
 						object: 'block',
 						id: 'e3fe4148-ad82-450f-8804-cb7a3d19d2d0',
 						created_time: '2021-09-20T10:05:00.000Z',
-						last_edited_time: '2021-09-20T10:05:00.000Z',
+						last_edited_time: '2021-11-12T23:58:00.000Z',
 						has_children: false,
 						archived: false,
 						type: 'paragraph',
@@ -8182,8 +12087,24 @@
 								{
 									type: 'text',
 									text: {
-										content:
-											"I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?",
+										content: 'column_list',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: true,
+										color: 'default'
+									},
+									plain_text: 'column_list',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: ' and ',
 										link: null
 									},
 									annotations: {
@@ -8194,8 +12115,24 @@
 										code: false,
 										color: 'default'
 									},
-									plain_text:
-										"I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?",
+									plain_text: ' and ',
+									href: null
+								},
+								{
+									type: 'text',
+									text: {
+										content: 'column',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: true,
+										color: 'default'
+									},
+									plain_text: 'column',
 									href: null
 								}
 							]
@@ -8205,22 +12142,12 @@
 			}
 		]
 	}}
-	>column_list<IndentGroup>
-		column<IndentGroup>
-			<div>
-				I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?
+	><ColumnList cols={3}
+		><Column><div>This should work</div></Column><Column><div>once I implement</div></Column><Column
+			><div>
+				<InlineCode>column_list</InlineCode>&thinsp;and&thinsp;<InlineCode>column</InlineCode>
 			</div>
-		</IndentGroup>
-		column<IndentGroup>
-			<div>
-				I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?
-			</div>
-		</IndentGroup>
-		column<IndentGroup>
-			<div>
-				I'm also guessing that side-by-side stacking info isn't passed on by the API, amiright?
-			</div>
-		</IndentGroup>
-	</IndentGroup>
-</Magic>
+		</Column></ColumnList
+	></Magic
+>
 <br style="display:none;" />
