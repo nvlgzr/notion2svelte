@@ -15,8 +15,14 @@
 <style>
 	figure {
 		color: gray;
+		background-color: whitesmoke;
 		padding: 1rem;
 		border: thin silver solid;
 		border-radius: 0.5rem;
+		margin: 0 auto 0.5rem auto;
+	}
+
+	figcaption {
+		margin-top: 0.5rem;
 	}
 </style>
