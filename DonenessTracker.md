@@ -8,7 +8,7 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Implement `equation` (spike katex interpretation, just to see what happens!)
+- Implement `BlockEquation`
 - Implement `embed`, `video` and `file` types
 - Update ReadMe
   - Remember to call out keyboard interactions:
