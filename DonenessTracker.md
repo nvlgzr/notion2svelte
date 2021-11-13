@@ -6,8 +6,6 @@ status: in progress, render: true
 
 ## 🐞 Known Bugs
 
-- Some pages have 'undefined' above the title
-
 # 🐝 Tasks/Ideas
 
 - Implement `equation` (spike katex interpretation, just to see what happens!)
