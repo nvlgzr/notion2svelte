@@ -13,6 +13,7 @@
         import IndentGroup from "$lib/notion2svelte/IndentGroup.svelte"
         import InlineCode from "$lib/notion2svelte/InlineCode.svelte"
         import InlineColor from "$lib/notion2svelte/InlineColor.svelte"
+        import InlineEquation from "$lib/notion2svelte/InlineEquation.svelte"
         import Magic from "$lib/notion2svelte/Magic.svelte"
         import MagicLink from "$lib/notion2svelte/MagicLink.svelte"
         import NumberedListItem from "$lib/notion2svelte/NumberedListItem.svelte"
@@ -182,7 +183,7 @@
     ]
   }
 }}><div>
-Inline:&thinsp;⟣<InlineCode>E = mc^2</InlineCode>⟢&thinsp;… and block:
+Inline:&thinsp;<InlineEquation katexString="E = mc^2" />&thinsp;… and block:
 </div>
 </Magic> 
 <br style="display:none;"/>
