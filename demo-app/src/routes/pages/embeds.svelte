@@ -32,7 +32,6 @@
 		object: 'page',
 		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
 		created_time: '2021-11-15T07:01:00.000Z',
-		last_edited_time: '2021-11-15T10:19:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -109,7 +108,7 @@
 		object: 'block',
 		id: '1f3a0c8b-028e-4c40-b049-283519c6cba4',
 		created_time: '2021-11-15T08:34:00.000Z',
-		last_edited_time: '2021-11-15T09:26:00.000Z',
+		last_edited_time: '2021-11-15T10:29:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -190,7 +189,6 @@
 		object: 'page',
 		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
 		created_time: '2021-11-15T07:01:00.000Z',
-		last_edited_time: '2021-11-15T10:19:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -304,7 +302,6 @@
 		object: 'page',
 		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
 		created_time: '2021-11-15T07:01:00.000Z',
-		last_edited_time: '2021-11-15T10:19:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -422,7 +419,6 @@
 		object: 'page',
 		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
 		created_time: '2021-11-15T07:01:00.000Z',
-		last_edited_time: '2021-11-15T10:19:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -540,7 +536,6 @@
 		object: 'page',
 		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
 		created_time: '2021-11-15T07:01:00.000Z',
-		last_edited_time: '2021-11-15T10:19:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
