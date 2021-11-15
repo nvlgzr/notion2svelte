@@ -8,7 +8,6 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Implement `embed`, `video` and `file` types
 - Update ReadMe
   - Remember to call out keyboard interactions:
     - O: Displays sub-pages. Not sure why I chose 'O'
@@ -18,6 +17,7 @@ status: in progress, render: true
 
 # Icebox
 
+- Implement `video` and `file` types
 - Add config for custom component names so that naming conflicts can be avoided.
 - Change the transformed page's Status to `Published` in Notion (w/appropriate .env override)
 - Add a Katex interpreter for `expression`s?
