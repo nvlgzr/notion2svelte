@@ -32,7 +32,7 @@
 		object: 'page',
 		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
 		created_time: '2021-11-15T07:01:00.000Z',
-		last_edited_time: '2021-11-15T08:45:00.000Z',
+		last_edited_time: '2021-11-15T10:19:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -109,7 +109,7 @@
 		object: 'block',
 		id: '1f3a0c8b-028e-4c40-b049-283519c6cba4',
 		created_time: '2021-11-15T08:34:00.000Z',
-		last_edited_time: '2021-11-15T08:36:00.000Z',
+		last_edited_time: '2021-11-15T09:26:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -190,7 +190,7 @@
 		object: 'page',
 		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
 		created_time: '2021-11-15T07:01:00.000Z',
-		last_edited_time: '2021-11-15T08:45:00.000Z',
+		last_edited_time: '2021-11-15T10:19:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -267,7 +267,7 @@
 		object: 'block',
 		id: 'a72a51e3-a22f-4a1a-8268-d2dd51362d7a',
 		created_time: '2021-11-15T08:12:00.000Z',
-		last_edited_time: '2021-11-15T08:16:00.000Z',
+		last_edited_time: '2021-11-15T09:26:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'embed',
@@ -294,10 +294,9 @@
 			url: 'https://svelte.dev/repl/c1e8404607f549e68621a4f353a686d2?version=3.44.1'
 		}
 	}}
-	><Embed
-		url="https://svelte.dev/repl/c1e8404607f549e68621a4f353a686d2?version=3.44.1"
-		caption="undefined"
-	/></Magic
+	><Embed url="https://svelte.dev/repl/c1e8404607f549e68621a4f353a686d2?version=3.44.1"
+		>Ahhh…Svelte. What a beauty, eh?</Embed
+	></Magic
 >
 <br style="display:none;" />
 <Magic
@@ -305,126 +304,7 @@
 		object: 'page',
 		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
 		created_time: '2021-11-15T07:01:00.000Z',
-		last_edited_time: '2021-11-15T08:45:00.000Z',
-		cover: null,
-		icon: null,
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'embeds',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'embeds',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'Embeds',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'Embeds',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/Embeds-3eb9830ee68e4c5d81712b75660a2e34',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: 'a8972214-e303-405b-bec0-499b8e05e8c9',
-		created_time: '2021-11-15T08:36:00.000Z',
-		last_edited_time: '2021-11-15T08:36:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content:
-							'Gender dysphoria is discomfort, unhappiness or distress due to one\'s assigned sex. The current edition (DSM-5) of the Diagnostic and Statistical Manual of Mental Disorders uses the term "gender dysphoria" where it previously referred to "gender identity disorder", making it clear that they no longer consider the gender identity to be disordered, but rather the emotional state of distress which results from the gender identity.',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text:
-						'Gender dysphoria is discomfort, unhappiness or distress due to one\'s assigned sex. The current edition (DSM-5) of the Diagnostic and Statistical Manual of Mental Disorders uses the term "gender dysphoria" where it previously referred to "gender identity disorder", making it clear that they no longer consider the gender identity to be disordered, but rather the emotional state of distress which results from the gender identity.',
-					href: null
-				}
-			]
-		}
-	}}
-	><div>
-		Gender dysphoria is discomfort, unhappiness or distress due to one's assigned sex. The current
-		edition (DSM-5) of the Diagnostic and Statistical Manual of Mental Disorders uses the term
-		"gender dysphoria" where it previously referred to "gender identity disorder", making it clear
-		that they no longer consider the gender identity to be disordered, but rather the emotional
-		state of distress which results from the gender identity.
-	</div>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
-		created_time: '2021-11-15T07:01:00.000Z',
-		last_edited_time: '2021-11-15T08:45:00.000Z',
+		last_edited_time: '2021-11-15T10:19:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -501,7 +381,7 @@
 		object: 'block',
 		id: '8b3e0156-7464-43e6-a43d-02fd8e3646e2',
 		created_time: '2021-11-15T08:33:00.000Z',
-		last_edited_time: '2021-11-15T08:33:00.000Z',
+		last_edited_time: '2021-11-15T09:26:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'embed',
@@ -529,7 +409,12 @@
 			],
 			url: 'https://kwize.com/quote-of-the-day/embed/&txt=0'
 		}
-	}}><Embed url="https://kwize.com/quote-of-the-day/embed/&txt=0" caption="undefined" /></Magic
+	}}
+	><Embed url="https://kwize.com/quote-of-the-day/embed/&txt=0"
+		><MagicLink href="https://kwize.com/quote-of-the-day/embed/&txt=0"
+			>https://kwize.com/quote-of-the-day/embed/&txt=0</MagicLink
+		></Embed
+	></Magic
 >
 <br style="display:none;" />
 <Magic
@@ -537,7 +422,7 @@
 		object: 'page',
 		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
 		created_time: '2021-11-15T07:01:00.000Z',
-		last_edited_time: '2021-11-15T08:45:00.000Z',
+		last_edited_time: '2021-11-15T10:19:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -614,7 +499,7 @@
 		object: 'block',
 		id: 'd6f796dc-2644-48dc-99f0-4c75ac4eacce',
 		created_time: '2021-11-15T08:36:00.000Z',
-		last_edited_time: '2021-11-15T08:37:00.000Z',
+		last_edited_time: '2021-11-15T09:26:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -655,7 +540,7 @@
 		object: 'page',
 		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
 		created_time: '2021-11-15T07:01:00.000Z',
-		last_edited_time: '2021-11-15T08:45:00.000Z',
+		last_edited_time: '2021-11-15T10:19:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -732,7 +617,7 @@
 		object: 'block',
 		id: 'abc728c9-096e-45a6-ba89-bef307ef8d28',
 		created_time: '2021-11-15T08:33:00.000Z',
-		last_edited_time: '2021-11-15T08:33:00.000Z',
+		last_edited_time: '2021-11-15T09:26:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',

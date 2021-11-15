@@ -31,3 +31,4 @@ status: in progress, render: true
 - Implement `table_of_contents`?
 - Implement `breadcrumb`?
 - Implement `link_preview` (Not sure how to make one of these in Notion 😬)
+- Add support for auto-linking raw URLs
