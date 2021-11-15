@@ -50,7 +50,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -61,7 +61,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -245,7 +245,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -256,7 +256,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -460,7 +460,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -471,7 +471,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -756,7 +756,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -767,7 +767,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -1032,7 +1032,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -1043,7 +1043,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -1253,7 +1253,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -1264,7 +1264,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -1470,7 +1470,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -1481,7 +1481,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -1757,7 +1757,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -1768,7 +1768,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -1995,7 +1995,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -2006,7 +2006,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -2192,7 +2192,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -2203,7 +2203,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -2443,7 +2443,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -2454,7 +2454,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -2640,7 +2640,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -2651,7 +2651,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -2872,7 +2872,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -2883,7 +2883,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -3087,7 +3087,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -3098,7 +3098,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -3374,7 +3374,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -3385,7 +3385,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -3664,7 +3664,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -3675,7 +3675,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -3879,7 +3879,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -3890,7 +3890,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -4527,7 +4527,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -4538,7 +4538,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -4742,7 +4742,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -4753,7 +4753,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -5067,7 +5067,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -5078,7 +5078,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -5262,7 +5262,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -5273,7 +5273,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -5520,7 +5520,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -5531,7 +5531,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -5735,7 +5735,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -5746,7 +5746,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -6125,7 +6125,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -6136,7 +6136,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -6322,7 +6322,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -6333,7 +6333,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -6660,7 +6660,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -6671,7 +6671,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -6958,7 +6958,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -6969,7 +6969,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -7153,7 +7153,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -7164,7 +7164,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -7368,7 +7368,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -7379,7 +7379,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -7993,8 +7993,8 @@
 							],
 							type: 'file',
 							file: {
-								url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211115T214515Z&X-Amz-Expires=3600&X-Amz-Signature=c3cfec8c287eda0f59214286872dea4087c2342cb6d7a321fe088f5491829337&X-Amz-SignedHeaders=host',
-								expiry_time: '2021-11-15T22:45:15.817Z'
+								url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211115T214732Z&X-Amz-Expires=3600&X-Amz-Signature=6a28b042922f03d9dde6aab5c395a924f4abd1cb0a1ae210d4337d583a57fffa&X-Amz-SignedHeaders=host',
+								expiry_time: '2021-11-15T22:47:32.668Z'
 							}
 						}
 					}
@@ -8086,8 +8086,8 @@
 							],
 							type: 'file',
 							file: {
-								url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211115T214515Z&X-Amz-Expires=3600&X-Amz-Signature=debec46988ff08162083094b51679aefcfca6e3b9d0c3a7d7e068471fb22b692&X-Amz-SignedHeaders=host',
-								expiry_time: '2021-11-15T22:45:15.809Z'
+								url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211115T214732Z&X-Amz-Expires=3600&X-Amz-Signature=ede004e0e6af6b4f9af558127bf5c046504afb5d5ae684776d10a1b9171f2814&X-Amz-SignedHeaders=host',
+								expiry_time: '2021-11-15T22:47:32.759Z'
 							}
 						}
 					}
@@ -8107,7 +8107,7 @@
 				image sizing, fwiw.
 			</div>
 		</Column><Column
-			><Image url="/images/bells-and-whistles/c877cf0a-9681-4e15-a321-bdd5c5bfce1f.jpg"
+			><Image url="/images/kitchen-sink/c877cf0a-9681-4e15-a321-bdd5c5bfce1f.jpg"
 				>Captions, too, can include&thinsp;<em>italics</em>,&thinsp;<strong>bold</strong>,&thinsp;<s
 					>strikethrough</s
 				>,&thinsp;<InlineCode>code</InlineCode>,&thinsp;<InlineColor value="red"
@@ -8121,11 +8121,11 @@
 				></Image
 			>
 		</Column><Column
-			><Image url="/images/bells-and-whistles/2a886060-dcff-46f3-87a1-fa80ea583025.jpg"
+			><Image url="/images/kitchen-sink/2a886060-dcff-46f3-87a1-fa80ea583025.jpg"
 				>From unsplash</Image
 			>
 		</Column><Column
-			><Image url="/images/bells-and-whistles/655a2330-d9fa-427c-b592-152d547c94c5.jpg"
+			><Image url="/images/kitchen-sink/655a2330-d9fa-427c-b592-152d547c94c5.jpg"
 				>cresting orca</Image
 			>
 		</Column></ColumnList
@@ -8155,7 +8155,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -8166,7 +8166,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -8370,7 +8370,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -8381,7 +8381,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -8795,7 +8795,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -8806,7 +8806,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -9011,7 +9011,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -9022,7 +9022,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -9227,7 +9227,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -9238,7 +9238,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -9443,7 +9443,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -9454,7 +9454,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -9640,7 +9640,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -9651,7 +9651,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -9968,7 +9968,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -9979,7 +9979,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -10165,7 +10165,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -10176,7 +10176,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -10416,7 +10416,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -10427,7 +10427,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -10613,7 +10613,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -10624,7 +10624,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -10847,7 +10847,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -10858,7 +10858,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -11102,7 +11102,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -11113,7 +11113,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -11299,7 +11299,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -11310,7 +11310,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -11556,7 +11556,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -11567,7 +11567,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -11904,7 +11904,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -11915,7 +11915,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -12577,7 +12577,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -12588,7 +12588,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -12792,7 +12792,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -12803,7 +12803,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -12987,7 +12987,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -12998,7 +12998,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -13202,7 +13202,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -13213,7 +13213,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -13457,7 +13457,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -13468,7 +13468,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -13658,8 +13658,8 @@
 					],
 					type: 'file',
 					file: {
-						url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211115T214515Z&X-Amz-Expires=3600&X-Amz-Signature=0f448a771d802f4d593eab5284dd11de9ef0378f69b27822e25519cb8f442852&X-Amz-SignedHeaders=host',
-						expiry_time: '2021-11-15T22:45:15.579Z'
+						url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211115T214732Z&X-Amz-Expires=3600&X-Amz-Signature=35524a9acb112aea9bbcc85ea2d1b21566ac8f38d2be3e92dc2dc2d8c4116f13&X-Amz-SignedHeaders=host',
+						expiry_time: '2021-11-15T22:47:32.581Z'
 					}
 				}
 			},
@@ -13723,8 +13723,8 @@
 					],
 					type: 'file',
 					file: {
-						url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211115T214515Z&X-Amz-Expires=3600&X-Amz-Signature=126032e7f05ae0dd0c9e07fa2ddee866504a050cc45b1258d3c19d335feb8d80&X-Amz-SignedHeaders=host',
-						expiry_time: '2021-11-15T22:45:15.578Z'
+						url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211115T214732Z&X-Amz-Expires=3600&X-Amz-Signature=d4b6870108ab194725ade546a9527a26d0355254561e57bf1cee73647ad32cd5&X-Amz-SignedHeaders=host',
+						expiry_time: '2021-11-15T22:47:32.591Z'
 					}
 				}
 			},
@@ -13760,22 +13760,18 @@
 					],
 					type: 'file',
 					file: {
-						url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211115T214515Z&X-Amz-Expires=3600&X-Amz-Signature=126032e7f05ae0dd0c9e07fa2ddee866504a050cc45b1258d3c19d335feb8d80&X-Amz-SignedHeaders=host',
-						expiry_time: '2021-11-15T22:45:15.577Z'
+						url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211115T214732Z&X-Amz-Expires=3600&X-Amz-Signature=d4b6870108ab194725ade546a9527a26d0355254561e57bf1cee73647ad32cd5&X-Amz-SignedHeaders=host',
+						expiry_time: '2021-11-15T22:47:32.589Z'
 					}
 				}
 			}
 		]
 	}}
 	><ChildPage title="Images Sub-Page"
-		><Image url="/images/bells-and-whistles/f3cee0d8-b99c-4bb0-8004-ebf84e83c165.jpg"
-			>Obsolescence</Image
-		>
+		><Image url="/images/kitchen-sink/f3cee0d8-b99c-4bb0-8004-ebf84e83c165.jpg">Obsolescence</Image>
 		<div>↓ image block</div>
-		<Image url="/images/bells-and-whistles/e639ccd6-3a44-43cb-a020-b1bd52454a19.jpg"
-			>Aphid Caption</Image
-		>
-		<Image url="/images/bells-and-whistles/b27dd7c2-235a-482a-af83-80595baeebae.jpg"
+		<Image url="/images/kitchen-sink/e639ccd6-3a44-43cb-a020-b1bd52454a19.jpg">Aphid Caption</Image>
+		<Image url="/images/kitchen-sink/b27dd7c2-235a-482a-af83-80595baeebae.jpg"
 			>I'm guessing presentation sizing info isn't part of images. This one's identical to-, but
 			presented smaller than-, the first</Image
 		>
@@ -13805,7 +13801,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -13816,7 +13812,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -14020,7 +14016,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -14031,7 +14027,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -14224,7 +14220,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -14235,7 +14231,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -14439,7 +14435,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -14450,7 +14446,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -14634,7 +14630,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -14645,7 +14641,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -14849,7 +14845,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -14860,7 +14856,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -15184,7 +15180,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -15195,7 +15191,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -15379,7 +15375,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -15390,7 +15386,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -15594,7 +15590,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -15605,7 +15601,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -15884,7 +15880,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -15895,7 +15891,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -16088,7 +16084,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -16099,7 +16095,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -16303,7 +16299,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -16314,7 +16310,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -16630,7 +16626,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -16641,7 +16637,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
@@ -16845,7 +16841,7 @@
 					{
 						type: 'text',
 						text: {
-							content: 'bells-and-whistles',
+							content: 'kitchen-sink',
 							link: null
 						},
 						annotations: {
@@ -16856,7 +16852,7 @@
 							code: false,
 							color: 'default'
 						},
-						plain_text: 'bells-and-whistles',
+						plain_text: 'kitchen-sink',
 						href: null
 					}
 				]
