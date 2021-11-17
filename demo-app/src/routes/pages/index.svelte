@@ -8,6 +8,7 @@
 	import Column from '$lib/notion2svelte/Column.svelte';
 	import Divider from '$lib/notion2svelte/Divider.svelte';
 	import Embed from '$lib/notion2svelte/Embed.svelte';
+	import Header from '$lib/notion2svelte/Header.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
@@ -134,7 +135,7 @@
 			]
 		}
 	}}
-	><h1>"What am I looking at?"</h1>
+	><Header level="1">"What am I looking at?"</Header>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -218,7 +219,7 @@
 		object: 'block',
 		id: '7f6c24c0-dda1-4f00-96dd-4919541eb829',
 		created_time: '2021-11-15T10:51:00.000Z',
-		last_edited_time: '2021-11-15T10:56:00.000Z',
+		last_edited_time: '2021-11-17T03:58:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -227,7 +228,7 @@
 				{
 					type: 'text',
 					text: {
-						content: 'These are the demo pages for ',
+						content: 'These are demo pages for ',
 						link: null
 					},
 					annotations: {
@@ -238,7 +239,7 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'These are the demo pages for ',
+					plain_text: 'These are demo pages for ',
 					href: null
 				},
 				{
@@ -299,7 +300,7 @@
 				{
 					type: 'text',
 					text: {
-						content: ' lets you treat Notion as a ',
+						content: ' lets you treat Notion as sort of a CMS for your web site!',
 						link: null
 					},
 					annotations: {
@@ -310,52 +311,18 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: ' lets you treat Notion as a ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'sort',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: true,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'sort',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ' of CMS for your web site!',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ' of CMS for your web site!',
+					plain_text: ' lets you treat Notion as sort of a CMS for your web site!',
 					href: null
 				}
 			]
 		}
 	}}
 	><div>
-		These are the demo pages for&thinsp;<MagicLink href="https://github.com/nvlgzr/notion2svelte"
+		These are demo pages for&thinsp;<MagicLink href="https://github.com/nvlgzr/notion2svelte"
 			>@nvlgzr/notion2svelte</MagicLink
 		>, a command-line tool for transforming Notion pages into websites of arbitrary complexity. But
 		what does that mean, exactly? Well, at a basic level, it means that&thinsp;<em>notion2svelte</em
-		>&thinsp;lets you treat Notion as a&thinsp;<em>sort</em>&thinsp;of CMS for your web site!
+		>&thinsp;lets you treat Notion as sort of a CMS for your web site!
 	</div>
 </Magic>
 <br style="display:none;" />
@@ -532,7 +499,7 @@
 		object: 'block',
 		id: 'dc331323-bbc1-4741-9fc0-aad0e89eeb9b',
 		created_time: '2021-11-15T11:01:00.000Z',
-		last_edited_time: '2021-11-15T11:16:00.000Z',
+		last_edited_time: '2021-11-17T03:58:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'image',
@@ -541,7 +508,7 @@
 				{
 					type: 'text',
 					text: {
-						content: 'A gross over-simplification',
+						content: 'notion2svelte, grossly over-simplified',
 						link: null
 					},
 					annotations: {
@@ -552,19 +519,19 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'A gross over-simplification',
+					plain_text: 'notion2svelte, grossly over-simplified',
 					href: null
 				}
 			],
 			type: 'file',
 			file: {
-				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/48603e70-6ae6-4dd3-a047-51e131f83e57/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211116T040524Z&X-Amz-Expires=3600&X-Amz-Signature=23aeffe042cba1b406a89c3de19f125db2244617f14eb7824a538c9ca17a7128&X-Amz-SignedHeaders=host',
-				expiry_time: '2021-11-16T05:05:24.203Z'
+				url: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/48603e70-6ae6-4dd3-a047-51e131f83e57/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211117T052540Z&X-Amz-Expires=3600&X-Amz-Signature=05fd2b2736b67443efcfe2fa606752001dbf427f76be3c4730cfc62cb8e94bc7&X-Amz-SignedHeaders=host',
+				expiry_time: '2021-11-17T06:25:40.174Z'
 			}
 		}
 	}}
 	><Image url="/images/index/dc331323-bbc1-4741-9fc0-aad0e89eeb9b.png"
-		>A gross over-simplification</Image
+		>notion2svelte, grossly over-simplified</Image
 	>
 </Magic>
 <br style="display:none;" />
@@ -649,7 +616,7 @@
 		object: 'block',
 		id: '2ba94893-3640-4fba-95b7-7a16e1257134',
 		created_time: '2021-11-15T11:01:00.000Z',
-		last_edited_time: '2021-11-15T11:02:00.000Z',
+		last_edited_time: '2021-11-17T03:59:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'heading_2',
@@ -658,7 +625,7 @@
 				{
 					type: 'text',
 					text: {
-						content: 'What sorts of features are supported?',
+						content: 'What sorts of Notion features are supported?',
 						link: null
 					},
 					annotations: {
@@ -669,13 +636,13 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'What sorts of features are supported?',
+					plain_text: 'What sorts of Notion features are supported?',
 					href: null
 				}
 			]
 		}
 	}}
-	><h2>What sorts of features are supported?</h2>
+	><Header level="2">What sorts of Notion features are supported?</Header>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -779,7 +746,7 @@
 						object: 'block',
 						id: '700e5644-5a86-45cc-b7e8-c221e6240b5d',
 						created_time: '2021-11-15T11:02:00.000Z',
-						last_edited_time: '2021-11-15T11:04:00.000Z',
+						last_edited_time: '2021-11-17T04:00:00.000Z',
 						has_children: true,
 						archived: false,
 						type: 'bulleted_list_item',
@@ -806,7 +773,9 @@
 									type: 'text',
 									text: {
 										content: 'Block',
-										link: null
+										link: {
+											url: 'https://developers.notion.com/reference/block'
+										}
 									},
 									annotations: {
 										bold: true,
@@ -817,12 +786,31 @@
 										color: 'default'
 									},
 									plain_text: 'Block',
-									href: null
+									href: 'https://developers.notion.com/reference/block'
 								},
 								{
 									type: 'text',
 									text: {
-										content: ' types:',
+										content: ' types',
+										link: {
+											url: 'https://developers.notion.com/reference/block'
+										}
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: ' types',
+									href: 'https://developers.notion.com/reference/block'
+								},
+								{
+									type: 'text',
+									text: {
+										content: ':',
 										link: null
 									},
 									annotations: {
@@ -833,7 +821,7 @@
 										code: false,
 										color: 'default'
 									},
-									plain_text: ' types:',
+									plain_text: ':',
 									href: null
 								}
 							]
@@ -1097,7 +1085,7 @@
 						object: 'block',
 						id: '894f401b-327b-4bf8-a075-ba919239e5da',
 						created_time: '2021-11-15T11:04:00.000Z',
-						last_edited_time: '2021-11-15T11:58:00.000Z',
+						last_edited_time: '2021-11-17T04:02:00.000Z',
 						has_children: true,
 						archived: false,
 						type: 'bulleted_list_item',
@@ -1106,7 +1094,7 @@
 								{
 									type: 'text',
 									text: {
-										content: 'All ',
+										content: 'Most ',
 										link: null
 									},
 									annotations: {
@@ -1117,30 +1105,32 @@
 										code: false,
 										color: 'default'
 									},
-									plain_text: 'All ',
+									plain_text: 'Most ',
 									href: null
 								},
 								{
 									type: 'text',
 									text: {
-										content: 'Annotation',
-										link: null
+										content: 'Rich Text',
+										link: {
+											url: 'https://developers.notion.com/reference/rich-text'
+										}
 									},
 									annotations: {
-										bold: true,
+										bold: false,
 										italic: false,
 										strikethrough: false,
 										underline: false,
 										code: false,
 										color: 'default'
 									},
-									plain_text: 'Annotation',
-									href: null
+									plain_text: 'Rich Text',
+									href: 'https://developers.notion.com/reference/rich-text'
 								},
 								{
 									type: 'text',
 									text: {
-										content: ' types (aka styles):',
+										content: ' features:',
 										link: null
 									},
 									annotations: {
@@ -1151,7 +1141,7 @@
 										code: false,
 										color: 'default'
 									},
-									plain_text: ' types (aka styles):',
+									plain_text: ' features:',
 									href: null
 								}
 							]
@@ -1281,8 +1271,8 @@
 								object: 'block',
 								id: 'af4aadb0-a22d-4179-9ea6-cb18b7e46908',
 								created_time: '2021-11-15T11:04:00.000Z',
-								last_edited_time: '2021-11-15T11:58:00.000Z',
-								has_children: true,
+								last_edited_time: '2021-11-17T03:59:00.000Z',
+								has_children: false,
 								archived: false,
 								type: 'bulleted_list_item',
 								bulleted_list_item: {
@@ -1358,7 +1348,7 @@
 										{
 											type: 'text',
 											text: {
-												content: 'r',
+												content: 'r ',
 												link: null
 											},
 											annotations: {
@@ -1369,168 +1359,153 @@
 												code: false,
 												color: 'blue'
 											},
+											plain_text: 'r ',
+											href: null
+										},
+										{
+											type: 'text',
+											text: {
+												content: '(Including background ',
+												link: null
+											},
+											annotations: {
+												bold: false,
+												italic: false,
+												strikethrough: false,
+												underline: false,
+												code: false,
+												color: 'default'
+											},
+											plain_text: '(Including background ',
+											href: null
+										},
+										{
+											type: 'text',
+											text: {
+												content: 'c',
+												link: null
+											},
+											annotations: {
+												bold: true,
+												italic: false,
+												strikethrough: false,
+												underline: false,
+												code: false,
+												color: 'green_background'
+											},
+											plain_text: 'c',
+											href: null
+										},
+										{
+											type: 'text',
+											text: {
+												content: 'o',
+												link: null
+											},
+											annotations: {
+												bold: true,
+												italic: false,
+												strikethrough: false,
+												underline: false,
+												code: false,
+												color: 'orange_background'
+											},
+											plain_text: 'o',
+											href: null
+										},
+										{
+											type: 'text',
+											text: {
+												content: 'l',
+												link: null
+											},
+											annotations: {
+												bold: true,
+												italic: false,
+												strikethrough: false,
+												underline: false,
+												code: false,
+												color: 'pink_background'
+											},
+											plain_text: 'l',
+											href: null
+										},
+										{
+											type: 'text',
+											text: {
+												content: 'o',
+												link: null
+											},
+											annotations: {
+												bold: true,
+												italic: false,
+												strikethrough: false,
+												underline: false,
+												code: false,
+												color: 'purple_background'
+											},
+											plain_text: 'o',
+											href: null
+										},
+										{
+											type: 'text',
+											text: {
+												content: 'r',
+												link: null
+											},
+											annotations: {
+												bold: true,
+												italic: false,
+												strikethrough: false,
+												underline: false,
+												code: false,
+												color: 'blue_background'
+											},
 											plain_text: 'r',
+											href: null
+										},
+										{
+											type: 'text',
+											text: {
+												content: 's',
+												link: null
+											},
+											annotations: {
+												bold: true,
+												italic: false,
+												strikethrough: false,
+												underline: false,
+												code: false,
+												color: 'brown_background'
+											},
+											plain_text: 's',
+											href: null
+										},
+										{
+											type: 'text',
+											text: {
+												content: ')',
+												link: null
+											},
+											annotations: {
+												bold: false,
+												italic: false,
+												strikethrough: false,
+												underline: false,
+												code: false,
+												color: 'default'
+											},
+											plain_text: ')',
 											href: null
 										}
 									]
-								},
-								blocks: [
-									{
-										object: 'block',
-										id: '795f6a66-a89d-4a17-9106-3cdf0d0a5aa2',
-										created_time: '2021-11-15T11:58:00.000Z',
-										last_edited_time: '2021-11-15T11:58:00.000Z',
-										has_children: false,
-										archived: false,
-										type: 'paragraph',
-										paragraph: {
-											text: [
-												{
-													type: 'text',
-													text: {
-														content: '(Including background ',
-														link: null
-													},
-													annotations: {
-														bold: false,
-														italic: false,
-														strikethrough: false,
-														underline: false,
-														code: false,
-														color: 'default'
-													},
-													plain_text: '(Including background ',
-													href: null
-												},
-												{
-													type: 'text',
-													text: {
-														content: 'c',
-														link: null
-													},
-													annotations: {
-														bold: true,
-														italic: false,
-														strikethrough: false,
-														underline: false,
-														code: false,
-														color: 'green_background'
-													},
-													plain_text: 'c',
-													href: null
-												},
-												{
-													type: 'text',
-													text: {
-														content: 'o',
-														link: null
-													},
-													annotations: {
-														bold: true,
-														italic: false,
-														strikethrough: false,
-														underline: false,
-														code: false,
-														color: 'orange_background'
-													},
-													plain_text: 'o',
-													href: null
-												},
-												{
-													type: 'text',
-													text: {
-														content: 'l',
-														link: null
-													},
-													annotations: {
-														bold: true,
-														italic: false,
-														strikethrough: false,
-														underline: false,
-														code: false,
-														color: 'pink_background'
-													},
-													plain_text: 'l',
-													href: null
-												},
-												{
-													type: 'text',
-													text: {
-														content: 'o',
-														link: null
-													},
-													annotations: {
-														bold: true,
-														italic: false,
-														strikethrough: false,
-														underline: false,
-														code: false,
-														color: 'purple_background'
-													},
-													plain_text: 'o',
-													href: null
-												},
-												{
-													type: 'text',
-													text: {
-														content: 'r',
-														link: null
-													},
-													annotations: {
-														bold: true,
-														italic: false,
-														strikethrough: false,
-														underline: false,
-														code: false,
-														color: 'blue_background'
-													},
-													plain_text: 'r',
-													href: null
-												},
-												{
-													type: 'text',
-													text: {
-														content: 's',
-														link: null
-													},
-													annotations: {
-														bold: true,
-														italic: false,
-														strikethrough: false,
-														underline: false,
-														code: false,
-														color: 'brown_background'
-													},
-													plain_text: 's',
-													href: null
-												},
-												{
-													type: 'text',
-													text: {
-														content: ')',
-														link: null
-													},
-													annotations: {
-														bold: false,
-														italic: false,
-														strikethrough: false,
-														underline: false,
-														code: false,
-														color: 'default'
-													},
-													plain_text: ')',
-													href: null
-												}
-											]
-										}
-									}
-								]
+								}
 							},
 							{
 								object: 'block',
 								id: '11358ab6-2357-488f-b7e3-fce7cf59debb',
 								created_time: '2021-11-15T11:04:00.000Z',
-								last_edited_time: '2021-11-15T11:07:00.000Z',
+								last_edited_time: '2021-11-17T03:59:00.000Z',
 								has_children: false,
 								archived: false,
 								type: 'bulleted_list_item',
@@ -1558,39 +1533,9 @@
 							},
 							{
 								object: 'block',
-								id: '316a7ac4-daca-4040-8043-ff85228ac520',
-								created_time: '2021-11-15T11:07:00.000Z',
-								last_edited_time: '2021-11-15T11:07:00.000Z',
-								has_children: false,
-								archived: false,
-								type: 'paragraph',
-								paragraph: {
-									text: [
-										{
-											type: 'text',
-											text: {
-												content: 'and',
-												link: null
-											},
-											annotations: {
-												bold: false,
-												italic: false,
-												strikethrough: false,
-												underline: false,
-												code: false,
-												color: 'default'
-											},
-											plain_text: 'and',
-											href: null
-										}
-									]
-								}
-							},
-							{
-								object: 'block',
 								id: '882e71e5-5bdc-4d6f-9941-652d8346748c',
 								created_time: '2021-11-15T11:04:00.000Z',
-								last_edited_time: '2021-11-15T11:20:00.000Z',
+								last_edited_time: '2021-11-17T04:03:00.000Z',
 								has_children: false,
 								archived: false,
 								type: 'bulleted_list_item',
@@ -1650,6 +1595,23 @@
 											},
 											plain_text: 'internal links',
 											href: '/00ab16ed9990405bad93af936fbebdce'
+										},
+										{
+											type: 'text',
+											text: {
+												content: '**',
+												link: null
+											},
+											annotations: {
+												bold: false,
+												italic: false,
+												strikethrough: false,
+												underline: false,
+												code: false,
+												color: 'default'
+											},
+											plain_text: '**',
+											href: null
 										}
 									]
 								}
@@ -1662,7 +1624,12 @@
 	}}
 	><ColumnList cols={2}
 		><Column
-			><BulletedListItem>These major&thinsp;<strong>Block</strong>&thinsp;types:</BulletedListItem>
+			><BulletedListItem
+				>These major&thinsp;<MagicLink href="https://developers.notion.com/reference/block"
+					><strong>Block</strong></MagicLink
+				><MagicLink href="https://developers.notion.com/reference/block">&thinsp;types</MagicLink
+				>:</BulletedListItem
+			>
 			<IndentGroup>
 				<BulletedListItem>paragraph</BulletedListItem>
 				<BulletedListItem>bulleted_list_item</BulletedListItem>
@@ -1675,7 +1642,9 @@
 			</IndentGroup>
 		</Column><Column
 			><BulletedListItem
-				>All&thinsp;<strong>Annotation</strong>&thinsp;types (aka styles):</BulletedListItem
+				>Most&thinsp;<MagicLink href="https://developers.notion.com/reference/rich-text"
+					>Rich Text</MagicLink
+				>&thinsp;features:</BulletedListItem
 			>
 			<IndentGroup>
 				<BulletedListItem><strong>bold</strong></BulletedListItem>
@@ -1687,26 +1656,20 @@
 				<BulletedListItem
 					><InlineColor value="red">C</InlineColor><InlineColor value="orange">o</InlineColor
 					><InlineColor value="yellow">l</InlineColor><InlineColor value="green">o</InlineColor
-					><InlineColor value="blue">r</InlineColor></BulletedListItem
+					><InlineColor value="blue">r&thinsp;</InlineColor>(Including background&thinsp;<InlineColor
+						value="green_background"><strong>c</strong></InlineColor
+					><InlineColor value="orange_background"><strong>o</strong></InlineColor><InlineColor
+						value="pink_background"><strong>l</strong></InlineColor
+					><InlineColor value="purple_background"><strong>o</strong></InlineColor><InlineColor
+						value="blue_background"><strong>r</strong></InlineColor
+					><InlineColor value="brown_background"><strong>s</strong></InlineColor>)</BulletedListItem
 				>
-				<IndentGroup>
-					<div>
-						(Including background&thinsp;<InlineColor value="green_background"
-							><strong>c</strong></InlineColor
-						><InlineColor value="orange_background"><strong>o</strong></InlineColor><InlineColor
-							value="pink_background"><strong>l</strong></InlineColor
-						><InlineColor value="purple_background"><strong>o</strong></InlineColor><InlineColor
-							value="blue_background"><strong>r</strong></InlineColor
-						><InlineColor value="brown_background"><strong>s</strong></InlineColor>)
-					</div>
-				</IndentGroup>
 				<BulletedListItem><InlineCode>code</InlineCode></BulletedListItem>
-				<div>and</div>
 				<BulletedListItem
 					><MagicLink
 						href="https://waitbutwhy.com/2014/06/taming-mammoth-let-peoples-opinions-run-life.html"
 						>external</MagicLink
-					>&thinsp;&&thinsp;<a href="links-and-sub_pages">internal links</a></BulletedListItem
+					>&thinsp;&&thinsp;<a href="links-and-sub_pages">internal links</a>**</BulletedListItem
 				>
 			</IndentGroup>
 		</Column></ColumnList
@@ -1943,6 +1906,565 @@
 	}}
 	block={{
 		object: 'block',
+		id: '758a4224-f90e-4b68-b8f0-c2875bc85427',
+		created_time: '2021-11-17T04:03:00.000Z',
+		last_edited_time: '2021-11-17T04:03:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: []
+		}
+	}}
+	><div />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '230bc242-d407-4cec-badd-f05692c4048d',
+		created_time: '2021-11-17T04:03:00.000Z',
+		last_edited_time: '2021-11-17T04:06:00.000Z',
+		has_children: true,
+		archived: false,
+		type: 'callout',
+		callout: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: '*See the ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: '*See the ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'Child Page',
+						link: null
+					},
+					annotations: {
+						bold: true,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Child Page',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content:
+							' section below to see the wacky thing I decided to have them do for this demo.',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						' section below to see the wacky thing I decided to have them do for this demo.',
+					href: null
+				}
+			],
+			icon: {
+				type: 'emoji',
+				emoji: '✳️'
+			}
+		},
+		blocks: [
+			{
+				object: 'block',
+				id: '4190ab7e-78f8-4aba-bfb8-8ad4cab6b7da',
+				created_time: '2021-11-17T04:04:00.000Z',
+				last_edited_time: '2021-11-17T04:11:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'paragraph',
+				paragraph: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content:
+									'**Page mentions within the same database should work automatically when published to the same notion2svelte output directory. Other than that, notion2svelte currently has limited support for mentions. Is that a deal-breaker for you? Hit me up on the GitHub D!',
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text:
+								'**Page mentions within the same database should work automatically when published to the same notion2svelte output directory. Other than that, notion2svelte currently has limited support for mentions. Is that a deal-breaker for you? Hit me up on the GitHub D!',
+							href: null
+						}
+					]
+				}
+			}
+		]
+	}}
+	><Callout emoji="✳️"
+		>*See the&thinsp;<strong>Child Page</strong>&thinsp;section below to see the wacky thing I
+		decided to have them do for this demo.<span slot="children"
+			><div>
+				**Page mentions within the same database should work automatically when published to the
+				same notion2svelte output directory. Other than that, notion2svelte currently has limited
+				support for mentions. Is that a deal-breaker for you? Hit me up on the GitHub D!
+			</div>
+		</span></Callout
+	></Magic
+>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '394a1a8a-6710-4c74-8b8b-ec6de5a84049',
+		created_time: '2021-11-17T04:03:00.000Z',
+		last_edited_time: '2021-11-17T04:03:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: []
+		}
+	}}
+	><div />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'ca0ca0b6-6eb3-44f3-a503-fe2401a1f4f8',
+		created_time: '2021-11-17T04:03:00.000Z',
+		last_edited_time: '2021-11-17T04:03:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'divider',
+		divider: {}
+	}}
+	><Divider />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '98d345c8-4d35-4636-a21e-bad59404fc70',
+		created_time: '2021-11-17T04:03:00.000Z',
+		last_edited_time: '2021-11-17T04:03:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: []
+		}
+	}}
+	><div />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
 		id: '155057d1-07a3-471a-b7ed-fab6fb166353',
 		created_time: '2021-11-15T23:11:00.000Z',
 		last_edited_time: '2021-11-15T23:12:00.000Z',
@@ -2003,7 +2525,7 @@
 	}}
 	><Callout emoji="🌟"
 		><span slot="children"
-			><h1>But wait, there's more!</h1>
+			><Header level="1">But wait, there's more!</Header>
 			<div />
 		</span></Callout
 	></Magic
@@ -2089,8 +2611,100 @@
 	block={{
 		object: 'block',
 		id: '89085547-1e11-455e-9e01-2cb451a6592a',
+		created_time: '2021-11-17T04:13:00.000Z',
+		last_edited_time: '2021-11-17T04:13:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: []
+		}
+	}}
+	><div />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '40a80ce4-69f1-48d0-a5f3-e3c86842ab76',
 		created_time: '2021-11-15T11:16:00.000Z',
-		last_edited_time: '2021-11-15T11:23:00.000Z',
+		last_edited_time: '2021-11-17T04:13:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -2425,675 +3039,9 @@
 	}}
 	block={{
 		object: 'block',
-		id: '21af8422-ae20-40d4-8236-3bc33dc8fa76',
-		created_time: '2021-11-15T23:12:00.000Z',
-		last_edited_time: '2021-11-15T23:12:00.000Z',
-		has_children: true,
-		archived: false,
-		type: 'callout',
-		callout: {
-			text: [],
-			icon: {
-				type: 'emoji',
-				emoji: '🤯'
-			}
-		},
-		blocks: [
-			{
-				object: 'block',
-				id: '2dc25b7b-91ae-4246-bb4f-63c188b94429',
-				created_time: '2021-11-15T23:12:00.000Z',
-				last_edited_time: '2021-11-15T23:12:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'heading_1',
-				heading_1: {
-					text: [
-						{
-							type: 'text',
-							text: {
-								content: "Wait, what? There's more?",
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text: "Wait, what? There's more?",
-							href: null
-						}
-					]
-				}
-			},
-			{
-				object: 'block',
-				id: '167c8ed4-9789-4621-bcfa-abbe19489a06',
-				created_time: '2021-11-15T23:12:00.000Z',
-				last_edited_time: '2021-11-15T23:12:00.000Z',
-				has_children: false,
-				archived: false,
-				type: 'paragraph',
-				paragraph: {
-					text: []
-				}
-			}
-		]
-	}}
-	><Callout emoji="🤯"
-		><span slot="children"
-			><h1>Wait, what? There's more?</h1>
-			<div />
-		</span></Callout
-	></Magic
->
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
-		created_time: '2021-11-09T21:40:00.000Z',
-		cover: null,
-		icon: null,
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'index',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'index',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'This is notion2svelte',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'This is notion2svelte',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '9763591e-ba97-4668-ab86-80fccf4b0036',
-		created_time: '2021-11-15T11:23:00.000Z',
-		last_edited_time: '2021-11-15T11:24:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'heading_3',
-		heading_3: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: 'Yep!',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'Yep!',
-					href: null
-				}
-			]
-		}
-	}}
-	><h3>Yep!</h3>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
-		created_time: '2021-11-09T21:40:00.000Z',
-		cover: null,
-		icon: null,
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'index',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'index',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'This is notion2svelte',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'This is notion2svelte',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '6b40a63e-547c-4262-affe-dc63b2087b35',
-		created_time: '2021-11-15T11:24:00.000Z',
-		last_edited_time: '2021-11-15T11:27:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: 'Since ',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'Since ',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: 'notion2svelte',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: true,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'notion2svelte',
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content:
-							" lets you† create your own components and styles, the sky's the limit to the customizations you can make to your site. Put things where you want. Make them behave how you want. All while leveraging Notion's delightful writing experience for content creation.",
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text:
-						" lets you† create your own components and styles, the sky's the limit to the customizations you can make to your site. Put things where you want. Make them behave how you want. All while leveraging Notion's delightful writing experience for content creation.",
-					href: null
-				}
-			]
-		}
-	}}
-	><div>
-		Since&thinsp;<em>notion2svelte</em>&thinsp;lets you† create your own components and styles, the
-		sky's the limit to the customizations you can make to your site. Put things where you want. Make
-		them behave how you want. All while leveraging Notion's delightful writing experience for
-		content creation.
-	</div>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
-		created_time: '2021-11-09T21:40:00.000Z',
-		cover: null,
-		icon: null,
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'index',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'index',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'This is notion2svelte',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'This is notion2svelte',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '08bb40c8-d417-470c-ad08-14e5dc0a9d28',
-		created_time: '2021-11-15T11:28:00.000Z',
-		last_edited_time: '2021-11-15T11:30:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content:
-							"Since that's kinda abstract, I've added a handful of arbitrary customizations to ",
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text:
-						"Since that's kinda abstract, I've added a handful of arbitrary customizations to ",
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: "notion2svelte's",
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: true,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: "notion2svelte's",
-					href: null
-				},
-				{
-					type: 'text',
-					text: {
-						content: ' otherwise-hastily-implemented design.',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: ' otherwise-hastily-implemented design.',
-					href: null
-				}
-			]
-		}
-	}}
-	><div>
-		Since that's kinda abstract, I've added a handful of arbitrary customizations to&thinsp;<em
-			>notion2svelte's</em
-		>&thinsp;otherwise-hastily-implemented design.
-	</div>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
-		created_time: '2021-11-09T21:40:00.000Z',
-		cover: null,
-		icon: null,
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'index',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'index',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'This is notion2svelte',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'This is notion2svelte',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: 'ff6cd1f1-4e9f-4528-a97c-56bc7dea8e84',
-		created_time: '2021-11-15T11:30:00.000Z',
-		last_edited_time: '2021-11-15T11:30:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'paragraph',
-		paragraph: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: 'To see what I mean, check out…',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'To see what I mean, check out…',
-					href: null
-				}
-			]
-		}
-	}}
-	><div>To see what I mean, check out…</div>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
-		created_time: '2021-11-09T21:40:00.000Z',
-		cover: null,
-		icon: null,
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'index',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'index',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'This is notion2svelte',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'This is notion2svelte',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '26436380-b9e0-4fd9-b0b4-3fb829faeab6',
-		created_time: '2021-11-15T11:37:00.000Z',
-		last_edited_time: '2021-11-15T11:37:00.000Z',
+		id: '7ccb4516-a9d5-4d17-8b9b-7101a2dccf51',
+		created_time: '2021-11-17T04:13:00.000Z',
+		last_edited_time: '2021-11-17T04:13:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -3183,37 +3131,15 @@
 	}}
 	block={{
 		object: 'block',
-		id: '2cff855b-d3df-4b8d-b012-223b2c919f81',
-		created_time: '2021-11-15T11:30:00.000Z',
-		last_edited_time: '2021-11-15T11:37:00.000Z',
+		id: '09544107-9191-4911-95f9-36afffff0ed7',
+		created_time: '2021-11-17T04:13:00.000Z',
+		last_edited_time: '2021-11-17T04:13:00.000Z',
 		has_children: false,
 		archived: false,
-		type: 'bulleted_list_item',
-		bulleted_list_item: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: 'Color-changing callouts',
-						link: {
-							url: '/97c150a64f394fd5b10b8e8cc0d2ec82'
-						}
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'Color-changing callouts',
-					href: '/97c150a64f394fd5b10b8e8cc0d2ec82'
-				}
-			]
-		}
+		type: 'divider',
+		divider: {}
 	}}
-	><BulletedListItem><a href="callouts">Color-changing callouts</a></BulletedListItem>
+	><Divider />
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -3295,37 +3221,17 @@
 	}}
 	block={{
 		object: 'block',
-		id: '9060670d-9828-49ab-b1f2-a1b34c5cbb2f',
-		created_time: '2021-11-15T11:31:00.000Z',
-		last_edited_time: '2021-11-15T23:51:00.000Z',
+		id: 'ce590e6e-2867-4478-93c2-a878d822f2d0',
+		created_time: '2021-11-17T04:13:00.000Z',
+		last_edited_time: '2021-11-17T04:13:00.000Z',
 		has_children: false,
 		archived: false,
-		type: 'bulleted_list_item',
-		bulleted_list_item: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: 'Animate your cover art',
-						link: {
-							url: '/8eb305de5ebe43a480cb0ec7c9df5ab7'
-						}
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'Animate your cover art',
-					href: '/8eb305de5ebe43a480cb0ec7c9df5ab7'
-				}
-			]
+		type: 'paragraph',
+		paragraph: {
+			text: []
 		}
 	}}
-	><BulletedListItem><a href="cover-only">Animate your cover art</a></BulletedListItem>
+	><div />
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -3407,161 +3313,71 @@
 	}}
 	block={{
 		object: 'block',
-		id: '1904638b-69bf-47e2-8217-331f462581d3',
-		created_time: '2021-11-15T11:34:00.000Z',
-		last_edited_time: '2021-11-15T11:37:00.000Z',
-		has_children: false,
-		archived: false,
-		type: 'bulleted_list_item',
-		bulleted_list_item: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: 'Custom navigation (see bottom of each demo page)',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'Custom navigation (see bottom of each demo page)',
-					href: null
-				}
-			]
-		}
-	}}
-	><BulletedListItem>Custom navigation (see bottom of each demo page)</BulletedListItem>
-</Magic>
-<br style="display:none;" />
-<Magic
-	page={{
-		object: 'page',
-		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
-		created_time: '2021-11-09T21:40:00.000Z',
-		cover: null,
-		icon: null,
-		parent: {
-			type: 'database_id',
-			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
-		},
-		archived: false,
-		properties: {
-			Slug: {
-				id: 'Yj%3E%3C',
-				type: 'rich_text',
-				rich_text: [
-					{
-						type: 'text',
-						text: {
-							content: 'index',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'index',
-						href: null
-					}
-				]
-			},
-			Status: {
-				id: 'Yyjg',
-				type: 'select',
-				select: {
-					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
-					name: 'Publish me!',
-					color: 'pink'
-				}
-			},
-			URL: {
-				id: 'lKGS',
-				type: 'url',
-				url: null
-			},
-			Title: {
-				id: 'title',
-				type: 'title',
-				title: [
-					{
-						type: 'text',
-						text: {
-							content: 'This is notion2svelte',
-							link: null
-						},
-						annotations: {
-							bold: false,
-							italic: false,
-							strikethrough: false,
-							underline: false,
-							code: false,
-							color: 'default'
-						},
-						plain_text: 'This is notion2svelte',
-						href: null
-					}
-				]
-			}
-		},
-		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
-		blocks: []
-	}}
-	block={{
-		object: 'block',
-		id: '0e8a3608-50f4-44e8-a75b-1ab094e9c5b8',
-		created_time: '2021-11-15T11:36:00.000Z',
-		last_edited_time: '2021-11-15T11:37:00.000Z',
+		id: '21af8422-ae20-40d4-8236-3bc33dc8fa76',
+		created_time: '2021-11-15T23:12:00.000Z',
+		last_edited_time: '2021-11-17T05:07:00.000Z',
 		has_children: true,
 		archived: false,
-		type: 'bulleted_list_item',
-		bulleted_list_item: {
-			text: [
-				{
-					type: 'text',
-					text: {
-						content: 'and even custom dividers like this one ↓',
-						link: null
-					},
-					annotations: {
-						bold: false,
-						italic: false,
-						strikethrough: false,
-						underline: false,
-						code: false,
-						color: 'default'
-					},
-					plain_text: 'and even custom dividers like this one ↓',
-					href: null
-				}
-			]
+		type: 'callout',
+		callout: {
+			text: [],
+			icon: {
+				type: 'emoji',
+				emoji: '🤯'
+			}
 		},
 		blocks: [
 			{
 				object: 'block',
-				id: '94145b36-c3d9-480b-a359-f8c3ac46a08a',
-				created_time: '2021-11-15T11:36:00.000Z',
-				last_edited_time: '2021-11-15T11:36:00.000Z',
+				id: '2dc25b7b-91ae-4246-bb4f-63c188b94429',
+				created_time: '2021-11-15T23:12:00.000Z',
+				last_edited_time: '2021-11-17T04:22:00.000Z',
 				has_children: false,
 				archived: false,
-				type: 'divider',
-				divider: {}
+				type: 'heading_1',
+				heading_1: {
+					text: [
+						{
+							type: 'text',
+							text: {
+								content: "Wait, what? There's more?",
+								link: null
+							},
+							annotations: {
+								bold: false,
+								italic: false,
+								strikethrough: false,
+								underline: false,
+								code: false,
+								color: 'default'
+							},
+							plain_text: "Wait, what? There's more?",
+							href: null
+						}
+					]
+				}
+			},
+			{
+				object: 'block',
+				id: '167c8ed4-9789-4621-bcfa-abbe19489a06',
+				created_time: '2021-11-15T23:12:00.000Z',
+				last_edited_time: '2021-11-17T04:22:00.000Z',
+				has_children: false,
+				archived: false,
+				type: 'paragraph',
+				paragraph: {
+					text: []
+				}
 			}
 		]
 	}}
-	><BulletedListItem>and even custom dividers like this one ↓</BulletedListItem>
-	<IndentGroup>
-		<Divider />
-	</IndentGroup>
-</Magic>
+	><Callout emoji="🤯"
+		><span slot="children"
+			><Header level="1">Wait, what? There's more?</Header>
+			<div />
+		</span></Callout
+	></Magic
+>
 <br style="display:none;" />
 <Magic
 	page={{
@@ -3642,19 +3458,19 @@
 	}}
 	block={{
 		object: 'block',
-		id: '474730f5-767a-475a-acb3-663a5abbd115',
-		created_time: '2021-11-15T11:30:00.000Z',
-		last_edited_time: '2021-11-15T23:13:00.000Z',
+		id: '0501ac34-9168-4489-b6a2-3d76c63c668c',
+		created_time: '2021-11-17T05:07:00.000Z',
+		last_edited_time: '2021-11-17T05:08:00.000Z',
 		has_children: false,
 		archived: false,
-		type: 'bulleted_list_item',
-		bulleted_list_item: {
+		type: 'callout',
+		callout: {
 			text: [
 				{
 					type: 'text',
 					text: {
 						content:
-							'Lastly, if you want to see all the crazy things in a single chaotic document, you ',
+							'wf: replace standard HTML tags with custom components, then define the Standard Component Interface to replace Magic and (MagicLink?)',
 						link: null
 					},
 					annotations: {
@@ -3666,32 +3482,875 @@
 						color: 'default'
 					},
 					plain_text:
-						'Lastly, if you want to see all the crazy things in a single chaotic document, you ',
+						'wf: replace standard HTML tags with custom components, then define the Standard Component Interface to replace Magic and (MagicLink?)',
+					href: null
+				}
+			],
+			icon: {
+				type: 'emoji',
+				emoji: '🙄'
+			}
+		}
+	}}
+	><Callout emoji="🙄"
+		>wf: replace standard HTML tags with custom components, then define the Standard Component
+		Interface to replace Magic and (MagicLink?)</Callout
+	></Magic
+>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '9763591e-ba97-4668-ab86-80fccf4b0036',
+		created_time: '2021-11-15T11:23:00.000Z',
+		last_edited_time: '2021-11-17T05:07:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'heading_2',
+		heading_2: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: '&lt;Enthusiastic answer="yes" />',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: '&lt;Enthusiastic answer="yes" />',
+					href: null
+				}
+			]
+		}
+	}}
+	><Header level="2"><s>&lt;Enthusiastic answer="yes" /></s></Header>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '6b40a63e-547c-4262-affe-dc63b2087b35',
+		created_time: '2021-11-15T11:24:00.000Z',
+		last_edited_time: '2021-11-17T05:07:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content:
+							"The sky's the limit to the customizations you can make to your site! Put things where you want. Make them behave how you want. All while leveraging Notion's delightful writing experience for content creation.",
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						"The sky's the limit to the customizations you can make to your site! Put things where you want. Make them behave how you want. All while leveraging Notion's delightful writing experience for content creation.",
+					href: null
+				}
+			]
+		}
+	}}
+	><div>
+		<s
+			>The sky's the limit to the customizations you can make to your site! Put things where you
+			want. Make them behave how you want. All while leveraging Notion's delightful writing
+			experience for content creation.</s
+		>
+	</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '72f5dfa5-4856-4922-9076-512e8a739f88',
+		created_time: '2021-11-17T04:19:00.000Z',
+		last_edited_time: '2021-11-17T05:07:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'notion2svelte',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'notion2svelte',
 					href: null
 				},
 				{
 					type: 'text',
 					text: {
-						content: 'can',
-						link: {
-							url: '/6bca4379f36245a690cfd35beebba87a'
-						}
+						content:
+							' lets you customize every component that it spits out. For example, this very paragraph is represented in the ',
+						link: null
 					},
 					annotations: {
 						bold: false,
 						italic: false,
-						strikethrough: false,
+						strikethrough: true,
 						underline: false,
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'can',
-					href: '/6bca4379f36245a690cfd35beebba87a'
+					plain_text:
+						' lets you customize every component that it spits out. For example, this very paragraph is represented in the ',
+					href: null
 				},
 				{
 					type: 'text',
 					text: {
-						content: '.',
+						content: '.svelte',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: '.svelte',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ' output thus:',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ' output thus:',
+					href: null
+				}
+			]
+		}
+	}}
+	><div>
+		<s><em>notion2svelte</em></s><s
+			>&thinsp;lets you customize every component that it spits out. For example, this very
+			paragraph is represented in the&thinsp;</s
+		><s><em>.svelte</em></s><s>&thinsp;output thus:</s>
+	</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '074aa906-d679-4cbb-9d98-8fb908c6a004',
+		created_time: '2021-11-17T04:52:00.000Z',
+		last_edited_time: '2021-11-17T05:07:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'code',
+		code: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: '<Paragraph>\n  <em>',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: '<Paragraph>\n  <em>',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'notion2svelte</em>',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'notion2svelte</em>',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content:
+							' lets you customize every component that it spits out. For example, this very paragraph is represented in the ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						' lets you customize every component that it spits out. For example, this very paragraph is represented in the ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: '.svelte',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: '.svelte',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ' output thus:\n</Paragraph>',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ' output thus:\n</Paragraph>',
+					href: null
+				}
+			],
+			language: 'html'
+		}
+	}}>code</Magic
+>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '4695f78e-de30-4fe3-96ce-166705b7bf4c',
+		created_time: '2021-11-17T04:23:00.000Z',
+		last_edited_time: '2021-11-17T05:07:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Your site-wide styles will determine the behavior of the ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Your site-wide styles will determine the behavior of the ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'italicized',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'italicized',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content:
+							' text. Meanwhile, you can implement in &ltParagraph>, whether just an empty pair of ',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						' text. Meanwhile, you can implement in &ltParagraph>, whether just an empty pair of ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'div',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: true,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: 'div',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 's, or something fancy and interactive.',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 's, or something fancy and interactive.',
+					href: null
+				}
+			]
+		}
+	}}
+	><div>
+		<s>Your site-wide styles will determine the behavior of the&thinsp;</s><s><em>italicized</em></s
+		><s
+			>&thinsp;text. Meanwhile, you can implement in &ltParagraph>, whether just an empty pair
+			of&thinsp;</s
+		><InlineCode><s>div</s></InlineCode><s>s, or something fancy and interactive.</s>
+	</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'b1a897e5-004a-4f06-acb8-0430da4dbecc',
+		created_time: '2021-11-17T04:23:00.000Z',
+		last_edited_time: '2021-11-17T04:32:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'heading_2',
+		heading_2: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Custom Components ',
 						link: null
 					},
 					annotations: {
@@ -3702,17 +4361,1627 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: '.',
+					plain_text: 'Custom Components ',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'notion2svelte',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'notion2svelte',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ' Creates',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ' Creates',
 					href: null
 				}
 			]
 		}
 	}}
-	><BulletedListItem
-		>Lastly, if you want to see all the crazy things in a single chaotic document, you&thinsp;<a
-			href="kitchen-sink">can</a
-		>.</BulletedListItem
-	>
+	><Header level="2">Custom Components&thinsp;<em>notion2svelte</em>&thinsp;Creates</Header>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'eaba3b6f-47e0-43be-8f94-5fe1e67f7c71',
+		created_time: '2021-11-17T04:30:00.000Z',
+		last_edited_time: '2021-11-17T04:41:00.000Z',
+		has_children: true,
+		archived: false,
+		type: 'column_list',
+		column_list: {},
+		blocks: [
+			{
+				object: 'block',
+				id: '0732204b-6c10-49aa-994d-e10bbfb4c96e',
+				created_time: '2021-11-17T04:30:00.000Z',
+				last_edited_time: '2021-11-17T04:41:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'column',
+				column: {},
+				blocks: [
+					{
+						object: 'block',
+						id: 'c33f7056-14a9-4333-bd3c-8097b68b3f26',
+						created_time: '2021-11-17T04:40:00.000Z',
+						last_edited_time: '2021-11-17T04:40:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'paragraph',
+						paragraph: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Blocks',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Blocks',
+									href: null
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: '64c1fb46-388b-47c5-b14d-858d33be88db',
+						created_time: '2021-11-17T04:23:00.000Z',
+						last_edited_time: '2021-11-17T04:40:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'BulletedListItem',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'BulletedListItem',
+									href: null
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: '1aa8c190-7e0b-47f9-94c2-4baca034f693',
+						created_time: '2021-11-17T04:24:00.000Z',
+						last_edited_time: '2021-11-17T04:32:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Callout',
+										link: {
+											url: '/97c150a64f394fd5b10b8e8cc0d2ec82'
+										}
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Callout',
+									href: '/97c150a64f394fd5b10b8e8cc0d2ec82'
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: '98a112e8-1b44-4677-be12-47f64c157d7b',
+						created_time: '2021-11-17T04:24:00.000Z',
+						last_edited_time: '2021-11-17T04:41:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Cover',
+										link: {
+											url: '/ddc1044bb9464de889f5ec771d11276e'
+										}
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Cover',
+									href: '/ddc1044bb9464de889f5ec771d11276e'
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: 'faf049fb-93df-4899-90ab-180acc75cd97',
+						created_time: '2021-11-17T04:24:00.000Z',
+						last_edited_time: '2021-11-17T04:41:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Divider',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Divider',
+									href: null
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: '2b68c0b7-7ff5-419e-9e0e-d80c830a3043',
+						created_time: '2021-11-17T04:24:00.000Z',
+						last_edited_time: '2021-11-17T04:42:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Embed',
+										link: {
+											url: '/3eb9830ee68e4c5d81712b75660a2e34'
+										}
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Embed',
+									href: '/3eb9830ee68e4c5d81712b75660a2e34'
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: '77fd9a63-7058-4c79-81b1-40a5eade7612',
+						created_time: '2021-11-17T04:24:00.000Z',
+						last_edited_time: '2021-11-17T04:42:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Equation',
+										link: {
+											url: '/83792b449a184037ae2415bc07543054'
+										}
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Equation',
+									href: '/83792b449a184037ae2415bc07543054'
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: 'fb45328b-4f85-44fe-b612-0b128642f0a2',
+						created_time: '2021-11-17T04:25:00.000Z',
+						last_edited_time: '2021-11-17T04:42:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Image',
+										link: {
+											url: '/2000dfbb5b5a435cb32d9009c7466476'
+										}
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Image',
+									href: '/2000dfbb5b5a435cb32d9009c7466476'
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: '3f995591-44bf-4c38-83fe-99d3c7d003ff',
+						created_time: '2021-11-17T04:27:00.000Z',
+						last_edited_time: '2021-11-17T04:41:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'InlineCode',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'InlineCode',
+									href: null
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: '3597402a-9557-4208-9741-04a86080cf3e',
+						created_time: '2021-11-17T04:27:00.000Z',
+						last_edited_time: '2021-11-17T04:43:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'InlineColor',
+										link: {
+											url: '/cd0fd95d9c9042319368379d2e911479'
+										}
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'InlineColor',
+									href: '/cd0fd95d9c9042319368379d2e911479'
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: 'af153056-03aa-4c69-8d7a-bb53db993c41',
+						created_time: '2021-11-17T04:28:00.000Z',
+						last_edited_time: '2021-11-17T04:43:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'NumberedListItem',
+										link: {
+											url: '/35b38be7359d47c793b3f6ce9098176c'
+										}
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'NumberedListItem',
+									href: '/35b38be7359d47c793b3f6ce9098176c'
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: '4b0460be-cce8-4ba8-afdd-1a5b7efcd7c8',
+						created_time: '2021-11-17T04:29:00.000Z',
+						last_edited_time: '2021-11-17T04:43:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Quote',
+										link: {
+											url: '/b03746aad83a4564b879b7a5dda81159'
+										}
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Quote',
+									href: '/b03746aad83a4564b879b7a5dda81159'
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: '51c965bc-df76-4a6a-8883-305ebd9c0930',
+						created_time: '2021-11-17T04:29:00.000Z',
+						last_edited_time: '2021-11-17T04:41:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Title',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Title',
+									href: null
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: 'e933eb49-98e8-4117-a2b4-f9d6c7cb3493',
+						created_time: '2021-11-17T04:29:00.000Z',
+						last_edited_time: '2021-11-17T04:41:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'TodoItem',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'TodoItem',
+									href: null
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: '9aa20a5d-0cfb-4198-b556-618021772459',
+						created_time: '2021-11-17T04:29:00.000Z',
+						last_edited_time: '2021-11-17T04:41:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Toggle',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Toggle',
+									href: null
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				object: 'block',
+				id: '146b07e2-5b97-4595-a7a1-d06044311f47',
+				created_time: '2021-11-17T04:30:00.000Z',
+				last_edited_time: '2021-11-17T04:46:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'column',
+				column: {},
+				blocks: [
+					{
+						object: 'block',
+						id: '7d6faf97-edaf-4918-933b-169984d08ed0',
+						created_time: '2021-11-17T04:39:00.000Z',
+						last_edited_time: '2021-11-17T04:39:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'paragraph',
+						paragraph: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Layout',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Layout',
+									href: null
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: 'bb631180-2850-4a59-a148-42cb1d7bd961',
+						created_time: '2021-11-17T04:27:00.000Z',
+						last_edited_time: '2021-11-17T04:42:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'IndentGroup',
+										link: {
+											url: '/ad21e02ef80844e594d65719dd58e27b'
+										}
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'IndentGroup',
+									href: '/ad21e02ef80844e594d65719dd58e27b'
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: '8d99f3f3-3e92-4bb2-b3bf-8376aac384fd',
+						created_time: '2021-11-17T04:24:00.000Z',
+						last_edited_time: '2021-11-17T04:41:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Column',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Column',
+									href: null
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: '0c5a17c5-8e92-4413-a940-185dcdac99c5',
+						created_time: '2021-11-17T04:24:00.000Z',
+						last_edited_time: '2021-11-17T04:41:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'ColumnList',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'ColumnList',
+									href: null
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				object: 'block',
+				id: 'c39201b4-0aa4-40cc-b7c7-7e3bea4be57d',
+				created_time: '2021-11-17T04:41:00.000Z',
+				last_edited_time: '2021-11-17T04:46:00.000Z',
+				has_children: true,
+				archived: false,
+				type: 'column',
+				column: {},
+				blocks: [
+					{
+						object: 'block',
+						id: '1619a825-1279-4666-be72-c37c1a55887d',
+						created_time: '2021-11-17T04:40:00.000Z',
+						last_edited_time: '2021-11-17T04:41:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'paragraph',
+						paragraph: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'Special Mention',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'Special Mention',
+									href: null
+								}
+							]
+						}
+					},
+					{
+						object: 'block',
+						id: 'bbbd29c6-49e6-4b5d-bce0-b337e08b6e56',
+						created_time: '2021-11-17T04:24:00.000Z',
+						last_edited_time: '2021-11-17T04:41:00.000Z',
+						has_children: false,
+						archived: false,
+						type: 'bulleted_list_item',
+						bulleted_list_item: {
+							text: [
+								{
+									type: 'text',
+									text: {
+										content: 'ChildPage',
+										link: null
+									},
+									annotations: {
+										bold: false,
+										italic: false,
+										strikethrough: false,
+										underline: false,
+										code: false,
+										color: 'default'
+									},
+									plain_text: 'ChildPage',
+									href: null
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}}
+	><ColumnList cols={3}
+		><Column
+			><div>Blocks</div>
+			<BulletedListItem>BulletedListItem</BulletedListItem>
+			<BulletedListItem><a href="callouts">Callout</a></BulletedListItem>
+			<BulletedListItem><a href="cover">Cover</a></BulletedListItem>
+			<BulletedListItem>Divider</BulletedListItem>
+			<BulletedListItem><a href="embeds">Embed</a></BulletedListItem>
+			<BulletedListItem><a href="equations">Equation</a></BulletedListItem>
+			<BulletedListItem><a href="image-saving">Image</a></BulletedListItem>
+			<BulletedListItem>InlineCode</BulletedListItem>
+			<BulletedListItem><a href="color">InlineColor</a></BulletedListItem>
+			<BulletedListItem><a href="numbered">NumberedListItem</a></BulletedListItem>
+			<BulletedListItem><a href="quotes">Quote</a></BulletedListItem>
+			<BulletedListItem>Title</BulletedListItem>
+			<BulletedListItem>TodoItem</BulletedListItem>
+			<BulletedListItem>Toggle</BulletedListItem>
+		</Column><Column
+			><div>Layout</div>
+			<BulletedListItem><a href="nested">IndentGroup</a></BulletedListItem>
+			<BulletedListItem>Column</BulletedListItem>
+			<BulletedListItem>ColumnList</BulletedListItem>
+		</Column><Column
+			><div>Special Mention</div>
+			<BulletedListItem>ChildPage</BulletedListItem>
+		</Column></ColumnList
+	></Magic
+>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'b5e3aabf-b340-4308-8c03-b1f18553409b',
+		created_time: '2021-11-17T04:39:00.000Z',
+		last_edited_time: '2021-11-17T04:49:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content:
+							"The reason these Notion block types don't get converted into standard HTML tags is that I didn't know of a good fit off the top of my head. Also…it's such a joy styling elements with Svelte's scoped CSS that I've half a mind to render ",
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text:
+						"The reason these Notion block types don't get converted into standard HTML tags is that I didn't know of a good fit off the top of my head. Also…it's such a joy styling elements with Svelte's scoped CSS that I've half a mind to render ",
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'all',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: true,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'all',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: ' blocks as components, doing away with the standard tags altogether. This',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: true,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: ' blocks as components, doing away with the standard tags altogether. This',
+					href: null
+				}
+			]
+		}
+	}}
+	><div>
+		<s
+			>The reason these Notion block types don't get converted into standard HTML tags is that I
+			didn't know of a good fit off the top of my head. Also…it's such a joy styling elements with
+			Svelte's scoped CSS that I've half a mind to render&thinsp;</s
+		><s><em>all</em></s><s
+			>&thinsp;blocks as components, doing away with the standard tags altogether. This</s
+		>
+	</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'bfe97211-0d5e-460f-bd83-1df4cc656493',
+		created_time: '2021-11-17T04:38:00.000Z',
+		last_edited_time: '2021-11-17T04:39:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'heading_3',
+		heading_3: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Child Pages',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Child Pages',
+					href: null
+				}
+			]
+		}
+	}}
+	><Header level="3">Child Pages</Header>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'a0a156d0-0dcc-4733-85e3-7998c0273e25',
+		created_time: '2021-11-17T04:39:00.000Z',
+		last_edited_time: '2021-11-17T04:39:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: []
+		}
+	}}
+	><div />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '836d7de6-b6a9-4123-a0e0-612b8260cd9d',
+		created_time: '2021-11-17T04:38:00.000Z',
+		last_edited_time: '2021-11-17T04:39:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: "↑ There's a child page right here in the Notion source. ",
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: "↑ There's a child page right here in the Notion source. ",
+					href: null
+				}
+			]
+		}
+	}}
+	><div>↑ There's a child page right here in the Notion source.&thinsp;</div>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'dccbd38c-5035-4b00-b559-840cc2d7662d',
+		created_time: '2021-11-17T04:38:00.000Z',
+		last_edited_time: '2021-11-17T04:38:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'paragraph',
+		paragraph: {
+			text: []
+		}
+	}}
+	><div />
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '75f78e04-aa4d-425c-950f-82e816ca8620',
+		created_time: '2021-11-17T04:28:00.000Z',
+		last_edited_time: '2021-11-17T04:39:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'bulleted_list_item',
+		bulleted_list_item: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'Magic',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'Magic',
+					href: null
+				}
+			]
+		}
+	}}
+	><BulletedListItem>Magic</BulletedListItem>
+</Magic>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '2c97ea2f-4abe-4fcb-80ed-0e478560ab04',
+		created_time: '2021-11-09T21:40:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'index',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'index',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'This is notion2svelte',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'This is notion2svelte',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/This-is-notion2svelte-2c97ea2f4abe4fcb80ed0e478560ab04',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: '48cd1f9d-983f-4585-8ed7-629f860b7a7f',
+		created_time: '2021-11-17T04:28:00.000Z',
+		last_edited_time: '2021-11-17T04:39:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'bulleted_list_item',
+		bulleted_list_item: {
+			text: [
+				{
+					type: 'text',
+					text: {
+						content: 'MagicLink',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: false,
+						color: 'default'
+					},
+					plain_text: 'MagicLink',
+					href: null
+				}
+			]
+		}
+	}}
+	><BulletedListItem>MagicLink</BulletedListItem>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -3796,7 +6065,7 @@
 		object: 'block',
 		id: '11a793cd-b4b4-428d-8d12-c323a685e7d4',
 		created_time: '2021-11-15T23:15:00.000Z',
-		last_edited_time: '2021-11-15T23:16:00.000Z',
+		last_edited_time: '2021-11-17T04:15:00.000Z',
 		has_children: true,
 		archived: false,
 		type: 'callout',
@@ -3804,7 +6073,7 @@
 			text: [],
 			icon: {
 				type: 'emoji',
-				emoji: '🤔'
+				emoji: '🙄'
 			}
 		},
 		blocks: [
@@ -3812,7 +6081,7 @@
 				object: 'block',
 				id: '66744765-4834-4198-b924-4a7441b1a743',
 				created_time: '2021-11-15T23:15:00.000Z',
-				last_edited_time: '2021-11-15T23:15:00.000Z',
+				last_edited_time: '2021-11-17T04:15:00.000Z',
 				has_children: false,
 				archived: false,
 				type: 'heading_1',
@@ -3821,7 +6090,7 @@
 						{
 							type: 'text',
 							text: {
-								content: '"Lastly," huh? You sure this isn\'t one of those Steve Jobs ',
+								content: "Let me guess. There's more.",
 								link: null
 							},
 							annotations: {
@@ -3832,41 +6101,7 @@
 								code: false,
 								color: 'default'
 							},
-							plain_text: '"Lastly," huh? You sure this isn\'t one of those Steve Jobs ',
-							href: null
-						},
-						{
-							type: 'text',
-							text: {
-								content: 'one more thing',
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: true,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text: 'one more thing',
-							href: null
-						},
-						{
-							type: 'text',
-							text: {
-								content: ' scenarios?',
-								link: null
-							},
-							annotations: {
-								bold: false,
-								italic: false,
-								strikethrough: false,
-								underline: false,
-								code: false,
-								color: 'default'
-							},
-							plain_text: ' scenarios?',
+							plain_text: "Let me guess. There's more.",
 							href: null
 						}
 					]
@@ -3886,12 +6121,9 @@
 			}
 		]
 	}}
-	><Callout emoji="🤔"
+	><Callout emoji="🙄"
 		><span slot="children"
-			><h1>
-				"Lastly," huh? You sure this isn't one of those Steve Jobs&thinsp;<em>one more thing</em
-				>&thinsp;scenarios?
-			</h1>
+			><Header level="1">Let me guess. There's more.</Header>
 			<div />
 		</span></Callout
 	></Magic
@@ -4116,7 +6348,7 @@
 			]
 		}
 	}}
-	><h3>Magic</h3>
+	><Header level="3">Magic</Header>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -4200,7 +6432,7 @@
 		object: 'block',
 		id: '810c3f08-d2fa-4ac1-b3c5-e64b6c1902f7',
 		created_time: '2021-11-15T11:39:00.000Z',
-		last_edited_time: '2021-11-15T12:07:00.000Z',
+		last_edited_time: '2021-11-17T04:17:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -4243,7 +6475,7 @@
 				{
 					type: 'text',
 					text: {
-						content: '&lt;Magic>',
+						content: '&lt;',
 						link: null
 					},
 					annotations: {
@@ -4254,7 +6486,24 @@
 						code: true,
 						color: 'default'
 					},
-					plain_text: '&lt;Magic>',
+					plain_text: '&lt;',
+					href: null
+				},
+				{
+					type: 'text',
+					text: {
+						content: 'Magic>',
+						link: null
+					},
+					annotations: {
+						bold: false,
+						italic: false,
+						strikethrough: false,
+						underline: false,
+						code: true,
+						color: 'default'
+					},
+					plain_text: 'Magic>',
 					href: null
 				},
 				{
@@ -4280,10 +6529,10 @@
 		}
 	}}
 	><div>
-		<em>notion2svelte</em>&thinsp;wraps every block in a&thinsp;<InlineCode>&lt;Magic></InlineCode
-		>&thinsp;component and passes it the associated JSON for both the page and the block. I plan to
-		use it to attach a feedback UX to every published block, but this demo shows something slightly
-		less ambitious.
+		<em>notion2svelte</em>&thinsp;wraps every block in a&thinsp;<InlineCode>&lt;</InlineCode
+		><InlineCode>Magic></InlineCode>&thinsp;component and passes it the associated JSON for both the
+		page and the block. I plan to use it to attach a feedback UX to every published block, but this
+		demo shows something slightly less ambitious.
 	</div>
 </Magic>
 <br style="display:none;" />
@@ -4546,7 +6795,7 @@
 			]
 		}
 	}}
-	><h3>Magic Links</h3>
+	><Header level="3">Magic Links</Header>
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -5062,7 +7311,7 @@
 			text: []
 		}
 	}}
-	><h1 />
+	><Header level="1" />
 </Magic>
 <br style="display:none;" />
 <Magic
@@ -5172,7 +7421,7 @@
 			]
 		}
 	}}
-	><h1>What's next?</h1>
+	><Header level="1">What's next?</Header>
 </Magic>
 <br style="display:none;" />
 <Magic
