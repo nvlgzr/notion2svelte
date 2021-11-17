@@ -4,11 +4,15 @@
 	import BulletedListItem from '$lib/notion2svelte/BulletedListItem.svelte';
 	import Callout from '$lib/notion2svelte/Callout.svelte';
 	import ChildPage from '$lib/notion2svelte/ChildPage.svelte';
+	import ColumnList from '$lib/notion2svelte/ColumnList.svelte';
+	import Column from '$lib/notion2svelte/Column.svelte';
 	import Divider from '$lib/notion2svelte/Divider.svelte';
+	import Embed from '$lib/notion2svelte/Embed.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
+	import Equation from '$lib/notion2svelte/Equation.svelte';
 	import Magic from '$lib/notion2svelte/Magic.svelte';
 	import MagicLink from '$lib/notion2svelte/MagicLink.svelte';
 	import NumberedListItem from '$lib/notion2svelte/NumberedListItem.svelte';
@@ -20,7 +24,7 @@
 <svelte:head>
 	<title>Numbering (Shallow)</title>
 </svelte:head>
-undefined
+
 <Title>Numbering (Shallow)</Title>
 
 <Magic
@@ -28,7 +32,6 @@ undefined
 		object: 'page',
 		id: '9540300e-200c-410b-8a7f-ae42f1768781',
 		created_time: '2021-09-26T06:38:00.000Z',
-		last_edited_time: '2021-11-12T21:02:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -440,7 +443,6 @@ undefined
 		object: 'page',
 		id: '9540300e-200c-410b-8a7f-ae42f1768781',
 		created_time: '2021-09-26T06:38:00.000Z',
-		last_edited_time: '2021-11-12T21:02:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -674,7 +676,6 @@ undefined
 		object: 'page',
 		id: '9540300e-200c-410b-8a7f-ae42f1768781',
 		created_time: '2021-09-26T06:38:00.000Z',
-		last_edited_time: '2021-11-12T21:02:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -804,7 +805,6 @@ undefined
 		object: 'page',
 		id: '9540300e-200c-410b-8a7f-ae42f1768781',
 		created_time: '2021-09-26T06:38:00.000Z',
-		last_edited_time: '2021-11-12T21:02:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {

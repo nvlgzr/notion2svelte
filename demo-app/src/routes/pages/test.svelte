@@ -1,5 +1,7 @@
 <svelte:head>
-  <title>Equations, rendered by katex</title>
+  <title>The Kitchen Sink
+
+𒅒 (🧪Test Page)</title>
 </svelte:head>      <script>
         import Cover from "$lib/notion2svelte/Cover.svelte"
         import Title from "$lib/notion2svelte/Title.svelte"
@@ -9,6 +11,7 @@
         import ColumnList from "$lib/notion2svelte/ColumnList.svelte"
         import Column from "$lib/notion2svelte/Column.svelte"
         import Divider from "$lib/notion2svelte/Divider.svelte"
+        import Embed from "$lib/notion2svelte/Embed.svelte"
         import Image from "$lib/notion2svelte/Image.svelte"
         import IndentGroup from "$lib/notion2svelte/IndentGroup.svelte"
         import InlineCode from "$lib/notion2svelte/InlineCode.svelte"
@@ -21,19 +24,23 @@
         import TodoItem from "$lib/notion2svelte/TodoItem.svelte"
         import Toggle from "$lib/notion2svelte/Toggle.svelte"
       </script>
-        
-  <Title>Equations, rendered by katex</Title>
+        <Cover coverURL={""} iconEmojiOrURL={"🚰"} />
+  <Title>The Kitchen Sink
+
+𒅒 (🧪Test Page)</Title>
 
 
 
 
   <Magic page={{
   "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
   "cover": null,
-  "icon": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
   "parent": {
     "type": "database_id",
     "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
@@ -47,7 +54,7 @@
         {
           "type": "text",
           "text": {
-            "content": "equations",
+            "content": "kitchen-sink",
             "link": null
           },
           "annotations": {
@@ -58,7 +65,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "equations",
+          "plain_text": "kitchen-sink",
           "href": null
         }
       ]
@@ -84,7 +91,58 @@
         {
           "type": "text",
           "text": {
-            "content": "Equations, rendered by ",
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
             "link": null
           },
           "annotations": {
@@ -95,13 +153,30 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Equations, rendered by ",
+          "plain_text": "𒅒 (🧪",
           "href": null
         },
         {
           "type": "text",
           "text": {
-            "content": "katex",
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
             "link": null
           },
           "annotations": {
@@ -109,22 +184,197 @@
             "italic": false,
             "strikethrough": false,
             "underline": false,
-            "code": true,
+            "code": false,
             "color": "default"
           },
-          "plain_text": "katex",
+          "plain_text": " Page)",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
   "blocks": []
 }} block={{
   "object": "block",
-  "id": "8d981066-899d-49e0-9b23-31f8b7f5ddff",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T09:58:00.000Z",
+  "id": "8d749953-c2f4-4314-be4b-8b9d68b4b69c",
+  "created_time": "2021-11-01T03:00:00.000Z",
+  "last_edited_time": "2021-11-01T03:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "divider",
+  "divider": {}
+}}><Divider />
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "1aca2b38-169f-412f-93d6-81dd6b59b19b",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T22:42:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "heading_1",
@@ -133,7 +383,7 @@
       {
         "type": "text",
         "text": {
-          "content": "Inline",
+          "content": "Lorem Penguin",
           "link": null
         },
         "annotations": {
@@ -144,21 +394,23 @@
           "code": false,
           "color": "default"
         },
-        "plain_text": "Inline",
+        "plain_text": "Lorem Penguin",
         "href": null
       }
     ]
   }
-}}><h1>Inline</h1>
+}}><h1>Lorem Penguin</h1>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
   "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
   "cover": null,
-  "icon": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
   "parent": {
     "type": "database_id",
     "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
@@ -172,7 +424,7 @@
         {
           "type": "text",
           "text": {
-            "content": "equations",
+            "content": "kitchen-sink",
             "link": null
           },
           "annotations": {
@@ -183,7 +435,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "equations",
+          "plain_text": "kitchen-sink",
           "href": null
         }
       ]
@@ -209,7 +461,58 @@
         {
           "type": "text",
           "text": {
-            "content": "Equations, rendered by ",
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
             "link": null
           },
           "annotations": {
@@ -220,13 +523,30 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Equations, rendered by ",
+          "plain_text": "𒅒 (🧪",
           "href": null
         },
         {
           "type": "text",
           "text": {
-            "content": "katex",
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
             "link": null
           },
           "annotations": {
@@ -234,22 +554,291 @@
             "italic": false,
             "strikethrough": false,
             "underline": false,
-            "code": true,
+            "code": false,
             "color": "default"
           },
-          "plain_text": "katex",
+          "plain_text": " Page)",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
   "blocks": []
 }} block={{
   "object": "block",
-  "id": "9022e93d-63df-46ed-9a79-c0354105b740",
-  "created_time": "2021-11-13T09:57:00.000Z",
-  "last_edited_time": "2021-11-13T10:33:00.000Z",
+  "id": "f862ec49-86ca-440d-9c96-abbf21a79225",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T22:43:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "callout",
+  "callout": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "In case you're curious…",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "In case you're curious…",
+        "href": null
+      }
+    ],
+    "icon": {
+      "type": "emoji",
+      "emoji": "💡"
+    }
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "4078c58c-2aa3-4f80-91ee-e4937b301f3a",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-11-12T22:44:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "…the text below about penguins come from ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "…the text below about penguins come from ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "https://www.boom-online.co.uk/lorem-ipsum/##results",
+              "link": {
+                "url": "https://www.boom-online.co.uk/lorem-ipsum/##results"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://www.boom-online.co.uk/lorem-ipsum/##results",
+            "href": "https://www.boom-online.co.uk/lorem-ipsum/##results"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      }
+    }
+  ]
+}}><Callout emoji="💡">In case you're curious…<span slot="children"><div>
+…the text below about penguins come from&thinsp;<MagicLink href='https://www.boom-online.co.uk/lorem-ipsum/##results'>https://www.boom-online.co.uk/lorem-ipsum/##results</MagicLink>.
+</div>
+</span></Callout></Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "86ab1425-3931-44bd-b010-3a75422b75fc",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T22:45:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -258,60 +847,7 @@
       {
         "type": "text",
         "text": {
-          "content": "In ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "In ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "physics",
-          "link": {
-            "url": "https://en.wikipedia.org/wiki/Physics"
-          }
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "physics",
-        "href": "https://en.wikipedia.org/wiki/Physics"
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ", ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ", ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "mass–energy equivalence",
+          "content": "Perhaps one in 50,000 penguins",
           "link": null
         },
         "annotations": {
@@ -322,13 +858,13 @@
           "code": false,
           "color": "default"
         },
-        "plain_text": "mass–energy equivalence",
+        "plain_text": "Perhaps one in 50,000 penguins",
         "href": null
       },
       {
         "type": "text",
         "text": {
-          "content": " is the relationship between ",
+          "content": " (of most species) are born with brown rather than black plumage. These are called ",
           "link": null
         },
         "annotations": {
@@ -339,15 +875,5146 @@
           "code": false,
           "color": "default"
         },
-        "plain_text": " is the relationship between ",
+        "plain_text": " (of most species) are born with brown rather than black plumage. These are called ",
         "href": null
       },
       {
         "type": "text",
         "text": {
-          "content": "mass",
+          "content": "isabelline",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "isabelline",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " penguins. Isabellinism is different from albinism. Isabelline penguins tend to live shorter lives than normal penguins, as they are not well-camouflaged against the deep and are often passed over as mates.",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " penguins. Isabellinism is different from albinism. Isabelline penguins tend to live shorter lives than normal penguins, as they are not well-camouflaged against the deep and are often passed over as mates.",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+<strong>Perhaps one in 50,000 penguins</strong>&thinsp;(of most species) are born with brown rather than black plumage. These are called&thinsp;<em>isabelline</em>&thinsp;penguins. Isabellinism is different from albinism. Isabelline penguins tend to live shorter lives than normal penguins, as they are not well-camouflaged against the deep and are often passed over as mates.
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "debc298d-8fb5-4c7f-8a00-41d84d48ae5f",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-09-20T10:05:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Although almost all penguin species are native to the Southern Hemisphere, they are not found only in cold climates, such as Antarctica. In fact, only a few species of penguin actually live so far south. Several species live in the temperate zone;",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Although almost all penguin species are native to the Southern Hemisphere, they are not found only in cold climates, such as Antarctica. In fact, only a few species of penguin actually live so far south. Several species live in the temperate zone;",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+Although almost all penguin species are native to the Southern Hemisphere, they are not found only in cold climates, such as Antarctica. In fact, only a few species of penguin actually live so far south. Several species live in the temperate zone;
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "db39727b-1057-4eeb-8a47-6a6f3a9b7bfd",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-09-20T10:05:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Several authors have suggested that penguins are a good example of Bergmann's Rule",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Several authors have suggested that penguins are a good example of Bergmann's Rule",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+Several authors have suggested that penguins are a good example of Bergmann's Rule
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "e666a879-0009-46d0-bc59-ffe677b18963",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T22:46:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Major populations of penguins are found in ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Major populations of penguins are found in ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "Angola, Antarctica, Argentina, Australia, Chile, Namibia, New Zealand",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Angola, Antarctica, Argentina, Australia, Chile, Namibia, New Zealand",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ", and ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ", and ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "South Africa",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "South Africa",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ".",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ".",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+Major populations of penguins are found in&thinsp;<em>Angola, Antarctica, Argentina, Australia, Chile, Namibia, New Zealand</em>, and&thinsp;<em>South Africa</em>.
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "32fa47dc-5a9e-4aeb-b3e0-1142530e3556",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T22:46:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Penguins for the most part breed in large colonies",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Penguins for the most part breed in large colonies",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ", the exceptions being the yellow-eyed and Fiordland species; these colonies may range in size from as few as 100 pairs for gentoo penguins to several hundred thousand in the case of king, macaroni and chinstrap penguins.",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ", the exceptions being the yellow-eyed and Fiordland species; these colonies may range in size from as few as 100 pairs for gentoo penguins to several hundred thousand in the case of king, macaroni and chinstrap penguins.",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+Penguins for the most part breed in large colonies, the exceptions being the yellow-eyed and Fiordland species; these colonies may range in size from as few as 100 pairs for gentoo penguins to several hundred thousand in the case of king, macaroni and chinstrap penguins.
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "cdd23b0b-e9c9-4f78-b181-0bee34b0ef63",
+  "created_time": "2021-11-12T22:46:00.000Z",
+  "last_edited_time": "2021-11-12T22:46:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": []
+  }
+}}><div>
+
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "3841a8c9-c256-449b-b81d-d2b65c92f924",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-13T00:01:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "But enough about penguins. What about ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "But enough about penguins. What about ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "notion2svelte",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "notion2svelte",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "?!",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "?!",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+But enough about penguins. What about&thinsp;<em>notion2svelte</em>?!
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "c9a068a5-08d8-4164-929f-81ecbe2567db",
+  "created_time": "2021-11-13T00:01:00.000Z",
+  "last_edited_time": "2021-11-13T00:01:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": []
+  }
+}}><div>
+
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "fbb57766-562c-4c5d-afd2-29a59d7b7212",
+  "created_time": "2021-11-12T22:47:00.000Z",
+  "last_edited_time": "2021-11-12T23:05:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_1",
+  "heading_1": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Supported in ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Supported in ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "notion2svelte",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "notion2svelte",
+        "href": null
+      }
+    ]
+  }
+}}><h1>Supported in&thinsp;<em>notion2svelte</em></h1>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "97388197-9215-4ddf-a1be-af2958edfaeb",
+  "created_time": "2021-11-12T22:59:00.000Z",
+  "last_edited_time": "2021-11-12T23:00:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Headers size 1 are, obviously, fine ↑. Ditto for H2s ↓ and H3s ↓↓.",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Headers size 1 are, obviously, fine ↑. Ditto for H2s ↓ and H3s ↓↓.",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+Headers size 1 are, obviously, fine ↑. Ditto for H2s ↓ and H3s ↓↓.
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "ee893b7b-3b01-48e0-a2e0-0f18c3aa50af",
+  "created_time": "2021-11-12T22:53:00.000Z",
+  "last_edited_time": "2021-11-12T23:06:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_2",
+  "heading_2": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Demo ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Demo ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "H2",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "pink_background"
+        },
+        "plain_text": "H2",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "with",
+          "link": null
+        },
+        "annotations": {
+          "bold": true,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "purple"
+        },
+        "plain_text": "with",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " formatting",
+          "link": null
+        },
+        "annotations": {
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " formatting",
+        "href": null
+      }
+    ]
+  }
+}}><h2>Demo&thinsp;<InlineColor value='pink_background'>H2</InlineColor>&thinsp;<InlineColor value='purple'><em><strong>with</strong></em></InlineColor><strong>&thinsp;formatting</strong></h2>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "04aadeb3-9691-4a34-a97f-47da50ee8ef3",
+  "created_time": "2021-11-12T23:07:00.000Z",
+  "last_edited_time": "2021-11-12T23:09:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "It's interesting to note that, while Notion doesn't ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "It's interesting to note that, while Notion doesn't ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "display",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "display",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " bold formatting in its own rendering of size 2 headers, it does ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " bold formatting in its own rendering of size 2 headers, it does ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "report",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "report",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " that formatting through the API, as demonstrated here. This seems to be a positive side effect of supporting easy conversion between block types (and page titles). 🤓👍",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " that formatting through the API, as demonstrated here. This seems to be a positive side effect of supporting easy conversion between block types (and page titles). 🤓👍",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+It's interesting to note that, while Notion doesn't&thinsp;<em>display</em>&thinsp;bold formatting in its own rendering of size 2 headers, it does&thinsp;<em>report</em>&thinsp;that formatting through the API, as demonstrated here. This seems to be a positive side effect of supporting easy conversion between block types (and page titles). 🤓👍
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "6cebbab5-ed41-4cc9-8287-963276d0f9ab",
+  "created_time": "2021-11-12T22:54:00.000Z",
+  "last_edited_time": "2021-11-12T23:00:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_3",
+  "heading_3": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Text blocks with indentation and numbering",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Text blocks with indentation and numbering",
+        "href": null
+      }
+    ]
+  }
+}}><h3>Text blocks with indentation and numbering</h3>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "a23de80b-cf8b-4f6b-8bd6-fa0566a1370e",
+  "created_time": "2021-11-12T22:47:00.000Z",
+  "last_edited_time": "2021-11-13T04:55:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Obviously text blocks are supported, but so are the 6 annotation types used to format sub-strings in a block:",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Obviously text blocks are supported, but so are the 6 annotation types used to format sub-strings in a block:",
+        "href": null
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "a4c1ce6e-eebc-4eaf-b3d9-bc4f487a986d",
+      "created_time": "2021-11-12T22:48:00.000Z",
+      "last_edited_time": "2021-11-12T22:48:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "bold",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "bold",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "85ddf488-a451-4235-b94a-2268e5b125b8",
+      "created_time": "2021-11-12T22:48:00.000Z",
+      "last_edited_time": "2021-11-12T22:48:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "italic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "italic",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "9d5c96ab-1af8-4b18-ba89-065a7aa51460",
+      "created_time": "2021-11-12T22:48:00.000Z",
+      "last_edited_time": "2021-11-12T22:48:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "strikethrough",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": true,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "strikethrough",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "d379a19f-cb28-410e-b842-e66cce605253",
+      "created_time": "2021-11-12T22:48:00.000Z",
+      "last_edited_time": "2021-11-12T22:49:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "underline",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": true,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "underline",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "0c93495a-5367-4ec7-b1c4-8b15148a64f8",
+      "created_time": "2021-11-12T22:49:00.000Z",
+      "last_edited_time": "2021-11-12T22:49:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "code",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "code",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "3afebd1b-9681-4112-96ec-923302343dac",
+      "created_time": "2021-11-12T22:49:00.000Z",
+      "last_edited_time": "2021-11-12T22:52:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "c",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "red"
+            },
+            "plain_text": "c",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "o",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "orange"
+            },
+            "plain_text": "o",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "l",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "yellow"
+            },
+            "plain_text": "l",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "o",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green"
+            },
+            "plain_text": "o",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "r",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue"
+            },
+            "plain_text": "r",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "8bdb942a-401d-4178-ae65-cce355ca144e",
+          "created_time": "2021-11-12T22:49:00.000Z",
+          "last_edited_time": "2021-11-12T22:54:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "(Including background ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "(Including background ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "c",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "green_background"
+                },
+                "plain_text": "c",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "o",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "orange_background"
+                },
+                "plain_text": "o",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "l",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "pink_background"
+                },
+                "plain_text": "l",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "o",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "purple_background"
+                },
+                "plain_text": "o",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "r",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "blue_background"
+                },
+                "plain_text": "r",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "s",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "brown_background"
+                },
+                "plain_text": "s",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ")",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ")",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}}><div>
+Obviously text blocks are supported, but so are the 6 annotation types used to format sub-strings in a block:
+</div>
+<IndentGroup>
+  <NumberedListItem number=a> <strong>bold</strong></NumberedListItem>
+<NumberedListItem number=b> <em>italic</em></NumberedListItem>
+<NumberedListItem number=c> <s>strikethrough</s></NumberedListItem>
+<NumberedListItem number=d> <span style='text-decoration:underline;'>underline</span></NumberedListItem>
+<NumberedListItem number=e> <InlineCode>code</InlineCode></NumberedListItem>
+<NumberedListItem number=f> <InlineColor value='red'><strong>c</strong></InlineColor><InlineColor value='orange'><strong>o</strong></InlineColor><InlineColor value='yellow'><strong>l</strong></InlineColor><InlineColor value='green'><strong>o</strong></InlineColor><InlineColor value='blue'><strong>r</strong></InlineColor></NumberedListItem>
+<IndentGroup>
+  <div>
+(Including background&thinsp;<InlineColor value='green_background'><strong>c</strong></InlineColor><InlineColor value='orange_background'><strong>o</strong></InlineColor><InlineColor value='pink_background'><strong>l</strong></InlineColor><InlineColor value='purple_background'><strong>o</strong></InlineColor><InlineColor value='blue_background'><strong>r</strong></InlineColor><InlineColor value='brown_background'><strong>s</strong></InlineColor>)
+</div>
+
+</IndentGroup>
+
+</IndentGroup>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "f45947ba-a6c1-4875-98d5-9d9f2e48cbc9",
+  "created_time": "2021-11-12T22:53:00.000Z",
+  "last_edited_time": "2021-11-12T22:59:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_3",
+  "heading_3": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Dividers",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Dividers",
+        "href": null
+      }
+    ]
+  }
+}}><h3>Dividers</h3>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "0607059d-c517-4a59-8244-3a64a7314da0",
+  "created_time": "2021-11-12T22:55:00.000Z",
+  "last_edited_time": "2021-11-13T02:48:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "If you create a ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "If you create a ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "divider ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "divider ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "in Notion using ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "in Notion using ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "---",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "---",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ", it'll get converted to a ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ", it'll get converted to a ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "&lt;Divider />",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "&lt;Divider />",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " component in the notion2svelte output. You can make the actual output look like whatever you want. Here we see a wide SVG, hastily-sketched in Figma:",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " component in the notion2svelte output. You can make the actual output look like whatever you want. Here we see a wide SVG, hastily-sketched in Figma:",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+If you create a&thinsp;<em>divider&thinsp;</em>in Notion using&thinsp;<InlineCode>---</InlineCode>, it'll get converted to a&thinsp;<InlineCode>&lt;Divider /></InlineCode>&thinsp;component in the notion2svelte output. You can make the actual output look like whatever you want. Here we see a wide SVG, hastily-sketched in Figma:
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "d81c01f3-e5de-4425-9605-2982e6c29c5d",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-09-20T10:05:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "divider",
+  "divider": {}
+}}><Divider />
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "99c1a97d-017e-4472-baff-6d75aabfd0fe",
+  "created_time": "2021-11-13T02:55:00.000Z",
+  "last_edited_time": "2021-11-13T03:00:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Incidentally, components referenced in your Svelte text will get rendered if you don't escape the opening ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Incidentally, components referenced in your Svelte text will get rendered if you don't escape the opening ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "&lt;",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "&lt;",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ". So this <span style=\"height: 1rem; line-height: 1rem;\"><Divider /></span> turns into an awkwardly-inlined SVG, whereas this gets rehydrated into a demonstration of component syntax:  &lt;Divider />.",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ". So this <span style=\"height: 1rem; line-height: 1rem;\"><Divider /></span> turns into an awkwardly-inlined SVG, whereas this gets rehydrated into a demonstration of component syntax:  &lt;Divider />.",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+Incidentally, components referenced in your Svelte text will get rendered if you don't escape the opening&thinsp;<InlineCode>&lt;</InlineCode>. So this <span style="height: 1rem; line-height: 1rem;"><Divider /></span> turns into an awkwardly-inlined SVG, whereas this gets rehydrated into a demonstration of component syntax:  &lt;Divider />.
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "ec4f9e77-27a7-42a6-ac63-05b9159425a1",
+  "created_time": "2021-11-12T22:58:00.000Z",
+  "last_edited_time": "2021-11-13T02:55:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_3",
+  "heading_3": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Links",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Links",
+        "href": null
+      }
+    ]
+  }
+}}><h3>Links</h3>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "5ba4c80e-4b35-4814-8896-8611d4f6ca8d",
+  "created_time": "2021-11-13T00:29:00.000Z",
+  "last_edited_time": "2021-11-13T00:32:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Here are the three basic types of link generated when pasting a URL:",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Here are the three basic types of link generated when pasting a URL:",
+        "href": null
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "d86b72a9-e1d4-4f75-b12a-8ee71e3e2e19",
+      "created_time": "2021-11-13T00:29:00.000Z",
+      "last_edited_time": "2021-11-16T00:17:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Dismiss",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Dismiss",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "http://ilovelife.com",
+              "link": {
+                "url": "http://ilovelife.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "http://ilovelife.com",
+            "href": "http://ilovelife.com/"
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "cfcbd820-e33a-42d3-8b06-00d06aae2a1b",
+      "created_time": "2021-11-13T00:30:00.000Z",
+      "last_edited_time": "2021-11-16T00:17:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Bookmark",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Bookmark",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ↓",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ↓",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "b2527bb8-bda6-4263-9ef7-55b6f62e9845",
+          "created_time": "2021-11-13T00:29:00.000Z",
+          "last_edited_time": "2021-11-13T00:30:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bookmark",
+          "bookmark": {
+            "caption": [],
+            "url": "http://ilovelife.com"
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "0350131d-4bca-41ff-99f3-c0c3b891736e",
+      "created_time": "2021-11-13T00:29:00.000Z",
+      "last_edited_time": "2021-11-16T00:17:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Embedded Link",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Embedded Link",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " w/caption ↓",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " w/caption ↓",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "a7f8da3a-2b63-4472-b396-24e972fa363b",
+          "created_time": "2021-11-13T00:26:00.000Z",
+          "last_edited_time": "2021-11-13T02:47:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "embed",
+          "embed": {
+            "caption": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "I love how very obviously hand-written this website is. And hey, free mp3s for the kids!",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "I love how very obviously hand-written this website is. And hey, free mp3s for the kids!",
+                "href": null
+              }
+            ],
+            "url": "http://ilovelife.com"
+          }
+        }
+      ]
+    }
+  ]
+}}><div>
+Here are the three basic types of link generated when pasting a URL:
+</div>
+<IndentGroup>
+  <NumberedListItem number=a> <strong>Dismiss</strong>:&thinsp;<MagicLink href='http://ilovelife.com/'>http://ilovelife.com</MagicLink></NumberedListItem>
+<NumberedListItem number=b> <strong>Bookmark</strong>&thinsp;↓</NumberedListItem>
+<IndentGroup>
+  bookmark
+</IndentGroup>
+<NumberedListItem number=c> <strong>Embedded Link</strong>&thinsp;w/caption ↓</NumberedListItem>
+<IndentGroup>
+  <Embed url="http://ilovelife.com">I love how very obviously hand-written this website is. And hey, free mp3s for the kids!</Embed>
+</IndentGroup>
+
+</IndentGroup>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "78b76cf7-c7ba-4b8b-9ebe-f640978acc0c",
+  "created_time": "2021-11-13T00:32:00.000Z",
+  "last_edited_time": "2021-11-13T00:32:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": []
+  }
+}}><div>
+
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "f4c69c3b-68c3-42e1-9da7-ff456a776f18",
+  "created_time": "2021-09-20T10:11:00.000Z",
+  "last_edited_time": "2021-11-13T00:29:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Links to ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Links to ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "external sites",
           "link": {
-            "url": "https://en.wikipedia.org/wiki/Mass"
+            "url": "https://navelgazer.club"
           }
         },
         "annotations": {
@@ -358,13 +6025,13 @@
           "code": false,
           "color": "default"
         },
-        "plain_text": "mass",
-        "href": "https://en.wikipedia.org/wiki/Mass"
+        "plain_text": "external sites",
+        "href": "https://navelgazer.club"
       },
       {
         "type": "text",
         "text": {
-          "content": " and ",
+          "content": " work fine, as do links to other pages ",
           "link": null
         },
         "annotations": {
@@ -375,15 +6042,15 @@
           "code": false,
           "color": "default"
         },
-        "plain_text": " and ",
+        "plain_text": " work fine, as do links to other pages ",
         "href": null
       },
       {
         "type": "text",
         "text": {
-          "content": "energy",
+          "content": "published with notion2svelte",
           "link": {
-            "url": "https://en.wikipedia.org/wiki/Energy"
+            "url": "/cd0fd95d9c9042319368379d2e911479"
           }
         },
         "annotations": {
@@ -394,13 +6061,13 @@
           "code": false,
           "color": "default"
         },
-        "plain_text": "energy",
-        "href": "https://en.wikipedia.org/wiki/Energy"
+        "plain_text": "published with notion2svelte",
+        "href": "/cd0fd95d9c9042319368379d2e911479"
       },
       {
         "type": "text",
         "text": {
-          "content": " in a system's ",
+          "content": ". By contrast, a Notion page that notion2svelte doesn't know about shows up as an ",
           "link": null
         },
         "annotations": {
@@ -411,15 +6078,15 @@
           "code": false,
           "color": "default"
         },
-        "plain_text": " in a system's ",
+        "plain_text": ". By contrast, a Notion page that notion2svelte doesn't know about shows up as an ",
         "href": null
       },
       {
         "type": "text",
         "text": {
-          "content": "rest frame",
+          "content": "inline error",
           "link": {
-            "url": "https://en.wikipedia.org/wiki/Rest_frame"
+            "url": "/816f31ee96514a398960841d33a9f2d4"
           }
         },
         "annotations": {
@@ -430,13 +6097,13 @@
           "code": false,
           "color": "default"
         },
-        "plain_text": "rest frame",
-        "href": "https://en.wikipedia.org/wiki/Rest_frame"
+        "plain_text": "inline error",
+        "href": "/816f31ee96514a398960841d33a9f2d4"
       },
       {
         "type": "text",
         "text": {
-          "content": ", where the two values differ only by a constant and the units of measurement. The principle is described by the physicist ",
+          "content": ".",
           "link": null
         },
         "annotations": {
@@ -447,32 +6114,1699 @@
           "code": false,
           "color": "default"
         },
-        "plain_text": ", where the two values differ only by a constant and the units of measurement. The principle is described by the physicist ",
+        "plain_text": ".",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+Links to&thinsp;<MagicLink href='https://navelgazer.club'>external sites</MagicLink>&thinsp;work fine, as do links to other pages&thinsp;<a href='color'>published with notion2svelte</a>. By contrast, a Notion page that notion2svelte doesn't know about shows up as an&thinsp;<p style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; ">⚠️ k(t, url): <span style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">inline error.</span>&nbsp;No slug found for page id 816f31ee96514a398960841d33a9f2d4</p>.
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "49a86a0c-b83f-4345-91b3-b6017aabfce4",
+  "created_time": "2021-11-12T23:40:00.000Z",
+  "last_edited_time": "2021-11-13T00:15:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "↑ There's a Link block there, but you can't see it because, as of 11/12/21*, it's unsupported by the Notion API.",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "↑ There's a Link block there, but you can't see it because, as of 11/12/21*, it's unsupported by the Notion API.",
+        "href": null
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "d334fa98-b191-482d-bace-79d42f9267f9",
+      "created_time": "2021-11-13T00:15:00.000Z",
+      "last_edited_time": "2021-11-13T00:21:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "*I tried to use \"@Today\", but that just exposed the fact that I haven't covered all the different types of ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "*I tried to use \"@Today\", but that just exposed the fact that I haven't covered all the different types of ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "mention",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "gray"
+            },
+            "plain_text": "mention",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " yet.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": " yet.",
+            "href": null
+          }
+        ]
+      }
+    }
+  ]
+}}><div>
+↑ There's a Link block there, but you can't see it because, as of 11/12/21*, it's unsupported by the Notion API.
+</div>
+<IndentGroup>
+  <div>
+<InlineColor value='gray'>*I tried to use "@Today", but that just exposed the fact that I haven't covered all the different types of&thinsp;</InlineColor><InlineColor value='gray'><InlineCode>mention</InlineCode></InlineColor><InlineColor value='gray'>&thinsp;yet.</InlineColor>
+</div>
+
+</IndentGroup>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "8eb0abf8-7d55-4a09-94ab-cf3c894f3e74",
+  "created_time": "2021-11-12T23:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:05:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "divider",
+  "divider": {}
+}}><Divider />
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "46ca3835-bdb8-45ca-acde-dcb3510864b5",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:09:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_3",
+  "heading_3": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Images",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Images",
+        "href": null
+      }
+    ]
+  }
+}}><h3>Images</h3>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "8edec5d5-0850-414d-90a0-f5e736557582",
+  "created_time": "2021-11-12T23:11:00.000Z",
+  "last_edited_time": "2021-11-13T04:13:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "column_list",
+  "column_list": {},
+  "blocks": [
+    {
+      "object": "block",
+      "id": "c4efff0d-9617-4c69-9be1-676782df6c45",
+      "created_time": "2021-11-12T23:11:00.000Z",
+      "last_edited_time": "2021-11-15T23:55:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "a2a3efba-87d3-46d2-a79b-b6b45ed6ded3",
+          "created_time": "2021-11-12T23:10:00.000Z",
+          "last_edited_time": "2021-11-15T23:55:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Not sure whether the Notion API supports column sizing at all. It doesn't seem to support image sizing, fwiw. ¯\\_(ツ)_/¯",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Not sure whether the Notion API supports column sizing at all. It doesn't seem to support image sizing, fwiw. ¯\\_(ツ)_/¯",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "ad930823-32e6-422a-b7c1-cd84f2e3331a",
+      "created_time": "2021-11-12T23:11:00.000Z",
+      "last_edited_time": "2021-11-13T04:13:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "c877cf0a-9681-4e15-a321-bdd5c5bfce1f",
+          "created_time": "2021-09-28T09:06:00.000Z",
+          "last_edited_time": "2021-11-12T23:13:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "image",
+          "image": {
+            "caption": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Captions, too, can include ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Captions, too, can include ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "italics",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "italics",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ", ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ", ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "bold",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "bold",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ", ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ", ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "strikethrough",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": true,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "strikethrough",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ", ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ", ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "code",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "code",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ", ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ", ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "c",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "red"
+                },
+                "plain_text": "c",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "o",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "orange"
+                },
+                "plain_text": "o",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "l",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "yellow"
+                },
+                "plain_text": "l",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "o",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "green"
+                },
+                "plain_text": "o",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "r",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "blue"
+                },
+                "plain_text": "r",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "s",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "purple"
+                },
+                "plain_text": "s",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ", and ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ", and ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "links",
+                  "link": {
+                    "url": "https://ilovelife.com"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "links",
+                "href": "https://ilovelife.com"
+              }
+            ],
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee167c86-1a65-4772-99e9-d55a71ce5313/E6A66064-8C54-45A7-9365-AD96F50863C3.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211116T002043Z&X-Amz-Expires=3600&X-Amz-Signature=101c453a2d9fe8c695b8410cd14b6b76d3d0c16cb38f2e7335ee928fc0a1916a&X-Amz-SignedHeaders=host",
+              "expiry_time": "2021-11-16T01:20:43.346Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "036135ac-35d4-4a0c-a541-02e3be113de1",
+      "created_time": "2021-11-13T04:13:00.000Z",
+      "last_edited_time": "2021-11-13T04:13:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "2a886060-dcff-46f3-87a1-fa80ea583025",
+          "created_time": "2021-09-28T09:06:00.000Z",
+          "last_edited_time": "2021-11-13T04:13:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "image",
+          "image": {
+            "caption": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "From unsplash",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "From unsplash",
+                "href": null
+              }
+            ],
+            "type": "external",
+            "external": {
+              "url": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "15c1bd08-1360-427c-b86b-850f96193831",
+      "created_time": "2021-11-13T04:13:00.000Z",
+      "last_edited_time": "2021-11-13T04:13:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "655a2330-d9fa-427c-b592-152d547c94c5",
+          "created_time": "2021-09-28T09:06:00.000Z",
+          "last_edited_time": "2021-11-13T04:13:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "image",
+          "image": {
+            "caption": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "cresting orca",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "cresting orca",
+                "href": null
+              }
+            ],
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2c7ef8e9-8eb7-4b76-ab4a-9c859e998a8e/IMG_0741.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211116T002043Z&X-Amz-Expires=3600&X-Amz-Signature=c3ce8b3670c29c07a8585524b4b33791c5309727c42cc3d0b22e1fdf9c645e46&X-Amz-SignedHeaders=host",
+              "expiry_time": "2021-11-16T01:20:43.416Z"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}}><ColumnList cols={4}><Column><div>
+Not sure whether the Notion API supports column sizing at all. It doesn't seem to support image sizing, fwiw. ¯\_(ツ)_/¯
+</div>
+</Column><Column><Image url="/images/kitchen-sink/c877cf0a-9681-4e15-a321-bdd5c5bfce1f.jpg">Captions, too, can include&thinsp;<em>italics</em>,&thinsp;<strong>bold</strong>,&thinsp;<s>strikethrough</s>,&thinsp;<InlineCode>code</InlineCode>,&thinsp;<InlineColor value='red'><strong>c</strong></InlineColor><InlineColor value='orange'><strong>o</strong></InlineColor><InlineColor value='yellow'><strong>l</strong></InlineColor><InlineColor value='green'><strong>o</strong></InlineColor><InlineColor value='blue'><strong>r</strong></InlineColor><InlineColor value='purple'><strong>s</strong></InlineColor>, and&thinsp;<MagicLink href='https://ilovelife.com'>links</MagicLink></Image>
+</Column><Column><Image url="/images/kitchen-sink/2a886060-dcff-46f3-87a1-fa80ea583025.jpg">From unsplash</Image>
+</Column><Column><Image url="/images/kitchen-sink/655a2330-d9fa-427c-b592-152d547c94c5.jpg">cresting orca</Image>
+</Column></ColumnList></Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "7d405da9-5cec-4724-b56b-391f21542043",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:24:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_3",
+  "heading_3": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "To Dos, Toggles, Bullets, and Blanks",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "To Dos, Toggles, Bullets, and Blanks",
+        "href": null
+      }
+    ]
+  }
+}}><h3>To Dos, Toggles, Bullets, and Blanks</h3>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "52ae4934-38e6-4c2a-a355-9cd41b86c332",
+  "created_time": "2021-11-12T23:13:00.000Z",
+  "last_edited_time": "2021-11-12T23:18:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "I've chosen some pretty rudimentary styles for ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "I've chosen some pretty rudimentary styles for ",
         "href": null
       },
       {
         "type": "text",
         "text": {
-          "content": "Albert Einstein",
-          "link": {
-            "url": "https://en.wikipedia.org/wiki/Albert_Einstein"
-          }
+          "content": "checkboxes,",
+          "link": null
         },
         "annotations": {
           "bold": false,
-          "italic": false,
+          "italic": true,
           "strikethrough": false,
           "underline": false,
           "code": false,
           "color": "default"
         },
-        "plain_text": "Albert Einstein",
-        "href": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        "plain_text": "checkboxes,",
+        "href": null
       },
       {
         "type": "text",
         "text": {
-          "content": "'s famous formula: ",
+          "content": " ",
           "link": null
         },
         "annotations": {
@@ -483,7 +7817,6647 @@
           "code": false,
           "color": "default"
         },
-        "plain_text": "'s famous formula: ",
+        "plain_text": " ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "toggles, ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "toggles, ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "and ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "and ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "bullet points",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "bullet points",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ". Create your own ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ". Create your own ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "TodoItem",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "TodoItem",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ", ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ", ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "Toggle",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "Toggle",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ", and ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ", and ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "BulletedListItem",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "BulletedListItem",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " components to style these just the way you like.",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " components to style these just the way you like.",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+I've chosen some pretty rudimentary styles for&thinsp;<em>checkboxes,</em>&thinsp;<em>toggles,&thinsp;</em>and&thinsp;<em>bullet points</em>. Create your own&thinsp;<InlineCode>TodoItem</InlineCode>,&thinsp;<InlineCode>Toggle</InlineCode>, and&thinsp;<InlineCode>BulletedListItem</InlineCode>&thinsp;components to style these just the way you like.
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "d9c985a2-67a8-42bf-8a9a-92d6693e7e05",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:40:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "to_do",
+  "to_do": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "I should finish this",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "I should finish this",
+        "href": null
+      }
+    ],
+    "checked": false
+  }
+}}><TodoItem checked={false}>I should finish this</TodoItem>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "046218a7-08ce-48ba-8b3b-2c3218d5d43e",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:40:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "to_do",
+  "to_do": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "This is finished",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "This is finished",
+        "href": null
+      }
+    ],
+    "checked": true
+  }
+}}><TodoItem checked={true}>This is finished</TodoItem>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "5f01eab5-e7d1-4988-a064-259ae3628b7f",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:40:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "to_do",
+  "to_do": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "And one for good luck",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "And one for good luck",
+        "href": null
+      }
+    ],
+    "checked": false
+  }
+}}><TodoItem checked={false}>And one for good luck</TodoItem>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "8f27ed81-6976-4a2b-b623-13334d90f160",
+  "created_time": "2021-11-12T23:26:00.000Z",
+  "last_edited_time": "2021-11-12T23:26:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": []
+  }
+}}><div>
+
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "8c8a2656-3a2f-4978-a3c2-88937f71a613",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:40:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "toggle",
+  "toggle": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "This toggle uses a soft return to show\n3 lines of text in the toggle \"anchor\"\n(badly-formatted)",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "orange_background"
+        },
+        "plain_text": "This toggle uses a soft return to show\n3 lines of text in the toggle \"anchor\"\n(badly-formatted)",
+        "href": null
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "55a65dfe-f717-46e9-a07d-dabb5dd2bfad",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-11-12T23:23:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I'm part of the toggle's contents",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue_background"
+            },
+            "plain_text": "I'm part of the toggle's contents",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "3ceeec79-20b1-4331-9026-b0552168c4ed",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-11-12T23:22:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "More toggle contents. Notice how the block-level colors get ignored",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue_background"
+            },
+            "plain_text": "More toggle contents. Notice how the block-level colors get ignored",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "39e51e01-13a7-4058-9e78-2b3b4bf12d1d",
+      "created_time": "2021-11-12T23:21:00.000Z",
+      "last_edited_time": "2021-11-12T23:21:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What about block-level text colors?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What about block-level text colors?",
+            "href": null
+          }
+        ]
+      }
+    }
+  ]
+}}><Toggle><InlineColor value='orange_background'>This toggle uses a soft return to show
+<br />
+3 lines of text in the toggle "anchor"
+<br />
+(badly-formatted)</InlineColor>
+<span slot="children"><div>
+<InlineColor value='blue_background'>I'm part of the toggle's contents</InlineColor>
+</div>
+<div>
+<InlineColor value='blue_background'>More toggle contents. Notice how the block-level colors get ignored</InlineColor>
+</div>
+<div>
+What about block-level text colors?
+</div>
+</span></Toggle></Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "597f34c5-8acc-45d0-88be-fd726b30161f",
+  "created_time": "2021-11-12T23:24:00.000Z",
+  "last_edited_time": "2021-11-12T23:24:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": []
+  }
+}}><div>
+
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "eae0e6ab-25fe-4e3a-b35b-d8722e7462bb",
+  "created_time": "2021-09-20T21:47:00.000Z",
+  "last_edited_time": "2021-11-12T23:48:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "↑ notion2svelte ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "↑ notion2svelte ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "does",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "does",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " render blank lines, as you'd expect. ↓",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " render blank lines, as you'd expect. ↓",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+↑ notion2svelte&thinsp;<em>does</em>&thinsp;render blank lines, as you'd expect. ↓
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "d9db5167-5bd2-4bf5-8851-22cecb2703de",
+  "created_time": "2021-11-12T23:24:00.000Z",
+  "last_edited_time": "2021-11-12T23:24:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": []
+  }
+}}><div>
+
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "25a41cc0-1e6e-42f5-85fe-9a1928b95e4e",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:40:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "bulleted_list_item",
+  "bulleted_list_item": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "This is a ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "This is a ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "bulleted_list_item",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "bulleted_list_item",
+        "href": null
+      }
+    ]
+  }
+}}><BulletedListItem>This is a&thinsp;<InlineCode>bulleted_list_item</InlineCode></BulletedListItem>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "d95ca015-5625-499f-9dd7-e629694f3e99",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:40:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "bulleted_list_item",
+  "bulleted_list_item": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "And here's another one",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "And here's another one",
+        "href": null
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "3de7536c-3c0b-4706-847e-f15d5664519a",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-11-12T23:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "All good things come in threes, so they say, but this 3rd bullet point is nested, so presumably only shows up by getting children of the parent block?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "All good things come in threes, so they say, but this 3rd bullet point is nested, so presumably only shows up by getting children of the parent block?",
+            "href": null
+          }
+        ]
+      }
+    }
+  ]
+}}><BulletedListItem>And here's another one</BulletedListItem>
+<IndentGroup>
+  <BulletedListItem>All good things come in threes, so they say, but this 3rd bullet point is nested, so presumably only shows up by getting children of the parent block?</BulletedListItem>
+
+</IndentGroup>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "5e886318-af01-46f9-99f0-afd38e5856e7",
+  "created_time": "2021-11-12T23:31:00.000Z",
+  "last_edited_time": "2021-11-12T23:31:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": []
+  }
+}}><div>
+
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "904b54f6-2f62-4272-8294-b398eba6b31c",
+  "created_time": "2021-11-12T23:26:00.000Z",
+  "last_edited_time": "2021-11-12T23:31:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Whereas Notion seems to rely on Javascript to set the number/letter prefixes in numbered outlines, ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Whereas Notion seems to rely on Javascript to set the number/letter prefixes in numbered outlines, ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "notion2svelte",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "notion2svelte",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " hard-renders them, at least for now, leaning toward static-rendered results.",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " hard-renders them, at least for now, leaning toward static-rendered results.",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+Whereas Notion seems to rely on Javascript to set the number/letter prefixes in numbered outlines,&thinsp;<em>notion2svelte</em>&thinsp;hard-renders them, at least for now, leaning toward static-rendered results.
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "d7565143-adf1-45c7-b17f-e70943425bb7",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:40:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "numbered_list_item",
+  "numbered_list_item": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "This is a ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "This is a ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "numbered_list_item",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "numbered_list_item",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " …",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " …",
+        "href": null
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "9b13502b-295f-4f4d-bd71-3834c2e59660",
+      "created_time": "2021-11-12T23:26:00.000Z",
+      "last_edited_time": "2021-11-12T23:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "with two numbered sub-items",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "with two numbered sub-items",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "ddf8fb27-48da-488a-85db-8a4f5241cbf3",
+      "created_time": "2021-11-12T23:26:00.000Z",
+      "last_edited_time": "2021-11-12T23:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "labelled a. and b.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "labelled a. and b.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "4760eceb-1556-49d0-b7e4-cf559f4f060f",
+      "created_time": "2021-11-12T23:27:00.000Z",
+      "last_edited_time": "2021-11-12T23:27:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "And one child block that's unnumbered",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "And one child block that's unnumbered",
+            "href": null
+          }
+        ]
+      }
+    }
+  ]
+}}><NumberedListItem number=1> This is a&thinsp;<InlineCode>numbered_list_item</InlineCode>&thinsp;…</NumberedListItem>
+<IndentGroup>
+  <NumberedListItem number=a> with two numbered sub-items</NumberedListItem>
+<NumberedListItem number=b> labelled a. and b.</NumberedListItem>
+<div>
+And one child block that's unnumbered
+</div>
+
+</IndentGroup>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "4eba6149-47f4-47b6-91fe-6baf7962947f",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:40:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "numbered_list_item",
+  "numbered_list_item": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": " This time, let's go ahead and create a more lively, branching tree",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " This time, let's go ahead and create a more lively, branching tree",
+        "href": null
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "d286d944-0674-403d-a069-6d5839f3356d",
+      "created_time": "2021-11-12T23:31:00.000Z",
+      "last_edited_time": "2021-11-12T23:40:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "a.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "a.",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "3a3262fa-651e-4c1f-9985-e3d5d2a6947a",
+          "created_time": "2021-11-12T23:32:00.000Z",
+          "last_edited_time": "2021-11-12T23:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "text": []
+          }
+        },
+        {
+          "object": "block",
+          "id": "ac0744c5-4fb5-4090-921f-a75061ba30d3",
+          "created_time": "2021-11-12T23:32:00.000Z",
+          "last_edited_time": "2021-11-12T23:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "ii. (with blank content for ↑ i.)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "ii. (with blank content for ↑ i.)",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "452e1948-d88b-4d55-972f-abfee1689887",
+      "created_time": "2021-11-12T23:32:00.000Z",
+      "last_edited_time": "2021-11-12T23:40:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "b.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "b.",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "b6a7ee31-e1ef-4c22-bfc9-ab0c4c886dbf",
+          "created_time": "2021-11-12T23:32:00.000Z",
+          "last_edited_time": "2021-11-12T23:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "i.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "i.",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "fd734659-6089-472e-a1ba-fff3861021d9",
+          "created_time": "2021-11-12T23:32:00.000Z",
+          "last_edited_time": "2021-11-12T23:40:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "ii.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "ii.",
+                "href": null
+              }
+            ]
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "20dc7d4e-b27a-44cf-b076-60eb09a541ad",
+              "created_time": "2021-11-12T23:32:00.000Z",
+              "last_edited_time": "2021-11-12T23:40:00.000Z",
+              "has_children": true,
+              "archived": false,
+              "type": "numbered_list_item",
+              "numbered_list_item": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "1. (again!)",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "1. (again!)",
+                    "href": null
+                  }
+                ]
+              },
+              "blocks": [
+                {
+                  "object": "block",
+                  "id": "4ebc8617-e4e0-4478-8146-f3e1189dbbec",
+                  "created_time": "2021-11-12T23:33:00.000Z",
+                  "last_edited_time": "2021-11-12T23:40:00.000Z",
+                  "has_children": true,
+                  "archived": false,
+                  "type": "numbered_list_item",
+                  "numbered_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "I",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "I",
+                        "href": null
+                      }
+                    ]
+                  },
+                  "blocks": [
+                    {
+                      "object": "block",
+                      "id": "9dfc6968-1948-4f9d-80cf-343d43f0059d",
+                      "created_time": "2021-11-12T23:33:00.000Z",
+                      "last_edited_time": "2021-11-12T23:40:00.000Z",
+                      "has_children": true,
+                      "archived": false,
+                      "type": "numbered_list_item",
+                      "numbered_list_item": {
+                        "text": [
+                          {
+                            "type": "text",
+                            "text": {
+                              "content": "Can",
+                              "link": null
+                            },
+                            "annotations": {
+                              "bold": false,
+                              "italic": false,
+                              "strikethrough": false,
+                              "underline": false,
+                              "code": false,
+                              "color": "default"
+                            },
+                            "plain_text": "Can",
+                            "href": null
+                          }
+                        ]
+                      },
+                      "blocks": [
+                        {
+                          "object": "block",
+                          "id": "1d82c0be-5603-4001-b995-139f26adbd18",
+                          "created_time": "2021-11-12T23:33:00.000Z",
+                          "last_edited_time": "2021-11-12T23:40:00.000Z",
+                          "has_children": true,
+                          "archived": false,
+                          "type": "numbered_list_item",
+                          "numbered_list_item": {
+                            "text": [
+                              {
+                                "type": "text",
+                                "text": {
+                                  "content": "Do",
+                                  "link": null
+                                },
+                                "annotations": {
+                                  "bold": false,
+                                  "italic": false,
+                                  "strikethrough": false,
+                                  "underline": false,
+                                  "code": false,
+                                  "color": "default"
+                                },
+                                "plain_text": "Do",
+                                "href": null
+                              }
+                            ]
+                          },
+                          "blocks": [
+                            {
+                              "object": "block",
+                              "id": "086b57d1-9dec-4344-84d9-06e36e4de536",
+                              "created_time": "2021-11-12T23:33:00.000Z",
+                              "last_edited_time": "2021-11-12T23:40:00.000Z",
+                              "has_children": true,
+                              "archived": false,
+                              "type": "numbered_list_item",
+                              "numbered_list_item": {
+                                "text": [
+                                  {
+                                    "type": "text",
+                                    "text": {
+                                      "content": "This",
+                                      "link": null
+                                    },
+                                    "annotations": {
+                                      "bold": false,
+                                      "italic": false,
+                                      "strikethrough": false,
+                                      "underline": false,
+                                      "code": false,
+                                      "color": "default"
+                                    },
+                                    "plain_text": "This",
+                                    "href": null
+                                  }
+                                ]
+                              },
+                              "blocks": [
+                                {
+                                  "object": "block",
+                                  "id": "a3402212-f86b-43e3-8f6d-7baafcda5201",
+                                  "created_time": "2021-11-12T23:33:00.000Z",
+                                  "last_edited_time": "2021-11-12T23:40:00.000Z",
+                                  "has_children": true,
+                                  "archived": false,
+                                  "type": "numbered_list_item",
+                                  "numbered_list_item": {
+                                    "text": [
+                                      {
+                                        "type": "text",
+                                        "text": {
+                                          "content": "All",
+                                          "link": null
+                                        },
+                                        "annotations": {
+                                          "bold": false,
+                                          "italic": false,
+                                          "strikethrough": false,
+                                          "underline": false,
+                                          "code": false,
+                                          "color": "default"
+                                        },
+                                        "plain_text": "All",
+                                        "href": null
+                                      }
+                                    ]
+                                  },
+                                  "blocks": [
+                                    {
+                                      "object": "block",
+                                      "id": "28b70d15-38aa-47e6-83d9-6af3a6ec127b",
+                                      "created_time": "2021-11-12T23:33:00.000Z",
+                                      "last_edited_time": "2021-11-12T23:40:00.000Z",
+                                      "has_children": false,
+                                      "archived": false,
+                                      "type": "numbered_list_item",
+                                      "numbered_list_item": {
+                                        "text": [
+                                          {
+                                            "type": "text",
+                                            "text": {
+                                              "content": "Day",
+                                              "link": null
+                                            },
+                                            "annotations": {
+                                              "bold": false,
+                                              "italic": false,
+                                              "strikethrough": false,
+                                              "underline": false,
+                                              "code": false,
+                                              "color": "default"
+                                            },
+                                            "plain_text": "Day",
+                                            "href": null
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "7d1c29e9-d034-4710-9aeb-172417f5b123",
+          "created_time": "2021-11-12T23:32:00.000Z",
+          "last_edited_time": "2021-11-12T23:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "iii.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "iii.",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}}><NumberedListItem number=2> &thinsp;This time, let's go ahead and create a more lively, branching tree</NumberedListItem>
+<IndentGroup>
+  <NumberedListItem number=a> a.</NumberedListItem>
+<IndentGroup>
+  <NumberedListItem number=i> </NumberedListItem>
+<NumberedListItem number=ii> ii. (with blank content for ↑ i.)</NumberedListItem>
+
+</IndentGroup>
+<NumberedListItem number=b> b.</NumberedListItem>
+<IndentGroup>
+  <NumberedListItem number=i> i.</NumberedListItem>
+<NumberedListItem number=ii> ii.</NumberedListItem>
+<IndentGroup>
+  <NumberedListItem number=1> 1. (again!)</NumberedListItem>
+<IndentGroup>
+  <NumberedListItem number=1> I</NumberedListItem>
+<IndentGroup>
+  <NumberedListItem number=1> Can</NumberedListItem>
+<IndentGroup>
+  <NumberedListItem number=1> Do</NumberedListItem>
+<IndentGroup>
+  <NumberedListItem number=1> This</NumberedListItem>
+<IndentGroup>
+  <NumberedListItem number=1> All</NumberedListItem>
+<IndentGroup>
+  <NumberedListItem number=1> Day</NumberedListItem>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+
+</IndentGroup>
+<NumberedListItem number=iii> iii.</NumberedListItem>
+
+</IndentGroup>
+
+</IndentGroup>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "5477436f-7760-41b0-a800-b306bd2695c0",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:48:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "numbered_list_item",
+  "numbered_list_item": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Last, but not least, #3, with no child blocks",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Last, but not least, #3, with no child blocks",
+        "href": null
+      }
+    ]
+  }
+}}><NumberedListItem number=3> Last, but not least, #3, with no child blocks</NumberedListItem>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "e7703c74-61c1-48c6-a33b-a303cc29e494",
+  "created_time": "2021-11-12T23:25:00.000Z",
+  "last_edited_time": "2021-11-12T23:48:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "divider",
+  "divider": {}
+}}><Divider />
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "b9a6ca36-4ab9-44b3-8abf-affd88cc71ee",
+  "created_time": "2021-11-12T23:48:00.000Z",
+  "last_edited_time": "2021-11-12T23:48:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_3",
+  "heading_3": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Sub-pages",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Sub-pages",
+        "href": null
+      }
+    ]
+  }
+}}><h3>Sub-pages</h3>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "598aadf2-fc79-4b6e-934b-0acf0cff0361",
+  "created_time": "2021-11-12T23:48:00.000Z",
+  "last_edited_time": "2021-11-16T00:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Sub-pages are rendered by your custom ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Sub-pages are rendered by your custom ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "&lt;ChildPage />",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "&lt;ChildPage />",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " component. Just for kicks, made mine so that sub-pages are hidden unless you choose to toggle their display by typing `O`…",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " component. Just for kicks, made mine so that sub-pages are hidden unless you choose to toggle their display by typing `O`…",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+Sub-pages are rendered by your custom&thinsp;<InlineCode>&lt;ChildPage /></InlineCode>&thinsp;component. Just for kicks, made mine so that sub-pages are hidden unless you choose to toggle their display by typing `O`…
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "b9d69a79-0544-4908-b449-cdba8550df08",
+  "created_time": "2021-09-20T23:35:00.000Z",
+  "last_edited_time": "2021-11-12T23:51:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "child_page",
+  "child_page": {
+    "title": "Images Sub-Page"
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "f3cee0d8-b99c-4bb0-8004-ebf84e83c165",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-09-20T23:36:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Obsolescence",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Obsolescence",
+            "href": null
+          }
+        ],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4fb6a51-b030-4964-be16-7d43e1518546/IMG_0242.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211116T002043Z&X-Amz-Expires=3600&X-Amz-Signature=c51a2560e8da0ac18e600f57a9cd1cdf89f4af08f8f7e0111ae56eaba3b6580e&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-16T01:20:43.226Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "11f72f5f-7152-4eda-835b-0d6e2925efe8",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-09-20T23:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "↓ image block",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "↓ image block",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "e639ccd6-3a44-43cb-a020-b1bd52454a19",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-09-20T23:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Aphid Caption",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Aphid Caption",
+            "href": null
+          }
+        ],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211116T002043Z&X-Amz-Expires=3600&X-Amz-Signature=ea3650b45d25d5716386c89f7c4d0b04035ea2aece1284bb8a5c8d19ab32ea75&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-16T01:20:43.225Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "b27dd7c2-235a-482a-af83-80595baeebae",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-09-20T23:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first",
+            "href": null
+          }
+        ],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de30defd-93d2-4588-a7b6-ee29ec978374/0C322DA4-7BA9-43B3-95F4-2AE6B6EAF066.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211116T002043Z&X-Amz-Expires=3600&X-Amz-Signature=ea3650b45d25d5716386c89f7c4d0b04035ea2aece1284bb8a5c8d19ab32ea75&X-Amz-SignedHeaders=host",
+          "expiry_time": "2021-11-16T01:20:43.223Z"
+        }
+      }
+    }
+  ]
+}}><ChildPage title="Images Sub-Page"><Image url="/images/kitchen-sink/f3cee0d8-b99c-4bb0-8004-ebf84e83c165.jpg">Obsolescence</Image>
+<div>
+↓ image block
+</div>
+<Image url="/images/kitchen-sink/e639ccd6-3a44-43cb-a020-b1bd52454a19.jpg">Aphid Caption</Image>
+<Image url="/images/kitchen-sink/b27dd7c2-235a-482a-af83-80595baeebae.jpg">I'm guessing presentation sizing info isn't part of images. This one's identical to-, but presented smaller than-, the first</Image>
+</ChildPage></Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "efd2c786-682e-4d48-b072-80201e525398",
+  "created_time": "2021-11-12T23:51:00.000Z",
+  "last_edited_time": "2021-11-12T23:51:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "↑ …at which point, the Sub-Page will be rendered inline here!",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "↑ …at which point, the Sub-Page will be rendered inline here!",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+↑ …at which point, the Sub-Page will be rendered inline here!
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "1b46fc3d-1bb3-4351-8abe-f2fbc2562f90",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-09-20T10:05:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "child_page",
+  "child_page": {
+    "title": "Inline subpage w/no content, icon, or cover"
+  }
+}}><p style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; ">⚠️ child_page: <span style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Inline subpage w/no content, icon, or cover.</span>&nbsp;has no content</p></Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "5fb92ab7-04d4-4344-a7f3-3759c401cae3",
+  "created_time": "2021-11-12T23:51:00.000Z",
+  "last_edited_time": "2021-11-12T23:52:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "↑ Sub-pages without content currently render as an inline error",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "↑ Sub-pages without content currently render as an inline error",
+        "href": null
+      }
+    ]
+  }
+}}><div>
+↑ Sub-pages without content currently render as an inline error
+</div>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "89c6742c-ba57-4e93-9520-c4ed1cd76a6d",
+  "created_time": "2021-11-12T23:52:00.000Z",
+  "last_edited_time": "2021-11-12T23:52:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "divider",
+  "divider": {}
+}}><Divider />
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "02b98380-c5bf-4be7-8a2e-7771356a4fe4",
+  "created_time": "2021-11-12T23:52:00.000Z",
+  "last_edited_time": "2021-11-12T23:52:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_3",
+  "heading_3": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Quotes",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Quotes",
+        "href": null
+      }
+    ]
+  }
+}}><h3>Quotes</h3>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "8c593de7-7950-4011-a707-340fa2b29aa9",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:40:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "quote",
+  "quote": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Quote Block w/Children",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Quote Block w/Children",
+        "href": null
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "2519200d-2cce-48db-9dff-7dfa753263f8",
+      "created_time": "2021-11-12T23:40:00.000Z",
+      "last_edited_time": "2021-11-12T23:40:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "d5b707b2-3d40-4ae5-b591-103328484778",
+          "created_time": "2021-11-12T23:40:00.000Z",
+          "last_edited_time": "2021-11-12T23:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "\"We don't see things as they are, we see them as we are.\"",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "\"We don't see things as they are, we see them as we are.\"",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "c0857cd2-a997-464e-b509-86d50aa27ef4",
+          "created_time": "2021-11-12T23:34:00.000Z",
+          "last_edited_time": "2021-11-12T23:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "\"Be yourself; everyone else is already taken.\" —Oscar Wilde",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "\"Be yourself; everyone else is already taken.\" —Oscar Wilde",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "d4e42df8-ffa5-4146-af50-3c3ca1d8b6ea",
+          "created_time": "2021-11-12T23:34:00.000Z",
+          "last_edited_time": "2021-11-12T23:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "\"Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.\" —Bernard M. Baruch",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "\"Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.\" —Bernard M. Baruch",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}}><Quote>Quote Block w/Children<span slot="children"><div>
+
+</div>
+<IndentGroup>
+  <div>
+"We don't see things as they are, we see them as we are."
+</div>
+<div>
+"Be yourself; everyone else is already taken." —Oscar Wilde
+</div>
+<div>
+"Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind." —Bernard M. Baruch
+</div>
+
+</IndentGroup>
+</span></Quote></Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "a0fa14c9-a200-4527-b8ad-9798f88ac13c",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:36:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "divider",
+  "divider": {}
+}}><Divider />
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "2334838c-b65c-43fc-a062-0f3833031b5d",
+  "created_time": "2021-11-12T23:55:00.000Z",
+  "last_edited_time": "2021-11-12T23:55:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_3",
+  "heading_3": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Equations",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Equations",
+        "href": null
+      }
+    ]
+  }
+}}><h3>Equations</h3>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "53336a72-e7f5-4db3-80f5-f4ce2c800e84",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-11-12T23:59:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "At this point, inline- and block equations just get formatted kinda like ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "At this point, inline- and block equations just get formatted kinda like ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "code",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "code",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ". In future, I hope to add Katex interpretation. Here's an inline equation… ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ". In future, I hope to add Katex interpretation. Here's an inline equation… ",
         "href": null
       },
       {
@@ -505,7 +14479,7 @@
       {
         "type": "text",
         "text": {
-          "content": ".",
+          "content": "… and here's a block equation:",
           "link": null
         },
         "annotations": {
@@ -516,23 +14490,25 @@
           "code": false,
           "color": "default"
         },
-        "plain_text": ".",
+        "plain_text": "… and here's a block equation:",
         "href": null
       }
     ]
   }
 }}><div>
-In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>, <strong>mass–energy equivalence</strong> is the relationship between <MagicLink href="https://en.wikipedia.org/wiki/Mass">mass</MagicLink> and <MagicLink href="https://en.wikipedia.org/wiki/Energy">energy</MagicLink> in a system's <MagicLink href="https://en.wikipedia.org/wiki/Rest_frame">rest frame</MagicLink>, where the two values differ only by a constant and the units of measurement. The principle is described by the physicist <MagicLink href="https://en.wikipedia.org/wiki/Albert_Einstein">Albert Einstein</MagicLink>'s famous formula:&thinsp;<Equation block={false} katexString="E = mc^2" />.
+At this point, inline- and block equations just get formatted kinda like&thinsp;<InlineCode>code</InlineCode>. In future, I hope to add Katex interpretation. Here's an inline equation…&thinsp;<Equation block={false} katexString="E = mc^2" />… and here's a block equation:
 </div>
 </Magic> 
 <br style="display:none;"/>
 <Magic page={{
   "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
   "cover": null,
-  "icon": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
   "parent": {
     "type": "database_id",
     "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
@@ -546,7 +14522,7 @@ In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>,
         {
           "type": "text",
           "text": {
-            "content": "equations",
+            "content": "kitchen-sink",
             "link": null
           },
           "annotations": {
@@ -557,7 +14533,7 @@ In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>,
             "code": false,
             "color": "default"
           },
-          "plain_text": "equations",
+          "plain_text": "kitchen-sink",
           "href": null
         }
       ]
@@ -583,7 +14559,58 @@ In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>,
         {
           "type": "text",
           "text": {
-            "content": "Equations, rendered by ",
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
             "link": null
           },
           "annotations": {
@@ -594,13 +14621,30 @@ In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>,
             "code": false,
             "color": "default"
           },
-          "plain_text": "Equations, rendered by ",
+          "plain_text": "𒅒 (🧪",
           "href": null
         },
         {
           "type": "text",
           "text": {
-            "content": "katex",
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
             "link": null
           },
           "annotations": {
@@ -608,6250 +14652,22 @@ In <MagicLink href="https://en.wikipedia.org/wiki/Physics">physics</MagicLink>,
             "italic": false,
             "strikethrough": false,
             "underline": false,
-            "code": true,
+            "code": false,
             "color": "default"
           },
-          "plain_text": "katex",
+          "plain_text": " Page)",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
   "blocks": []
 }} block={{
   "object": "block",
-  "id": "33e55147-2478-4bd1-8f49-2c09c3c49275",
-  "created_time": "2021-11-13T09:58:00.000Z",
-  "last_edited_time": "2021-11-13T09:58:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": []
-  }
-}}><div>
-
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "ac929074-5b0d-4be3-9246-8179e604c7e4",
-  "created_time": "2021-11-13T09:57:00.000Z",
-  "last_edited_time": "2021-11-13T09:57:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\KaTeX\\ | \\LaTeX\\ is\\ HUGE!"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\KaTeX\\ | \\LaTeX\\ is\\ HUGE!",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="\KaTeX\ | \LaTeX\ is\ HUGE!" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "bba8a2b2-3394-41e6-a298-4fe545764f44",
-  "created_time": "2021-11-13T09:58:00.000Z",
-  "last_edited_time": "2021-11-13T09:58:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": []
-  }
-}}><div>
-
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "008a4c6c-21c4-414d-bbf4-41fdfdda6db9",
-  "created_time": "2021-11-13T10:21:00.000Z",
-  "last_edited_time": "2021-11-13T10:27:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "This is an inline ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "This is an inline ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "|x| = \\begin{cases}\n  x, &\\quad x \\geq 0 \\\\\n  -x, &\\quad x < 0 \\\\\n  0, &\\quad x < 0 \\\\\n  -y, &\\enspace bar = baz \\\\\n\\end{cases}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "|x| = \\begin{cases}\n  x, &\\quad x \\geq 0 \\\\\n  -x, &\\quad x < 0 \\\\\n  0, &\\quad x < 0 \\\\\n  -y, &\\enspace bar = baz \\\\\n\\end{cases}",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " equation! Visuals? Stunning. Maths? Garbage.",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " equation! Visuals? Stunning. Maths? Garbage.",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-This is an inline&thinsp;<Equation block={false} katexString="|x| = \begin{'{'}cases}
-  x, &\quad x \geq 0 \\
-  -x, &\quad x < 0 \\
-  0, &\quad x < 0 \\
-  -y, &\enspace bar = baz \\
-\end{'{'}cases}" />&thinsp;equation! Visuals? Stunning. Maths? Garbage.
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "aa225eb0-e88e-45a3-9950-a9cb6080575b",
-  "created_time": "2021-11-13T10:21:00.000Z",
-  "last_edited_time": "2021-11-13T10:21:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": []
-  }
-}}><div>
-
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "9fa8309c-80a6-401d-a5d6-f023066c931d",
-  "created_time": "2021-11-13T10:21:00.000Z",
-  "last_edited_time": "2021-11-13T10:21:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "heading_3",
-  "heading_3": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "Accents",
-          "link": {
-            "url": "https://katex.org/docs/supported.html"
-          }
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "Accents",
-        "href": "https://katex.org/docs/supported.html"
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " supported by ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " supported by ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\KaTeX"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\KaTeX",
-        "href": null
-      }
-    ]
-  }
-}}><h3><MagicLink href="https://katex.org/docs/supported.html">Accents</MagicLink>&thinsp;supported by&thinsp;<Equation block={false} katexString="\KaTeX" /></h3>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "e8bd8814-4656-44ee-afbc-b94d225a8d6e",
-  "created_time": "2021-11-13T10:21:00.000Z",
-  "last_edited_time": "2021-11-13T10:21:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "a'\\ a''\\ a^{\\prime}\\ \\acute{a}\\ \\bar{y}\\ \\breve{a}\\ \\check{a}\\ \\dot{a}\\ \\ddot{a}\\ \\grave{a}\\ \\hat{\\theta}\\ \\widehat{widehat}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "a'\\ a''\\ a^{\\prime}\\ \\acute{a}\\ \\bar{y}\\ \\breve{a}\\ \\check{a}\\ \\dot{a}\\ \\ddot{a}\\ \\grave{a}\\ \\hat{\\theta}\\ \\widehat{widehat}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="a'\ a''\ a^{'{'}\prime}\ \acute{'{'}a}\ \bar{'{'}y}\ \breve{'{'}a}\ \check{'{'}a}\ \dot{'{'}a}\ \ddot{'{'}a}\ \grave{'{'}a}\ \hat{'{'}\theta}\ \widehat{'{'}widehat}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "d8f9ff00-d479-450a-b0bc-7aff193223ab",
-  "created_time": "2021-11-13T10:21:00.000Z",
-  "last_edited_time": "2021-11-13T10:21:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\tilde{tilde}\\ \\widetilde{widetilde}\\ \\utilde{utilde}\\ \\vec{vec}\\ \\overleftarrow{overleftarrow}\\ \\underleftarrow{underleftarrow}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\tilde{tilde}\\ \\widetilde{widetilde}\\ \\utilde{utilde}\\ \\vec{vec}\\ \\overleftarrow{overleftarrow}\\ \\underleftarrow{underleftarrow}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="\tilde{'{'}tilde}\ \widetilde{'{'}widetilde}\ \utilde{'{'}utilde}\ \vec{'{'}vec}\ \overleftarrow{'{'}overleftarrow}\ \underleftarrow{'{'}underleftarrow}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "021fbb7c-f973-4ecf-aa5f-f253a5508865",
-  "created_time": "2021-11-13T10:21:00.000Z",
-  "last_edited_time": "2021-11-13T10:21:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\overleftharpoon{overleftharpoon}\\ \\overleftrightarrow{overleftrightarrow}\\ \\underleftrightarrow{underleftrightarrow}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\overleftharpoon{overleftharpoon}\\ \\overleftrightarrow{overleftrightarrow}\\ \\underleftrightarrow{underleftrightarrow}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="\overleftharpoon{'{'}overleftharpoon}\ \overleftrightarrow{'{'}overleftrightarrow}\ \underleftrightarrow{'{'}underleftrightarrow}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "219304b1-470b-4cb0-a545-7155737556c8",
-  "created_time": "2021-11-13T10:21:00.000Z",
-  "last_edited_time": "2021-11-13T10:21:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\overline{overline}\\ \\underline{underline}\\ \\ \\underbar{underbar}\\ \\widecheck{widecheck}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\overline{overline}\\ \\underline{underline}\\ \\ \\underbar{underbar}\\ \\widecheck{widecheck}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="\overline{'{'}overline}\ \underline{'{'}underline}\ \ \underbar{'{'}underbar}\ \widecheck{'{'}widecheck}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "438ca2f3-44da-42fb-a343-cba4510823d4",
-  "created_time": "2021-11-13T10:21:00.000Z",
-  "last_edited_time": "2021-11-13T10:21:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\mathring{mathring}\\ \\overgroup{overgroup}\\ \\undergroup{undergroup}\\ \\Overrightarrow{Overrightarrow}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\mathring{mathring}\\ \\overgroup{overgroup}\\ \\undergroup{undergroup}\\ \\Overrightarrow{Overrightarrow}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="\mathring{'{'}mathring}\ \overgroup{'{'}overgroup}\ \undergroup{'{'}undergroup}\ \Overrightarrow{'{'}Overrightarrow}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "649e0620-5aa9-4796-bec5-5acf18a96d88",
-  "created_time": "2021-11-13T10:21:00.000Z",
-  "last_edited_time": "2021-11-13T10:21:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\overrightarrow{overrightarrow}\\ \\underrightarrow{underrightarrow}\\ \\overrightharpoon{overrightharpoon}\\ \\overbrace{overbrace}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\overrightarrow{overrightarrow}\\ \\underrightarrow{underrightarrow}\\ \\overrightharpoon{overrightharpoon}\\ \\overbrace{overbrace}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="\overrightarrow{'{'}overrightarrow}\ \underrightarrow{'{'}underrightarrow}\ \overrightharpoon{'{'}overrightharpoon}\ \overbrace{'{'}overbrace}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "4cfe8a39-5293-4b43-aedf-e850ea2a43c8",
-  "created_time": "2021-11-13T10:21:00.000Z",
-  "last_edited_time": "2021-11-13T10:22:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\underbrace{underbrace}\\ \\overlinesegment{overlinesegment}\\ \\underlinesegment{underlinesegment}\\ \\underbar{underbar}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\underbrace{underbrace}\\ \\overlinesegment{overlinesegment}\\ \\underlinesegment{underlinesegment}\\ \\underbar{underbar}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="\underbrace{'{'}underbrace}\ \overlinesegment{'{'}overlinesegment}\ \underlinesegment{'{'}underlinesegment}\ \underbar{'{'}underbar}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "fbe00c41-baf4-4c0c-a781-9aaad9926a8f",
-  "created_time": "2021-11-13T10:46:00.000Z",
-  "last_edited_time": "2021-11-13T10:46:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "heading_3",
-  "heading_3": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "Delimiters",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "Delimiters",
-        "href": null
-      }
-    ]
-  }
-}}><h3>Delimiters</h3>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "d1d9f657-af9f-4839-91d7-723106a7db0a",
-  "created_time": "2021-11-13T10:46:00.000Z",
-  "last_edited_time": "2021-11-13T10:46:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "(foo)\\ [foo]\\ \\{foo\\}\\ \\lang{foo}\\rang\\  |foo|\\ \\|foo\\|\\ \\lt{foo}\\gt\\ \\lceil{foo}\\rceil\\ \\lfloor{foo}\\rfloor"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "(foo)\\ [foo]\\ \\{foo\\}\\ \\lang{foo}\\rang\\  |foo|\\ \\|foo\\|\\ \\lt{foo}\\gt\\ \\lceil{foo}\\rceil\\ \\lfloor{foo}\\rfloor",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="(foo)\ [foo]\ \{'{'}foo\}\ \lang{'{'}foo}\rang\  |foo|\ \|foo\|\ \lt{'{'}foo}\gt\ \lceil{'{'}foo}\rceil\ \lfloor{'{'}foo}\rfloor" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "98503973-cdfb-4e24-8a37-373b19e56341",
-  "created_time": "2021-11-13T10:46:00.000Z",
-  "last_edited_time": "2021-11-13T10:46:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\lmoustache{foo}\\rmoustache\\ \\lgroup{foo}\\rgroup\\ \\ulcorner{foo}\\urcorner\\ \\llcorner{foo}\\lrcorner\\ \\llbracket{foo}\\rrbracket\\ ↑\\ ↓\\ \\updownarrow\\ ⇑\\ ⇓\\ \\Updownarrow\\ \\backslash \\lBrace{foo}\\rBrace"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\lmoustache{foo}\\rmoustache\\ \\lgroup{foo}\\rgroup\\ \\ulcorner{foo}\\urcorner\\ \\llcorner{foo}\\lrcorner\\ \\llbracket{foo}\\rrbracket\\ ↑\\ ↓\\ \\updownarrow\\ ⇑\\ ⇓\\ \\Updownarrow\\ \\backslash \\lBrace{foo}\\rBrace",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="\lmoustache{'{'}foo}\rmoustache\ \lgroup{'{'}foo}\rgroup\ \ulcorner{'{'}foo}\urcorner\ \llcorner{'{'}foo}\lrcorner\ \llbracket{'{'}foo}\rrbracket\ ↑\ ↓\ \updownarrow\ ⇑\ ⇓\ \Updownarrow\ \backslash \lBrace{'{'}foo}\rBrace" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "1394c41e-cc08-442c-8546-9678e0ff40a3",
-  "created_time": "2021-11-13T10:46:00.000Z",
-  "last_edited_time": "2021-11-13T10:46:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "heading_3",
-  "heading_3": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "Delimiter Sizing",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "Delimiter Sizing",
-        "href": null
-      }
-    ]
-  }
-}}><h3>Delimiter Sizing</h3>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "67bbc6e5-747d-4b87-bed8-88eb31fd7fff",
-  "created_time": "2021-11-13T10:46:00.000Z",
-  "last_edited_time": "2021-11-13T10:46:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\left\\lang\\LARGE{LARGE}\\right\\rang"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\left\\lang\\LARGE{LARGE}\\right\\rang",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="\left\lang\LARGE{'{'}LARGE}\right\rang" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "be0cfdfe-2cbb-4205-b7a8-789351d5b70a",
-  "created_time": "2021-11-13T10:46:00.000Z",
-  "last_edited_time": "2021-11-13T10:46:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\lang\\big\\lang\\Big\\lang\\bigg\\lang\\Bigg\\lang"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\lang\\big\\lang\\Big\\lang\\bigg\\lang\\Bigg\\lang",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="\lang\big\lang\Big\lang\bigg\lang\Bigg\lang" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "1abe22ae-68c3-44ca-bf89-d58717e495c3",
-  "created_time": "2021-11-13T10:46:00.000Z",
-  "last_edited_time": "2021-11-13T10:46:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "Note: ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "Note: ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "\\left",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\left",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ", ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ", ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "\\middle",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\middle",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ", and ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ", and ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "\\right",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\right",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " don't seem to be supported. Also, it's unclear to me what the differences are between, say, ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " don't seem to be supported. Also, it's unclear to me what the differences are between, say, ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "\\big",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\big",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ", ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ", ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "\\bigl",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\bigl",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ", ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ", ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "\\bigm",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\bigm",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ", and ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ", and ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "\\bigr",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\bigr",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ".",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ".",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-Note:&thinsp;<InlineCode>\left</InlineCode>,&thinsp;<InlineCode>\middle</InlineCode>, and&thinsp;<InlineCode>\right</InlineCode>&thinsp;don't seem to be supported. Also, it's unclear to me what the differences are between, say,&thinsp;<InlineCode>\big</InlineCode>,&thinsp;<InlineCode>\bigl</InlineCode>,&thinsp;<InlineCode>\bigm</InlineCode>, and&thinsp;<InlineCode>\bigr</InlineCode>.
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "38ba6890-cd52-4e92-bd7d-aafb313015c0",
-  "created_time": "2021-11-13T10:55:00.000Z",
-  "last_edited_time": "2021-11-13T10:55:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "heading_3",
-  "heading_3": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "Environments",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "Environments",
-        "href": null
-      }
-    ]
-  }
-}}><h3>Environments</h3>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "51f6b5a4-a565-4dfb-9856-a78c9087c869",
-  "created_time": "2021-11-13T10:55:00.000Z",
-  "last_edited_time": "2021-11-13T11:01:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "\\begin{matrix}…",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\begin{matrix}…",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " → ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " → ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\begin{matrix}\n   a & b \\\\\n   c & d\n\\end{matrix}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\begin{matrix}\n   a & b \\\\\n   c & d\n\\end{matrix}",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " , which is ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " , which is ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "almost",
-          "link": {
-            "url": "https://tex.stackexchange.com/questions/324455/matrix-vs-array-environments"
-          }
-        },
-        "annotations": {
-          "bold": false,
-          "italic": true,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "almost",
-        "href": "https://tex.stackexchange.com/questions/324455/matrix-vs-array-environments"
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " identical to ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " identical to ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "array",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "array",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " → ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " → ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\begin{array}{cc}a & b \\\\ c & d \\end{array}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\begin{array}{cc}a & b \\\\ c & d \\end{array}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<InlineCode>\begin{'{'}matrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}matrix}
-   a & b \\
-   c & d
-\end{'{'}matrix}" />&thinsp;, which is&thinsp;<MagicLink href="https://tex.stackexchange.com/questions/324455/matrix-vs-array-environments"><em>almost</em></MagicLink>&thinsp;identical to&thinsp;<InlineCode>array</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}array}{'{'}cc}a & b \\ c & d \end{'{'}array}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "c933ed4e-b007-422b-a736-b8beea2284af",
-  "created_time": "2021-11-13T10:55:00.000Z",
-  "last_edited_time": "2021-11-13T11:00:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "\\begin{pmatrix}…",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\begin{pmatrix}…",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " → ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " → ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\begin{pmatrix}\n   a & b \\\\\n   c & d\n\\end{pmatrix}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\begin{pmatrix}\n   a & b \\\\\n   c & d\n\\end{pmatrix}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<InlineCode>\begin{'{'}pmatrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}pmatrix}
-   a & b \\
-   c & d
-\end{'{'}pmatrix}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "f8453136-b405-4a28-8ecd-0aa0b8e260e4",
-  "created_time": "2021-11-13T10:55:00.000Z",
-  "last_edited_time": "2021-11-13T11:00:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "\\begin{bmatrix}…",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\begin{bmatrix}…",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " → ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " → ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\begin{bmatrix}\n   a & b \\\\\n   c & d\n\\end{bmatrix}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\begin{bmatrix}\n   a & b \\\\\n   c & d\n\\end{bmatrix}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<InlineCode>\begin{'{'}bmatrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}bmatrix}
-   a & b \\
-   c & d
-\end{'{'}bmatrix}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "990851b3-3fa3-456d-a949-2f23da8a5ab7",
-  "created_time": "2021-11-13T10:55:00.000Z",
-  "last_edited_time": "2021-11-13T11:00:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "\\begin{vmatrix}…",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\begin{vmatrix}…",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " → ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " → ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\begin{vmatrix}\n   a & b \\\\\n   c & d\n\\end{vmatrix}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\begin{vmatrix}\n   a & b \\\\\n   c & d\n\\end{vmatrix}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<InlineCode>\begin{'{'}vmatrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}vmatrix}
-   a & b \\
-   c & d
-\end{'{'}vmatrix}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "a520f532-ee14-4183-b1c9-88f360c1e9c0",
-  "created_time": "2021-11-13T10:55:00.000Z",
-  "last_edited_time": "2021-11-13T11:00:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "\\begin{Vmatrix}…",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\begin{Vmatrix}…",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " → ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " → ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\begin{Vmatrix}\n   a & b \\\\\n   c & d\n\\end{Vmatrix}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\begin{Vmatrix}\n   a & b \\\\\n   c & d\n\\end{Vmatrix}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<InlineCode>\begin{'{'}Vmatrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}Vmatrix}
-   a & b \\
-   c & d
-\end{'{'}Vmatrix}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "887a0b18-bcb0-47fc-8f08-c6c2f89dc597",
-  "created_time": "2021-11-13T10:55:00.000Z",
-  "last_edited_time": "2021-11-13T11:00:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "\\begin{Bmatrix}…",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\begin{Bmatrix}…",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " → ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " → ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\begin{Bmatrix}\n   a & b \\\\\n   c & d\n\\end{Bmatrix}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\begin{Bmatrix}\n   a & b \\\\\n   c & d\n\\end{Bmatrix}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<InlineCode>\begin{'{'}Bmatrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}Bmatrix}
-   a & b \\
-   c & d
-\end{'{'}Bmatrix}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "a4dd9bdb-0af7-4b67-abf8-c3315fa3f76e",
-  "created_time": "2021-11-13T10:55:00.000Z",
-  "last_edited_time": "2021-11-13T11:00:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "\\def\\arraystretch{1.5}…",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\def\\arraystretch{1.5}…",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " → ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " → ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\def\\arraystretch{1.5}\n\\begin{array}{c:c:c}\n   a & b & c \\\\ \\hline\n   d & e & f \\\\\n   \\hdashline\n   g & h & i\n\\end{array}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\def\\arraystretch{1.5}\n\\begin{array}{c:c:c}\n   a & b & c \\\\ \\hline\n   d & e & f \\\\\n   \\hdashline\n   g & h & i\n\\end{array}",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " (also demos ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " (also demos ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "\\hline",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\hline",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " and ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " and ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "\\hdashline",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\hdashline",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ")",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ")",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<InlineCode>\def\arraystretch{'{'}1.5}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\def\arraystretch{'{'}1.5}
-\begin{'{'}array}{'{'}c:c:c}
-   a & b & c \\ \hline
-   d & e & f \\
-   \hdashline
-   g & h & i
-\end{'{'}array}" />&thinsp;(also demos&thinsp;<InlineCode>\hline</InlineCode>&thinsp;and&thinsp;<InlineCode>\hdashline</InlineCode>)
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "14ea2e81-e588-4b0b-b821-b3b50873230d",
-  "created_time": "2021-11-13T10:55:00.000Z",
-  "last_edited_time": "2021-11-13T11:00:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "\\begin{cases}…",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\begin{cases}…",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " → ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " → ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "x = \\begin{cases}\n   a &\\text{if } b \\\\\n   c &\\text{if } d\n\\end{cases}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "x = \\begin{cases}\n   a &\\text{if } b \\\\\n   c &\\text{if } d\n\\end{cases}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<InlineCode>\begin{'{'}cases}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="x = \begin{'{'}cases}
-   a &\text{'{'}if } b \\
-   c &\text{'{'}if } d
-\end{'{'}cases}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "db01c8a1-3724-4593-9f36-a1e3edef6447",
-  "created_time": "2021-11-13T10:55:00.000Z",
-  "last_edited_time": "2021-11-13T11:00:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "\\begin{rcases}…",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\begin{rcases}…",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " → ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " → ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\begin{rcases}\n   a &\\text{if } b \\\\\n   c &\\text{if } d\n\\end{rcases}⇒…"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\begin{rcases}\n   a &\\text{if } b \\\\\n   c &\\text{if } d\n\\end{rcases}⇒…",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<InlineCode>\begin{'{'}rcases}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}rcases}
-   a &\text{'{'}if } b \\
-   c &\text{'{'}if } d
-\end{'{'}rcases}⇒…" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "c967e63d-1bd4-448e-a581-c20ac7fc640b",
-  "created_time": "2021-11-13T10:55:00.000Z",
-  "last_edited_time": "2021-11-13T11:00:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "\\begin{smallmatrix}…",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\begin{smallmatrix}…",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " → ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " → ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\begin{smallmatrix}\n   a & b \\\\\n   c & d\n\\end{smallmatrix}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\begin{smallmatrix}\n   a & b \\\\\n   c & d\n\\end{smallmatrix}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<InlineCode>\begin{'{'}smallmatrix}…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\begin{'{'}smallmatrix}
-   a & b \\
-   c & d
-\end{'{'}smallmatrix}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "c69fb98d-ac4c-4e9d-bfab-d2bc55fa8422",
-  "created_time": "2021-11-13T11:02:00.000Z",
-  "last_edited_time": "2021-11-13T11:04:00.000Z",
-  "has_children": true,
-  "archived": false,
-  "type": "column_list",
-  "column_list": {},
-  "blocks": [
-    {
-      "object": "block",
-      "id": "515dc0a9-ab10-40cc-bce4-060248dc2962",
-      "created_time": "2021-11-13T11:02:00.000Z",
-      "last_edited_time": "2021-11-13T11:04:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column",
-      "column": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "b2d90d89-49bb-464b-ba80-cd7feee783d6",
-          "created_time": "2021-11-13T10:55:00.000Z",
-          "last_edited_time": "2021-11-13T11:04:00.000Z",
-          "has_children": true,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "\\sum_…subarray…",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": true,
-                  "color": "default"
-                },
-                "plain_text": "\\sum_…subarray…",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " → ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " → ",
-                "href": null
-              },
-              {
-                "type": "equation",
-                "equation": {
-                  "expression": "\\sum_{\n\\begin{subarray}{l}\n   i\\in\\Lambda\\\\\n   0<j<n\n\\end{subarray}}"
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "\\sum_{\n\\begin{subarray}{l}\n   i\\in\\Lambda\\\\\n   0<j<n\n\\end{subarray}}",
-                "href": null
-              }
-            ]
-          },
-          "blocks": [
-            {
-              "object": "block",
-              "id": "cb546737-6a3e-4372-9b22-3ba90d59ae8b",
-              "created_time": "2021-11-13T10:55:00.000Z",
-              "last_edited_time": "2021-11-13T10:55:00.000Z",
-              "has_children": false,
-              "archived": false,
-              "type": "paragraph",
-              "paragraph": {
-                "text": [
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": "Though ",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": false,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "default"
-                    },
-                    "plain_text": "Though ",
-                    "href": null
-                  },
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": "katex.org",
-                      "link": {
-                        "url": "http://katex.org"
-                      }
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": false,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "default"
-                    },
-                    "plain_text": "katex.org",
-                    "href": "http://katex.org"
-                  },
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": " renders it like →",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": false,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "default"
-                    },
-                    "plain_text": " renders it like →",
-                    "href": null
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "f16a431b-d987-4043-989f-bb916c6aae36",
-      "created_time": "2021-11-13T11:04:00.000Z",
-      "last_edited_time": "2021-11-13T11:04:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column",
-      "column": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "fc38af8d-720b-45d3-a381-49e68fcac598",
-          "created_time": "2021-11-13T11:04:00.000Z",
-          "last_edited_time": "2021-11-13T11:04:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": []
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "8a61a5cb-c0ef-41eb-b276-79524434ac1b",
-      "created_time": "2021-11-13T11:02:00.000Z",
-      "last_edited_time": "2021-11-13T11:04:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column",
-      "column": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "fc9eb6d7-5110-4711-bbdf-74959ab555d5",
-          "created_time": "2021-11-13T10:55:00.000Z",
-          "last_edited_time": "2021-11-13T11:02:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "image",
-          "image": {
-            "caption": [],
-            "type": "file",
-            "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8008d292-129c-4c61-b33e-4157fd36c4b8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211113T231244Z&X-Amz-Expires=3600&X-Amz-Signature=9641ce0c3e3cfbcc4bc1c7b72b0ae1b3fbf878274251d210b11ab143a73948fc&X-Amz-SignedHeaders=host",
-              "expiry_time": "2021-11-14T00:12:44.085Z"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "7dbebf28-f979-4162-939b-34ade2e37ed5",
-      "created_time": "2021-11-13T11:04:00.000Z",
-      "last_edited_time": "2021-11-13T11:04:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column",
-      "column": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "825513a4-3a08-4fdf-aaf0-18af2363456f",
-          "created_time": "2021-11-13T11:04:00.000Z",
-          "last_edited_time": "2021-11-13T11:04:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": []
-          }
-        }
-      ]
-    }
-  ]
-}}><ColumnList cols={4}><Column><div>
-<InlineCode>\sum_…subarray…</InlineCode>&thinsp;→&thinsp;<Equation block={false} katexString="\sum_{'{'}
-\begin{'{'}subarray}{'{'}l}
-   i\in\Lambda\\
-   0<j<n
-\end{'{'}subarray}}" />
-</div>
-<IndentGroup>
-  <div>
-Though&thinsp;<MagicLink href="http://katex.org">katex.org</MagicLink>&thinsp;renders it like →
-</div>
-
-</IndentGroup>
-</Column><Column><div>
-
-</div>
-</Column><Column><Image url="/images/equations/fc9eb6d7-5110-4711-bbdf-74959ab555d5.png"></Image>
-</Column><Column><div>
-
-</div>
-</Column></ColumnList></Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "eee17428-9d8c-4bdf-b3b7-e89f3d5b0c8a",
-  "created_time": "2021-11-13T11:02:00.000Z",
-  "last_edited_time": "2021-11-13T11:04:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "callout",
-  "callout": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "Apparently ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "Apparently ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "equation/split",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "equation/split",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ", ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ", ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "gather",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "gather",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ", ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ", ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "CD",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "CD",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ", ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ", ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "align",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "align",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ", and ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ", and ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "alignat",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "alignat",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " can't be used in inline equations because Notion doesn't support \"display mode\"???",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " can't be used in inline equations because Notion doesn't support \"display mode\"???",
-        "href": null
-      }
-    ],
-    "icon": {
-      "type": "emoji",
-      "emoji": "☝🏿"
-    }
-  }
-}}><Callout emoji="☝🏿">Apparently&thinsp;<InlineCode>equation/split</InlineCode>,&thinsp;<InlineCode>gather</InlineCode>,&thinsp;<InlineCode>CD</InlineCode>,&thinsp;<InlineCode>align</InlineCode>, and&thinsp;<InlineCode>alignat</InlineCode>&thinsp;can't be used in inline equations because Notion doesn't support "display mode"???</Callout></Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "12aa125e-4181-44ab-8fa7-63b8a9d7141f",
-  "created_time": "2021-11-13T11:02:00.000Z",
-  "last_edited_time": "2021-11-13T11:02:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\bcancel{bcancel}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\bcancel{bcancel}",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="\bcancel{'{'}bcancel}" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "cdfa5085-9821-47e0-9fa1-46b6ee7accd7",
-  "created_time": "2021-11-13T11:02:00.000Z",
-  "last_edited_time": "2021-11-13T11:06:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "\\bigcirc\\ —\\ \\ominus\\ \\triangle\\ \\oplus\\ \\bigstar\\ \\odot\\ \\times"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "\\bigcirc\\ —\\ \\ominus\\ \\triangle\\ \\oplus\\ \\bigstar\\ \\odot\\ \\times",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-<Equation block={false} katexString="\bigcirc\ —\ \ominus\ \triangle\ \oplus\ \bigstar\ \odot\ \times" />
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "cb8f66f2-6c26-4570-84f1-b4f28fff9aa7",
-  "created_time": "2021-11-13T11:04:00.000Z",
-  "last_edited_time": "2021-11-13T23:11:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "Out-of-the-box ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "Out-of-the-box ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "katex",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "katex",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": " doesn't seem to support this, though it renders fine in Notion: ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": " doesn't seem to support this, though it renders fine in Notion: ",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "\\pu{123 kJ//mol}",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": true,
-          "color": "default"
-        },
-        "plain_text": "\\pu{123 kJ//mol}",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": ". ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": ". ",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-Out-of-the-box&thinsp;<InlineCode>katex</InlineCode>&thinsp;doesn't seem to support this, though it renders fine in Notion:&thinsp;<InlineCode>\pu{'{'}123 kJ//mol}</InlineCode>.&thinsp;
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "1a44c724-c065-4fbe-a271-83b1d8fe9355",
-  "created_time": "2021-11-13T23:11:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "Welcome to ",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "Welcome to ",
-        "href": null
-      },
-      {
-        "type": "equation",
-        "equation": {
-          "expression": "The\\ \\Complex{omplect}"
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "The\\ \\Complex{omplect}",
-        "href": null
-      },
-      {
-        "type": "text",
-        "text": {
-          "content": "!",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "!",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect}" />!
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "53317945-0ebc-43dd-8ec1-b426ddd0ec49",
-  "created_time": "2021-11-13T09:57:00.000Z",
-  "last_edited_time": "2021-11-13T23:09:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "heading_1",
-  "heading_1": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "Blocks",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "Blocks",
-        "href": null
-      }
-    ]
-  }
-}}><h1>Blocks</h1>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "bf6ce139-6897-4f7b-91c8-1ca174e31c29",
-  "created_time": "2021-11-13T23:09:00.000Z",
-  "last_edited_time": "2021-11-13T23:09:00.000Z",
-  "has_children": false,
-  "archived": false,
-  "type": "paragraph",
-  "paragraph": {
-    "text": [
-      {
-        "type": "text",
-        "text": {
-          "content": "(the content's no different, so…fewer examples)",
-          "link": null
-        },
-        "annotations": {
-          "bold": false,
-          "italic": false,
-          "strikethrough": false,
-          "underline": false,
-          "code": false,
-          "color": "default"
-        },
-        "plain_text": "(the content's no different, so…fewer examples)",
-        "href": null
-      }
-    ]
-  }
-}}><div>
-(the content's no different, so…fewer examples)
-</div>
-</Magic> 
-<br style="display:none;"/>
-<Magic page={{
-  "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
-  "cover": null,
-  "icon": null,
-  "parent": {
-    "type": "database_id",
-    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
-  },
-  "archived": false,
-  "properties": {
-    "Slug": {
-      "id": "Yj%3E%3C",
-      "type": "rich_text",
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "equations",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "equations",
-          "href": null
-        }
-      ]
-    },
-    "Status": {
-      "id": "Yyjg",
-      "type": "select",
-      "select": {
-        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
-        "name": "Publish me!",
-        "color": "pink"
-      }
-    },
-    "URL": {
-      "id": "lKGS",
-      "type": "url",
-      "url": null
-    },
-    "Title": {
-      "id": "title",
-      "type": "title",
-      "title": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Equations, rendered by ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Equations, rendered by ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "katex",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": true,
-            "color": "default"
-          },
-          "plain_text": "katex",
-          "href": null
-        }
-      ]
-    }
-  },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
-  "blocks": []
-}} block={{
-  "object": "block",
-  "id": "24aadb55-1a3c-4f69-aa3a-8887dd140bc9",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T08:47:00.000Z",
+  "id": "f2ade210-e901-4830-81c8-52d155772a35",
+  "created_time": "2021-11-12T23:55:00.000Z",
+  "last_edited_time": "2021-11-12T23:55:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "equation",
@@ -6866,11 +14682,13 @@ Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect
 <br style="display:none;"/>
 <Magic page={{
   "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
   "cover": null,
-  "icon": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
   "parent": {
     "type": "database_id",
     "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
@@ -6884,7 +14702,7 @@ Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect
         {
           "type": "text",
           "text": {
-            "content": "equations",
+            "content": "kitchen-sink",
             "link": null
           },
           "annotations": {
@@ -6895,7 +14713,7 @@ Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect
             "code": false,
             "color": "default"
           },
-          "plain_text": "equations",
+          "plain_text": "kitchen-sink",
           "href": null
         }
       ]
@@ -6921,7 +14739,58 @@ Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect
         {
           "type": "text",
           "text": {
-            "content": "Equations, rendered by ",
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
             "link": null
           },
           "annotations": {
@@ -6932,13 +14801,30 @@ Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect
             "code": false,
             "color": "default"
           },
-          "plain_text": "Equations, rendered by ",
+          "plain_text": "𒅒 (🧪",
           "href": null
         },
         {
           "type": "text",
           "text": {
-            "content": "katex",
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
             "link": null
           },
           "annotations": {
@@ -6946,43 +14832,58 @@ Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect
             "italic": false,
             "strikethrough": false,
             "underline": false,
-            "code": true,
+            "code": false,
             "color": "default"
           },
-          "plain_text": "katex",
+          "plain_text": " Page)",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
   "blocks": []
 }} block={{
   "object": "block",
-  "id": "f5fba538-5a66-419d-a16b-8db72107d800",
-  "created_time": "2021-11-13T23:08:00.000Z",
-  "last_edited_time": "2021-11-13T23:08:00.000Z",
+  "id": "43f48af4-5d47-445e-b676-acba023eadd7",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-09-20T10:05:00.000Z",
   "has_children": false,
   "archived": false,
-  "type": "equation",
-  "equation": {
-    "expression": "\\def\\arraystretch{1.5}\n\\begin{array}{c:c:c}\n   a & b & c \\\\ \\hline\n   d & e & f \\\\\n   \\hdashline\n   g & h & i\n\\end{array}"
+  "type": "heading_1",
+  "heading_1": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Synced Blocks",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Synced Blocks",
+        "href": null
+      }
+    ]
   }
-}}><Equation block={true} katexString="\def\arraystretch{'{'}1.5}
-\begin{'{'}array}{'{'}c:c:c}
-   a & b & c \\ \hline
-   d & e & f \\
-   \hdashline
-   g & h & i
-\end{'{'}array}" /></Magic> 
+}}><h1>Synced Blocks</h1>
+</Magic> 
 <br style="display:none;"/>
 <Magic page={{
   "object": "page",
-  "id": "83792b44-9a18-4037-ae24-15bc07543054",
-  "created_time": "2021-11-13T08:47:00.000Z",
-  "last_edited_time": "2021-11-13T23:12:00.000Z",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
   "cover": null,
-  "icon": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
   "parent": {
     "type": "database_id",
     "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
@@ -6996,7 +14897,7 @@ Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect
         {
           "type": "text",
           "text": {
-            "content": "equations",
+            "content": "kitchen-sink",
             "link": null
           },
           "annotations": {
@@ -7007,7 +14908,7 @@ Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect
             "code": false,
             "color": "default"
           },
-          "plain_text": "equations",
+          "plain_text": "kitchen-sink",
           "href": null
         }
       ]
@@ -7033,7 +14934,58 @@ Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect
         {
           "type": "text",
           "text": {
-            "content": "Equations, rendered by ",
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
             "link": null
           },
           "annotations": {
@@ -7044,13 +14996,30 @@ Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect
             "code": false,
             "color": "default"
           },
-          "plain_text": "Equations, rendered by ",
+          "plain_text": "𒅒 (🧪",
           "href": null
         },
         {
           "type": "text",
           "text": {
-            "content": "katex",
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
             "link": null
           },
           "annotations": {
@@ -7058,32 +15027,701 @@ Welcome to&thinsp;<Equation block={false} katexString="The\ \Complex{'{'}omplect
             "italic": false,
             "strikethrough": false,
             "underline": false,
-            "code": true,
+            "code": false,
             "color": "default"
           },
-          "plain_text": "katex",
+          "plain_text": " Page)",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/Equations-rendered-by-katex-83792b449a184037ae2415bc07543054",
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
   "blocks": []
 }} block={{
   "object": "block",
-  "id": "79d3ef74-5d20-4c61-8c01-64aa0daf07c6",
-  "created_time": "2021-11-13T08:48:00.000Z",
-  "last_edited_time": "2021-11-13T08:48:00.000Z",
-  "has_children": false,
+  "id": "b36b3054-6300-42c1-97e7-7d9e432d16e9",
+  "created_time": "2021-11-12T23:56:00.000Z",
+  "last_edited_time": "2021-11-12T23:57:00.000Z",
+  "has_children": true,
   "archived": false,
   "type": "paragraph",
   "paragraph": {
-    "text": []
-  }
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Clearly I have some ways to go with ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Clearly I have some ways to go with ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "synced_block",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "synced_block",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " type. Here's one of those (and its synced opy) indented:",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " type. Here's one of those (and its synced opy) indented:",
+        "href": null
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "f7f29332-919a-4b3a-a70b-bcd2cd33e66c",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-11-12T23:57:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "9264df38-d039-47a0-b23c-1b37ab8330d7"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "29b1c815-8a5d-4067-9a43-6c64fb84a9c0",
+          "created_time": "2021-09-17T04:46:00.000Z",
+          "last_edited_time": "2021-09-17T04:47:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "This is a synced block. The block adjacent to it, with the identical text, is a synced copy",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "This is a synced block. The block adjacent to it, with the identical text, is a synced copy",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "7af83e89-caae-460d-ac1f-d0d557f7ffd9",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-11-12T23:57:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "9264df38-d039-47a0-b23c-1b37ab8330d7"
+        }
+      },
+      "blocks": []
+    }
+  ]
 }}><div>
-
+Clearly I have some ways to go with&thinsp;<InlineCode>synced_block</InlineCode>&thinsp;type. Here's one of those (and its synced opy) indented:
 </div>
+<IndentGroup>
+  synced_block<IndentGroup>
+  <div>
+This is a synced block. The block adjacent to it, with the identical text, is a synced copy
+</div>
+
+</IndentGroup>
+synced_block<IndentGroup>
+  
+</IndentGroup>
+
+</IndentGroup>
 </Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "eef9c1c4-fe12-450e-8ef5-5de6b6f7460e",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-09-20T10:05:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_1",
+  "heading_1": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "3 Columns",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "3 Columns",
+        "href": null
+      }
+    ]
+  }
+}}><h1>3 Columns</h1>
+</Magic> 
+<br style="display:none;"/>
+<Magic page={{
+  "object": "page",
+  "id": "6bca4379-f362-45a6-90cf-d35beebba87a",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🚰"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kitchen-sink",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "kitchen-sink",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kitchen",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "Kitchen",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Sink\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Sink\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "𒅒 (🧪",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "𒅒 (🧪",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Test",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Test",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Page)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Page)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/The-Kitchen-Sink-Test-Page-6bca4379f36245a690cfd35beebba87a",
+  "blocks": []
+}} block={{
+  "object": "block",
+  "id": "b55eb00b-22b1-4fa3-a48a-ba26feae584b",
+  "created_time": "2021-09-20T10:05:00.000Z",
+  "last_edited_time": "2021-09-20T10:05:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "column_list",
+  "column_list": {},
+  "blocks": [
+    {
+      "object": "block",
+      "id": "c07959d4-01c4-438f-91d1-267a5ec63c57",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-09-20T10:05:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "674cd117-fb68-4b19-8ee9-79f998a878dc",
+          "created_time": "2021-09-20T10:05:00.000Z",
+          "last_edited_time": "2021-11-12T23:58:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "This should work",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "This should work",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1b1e463e-66f1-42ac-9040-ec8590ce80f6",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-09-20T10:05:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "832fae03-5bac-45f8-9c44-77d9ebdb5c70",
+          "created_time": "2021-09-20T10:05:00.000Z",
+          "last_edited_time": "2021-11-12T23:58:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "once I implement",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "once I implement",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "38834f3e-d361-47fd-9c13-23381ad4cfa2",
+      "created_time": "2021-09-20T10:05:00.000Z",
+      "last_edited_time": "2021-09-20T10:05:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "e3fe4148-ad82-450f-8804-cb7a3d19d2d0",
+          "created_time": "2021-09-20T10:05:00.000Z",
+          "last_edited_time": "2021-11-12T23:58:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "column_list",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "column_list",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " and ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " and ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "column",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "column",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}}><ColumnList cols={3}><Column><div>
+This should work
+</div>
+</Column><Column><div>
+once I implement
+</div>
+</Column><Column><div>
+<InlineCode>column_list</InlineCode>&thinsp;and&thinsp;<InlineCode>column</InlineCode>
+</div>
+</Column></ColumnList></Magic> 
 <br style="display:none;"/>
 
   

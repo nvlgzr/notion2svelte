@@ -4,11 +4,15 @@
 	import BulletedListItem from '$lib/notion2svelte/BulletedListItem.svelte';
 	import Callout from '$lib/notion2svelte/Callout.svelte';
 	import ChildPage from '$lib/notion2svelte/ChildPage.svelte';
+	import ColumnList from '$lib/notion2svelte/ColumnList.svelte';
+	import Column from '$lib/notion2svelte/Column.svelte';
 	import Divider from '$lib/notion2svelte/Divider.svelte';
+	import Embed from '$lib/notion2svelte/Embed.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
+	import Equation from '$lib/notion2svelte/Equation.svelte';
 	import Magic from '$lib/notion2svelte/Magic.svelte';
 	import MagicLink from '$lib/notion2svelte/MagicLink.svelte';
 	import NumberedListItem from '$lib/notion2svelte/NumberedListItem.svelte';
@@ -28,7 +32,6 @@
 		object: 'page',
 		id: '00ab16ed-9990-405b-ad93-af936fbebdce',
 		created_time: '2021-11-03T07:55:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: null,
 		icon: {
 			type: 'emoji',
@@ -241,7 +244,7 @@
 		}
 	}}
 	><div>
-		Here's a link to&thinsp;<a href="bells-and-whistles">a sibling page</a>&thinsp;in the&thinsp;
+		Here's a link to&thinsp;<a href="kitchen-sink">a sibling page</a>&thinsp;in the&thinsp;
 		<p
 			style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
 		>
@@ -259,7 +262,6 @@
 		object: 'page',
 		id: '00ab16ed-9990-405b-ad93-af936fbebdce',
 		created_time: '2021-11-03T07:55:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: null,
 		icon: {
 			type: 'emoji',
@@ -420,7 +422,6 @@
 		object: 'page',
 		id: '00ab16ed-9990-405b-ad93-af936fbebdce',
 		created_time: '2021-11-03T07:55:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: null,
 		icon: {
 			type: 'emoji',
@@ -516,7 +517,6 @@
 		object: 'page',
 		id: '00ab16ed-9990-405b-ad93-af936fbebdce',
 		created_time: '2021-11-03T07:55:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: null,
 		icon: {
 			type: 'emoji',
@@ -635,7 +635,7 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'Test Page w/Some Bells and Whistles 🎉',
+					plain_text: 'The Kitchen Sink\n\n𒅒 (🧪Test Page)',
 					href: 'https://www.notion.so/6bca4379f36245a690cfd35beebba87a'
 				},
 				{
@@ -695,8 +695,12 @@
 		}
 	}}
 	><div>
-		Two sibling pages, @-mentioned →&thinsp;<MagicLink href="bells-and-whistles"
-			>Test Page w/Some Bells and Whistles 🎉</MagicLink
+		Two sibling pages, @-mentioned →&thinsp;<MagicLink href="kitchen-sink"
+			>The Kitchen Sink
+			<br />
+
+			<br />
+			𒅒 (🧪Test Page)</MagicLink
 		>&thinsp;&&thinsp;<MagicLink href="cover-only">Cover-Only</MagicLink>&thinsp;
 	</div>
 </Magic>
@@ -706,7 +710,6 @@
 		object: 'page',
 		id: '00ab16ed-9990-405b-ad93-af936fbebdce',
 		created_time: '2021-11-03T07:55:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: null,
 		icon: {
 			type: 'emoji',
@@ -820,7 +823,6 @@
 		object: 'page',
 		id: '00ab16ed-9990-405b-ad93-af936fbebdce',
 		created_time: '2021-11-03T07:55:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: null,
 		icon: {
 			type: 'emoji',
@@ -922,7 +924,6 @@
 		object: 'page',
 		id: '00ab16ed-9990-405b-ad93-af936fbebdce',
 		created_time: '2021-11-03T07:55:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: null,
 		icon: {
 			type: 'emoji',
@@ -1220,7 +1221,6 @@
 		object: 'page',
 		id: '00ab16ed-9990-405b-ad93-af936fbebdce',
 		created_time: '2021-11-03T07:55:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: null,
 		icon: {
 			type: 'emoji',

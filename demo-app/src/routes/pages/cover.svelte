@@ -4,11 +4,15 @@
 	import BulletedListItem from '$lib/notion2svelte/BulletedListItem.svelte';
 	import Callout from '$lib/notion2svelte/Callout.svelte';
 	import ChildPage from '$lib/notion2svelte/ChildPage.svelte';
+	import ColumnList from '$lib/notion2svelte/ColumnList.svelte';
+	import Column from '$lib/notion2svelte/Column.svelte';
 	import Divider from '$lib/notion2svelte/Divider.svelte';
+	import Embed from '$lib/notion2svelte/Embed.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
+	import Equation from '$lib/notion2svelte/Equation.svelte';
 	import Magic from '$lib/notion2svelte/Magic.svelte';
 	import MagicLink from '$lib/notion2svelte/MagicLink.svelte';
 	import NumberedListItem from '$lib/notion2svelte/NumberedListItem.svelte';
@@ -31,7 +35,6 @@
 		object: 'page',
 		id: 'ddc1044b-b946-4de8-89f5-ec771d11276e',
 		created_time: '2021-11-01T20:39:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -331,7 +334,6 @@
 		object: 'page',
 		id: 'ddc1044b-b946-4de8-89f5-ec771d11276e',
 		created_time: '2021-11-01T20:39:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -450,7 +452,6 @@
 		object: 'page',
 		id: 'ddc1044b-b946-4de8-89f5-ec771d11276e',
 		created_time: '2021-11-01T20:39:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -549,7 +550,6 @@
 		object: 'page',
 		id: 'ddc1044b-b946-4de8-89f5-ec771d11276e',
 		created_time: '2021-11-01T20:39:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {

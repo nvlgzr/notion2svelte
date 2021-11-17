@@ -4,11 +4,15 @@
 	import BulletedListItem from '$lib/notion2svelte/BulletedListItem.svelte';
 	import Callout from '$lib/notion2svelte/Callout.svelte';
 	import ChildPage from '$lib/notion2svelte/ChildPage.svelte';
+	import ColumnList from '$lib/notion2svelte/ColumnList.svelte';
+	import Column from '$lib/notion2svelte/Column.svelte';
 	import Divider from '$lib/notion2svelte/Divider.svelte';
+	import Embed from '$lib/notion2svelte/Embed.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
+	import Equation from '$lib/notion2svelte/Equation.svelte';
 	import Magic from '$lib/notion2svelte/Magic.svelte';
 	import MagicLink from '$lib/notion2svelte/MagicLink.svelte';
 	import NumberedListItem from '$lib/notion2svelte/NumberedListItem.svelte';
@@ -31,7 +35,6 @@
 		object: 'page',
 		id: '8eb305de-5ebe-43a4-80cb-0ec7c9df5ab7',
 		created_time: '2021-11-03T07:11:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -133,7 +136,6 @@
 		object: 'page',
 		id: '8eb305de-5ebe-43a4-80cb-0ec7c9df5ab7',
 		created_time: '2021-11-03T07:11:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -249,7 +251,6 @@
 		object: 'page',
 		id: '8eb305de-5ebe-43a4-80cb-0ec7c9df5ab7',
 		created_time: '2021-11-03T07:11:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -345,7 +346,6 @@
 		object: 'page',
 		id: '8eb305de-5ebe-43a4-80cb-0ec7c9df5ab7',
 		created_time: '2021-11-03T07:11:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {
@@ -427,7 +427,7 @@
 		object: 'block',
 		id: '1a594bac-9024-44cb-90c6-f68533216ef7',
 		created_time: '2021-11-03T07:11:00.000Z',
-		last_edited_time: '2021-11-06T00:26:00.000Z',
+		last_edited_time: '2021-11-16T03:58:00.000Z',
 		has_children: false,
 		archived: false,
 		type: 'paragraph',
@@ -453,7 +453,7 @@
 				{
 					type: 'text',
 					text: {
-						content: 'bells and whistles page',
+						content: 'kitchen sink page',
 						link: {
 							url: '/6bca4379f36245a690cfd35beebba87a'
 						}
@@ -466,7 +466,7 @@
 						code: false,
 						color: 'default'
 					},
-					plain_text: 'bells and whistles page',
+					plain_text: 'kitchen sink page',
 					href: '/6bca4379f36245a690cfd35beebba87a'
 				},
 				{
@@ -490,9 +490,7 @@
 		}
 	}}
 	><div>
-		With any luck, this should link to the&thinsp;<a href="bells-and-whistles"
-			>bells and whistles page</a
-		>.
+		With any luck, this should link to the&thinsp;<a href="kitchen-sink">kitchen sink page</a>.
 	</div>
 </Magic>
 <br style="display:none;" />
@@ -501,7 +499,6 @@
 		object: 'page',
 		id: '8eb305de-5ebe-43a4-80cb-0ec7c9df5ab7',
 		created_time: '2021-11-03T07:11:00.000Z',
-		last_edited_time: '2021-11-12T06:26:00.000Z',
 		cover: {
 			type: 'external',
 			external: {

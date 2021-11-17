@@ -7,10 +7,12 @@
 	import ColumnList from '$lib/notion2svelte/ColumnList.svelte';
 	import Column from '$lib/notion2svelte/Column.svelte';
 	import Divider from '$lib/notion2svelte/Divider.svelte';
+	import Embed from '$lib/notion2svelte/Embed.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
+	import Equation from '$lib/notion2svelte/Equation.svelte';
 	import Magic from '$lib/notion2svelte/Magic.svelte';
 	import MagicLink from '$lib/notion2svelte/MagicLink.svelte';
 	import NumberedListItem from '$lib/notion2svelte/NumberedListItem.svelte';
@@ -30,7 +32,6 @@
 		object: 'page',
 		id: '97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82',
 		created_time: '2021-10-31T06:26:00.000Z',
-		last_edited_time: '2021-11-13T07:28:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -141,7 +142,6 @@
 		object: 'page',
 		id: '97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82',
 		created_time: '2021-10-31T06:26:00.000Z',
-		last_edited_time: '2021-11-13T07:28:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -255,7 +255,6 @@
 		object: 'page',
 		id: '97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82',
 		created_time: '2021-10-31T06:26:00.000Z',
-		last_edited_time: '2021-11-13T07:28:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -372,7 +371,6 @@
 		object: 'page',
 		id: '97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82',
 		created_time: '2021-10-31T06:26:00.000Z',
-		last_edited_time: '2021-11-13T07:28:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -678,8 +676,8 @@
 			value="red"><strong>colored text</strong></InlineColor
 		>, and children…<span slot="children"
 			><div>…like this</div>
-			<BulletedListItem>"and this"</BulletedListItem>
-			<BulletedListItem>"and this"</BulletedListItem>
+			<BulletedListItem>and this</BulletedListItem>
+			<BulletedListItem>and this</BulletedListItem>
 			<Toggle
 				>Oh, and also…
 				<span slot="children"
@@ -695,7 +693,6 @@
 		object: 'page',
 		id: '97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82',
 		created_time: '2021-10-31T06:26:00.000Z',
-		last_edited_time: '2021-11-13T07:28:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {
@@ -788,7 +785,6 @@
 		object: 'page',
 		id: '97c150a6-4f39-4fd5-b10b-8e8cc0d2ec82',
 		created_time: '2021-10-31T06:26:00.000Z',
-		last_edited_time: '2021-11-13T07:28:00.000Z',
 		cover: null,
 		icon: null,
 		parent: {

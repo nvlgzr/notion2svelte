@@ -623,3 +623,187 @@
 	><div />
 </Magic>
 <br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
+		created_time: '2021-11-15T07:01:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'embeds',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'embeds',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Embeds',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Embeds',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Embeds-3eb9830ee68e4c5d81712b75660a2e34',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'eac0c3f3-1008-4d0f-86bb-c142608a9504',
+		created_time: '2021-11-15T22:01:00.000Z',
+		last_edited_time: '2021-11-15T22:10:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'embed',
+		embed: {
+			caption: [],
+			url: 'https://codepen.io/leandrosimoes/pen/VqZxaG'
+		}
+	}}><Embed url="https://codepen.io/leandrosimoes/pen/VqZxaG" /></Magic
+>
+<br style="display:none;" />
+<Magic
+	page={{
+		object: 'page',
+		id: '3eb9830e-e68e-4c5d-8171-2b75660a2e34',
+		created_time: '2021-11-15T07:01:00.000Z',
+		cover: null,
+		icon: null,
+		parent: {
+			type: 'database_id',
+			database_id: 'c317033a-f18a-479f-bbfb-7072cc7f53da'
+		},
+		archived: false,
+		properties: {
+			Slug: {
+				id: 'Yj%3E%3C',
+				type: 'rich_text',
+				rich_text: [
+					{
+						type: 'text',
+						text: {
+							content: 'embeds',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'embeds',
+						href: null
+					}
+				]
+			},
+			Status: {
+				id: 'Yyjg',
+				type: 'select',
+				select: {
+					id: '2d2d6d67-3785-4f26-97e0-02ec594cb931',
+					name: 'Publish me!',
+					color: 'pink'
+				}
+			},
+			URL: {
+				id: 'lKGS',
+				type: 'url',
+				url: null
+			},
+			Title: {
+				id: 'title',
+				type: 'title',
+				title: [
+					{
+						type: 'text',
+						text: {
+							content: 'Embeds',
+							link: null
+						},
+						annotations: {
+							bold: false,
+							italic: false,
+							strikethrough: false,
+							underline: false,
+							code: false,
+							color: 'default'
+						},
+						plain_text: 'Embeds',
+						href: null
+					}
+				]
+			}
+		},
+		url: 'https://www.notion.so/Embeds-3eb9830ee68e4c5d81712b75660a2e34',
+		blocks: []
+	}}
+	block={{
+		object: 'block',
+		id: 'ce5320e8-4f0a-47df-a7e1-440f5f761fe0',
+		created_time: '2021-11-15T22:09:00.000Z',
+		last_edited_time: '2021-11-15T22:10:00.000Z',
+		has_children: false,
+		archived: false,
+		type: 'embed',
+		embed: {
+			caption: [],
+			url: 'https://codepen.io/JacobStone/pen/GfLEn'
+		}
+	}}><Embed url="https://codepen.io/JacobStone/pen/GfLEn" /></Magic
+>
+<br style="display:none;" />
