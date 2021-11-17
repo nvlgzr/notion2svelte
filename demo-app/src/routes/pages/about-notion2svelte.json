@@ -2,7 +2,7 @@
   "object": "page",
   "id": "2c97ea2f-4abe-4fcb-80ed-0e478560ab04",
   "created_time": "2021-11-09T21:40:00.000Z",
-  "last_edited_time": "2021-11-17T05:08:00.000Z",
+  "last_edited_time": "2021-11-17T21:49:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -18,7 +18,7 @@
         {
           "type": "text",
           "text": {
-            "content": "index",
+            "content": "about-notion2svelte",
             "link": null
           },
           "annotations": {
@@ -29,7 +29,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "index",
+          "plain_text": "about-notion2svelte",
           "href": null
         }
       ]
@@ -76,18 +76,30 @@
   "blocks": [
     {
       "object": "block",
-      "id": "b2ceba29-49e0-4c84-bb5c-9f0c6471b502",
-      "created_time": "2021-11-15T10:51:00.000Z",
-      "last_edited_time": "2021-11-15T21:31:00.000Z",
+      "id": "bd211e29-c900-4170-a3a9-bdf075cacdb2",
+      "created_time": "2021-11-17T21:06:00.000Z",
+      "last_edited_time": "2021-11-17T21:26:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "b2ceba29-49e0-4c84-bb5c-9f0c6471b502",
+      "created_time": "2021-11-15T10:51:00.000Z",
+      "last_edited_time": "2021-11-17T21:26:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "callout",
+      "callout": {
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "\"What am I looking at?\"",
+              "content": "What am I looking at here?",
               "link": null
             },
             "annotations": {
@@ -98,17 +110,21 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "\"What am I looking at?\"",
+            "plain_text": "What am I looking at here?",
             "href": null
           }
-        ]
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "😳"
+        }
       }
     },
     {
       "object": "block",
       "id": "7f6c24c0-dda1-4f00-96dd-4919541eb829",
       "created_time": "2021-11-15T10:51:00.000Z",
-      "last_edited_time": "2021-11-17T03:58:00.000Z",
+      "last_edited_time": "2021-11-17T06:26:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -153,7 +169,7 @@
           {
             "type": "text",
             "text": {
-              "content": ", a command-line tool for transforming Notion pages into websites of arbitrary complexity. But what does that mean, exactly? Well, at a basic level, it means that ",
+              "content": ", a command-line tool for transforming Notion pages into websites of arbitrary complexity.",
               "link": null
             },
             "annotations": {
@@ -164,7 +180,83 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": ", a command-line tool for transforming Notion pages into websites of arbitrary complexity. But what does that mean, exactly? Well, at a basic level, it means that ",
+            "plain_text": ", a command-line tool for transforming Notion pages into websites of arbitrary complexity.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "224e9e70-0067-4361-92e8-76c0920ed6c8",
+      "created_time": "2021-11-17T21:26:00.000Z",
+      "last_edited_time": "2021-11-17T21:26:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "0ee20d5c-7d9e-4a38-91d2-0a4ee6d72c71",
+      "created_time": "2021-11-17T06:26:00.000Z",
+      "last_edited_time": "2021-11-17T21:06:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "callout",
+      "callout": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "But what does that mean, exactly?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "But what does that mean, exactly?",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "🤔"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "5b6cd08f-56bd-4dea-8c59-aac3da836b23",
+      "created_time": "2021-11-17T06:27:00.000Z",
+      "last_edited_time": "2021-11-17T21:41:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Well, at a basic level, it means that ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Well, at a basic level, it means that ",
             "href": null
           },
           {
@@ -206,21 +298,9 @@
     },
     {
       "object": "block",
-      "id": "aa590e7e-cfa8-42c4-8e2c-0a3ce9fcf4b4",
-      "created_time": "2021-11-15T11:01:00.000Z",
-      "last_edited_time": "2021-11-15T11:01:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "text": []
-      }
-    },
-    {
-      "object": "block",
       "id": "dc331323-bbc1-4741-9fc0-aad0e89eeb9b",
       "created_time": "2021-11-15T11:01:00.000Z",
-      "last_edited_time": "2021-11-17T03:58:00.000Z",
+      "last_edited_time": "2021-11-17T21:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "image",
@@ -246,25 +326,25 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/48603e70-6ae6-4dd3-a047-51e131f83e57/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211117T052540Z&X-Amz-Expires=3600&X-Amz-Signature=05fd2b2736b67443efcfe2fa606752001dbf427f76be3c4730cfc62cb8e94bc7&X-Amz-SignedHeaders=host",
-          "expiry_time": "2021-11-17T06:25:40.174Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/48603e70-6ae6-4dd3-a047-51e131f83e57/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211117T215827Z&X-Amz-Expires=3600&X-Amz-Signature=54ef72af9265aae02a957f37f03bab92a42a4a1ee1c51d33077f045db77766d4&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2021-11-17T22:58:27.704Z"
         }
       }
     },
     {
       "object": "block",
-      "id": "2ba94893-3640-4fba-95b7-7a16e1257134",
-      "created_time": "2021-11-15T11:01:00.000Z",
-      "last_edited_time": "2021-11-17T03:59:00.000Z",
+      "id": "a92c5462-8328-49d9-a04f-1100dd81e5f6",
+      "created_time": "2021-11-17T21:27:00.000Z",
+      "last_edited_time": "2021-11-17T21:35:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "heading_2",
-      "heading_2": {
+      "type": "paragraph",
+      "paragraph": {
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "What sorts of Notion features are supported?",
+              "content": "More specifically, ",
               "link": null
             },
             "annotations": {
@@ -275,7 +355,686 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "What sorts of Notion features are supported?",
+            "plain_text": "More specifically, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " outputs valid ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " outputs valid ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " files right into the SvelteKit directory of your choosing. This, combined with custom components that you define in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " files right into the SvelteKit directory of your choosing. This, combined with custom components that you define in ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "$lib/notion2svelte/",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "$lib/notion2svelte/",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " gives you complete control over rendering and behavior. Once thus exported, your Notion pages are virtually indistinguishable from hand-written ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " gives you complete control over rendering and behavior. Once thus exported, your Notion pages are virtually indistinguishable from hand-written ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " components. This means you can mix and match to your heart's content. You can even make manual adjustments to ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " components. This means you can mix and match to your heart's content. You can even make manual adjustments to ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "'s output, using Notion as more of a drafting space than a CMS.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "'s output, using Notion as more of a drafting space than a CMS.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "04f51424-fbad-44c9-a310-0e29e119b056",
+      "created_time": "2021-11-17T21:35:00.000Z",
+      "last_edited_time": "2021-11-17T21:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "And because ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "And because ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "'s output behaves just like the rest of your ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "'s output behaves just like the rest of your ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " files, you can (I'd argue ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " files, you can (I'd argue ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "should",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "should",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ") check them in with the rest of your source. This gives you all the benefits of change history, diffs, et al that comes with git (or whatever you're using for source control).",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ") check them in with the rest of your source. This gives you all the benefits of change history, diffs, et al that comes with git (or whatever you're using for source control).",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "3c58a99a-4b8b-40fe-9c0f-c5b6a5c40d6e",
+      "created_time": "2021-11-17T21:40:00.000Z",
+      "last_edited_time": "2021-11-17T21:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "¿Claro?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "¿Claro?",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "6c8a2b4c-6712-475e-87ad-64d44905b126",
+      "created_time": "2021-11-17T21:25:00.000Z",
+      "last_edited_time": "2021-11-17T21:25:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "a40f69f7-ca13-440a-a94a-238ad5bb3c6d",
+      "created_time": "2021-11-17T06:14:00.000Z",
+      "last_edited_time": "2021-11-17T21:41:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "callout",
+      "callout": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I think what I meant was, \"Why is what I'm looking at so ugly?",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I think what I meant was, \"Why is what I'm looking at so ugly?",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "🧐"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "569a7534-bfd4-4ccf-a4c4-c98bba7bb704",
+      "created_time": "2021-11-17T06:15:00.000Z",
+      "last_edited_time": "2021-11-17T21:41:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Three reasons, really.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Three reasons, really.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "d2f810a2-b77a-4d0f-b62d-eaa1c9deed6d",
+      "created_time": "2021-11-17T06:19:00.000Z",
+      "last_edited_time": "2021-11-17T21:41:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I decided early on to leave the SvelteKit demo app's styles mostly untouched, for better or worse.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I decided early on to leave the SvelteKit demo app's styles mostly untouched, for better or worse.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "b2e36b76-af8d-46ab-b0f6-b2bc5e8b08d7",
+      "created_time": "2021-11-17T06:22:00.000Z",
+      "last_edited_time": "2021-11-17T21:41:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "All of these components were styled with the utmost haste in order to get something out the door before 2022 🙀. In most cases, I let GitHub Copilot take the first stab at each component's styles, and then tweaked the results to be a little more presentable.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "All of these components were styled with the utmost haste in order to get something out the door before 2022 🙀. In most cases, I let GitHub Copilot take the first stab at each component's styles, and then tweaked the results to be a little more presentable.",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "9619e880-65f8-43db-ab1a-8671facddcd6",
+          "created_time": "2021-11-17T19:38:00.000Z",
+          "last_edited_time": "2021-11-17T19:41:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "(Also, I just ran out of steam with some of this stuff — e.g., how to properly space annotated content so that the space around the formatted letters — and could probably use some help. See something you'd like improved? Hit me up in the GitHub chat!)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "(Also, I just ran out of steam with some of this stuff — e.g., how to properly space annotated content so that the space around the formatted letters — and could probably use some help. See something you'd like improved? Hit me up in the GitHub chat!)",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "a7e9316a-b079-4c2c-a432-558bd394b4ce",
+      "created_time": "2021-11-17T06:24:00.000Z",
+      "last_edited_time": "2021-11-17T21:41:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " is all about creative freedom. It's ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " is all about creative freedom. It's ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "not",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "not",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " about doing your design work for you. 🤪 I hope that leaving the demo UX unpolished will make it clear that notion2svelte is meant to be tinkered with.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " about doing your design work for you. 🤪 I hope that leaving the demo UX unpolished will make it clear that notion2svelte is meant to be tinkered with.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "2ba94893-3640-4fba-95b7-7a16e1257134",
+      "created_time": "2021-11-15T11:01:00.000Z",
+      "last_edited_time": "2021-11-17T21:42:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "callout",
+      "callout": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ok, cool! What sorts of Notion features does ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ok, cool! What sorts of Notion features does ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " support?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " support?",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "😎"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "e89663ea-4149-4ce6-ac11-5a481ce907c5",
+      "created_time": "2021-11-17T21:42:00.000Z",
+      "last_edited_time": "2021-11-17T21:47:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Most of the basics you'd need for a personal website",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Most of the basics you'd need for a personal website",
             "href": null
           }
         ]
@@ -305,7 +1064,7 @@
               "object": "block",
               "id": "700e5644-5a86-45cc-b7e8-c221e6240b5d",
               "created_time": "2021-11-15T11:02:00.000Z",
-              "last_edited_time": "2021-11-17T04:00:00.000Z",
+              "last_edited_time": "2021-11-17T21:43:00.000Z",
               "has_children": true,
               "archived": false,
               "type": "bulleted_list_item",
@@ -598,6 +1357,36 @@
                 },
                 {
                   "object": "block",
+                  "id": "573055da-f676-41d7-afe1-35162d19644b",
+                  "created_time": "2021-11-17T21:43:00.000Z",
+                  "last_edited_time": "2021-11-17T21:43:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "embed",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "embed",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
                   "id": "4339d578-e035-4642-8944-6b1990382684",
                   "created_time": "2021-11-15T11:03:00.000Z",
                   "last_edited_time": "2021-11-15T11:20:00.000Z",
@@ -830,7 +1619,7 @@
                   "object": "block",
                   "id": "af4aadb0-a22d-4179-9ea6-cb18b7e46908",
                   "created_time": "2021-11-15T11:04:00.000Z",
-                  "last_edited_time": "2021-11-17T03:59:00.000Z",
+                  "last_edited_time": "2021-11-17T21:44:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -1043,7 +1832,7 @@
                       {
                         "type": "text",
                         "text": {
-                          "content": ")",
+                          "content": ")**",
                           "link": null
                         },
                         "annotations": {
@@ -1054,7 +1843,7 @@
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": ")",
+                        "plain_text": ")**",
                         "href": null
                       }
                     ]
@@ -1094,7 +1883,7 @@
                   "object": "block",
                   "id": "882e71e5-5bdc-4d6f-9941-652d8346748c",
                   "created_time": "2021-11-15T11:04:00.000Z",
-                  "last_edited_time": "2021-11-17T04:03:00.000Z",
+                  "last_edited_time": "2021-11-17T21:44:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -1158,7 +1947,7 @@
                       {
                         "type": "text",
                         "text": {
-                          "content": "**",
+                          "content": "†",
                           "link": null
                         },
                         "annotations": {
@@ -1169,7 +1958,7 @@
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "**",
+                        "plain_text": "†",
                         "href": null
                       }
                     ]
@@ -1263,11 +2052,11 @@
       "object": "block",
       "id": "230bc242-d407-4cec-badd-f05692c4048d",
       "created_time": "2021-11-17T04:03:00.000Z",
-      "last_edited_time": "2021-11-17T04:06:00.000Z",
-      "has_children": true,
+      "last_edited_time": "2021-11-17T21:49:00.000Z",
+      "has_children": false,
       "archived": false,
-      "type": "callout",
-      "callout": {
+      "type": "paragraph",
+      "paragraph": {
         "text": [
           {
             "type": "text",
@@ -1281,7 +2070,7 @@
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "default"
+              "color": "blue"
             },
             "plain_text": "*See the ",
             "href": null
@@ -1298,7 +2087,7 @@
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "default"
+              "color": "blue"
             },
             "plain_text": "Child Page",
             "href": null
@@ -1315,49 +2104,73 @@
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "default"
+              "color": "blue"
             },
             "plain_text": " section below to see the wacky thing I decided to have them do for this demo.",
             "href": null
           }
-        ],
-        "icon": {
-          "type": "emoji",
-          "emoji": "✳️"
-        }
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "4190ab7e-78f8-4aba-bfb8-8ad4cab6b7da",
-          "created_time": "2021-11-17T04:04:00.000Z",
-          "last_edited_time": "2021-11-17T04:11:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "**Page mentions within the same database should work automatically when published to the same notion2svelte output directory. Other than that, notion2svelte currently has limited support for mentions. Is that a deal-breaker for you? Hit me up on the GitHub D!",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "**Page mentions within the same database should work automatically when published to the same notion2svelte output directory. Other than that, notion2svelte currently has limited support for mentions. Is that a deal-breaker for you? Hit me up on the GitHub D!",
-                "href": null
-              }
-            ]
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "4190ab7e-78f8-4aba-bfb8-8ad4cab6b7da",
+      "created_time": "2021-11-17T04:04:00.000Z",
+      "last_edited_time": "2021-11-17T21:49:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "**As of this writing, block-level colors aren't reported by the Notion API.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue"
+            },
+            "plain_text": "**As of this writing, block-level colors aren't reported by the Notion API.",
+            "href": null
           }
-        }
-      ]
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "42fb0f6d-ab96-4fa5-96d8-eaa1d388b944",
+      "created_time": "2021-11-17T21:44:00.000Z",
+      "last_edited_time": "2021-11-17T21:49:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "†Page mentions within the same database should work automatically when published to the same notion2svelte output directory. Other than that, notion2svelte currently has limited support for mentions. Is that a deal-breaker for you? Hit me up on the GitHub D!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue"
+            },
+            "plain_text": "†Page mentions within the same database should work automatically when published to the same notion2svelte output directory. Other than that, notion2svelte currently has limited support for mentions. Is that a deal-breaker for you? Hit me up on the GitHub D!",
+            "href": null
+          }
+        ]
+      }
     },
     {
       "object": "block",
@@ -1413,7 +2226,7 @@
           "object": "block",
           "id": "3ebbfa5b-9c78-40cb-887b-d456c0313826",
           "created_time": "2021-11-15T23:12:00.000Z",
-          "last_edited_time": "2021-11-15T23:12:00.000Z",
+          "last_edited_time": "2021-11-17T06:33:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "heading_1",
@@ -1422,7 +2235,7 @@
               {
                 "type": "text",
                 "text": {
-                  "content": "But wait, there's more!",
+                  "content": "Is that it?",
                   "link": null
                 },
                 "annotations": {
@@ -1433,7 +2246,7 @@
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "But wait, there's more!",
+                "plain_text": "Is that it?",
                 "href": null
               }
             ]
@@ -1469,7 +2282,7 @@
       "object": "block",
       "id": "40a80ce4-69f1-48d0-a5f3-e3c86842ab76",
       "created_time": "2021-11-15T11:16:00.000Z",
-      "last_edited_time": "2021-11-17T04:13:00.000Z",
+      "last_edited_time": "2021-11-17T06:33:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1478,7 +2291,7 @@
           {
             "type": "text",
             "text": {
-              "content": "We've got ",
+              "content": "Naaaaah! We've got ",
               "link": null
             },
             "annotations": {
@@ -1489,7 +2302,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "We've got ",
+            "plain_text": "Naaaaah! We've got ",
             "href": null
           },
           {
@@ -1626,6 +2439,108 @@
               "color": "default"
             },
             "plain_text": " automatically handles arbitrary levels of indentation (including 1./a./i. outlining), page covers, and page icons. There are still some things — e.g., synced blocks, databases, and link previews — that notion2svelte doesn't yet handle, but all the basics are here.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "bef27992-ab6d-4a2b-85e2-c0e6e8921094",
+      "created_time": "2021-11-17T06:28:00.000Z",
+      "last_edited_time": "2021-11-17T06:33:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "All of which is enough to handle the needs of your average words + pictures blogster. But if that's all I'd wanted, I could have used some ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "All of which is enough to handle the needs of your average words + pictures blogster. But if that's all I'd wanted, I could have used some ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "prior",
+              "link": {
+                "url": "https://github.com/leveluptuts/svelte-notion"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "prior",
+            "href": "https://github.com/leveluptuts/svelte-notion"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "art",
+              "link": {
+                "url": "https://github.com/search?q=svelte+notion"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "art",
+            "href": "https://github.com/search?q=svelte+notion"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". (Lord knows most of those projects are probably better-engineered!)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". (Lord knows most of those projects are probably better-engineered!)",
             "href": null
           }
         ]
@@ -3557,12 +4472,64 @@
       "object": "block",
       "id": "fc0662ca-3bb0-4700-b769-aca9086d649c",
       "created_time": "2021-11-15T11:45:00.000Z",
-      "last_edited_time": "2021-11-15T11:45:00.000Z",
+      "last_edited_time": "2021-11-17T05:31:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": []
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "…git make sit safe with visual diffs before the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": true,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "…git make sit safe with visual diffs before the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "actual",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": true,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "actual",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " publishing happens, and, of course, your toolkit is as flexible as svelte itself. In fact, you could probably use notion2svelte with an Astro project with no trouble",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": true,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " publishing happens, and, of course, your toolkit is as flexible as svelte itself. In fact, you could probably use notion2svelte with an Astro project with no trouble",
+            "href": null
+          }
+        ]
       }
     },
     {

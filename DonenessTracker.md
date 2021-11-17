@@ -32,4 +32,3 @@ status: in progress, render: true
 - Implement `breadcrumb`?
 - Implement `link_preview` (Not sure how to make one of these in Notion 😬)
 - Add support for auto-linking raw URLs
-- Big, multi-faceted index rendering bug. See "Bug: Rendering failures on index route"
