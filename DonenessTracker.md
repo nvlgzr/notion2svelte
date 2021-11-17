@@ -8,17 +8,6 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
-- Provide all components with standard, highly-reduced inputs from the incoming JSON:
-  - notion
-    - page
-      - id
-      - title
-      - slug
-      - created_on
-      - last_edited
-    - block*
-      - id
-      - Set `HEAVY_PAYLOADS=true` in .env to send the block's entire JSON instead of just the ID, in order to support Inspection mode.
 - Update ReadMe
   - Remember to call out keyboard interactions:
     - O: Displays sub-pages. Not sure why I chose 'O'
@@ -43,3 +32,4 @@ status: in progress, render: true
 - Implement `breadcrumb`?
 - Implement `link_preview` (Not sure how to make one of these in Notion 😬)
 - Add support for auto-linking raw URLs
+- Big, multi-faceted index rendering bug. See "Bug: Rendering failures on index route"

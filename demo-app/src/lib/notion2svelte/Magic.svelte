@@ -7,8 +7,7 @@
 	import { writable } from 'svelte/store';
 	import KeyStroke from 'svelte-keystroke';
 
-	// export let page; // Not used in this instance.
-	export let block;
+	export let sourceJSON;
 
 	const storageKey = '@nvlgzr.ouroboros.inspectorModeOn';
 	const defaultValue = false;
@@ -41,7 +40,7 @@
 		on:mouseleave={() => (showJSON = false)}
 	>
 		<pre transition:scale={{ duration: 300 }}>
-{JSON.stringify(block, null, 2)}
+{JSON.stringify(sourceJSON, null, 2)}
       </pre>
 	</div>
 {/if}
