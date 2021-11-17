@@ -55,7 +55,7 @@
 
 <Divider />
 
-<h1>Published Pages</h1>
+<h1>notion2svelte Test Pages</h1>
 
 <div class="container">
 	{#each pages as p}

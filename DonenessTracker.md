@@ -8,6 +8,17 @@ status: in progress, render: true
 
 # 🐝 Tasks/Ideas
 
+- Replace standard HTML outputs with the more powerful Svelte components. For the MVP implementation, just output whatever we currently use… paragraph→div, heading_1→h1.
+- Provide all components with standard, highly-reduced inputs from the incoming JSON:
+  - page
+    - id
+    - title
+    - slug
+    - created_on
+    - last_edited
+  - block*
+    - id
+    - Set `HEAVY_PAYLOADS=true` in .env to send the block's entire JSON instead of just the ID, in order to support Inspection mode.
 - Update ReadMe
   - Remember to call out keyboard interactions:
     - O: Displays sub-pages. Not sure why I chose 'O'
