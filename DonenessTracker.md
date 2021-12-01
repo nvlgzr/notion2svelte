@@ -1,18 +1,13 @@
-§goal(
-I can run `npm run dev -- --out="~/2-Ongoing/navelgazer/navelgazer.club/src/routes/the-storyteller/"` with 3 Notion pages in the "The Navelgazer Club" database, 2 set to "to publish" and 1 set to "probably trash", and get two pages, named exactly the title of each "to publish" page + ".svelte", and containing exactly an h1 of the title and subsequent paragraphs for every block, with "UNSUPPORTED" output for unsupported blocks. 😩
-){
-status: in progress, render: true
-}
-
 ## 🐞 Known Bugs
 
 # 🐝 Tasks/Ideas
 
-- Update ReadMe
+- Update **About _notion2svelte_**
   - Remember to call out keyboard interactions:
     - O: Displays sub-pages. Not sure why I chose 'O'
     - D: Distraction mode (shows external links)
     - I: Inspector mode
+- Create Guide
 - Publish to npm
 
 # Icebox

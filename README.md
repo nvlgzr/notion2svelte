@@ -1,14 +1,80 @@
-![Logo mashup](notion2svelte.png)
+<div id="top"></div>
 
-# notion2svelte
+<!-- PROJECT SHIELDS -->
+<!-- [![Contributors][contributors-shield]][contributors-url] -->
+<!-- [![Forks][forks-shield]][forks-url] -->
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-When `notion2svelte` is ready, it will allow me to add a page to my Pages database in Notion, mark it as "ready to publish", and, once notion2svelte has been run, have that page committed as a new, Svelte-native page in my website's repo, where it's just one quick push to actually publish.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/nvlgzr/notion2svelte">
+    <img src="notion2svelte.png" alt="Simple mashup of Notion & Svelte logos" width="100" height="100">
+  </a>
 
-🤞
+<h3 align="center">@nvlgzr/notion2svelte (n2s)</h3>
+  <p align="center">
+    Fetches pages from Notion and renders them as .svelte files
+    <br />
+    <br />
+    <a href="https://notion2svelte.vercel.app/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/nvlgzr/notion2svelte/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/nvlgzr/notion2svelte/discussions/1">Request Feature</a>
+    ·
+    <a href="https://github.com/nvlgzr/notion2svelte/discussions/1">Say Hi</a>
+  </p>
+</div>
 
-(Note: to use `npm run magic`, firt install `entr`. On my Mac, this involved no more than `brew install entr`)
 
-## Current Progress:
+<!-- ABOUT THE PROJECT -->
+## Summary
 
-https://user-images.githubusercontent.com/88254481/134451893-499cf04e-4eb2-47f1-8b20-108872c2e369.mov
+Presumably if you're reading this, you don't need convincing that Notion.so is one of the most pleasant ways to express your thoughts through your fingertips. And presumably you also need no convincing when it comes to choosing SvelteKit (or at least Svelte) as your tool of choice for wrangling HTML, CSS, and (sometimes) JS. If you _do_ need convincing, try [this](https://www.google.com/search?q=why+i+love+svelte&rlz=1C5CHFA_enUS824US824&oq=why+i+love+svelte&aqs=chrome..69i57j33i22i29i30.2331j0j7&sourceid=chrome&ie=UTF-8) and [this](https://www.google.com/search?q=why+i+love+notion&rlz=1C5CHFA_enUS824US824&ei=cXimYbmsMJW70PEPtc6GmAI&ved=0ahUKEwj5qNma5sD0AhWVHTQIHTWnASMQ4dUDCA8&uact=5&oq=why+i+love+notion&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEOgcIABBHELADOgUILhCABDoGCAAQFhAeSgQIQRgAUK8NWN0RYNgUaAJwAngAgAFhiAHmA5IBATaYAQCgAQHIAQjAAQE&sclient=gws-wiz).
 
+So the basic goal is clear:
+
+- Write pages in Notion
+- Run notion2svelte
+- Magically see that page content appear in your Svelte app
+
+![Page in Notion → notion2svelte → ready-to-render .svelte file](demo-app/static/assets/about-notion2svelte/dc331323-bbc1-4741-9fc0-aad0e89eeb9b.png)
+
+For more about what sets _notion2svelte_ apart, how it works, etc., check out [Introducing _notion2svelte_](https://notion2svelte.vercel.app/pages/about-notion2svelte).
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+The premise is simple: point _notion2svelte_ at the database of your choice, and watch as it spits working _.svelte_ files into your existing project. Still, this is early days, so the experience is far from optimized.
+
+With that caveat firmly on the table, here's [The Step-by-Step Guide to _notion2svelte_](https://notion2svelte.vercel.app/pages/guide)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the [MIT License](LICENSE).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/nvlgzr/notion2svelte.svg?style=for-the-badge
+[contributors-url]: https://github.com/nvlgzr/notion2svelte/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/nvlgzr/notion2svelte.svg?style=for-the-badge
+[forks-url]: https://github.com/nvlgzr/notion2svelte/network/members
+[stars-shield]: https://img.shields.io/github/stars/nvlgzr/notion2svelte.svg?style=for-the-badge
+[stars-url]: https://github.com/nvlgzr/notion2svelte/stargazers
+[issues-shield]: https://img.shields.io/github/issues/nvlgzr/notion2svelte.svg?style=for-the-badge
+[issues-url]: https://github.com/nvlgzr/notion2svelte/issues
+[license-shield]: https://img.shields.io/github/license/nvlgzr/notion2svelte.svg?style=for-the-badge
+[license-url]: https://github.com/nvlgzr/notion2svelte/blob/main/LICENSE
