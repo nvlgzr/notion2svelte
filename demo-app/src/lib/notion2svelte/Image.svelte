@@ -3,12 +3,7 @@
 </script>
 
 <figure>
-	<img
-		width="100%"
-		height="100%"
-		src={url}
-		alt="Oops! We're missing its alt tag. Please let us know and we'll correct the issue ASAP!"
-	/>
+	<img width="100%" height="100%" src={url} />
 	<figcaption><slot style="margin-top: 0.75rem;" /></figcaption>
 </figure>
 
