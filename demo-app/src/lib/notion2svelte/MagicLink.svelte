@@ -40,5 +40,13 @@
 {#if $distractionsOn}
 	<a {href}><slot /></a>
 {:else}
-	<slot /><span style="color: hsl(0deg 0% 68%)">º</span>
+	<span title={`Links disabled. Type 'D' to toggle Distraction mode.`}>
+		<slot /><span style="color: hsl(0deg 0% 68%)">º</span>
+	</span>
 {/if}
+
+<style>
+	span {
+		cursor: pointer;
+	}
+</style>
