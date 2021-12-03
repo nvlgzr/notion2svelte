@@ -21,5 +21,7 @@
 
 	img {
 		width: 15vw;
+
+		filter: drop-shadow(0 0 0.5vw hsl(0, 0%, 0%, 0.5));
 	}
 </style>

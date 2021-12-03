@@ -12,6 +12,7 @@
 
 # Icebox
 
+- Implement `code` blocks
 - Implement `video` and `file` types
 - Add config for custom component names so that naming conflicts can be avoided.
 - Change the transformed page's Status to `Published` in Notion (w/appropriate .env override)
