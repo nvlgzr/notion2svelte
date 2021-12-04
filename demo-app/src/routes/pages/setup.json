@@ -1,0 +1,640 @@
+{
+  "object": "page",
+  "id": "8719f802-5098-40a6-b273-90c58f147f0a",
+  "created_time": "2021-12-03T06:36:00.000Z",
+  "last_edited_time": "2021-12-03T07:15:00.000Z",
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "c317033a-f18a-479f-bbfb-7072cc7f53da"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "Yj%3E%3C",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "setup",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "setup",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "Yyjg",
+      "type": "select",
+      "select": {
+        "id": "2d2d6d67-3785-4f26-97e0-02ec594cb931",
+        "name": "Publish me!",
+        "color": "pink"
+      }
+    },
+    "URL": {
+      "id": "lKGS",
+      "type": "url",
+      "url": null
+    },
+    "Title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "How to Set Up ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "How to Set Up ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "notion2svelte",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "notion2svelte",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/How-to-Set-Up-notion2svelte-8719f802509840a6b27390c58f147f0a",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "f80a6b5a-be1b-47c7-87cd-e45b44cc2726",
+      "created_time": "2021-12-03T06:38:00.000Z",
+      "last_edited_time": "2021-12-03T06:41:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Prerequisites",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Prerequisites",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "e015c1c5-66d2-436e-91df-15bdc8870472",
+      "created_time": "2021-12-03T06:38:00.000Z",
+      "last_edited_time": "2021-12-03T06:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Know what you're doing in Notion. Know what you're doing with Svelte/SvelteKit. I might be able to offer suggestions if you're struggling with either tool, but it's best if you arrive having already used Notion for awhile, and if you've already built a thing or two in Svelte.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Know what you're doing in Notion. Know what you're doing with Svelte/SvelteKit. I might be able to offer suggestions if you're struggling with either tool, but it's best if you arrive having already used Notion for awhile, and if you've already built a thing or two in Svelte.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "4b197425-d77f-4674-8656-f9b650e45932",
+      "created_time": "2021-12-03T06:41:00.000Z",
+      "last_edited_time": "2021-12-03T06:42:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "For all you beautiful n00bs out there, I'll be describing the process from start to finish, including publishing (for free!) to the likes of Vercel or Netlify. If that helps you, great. If you have other publishing needs, no problem! The output from ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "For all you beautiful n00bs out there, I'll be describing the process from start to finish, including publishing (for free!) to the likes of Vercel or Netlify. If that helps you, great. If you have other publishing needs, no problem! The output from ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " is just plain .svelte files. What you do with them is up to you. 😎",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " is just plain .svelte files. What you do with them is up to you. 😎",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "4d2532c3-427d-4aa4-b8fd-984b71334d68",
+      "created_time": "2021-12-03T06:51:00.000Z",
+      "last_edited_time": "2021-12-03T06:51:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "45ec11a8-bf7e-4d87-a517-728733c310db",
+      "created_time": "2021-12-03T06:43:00.000Z",
+      "last_edited_time": "2021-12-03T06:51:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "callout",
+      "callout": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Caveat",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Caveat",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "⚠️"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "119b6c01-1783-4785-8b1d-c73f40d65fb0",
+          "created_time": "2021-12-03T06:48:00.000Z",
+          "last_edited_time": "2021-12-03T07:07:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Version 1.0 is the MVP release. It's viable, at least for my purposes, but it's also ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Version 1.0 is the MVP release. It's viable, at least for my purposes, but it's also ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "minimal",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "minimal",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ", which means that I got things working ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ", which means that I got things working ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "good enough",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "good enough",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " and then moved on. If you think you've spotted an area for improvement, ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " and then moved on. If you think you've spotted an area for improvement, ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "chat me up in the Discussions",
+                  "link": {
+                    "url": "https://github.com/nvlgzr/notion2svelte/discussions/1"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "chat me up in the Discussions",
+                "href": "https://github.com/nvlgzr/notion2svelte/discussions/1"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ". If you ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ". If you ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "know",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "know",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " you've spotted an area for improvement because it's clearly a bug, 🐞, then I'd love to read your Steps to Reproduce ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " you've spotted an area for improvement because it's clearly a bug, 🐞, then I'd love to read your Steps to Reproduce ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "in the Issues",
+                  "link": {
+                    "url": "https://github.com/nvlgzr/notion2svelte/issues"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "in the Issues",
+                "href": "https://github.com/nvlgzr/notion2svelte/issues"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "!",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "!",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1f4962ac-3671-4f01-8cfa-08be8b0acefe",
+      "created_time": "2021-12-03T06:37:00.000Z",
+      "last_edited_time": "2021-12-03T06:51:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Getting Started",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Getting Started",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "14f2b0e4-0b35-445f-aa59-16868af65ed2",
+      "created_time": "2021-12-03T06:51:00.000Z",
+      "last_edited_time": "2021-12-03T06:52:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Honestly, I don't know yet. I need to ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Honestly, I don't know yet. I need to ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "npm  publish",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "npm  publish",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and run some test before I can write these docs. Hoping I can maybe do something like…",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and run some test before I can write these docs. Hoping I can maybe do something like…",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "7dde94df-7d1c-40f6-a01f-a4f600237050",
+          "created_time": "2021-12-03T06:50:00.000Z",
+          "last_edited_time": "2021-12-03T06:52:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "code",
+          "code": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "npx notion2svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "npx notion2svelte",
+                "href": null
+              }
+            ],
+            "language": "html"
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "eb57781f-7b6f-47c3-8c99-625b31117b53",
+      "created_time": "2021-12-03T07:15:00.000Z",
+      "last_edited_time": "2021-12-03T07:15:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "6c263360-b0bd-4202-b28a-9fae581504b6",
+      "created_time": "2021-12-03T06:52:00.000Z",
+      "last_edited_time": "2021-12-03T07:15:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "[tc: rest of setup instructions]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "[tc: rest of setup instructions]",
+            "href": null
+          }
+        ]
+      }
+    }
+  ]
+}
