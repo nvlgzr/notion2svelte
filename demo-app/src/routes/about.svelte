@@ -22,22 +22,15 @@
 	<h1>About this app</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
-
-	<!-- TODO lose the @next! -->
-	<pre>npm init svelte@next</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		This is the default Demo App installed by <a href="https://kit.svelte.dev">SvelteKit</a>,
+		modified for use with <a href="https://github.com/nvlgzr/notion2svelte">notion2svelte</a>.
 	</p>
 
 	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
+		I've left this page, the home page, and "TODOS" mostly untouched out of a combination of
+		laziness and a vague desire for you to see how easy it is to incorporate the output from <em
+			>notion2svelte</em
+		> into an existing SvelteKit project.
 	</p>
 </div>
 

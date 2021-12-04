@@ -107,6 +107,9 @@
 			</form>
 		</div>
 	{/each}
+
+	(I think this is kinda broken, but that's irrelevant to <em>notion2svelte</em>, so…just click
+	away. It's fine.)
 </div>
 
 <style>

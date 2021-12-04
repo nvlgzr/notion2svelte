@@ -19,12 +19,8 @@
 			</picture>
 		</div>
 
-		to your new<br />SvelteKit app
+		<span>to the SvelteKit Demo App + <strong>notion2svelte</strong>!</span>
 	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
 
 	<Counter />
 </section>
@@ -36,6 +32,10 @@
 		justify-content: center;
 		align-items: center;
 		flex: 1;
+	}
+
+	span {
+		align-items: center;
 	}
 
 	h1 {

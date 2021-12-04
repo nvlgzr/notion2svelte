@@ -2,13 +2,13 @@
 
 # 🐝 Tasks/Ideas
 
+- Publish to npm
+- Create Guide
 - Update **About _notion2svelte_**
   - Remember to call out keyboard interactions:
     - O: Displays sub-pages. Not sure why I chose 'O'
     - D: Distraction mode (shows external links)
     - I: Inspector mode
-- Create Guide
-- Publish to npm
 
 # Icebox
 
