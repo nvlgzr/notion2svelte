@@ -2,7 +2,7 @@
 	import divider from './divider.svg';
 </script>
 
-<img src={divider} alt="Fancy hr tag, aka section divider" />
+<img src={divider} alt="Fancy horizontal divider" />
 
 <style>
 	img {
