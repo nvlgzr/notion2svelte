@@ -1,22 +1,42 @@
 {
   "name": "@nvlgzr/notion2svelte",
+  "version": "0.0.1",
+  "description": "A command-line tool to transform Notion pages into .svelte files.",
+  "keywords": [
+    "notion",
+    "svelte",
+    "cli",
+    "command-line"
+  ],
+  "homepage": "https://notion2svelte.vercel.app/",
+  "bugs": {
+    "url": "https://github.com/nvlgzr/notion2svelte/issues"
+  },
+  "license": "ISC",
+  "author": "nvlgzr",
+  "files": [
+    "dist",
+    "src",
+    "package.json",
+    "README.md"
+  ],
   "type": "module",
-  "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "bin": {
+    "notion2svelte": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:/nvlgzr/notion2svelte"
+  },
   "scripts": {
     "run-once": "node index.js",
     "start": "./watch",
     "dev": "node -r dotenv/config index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@notionhq/client": "^0.3.1"
-  },
-  "devDependencies": {
+    "@notionhq/client": "^0.3.1",
     "dotenv": "^10.0.0",
     "romans": "^2.0.2"
   }

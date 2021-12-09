@@ -2,6 +2,7 @@
 
 # 🐝 Tasks/Ideas
 
+- Catch errors when _notion2svelte_ components aren't found in $lib/notion2svelte in order to improve error messages.
 - Publish to npm
 - Create Guide
 - Update **About _notion2svelte_**

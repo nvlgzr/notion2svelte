@@ -1,5 +1,0 @@
-#!/usr/local/bin/fish
-code .
-code ./index.js
-stree .
-npm run start
