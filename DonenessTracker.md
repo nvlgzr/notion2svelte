@@ -2,9 +2,37 @@
 
 # 🐝 Tasks/Ideas
 
+- Wrap all component renderings in separate try/catches so it's easier to track down bugs.
 - Catch errors when _notion2svelte_ components aren't found in $lib/notion2svelte in order to improve error messages.
 - Publish to npm
 - Create Guide
+  - Specificy Component interfaces
+    - ColumnList
+    - BulletedListItem
+    - Callout
+    - ChildPage
+    - Column
+    - Cover
+    - Divider
+    - divider
+    - Embed
+    - Equation
+    - Header
+    - HeroImage
+    - Icon
+    - Image
+    - IndentGroup
+    - InlineCode
+    - InlineColor
+    - Magic
+    - MagicLink
+    - NumberedListItem
+    - Paragraph
+    - Portal
+    - Quote
+    - Title
+    - TodoItem
+    - Toggle
 - Update **About _notion2svelte_**
   - Remember to call out keyboard interactions:
     - O: Displays sub-pages. Not sure why I chose 'O'

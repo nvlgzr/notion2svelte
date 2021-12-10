@@ -80,7 +80,7 @@ async function run() {
           console.log(` › stderr: ${stderr}`);
           return;
         }
-        console.log(` › ${stdout.trim()}`);
+        // console.log(` › ${stdout.trim()}`);
       });
   }
   console.log(`⟢ FIN ⟣\n`)
