@@ -6,6 +6,7 @@
 	import { browser } from '$app/env';
 	import { writable } from 'svelte/store';
 	import KeyStroke from 'svelte-keystroke';
+	import propsToPaths from '$lib/propsToPaths';
 
 	export let sourceJSON;
 
@@ -34,14 +35,26 @@
 	<slot />
 </div>
 {#if showJSON}
+	<span style="color:white;">👆</span>
 	<div
 		class="card"
 		on:mouseenter={() => (showJSON = true)}
 		on:mouseleave={() => (showJSON = false)}
 	>
-		<pre transition:scale={{ duration: 300 }}>
-{JSON.stringify(sourceJSON, null, 2)}
-      </pre>
+		<div
+			transition:scale={{
+				duration: 300
+			}}
+		>
+			<details>
+				<summary>Raw JSON</summary>
+				<pre>{JSON.stringify(sourceJSON, null, 2)}</pre>
+			</details>
+			<details>
+				<summary>Paths</summary>
+				{@html propsToPaths(sourceJSON, true)}
+			</details>
+		</div>
 	</div>
 {/if}
 

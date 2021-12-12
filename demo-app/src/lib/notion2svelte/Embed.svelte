@@ -27,17 +27,12 @@
 	}
 
 	iframe {
-		left: 0px;
-		top: 0px;
 		width: calc(min(80vw, 900px));
-		height: 50vh; /* Ideally this could be set per-embed */
-		padding: 0.25rem;
-		margin: 1rem auto;
-		border: solid 2px hsl(0, 0%, 53%);
+		height: 70vh; /* Ideally this could be set per-embed */
+		border: none;
 		border-radius: 0.5rem;
-		box-shadow: 0.15rem 0.15rem 0.5rem 0.25rem hsla(0, 0%, 20%, 0.133);
-		pointer-events: auto;
-		background-color: hsl(30, 11%, 96%);
+		box-shadow: 0 30px 60px -10px rgb(0 0 0 / 30%), 0 18px 36px -18px rgb(0 0 0 / 33%);
+		margin: 15px auto 50px;
 	}
 
 	caption {
