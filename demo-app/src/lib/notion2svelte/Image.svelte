@@ -8,11 +8,19 @@
 </figure>
 
 <style>
+	figure,
+	img {
+		border: thin silver solid;
+	}
+
+	img {
+		border-radius: 0.25rem;
+	}
+
 	figure {
 		color: gray;
 		background-color: whitesmoke;
 		padding: 1rem;
-		border: thin silver solid;
 		border-radius: 0.5rem;
 		margin: 0 auto 0.5rem auto;
 	}

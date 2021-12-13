@@ -41,6 +41,7 @@
 
 # Icebox
 
+- Add media queries to smooth out the worst layout bugs…possibly using https://github.com/cibernox/svelte-media? (I tried using https://www.npmjs.com/package/svelte-media-query but it didn't work)
 - Implement `code` blocks
 - Implement `video` and `file` types
 - Add support for auto-linking raw URLs
