@@ -43,9 +43,9 @@
 
 - Implement `code` blocks
 - Implement `video` and `file` types
+- Add support for auto-linking raw URLs
 - Add config for custom component names so that naming conflicts can be avoided.
 - Change the transformed page's Status to `Published` in Notion (w/appropriate .env override)
-- Add a Katex interpreter for `expression`s?
 - Experiment with having the script do a git commit after successfully saving. Here, I suspect, many monsters lurk, so probably the first working something will be pretty problematic
 - Default to `prerender=true`?
 - Add password-based Admin mode with links back to Notion pages
@@ -55,5 +55,4 @@
 - Implement `bookmark`?
 - Implement `table_of_contents`?
 - Implement `breadcrumb`?
-- Implement `link_preview` (Not sure how to make one of these in Notion 😬)
-- Add support for auto-linking raw URLs
+- Implement `link_preview`? (https://www.notion.so/guides/notion-api-link-previews-feature)
