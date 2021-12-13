@@ -33,16 +33,22 @@
 	</section>
 </Portal>
 
-<div id={blockId}>{message}</div>
+<div class="inline-error">
+	<div class="message" id={blockId}>
+		<span>Unable to render block <span class="bid">#{blockId}</span></span>
+		{message}
+	</div>
+</div>
 
 <style>
 	section {
 		z-index: 99999;
-		padding: 1rem;
+		padding: 1rem 1rem 1rem 1rem;
+		margin: 0 10rem -1rem 10rem;
 		background: #fafafa;
 		border: 1px solid #ccc;
 		border-radius: 4px;
-		margin: 1rem;
+		box-shadow: 0 30px 60px -10px rgb(0 0 0 / 30%), 0 18px 36px -18px rgb(0 0 0 / 33%);
 	}
 
 	span {
@@ -50,6 +56,11 @@
 		font-weight: bold;
 		color: white;
 		display: block;
+	}
+
+	span.bid {
+		display: inline;
+		font-weight: normal;
 	}
 
 	a {
@@ -61,6 +72,7 @@
 	div {
 		border: thick solid white;
 		padding: 10px;
+		margin: 0;
 	}
 
 	.message {
@@ -79,5 +91,30 @@
 	.stack:nth-child(3) {
 		color: darkgreen;
 		background: lightgreen;
+	}
+
+	.inline-error {
+		background: rgba(255, 0, 0, 0.5);
+		margin: 1rem auto;
+		box-shadow: 0 30px 60px -10px rgb(0 0 0 / 30%), 0 18px 36px -18px rgb(0 0 0 / 33%);
+		animation: wiggle infinite 2s;
+	}
+
+	@keyframes wiggle {
+		0% {
+			transform: rotate(0deg);
+		}
+		5% {
+			transform: rotate(0.25deg);
+		}
+		10% {
+			transform: rotate(-0.25deg);
+		}
+		20% {
+			transform: rotate(0.5deg);
+		}
+		70% {
+			transform: rotate(0deg);
+		}
 	}
 </style>

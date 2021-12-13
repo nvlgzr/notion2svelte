@@ -2,7 +2,6 @@
 
 # 🐝 Tasks/Ideas
 
-- Wrap all component renderings in separate try/catches so it's easier to track down bugs.
 - Catch errors when _notion2svelte_ components aren't found in $lib/notion2svelte in order to improve error messages.
 - Publish to npm
 - Create Guide
