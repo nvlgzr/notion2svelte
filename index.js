@@ -143,7 +143,9 @@ async function runTest() {
     renderedPage = renderPage(pageJSON, titleField);
   } catch (e) {
     console.log(
-      `💥🐛 Mayday! Mayday!:\n\n${e}\n\njson ↴\n${JSON.stringify(pageJSON)}\n\n`
+      `💥🐛 Mayday! Mayday!:\n\n${e}\n\njson ↴\n${JSON.stringify(
+        pageJSON
+      ).slice(0, 1024)}…\n\n`
     );
     return;
   }
