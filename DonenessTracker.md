@@ -2,17 +2,16 @@
 
 # 🐝 Tasks/Ideas
 
-- Catch errors when _notion2svelte_ components aren't found in $lib/notion2svelte in order to improve error messages.
-  Bummer. Can't do this one…
-  I'm not sure what I thought would help this before, but obviously _notion2svelte_ can do nothing (that I know of) to improve this…
-  `Error: failed to load module for ssr: /src/lib/notion2svelte/Error.svelte`
-  …because it's coming from Vite, after _notion2svelte_ has left the picture.
-  The best thing that can be done is to…
-
-- Make it super easy to install a basic set of components (or 3rd party components). `degit`, perhaps?
+- Remove PAGE_TITLE_FIELD. It's just not worth the complexity.
+  - Document: 3 required props in db: Name, Slug & Status
 - Publish to npm
+- Update **About _notion2svelte_**
+  - Remember to call out keyboard interactions:
+    - O: Displays sub-pages. Not sure why I chose 'O'
+    - D: Distraction mode (shows external links)
+    - I: Inspector mode
 - Create Guide
-  - Specificy Component interfaces
+  - Specify Component interfaces
     - ColumnList
     - BulletedListItem
     - Callout
@@ -39,11 +38,6 @@
     - Title
     - TodoItem
     - Toggle
-- Update **About _notion2svelte_**
-  - Remember to call out keyboard interactions:
-    - O: Displays sub-pages. Not sure why I chose 'O'
-    - D: Distraction mode (shows external links)
-    - I: Inspector mode
 
 # Icebox
 
