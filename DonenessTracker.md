@@ -2,8 +2,16 @@
 
 # 🐝 Tasks/Ideas
 
-- Remove PAGE_TITLE_FIELD. It's just not worth the complexity.
-  - Document: 3 required props in db: Name, Slug & Status
+- Fix ugly old design decisions:
+  - using "️☙" for bullets
+  - Weird bottom-nav
+- Rewrite _About notion2svelte_
+  - Try to fix `code` blocks by doing a pre-emptive > → &lt replacement
+  - Cut down to a diamond
+    - Make a demo gif with Terminal in the middle for README page
+    - Crystallize benefit to user
+    - Ask for help -> Doc design, code, usability
+- Document: 3 required props in db: Name, Slug & Status
 - Publish to npm
 - Update **About _notion2svelte_**
   - Remember to call out keyboard interactions:

@@ -3,7 +3,7 @@
 	// sveltifier.js. Longer-term, maybe this type of function
 	// exists as its own library for use by notion2svelte AND
 	// directly within projects?
-	export const pageTitle = (page) => page.properties.Title.title;
+	export const pageTitle = (page) => page.properties.Name.title;
 	export const slug = (page) =>
 		page.properties.Slug[page.properties.Slug.type]?.length
 			? page.properties.Slug[page.properties.Slug.type][0].plain_text
@@ -27,7 +27,7 @@
 			.map((page) => {
 				return {
 					slug: slug(page),
-					title: plain(pageTitle(page, 'Title')),
+					title: plain(pageTitle(page)),
 					lastModified: page.last_edited_time
 				};
 			});
