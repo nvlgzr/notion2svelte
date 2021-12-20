@@ -1,4 +1,8 @@
-<span><pre><slot /></pre></span>
+<script>
+	export let code = '';
+</script>
+
+<span><pre>{code}</pre></span>
 
 <style>
 	span {
