@@ -4,7 +4,7 @@
 
 	export let coverURL = '';
 	export let iconEmojiOrURL = '';
-	export let height = '35vh';
+	export let height = '15vh';
 	export let k = '0px'; // Icon distancing constant.
 	// In a real app, this wouldn't be so ad hoc,
 	// but in a real app I'd have designed the

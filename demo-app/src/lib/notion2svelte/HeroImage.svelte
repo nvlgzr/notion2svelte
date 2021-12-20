@@ -39,7 +39,7 @@
 
 	@keyframes kenburns {
 		0% {
-			transform: scale3d(2, 2, 2) translate3d(50px, 50px, 50px) rotate(-0.02turn);
+			transform: scale3d(2, 2, 2) translate3d(50px, 10px, 50px) rotate(-0.02turn);
 			opacity: 0;
 		}
 		100% {

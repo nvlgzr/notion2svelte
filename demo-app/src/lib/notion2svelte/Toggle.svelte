@@ -9,9 +9,9 @@
 		<span class="toggle" on:click|stopPropagation={() => (open = !open)}>
 			<svg
 				viewBox="0 0 100 100"
-				style="width: 0.7rem; height: 0.7rem; display: block; fill: inherit; transition: transform 200ms ease-out 0s; transform: rotateZ({open
+				style="width: 0.8rem; height: 1rem; display: block; fill: inherit; transition: transform 200ms ease-out 0s; transform: rotateZ({open
 					? 180
-					: 90}deg); opacity: 1;"><polygon points="5.9,88.2 50,11.8 94.1,88.2 50,70" /></svg
+					: 90}deg); opacity: 1;"><polygon points="5.9,88.2 50,11.8 94.1,88.2" /></svg
 			>
 		</span>
 		<slot />

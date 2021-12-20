@@ -1,5 +1,8 @@
 ## 🐞 Known Bugs
 
+- Whitespace from prettier is leaking into InlineCode
+  - Solution (I'm pretty sure): use a prop instead of a slot
+
 # 🐝 Tasks/Ideas
 
 - Fix ugly old design decisions:
