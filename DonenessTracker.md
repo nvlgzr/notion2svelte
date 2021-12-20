@@ -2,13 +2,9 @@
 
 # 🐝 Tasks/Ideas
 
-- Fix ugly old design decisions:
-  - Weird bottom-nav
-- Rewrite _About notion2svelte_
-  - Cut down to a diamond
-    - Make a demo gif with Terminal in the middle for README page
-    - Crystallize benefit to user
-    - Ask for help -> Doc design, code, usability
+- More documentation tweaks
+  - Make a demo gif with Terminal in the middle for README page
+  - Ask for explicit help -> Doc design, code, usability
 - Document: 3 required props in db: Name, Slug & Status
 - Publish to npm
 - Update **About _notion2svelte_**
@@ -48,7 +44,7 @@
 # Icebox
 
 - Add media queries to smooth out the worst layout bugs…possibly using https://github.com/cibernox/svelte-media? (I tried using https://www.npmjs.com/package/svelte-media-query but it didn't work)
-- Implement `code` blocks
+- Update weird bottom-nav with something more menu-ish
 - Implement `video` and `file` types
 - Add support for auto-linking raw URLs
 - Add config for custom component names so that naming conflicts can be avoided.

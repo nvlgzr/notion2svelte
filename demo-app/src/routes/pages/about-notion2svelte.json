@@ -2,7 +2,7 @@
   "object": "page",
   "id": "bf936818-0e7d-4802-b01f-d5a879323517",
   "created_time": "2021-12-01T23:06:00.000Z",
-  "last_edited_time": "2021-12-20T10:27:00.000Z",
+  "last_edited_time": "2021-12-20T11:17:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -12,8 +12,8 @@
   "icon": {
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T102723Z&X-Amz-Expires=3600&X-Amz-Signature=f83418f3127a3c1491fc5f20acc720dc0d4dd76144a07a96f664aa4583c7e83f&X-Amz-SignedHeaders=host&x-id=GetObject",
-      "expiry_time": "2021-12-20T11:27:23.211Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111730Z&X-Amz-Expires=3600&X-Amz-Signature=ed9bc7ec7c4564ad19b7e80a973139ced0cbba589efce856c537d9e53b327462&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2021-12-20T12:17:30.163Z"
     }
   },
   "parent": {
@@ -330,8 +330,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T102724Z&X-Amz-Expires=3600&X-Amz-Signature=7aa971113c679b3b4c1a742dcdb8c1da59fa7bf944102cf1488e59a51d55762f&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2021-12-20T11:27:24.066Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111731Z&X-Amz-Expires=3600&X-Amz-Signature=56070e869113e24af8319c86f613ebfffef29ce908d530c6d13d95cf91977d85&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2021-12-20T12:17:31.129Z"
                 }
               }
             },
@@ -496,8 +496,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T102724Z&X-Amz-Expires=3600&X-Amz-Signature=6982195de79bca28dfe11c672891295a9e7b85a9ff87dc6bca5e8a6a81b0eb1d&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2021-12-20T11:27:24.052Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111731Z&X-Amz-Expires=3600&X-Amz-Signature=c6a65bd03abda232f98e19e81d86e6872eeacd1835023bf890f9f89e2e8f20f1&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2021-12-20T12:17:31.087Z"
                 }
               }
             },
@@ -2648,8 +2648,8 @@
                             ],
                             "type": "file",
                             "file": {
-                              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b988249d-299a-468a-bb3a-74ea305240d5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T102725Z&X-Amz-Expires=3600&X-Amz-Signature=8974bb3cce66b0b4204a9c10151f088a200b8d63e9a7b1afd8ef539a81be4d08&X-Amz-SignedHeaders=host&x-id=GetObject",
-                              "expiry_time": "2021-12-20T11:27:25.333Z"
+                              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b988249d-299a-468a-bb3a-74ea305240d5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111731Z&X-Amz-Expires=3600&X-Amz-Signature=8ff6d4f00798788b38b4fdf81313d8e0097e6a7bdb114fbc25db18e176f03aa2&X-Amz-SignedHeaders=host&x-id=GetObject",
+                              "expiry_time": "2021-12-20T12:17:31.597Z"
                             }
                           }
                         }
@@ -3264,8 +3264,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T102723Z&X-Amz-Expires=3600&X-Amz-Signature=4cbbb52a2cd2c7d9cefa448069376ffe547133bb3d4c8ce3605460ab9fe34d53&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2021-12-20T11:27:23.561Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111730Z&X-Amz-Expires=3600&X-Amz-Signature=5881e33f8b499f6cec07d974f501a8b255f5b3a04f181164ae34cce285860465&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2021-12-20T12:17:30.488Z"
         }
       }
     },
@@ -3337,7 +3337,7 @@
       "object": "block",
       "id": "39589b61-9267-4d22-a473-d05bfb440926",
       "created_time": "2021-12-20T10:05:00.000Z",
-      "last_edited_time": "2021-12-20T10:07:00.000Z",
+      "last_edited_time": "2021-12-20T10:44:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -3365,19 +3365,1097 @@
     },
     {
       "object": "block",
-      "id": "1a78656a-a77b-4d73-b0fb-5bd4b9570f51",
-      "created_time": "2021-12-20T10:26:00.000Z",
-      "last_edited_time": "2021-12-20T10:26:00.000Z",
+      "id": "31ac6473-b3f3-405a-a7c3-e9507241a0e1",
+      "created_time": "2021-12-20T10:34:00.000Z",
+      "last_edited_time": "2021-12-20T10:34:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "divider",
-      "divider": {}
+      "type": "code",
+      "code": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "{\n  \"object\": \"block\",\n  \"id\": \"011d46be-4bf6-4817-a0da-a849ec16f1aa\",\n  \"created_time\": \"2021-12-20T10:00:00.000Z\",\n  \"last_edited_time\": \"2021-12-20T10:04:00.000Z\",\n  \"has_children\": false,\n  \"archived\": false,\n  \"type\": \"callout\",\n  \"callout\": {\n    \"text\": [\n      {\n        \"type\": \"text\",\n        \"text\": {\n          \"content\": \"Hi. I’m a sea otter.\",\n          \"link\": null\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": false,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"Hi. I’m a sea otter.\",\n        \"href\": null\n      }\n    ],\n    \"icon\": {\n      \"type\": \"emoji\",\n      \"emoji\": \"🦦\"\n    }\n  }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "{\n  \"object\": \"block\",\n  \"id\": \"011d46be-4bf6-4817-a0da-a849ec16f1aa\",\n  \"created_time\": \"2021-12-20T10:00:00.000Z\",\n  \"last_edited_time\": \"2021-12-20T10:04:00.000Z\",\n  \"has_children\": false,\n  \"archived\": false,\n  \"type\": \"callout\",\n  \"callout\": {\n    \"text\": [\n      {\n        \"type\": \"text\",\n        \"text\": {\n          \"content\": \"Hi. I’m a sea otter.\",\n          \"link\": null\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": false,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"Hi. I’m a sea otter.\",\n        \"href\": null\n      }\n    ],\n    \"icon\": {\n      \"type\": \"emoji\",\n      \"emoji\": \"🦦\"\n    }\n  }\n}",
+            "href": null
+          }
+        ],
+        "language": "json"
+      }
     },
     {
       "object": "block",
-      "id": "b86fe364-1aef-49ad-ab73-5f0c55926fbc",
-      "created_time": "2021-12-20T03:11:00.000Z",
-      "last_edited_time": "2021-12-20T03:11:00.000Z",
+      "id": "421ae7ff-bb72-40b8-9a07-2990773ed33b",
+      "created_time": "2021-12-20T10:44:00.000Z",
+      "last_edited_time": "2021-12-20T10:45:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Obviously, most of this is just noise. What we mainly care about — given that we haven’t used ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Obviously, most of this is just noise. What we mainly care about — given that we haven’t used ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "bold",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "bold",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "italic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "italic",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", etc. within the callout — is the emoji, the content, and the fact that this is a callout.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", etc. within the callout — is the emoji, the content, and the fact that this is a callout.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "05d7d80c-c69a-4a9e-a85a-392397c76d02",
+      "created_time": "2021-12-20T10:44:00.000Z",
+      "last_edited_time": "2021-12-20T10:45:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "code",
+      "code": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "<Callout emoji=\"🦦\">Hi. I’m a sea otter.</Callout>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "<Callout emoji=\"🦦\">Hi. I’m a sea otter.</Callout>",
+            "href": null
+          }
+        ],
+        "language": "html"
+      }
+    },
+    {
+      "object": "block",
+      "id": "06072cbe-7b7d-45f2-a5c1-a527b01e14ee",
+      "created_time": "2021-12-20T10:45:00.000Z",
+      "last_edited_time": "2021-12-20T10:53:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ahhh! That’s better, right?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ahhh! That’s better, right?",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "65d349e9-b61c-4bcb-861a-2afa84386406",
+      "created_time": "2021-12-20T10:59:00.000Z",
+      "last_edited_time": "2021-12-20T10:59:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column_list",
+      "column_list": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "0b024c39-6187-44b5-b9d7-eafc6b9a6230",
+          "created_time": "2021-12-20T10:59:00.000Z",
+          "last_edited_time": "2021-12-20T11:01:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "28e0d29f-1469-45ed-9403-f6c54bdeec35",
+              "created_time": "2021-12-20T10:53:00.000Z",
+              "last_edited_time": "2021-12-20T10:59:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "After this point, it’s basically up to you! Do you want a simple, gray callout with minimal styling, like this:",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "After this point, it’s basically up to you! Do you want a simple, gray callout with minimal styling, like this:",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "7cf3e09a-a2b1-412e-9bb2-6c7c3895cff9",
+          "created_time": "2021-12-20T10:59:00.000Z",
+          "last_edited_time": "2021-12-20T11:01:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "1c4f2955-733f-4a17-ae88-58dd48071269",
+              "created_time": "2021-12-20T10:59:00.000Z",
+              "last_edited_time": "2021-12-20T10:59:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111731Z&X-Amz-Expires=3600&X-Amz-Signature=991b5b80dc81808daf1f9b6bbd7c49baec6f4e3658c9a4b71cb8a9ba49d3072b&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2021-12-20T12:17:31.024Z"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "a1ec1c18-c068-44cd-8c57-0577d28ddb3c",
+      "created_time": "2021-12-20T10:44:00.000Z",
+      "last_edited_time": "2021-12-20T11:01:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "toggle",
+      "toggle": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Code for ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Code for ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Callout.svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Callout.svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " (gray version)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " (gray version)",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "a3814e2a-812a-472f-be66-417defdfee00",
+          "created_time": "2021-12-20T10:44:00.000Z",
+          "last_edited_time": "2021-12-20T10:57:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "code",
+          "code": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "<script>\n\texport let emoji = '';\n</script>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tbackground-color: white;\n\t\tborder: 1px solid #333;\n\t\tmargin: 1rem;\n\t\tpadding: 1rem;\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.emoji {\n\t\tfont-size: 2rem;\n\t}\n</style>",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "<script>\n\texport let emoji = '';\n</script>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tbackground-color: white;\n\t\tborder: 1px solid #333;\n\t\tmargin: 1rem;\n\t\tpadding: 1rem;\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.emoji {\n\t\tfont-size: 2rem;\n\t}\n</style>",
+                "href": null
+              }
+            ],
+            "language": "html"
+          }
+        },
+        {
+          "object": "block",
+          "id": "3256ca05-ae82-4584-b3e8-cbff5b9e53f8",
+          "created_time": "2021-12-20T10:44:00.000Z",
+          "last_edited_time": "2021-12-20T10:44:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": []
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "c4af6790-63f4-4535-b6a4-8d17ef237f9c",
+      "created_time": "2021-12-20T11:00:00.000Z",
+      "last_edited_time": "2021-12-20T11:00:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column_list",
+      "column_list": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "ece26ad5-a90a-4664-8e19-9133fc642ae7",
+          "created_time": "2021-12-20T11:00:00.000Z",
+          "last_edited_time": "2021-12-20T11:01:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "9c56679e-9b29-48de-aa4b-b3a4ba640e63",
+              "created_time": "2021-12-20T10:59:00.000Z",
+              "last_edited_time": "2021-12-20T11:00:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Or you might do something more colorful. Here’s the code (as of this writing) for this documentation’s ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Or you might do something more colorful. Here’s the code (as of this writing) for this documentation’s ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Callout.svelte",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": true,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Callout.svelte",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": ":",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": ":",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "de5119b1-be13-44b8-a21c-2db0bbff326d",
+          "created_time": "2021-12-20T11:00:00.000Z",
+          "last_edited_time": "2021-12-20T11:01:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "f769ac87-5d6e-4880-9b95-f6191a4b2c39",
+              "created_time": "2021-12-20T10:44:00.000Z",
+              "last_edited_time": "2021-12-20T11:00:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111730Z&X-Amz-Expires=3600&X-Amz-Signature=3e5e589e9e775a655542edf109d09322a8f321d508056e48863861c0d7b9e639&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2021-12-20T12:17:30.939Z"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "8f16072e-0dad-48c9-bf25-1fffc6f92e13",
+      "created_time": "2021-12-20T10:44:00.000Z",
+      "last_edited_time": "2021-12-20T11:01:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "toggle",
+      "toggle": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Code for Callout.svelte (blue version)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Code for Callout.svelte (blue version)",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "568c8e4f-96d1-404a-af72-0334235f3cf4",
+          "created_time": "2021-12-20T10:44:00.000Z",
+          "last_edited_time": "2021-12-20T10:44:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "code",
+          "code": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "<script>\n\texport let emoji = '';\n</script>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tdisplay: flex;\n\t\tmargin: 1rem 1rem 2rem 0;\n\t\tpadding: 2rem 2rem 0 2rem;\n\t\tfont: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\t\tbackground-color: hsl(198, 100%, 97%);\n\t\tborder: 4px solid hsl(206, 88%, 70%);\n\t\tborder-radius: 0.5rem;\n\t}\n\t.callout {\n\t\tdisplay: block;\n\t}\n\t.emoji {\n\t\tmargin-right: 0.5em;\n\t\theight: 3rem;\n\t\twidth: 3rem;\n\t\tfont-size: 3rem;\n\t\tline-height: 1.1;\n\t}\n</style>",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "<script>\n\texport let emoji = '';\n</script>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tdisplay: flex;\n\t\tmargin: 1rem 1rem 2rem 0;\n\t\tpadding: 2rem 2rem 0 2rem;\n\t\tfont: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\t\tbackground-color: hsl(198, 100%, 97%);\n\t\tborder: 4px solid hsl(206, 88%, 70%);\n\t\tborder-radius: 0.5rem;\n\t}\n\t.callout {\n\t\tdisplay: block;\n\t}\n\t.emoji {\n\t\tmargin-right: 0.5em;\n\t\theight: 3rem;\n\t\twidth: 3rem;\n\t\tfont-size: 3rem;\n\t\tline-height: 1.1;\n\t}\n</style>",
+                "href": null
+              }
+            ],
+            "language": "html"
+          }
+        },
+        {
+          "object": "block",
+          "id": "de8e9316-d4b2-451d-b75a-258a73620072",
+          "created_time": "2021-12-20T10:44:00.000Z",
+          "last_edited_time": "2021-12-20T10:44:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": []
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "a9dcff3b-e95a-499f-9dee-33ad7cfe072f",
+      "created_time": "2021-12-20T11:06:00.000Z",
+      "last_edited_time": "2021-12-20T11:07:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column_list",
+      "column_list": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "dcf4be13-df30-472a-b66e-2440610dadac",
+          "created_time": "2021-12-20T11:06:00.000Z",
+          "last_edited_time": "2021-12-20T11:07:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "28b8565f-f80d-41cd-86ea-8a49adc64e65",
+              "created_time": "2021-12-20T10:57:00.000Z",
+              "last_edited_time": "2021-12-20T11:07:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Or you could go crazy and have a callout that doubles as a toggle. Wat!? 🙀",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Or you could go crazy and have a callout that doubles as a toggle. Wat!? 🙀",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "c9c96922-f8ac-4b81-be4c-d0d8f5bc4223",
+              "created_time": "2021-12-20T11:06:00.000Z",
+              "last_edited_time": "2021-12-20T11:10:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "2734dd8a-338b-41f4-a852-c71892e7371f",
+          "created_time": "2021-12-20T11:06:00.000Z",
+          "last_edited_time": "2021-12-20T11:08:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "a60ab7f4-be74-4bf0-b383-4bb8c8dc774a",
+              "created_time": "2021-12-20T11:08:00.000Z",
+              "last_edited_time": "2021-12-20T11:08:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111731Z&X-Amz-Expires=3600&X-Amz-Signature=5b64d85ef107a8a612cd6c4abf827b0ce1dd2c8636933a4fa86d4fabf2434526&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2021-12-20T12:17:31.010Z"
+                }
+              }
+            },
+            {
+              "object": "block",
+              "id": "712b5ff4-6882-44be-a63c-97bd4011689e",
+              "created_time": "2021-12-20T11:08:00.000Z",
+              "last_edited_time": "2021-12-20T11:08:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "↓ click! ↓",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "↓ click! ↓",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "4232ca2f-4e4d-457a-bd31-dd9d2bcfa7e2",
+              "created_time": "2021-12-20T11:06:00.000Z",
+              "last_edited_time": "2021-12-20T11:07:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f7caa9b8-2274-4f09-a4d4-2158783537c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111731Z&X-Amz-Expires=3600&X-Amz-Signature=c776362fee2213c4f544518947fc764c9fe475859cd181bfab83385c25d79fe2&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2021-12-20T12:17:31.013Z"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "2beaabef-6c21-49df-bcce-7d12aac0581b",
+      "created_time": "2021-12-20T11:01:00.000Z",
+      "last_edited_time": "2021-12-20T11:01:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "toggle",
+      "toggle": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Code for Callout.svelte (toggle version)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Code for Callout.svelte (toggle version)",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "fb64cc13-e6ec-46d5-b1c0-4c3a76f76a44",
+          "created_time": "2021-12-20T11:01:00.000Z",
+          "last_edited_time": "2021-12-20T11:16:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "code",
+          "code": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "<script>\n\texport let emoji = '';\n\n\texport let open = false;\n</script>\n\n<div class=\"wrapper {open ? 'open' : 'closed'}\" on:click={() => (open = !open)}>\n\t<div class=\"emoji\">{emoji}</div>\n\t{#if open}\n\t\t<div class=\"text\">\n\t\t\t<div class=\"callout\">\n\t\t\t\t<slot />\n\t\t\t</div>\n\t\t\t<slot name=\"children\" />\n\t\t</div>\n\t{:else}\n\t\t<div class=\"text\">⟩</div>\n\t{/if}\n</div>\n\n<style>\n\t.wrapper {\n\t\tdisplay: flex;\n\t\tmargin: 1rem 1rem 2rem 0;\n\t\tpadding: 2rem 2rem 0 2rem;\n\t\tfont: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\t\tbackground-color: hsl(198, 100%, 97%);\n\t\tborder: 4px solid hsl(206, 88%, 70%);\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.closed {\n\t\twidth: 8rem;\n\t}\n\n\t.callout {\n\t\tdisplay: block;\n\t}\n\n\t.emoji {\n\t\tmargin-right: 0.5em;\n\t\theight: 3rem;\n\t\twidth: 3rem;\n\t\tfont-size: 3rem;\n\t\tline-height: 1.1;\n\t}\n</style>",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "<script>\n\texport let emoji = '';\n\n\texport let open = false;\n</script>\n\n<div class=\"wrapper {open ? 'open' : 'closed'}\" on:click={() => (open = !open)}>\n\t<div class=\"emoji\">{emoji}</div>\n\t{#if open}\n\t\t<div class=\"text\">\n\t\t\t<div class=\"callout\">\n\t\t\t\t<slot />\n\t\t\t</div>\n\t\t\t<slot name=\"children\" />\n\t\t</div>\n\t{:else}\n\t\t<div class=\"text\">⟩</div>\n\t{/if}\n</div>\n\n<style>\n\t.wrapper {\n\t\tdisplay: flex;\n\t\tmargin: 1rem 1rem 2rem 0;\n\t\tpadding: 2rem 2rem 0 2rem;\n\t\tfont: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\t\tbackground-color: hsl(198, 100%, 97%);\n\t\tborder: 4px solid hsl(206, 88%, 70%);\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.closed {\n\t\twidth: 8rem;\n\t}\n\n\t.callout {\n\t\tdisplay: block;\n\t}\n\n\t.emoji {\n\t\tmargin-right: 0.5em;\n\t\theight: 3rem;\n\t\twidth: 3rem;\n\t\tfont-size: 3rem;\n\t\tline-height: 1.1;\n\t}\n</style>",
+                "href": null
+              }
+            ],
+            "language": "html"
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "5f65a0cf-2a3c-4c7e-b8d1-ee56b24f40dc",
+      "created_time": "2021-12-20T11:10:00.000Z",
+      "last_edited_time": "2021-12-20T11:10:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A word about imports",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A word about imports",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "30f5e96e-0439-4abb-9fde-e1d2aa88abec",
+      "created_time": "2021-12-20T11:11:00.000Z",
+      "last_edited_time": "2021-12-20T11:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It should go without saying, but your Sveltekit app needs to know where to actually ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It should go without saying, but your Sveltekit app needs to know where to actually ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "find",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "find",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " the components that match ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " the components that match ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "’s output. At present, this means putting them in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "’s output. At present, this means putting them in ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "src/lib/notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "src/lib/notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". The reason why becomes apparent when we look at the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". The reason why becomes apparent when we look at the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "import",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "import",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " statements rendered by ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " statements rendered by ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "f57e2e66-e5c6-4a52-9b74-9866e84c0990",
+      "created_time": "2021-12-20T11:14:00.000Z",
+      "last_edited_time": "2021-12-20T11:15:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Keeping with our Callout theme, here’s the equivalent import statement.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Keeping with our Callout theme, here’s the equivalent import statement.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "31c37ebe-634c-4f4d-becd-163f4526af0a",
+      "created_time": "2021-12-20T10:44:00.000Z",
+      "last_edited_time": "2021-12-20T11:15:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "code",
+      "code": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import Callout from '$lib/notion2svelte/Callout.svelte';",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import Callout from '$lib/notion2svelte/Callout.svelte';",
+            "href": null
+          }
+        ],
+        "language": "html"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a78656a-a77b-4d73-b0fb-5bd4b9570f51",
+      "created_time": "2021-12-20T10:26:00.000Z",
+      "last_edited_time": "2021-12-20T10:26:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "divider",
@@ -3464,7 +4542,7 @@
       "object": "block",
       "id": "c5d30b2f-32c2-42b0-b650-b2140fec08b6",
       "created_time": "2021-12-20T00:08:00.000Z",
-      "last_edited_time": "2021-12-20T00:08:00.000Z",
+      "last_edited_time": "2021-12-20T11:17:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -3542,6 +4620,16 @@
           }
         ]
       }
+    },
+    {
+      "object": "block",
+      "id": "fde2f4b9-aa38-4863-9bab-d7a1f6fa8744",
+      "created_time": "2021-12-20T11:17:00.000Z",
+      "last_edited_time": "2021-12-20T11:17:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "divider",
+      "divider": {}
     },
     {
       "object": "block",
