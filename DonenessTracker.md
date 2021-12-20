@@ -5,7 +5,6 @@
 - Fix ugly old design decisions:
   - Weird bottom-nav
 - Rewrite _About notion2svelte_
-  - Try to fix `code` blocks by doing a pre-emptive > → &lt replacement
   - Cut down to a diamond
     - Make a demo gif with Terminal in the middle for README page
     - Crystallize benefit to user
