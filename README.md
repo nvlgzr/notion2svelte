@@ -15,17 +15,22 @@
     <img src="notion2svelte.png" alt="Simple mashup of Notion & Svelte logos" width="100" height="100">
   </a>
 
-<h3 align="center">@nvlgzr/notion2svelte (n2s)</h3>
+  <h3 align="center">@nvlgzr/notion2svelte (n2s)</h3>
+</div>
+<div align="center">
   <p align="center">
     Fetches pages from Notion and renders them as .svelte files
-    <br />
-    <br />
+  </p>
+
+![Notion → notion2svelte → .svelte file](notion2svelte-demo.gif)
+
+  <p align="center">
     <a href="https://notion2svelte.vercel.app/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/nvlgzr/notion2svelte/issues">Report Bug</a>
+    <a href="https://github.com/nvlgzr/notion2svelte/issues">Report a Bug</a>
     ·
-    <a href="https://github.com/nvlgzr/notion2svelte/discussions/1">Request Feature</a>
+    <a href="https://github.com/nvlgzr/notion2svelte/discussions/1">Request a Feature</a>
     ·
     <a href="https://github.com/nvlgzr/notion2svelte/discussions/1">Say Hi</a>
   </p>
@@ -42,9 +47,10 @@ So the basic goal is clear:
 - Write pages in Notion
 - Run notion2svelte
 - Magically see that page content appear in your Svelte app
+
   ![Page in Notion → notion2svelte → ready-to-render .svelte file](notion2svelte-demo.png)
 
-For more about what sets _notion2svelte_ apart, how it works, etc., check out [Introducing _notion2svelte_](https://notion2svelte.vercel.app/pages/about-notion2svelte).
+For more about what sets _notion2svelte_ apart, how it works, etc., here's [a high level overview](https://notion2svelte.vercel.app/pages/about-notion2svelte).
 
 <!-- GETTING STARTED -->
 
@@ -52,7 +58,7 @@ For more about what sets _notion2svelte_ apart, how it works, etc., check out [I
 
 The premise is simple: point _notion2svelte_ at the database of your choice, and watch as it spits working _.svelte_ files into your existing project. Still, this is early days, so the experience is far from optimized.
 
-With that caveat firmly on the table, here's [The Step-by-Step Guide to _notion2svelte_](https://notion2svelte.vercel.app/pages/guide)
+With that caveat firmly on the table, here's [_notion2svelte_ in 10 minutes](https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
