@@ -34,9 +34,9 @@
 
   <Magic sourceJSON={{
   "object": "block",
-  "id": "a9f42ae7-9c5e-4610-afc8-15d3db4b20a5",
-  "created_time": "2021-12-12T20:38:00.000Z",
-  "last_edited_time": "2021-12-12T20:38:00.000Z",
+  "id": "1ceeb64a-bae5-458f-855b-912a863940bb",
+  "created_time": "2022-01-04T05:46:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -50,9 +50,9 @@
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "299f612f-e1cd-4e88-b886-feb35132b68c",
-  "created_time": "2021-12-12T20:38:00.000Z",
-  "last_edited_time": "2021-12-19T23:52:00.000Z",
+  "id": "720886ad-c6f4-4e1a-86bf-1d1871a55013",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "quote",
@@ -183,9 +183,9 @@
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "14277349-e2ba-448b-8883-c5cfeb9624e2",
-  "created_time": "2021-12-03T05:32:00.000Z",
-  "last_edited_time": "2021-12-03T05:32:00.000Z",
+  "id": "bf385444-460c-4278-b850-4681361221f1",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -199,9 +199,9 @@
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "8100913b-c185-40a4-aba7-cb7e2da199d5",
-  "created_time": "2021-12-02T22:53:00.000Z",
-  "last_edited_time": "2021-12-02T22:53:00.000Z",
+  "id": "e875c718-04a6-439f-a1b8-19e3502e5882",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "divider",
@@ -211,347 +211,320 @@
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "775d645c-d32d-438b-882d-a945b5ad1a90",
-  "created_time": "2021-12-02T22:23:00.000Z",
-  "last_edited_time": "2021-12-19T23:05:00.000Z",
-  "has_children": true,
+  "id": "dfd5b0a6-f19e-4c81-8024-68dfbeb5a1fc",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
   "archived": false,
-  "type": "column_list",
-  "column_list": {},
-  "blocks": [
-    {
-      "object": "block",
-      "id": "91402850-1ac9-47c6-9b85-aea136b5b2a9",
-      "created_time": "2021-12-02T22:23:00.000Z",
-      "last_edited_time": "2021-12-19T23:06:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column",
-      "column": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "5ad9351a-0f44-45c7-89c9-0e51d70f1b99",
-          "created_time": "2021-12-02T22:23:00.000Z",
-          "last_edited_time": "2021-12-19T22:48:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "heading_2",
-          "heading_2": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "Source (Notion)",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Source (Notion)",
-                "href": null
-              }
-            ]
-          }
+  "type": "heading_2",
+  "heading_2": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Source (Notion)",
+          "link": null
         },
-        {
-          "object": "block",
-          "id": "162bca62-5a93-4d07-85e7-a186c8b8265b",
-          "created_time": "2021-12-19T23:06:00.000Z",
-          "last_edited_time": "2021-12-19T23:06:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "image",
-          "image": {
-            "caption": [],
-            "type": "file",
-            "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111731Z&X-Amz-Expires=3600&X-Amz-Signature=56070e869113e24af8319c86f613ebfffef29ce908d530c6d13d95cf91977d85&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2021-12-20T12:17:31.129Z"
-            }
-          }
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
         },
-        {
-          "object": "block",
-          "id": "5b244198-2703-4db3-971c-5e5813bddd63",
-          "created_time": "2021-12-03T20:43:00.000Z",
-          "last_edited_time": "2021-12-12T20:36:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "bulleted_list_item",
-          "bulleted_list_item": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "😃 Awesome editing experience",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "😃 Awesome editing experience",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "4c270d55-edb7-43cc-9cd8-6116e396d4be",
-          "created_time": "2021-12-03T08:19:00.000Z",
-          "last_edited_time": "2021-12-12T20:37:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "bulleted_list_item",
-          "bulleted_list_item": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "🤨 Domain-locked to ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "🤨 Domain-locked to ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "notion.so",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "notion.so",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "f89f1cda-b8d9-4f4a-8879-053586c7fa83",
-          "created_time": "2021-12-03T08:20:00.000Z",
-          "last_edited_time": "2021-12-19T22:59:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "bulleted_list_item",
-          "bulleted_list_item": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "😐 Proprietary limitations",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "😐 Proprietary limitations",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "1ea83eac-dd3c-4382-b661-930f008f4417",
-      "created_time": "2021-12-02T22:23:00.000Z",
-      "last_edited_time": "2021-12-19T23:08:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column",
-      "column": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "a3d1c2a4-a7d5-4ffa-a699-14be9d447b00",
-          "created_time": "2021-12-02T22:23:00.000Z",
-          "last_edited_time": "2021-12-19T23:00:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "heading_2",
-          "heading_2": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "Destination (Svelte)",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Destination (Svelte)",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "83019813-e27f-41f7-844f-3945bf1214c0",
-          "created_time": "2021-12-19T23:07:00.000Z",
-          "last_edited_time": "2021-12-19T23:07:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "image",
-          "image": {
-            "caption": [],
-            "type": "file",
-            "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111731Z&X-Amz-Expires=3600&X-Amz-Signature=c6a65bd03abda232f98e19e81d86e6872eeacd1835023bf890f9f89e2e8f20f1&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2021-12-20T12:17:31.087Z"
-            }
-          }
-        },
-        {
-          "object": "block",
-          "id": "840b5de6-e71e-46f6-89e2-a7ffafedc9bd",
-          "created_time": "2021-12-12T20:41:00.000Z",
-          "last_edited_time": "2021-12-19T22:59:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "bulleted_list_item",
-          "bulleted_list_item": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "👘 Your style",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "👘 Your style",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "9e97f85c-5933-4c75-9785-8ff516f6fa85",
-          "created_time": "2021-12-03T08:17:00.000Z",
-          "last_edited_time": "2021-12-19T22:59:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "bulleted_list_item",
-          "bulleted_list_item": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "🤔 Your domain",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "🤔 Your domain",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "5d108b37-79d7-47b2-9d8f-7b91c3b379d8",
-          "created_time": "2021-12-12T20:42:00.000Z",
-          "last_edited_time": "2021-12-12T20:44:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "bulleted_list_item",
-          "bulleted_list_item": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "🪡 Infinite possibilities",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "🪡 Infinite possibilities",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    }
-  ]
-}}><ColumnList cols={2}><Column><Header level="2">Source (Notion)</Header>
-<Image url="/assets/about-notion2svelte/162bca62-5a93-4d07-85e7-a186c8b8265b.png"></Image>
-<BulletedListItem>😃 Awesome editing experience</BulletedListItem>
-<BulletedListItem>🤨 Domain-locked to&nbsp;<em>notion.so</em></BulletedListItem>
-<BulletedListItem>😐 Proprietary limitations</BulletedListItem>
-</Column><Column><Header level="2">Destination (Svelte)</Header>
-<Image url="/assets/about-notion2svelte/83019813-e27f-41f7-844f-3945bf1214c0.png"></Image>
-<BulletedListItem>👘 Your style</BulletedListItem>
-<BulletedListItem>🤔 Your domain</BulletedListItem>
-<BulletedListItem>🪡 Infinite possibilities</BulletedListItem>
-</Column></ColumnList></Magic> 
+        "plain_text": "Source (Notion)",
+        "href": null
+      }
+    ]
+  }
+}}><Header level="2">Source (Notion)</Header>
+</Magic> 
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "b3b2abbb-4dfd-4305-b59b-02a3eabfdf30",
-  "created_time": "2021-12-02T23:08:00.000Z",
-  "last_edited_time": "2021-12-20T03:12:00.000Z",
+  "id": "ed21d11c-9389-4694-9db4-549e002a1b92",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "image",
+  "image": {
+    "caption": [],
+    "type": "file",
+    "file": {
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T060531Z&X-Amz-Expires=3600&X-Amz-Signature=f54a651d5a8fc63dd5deb9c6ab759eb17b08122a597685ba1c9b24e6a12eb262&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-04T07:05:31.004Z"
+    }
+  }
+}}><Image url="/assets/about-notion2svelte/ed21d11c-9389-4694-9db4-549e002a1b92.png"></Image>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "7bac921b-ddaf-4304-9a27-71112cb5d5e9",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "bulleted_list_item",
+  "bulleted_list_item": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "😃 Awesome editing experience",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "😃 Awesome editing experience",
+        "href": null
+      }
+    ]
+  }
+}}><BulletedListItem>😃 Awesome editing experience</BulletedListItem>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "54f999ba-a125-4dee-8b63-e4b38a9765cc",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "bulleted_list_item",
+  "bulleted_list_item": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "🤨 Domain-locked to ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "🤨 Domain-locked to ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "notion.so",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "notion.so",
+        "href": null
+      }
+    ]
+  }
+}}><BulletedListItem>🤨 Domain-locked to&nbsp;<em>notion.so</em></BulletedListItem>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "026f37a9-2a3c-46b7-8750-2bec21c60d7a",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "bulleted_list_item",
+  "bulleted_list_item": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "😐 Proprietary limitations",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "😐 Proprietary limitations",
+        "href": null
+      }
+    ]
+  }
+}}><BulletedListItem>😐 Proprietary limitations</BulletedListItem>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "5fdf296b-d570-4b34-8b78-7adfe9b27bb3",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_2",
+  "heading_2": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Destination (Svelte)",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Destination (Svelte)",
+        "href": null
+      }
+    ]
+  }
+}}><Header level="2">Destination (Svelte)</Header>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "ce917906-431b-4d6a-9134-506027e66805",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "image",
+  "image": {
+    "caption": [],
+    "type": "file",
+    "file": {
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T060531Z&X-Amz-Expires=3600&X-Amz-Signature=54c0dd4f2dde607283793bb29e5f9ecd2e3114f03a5ff75d57971d495cf6eb4c&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-04T07:05:31.010Z"
+    }
+  }
+}}><Image url="/assets/about-notion2svelte/ce917906-431b-4d6a-9134-506027e66805.png"></Image>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "33942c60-d631-4352-92f1-cb91db16130e",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "bulleted_list_item",
+  "bulleted_list_item": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "👘 Your style",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "👘 Your style",
+        "href": null
+      }
+    ]
+  }
+}}><BulletedListItem>👘 Your style</BulletedListItem>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "2f1796b5-8068-4fe6-8eb3-289aa08b7e2a",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "bulleted_list_item",
+  "bulleted_list_item": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "🤔 Your domain",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "🤔 Your domain",
+        "href": null
+      }
+    ]
+  }
+}}><BulletedListItem>🤔 Your domain</BulletedListItem>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "9d9c2603-ece7-407a-8300-49ca4c8c38e8",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "bulleted_list_item",
+  "bulleted_list_item": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "🪡 Infinite possibilities",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "🪡 Infinite possibilities",
+        "href": null
+      }
+    ]
+  }
+}}><BulletedListItem>🪡 Infinite possibilities</BulletedListItem>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "6123632d-ccc1-4182-b1b0-18e932f44af1",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "heading_1",
@@ -581,9 +554,9 @@
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "c3ef5111-5fbc-45d7-9231-8f6ad9ea48a4",
-  "created_time": "2021-12-19T23:12:00.000Z",
-  "last_edited_time": "2021-12-20T03:12:00.000Z",
+  "id": "10ea18b1-010c-493f-9fcb-351b3f70c610",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": true,
   "archived": false,
   "type": "toggle",
@@ -611,9 +584,9 @@
   "blocks": [
     {
       "object": "block",
-      "id": "363ee185-f5fc-4c6b-9b84-69501016ee9f",
-      "created_time": "2021-12-02T23:11:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "3c9ac485-b64a-4557-89d1-c48bfc61720c",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "heading_3",
@@ -641,9 +614,9 @@
     },
     {
       "object": "block",
-      "id": "61780f45-06e6-43d8-bd67-5a91af24c87f",
-      "created_time": "2021-12-04T23:42:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "9e3949cb-9809-4823-afa8-18a3cd64a738",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -671,9 +644,9 @@
     },
     {
       "object": "block",
-      "id": "a4bf8591-1449-4e7f-a0cf-19d927a21346",
-      "created_time": "2021-12-02T23:23:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "66edcc74-349c-4bd4-924f-778ffa3ca59a",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -701,9 +674,9 @@
     },
     {
       "object": "block",
-      "id": "51345024-30ec-4644-96da-c2db7a598dd9",
-      "created_time": "2021-12-14T02:53:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "a3929aff-935d-495a-bfca-8a242a0d7985",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -765,9 +738,9 @@
     },
     {
       "object": "block",
-      "id": "8b71d629-e707-4500-8ec5-c1ad70d10189",
-      "created_time": "2021-12-12T20:50:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "8df9ad15-522d-4df2-8ad4-841120f46a9f",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -829,9 +802,9 @@
     },
     {
       "object": "block",
-      "id": "185e2b0e-236a-4167-8617-acdf68da1b4b",
-      "created_time": "2021-12-12T20:55:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "c5991fe8-f17d-4d85-ab5c-bd62fd6a6d60",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "quote",
@@ -859,9 +832,9 @@
     },
     {
       "object": "block",
-      "id": "b8e7a20a-2bd4-4f4e-8901-fd214c178eaa",
-      "created_time": "2021-12-12T20:55:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "0a9e7a25-a698-4179-9784-2dbe63a8b8e7",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "quote",
@@ -889,9 +862,9 @@
     },
     {
       "object": "block",
-      "id": "71935d95-438a-437c-8f5a-a32f97bd5875",
-      "created_time": "2021-12-12T20:55:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "f6f67f1e-c9a2-4f41-a951-5afefc82b27b",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "quote",
@@ -919,9 +892,9 @@
     },
     {
       "object": "block",
-      "id": "ff618e43-4b7e-44bb-a232-59b3a4f1acf3",
-      "created_time": "2021-12-14T03:03:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "2f4b9294-0256-477c-ac7a-0306a4f98919",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -949,9 +922,9 @@
     },
     {
       "object": "block",
-      "id": "5012700c-8e17-4d9e-9454-cc9a791f1700",
-      "created_time": "2021-12-03T05:32:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "9b3e71ba-b7a6-4553-8a90-b0cbd0627d61",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "divider",
@@ -959,9 +932,9 @@
     },
     {
       "object": "block",
-      "id": "c813ffce-bb60-46c2-8ed2-defd5e3c310e",
-      "created_time": "2021-12-04T23:21:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "0e0da91f-b6cd-4eea-ba13-22132038e2c6",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "heading_3",
@@ -989,9 +962,9 @@
     },
     {
       "object": "block",
-      "id": "ac2b5c1f-e609-4a83-b3d8-906f719efaf0",
-      "created_time": "2021-12-04T23:09:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "c3904c5e-9a0b-45a2-8072-400dd3d935b4",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1019,9 +992,9 @@
     },
     {
       "object": "block",
-      "id": "97c0cba4-3c60-43a5-95f4-6a1d595e0b1f",
-      "created_time": "2021-12-02T23:30:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "205a83db-9147-4f33-8400-6cc9df95a91f",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1049,9 +1022,9 @@
     },
     {
       "object": "block",
-      "id": "5596db13-aa64-4c59-a3c7-dbd21837d51e",
-      "created_time": "2021-12-14T07:50:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "68bb5202-c0d0-4f81-9ec1-3f39707d4b1b",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1079,9 +1052,9 @@
     },
     {
       "object": "block",
-      "id": "01218903-a1ed-4747-b30a-294e48246ec8",
-      "created_time": "2021-12-03T04:56:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "59c7d592-5355-4e15-b446-f5cc71788a80",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1109,9 +1082,9 @@
     },
     {
       "object": "block",
-      "id": "a2f36f1e-654a-4928-a596-2a3af636f896",
-      "created_time": "2021-12-03T04:56:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "a3ecce14-e9a8-43db-9e0f-71d2b2986e21",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1139,9 +1112,9 @@
     },
     {
       "object": "block",
-      "id": "a138ecea-d5a4-4c0a-b273-2f102ae8e556",
-      "created_time": "2021-12-03T04:56:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "c2922b1f-e482-417f-a057-2605f464aafa",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1237,9 +1210,9 @@
     },
     {
       "object": "block",
-      "id": "414e484e-f1fc-4236-9b36-c9da11ed0554",
-      "created_time": "2021-12-03T05:03:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "60174c6f-7970-47a1-b9ff-d9cd03cf1eca",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1318,9 +1291,9 @@
     },
     {
       "object": "block",
-      "id": "674295ed-524a-491d-8bc9-6dd80a814716",
-      "created_time": "2021-12-02T23:08:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "5a1604fd-67ae-48a3-ac05-fd204b262e22",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1382,9 +1355,9 @@
     },
     {
       "object": "block",
-      "id": "57a4f8a9-13c3-401a-8ced-2f3dd2d32d1a",
-      "created_time": "2021-12-03T05:54:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "3d9c8874-cf1e-49ef-8162-c8d0089881eb",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1412,9 +1385,9 @@
     },
     {
       "object": "block",
-      "id": "d55eb944-ef60-42e2-a2a7-9af12c4845d5",
-      "created_time": "2021-12-03T05:54:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "6f764b58-c0db-4f07-aea2-68b945b92a0f",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1546,9 +1519,9 @@
     },
     {
       "object": "block",
-      "id": "d0495662-9904-4766-bd40-e19f5ce96849",
-      "created_time": "2021-12-03T05:59:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "add2eba6-ef41-422e-9047-657671ae8461",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1576,9 +1549,9 @@
     },
     {
       "object": "block",
-      "id": "dc466bb6-f78b-4f8d-a0df-f92ba8df3e9f",
-      "created_time": "2021-12-03T06:04:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "34ade714-2f53-403f-bce8-a5abc7e027ee",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1606,9 +1579,9 @@
     },
     {
       "object": "block",
-      "id": "12592432-b969-40d8-a970-07bd7f067126",
-      "created_time": "2021-12-03T06:13:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "adf5a2eb-f566-40df-92b6-10abd8df481f",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1672,9 +1645,9 @@
     },
     {
       "object": "block",
-      "id": "68114a38-ed04-40bd-bf80-a8466b32f514",
-      "created_time": "2021-12-03T06:19:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "cb47f5f2-e242-48e6-9893-e20a5d160685",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1684,9 +1657,9 @@
     },
     {
       "object": "block",
-      "id": "bfd86648-6f23-4538-be03-e511590396d3",
-      "created_time": "2021-12-03T06:19:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "8a7a23bf-e142-4cc9-926f-6b88065f8ea3",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1782,9 +1755,9 @@
     },
     {
       "object": "block",
-      "id": "22a11045-886e-4834-8bc4-d542bab942fc",
-      "created_time": "2021-12-02T22:25:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "5d8a1079-78d4-49f1-a9c4-ec3ad4ff8680",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1823,7 +1796,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "How to Set Up notion2svelte",
+            "plain_text": "Untitled",
             "href": "https://www.notion.so/8719f802509840a6b27390c58f147f0a"
           },
           {
@@ -1859,7 +1832,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Why notion2svelte?",
+            "plain_text": "Untitled",
             "href": "https://www.notion.so/729b8b1e7b6a4bed852f85e9d0e343e1"
           },
           {
@@ -1895,7 +1868,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Why is this site so hideous?",
+            "plain_text": "Untitled",
             "href": "https://www.notion.so/166c0029be6a4c7b90115d5325424344"
           },
           {
@@ -1920,9 +1893,9 @@
     },
     {
       "object": "block",
-      "id": "33a5e5e3-4b12-49c9-8bc3-1e93fba89c5e",
-      "created_time": "2021-12-03T06:31:00.000Z",
-      "last_edited_time": "2021-12-19T23:12:00.000Z",
+      "id": "5ed3f9ed-1cd1-4ad4-a0d3-0b30cd7c98e9",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "paragraph",
@@ -1932,9 +1905,9 @@
       "blocks": [
         {
           "object": "block",
-          "id": "70805e85-9640-4473-9016-20f931a40e57",
-          "created_time": "2021-12-03T06:07:00.000Z",
-          "last_edited_time": "2021-12-04T01:21:00.000Z",
+          "id": "e18be092-f84f-44b0-8975-3bd6768ef68e",
+          "created_time": "2022-01-04T05:41:00.000Z",
+          "last_edited_time": "2022-01-04T05:41:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "paragraph",
@@ -2045,7 +2018,7 @@ What technology can accomplish all of this? Oh. Hello HTML and CSS, old frenemie
 So that's the background that you never wanted to know in the first place. I wanted a No Code<InlineColor value='blue'><strong>†</strong></InlineColor>&nbsp;workflow with Notion as the primary (but by no means exclusive!) source, and the good old WWW as the destination, with no built-in fences between me and potential readers (other than the ubiquitous barrier of natural obscurity), and, I&nbsp;<em>think</em>, I've found it!&nbsp;
 </Paragraph>
 <Paragraph>
-To learn more about how notion2svelte works, explore the pages below. You might want to start with&nbsp;<p style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; ">⚠️ k(t, url): <span style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">How to Set Up notion2svelte.</span>&nbsp;No URL provided for How to Set Up notion2svelte</p>,&nbsp;<p style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; ">⚠️ k(t, url): <span style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Why notion2svelte?.</span>&nbsp;No URL provided for Why notion2svelte?</p>, or perhaps&nbsp;<p style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; ">⚠️ k(t, url): <span style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Why is this site so hideous?.</span>&nbsp;No URL provided for Why is this site so hideous?</p>&nbsp;.
+To learn more about how notion2svelte works, explore the pages below. You might want to start with&nbsp;<p style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; ">⚠️ k(t, url): <span style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Untitled.</span>&nbsp;No URL provided for Untitled</p>,&nbsp;<p style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; ">⚠️ k(t, url): <span style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Untitled.</span>&nbsp;No URL provided for Untitled</p>, or perhaps&nbsp;<p style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; ">⚠️ k(t, url): <span style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Untitled.</span>&nbsp;No URL provided for Untitled</p>&nbsp;.
 </Paragraph>
 <Paragraph>
 
@@ -2060,9 +2033,9 @@ To learn more about how notion2svelte works, explore the pages below. You might 
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "2ec31f25-9f1f-423e-8bec-a494cda14982",
-  "created_time": "2021-12-19T23:12:00.000Z",
-  "last_edited_time": "2021-12-20T03:12:00.000Z",
+  "id": "cf2d44ae-2b9a-4589-8007-df93a1241c30",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": true,
   "archived": false,
   "type": "toggle",
@@ -2090,9 +2063,9 @@ To learn more about how notion2svelte works, explore the pages below. You might 
   "blocks": [
     {
       "object": "block",
-      "id": "d8d52dcd-1573-4da2-95a3-b1844c6416be",
-      "created_time": "2021-12-19T23:12:00.000Z",
-      "last_edited_time": "2021-12-19T23:15:00.000Z",
+      "id": "672b7028-51da-43af-8ec2-4ac64c925851",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -2222,9 +2195,9 @@ To learn more about how notion2svelte works, explore the pages below. You might 
     },
     {
       "object": "block",
-      "id": "796b6a0c-5565-48e2-a4d2-84bc81604352",
-      "created_time": "2021-12-19T23:14:00.000Z",
-      "last_edited_time": "2021-12-19T23:47:00.000Z",
+      "id": "9cf662f3-1081-4a67-9734-c2c117512dcf",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -2279,9 +2252,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "bd00cfd1-cd2c-456b-9cd5-b8e96e7b2a42",
-  "created_time": "2021-12-19T23:28:00.000Z",
-  "last_edited_time": "2021-12-20T03:12:00.000Z",
+  "id": "c6da2a97-49e1-4c31-b415-ac85e8e51757",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": true,
   "archived": false,
   "type": "paragraph",
@@ -2309,9 +2282,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
   "blocks": [
     {
       "object": "block",
-      "id": "9767e1c2-f7ef-4c2d-b30e-fda89d93ff6c",
-      "created_time": "2021-12-19T23:15:00.000Z",
-      "last_edited_time": "2021-12-20T00:13:00.000Z",
+      "id": "3c1e2adf-9ef0-48ee-b7be-0aeb4ee14f38",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "bulleted_list_item",
@@ -2339,9 +2312,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
       "blocks": [
         {
           "object": "block",
-          "id": "b346fe64-122b-49c4-a03f-44b16afb8dc5",
-          "created_time": "2021-12-19T23:28:00.000Z",
-          "last_edited_time": "2021-12-19T23:28:00.000Z",
+          "id": "1d27cc2e-27aa-4e3f-83b2-07db58071715",
+          "created_time": "2022-01-04T05:41:00.000Z",
+          "last_edited_time": "2022-01-04T05:41:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "paragraph",
@@ -2369,9 +2342,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
         },
         {
           "object": "block",
-          "id": "572cb6f4-9ebb-45c3-bc5d-22de8117daee",
-          "created_time": "2021-12-19T23:16:00.000Z",
-          "last_edited_time": "2021-12-19T23:17:00.000Z",
+          "id": "c74a0e6b-2256-4c09-97e7-af5d30620cf1",
+          "created_time": "2022-01-04T05:41:00.000Z",
+          "last_edited_time": "2022-01-04T05:41:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "bulleted_list_item",
@@ -2399,9 +2372,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
         },
         {
           "object": "block",
-          "id": "fd145b69-f98d-401a-b8a8-43b742668c01",
-          "created_time": "2021-12-19T23:18:00.000Z",
-          "last_edited_time": "2021-12-20T00:13:00.000Z",
+          "id": "319e60c3-3252-41ae-8584-94a40b1ecd17",
+          "created_time": "2022-01-04T05:41:00.000Z",
+          "last_edited_time": "2022-01-04T05:41:00.000Z",
           "has_children": true,
           "archived": false,
           "type": "bulleted_list_item",
@@ -2429,9 +2402,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
           "blocks": [
             {
               "object": "block",
-              "id": "f9c9a8aa-07eb-424c-a15f-971b3e95262c",
-              "created_time": "2021-12-19T23:20:00.000Z",
-              "last_edited_time": "2021-12-20T00:13:00.000Z",
+              "id": "bc0e4941-24ea-48fa-abc8-ef1774885b7d",
+              "created_time": "2022-01-04T05:41:00.000Z",
+              "last_edited_time": "2022-01-04T05:41:00.000Z",
               "has_children": true,
               "archived": false,
               "type": "toggle",
@@ -2459,9 +2432,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
               "blocks": [
                 {
                   "object": "block",
-                  "id": "34818624-23ba-4a38-8783-dfd9fe47fdc5",
-                  "created_time": "2021-12-19T23:20:00.000Z",
-                  "last_edited_time": "2021-12-20T00:15:00.000Z",
+                  "id": "5eb9a5e9-87f9-4612-91a1-dd4034e87974",
+                  "created_time": "2022-01-04T05:41:00.000Z",
+                  "last_edited_time": "2022-01-04T05:41:00.000Z",
                   "has_children": true,
                   "archived": false,
                   "type": "paragraph",
@@ -2523,9 +2496,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
                   "blocks": [
                     {
                       "object": "block",
-                      "id": "ffdee43d-42a6-49e5-9f16-60af87bffe79",
-                      "created_time": "2021-12-19T23:21:00.000Z",
-                      "last_edited_time": "2021-12-20T00:13:00.000Z",
+                      "id": "1b947316-8dfe-4e34-a088-40a6d00295d8",
+                      "created_time": "2022-01-04T05:41:00.000Z",
+                      "last_edited_time": "2022-01-04T05:41:00.000Z",
                       "has_children": false,
                       "archived": false,
                       "type": "image",
@@ -2687,8 +2660,8 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
                         ],
                         "type": "file",
                         "file": {
-                          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b988249d-299a-468a-bb3a-74ea305240d5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111731Z&X-Amz-Expires=3600&X-Amz-Signature=8ff6d4f00798788b38b4fdf81313d8e0097e6a7bdb114fbc25db18e176f03aa2&X-Amz-SignedHeaders=host&x-id=GetObject",
-                          "expiry_time": "2021-12-20T12:17:31.597Z"
+                          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b988249d-299a-468a-bb3a-74ea305240d5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T060531Z&X-Amz-Expires=3600&X-Amz-Signature=47bffee99c464a8673f81c078c7a1af2c651a412f1c484c6c5668fd4bee39e21&X-Amz-SignedHeaders=host&x-id=GetObject",
+                          "expiry_time": "2022-01-04T07:05:31.954Z"
                         }
                       }
                     }
@@ -2696,9 +2669,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
                 },
                 {
                   "object": "block",
-                  "id": "acfe95fe-72d4-441c-b08a-f895c9ceaf85",
-                  "created_time": "2021-12-19T23:26:00.000Z",
-                  "last_edited_time": "2021-12-20T00:13:00.000Z",
+                  "id": "6be13dbc-5d36-4755-9ca3-a3cfc6756890",
+                  "created_time": "2022-01-04T05:41:00.000Z",
+                  "last_edited_time": "2022-01-04T05:41:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "paragraph",
@@ -2768,9 +2741,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
     },
     {
       "object": "block",
-      "id": "707cb4d3-9930-4c2d-9d16-1b515e7667e2",
-      "created_time": "2021-12-19T23:30:00.000Z",
-      "last_edited_time": "2021-12-19T23:38:00.000Z",
+      "id": "49a19b63-89dc-4e53-bb9d-25b0459b3eea",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "bulleted_list_item",
@@ -2832,9 +2805,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
       "blocks": [
         {
           "object": "block",
-          "id": "6926fa44-a601-4bf4-9fef-ba36a70094c0",
-          "created_time": "2021-12-19T23:30:00.000Z",
-          "last_edited_time": "2021-12-19T23:39:00.000Z",
+          "id": "d4e88d63-3dc1-4cc3-88a6-cd7b458d5d57",
+          "created_time": "2022-01-04T05:41:00.000Z",
+          "last_edited_time": "2022-01-04T05:41:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "paragraph",
@@ -2862,9 +2835,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
         },
         {
           "object": "block",
-          "id": "d9b667f7-e205-4c61-814a-2666b393c8f5",
-          "created_time": "2021-12-19T23:26:00.000Z",
-          "last_edited_time": "2021-12-19T23:37:00.000Z",
+          "id": "cc223c4a-6dee-4109-ae3a-89d3a1557e48",
+          "created_time": "2022-01-04T05:41:00.000Z",
+          "last_edited_time": "2022-01-04T05:41:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "bulleted_list_item",
@@ -2962,9 +2935,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
     },
     {
       "object": "block",
-      "id": "506c565f-0dec-423d-bacd-28db8d57e407",
-      "created_time": "2021-12-19T23:34:00.000Z",
-      "last_edited_time": "2021-12-20T03:12:00.000Z",
+      "id": "0f1500da-139c-4945-aecf-c61b513240c5",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "bulleted_list_item",
@@ -2992,9 +2965,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
       "blocks": [
         {
           "object": "block",
-          "id": "3c6c4a0f-27ad-416b-bdab-af6c5d9355b6",
-          "created_time": "2021-12-19T23:39:00.000Z",
-          "last_edited_time": "2021-12-19T23:40:00.000Z",
+          "id": "ae3d0991-13ba-47bc-b6d7-f8533b34f78b",
+          "created_time": "2022-01-04T05:41:00.000Z",
+          "last_edited_time": "2022-01-04T05:41:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "paragraph",
@@ -3022,9 +2995,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
         },
         {
           "object": "block",
-          "id": "a811f65b-d16a-4631-a2ff-d4fa8dc95a13",
-          "created_time": "2021-12-19T23:40:00.000Z",
-          "last_edited_time": "2021-12-19T23:41:00.000Z",
+          "id": "a441d1df-8a49-4b91-bf60-62ca6d72e095",
+          "created_time": "2022-01-04T05:41:00.000Z",
+          "last_edited_time": "2022-01-04T05:41:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "bulleted_list_item",
@@ -3052,9 +3025,9 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
         },
         {
           "object": "block",
-          "id": "1597f672-82d7-479b-acec-84394c563a54",
-          "created_time": "2021-12-19T23:39:00.000Z",
-          "last_edited_time": "2021-12-20T03:12:00.000Z",
+          "id": "09271b1a-91c1-422d-af48-75e9114aea99",
+          "created_time": "2022-01-04T05:41:00.000Z",
+          "last_edited_time": "2022-01-04T05:41:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "bulleted_list_item",
@@ -3134,7 +3107,7 @@ It’s not the best project out there, but it’s the only one that does what I 
 Press the&nbsp;<InlineCode code="I" />&nbsp;key to toggle Inspection Mode on this page, then hover over various blocks. For instance, here’s a screenshot from me hovering over the title above after enabling Inspection Mode.
 </Paragraph>
 <IndentGroup>
-  <Image url="/assets/about-notion2svelte/ffdee43d-42a6-49e5-9f16-60af87bffe79.png">Inspection Mode is&nbsp;<em>not</em>&nbsp;a feature of&nbsp;<em>notion2svelte.</em>&nbsp;Rather,&nbsp;<em>notion2svelte</em>&nbsp;<em>enables</em>&nbsp;this sort of thing by wrapping every component in a &lt;Magic> component.</Image>
+  <Image url="/assets/about-notion2svelte/1b947316-8dfe-4e34-a088-40a6d00295d8.png">Inspection Mode is&nbsp;<em>not</em>&nbsp;a feature of&nbsp;<em>notion2svelte.</em>&nbsp;Rather,&nbsp;<em>notion2svelte</em>&nbsp;<em>enables</em>&nbsp;this sort of thing by wrapping every component in a &lt;Magic> component.</Image>
 
 </IndentGroup>
 <Paragraph>
@@ -3167,9 +3140,9 @@ Press the&nbsp;<InlineCode code="I" />&nbsp;key to toggle Inspection Mode on thi
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "15b80b2c-3d31-458a-96b1-4e4a724d8d12",
-  "created_time": "2021-12-20T03:12:00.000Z",
-  "last_edited_time": "2021-12-20T03:12:00.000Z",
+  "id": "bf957266-9821-4fb5-bf5b-80d0534b6f59",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "divider",
@@ -3179,9 +3152,9 @@ Press the&nbsp;<InlineCode code="I" />&nbsp;key to toggle Inspection Mode on thi
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "d2b791da-0d75-49de-ba88-dda6c901cc40",
-  "created_time": "2021-12-20T03:07:00.000Z",
-  "last_edited_time": "2021-12-20T03:07:00.000Z",
+  "id": "91adaa08-fc21-4f3d-b0ef-2b22cf231f5b",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "heading_1",
@@ -3211,9 +3184,9 @@ Press the&nbsp;<InlineCode code="I" />&nbsp;key to toggle Inspection Mode on thi
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "abe0482e-c0f5-4036-acb9-5c525074b9e1",
-  "created_time": "2021-12-20T03:07:00.000Z",
-  "last_edited_time": "2021-12-20T03:21:00.000Z",
+  "id": "4c85cc84-2fc3-41a0-a13c-39dc148c29b6",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -3313,9 +3286,9 @@ Everything you see on this page was written in Notion, exported as .svelte files
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "58d8d8dc-2ecb-4df2-9dcb-0e50553a3a9f",
-  "created_time": "2021-12-20T04:26:00.000Z",
-  "last_edited_time": "2021-12-20T10:04:00.000Z",
+  "id": "5736ed02-5138-4dad-ab64-b5f2a76d8fac",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "image",
@@ -3358,18 +3331,18 @@ Everything you see on this page was written in Notion, exported as .svelte files
     ],
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111730Z&X-Amz-Expires=3600&X-Amz-Signature=5881e33f8b499f6cec07d974f501a8b255f5b3a04f181164ae34cce285860465&X-Amz-SignedHeaders=host&x-id=GetObject",
-      "expiry_time": "2021-12-20T12:17:30.488Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T060531Z&X-Amz-Expires=3600&X-Amz-Signature=79b5146f837ea592eeb09b70cd6dd6fc3bcf796dd1e1f1ad9020a8f7a4ad1f33&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-04T07:05:30.996Z"
     }
   }
-}}><Image url="/assets/about-notion2svelte/58d8d8dc-2ecb-4df2-9dcb-0e50553a3a9f.png"><em>notion2svelte</em>, grossly over-simplified</Image>
+}}><Image url="/assets/about-notion2svelte/5736ed02-5138-4dad-ab64-b5f2a76d8fac.png"><em>notion2svelte</em>, grossly over-simplified</Image>
 </Magic> 
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "6ae6723f-b83a-42e0-8f0a-4812c81be013",
-  "created_time": "2021-12-20T03:15:00.000Z",
-  "last_edited_time": "2021-12-20T10:04:00.000Z",
+  "id": "9894d662-f6c5-47f5-b3c1-5a03069a986d",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -3401,9 +3374,9 @@ After that, what you do with the results is up to you. Let’s use a simple call
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "011d46be-4bf6-4817-a0da-a849ec16f1aa",
-  "created_time": "2021-12-20T10:00:00.000Z",
-  "last_edited_time": "2021-12-20T10:04:00.000Z",
+  "id": "67cdeb5a-5337-47d1-87b4-b2b0c7410054",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "callout",
@@ -3436,9 +3409,9 @@ After that, what you do with the results is up to you. Let’s use a simple call
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "39589b61-9267-4d22-a473-d05bfb440926",
-  "created_time": "2021-12-20T10:05:00.000Z",
-  "last_edited_time": "2021-12-20T10:44:00.000Z",
+  "id": "8bc9913f-ab33-4d43-905f-015d53c10840",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -3470,9 +3443,9 @@ The Notion API renders the above callout thus:
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "31ac6473-b3f3-405a-a7c3-e9507241a0e1",
-  "created_time": "2021-12-20T10:34:00.000Z",
-  "last_edited_time": "2021-12-20T10:34:00.000Z",
+  "id": "f662c215-d59c-45d9-a778-3bcc82725b83",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "code",
@@ -3535,9 +3508,9 @@ The Notion API renders the above callout thus:
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "421ae7ff-bb72-40b8-9a07-2990773ed33b",
-  "created_time": "2021-12-20T10:44:00.000Z",
-  "last_edited_time": "2021-12-20T10:45:00.000Z",
+  "id": "08cb0f53-4846-40df-aaeb-6bc6b9f01399",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -3637,9 +3610,9 @@ Obviously, most of this is just noise. What we mainly care about — given that 
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "05d7d80c-c69a-4a9e-a85a-392397c76d02",
-  "created_time": "2021-12-20T10:44:00.000Z",
-  "last_edited_time": "2021-12-20T10:45:00.000Z",
+  "id": "4a1f1e4c-ff1c-4f40-993d-4d868b086a23",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "code",
@@ -3669,9 +3642,9 @@ Obviously, most of this is just noise. What we mainly care about — given that 
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "06072cbe-7b7d-45f2-a5c1-a527b01e14ee",
-  "created_time": "2021-12-20T10:45:00.000Z",
-  "last_edited_time": "2021-12-20T10:53:00.000Z",
+  "id": "10395dbd-8fb6-4f92-aaab-353ff1f1cd44",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -3703,97 +3676,62 @@ Ahhh! That’s better, right?
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "65d349e9-b61c-4bcb-861a-2afa84386406",
-  "created_time": "2021-12-20T10:59:00.000Z",
-  "last_edited_time": "2021-12-20T10:59:00.000Z",
-  "has_children": true,
+  "id": "f118e391-e5eb-40b0-9e2f-180ab13b8f32",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
   "archived": false,
-  "type": "column_list",
-  "column_list": {},
-  "blocks": [
-    {
-      "object": "block",
-      "id": "0b024c39-6187-44b5-b9d7-eafc6b9a6230",
-      "created_time": "2021-12-20T10:59:00.000Z",
-      "last_edited_time": "2021-12-20T11:01:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column",
-      "column": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "28e0d29f-1469-45ed-9403-f6c54bdeec35",
-          "created_time": "2021-12-20T10:53:00.000Z",
-          "last_edited_time": "2021-12-20T10:59:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "After this point, it’s basically up to you! Do you want a simple, gray callout with minimal styling, like this:",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "After this point, it’s basically up to you! Do you want a simple, gray callout with minimal styling, like this:",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "7cf3e09a-a2b1-412e-9bb2-6c7c3895cff9",
-      "created_time": "2021-12-20T10:59:00.000Z",
-      "last_edited_time": "2021-12-20T11:01:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column",
-      "column": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "1c4f2955-733f-4a17-ae88-58dd48071269",
-          "created_time": "2021-12-20T10:59:00.000Z",
-          "last_edited_time": "2021-12-20T10:59:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "image",
-          "image": {
-            "caption": [],
-            "type": "file",
-            "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111731Z&X-Amz-Expires=3600&X-Amz-Signature=991b5b80dc81808daf1f9b6bbd7c49baec6f4e3658c9a4b71cb8a9ba49d3072b&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2021-12-20T12:17:31.024Z"
-            }
-          }
-        }
-      ]
-    }
-  ]
-}}><ColumnList cols={2}><Column><Paragraph>
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "After this point, it’s basically up to you! Do you want a simple, gray callout with minimal styling, like this:",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "After this point, it’s basically up to you! Do you want a simple, gray callout with minimal styling, like this:",
+        "href": null
+      }
+    ]
+  }
+}}><Paragraph>
 After this point, it’s basically up to you! Do you want a simple, gray callout with minimal styling, like this:
 </Paragraph>
-</Column><Column><Image url="/assets/about-notion2svelte/1c4f2955-733f-4a17-ae88-58dd48071269.png"></Image>
-</Column></ColumnList></Magic> 
+</Magic> 
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "a1ec1c18-c068-44cd-8c57-0577d28ddb3c",
-  "created_time": "2021-12-20T10:44:00.000Z",
-  "last_edited_time": "2021-12-20T11:01:00.000Z",
+  "id": "d1e9674e-cc3c-4262-931a-a3ec737ce29f",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "image",
+  "image": {
+    "caption": [],
+    "type": "file",
+    "file": {
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T060531Z&X-Amz-Expires=3600&X-Amz-Signature=36ace3c988ceb32e22fec2c2696d1e35f8a6e05fa09440effd74b7c3c599b3be&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-04T07:05:31.007Z"
+    }
+  }
+}}><Image url="/assets/about-notion2svelte/d1e9674e-cc3c-4262-931a-a3ec737ce29f.png"></Image>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "0eeef2da-136f-4afe-bdd6-f807288bc806",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": true,
   "archived": false,
   "type": "toggle",
@@ -3855,9 +3793,9 @@ After this point, it’s basically up to you! Do you want a simple, gray callout
   "blocks": [
     {
       "object": "block",
-      "id": "a3814e2a-812a-472f-be66-417defdfee00",
-      "created_time": "2021-12-20T10:44:00.000Z",
-      "last_edited_time": "2021-12-20T10:57:00.000Z",
+      "id": "287b47bb-124b-48e8-a0b6-a624506ec1cd",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "code",
@@ -3886,9 +3824,9 @@ After this point, it’s basically up to you! Do you want a simple, gray callout
     },
     {
       "object": "block",
-      "id": "3256ca05-ae82-4584-b3e8-cbff5b9e53f8",
-      "created_time": "2021-12-20T10:44:00.000Z",
-      "last_edited_time": "2021-12-20T10:44:00.000Z",
+      "id": "ccdaf1ac-0ff8-48f6-b30d-50b77ce28489",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -3898,7 +3836,8 @@ After this point, it’s basically up to you! Do you want a simple, gray callout
     }
   ]
 }}><Toggle>Code for&nbsp;<em>Callout.svelte</em>&nbsp;(gray version)
-<span slot="children"><Code code={`<script>export let emoji = '';
+<span slot="children"><Code code={`<script>
+	export let emoji = '';
 </script>
 
 <div class="wrapper">
@@ -3930,131 +3869,96 @@ After this point, it’s basically up to you! Do you want a simple, gray callout
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "c4af6790-63f4-4535-b6a4-8d17ef237f9c",
-  "created_time": "2021-12-20T11:00:00.000Z",
-  "last_edited_time": "2021-12-20T11:00:00.000Z",
-  "has_children": true,
+  "id": "15660a60-34ff-41c8-a2b1-96c262f3b2c1",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
   "archived": false,
-  "type": "column_list",
-  "column_list": {},
-  "blocks": [
-    {
-      "object": "block",
-      "id": "ece26ad5-a90a-4664-8e19-9133fc642ae7",
-      "created_time": "2021-12-20T11:00:00.000Z",
-      "last_edited_time": "2021-12-20T11:01:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column",
-      "column": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "9c56679e-9b29-48de-aa4b-b3a4ba640e63",
-          "created_time": "2021-12-20T10:59:00.000Z",
-          "last_edited_time": "2021-12-20T11:00:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "Or you might do something more colorful. Here’s the code (as of this writing) for this documentation’s ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Or you might do something more colorful. Here’s the code (as of this writing) for this documentation’s ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "Callout.svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Callout.svelte",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": ":",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": ":",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "de5119b1-be13-44b8-a21c-2db0bbff326d",
-      "created_time": "2021-12-20T11:00:00.000Z",
-      "last_edited_time": "2021-12-20T11:01:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column",
-      "column": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "f769ac87-5d6e-4880-9b95-f6191a4b2c39",
-          "created_time": "2021-12-20T10:44:00.000Z",
-          "last_edited_time": "2021-12-20T11:00:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "image",
-          "image": {
-            "caption": [],
-            "type": "file",
-            "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111730Z&X-Amz-Expires=3600&X-Amz-Signature=3e5e589e9e775a655542edf109d09322a8f321d508056e48863861c0d7b9e639&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2021-12-20T12:17:30.939Z"
-            }
-          }
-        }
-      ]
-    }
-  ]
-}}><ColumnList cols={2}><Column><Paragraph>
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Or you might do something more colorful. Here’s the code (as of this writing) for this documentation’s ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Or you might do something more colorful. Here’s the code (as of this writing) for this documentation’s ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "Callout.svelte",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Callout.svelte",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ":",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ":",
+        "href": null
+      }
+    ]
+  }
+}}><Paragraph>
 Or you might do something more colorful. Here’s the code (as of this writing) for this documentation’s&nbsp;<em>Callout.svelte</em>:
 </Paragraph>
-</Column><Column><Image url="/assets/about-notion2svelte/f769ac87-5d6e-4880-9b95-f6191a4b2c39.png"></Image>
-</Column></ColumnList></Magic> 
+</Magic> 
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "8f16072e-0dad-48c9-bf25-1fffc6f92e13",
-  "created_time": "2021-12-20T10:44:00.000Z",
-  "last_edited_time": "2021-12-20T11:01:00.000Z",
+  "id": "dfe7854d-36fd-452b-9075-64c2727aec5d",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "image",
+  "image": {
+    "caption": [],
+    "type": "file",
+    "file": {
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T060531Z&X-Amz-Expires=3600&X-Amz-Signature=36ae606abc1f50ac02e3646b8e708ddccac15aff3b30e469850f7ad259a67849&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-04T07:05:31.002Z"
+    }
+  }
+}}><Image url="/assets/about-notion2svelte/dfe7854d-36fd-452b-9075-64c2727aec5d.png"></Image>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "bdfb1aad-09f2-4250-bfbd-3ccd7fc05e4b",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": true,
   "archived": false,
   "type": "toggle",
@@ -4082,9 +3986,9 @@ Or you might do something more colorful. Here’s the code (as of this writing) 
   "blocks": [
     {
       "object": "block",
-      "id": "568c8e4f-96d1-404a-af72-0334235f3cf4",
-      "created_time": "2021-12-20T10:44:00.000Z",
-      "last_edited_time": "2021-12-20T10:44:00.000Z",
+      "id": "4f638d04-b4ad-4150-a3e7-f1a028741d42",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "code",
@@ -4113,9 +4017,9 @@ Or you might do something more colorful. Here’s the code (as of this writing) 
     },
     {
       "object": "block",
-      "id": "de8e9316-d4b2-451d-b75a-258a73620072",
-      "created_time": "2021-12-20T10:44:00.000Z",
-      "last_edited_time": "2021-12-20T10:44:00.000Z",
+      "id": "a3c6d2fb-0290-4bd5-880d-da0f2ed3e82c",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -4166,181 +4070,149 @@ Or you might do something more colorful. Here’s the code (as of this writing) 
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "a9dcff3b-e95a-499f-9dee-33ad7cfe072f",
-  "created_time": "2021-12-20T11:06:00.000Z",
-  "last_edited_time": "2021-12-20T11:07:00.000Z",
-  "has_children": true,
+  "id": "c6088c1f-d349-48cc-a6bb-a57d6709f233",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
   "archived": false,
-  "type": "column_list",
-  "column_list": {},
-  "blocks": [
-    {
-      "object": "block",
-      "id": "dcf4be13-df30-472a-b66e-2440610dadac",
-      "created_time": "2021-12-20T11:06:00.000Z",
-      "last_edited_time": "2021-12-20T11:07:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column",
-      "column": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "28b8565f-f80d-41cd-86ea-8a49adc64e65",
-          "created_time": "2021-12-20T10:57:00.000Z",
-          "last_edited_time": "2021-12-20T11:07:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "Or you could go crazy and have a callout that doubles as a toggle. Wat!? 🙀",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Or you could go crazy and have a callout that doubles as a toggle. Wat!? 🙀",
-                "href": null
-              }
-            ]
-          }
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Or you could go crazy and have a callout that doubles as a toggle. Wat!? 🙀",
+          "link": null
         },
-        {
-          "object": "block",
-          "id": "c9c96922-f8ac-4b81-be4c-d0d8f5bc4223",
-          "created_time": "2021-12-20T11:06:00.000Z",
-          "last_edited_time": "2021-12-20T11:10:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "2734dd8a-338b-41f4-a852-c71892e7371f",
-      "created_time": "2021-12-20T11:06:00.000Z",
-      "last_edited_time": "2021-12-20T11:08:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column",
-      "column": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "a60ab7f4-be74-4bf0-b383-4bb8c8dc774a",
-          "created_time": "2021-12-20T11:08:00.000Z",
-          "last_edited_time": "2021-12-20T11:08:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "image",
-          "image": {
-            "caption": [],
-            "type": "file",
-            "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111731Z&X-Amz-Expires=3600&X-Amz-Signature=5b64d85ef107a8a612cd6c4abf827b0ce1dd2c8636933a4fa86d4fabf2434526&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2021-12-20T12:17:31.010Z"
-            }
-          }
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
         },
-        {
-          "object": "block",
-          "id": "712b5ff4-6882-44be-a63c-97bd4011689e",
-          "created_time": "2021-12-20T11:08:00.000Z",
-          "last_edited_time": "2021-12-20T11:08:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "↓ click! ↓",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "↓ click! ↓",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "4232ca2f-4e4d-457a-bd31-dd9d2bcfa7e2",
-          "created_time": "2021-12-20T11:06:00.000Z",
-          "last_edited_time": "2021-12-20T11:07:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "image",
-          "image": {
-            "caption": [],
-            "type": "file",
-            "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f7caa9b8-2274-4f09-a4d4-2158783537c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211220T111731Z&X-Amz-Expires=3600&X-Amz-Signature=c776362fee2213c4f544518947fc764c9fe475859cd181bfab83385c25d79fe2&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2021-12-20T12:17:31.013Z"
-            }
-          }
-        }
-      ]
-    }
-  ]
-}}><ColumnList cols={2}><Column><Paragraph>
+        "plain_text": "Or you could go crazy and have a callout that doubles as a toggle. Wat!? 🙀",
+        "href": null
+      }
+    ]
+  }
+}}><Paragraph>
 Or you could go crazy and have a callout that doubles as a toggle. Wat!? 🙀
 </Paragraph>
-<Paragraph>
-Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!
-</Paragraph>
-</Column><Column><Image url="/assets/about-notion2svelte/a60ab7f4-be74-4bf0-b383-4bb8c8dc774a.png"></Image>
-<Paragraph>
-↓ click! ↓
-</Paragraph>
-<Image url="/assets/about-notion2svelte/4232ca2f-4e4d-457a-bd31-dd9d2bcfa7e2.png"></Image>
-</Column></ColumnList></Magic> 
+</Magic> 
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "2beaabef-6c21-49df-bcce-7d12aac0581b",
-  "created_time": "2021-12-20T11:01:00.000Z",
-  "last_edited_time": "2021-12-20T11:01:00.000Z",
+  "id": "5bcc28d8-6d04-4d8f-bc65-63faf8dec137",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!",
+        "href": null
+      }
+    ]
+  }
+}}><Paragraph>
+Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!
+</Paragraph>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "cbfb764c-a770-44df-9a8e-4a8d1633338f",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "image",
+  "image": {
+    "caption": [],
+    "type": "file",
+    "file": {
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T060531Z&X-Amz-Expires=3600&X-Amz-Signature=a34ac153fcb8ac3a341aa6d5468d19fc1c8c06bba5b6d7cfecad338fa5533de2&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-04T07:05:31.000Z"
+    }
+  }
+}}><Image url="/assets/about-notion2svelte/cbfb764c-a770-44df-9a8e-4a8d1633338f.png"></Image>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "82ec11f5-2d18-450a-838e-f0464a893769",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "↓ click! ↓",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "↓ click! ↓",
+        "href": null
+      }
+    ]
+  }
+}}><Paragraph>
+↓ click! ↓
+</Paragraph>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "a3a05f18-7fee-48a2-93ca-476b50ca061b",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "image",
+  "image": {
+    "caption": [],
+    "type": "file",
+    "file": {
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f7caa9b8-2274-4f09-a4d4-2158783537c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T060531Z&X-Amz-Expires=3600&X-Amz-Signature=050fad8e0e7c4202269c0076affd51b11f3bf25d7d8a510ea15f9042cbf5ac2b&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-04T07:05:30.998Z"
+    }
+  }
+}}><Image url="/assets/about-notion2svelte/a3a05f18-7fee-48a2-93ca-476b50ca061b.png"></Image>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "0eebda4d-b485-4c5f-9774-98af022329d2",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": true,
   "archived": false,
   "type": "toggle",
@@ -4368,9 +4240,9 @@ Sure. You can add keyboard interactions, or make callouts behave according to us
   "blocks": [
     {
       "object": "block",
-      "id": "fb64cc13-e6ec-46d5-b1c0-4c3a76f76a44",
-      "created_time": "2021-12-20T11:01:00.000Z",
-      "last_edited_time": "2021-12-20T11:16:00.000Z",
+      "id": "5a630fe0-a711-4ccb-8f66-cb7c014aa58f",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-04T05:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "code",
@@ -4449,9 +4321,9 @@ Sure. You can add keyboard interactions, or make callouts behave according to us
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "5f65a0cf-2a3c-4c7e-b8d1-ee56b24f40dc",
-  "created_time": "2021-12-20T11:10:00.000Z",
-  "last_edited_time": "2021-12-20T11:10:00.000Z",
+  "id": "798209c4-0860-43cf-b277-f5578dc20852",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "heading_3",
@@ -4481,9 +4353,9 @@ Sure. You can add keyboard interactions, or make callouts behave according to us
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "30f5e96e-0439-4abb-9fde-e1d2aa88abec",
-  "created_time": "2021-12-20T11:11:00.000Z",
-  "last_edited_time": "2021-12-20T11:14:00.000Z",
+  "id": "e3c33145-127f-4365-aa84-c107bba156b4",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -4685,9 +4557,9 @@ It should go without saying, but your Sveltekit app needs to know where to actua
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "f57e2e66-e5c6-4a52-9b74-9866e84c0990",
-  "created_time": "2021-12-20T11:14:00.000Z",
-  "last_edited_time": "2021-12-20T11:15:00.000Z",
+  "id": "4d6501a0-f5ab-4891-a700-c72316996f1d",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -4719,9 +4591,9 @@ Keeping with our Callout theme, here’s the equivalent import statement.
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "31c37ebe-634c-4f4d-becd-163f4526af0a",
-  "created_time": "2021-12-20T10:44:00.000Z",
-  "last_edited_time": "2021-12-20T11:15:00.000Z",
+  "id": "3f6e5fc4-1105-42e2-b76e-30b337c9a932",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "code",
@@ -4751,9 +4623,9 @@ Keeping with our Callout theme, here’s the equivalent import statement.
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "1a78656a-a77b-4d73-b0fb-5bd4b9570f51",
-  "created_time": "2021-12-20T10:26:00.000Z",
-  "last_edited_time": "2021-12-20T10:26:00.000Z",
+  "id": "808e5db3-d2fa-4eb0-b7ee-65972ac44499",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "divider",
@@ -4763,9 +4635,9 @@ Keeping with our Callout theme, here’s the equivalent import statement.
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "3def29ed-922e-4e86-99bb-cd72c45c561a",
-  "created_time": "2021-12-19T23:41:00.000Z",
-  "last_edited_time": "2021-12-20T00:21:00.000Z",
+  "id": "470c19a1-e892-4b0b-8502-2204abfad367",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "heading_1",
@@ -4812,9 +4684,9 @@ Keeping with our Callout theme, here’s the equivalent import statement.
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "022fb7fa-aeff-4bf3-92fb-1e36e5358bf4",
-  "created_time": "2021-12-19T23:45:00.000Z",
-  "last_edited_time": "2021-12-20T00:08:00.000Z",
+  "id": "ebf87bb2-dcde-41a0-a21a-5db8d51e3fa0",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -4846,9 +4718,9 @@ For now, the fastest way to get started is to follow along with the video tutori
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "c5d30b2f-32c2-42b0-b650-b2140fec08b6",
-  "created_time": "2021-12-20T00:08:00.000Z",
-  "last_edited_time": "2021-12-20T11:17:00.000Z",
+  "id": "c281c1ed-70dc-4702-946b-db824f154315",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -4933,9 +4805,9 @@ For now, the fastest way to get started is to follow along with the video tutori
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "fde2f4b9-aa38-4863-9bab-d7a1f6fa8744",
-  "created_time": "2021-12-20T11:17:00.000Z",
-  "last_edited_time": "2021-12-20T11:17:00.000Z",
+  "id": "dac49a3b-5f46-4619-b5eb-dfd0ef52fe12",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "divider",
@@ -4945,9 +4817,9 @@ For now, the fastest way to get started is to follow along with the video tutori
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "4f15953d-9bba-4950-b227-83cb11b276aa",
-  "created_time": "2021-12-20T00:09:00.000Z",
-  "last_edited_time": "2021-12-20T00:21:00.000Z",
+  "id": "54755dc6-5b5a-44c1-a9a1-b0a970808b16",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "heading_1",
@@ -4977,9 +4849,9 @@ For now, the fastest way to get started is to follow along with the video tutori
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "0cff4333-2484-42b3-82a8-ceaf976b9b69",
-  "created_time": "2021-12-20T00:09:00.000Z",
-  "last_edited_time": "2021-12-20T00:10:00.000Z",
+  "id": "87b4ae3c-bd99-4b75-81a0-db6ae19f9c3e",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -5011,9 +4883,9 @@ Find the code, start a discussion, or report an issue on GitHub:
 <br style="display:none;"/>
 <Magic sourceJSON={{
   "object": "block",
-  "id": "2dbe97ad-a612-4300-89be-2f813fadf526",
-  "created_time": "2021-12-20T00:10:00.000Z",
-  "last_edited_time": "2021-12-20T00:10:00.000Z",
+  "id": "f902cb07-1cec-4c3d-8a12-f6ea8236266f",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
   "has_children": false,
   "archived": false,
   "type": "paragraph",
@@ -5042,6 +4914,22 @@ Find the code, start a discussion, or report an issue on GitHub:
   }
 }}><Paragraph>
 <MagicLink href='https://github.com/nvlgzr/notion2svelte'>https://github.com/nvlgzr/notion2svelte</MagicLink>
+</Paragraph>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "ca65bc79-54a9-4394-9bb9-fcc5bf11eec0",
+  "created_time": "2022-01-04T05:46:00.000Z",
+  "last_edited_time": "2022-01-04T06:03:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": []
+  }
+}}><Paragraph>
+
 </Paragraph>
 </Magic> 
 <br style="display:none;"/>
