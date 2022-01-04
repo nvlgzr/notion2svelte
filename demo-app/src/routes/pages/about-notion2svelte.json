@@ -2,7 +2,7 @@
   "object": "page",
   "id": "fdc65179-a8bd-451c-af67-59019204cfde",
   "created_time": "2022-01-04T05:41:00.000Z",
-  "last_edited_time": "2022-01-04T23:47:00.000Z",
+  "last_edited_time": "2022-01-04T23:58:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -12,8 +12,8 @@
   "icon": {
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T234734Z&X-Amz-Expires=3600&X-Amz-Signature=794fb1900f48d4bd4cbe8012608314f44f2912dfb36e51884d986d72963ca745&X-Amz-SignedHeaders=host&x-id=GetObject",
-      "expiry_time": "2022-01-05T00:47:34.750Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T235836Z&X-Amz-Expires=3600&X-Amz-Signature=8157e12860d7552402d602c50a8a14c2368d5e2afd97bb182e05d4c853170039&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-05T00:58:36.409Z"
     }
   },
   "parent": {
@@ -347,8 +347,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T234735Z&X-Amz-Expires=3600&X-Amz-Signature=bfc5e67e0787ce8d92d24019ce34d7e35118471e0b1d74f93228772b8719e99d&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-05T00:47:35.506Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T235837Z&X-Amz-Expires=3600&X-Amz-Signature=cb690e73ffa6a0ea4a3a2cd54387d732f08888396b9d26541263fea3f057cb6b&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-05T00:58:37.315Z"
                 }
               }
             },
@@ -513,8 +513,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T234735Z&X-Amz-Expires=3600&X-Amz-Signature=6919df6b9e23403ef21bb1179e8fff36c5ca538ecc01be7a6af45ea1164d0089&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-05T00:47:35.739Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T235837Z&X-Amz-Expires=3600&X-Amz-Signature=092eb41e25f2fbaf1304180b92acda4dd44f843fb9e03027c430095ff289b6db&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-05T00:58:37.597Z"
                 }
               }
             },
@@ -2665,8 +2665,8 @@
                             ],
                             "type": "file",
                             "file": {
-                              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b988249d-299a-468a-bb3a-74ea305240d5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T234736Z&X-Amz-Expires=3600&X-Amz-Signature=ff861718145625b2d98f28162bea897ec4cda94145ce71411f5466799b0d9931&X-Amz-SignedHeaders=host&x-id=GetObject",
-                              "expiry_time": "2022-01-05T00:47:35.984Z"
+                              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b988249d-299a-468a-bb3a-74ea305240d5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T235837Z&X-Amz-Expires=3600&X-Amz-Signature=8dffd174513efaf823ba010c651a6952a73e90bbe6b55f9f4a7be13d31ba7b1d&X-Amz-SignedHeaders=host&x-id=GetObject",
+                              "expiry_time": "2022-01-05T00:58:37.714Z"
                             }
                           }
                         }
@@ -3281,8 +3281,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T234735Z&X-Amz-Expires=3600&X-Amz-Signature=75806e6646831bd71b6d711eb91b50abd3e3a0cbd3c5fe641c526d777ed09f3d&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-05T00:47:35.051Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T235836Z&X-Amz-Expires=3600&X-Amz-Signature=66cc3e12a016fa376b6cd944a05d3582e36b4405c0950f0cbec715e871680613&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-05T00:58:36.688Z"
         }
       }
     },
@@ -3413,15 +3413,245 @@
     },
     {
       "object": "block",
-      "id": "c8cb57d8-3924-4c03-821b-5e654c8bc4b6",
-      "created_time": "2022-01-04T23:47:00.000Z",
-      "last_edited_time": "2022-01-04T23:47:00.000Z",
+      "id": "cc8354d9-c931-4426-9d88-9d7404b4850b",
+      "created_time": "2022-01-04T23:51:00.000Z",
+      "last_edited_time": "2022-01-04T23:51:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
       "paragraph": {
-        "text": []
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Obviously, most of this is just noise. What we mainly care about — given that we haven’t used ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Obviously, most of this is just noise. What we mainly care about — given that we haven’t used ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "bold",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "bold",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "italic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "italic",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", etc. within the callout — is the emoji, the content, and the fact that this is a callout.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", etc. within the callout — is the emoji, the content, and the fact that this is a callout.",
+            "href": null
+          }
+        ]
       }
+    },
+    {
+      "object": "block",
+      "id": "7d1d1eb9-0fc1-4b24-920a-fa49efe38634",
+      "created_time": "2022-01-04T23:51:00.000Z",
+      "last_edited_time": "2022-01-04T23:51:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "code",
+      "code": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "<Callout emoji=\"🦦\">Hi. I’m a sea otter.</Callout>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "<Callout emoji=\"🦦\">Hi. I’m a sea otter.</Callout>",
+            "href": null
+          }
+        ],
+        "language": "html"
+      }
+    },
+    {
+      "object": "block",
+      "id": "50ec1a85-2e74-4e5d-a8d7-89deca211d6e",
+      "created_time": "2022-01-04T23:51:00.000Z",
+      "last_edited_time": "2022-01-04T23:51:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ahhh! That’s better, right?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ahhh! That’s better, right?",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "1d4fa03b-5b2a-4ff9-b218-31594083e686",
+      "created_time": "2022-01-04T23:51:00.000Z",
+      "last_edited_time": "2022-01-04T23:51:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column_list",
+      "column_list": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "fe7dc2d0-1a9d-4821-95ec-2fcc2a47ddce",
+          "created_time": "2022-01-04T23:51:00.000Z",
+          "last_edited_time": "2022-01-04T23:51:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "e54c7714-ba31-49d1-ae81-1ffaa724b1b0",
+              "created_time": "2022-01-04T23:51:00.000Z",
+              "last_edited_time": "2022-01-04T23:51:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "After this point, it’s basically up to you! Do you want a simple, gray callout with minimal styling, like this:",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "After this point, it’s basically up to you! Do you want a simple, gray callout with minimal styling, like this:",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "d7491f56-1541-4368-ad6c-a65ec7ba44df",
+          "created_time": "2022-01-04T23:51:00.000Z",
+          "last_edited_time": "2022-01-04T23:53:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "70a6d0d1-1eaa-493e-8af4-cd1b69690c54",
+              "created_time": "2022-01-04T23:51:00.000Z",
+              "last_edited_time": "2022-01-04T23:51:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220104%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220104T235837Z&X-Amz-Expires=3600&X-Amz-Signature=a63058560d3f6178928e0d55b302657cf2397d1cce79c9cca4d403fd08764f14&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-05T00:58:37.152Z"
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
