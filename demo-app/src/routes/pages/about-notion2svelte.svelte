@@ -271,8 +271,8 @@
             "caption": [],
             "type": "file",
             "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T000529Z&X-Amz-Expires=3600&X-Amz-Signature=68efe0958ffa2a95e53725873c7e53af7594845906ec21af397d20d6eeb1dad1&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2022-01-05T01:05:29.327Z"
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T072742Z&X-Amz-Expires=3600&X-Amz-Signature=fc2dec92820368945916720fe65aa0dd862db424d2baab1b1b285c2fde4b4825&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2022-01-05T08:27:42.078Z"
             }
           }
         },
@@ -437,8 +437,8 @@
             "caption": [],
             "type": "file",
             "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T000529Z&X-Amz-Expires=3600&X-Amz-Signature=e8ec0f655155c77acec10486f8379904475f7a3e3ac65e6a1405551898279a49&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2022-01-05T01:05:29.372Z"
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T072742Z&X-Amz-Expires=3600&X-Amz-Signature=32d2cde5b0a63a5551eccd2394e638a607ac66eef78b5939af7d0bb383f1b173&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2022-01-05T08:27:42.115Z"
             }
           }
         },
@@ -2687,8 +2687,8 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
                         ],
                         "type": "file",
                         "file": {
-                          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b988249d-299a-468a-bb3a-74ea305240d5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T000530Z&X-Amz-Expires=3600&X-Amz-Signature=7664d86a4267176c022c525f3388328fadfd98e80ecf64352e2f47476e7809e9&X-Amz-SignedHeaders=host&x-id=GetObject",
-                          "expiry_time": "2022-01-05T01:05:30.307Z"
+                          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b988249d-299a-468a-bb3a-74ea305240d5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T072742Z&X-Amz-Expires=3600&X-Amz-Signature=9baee2423a8b2c635a9fb4e1d5aba47f361c24542baefc2ff61d3f0f15504cf1&X-Amz-SignedHeaders=host&x-id=GetObject",
+                          "expiry_time": "2022-01-05T08:27:42.809Z"
                         }
                       }
                     }
@@ -3358,8 +3358,8 @@ Everything you see on this page was written in Notion, exported as .svelte files
     ],
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T000528Z&X-Amz-Expires=3600&X-Amz-Signature=992589b622256d97ee06ae7107df7b05d1c5f057b7b06db6d2b4b118ac97404e&X-Amz-SignedHeaders=host&x-id=GetObject",
-      "expiry_time": "2022-01-05T01:05:28.860Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T072741Z&X-Amz-Expires=3600&X-Amz-Signature=e29af53ee354950f2d1d8de5a4a76256862a558e35e96417b08f4865276dc0ee&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-05T08:27:41.791Z"
     }
   }
 }}><Image url="/assets/about-notion2svelte/dfbc55c9-68a1-4ea3-ac5a-904e086dfe26.png"><em>notion2svelte</em>, grossly over-simplified</Image>
@@ -3775,8 +3775,8 @@ Ahhh! That’s better, right?
             "caption": [],
             "type": "file",
             "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T000530Z&X-Amz-Expires=3600&X-Amz-Signature=304cf55394b9547937daf8aa707e3fec5d02480aacf70113601f01baa804e6f1&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2022-01-05T01:05:30.916Z"
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T072742Z&X-Amz-Expires=3600&X-Amz-Signature=df377d52576625ecc797158b9c9231d601e998833a0834af786cd73e477800e1&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2022-01-05T08:27:42.165Z"
             }
           }
         }
@@ -3857,7 +3857,7 @@ After this point, it’s basically up to you! Do you want a simple, gray callout
       "object": "block",
       "id": "f52c9679-84aa-4c16-b76e-376fa66394f2",
       "created_time": "2022-01-05T00:01:00.000Z",
-      "last_edited_time": "2022-01-05T00:05:00.000Z",
+      "last_edited_time": "2022-01-05T00:27:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "code",
@@ -3866,7 +3866,7 @@ After this point, it’s basically up to you! Do you want a simple, gray callout
           {
             "type": "text",
             "text": {
-              "content": "<s_cript>\n\texport let emoji = '';\n</s_cript>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tbackground-color: white;\n\t\tborder: 1px solid #333;\n\t\tmargin: 1rem;\n\t\tpadding: 1rem;\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.emoji {\n\t\tfont-size: 2rem;\n\t}\n</style>",
+              "content": "<script>\n\texport let emoji = '';\n</script>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tbackground-color: white;\n\t\tborder: 1px solid #333;\n\t\tmargin: 1rem;\n\t\tpadding: 1rem;\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.emoji {\n\t\tfont-size: 2rem;\n\t}\n</style>",
               "link": null
             },
             "annotations": {
@@ -3877,7 +3877,7 @@ After this point, it’s basically up to you! Do you want a simple, gray callout
               "code": false,
               "color": "default"
             },
-            "plain_text": "<s_cript>\n\texport let emoji = '';\n</s_cript>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tbackground-color: white;\n\t\tborder: 1px solid #333;\n\t\tmargin: 1rem;\n\t\tpadding: 1rem;\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.emoji {\n\t\tfont-size: 2rem;\n\t}\n</style>",
+            "plain_text": "<script>\n\texport let emoji = '';\n</script>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tbackground-color: white;\n\t\tborder: 1px solid #333;\n\t\tmargin: 1rem;\n\t\tpadding: 1rem;\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.emoji {\n\t\tfont-size: 2rem;\n\t}\n</style>",
             "href": null
           }
         ],
