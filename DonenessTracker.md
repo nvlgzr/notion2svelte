@@ -1,5 +1,8 @@
 ## 🐞 Known Bugs
 
+- Can't use `<script>` in code blocks because production Vite freaks tf out.
+  - Solution: Simplify Magic components to only receive block ids. Maybe later rework such that there's no Magic wrapper, and instead all blocks get their ID so that runtime queries can be made, along with build-time mailto: links and whatnot. JSON Inspection mode is cool, but no longer highest priority. Yes, this is sad. 😔
+
 # 🐝 Tasks/Ideas
 
 - More documentation tweaks
