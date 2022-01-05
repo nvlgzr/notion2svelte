@@ -3898,9 +3898,9 @@ After this point, it’s basically up to you! Do you want a simple, gray callout
     }
   ]
 }}><Toggle>Code for&nbsp;<em>Callout.svelte</em>&nbsp;(gray version)
-<span slot="children"><Code code={`<s_cript>
+<span slot="children"><Code code={`<script>
 	export let emoji = '';
-</s_cript>
+</script>
 
 <div class="wrapper">
 	<div class="emoji">{emoji}</div>
