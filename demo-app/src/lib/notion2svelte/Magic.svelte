@@ -5,55 +5,29 @@
 	import { scale, fade } from 'svelte/transition';
 	import { browser } from '$app/env';
 	import { writable } from 'svelte/store';
-	import KeyStroke from 'svelte-keystroke';
-	import propsToPaths from '$lib/propsToPaths';
 
-	export let sourceJSON;
+	export let blockId;
 
-	const storageKey = '@nvlgzr.ouroboros.inspectorModeOn';
-	const defaultValue = false;
-	const initialValue = browser ? window.localStorage.getItem(storageKey) === 'true' : defaultValue;
-	const inspectorModeOn = writable(initialValue);
-
-	let showJSON = false;
-
-	$: if (browser) {
-		window.localStorage.setItem(storageKey, $inspectorModeOn);
-	}
+	let show = false;
 </script>
-
-<KeyStroke on:i={() => ($inspectorModeOn = !$inspectorModeOn)} />
 
 <div
 	transition:fade
-	class:showJSON
-	on:mouseenter={() => {
-		if ($inspectorModeOn) showJSON = true;
-	}}
-	on:mouseleave={() => (showJSON = false)}
+	class:show
+	on:mouseenter={() => (show = true)}
+	on:mouseleave={() => (show = false)}
 >
 	<slot />
 </div>
-{#if showJSON}
+{#if show}
 	<span style="color:white;">👆</span>
-	<div
-		class="card"
-		on:mouseenter={() => (showJSON = true)}
-		on:mouseleave={() => (showJSON = false)}
-	>
+	<div class="card" on:mouseenter={() => (show = true)} on:mouseleave={() => (show = false)}>
 		<div
 			transition:scale={{
 				duration: 300
 			}}
 		>
-			<details>
-				<summary>Raw JSON</summary>
-				<pre>{JSON.stringify(sourceJSON, null, 2)}</pre>
-			</details>
-			<details>
-				<summary>Paths</summary>
-				{@html propsToPaths(sourceJSON, true)}
-			</details>
+			<pre>Block Id: {blockId}</pre>
 		</div>
 	</div>
 {/if}
@@ -76,7 +50,7 @@
 		padding: 20px;
 	}
 
-	.showJSON {
+	.show {
 		border: 1px solid #ccc;
 		border-top-left-radius: 0.5rem;
 		border-top-right-radius: 0.5rem;

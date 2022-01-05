@@ -1,12 +1,13 @@
 ## 🐞 Known Bugs
 
-- Can't use `<script>` in code blocks because production Vite freaks tf out.
-  - Solution: Simplify Magic components to only receive block ids. Maybe later rework such that there's no Magic wrapper, and instead all blocks get their ID so that runtime queries can be made, along with build-time mailto: links and whatnot. JSON Inspection mode is cool, but no longer highest priority. Yes, this is sad. 😔
+- Magic is now…not. The current "Fix" to the `<script>` issue isn't really a fix.
 
 # 🐝 Tasks/Ideas
 
+- Toward fixing ↑ :
+  - Replace Magic with a content-free data set passed to _every_ _notion2svelte_ component.
+  - "Finish" implementing `synced_block`. The current implementation is implicit…it gets rendered by the default handler, which includes the block type in its rendering. This should be a nice, quick, near-freebie!
 - More documentation tweaks
-  - Make a demo gif with Terminal in the middle for README page
   - Ask for explicit help -> Doc design, code, usability
 - Document: 3 required props in db: Name, Slug & Status
 - Publish to npm
