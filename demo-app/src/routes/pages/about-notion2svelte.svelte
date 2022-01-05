@@ -271,8 +271,8 @@
             "caption": [],
             "type": "file",
             "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T090236Z&X-Amz-Expires=3600&X-Amz-Signature=3a0c5f28b35ce460a03556f2645d722dce5403c102aee9d2b160c6b43c3887a4&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2022-01-05T10:02:36.355Z"
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T091504Z&X-Amz-Expires=3600&X-Amz-Signature=fbd8ff048b0d7838272c161d9edcda481749cc24a153b62102e7f49fd2a20723&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2022-01-05T10:15:04.394Z"
             }
           }
         },
@@ -437,8 +437,8 @@
             "caption": [],
             "type": "file",
             "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T090236Z&X-Amz-Expires=3600&X-Amz-Signature=e5fe9122edbb677e5b0d633b1baaec2589eea0adb72c0cbae14b0ebb7d619f7e&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2022-01-05T10:02:36.353Z"
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T091507Z&X-Amz-Expires=3600&X-Amz-Signature=a9af5f55075b9c3edb56aa74ddca9f611bc17aa86c145810c4ef8cf9479d6222&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2022-01-05T10:15:06.905Z"
             }
           }
         },
@@ -2687,8 +2687,8 @@ That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.</em>
                         ],
                         "type": "file",
                         "file": {
-                          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b988249d-299a-468a-bb3a-74ea305240d5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T090237Z&X-Amz-Expires=3600&X-Amz-Signature=c9406a94061ecd0b3ca2454faea665830e6351cdc7c67687fd78c40b9f958131&X-Amz-SignedHeaders=host&x-id=GetObject",
-                          "expiry_time": "2022-01-05T10:02:37.021Z"
+                          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b988249d-299a-468a-bb3a-74ea305240d5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T091505Z&X-Amz-Expires=3600&X-Amz-Signature=82ed29d9da5ec84cf5b9e930e665b46106dcec3cba3a69a48ab8d7dacbbf508b&X-Amz-SignedHeaders=host&x-id=GetObject",
+                          "expiry_time": "2022-01-05T10:15:05.564Z"
                         }
                       }
                     }
@@ -3358,8 +3358,8 @@ Everything you see on this page was written in Notion, exported as .svelte files
     ],
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T090235Z&X-Amz-Expires=3600&X-Amz-Signature=a0f6051992c00089836411979a61f7bf1a357940360000e74016994be30390b4&X-Amz-SignedHeaders=host&x-id=GetObject",
-      "expiry_time": "2022-01-05T10:02:35.984Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T091503Z&X-Amz-Expires=3600&X-Amz-Signature=d3eb2936c407020c94b6196711d46a999291cb3fe53714295803144655aa2b80&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-05T10:15:03.593Z"
     }
   }
 }}><Image url="/assets/about-notion2svelte/dfbc55c9-68a1-4ea3-ac5a-904e086dfe26.png"><em>notion2svelte</em>, grossly over-simplified</Image>
@@ -3775,8 +3775,8 @@ Ahhh! That’s better, right?
             "caption": [],
             "type": "file",
             "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T090236Z&X-Amz-Expires=3600&X-Amz-Signature=1ba681b1b01cf4a1b8e4c7d8aa748f41816b8f9caa5cf790921c2b4c4253bd28&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2022-01-05T10:02:36.351Z"
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T091504Z&X-Amz-Expires=3600&X-Amz-Signature=20f79ae3d497e3460f89e6d03c9dd7a2e678a3eef944bfa2472d171c089e8a74&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2022-01-05T10:15:04.249Z"
             }
           }
         }
@@ -3928,6 +3928,1139 @@ After this point, it’s basically up to you! Do you want a simple, gray callout
 
 </Paragraph>
 </span></Toggle></Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "1db927d3-d05b-4684-94aa-443f131c3ce0",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "column_list",
+  "column_list": {},
+  "blocks": [
+    {
+      "object": "block",
+      "id": "d320d12f-edd5-4f25-bead-ae229da54c18",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "d2366103-9868-45e5-bf08-727eda90e585",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Or you might do something more colorful. Here’s the code (as of this writing) for this documentation’s ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Or you might do something more colorful. Here’s the code (as of this writing) for this documentation’s ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Callout.svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Callout.svelte",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ":",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ":",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "af1ed69f-5e55-4c84-8615-401454d349fd",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1f440d04-1010-43c2-89f5-05b39b51aef6",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T091504Z&X-Amz-Expires=3600&X-Amz-Signature=7817b0b2aff0b6d31ade88893c22e21ae2409565b094dc4a1baae7a83a22f368&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2022-01-05T10:15:04.454Z"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}}><ColumnList cols={2}><Column><Paragraph>
+Or you might do something more colorful. Here’s the code (as of this writing) for this documentation’s&nbsp;<em>Callout.svelte</em>:
+</Paragraph>
+</Column><Column><Image url="/assets/about-notion2svelte/1f440d04-1010-43c2-89f5-05b39b51aef6.png"></Image>
+</Column></ColumnList></Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "70ac59c2-7b1f-40b9-81f0-46c7b99990ad",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "toggle",
+  "toggle": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Code for Callout.svelte (blue version)",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Code for Callout.svelte (blue version)",
+        "href": null
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "f803e009-013c-4564-8276-2673ee83dad1",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "code",
+      "code": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "<csript>\n\texport let emoji = '';\n</csript>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tdisplay: flex;\n\t\tmargin: 1rem 1rem 2rem 0;\n\t\tpadding: 2rem 2rem 0 2rem;\n\t\tfont: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\t\tbackground-color: hsl(198, 100%, 97%);\n\t\tborder: 4px solid hsl(206, 88%, 70%);\n\t\tborder-radius: 0.5rem;\n\t}\n\t.callout {\n\t\tdisplay: block;\n\t}\n\t.emoji {\n\t\tmargin-right: 0.5em;\n\t\theight: 3rem;\n\t\twidth: 3rem;\n\t\tfont-size: 3rem;\n\t\tline-height: 1.1;\n\t}\n</style>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "<csript>\n\texport let emoji = '';\n</csript>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tdisplay: flex;\n\t\tmargin: 1rem 1rem 2rem 0;\n\t\tpadding: 2rem 2rem 0 2rem;\n\t\tfont: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\t\tbackground-color: hsl(198, 100%, 97%);\n\t\tborder: 4px solid hsl(206, 88%, 70%);\n\t\tborder-radius: 0.5rem;\n\t}\n\t.callout {\n\t\tdisplay: block;\n\t}\n\t.emoji {\n\t\tmargin-right: 0.5em;\n\t\theight: 3rem;\n\t\twidth: 3rem;\n\t\tfont-size: 3rem;\n\t\tline-height: 1.1;\n\t}\n</style>",
+            "href": null
+          }
+        ],
+        "language": "html"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c7821ec8-7ee0-4428-82bd-21751cdc7f52",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    }
+  ]
+}}><Toggle>Code for Callout.svelte (blue version)
+<span slot="children"><Code code={`<script>
+	export let emoji = '';
+</script>
+
+<div class="wrapper">
+	<div class="emoji">{emoji}</div>
+	<div class="text">
+		<div class="callout">
+			<slot />
+		</div>
+		<slot name="children" />
+	</div>
+</div>
+
+<style>
+	.wrapper {
+		display: flex;
+		margin: 1rem 1rem 2rem 0;
+		padding: 2rem 2rem 0 2rem;
+		font: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		background-color: hsl(198, 100%, 97%);
+		border: 4px solid hsl(206, 88%, 70%);
+		border-radius: 0.5rem;
+	}
+	.callout {
+		display: block;
+	}
+	.emoji {
+		margin-right: 0.5em;
+		height: 3rem;
+		width: 3rem;
+		font-size: 3rem;
+		line-height: 1.1;
+	}
+</style>`} language="html" /><Paragraph>
+
+</Paragraph>
+</span></Toggle></Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "fff53a7b-269d-45c5-977c-64fa8b824959",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "column_list",
+  "column_list": {},
+  "blocks": [
+    {
+      "object": "block",
+      "id": "891038c5-4b1e-41f0-9a59-afce9253cb13",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "423ee92b-d2a6-4b89-a1d1-e4c510c908fa",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Or you could go crazy and have a callout that doubles as a toggle. Wat!? 🙀",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Or you could go crazy and have a callout that doubles as a toggle. Wat!? 🙀",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "fdb3757e-6109-4405-b202-24d89dccb1e5",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "e57bb1a7-cf67-493f-af15-c9198b508bc5",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column",
+      "column": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "3c907829-0848-414f-9504-3cbf0a79f701",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T091504Z&X-Amz-Expires=3600&X-Amz-Signature=a8522c4f6c8528f03481748da5ea48a81980231ebb0d281d688e3e11063d4228&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2022-01-05T10:15:04.322Z"
+            }
+          }
+        },
+        {
+          "object": "block",
+          "id": "81c37598-a496-45b7-9d9c-66d0aca7e755",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "↓ click! ↓",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "↓ click! ↓",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "04f8b689-0308-49bf-8a39-b1d93069c530",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f7caa9b8-2274-4f09-a4d4-2158783537c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220105T091504Z&X-Amz-Expires=3600&X-Amz-Signature=c88ef6b5c7cf1cd5d3fd978ee9095fe390d314c5a9f27c8e20acaf2f9988974f&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2022-01-05T10:15:04.331Z"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}}><ColumnList cols={2}><Column><Paragraph>
+Or you could go crazy and have a callout that doubles as a toggle. Wat!? 🙀
+</Paragraph>
+<Paragraph>
+Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!
+</Paragraph>
+</Column><Column><Image url="/assets/about-notion2svelte/3c907829-0848-414f-9504-3cbf0a79f701.png"></Image>
+<Paragraph>
+↓ click! ↓
+</Paragraph>
+<Image url="/assets/about-notion2svelte/04f8b689-0308-49bf-8a39-b1d93069c530.png"></Image>
+</Column></ColumnList></Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "674d3963-ef56-4a2f-82ff-11f0ac87be8c",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": true,
+  "archived": false,
+  "type": "toggle",
+  "toggle": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Code for Callout.svelte (toggle version)",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Code for Callout.svelte (toggle version)",
+        "href": null
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1eefd5f9-5b0b-4acb-a6de-dbc9847372af",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "code",
+      "code": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "<csript>\n\texport let emoji = '';\n\n\texport let open = false;\n</csript>\n\n<div class=\"wrapper {open ? 'open' : 'closed'}\" on:click={() => (open = !open)}>\n\t<div class=\"emoji\">{emoji}</div>\n\t{#if open}\n\t\t<div class=\"text\">\n\t\t\t<div class=\"callout\">\n\t\t\t\t<slot />\n\t\t\t</div>\n\t\t\t<slot name=\"children\" />\n\t\t</div>\n\t{:else}\n\t\t<div class=\"text\">⟩</div>\n\t{/if}\n</div>\n\n<style>\n\t.wrapper {\n\t\tdisplay: flex;\n\t\tmargin: 1rem 1rem 2rem 0;\n\t\tpadding: 2rem 2rem 0 2rem;\n\t\tfont: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\t\tbackground-color: hsl(198, 100%, 97%);\n\t\tborder: 4px solid hsl(206, 88%, 70%);\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.closed {\n\t\twidth: 8rem;\n\t}\n\n\t.callout {\n\t\tdisplay: block;\n\t}\n\n\t.emoji {\n\t\tmargin-right: 0.5em;\n\t\theight: 3rem;\n\t\twidth: 3rem;\n\t\tfont-size: 3rem;\n\t\tline-height: 1.1;\n\t}\n</style>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "<csript>\n\texport let emoji = '';\n\n\texport let open = false;\n</csript>\n\n<div class=\"wrapper {open ? 'open' : 'closed'}\" on:click={() => (open = !open)}>\n\t<div class=\"emoji\">{emoji}</div>\n\t{#if open}\n\t\t<div class=\"text\">\n\t\t\t<div class=\"callout\">\n\t\t\t\t<slot />\n\t\t\t</div>\n\t\t\t<slot name=\"children\" />\n\t\t</div>\n\t{:else}\n\t\t<div class=\"text\">⟩</div>\n\t{/if}\n</div>\n\n<style>\n\t.wrapper {\n\t\tdisplay: flex;\n\t\tmargin: 1rem 1rem 2rem 0;\n\t\tpadding: 2rem 2rem 0 2rem;\n\t\tfont: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\t\tbackground-color: hsl(198, 100%, 97%);\n\t\tborder: 4px solid hsl(206, 88%, 70%);\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.closed {\n\t\twidth: 8rem;\n\t}\n\n\t.callout {\n\t\tdisplay: block;\n\t}\n\n\t.emoji {\n\t\tmargin-right: 0.5em;\n\t\theight: 3rem;\n\t\twidth: 3rem;\n\t\tfont-size: 3rem;\n\t\tline-height: 1.1;\n\t}\n</style>",
+            "href": null
+          }
+        ],
+        "language": "html"
+      }
+    }
+  ]
+}}><Toggle>Code for Callout.svelte (toggle version)
+<span slot="children"><Code code={`<script>
+	export let emoji = '';
+
+	export let open = false;
+</script>
+
+<div class="wrapper {open ? 'open' : 'closed'}" on:click={() => (open = !open)}>
+	<div class="emoji">{emoji}</div>
+	{#if open}
+		<div class="text">
+			<div class="callout">
+				<slot />
+			</div>
+			<slot name="children" />
+		</div>
+	{:else}
+		<div class="text">⟩</div>
+	{/if}
+</div>
+
+<style>
+	.wrapper {
+		display: flex;
+		margin: 1rem 1rem 2rem 0;
+		padding: 2rem 2rem 0 2rem;
+		font: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		background-color: hsl(198, 100%, 97%);
+		border: 4px solid hsl(206, 88%, 70%);
+		border-radius: 0.5rem;
+	}
+
+	.closed {
+		width: 8rem;
+	}
+
+	.callout {
+		display: block;
+	}
+
+	.emoji {
+		margin-right: 0.5em;
+		height: 3rem;
+		width: 3rem;
+		font-size: 3rem;
+		line-height: 1.1;
+	}
+</style>`} language="html" /></span></Toggle></Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "8721faec-90de-418d-86f9-e04e86bb6c43",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_3",
+  "heading_3": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "A word about imports",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "A word about imports",
+        "href": null
+      }
+    ]
+  }
+}}><Header level="3">A word about imports</Header>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "eeda3d54-3e81-4b6e-afab-01b5c58fc62d",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "It should go without saying, but your Sveltekit app needs to know where to actually ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "It should go without saying, but your Sveltekit app needs to know where to actually ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "find",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "find",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " the components that match ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " the components that match ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "notion2svelte",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "notion2svelte",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "’s output. At present, this means putting them in ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "’s output. At present, this means putting them in ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "src/lib/notion2svelte",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "src/lib/notion2svelte",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ". The reason why becomes apparent when we look at the ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ". The reason why becomes apparent when we look at the ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "import",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "import",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " statements rendered by ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " statements rendered by ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "notion2svelte",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "notion2svelte",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": ".",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": ".",
+        "href": null
+      }
+    ]
+  }
+}}><Paragraph>
+It should go without saying, but your Sveltekit app needs to know where to actually&nbsp;<em>find</em>&nbsp;the components that match&nbsp;<em>notion2svelte</em>’s output. At present, this means putting them in&nbsp;<em>src/lib/notion2svelte</em>. The reason why becomes apparent when we look at the&nbsp;<InlineCode code="import" />&nbsp;statements rendered by&nbsp;<em>notion2svelte</em>.
+</Paragraph>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "ce6adbc2-db45-480f-9e10-542335ba6cd5",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Keeping with our Callout theme, here’s the equivalent import statement.",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Keeping with our Callout theme, here’s the equivalent import statement.",
+        "href": null
+      }
+    ]
+  }
+}}><Paragraph>
+Keeping with our Callout theme, here’s the equivalent import statement.
+</Paragraph>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "2cc815fa-2e1f-458f-afb6-dc61037adfd5",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "code",
+  "code": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "import Callout from '$lib/notion2svelte/Callout.svelte';",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "import Callout from '$lib/notion2svelte/Callout.svelte';",
+        "href": null
+      }
+    ],
+    "language": "html"
+  }
+}}><Code code={`import Callout from '$lib/notion2svelte/Callout.svelte';`} language="html" /></Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "533a85a0-b745-4dc4-9ebe-50b65165bc36",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "divider",
+  "divider": {}
+}}><Divider />
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "0f0fe446-3bc2-4e04-81da-ae5ada7478da",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_1",
+  "heading_1": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "How to use ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "How to use ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "notion2svelte",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "notion2svelte",
+        "href": null
+      }
+    ]
+  }
+}}><Header level="1">How to use&nbsp;<em>notion2svelte</em></Header>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "92b91cd7-462f-4129-8488-c4cf54db6035",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "For now, the fastest way to get started is to follow along with the video tutorial:",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "For now, the fastest way to get started is to follow along with the video tutorial:",
+        "href": null
+      }
+    ]
+  }
+}}><Paragraph>
+For now, the fastest way to get started is to follow along with the video tutorial:
+</Paragraph>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "1405c655-d69f-4baa-90ef-0b8332f9f9cc",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "notion2svelte",
+          "link": null
+        },
+        "annotations": {
+          "bold": true,
+          "italic": true,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "notion2svelte",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " in 10 minutes |",
+          "link": null
+        },
+        "annotations": {
+          "bold": true,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " in 10 minutes |",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": " ",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": " ",
+        "href": null
+      },
+      {
+        "type": "text",
+        "text": {
+          "content": "https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s",
+          "link": {
+            "url": "https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
+          }
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s",
+        "href": "https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
+      }
+    ]
+  }
+}}><Paragraph>
+<em><strong>notion2svelte</strong></em><strong>&nbsp;in 10 minutes |</strong>&nbsp;<MagicLink href='https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s'>https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s</MagicLink>
+</Paragraph>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "c51ecb33-3ae5-483f-893f-92c7404b43ce",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "divider",
+  "divider": {}
+}}><Divider />
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "62411be2-364d-41eb-a1e3-9911fb2c114d",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "heading_1",
+  "heading_1": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Where to learn more",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Where to learn more",
+        "href": null
+      }
+    ]
+  }
+}}><Header level="1">Where to learn more</Header>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "5fec1a8f-8321-47b7-890b-2f2cbc2f8690",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Find the code, start a discussion, or report an issue on GitHub:",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Find the code, start a discussion, or report an issue on GitHub:",
+        "href": null
+      }
+    ]
+  }
+}}><Paragraph>
+Find the code, start a discussion, or report an issue on GitHub:
+</Paragraph>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "bbffb33e-f242-4d97-9f48-64a3ff7e815b",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": [
+      {
+        "type": "text",
+        "text": {
+          "content": "https://github.com/nvlgzr/notion2svelte",
+          "link": {
+            "url": "https://github.com/nvlgzr/notion2svelte"
+          }
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "https://github.com/nvlgzr/notion2svelte",
+        "href": "https://github.com/nvlgzr/notion2svelte"
+      }
+    ]
+  }
+}}><Paragraph>
+<MagicLink href='https://github.com/nvlgzr/notion2svelte'>https://github.com/nvlgzr/notion2svelte</MagicLink>
+</Paragraph>
+</Magic> 
+<br style="display:none;"/>
+<Magic sourceJSON={{
+  "object": "block",
+  "id": "b9a357c7-c780-451e-9b26-6dc27bb51a3f",
+  "created_time": "2022-01-05T09:14:00.000Z",
+  "last_edited_time": "2022-01-05T09:14:00.000Z",
+  "has_children": false,
+  "archived": false,
+  "type": "paragraph",
+  "paragraph": {
+    "text": []
+  }
+}}><Paragraph>
+
+</Paragraph>
+</Magic> 
 <br style="display:none;"/>
 
   
