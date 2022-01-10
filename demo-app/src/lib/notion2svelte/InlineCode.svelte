@@ -20,6 +20,7 @@
     display: inline;
     background: hsl(300deg 66% 85%);
     color: inherit;
+    border-radius: 3px;
     font-size: 85%;
     white-space: pre-wrap;
     padding: 0.4rem 0.5rem 0.3rem 0.5rem;

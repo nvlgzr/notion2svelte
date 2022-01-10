@@ -30,6 +30,7 @@
 
   img {
     width: 15vw;
+    height: 15vw;
     filter: drop-shadow(0 0 0.5vw hsl(0, 0%, 0%, 0.5));
     background: radial-gradient(
       ellipse at center,
