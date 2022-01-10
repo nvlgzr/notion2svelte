@@ -1,0 +1,3790 @@
+{
+  "object": "page",
+  "id": "fdc65179-a8bd-451c-af67-59019204cfde",
+  "created_time": "2022-01-04T05:41:00.000Z",
+  "last_edited_time": "2022-01-10T12:47:00.000Z",
+  "cover": {
+    "type": "external",
+    "external": {
+      "url": "https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb"
+    }
+  },
+  "icon": {
+    "type": "file",
+    "file": {
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220110%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220110T124901Z&X-Amz-Expires=3600&X-Amz-Signature=00af796bb1c012f59ff791cffd596d848f638274101886b71ad4f75a7003563e&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-10T13:49:01.107Z"
+    }
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "1842fdf6-5e49-4c74-a388-cab1b3a6725e"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "M%40TW",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "about-notion2svelte",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "about-notion2svelte",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "ava%3E",
+      "type": "select",
+      "select": {
+        "id": "f4c2d807-fdf4-476e-b894-ec247f211f2b",
+        "name": "Publishable",
+        "color": "purple"
+      }
+    },
+    "URL": {
+      "id": "v%3ATK",
+      "type": "url",
+      "url": null
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": []
+    }
+  },
+  "url": "https://www.notion.so/fdc65179a8bd451caf6759019204cfde",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1ceeb64a-bae5-458f-855b-912a863940bb",
+      "created_time": "2022-01-04T05:46:00.000Z",
+      "last_edited_time": "2022-01-04T06:03:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "b42d087f-eab4-4397-a745-b6cced23489c",
+      "created_time": "2022-01-10T04:36:00.000Z",
+      "last_edited_time": "2022-01-10T12:15:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "quote",
+      "quote": {
+        "text": []
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "2078b770-e823-4735-8902-46ee0c72a688",
+          "created_time": "2022-01-10T12:14:00.000Z",
+          "last_edited_time": "2022-01-10T12:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Write",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Write",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " in Notion",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " in Notion",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "09081134-be83-46c6-aa34-ed83fc9f6886",
+          "created_time": "2022-01-10T04:36:00.000Z",
+          "last_edited_time": "2022-01-10T12:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Publish",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Publish",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " in Svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " in Svelte",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "05f134f0-aa60-4ab9-9d40-859f1efbfccd",
+          "created_time": "2022-01-10T04:36:00.000Z",
+          "last_edited_time": "2022-01-10T12:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Control",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Control",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " with ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " with ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "notion2svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "notion2svelte",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "5941868f-ef96-4d1b-89a0-a80996db442e",
+      "created_time": "2022-01-10T12:16:00.000Z",
+      "last_edited_time": "2022-01-10T12:17:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Introducing ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Introducing ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "0828193e-9eaa-4b99-a0f9-599a801c99e5",
+      "created_time": "2022-01-04T05:41:00.000Z",
+      "last_edited_time": "2022-01-09T05:16:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Just like it sounds, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Just like it sounds, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " transforms Notion-based content into .svelte pages:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " transforms Notion-based content into .svelte pages:",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "12cce161-4ef0-4bd2-b15e-d653b5087abb",
+      "created_time": "2022-01-09T05:16:00.000Z",
+      "last_edited_time": "2022-01-09T05:16:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "equation",
+      "equation": {
+        "expression": "Notion → notion2svelte → Svelte"
+      }
+    },
+    {
+      "object": "block",
+      "id": "02200191-88cc-4786-bff4-d59207c010be",
+      "created_time": "2022-01-04T23:20:00.000Z",
+      "last_edited_time": "2022-01-04T23:20:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column_list",
+      "column_list": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "6e019a7d-9f08-419c-a1ed-a190caf12666",
+          "created_time": "2022-01-04T23:20:00.000Z",
+          "last_edited_time": "2022-01-04T23:20:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "dfd5b0a6-f19e-4c81-8024-68dfbeb5a1fc",
+              "created_time": "2022-01-04T05:41:00.000Z",
+              "last_edited_time": "2022-01-09T05:14:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "heading_2",
+              "heading_2": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Source (Notion)",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Source (Notion)",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "ed21d11c-9389-4694-9db4-549e002a1b92",
+              "created_time": "2022-01-04T05:41:00.000Z",
+              "last_edited_time": "2022-01-04T23:21:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220110%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220110T124901Z&X-Amz-Expires=3600&X-Amz-Signature=f23e877403a67f1e4ae58808b3550ffdfe9b2e629146d50a5340d16e4601d5d7&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-10T13:49:01.946Z"
+                }
+              }
+            },
+            {
+              "object": "block",
+              "id": "7bac921b-ddaf-4304-9a27-71112cb5d5e9",
+              "created_time": "2022-01-04T05:41:00.000Z",
+              "last_edited_time": "2022-01-04T23:20:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "😃 Awesome editing experience",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "😃 Awesome editing experience",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "54f999ba-a125-4dee-8b63-e4b38a9765cc",
+              "created_time": "2022-01-04T05:41:00.000Z",
+              "last_edited_time": "2022-01-04T23:20:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "🤨 Domain-locked to ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "🤨 Domain-locked to ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "notion.so",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": true,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "notion.so",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "026f37a9-2a3c-46b7-8750-2bec21c60d7a",
+              "created_time": "2022-01-04T05:41:00.000Z",
+              "last_edited_time": "2022-01-04T23:20:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "😐 Proprietary limitations",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "😐 Proprietary limitations",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "6875c4ea-6537-4579-bea0-979f8df1867e",
+          "created_time": "2022-01-04T23:20:00.000Z",
+          "last_edited_time": "2022-01-04T23:37:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "5fdf296b-d570-4b34-8b78-7adfe9b27bb3",
+              "created_time": "2022-01-04T05:41:00.000Z",
+              "last_edited_time": "2022-01-10T12:45:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "heading_2",
+              "heading_2": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Destination (Svelte)",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Destination (Svelte)",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "ce917906-431b-4d6a-9134-506027e66805",
+              "created_time": "2022-01-04T05:41:00.000Z",
+              "last_edited_time": "2022-01-10T12:45:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220110%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220110T124902Z&X-Amz-Expires=3600&X-Amz-Signature=3e3e54d27e412298fd742895887ef3bd4ae41a30e4d5e3f411d14c767a05bbf4&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-10T13:49:02.027Z"
+                }
+              }
+            },
+            {
+              "object": "block",
+              "id": "33942c60-d631-4352-92f1-cb91db16130e",
+              "created_time": "2022-01-04T05:41:00.000Z",
+              "last_edited_time": "2022-01-09T05:16:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "👘 Your styles",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "👘 Your styles",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "2f1796b5-8068-4fe6-8eb3-289aa08b7e2a",
+              "created_time": "2022-01-04T05:41:00.000Z",
+              "last_edited_time": "2022-01-04T23:21:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "🤔 Your domain",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "🤔 Your domain",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "9d9c2603-ece7-407a-8300-49ca4c8c38e8",
+              "created_time": "2022-01-04T05:41:00.000Z",
+              "last_edited_time": "2022-01-10T12:47:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "🪡 Infinite possibilities",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "🪡 Infinite possibilities",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "61796918-fc47-49a4-afac-5fd27d353ed3",
+      "created_time": "2022-01-10T12:47:00.000Z",
+      "last_edited_time": "2022-01-10T12:47:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "f5f51bbb-8ed7-4571-9d94-deab8b4b4f2d",
+      "created_time": "2022-01-04T23:37:00.000Z",
+      "last_edited_time": "2022-01-10T12:47:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Why ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Why ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "?",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "39f3ef9f-cf32-4207-ab2b-01617d119576",
+      "created_time": "2022-01-09T05:22:00.000Z",
+      "last_edited_time": "2022-01-09T05:22:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column_list",
+      "column_list": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "14ad758e-9dac-46bf-acff-fcd8e6eacf27",
+          "created_time": "2022-01-09T05:22:00.000Z",
+          "last_edited_time": "2022-01-09T05:22:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "1a3dbe14-a40b-4e9c-b68f-40ba89d8f61f",
+              "created_time": "2022-01-04T23:37:00.000Z",
+              "last_edited_time": "2022-01-09T05:22:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "I like ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "I like ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "writing in Notion",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": true,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "writing in Notion",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": ".",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": ".",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "20b2a14f-0e1e-45f8-ab32-e65c22939fca",
+          "created_time": "2022-01-09T05:22:00.000Z",
+          "last_edited_time": "2022-01-09T05:22:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "8475311a-9f1f-408d-b669-20417b76b69c",
+              "created_time": "2022-01-09T05:22:00.000Z",
+              "last_edited_time": "2022-01-09T05:22:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "I like ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "I like ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "coding in Svelte",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": true,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "coding in Svelte",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "4fa760dd-eefb-4fcf-9986-f8625aed811a",
+          "created_time": "2022-01-09T05:22:00.000Z",
+          "last_edited_time": "2022-01-09T05:22:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "1e6295ec-cf6a-4f9b-abe0-ad5cf64b8356",
+              "created_time": "2022-01-09T05:22:00.000Z",
+              "last_edited_time": "2022-01-09T05:22:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "I like the ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "I like the ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "safety of git",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": true,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "safety of git",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": ".",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": ".",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "bc826337-f4e9-410c-98ad-c2f079734c82",
+      "created_time": "2022-01-09T05:22:00.000Z",
+      "last_edited_time": "2022-01-09T05:23:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "That, in a nutshell, is what got me started on ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "That, in a nutshell, is what got me started on ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte. ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "It’s not the best project out there, but it’s the only one that does what I want. Namely:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It’s not the best project out there, but it’s the only one that does what I want. Namely:",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "7f501118-1695-469b-abb0-8c63c49a44df",
+      "created_time": "2022-01-04T23:37:00.000Z",
+      "last_edited_time": "2022-01-09T05:22:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Store intermediary artifacts to-disk",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Store intermediary artifacts to-disk",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "3baba495-ee38-4c6f-902b-9ac9bd7e9465",
+          "created_time": "2022-01-04T23:37:00.000Z",
+          "last_edited_time": "2022-01-04T23:37:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Benefits",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Benefits",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "b7670e6b-7c1b-4064-a2f9-4ea4de7005a3",
+          "created_time": "2022-01-04T23:37:00.000Z",
+          "last_edited_time": "2022-01-04T23:37:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "My content is safely stored in git",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "My content is safely stored in git",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "8199033c-694c-4ce1-9edd-32276b8478a4",
+          "created_time": "2022-01-04T23:37:00.000Z",
+          "last_edited_time": "2022-01-09T05:28:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "I can access the full, raw JSON for every page from within my app, allowing me to add interactivity that Notion doesn’t allow.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "I can access the full, raw JSON for every page from within my app, allowing me to add interactivity that Notion doesn’t allow.",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "5a04b931-7165-4b9a-bec3-e00f1dee7011",
+      "created_time": "2022-01-04T23:37:00.000Z",
+      "last_edited_time": "2022-01-09T05:22:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Command-line tool, rather than runtime ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Command-line tool, rather than runtime ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "npm",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "npm",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " package",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " package",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "eca98c65-0eea-4d31-a416-2e678804ef88",
+          "created_time": "2022-01-04T23:37:00.000Z",
+          "last_edited_time": "2022-01-04T23:37:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Benefits",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Benefits",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "5430d86f-d0a0-4711-b41e-662fd8402efa",
+          "created_time": "2022-01-04T23:37:00.000Z",
+          "last_edited_time": "2022-01-09T05:28:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "100% decoupled tooling: want to “eject” from ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "100% decoupled tooling: want to “eject” from ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "notion2svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "notion2svelte",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "? No problem. Just stop using it. From the perspective of your Svelte app, the pages created by ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "? No problem. Just stop using it. From the perspective of your Svelte app, the pages created by ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "notion2svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "notion2svelte",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " are no different than pages you code yourself",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " are no different than pages you code yourself",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "47cae4e7-ec66-4e18-8597-d5a5acdecac6",
+      "created_time": "2022-01-04T23:37:00.000Z",
+      "last_edited_time": "2022-01-09T05:34:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Write-your-own components",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Write-your-own components",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "889ec8ee-25c6-419c-832d-e437d32f905f",
+          "created_time": "2022-01-04T23:37:00.000Z",
+          "last_edited_time": "2022-01-04T23:37:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Benefits",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Benefits",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "656370bf-fc55-4bb4-8b19-f4f53de4fe13",
+          "created_time": "2022-01-04T23:37:00.000Z",
+          "last_edited_time": "2022-01-04T23:37:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Avoids constraining your creativity",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Avoids constraining your creativity",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "7c7c2e94-12e4-4eff-947e-d797c259a440",
+          "created_time": "2022-01-04T23:37:00.000Z",
+          "last_edited_time": "2022-01-04T23:37:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Keeps ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Keeps ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "notion2svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "notion2svelte",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " simple",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " simple",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "4065e86c-04f2-4670-91b7-a941fd1800d7",
+      "created_time": "2022-01-09T05:34:00.000Z",
+      "last_edited_time": "2022-01-09T05:34:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "e1efebff-c2de-4355-a194-0f0f18d0c3a7",
+      "created_time": "2022-01-09T05:34:00.000Z",
+      "last_edited_time": "2022-01-09T05:39:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "(Why ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "(Why ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "not",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "not",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " use it? Mainly because it’s early days and, while ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " use it? Mainly because it’s early days and, while ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " isn’t ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " isn’t ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "capable",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "capable",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " of breaking your app, you may not have the patience for its idiosyncrasies. But hopefully you’ll at least ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " of breaking your app, you may not have the patience for its idiosyncrasies. But hopefully you’ll at least ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "try",
+              "link": {
+                "url": "https://www.youtube.com/watch?v=xvV8-R_uUHg"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "try",
+            "href": "https://www.youtube.com/watch?v=xvV8-R_uUHg"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " it!)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " it!)",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "349ee0b9-6b1f-4381-a6ec-500c5557b662",
+      "created_time": "2022-01-09T05:35:00.000Z",
+      "last_edited_time": "2022-01-09T05:35:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "bd881cf3-41e5-4c9e-bfa7-67c48734378b",
+      "created_time": "2022-01-04T23:37:00.000Z",
+      "last_edited_time": "2022-01-04T23:37:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "e8965b5e-a183-45af-bbb8-e16d68b5e7ca",
+      "created_time": "2022-01-04T23:43:00.000Z",
+      "last_edited_time": "2022-01-04T23:43:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How it works, oversimplified",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How it works, oversimplified",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "74c878b3-7a75-4063-8bfa-7c5fcc939256",
+      "created_time": "2022-01-04T23:43:00.000Z",
+      "last_edited_time": "2022-01-09T05:39:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Everything you see on this page was:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Everything you see on this page was:",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "ca7e990e-b63a-4081-b283-952df0dae70b",
+      "created_time": "2022-01-09T05:39:00.000Z",
+      "last_edited_time": "2022-01-09T05:39:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "written in Notion",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "written in Notion",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "3f3cd63e-8095-47f1-9279-d415597cfb31",
+      "created_time": "2022-01-09T05:39:00.000Z",
+      "last_edited_time": "2022-01-09T05:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "exported as .svelte files, targeted to ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "exported as .svelte files, targeted to ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "src/routes/<Slug>.svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "src/routes/<Slug>.svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", using ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", using ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "4248e3a3-c088-49cb-9400-b43bfe1ed3d6",
+      "created_time": "2022-01-09T05:40:00.000Z",
+      "last_edited_time": "2022-01-09T05:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Published normally using Svelte Kit",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Published normally using Svelte Kit",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "229fe91d-a7ee-42b2-9d81-1c9ad4804d5b",
+      "created_time": "2022-01-09T05:40:00.000Z",
+      "last_edited_time": "2022-01-09T05:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "dfbc55c9-68a1-4ea3-ac5a-904e086dfe26",
+      "created_time": "2022-01-04T23:43:00.000Z",
+      "last_edited_time": "2022-01-04T23:43:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", grossly over-simplified",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", grossly over-simplified",
+            "href": null
+          }
+        ],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220110%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220110T124901Z&X-Amz-Expires=3600&X-Amz-Signature=a69a5f007d4faee30fe477547e2b2e59a9583cb460b123de6f2f6eb8d1fba39a&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-10T13:49:01.514Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "373fc2b7-6d70-4c1b-98bd-3f9e21005607",
+      "created_time": "2022-01-09T05:40:00.000Z",
+      "last_edited_time": "2022-01-09T05:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "6f8cf24b-d59b-470c-930f-9e9f24e201ca",
+      "created_time": "2022-01-04T23:43:00.000Z",
+      "last_edited_time": "2022-01-09T05:43:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The output .svelte files make use of user-defined components to do the actual rendering. Let’s take a look at a simple example to explore this in more detail. We’ll use this callout:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The output .svelte files make use of user-defined components to do the actual rendering. Let’s take a look at a simple example to explore this in more detail. We’ll use this callout:",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "e3a6ad2e-71a9-4492-84fe-f78df05f43d7",
+      "created_time": "2022-01-04T23:43:00.000Z",
+      "last_edited_time": "2022-01-04T23:43:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "callout",
+      "callout": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Hi. I’m a sea otter.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Hi. I’m a sea otter.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "🦦"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "26135e20-5ee7-4633-a51b-1e0c5a3879b2",
+      "created_time": "2022-01-09T05:43:00.000Z",
+      "last_edited_time": "2022-01-09T05:43:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column_list",
+      "column_list": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "b0eae99b-b1f2-45ec-8ba0-b1f0901334bd",
+          "created_time": "2022-01-09T05:43:00.000Z",
+          "last_edited_time": "2022-01-09T05:52:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "306c4480-934c-47d3-9009-0a7142392a71",
+              "created_time": "2022-01-04T23:43:00.000Z",
+              "last_edited_time": "2022-01-09T05:48:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "The JSON that follows is an example of the callout as rendered by the Notion API. It’s pretty noisy, and, for rendering purposes, most of it can be ignored.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "The JSON that follows is an example of the callout as rendered by the Notion API. It’s pretty noisy, and, for rendering purposes, most of it can be ignored.",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "457f4383-0c7d-46fa-bee4-48f40e9ef9e8",
+              "created_time": "2022-01-09T05:46:00.000Z",
+              "last_edited_time": "2022-01-09T05:48:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "What we mainly care about — given that we haven’t used ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "What we mainly care about — given that we haven’t used ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "bold",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": true,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "bold",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": ", ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": ", ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "italic",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": true,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "italic",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": ", etc. within the callout — are the values for ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": ", etc. within the callout — are the values for ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "emoji",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "emoji",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": ", ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": ", ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "content",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "content",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": ", and, well, the blocks’ overall type, which ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": ", and, well, the blocks’ overall type, which ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "notion2svelte",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": true,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "notion2svelte",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " uses to choose how to render the ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " uses to choose how to render the ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "callout.text",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "callout.text",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " along with any subblocks.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " along with any subblocks.",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "400ec1a4-6393-49e3-a94d-884bc5e070a9",
+              "created_time": "2022-01-09T05:46:00.000Z",
+              "last_edited_time": "2022-01-09T05:47:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "notion2svelte",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": true,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "notion2svelte",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " converts the JSON to this:",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " converts the JSON to this:",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "9ea9dceb-749e-4289-95ad-798e8f02d2f0",
+              "created_time": "2022-01-09T05:45:00.000Z",
+              "last_edited_time": "2022-01-09T05:46:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": []
+              }
+            },
+            {
+              "object": "block",
+              "id": "7d1d1eb9-0fc1-4b24-920a-fa49efe38634",
+              "created_time": "2022-01-04T23:51:00.000Z",
+              "last_edited_time": "2022-01-09T05:47:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "code",
+              "code": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "<Callout emoji=\"🦦\">Hi. I’m a sea otter.</Callout>",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "<Callout emoji=\"🦦\">Hi. I’m a sea otter.</Callout>",
+                    "href": null
+                  }
+                ],
+                "language": "html"
+              }
+            },
+            {
+              "object": "block",
+              "id": "7d008805-68f8-4ff7-9581-6a7b92f5e3c1",
+              "created_time": "2022-01-09T05:51:00.000Z",
+              "last_edited_time": "2022-01-09T05:52:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": []
+              }
+            },
+            {
+              "object": "block",
+              "id": "865b4686-c6d9-4ba2-ba4a-c1fcb1cc472b",
+              "created_time": "2022-01-09T05:51:00.000Z",
+              "last_edited_time": "2022-01-09T05:51:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Note that we didn’t use any “annotations” (",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Note that we didn’t use any “annotations” (",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "bold",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": true,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "bold",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": ", ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": ", ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "italic",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": true,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "italic",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": ", etc.) in the original callout, so none of the text is surrounded by span-level formatting elements.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": ", etc.) in the original callout, so none of the text is surrounded by span-level formatting elements.",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "a4a8b2d2-fa44-4d74-95bc-83eab01314d0",
+          "created_time": "2022-01-09T05:43:00.000Z",
+          "last_edited_time": "2022-01-09T05:43:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "650167b9-e25b-4b0f-b597-bd5db653cb7e",
+              "created_time": "2022-01-04T23:47:00.000Z",
+              "last_edited_time": "2022-01-09T05:52:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "code",
+              "code": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "{\n  \"object\": \"block\",\n  \"id\": \"011d46be-4bf6-4817-a0da-a849ec16f1aa\",\n  \"created_time\": \"2021-12-20T10:00:00.000Z\",\n  \"last_edited_time\": \"2021-12-20T10:04:00.000Z\",\n  \"has_children\": false,\n  \"archived\": false,\n  \"type\": \"callout\",\n  \"callout\": {\n    \"text\": [\n      {\n        \"type\": \"text\",\n        \"text\": {\n          \"content\": \"Hi. I’m a sea otter.\",\n          \"link\": null\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": false,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"Hi. I’m a sea otter.\",\n        \"href\": null\n      }\n    ],\n    \"icon\": {\n      \"type\": \"emoji\",\n      \"emoji\": \"🦦\"\n    }\n  }\n}",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "{\n  \"object\": \"block\",\n  \"id\": \"011d46be-4bf6-4817-a0da-a849ec16f1aa\",\n  \"created_time\": \"2021-12-20T10:00:00.000Z\",\n  \"last_edited_time\": \"2021-12-20T10:04:00.000Z\",\n  \"has_children\": false,\n  \"archived\": false,\n  \"type\": \"callout\",\n  \"callout\": {\n    \"text\": [\n      {\n        \"type\": \"text\",\n        \"text\": {\n          \"content\": \"Hi. I’m a sea otter.\",\n          \"link\": null\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": false,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"Hi. I’m a sea otter.\",\n        \"href\": null\n      }\n    ],\n    \"icon\": {\n      \"type\": \"emoji\",\n      \"emoji\": \"🦦\"\n    }\n  }\n}",
+                    "href": null
+                  }
+                ],
+                "language": "json"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d4fa03b-5b2a-4ff9-b218-31594083e686",
+      "created_time": "2022-01-04T23:51:00.000Z",
+      "last_edited_time": "2022-01-04T23:51:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column_list",
+      "column_list": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "fe7dc2d0-1a9d-4821-95ec-2fcc2a47ddce",
+          "created_time": "2022-01-04T23:51:00.000Z",
+          "last_edited_time": "2022-01-09T05:55:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "3ee48864-8690-41ba-941b-de534950b5e9",
+              "created_time": "2022-01-09T05:52:00.000Z",
+              "last_edited_time": "2022-01-09T05:58:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "That’s the basic idea. All that remains is to create a Svelte component called Callout. And that’s when things get fun.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "That’s the basic idea. All that remains is to create a Svelte component called Callout. And that’s when things get fun.",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "19fdf8a0-f929-473d-af16-3030b4e42e4b",
+              "created_time": "2022-01-09T05:55:00.000Z",
+              "last_edited_time": "2022-01-09T05:56:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " Do you want a simple, gray callout with minimal styling, like this:",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " Do you want a simple, gray callout with minimal styling, like this:",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "d7491f56-1541-4368-ad6c-a65ec7ba44df",
+          "created_time": "2022-01-04T23:51:00.000Z",
+          "last_edited_time": "2022-01-05T00:00:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "70a6d0d1-1eaa-493e-8af4-cd1b69690c54",
+              "created_time": "2022-01-04T23:51:00.000Z",
+              "last_edited_time": "2022-01-04T23:51:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220110%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220110T124902Z&X-Amz-Expires=3600&X-Amz-Signature=903e423ab3985393c1c50f043960efd803d60319b0b35bcff8af70a4e7ba8c55&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-10T13:49:02.014Z"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "af211539-99ae-483a-89b2-d68fee30f3eb",
+      "created_time": "2022-01-05T00:01:00.000Z",
+      "last_edited_time": "2022-01-05T00:01:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "toggle",
+      "toggle": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Code for ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Code for ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Callout.svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Callout.svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " (gray version)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " (gray version)",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "f52c9679-84aa-4c16-b76e-376fa66394f2",
+          "created_time": "2022-01-05T00:01:00.000Z",
+          "last_edited_time": "2022-01-05T00:27:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "code",
+          "code": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "<script>\n\texport let emoji = '';\n</script>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tbackground-color: white;\n\t\tborder: 1px solid #333;\n\t\tmargin: 1rem;\n\t\tpadding: 1rem;\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.emoji {\n\t\tfont-size: 2rem;\n\t}\n</style>",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "<script>\n\texport let emoji = '';\n</script>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tbackground-color: white;\n\t\tborder: 1px solid #333;\n\t\tmargin: 1rem;\n\t\tpadding: 1rem;\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.emoji {\n\t\tfont-size: 2rem;\n\t}\n</style>",
+                "href": null
+              }
+            ],
+            "language": "html"
+          }
+        },
+        {
+          "object": "block",
+          "id": "7b6b2e09-535b-46da-8828-be5d1503a3e7",
+          "created_time": "2022-01-05T00:01:00.000Z",
+          "last_edited_time": "2022-01-05T00:01:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": []
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1db927d3-d05b-4684-94aa-443f131c3ce0",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column_list",
+      "column_list": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "d320d12f-edd5-4f25-bead-ae229da54c18",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "d2366103-9868-45e5-bf08-727eda90e585",
+              "created_time": "2022-01-05T09:14:00.000Z",
+              "last_edited_time": "2022-01-09T05:58:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Or would you prefer something more colorful? Here’s a version of the code used for the blue-outlined callouts on this very page.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Or would you prefer something more colorful? Here’s a version of the code used for the blue-outlined callouts on this very page.",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "af1ed69f-5e55-4c84-8615-401454d349fd",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "1f440d04-1010-43c2-89f5-05b39b51aef6",
+              "created_time": "2022-01-05T09:14:00.000Z",
+              "last_edited_time": "2022-01-05T09:14:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220110%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220110T124901Z&X-Amz-Expires=3600&X-Amz-Signature=0dbc0b13afa17d9c6811a179bef0a60dd85c303c790cfd9d299a1ea1a3e3ce36&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-10T13:49:01.935Z"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "70ac59c2-7b1f-40b9-81f0-46c7b99990ad",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "toggle",
+      "toggle": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Code for Callout.svelte (blue version)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Code for Callout.svelte (blue version)",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "f803e009-013c-4564-8276-2673ee83dad1",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "code",
+          "code": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "<script>\n\texport let emoji = '';\n</script>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tdisplay: flex;\n\t\tmargin: 1rem 1rem 2rem 0;\n\t\tpadding: 2rem 2rem 0 2rem;\n\t\tfont: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\t\tbackground-color: hsl(198, 100%, 97%);\n\t\tborder: 4px solid hsl(206, 88%, 70%);\n\t\tborder-radius: 0.5rem;\n\t}\n\t.callout {\n\t\tdisplay: block;\n\t}\n\t.emoji {\n\t\tmargin-right: 0.5em;\n\t\theight: 3rem;\n\t\twidth: 3rem;\n\t\tfont-size: 3rem;\n\t\tline-height: 1.1;\n\t}\n</style>",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "<script>\n\texport let emoji = '';\n</script>\n\n<div class=\"wrapper\">\n\t<div class=\"emoji\">{emoji}</div>\n\t<div class=\"text\">\n\t\t<div class=\"callout\">\n\t\t\t<slot />\n\t\t</div>\n\t\t<slot name=\"children\" />\n\t</div>\n</div>\n\n<style>\n\t.wrapper {\n\t\tdisplay: flex;\n\t\tmargin: 1rem 1rem 2rem 0;\n\t\tpadding: 2rem 2rem 0 2rem;\n\t\tfont: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\t\tbackground-color: hsl(198, 100%, 97%);\n\t\tborder: 4px solid hsl(206, 88%, 70%);\n\t\tborder-radius: 0.5rem;\n\t}\n\t.callout {\n\t\tdisplay: block;\n\t}\n\t.emoji {\n\t\tmargin-right: 0.5em;\n\t\theight: 3rem;\n\t\twidth: 3rem;\n\t\tfont-size: 3rem;\n\t\tline-height: 1.1;\n\t}\n</style>",
+                "href": null
+              }
+            ],
+            "language": "html"
+          }
+        },
+        {
+          "object": "block",
+          "id": "c7821ec8-7ee0-4428-82bd-21751cdc7f52",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": []
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "fff53a7b-269d-45c5-977c-64fa8b824959",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "column_list",
+      "column_list": {},
+      "blocks": [
+        {
+          "object": "block",
+          "id": "891038c5-4b1e-41f0-9a59-afce9253cb13",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "423ee92b-d2a6-4b89-a1d1-e4c510c908fa",
+              "created_time": "2022-01-05T09:14:00.000Z",
+              "last_edited_time": "2022-01-05T09:14:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Or you could go crazy and have a callout that doubles as a toggle. Wat!? 🙀",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Or you could go crazy and have a callout that doubles as a toggle. Wat!? 🙀",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "fdb3757e-6109-4405-b202-24d89dccb1e5",
+              "created_time": "2022-01-05T09:14:00.000Z",
+              "last_edited_time": "2022-01-05T09:14:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Sure. You can add keyboard interactions, or make callouts behave according to user settings. Anything Svelte allows you to do, you can usually do it!",
+                    "href": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "e57bb1a7-cf67-493f-af15-c9198b508bc5",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "column",
+          "column": {},
+          "blocks": [
+            {
+              "object": "block",
+              "id": "3c907829-0848-414f-9504-3cbf0a79f701",
+              "created_time": "2022-01-05T09:14:00.000Z",
+              "last_edited_time": "2022-01-05T09:14:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220110%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220110T124902Z&X-Amz-Expires=3600&X-Amz-Signature=e7bcc0f0d4ac37173c10601522d1829f57f2eadce72a32b0fe54799108fbd2a9&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-10T13:49:02.066Z"
+                }
+              }
+            },
+            {
+              "object": "block",
+              "id": "81c37598-a496-45b7-9d9c-66d0aca7e755",
+              "created_time": "2022-01-05T09:14:00.000Z",
+              "last_edited_time": "2022-01-05T09:14:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "↓ click! ↓",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "↓ click! ↓",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "04f8b689-0308-49bf-8a39-b1d93069c530",
+              "created_time": "2022-01-05T09:14:00.000Z",
+              "last_edited_time": "2022-01-05T09:14:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f7caa9b8-2274-4f09-a4d4-2158783537c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220110%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220110T124902Z&X-Amz-Expires=3600&X-Amz-Signature=45f374efbedecd7139d79e655c753e6d2ad74c65d3de7644199ccf3726ce8b3f&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-10T13:49:02.065Z"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "674d3963-ef56-4a2f-82ff-11f0ac87be8c",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "toggle",
+      "toggle": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Code for Callout.svelte (toggle version)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Code for Callout.svelte (toggle version)",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1eefd5f9-5b0b-4acb-a6de-dbc9847372af",
+          "created_time": "2022-01-05T09:14:00.000Z",
+          "last_edited_time": "2022-01-05T09:14:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "code",
+          "code": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "<script>\n\texport let emoji = '';\n\n\texport let open = false;\n</script>\n\n<div class=\"wrapper {open ? 'open' : 'closed'}\" on:click={() => (open = !open)}>\n\t<div class=\"emoji\">{emoji}</div>\n\t{#if open}\n\t\t<div class=\"text\">\n\t\t\t<div class=\"callout\">\n\t\t\t\t<slot />\n\t\t\t</div>\n\t\t\t<slot name=\"children\" />\n\t\t</div>\n\t{:else}\n\t\t<div class=\"text\">⟩</div>\n\t{/if}\n</div>\n\n<style>\n\t.wrapper {\n\t\tdisplay: flex;\n\t\tmargin: 1rem 1rem 2rem 0;\n\t\tpadding: 2rem 2rem 0 2rem;\n\t\tfont: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\t\tbackground-color: hsl(198, 100%, 97%);\n\t\tborder: 4px solid hsl(206, 88%, 70%);\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.closed {\n\t\twidth: 8rem;\n\t}\n\n\t.callout {\n\t\tdisplay: block;\n\t}\n\n\t.emoji {\n\t\tmargin-right: 0.5em;\n\t\theight: 3rem;\n\t\twidth: 3rem;\n\t\tfont-size: 3rem;\n\t\tline-height: 1.1;\n\t}\n</style>",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "<script>\n\texport let emoji = '';\n\n\texport let open = false;\n</script>\n\n<div class=\"wrapper {open ? 'open' : 'closed'}\" on:click={() => (open = !open)}>\n\t<div class=\"emoji\">{emoji}</div>\n\t{#if open}\n\t\t<div class=\"text\">\n\t\t\t<div class=\"callout\">\n\t\t\t\t<slot />\n\t\t\t</div>\n\t\t\t<slot name=\"children\" />\n\t\t</div>\n\t{:else}\n\t\t<div class=\"text\">⟩</div>\n\t{/if}\n</div>\n\n<style>\n\t.wrapper {\n\t\tdisplay: flex;\n\t\tmargin: 1rem 1rem 2rem 0;\n\t\tpadding: 2rem 2rem 0 2rem;\n\t\tfont: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\t\tbackground-color: hsl(198, 100%, 97%);\n\t\tborder: 4px solid hsl(206, 88%, 70%);\n\t\tborder-radius: 0.5rem;\n\t}\n\n\t.closed {\n\t\twidth: 8rem;\n\t}\n\n\t.callout {\n\t\tdisplay: block;\n\t}\n\n\t.emoji {\n\t\tmargin-right: 0.5em;\n\t\theight: 3rem;\n\t\twidth: 3rem;\n\t\tfont-size: 3rem;\n\t\tline-height: 1.1;\n\t}\n</style>",
+                "href": null
+              }
+            ],
+            "language": "html"
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "8721faec-90de-418d-86f9-e04e86bb6c43",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A word about imports",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A word about imports",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "eeda3d54-3e81-4b6e-afab-01b5c58fc62d",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It should go without saying, but your Sveltekit app needs to know where to actually ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It should go without saying, but your Sveltekit app needs to know where to actually ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "find",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "find",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " the components that match ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " the components that match ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "’s output. At present, this means putting them in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "’s output. At present, this means putting them in ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "src/lib/notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "src/lib/notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". The reason why becomes apparent when we look at the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". The reason why becomes apparent when we look at the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "import",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "import",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " statements rendered by ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " statements rendered by ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "ce6adbc2-db45-480f-9e10-542335ba6cd5",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-09T06:01:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Don’t worry. You don’t need to explicitly remember this location. You’ll get a standard Svelte error if you try to run your app without the necessary components in place. After all, they’re just regular Svelte imports. Nothing special.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Don’t worry. You don’t need to explicitly remember this location. You’ll get a standard Svelte error if you try to run your app without the necessary components in place. After all, they’re just regular Svelte imports. Nothing special.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "2cc815fa-2e1f-458f-afb6-dc61037adfd5",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-09T06:02:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "code",
+      "code": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import Callout from '$lib/notion2svelte/Callout.svelte';",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import Callout from '$lib/notion2svelte/Callout.svelte';",
+            "href": null
+          }
+        ],
+        "language": "html"
+      }
+    },
+    {
+      "object": "block",
+      "id": "533a85a0-b745-4dc4-9ebe-50b65165bc36",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "0f0fe446-3bc2-4e04-81da-ae5ada7478da",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How to use ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How to use ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "92b91cd7-462f-4129-8488-c4cf54db6035",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "For now, the fastest way to get started is to follow along with the video tutorial:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "For now, the fastest way to get started is to follow along with the video tutorial:",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "1405c655-d69f-4baa-90ef-0b8332f9f9cc",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " in 10 minutes |",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " in 10 minutes |",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s",
+              "link": {
+                "url": "https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s",
+            "href": "https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "c51ecb33-3ae5-483f-893f-92c7404b43ce",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "62411be2-364d-41eb-a1e3-9911fb2c114d",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Where to learn more",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Where to learn more",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "5fec1a8f-8321-47b7-890b-2f2cbc2f8690",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Find the code, start a discussion, or report an issue on GitHub:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Find the code, start a discussion, or report an issue on GitHub:",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "bbffb33e-f242-4d97-9f48-64a3ff7e815b",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/nvlgzr/notion2svelte",
+              "link": {
+                "url": "https://github.com/nvlgzr/notion2svelte"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/nvlgzr/notion2svelte",
+            "href": "https://github.com/nvlgzr/notion2svelte"
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "b9a357c7-c780-451e-9b26-6dc27bb51a3f",
+      "created_time": "2022-01-05T09:14:00.000Z",
+      "last_edited_time": "2022-01-05T09:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    }
+  ]
+}
