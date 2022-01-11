@@ -1,4 +1,10 @@
-<div><slot /></div>
+<div>
+  {#if $$slots.default}
+  <slot />
+  {:else}
+  &nbsp;
+  {/if}
+</div>
 
 <style>
   div {

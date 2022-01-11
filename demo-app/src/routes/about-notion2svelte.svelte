@@ -125,7 +125,7 @@
 		<BulletedListItem>My content is safely stored in git</BulletedListItem>
 		<BulletedListItem
 			>I can access the full, raw JSON for every page from within my app, allowing me to add
-			interactivity that Notion doesn’t allow.</BulletedListItem
+			interactivity that Notion doesn’t allow</BulletedListItem
 		>
 	</IndentGroup>
 </Magic>
@@ -158,20 +158,26 @@
 	</IndentGroup>
 </Magic>
 <br style="display:none;" />
-<Magic blockId={'4065e86c-04f2-4670-91b7-a941fd1800d7'}><Paragraph /></Magic>
+<Magic blockId={'087070bf-e5ee-4290-9623-b469145725d5'}
+	><Header level="1">Why NOT&nbsp;<em>notion2svelte</em>?</Header>
+</Magic>
 <br style="display:none;" />
 <Magic blockId={'e1efebff-c2de-4355-a194-0f0f18d0c3a7'}
 	><Paragraph>
-		(Why&nbsp;<em>not</em>&nbsp;use it? Mainly because it’s early days and, while&nbsp;<em
+		Why&nbsp;<em>not</em>&nbsp;use it? Mainly because it’s early days and, while&nbsp;<em
 			>notion2svelte</em
 		>&nbsp;isn’t&nbsp;<em>capable</em>&nbsp;of breaking your app, you may not have the patience for
-		its idiosyncrasies. But hopefully you’ll at least&nbsp;<MagicLink
-			href="https://www.youtube.com/watch?v=xvV8-R_uUHg"><em>try</em></MagicLink
-		>&nbsp;it!)
+		its idiosyncrasies.
 	</Paragraph>
 </Magic>
 <br style="display:none;" />
-<Magic blockId={'349ee0b9-6b1f-4381-a6ec-500c5557b662'}><Paragraph /></Magic>
+<Magic blockId={'dea56b44-ef7e-4c81-8e77-ab8eb3fbbf0f'}
+	><Paragraph>
+		That said, I hope you’ll at least give it&nbsp;<InlineColor value="yellow_background"
+			>a quick try</InlineColor
+		>&nbsp;and, if you’re feeling the vibe, let me know what you think, here, or in the Discussions.
+	</Paragraph>
+</Magic>
 <br style="display:none;" />
 <Magic blockId={'bd881cf3-41e5-4c9e-bfa7-67c48734378b'}><Divider /></Magic>
 <br style="display:none;" />

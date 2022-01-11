@@ -2,7 +2,7 @@
   "object": "page",
   "id": "fdc65179-a8bd-451c-af67-59019204cfde",
   "created_time": "2022-01-04T05:41:00.000Z",
-  "last_edited_time": "2022-01-11T00:49:00.000Z",
+  "last_edited_time": "2022-01-11T04:50:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -12,8 +12,8 @@
   "icon": {
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T004918Z&X-Amz-Expires=3600&X-Amz-Signature=a40bc100dbfece5ec7590a93011c244d90fa8f8268c3d493309e3fca7979382c&X-Amz-SignedHeaders=host&x-id=GetObject",
-      "expiry_time": "2022-01-11T01:49:18.501Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051146Z&X-Amz-Expires=3600&X-Amz-Signature=dbb3e1719bcfbea92ad28e27e4be77e193b4a913818c0dc5265fe877f35cb8c9&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-11T06:11:46.474Z"
     }
   },
   "parent": {
@@ -436,8 +436,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T004919Z&X-Amz-Expires=3600&X-Amz-Signature=ed637166aadf1a0db865d2027a5785cdafaeee1cbb3c07cfe26d2768083faa97&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T01:49:19.695Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051147Z&X-Amz-Expires=3600&X-Amz-Signature=404287fa7415361391f82a3a7293cdaf417ffbd2def29fb205974e24e28d7dbc&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T06:11:47.369Z"
                 }
               }
             },
@@ -602,8 +602,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T004919Z&X-Amz-Expires=3600&X-Amz-Signature=c674413a5fc767e42ae1655a004ee11f236cb5c63a99bc23705943c4fbb31855&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T01:49:19.659Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051147Z&X-Amz-Expires=3600&X-Amz-Signature=e7bf3c0cb66acf962778c210aa71c05d91cd0769f75bd15b5c3e54a80e58eb3f&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T06:11:47.350Z"
                 }
               }
             },
@@ -1122,7 +1122,7 @@
           "object": "block",
           "id": "8199033c-694c-4ce1-9edd-32276b8478a4",
           "created_time": "2022-01-04T23:37:00.000Z",
-          "last_edited_time": "2022-01-09T05:28:00.000Z",
+          "last_edited_time": "2022-01-11T04:49:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "bulleted_list_item",
@@ -1131,7 +1131,7 @@
               {
                 "type": "text",
                 "text": {
-                  "content": "I can access the full, raw JSON for every page from within my app, allowing me to add interactivity that Notion doesn’t allow.",
+                  "content": "I can access the full, raw JSON for every page from within my app, allowing me to add interactivity that Notion doesn’t allow",
                   "link": null
                 },
                 "annotations": {
@@ -1142,7 +1142,7 @@
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "I can access the full, raw JSON for every page from within my app, allowing me to add interactivity that Notion doesn’t allow.",
+                "plain_text": "I can access the full, raw JSON for every page from within my app, allowing me to add interactivity that Notion doesn’t allow",
                 "href": null
               }
             ]
@@ -1502,30 +1502,18 @@
     },
     {
       "object": "block",
-      "id": "4065e86c-04f2-4670-91b7-a941fd1800d7",
-      "created_time": "2022-01-09T05:34:00.000Z",
-      "last_edited_time": "2022-01-09T05:34:00.000Z",
+      "id": "087070bf-e5ee-4290-9623-b469145725d5",
+      "created_time": "2022-01-11T00:55:00.000Z",
+      "last_edited_time": "2022-01-11T00:55:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "text": []
-      }
-    },
-    {
-      "object": "block",
-      "id": "e1efebff-c2de-4355-a194-0f0f18d0c3a7",
-      "created_time": "2022-01-09T05:34:00.000Z",
-      "last_edited_time": "2022-01-09T05:39:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
+      "type": "heading_1",
+      "heading_1": {
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "(Why ",
+              "content": "Why NOT ",
               "link": null
             },
             "annotations": {
@@ -1536,7 +1524,71 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "(Why ",
+            "plain_text": "Why NOT ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "?",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "e1efebff-c2de-4355-a194-0f0f18d0c3a7",
+      "created_time": "2022-01-09T05:34:00.000Z",
+      "last_edited_time": "2022-01-11T00:55:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Why ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Why ",
             "href": null
           },
           {
@@ -1627,7 +1679,7 @@
           {
             "type": "text",
             "text": {
-              "content": " of breaking your app, you may not have the patience for its idiosyncrasies. But hopefully you’ll at least ",
+              "content": " of breaking your app, you may not have the patience for its idiosyncrasies.",
               "link": null
             },
             "annotations": {
@@ -1638,43 +1690,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": " of breaking your app, you may not have the patience for its idiosyncrasies. But hopefully you’ll at least ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "try",
-              "link": {
-                "url": "https://www.youtube.com/watch?v=xvV8-R_uUHg"
-              }
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "try",
-            "href": "https://www.youtube.com/watch?v=xvV8-R_uUHg"
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " it!)",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " it!)",
+            "plain_text": " of breaking your app, you may not have the patience for its idiosyncrasies.",
             "href": null
           }
         ]
@@ -1682,14 +1698,66 @@
     },
     {
       "object": "block",
-      "id": "349ee0b9-6b1f-4381-a6ec-500c5557b662",
-      "created_time": "2022-01-09T05:35:00.000Z",
-      "last_edited_time": "2022-01-09T05:35:00.000Z",
+      "id": "dea56b44-ef7e-4c81-8e77-ab8eb3fbbf0f",
+      "created_time": "2022-01-11T00:55:00.000Z",
+      "last_edited_time": "2022-01-11T04:50:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
       "paragraph": {
-        "text": []
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "That said, I hope you’ll at least give it ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "That said, I hope you’ll at least give it ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "a quick try",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "yellow_background"
+            },
+            "plain_text": "a quick try",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and, if you’re feeling the vibe, let me know what you think, here, or in the Discussions.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and, if you’re feeling the vibe, let me know what you think, here, or in the Discussions.",
+            "href": null
+          }
+        ]
       }
     },
     {
@@ -1962,8 +2030,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T004919Z&X-Amz-Expires=3600&X-Amz-Signature=896dbf503acc213960c42e7ab21cf47fe2074f5cc9050a5990083d161da9abe8&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-11T01:49:19.079Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051146Z&X-Amz-Expires=3600&X-Amz-Signature=5fe3439fb3598404eb9a7e67c4cc0e359246d47192bbe678faf984ae6ca6042e&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-11T06:11:46.877Z"
         }
       }
     },
@@ -2678,8 +2746,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T004919Z&X-Amz-Expires=3600&X-Amz-Signature=e56588025dcf9f503b06036d3dc65fc3936b008c9ce6b75aaf0c3b2c31ae0022&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T01:49:19.691Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051147Z&X-Amz-Expires=3600&X-Amz-Signature=f3408bac0fd4cd9c8bf950fe18f99559e4673d5a3cea6a16726855cbfc7631ee&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T06:11:47.351Z"
                 }
               }
             }
@@ -2870,8 +2938,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T004919Z&X-Amz-Expires=3600&X-Amz-Signature=6aea2cb58669011e6b988e0ca8801d99601d5410b6e094f2f0211d403b8ca729&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T01:49:19.844Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051147Z&X-Amz-Expires=3600&X-Amz-Signature=d8c073a4b5b4e5d66c9baf52729a7ccb78e5d613b29d7a252c3e9a76f76232d5&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T06:11:47.350Z"
                 }
               }
             }
@@ -3058,8 +3126,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T004919Z&X-Amz-Expires=3600&X-Amz-Signature=d9cc8f3b2129ef950ca88af3b836a9bb198fc75fd661fcf96f97617b46a80a09&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T01:49:19.791Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051147Z&X-Amz-Expires=3600&X-Amz-Signature=80c86bd4775ebe5099191b9ab7f5bfd0b140f3fbe645382e3160866bfd952c15&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T06:11:47.429Z"
                 }
               }
             },
@@ -3105,8 +3173,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f7caa9b8-2274-4f09-a4d4-2158783537c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T004919Z&X-Amz-Expires=3600&X-Amz-Signature=3cf7eaedc6f85cb71e27c5fafdcb24c1a1145005b8971e82a2094808a44ea2cd&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T01:49:19.801Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f7caa9b8-2274-4f09-a4d4-2158783537c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051147Z&X-Amz-Expires=3600&X-Amz-Signature=7450756990f01572addd0c0c41d4626f27d86a3fc088ab67626e478b04dff6b9&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T06:11:47.432Z"
                 }
               }
             }
