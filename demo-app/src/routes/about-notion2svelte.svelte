@@ -237,24 +237,31 @@
 		><Column
 			><Paragraph>
 				The JSON that follows is an example of the callout as rendered by the Notion API. It’s
-				pretty noisy, and, for rendering purposes, most of it can be ignored.
+				pretty noisy, with all those time stamps and nested arrays! For rendering purposes, most of
+				it can be ignored.
 			</Paragraph>
 			<Paragraph>
-				What we mainly care about — given that we haven’t used&nbsp;<strong>bold</strong>,&nbsp;<em
-					>italic</em
-				>, etc. within the callout — are the values for&nbsp;<InlineCode
-					code="emoji"
-				/>,&nbsp;<InlineCode code="content" />, and, well, the blocks’ overall type, which&nbsp;<em
-					>notion2svelte</em
-				>&nbsp;uses to choose how to render the&nbsp;<InlineCode code="callout.text" />&nbsp;along
-				with any subblocks.
+				Our example doesn’t have any “annotations”,— i.e., character-level formatting: bold, italic,
+				strikethrough, underline, code, or color — so all we really care about are the values
+				for&nbsp;<InlineCode code="&quot;emoji&quot;" />,&nbsp;<InlineCode
+					code="&quot;content&quot;"
+				/>, and, well, the blocks’ overall type,&nbsp;<InlineCode code="&quot;callout&quot;" />. The
+				type tells&nbsp;<em>notion2svelte</em>&nbsp;which component to use, in this case,&nbsp;<InlineCode
+					code="&lt;Callout&gt;"
+				/>. It also tells&nbsp;<em>notion2svelte</em>&nbsp;how to parse the stuff in the&nbsp;<InlineCode
+					code="&quot;callout&quot;"
+				/>&nbsp;object.
 			</Paragraph>
 			<Paragraph>
-				<em>notion2svelte</em>&nbsp;converts the JSON to this:
+				Here’s what&nbsp;<em>notion2svelte</em>&nbsp;spits out from all that JSON:
 			</Paragraph>
 			<Paragraph />
-			<Code code={`<Callout emoji="🦦">Hi. I’m a sea otter.</Callout>`} language="html" /><Paragraph
-			/>
+			<Code
+				code={`<Callout emoji="🦦">
+  Hi. I’m a sea otter.
+</Callout>`}
+				language="html"
+			/><Paragraph />
 			<Paragraph>
 				Note that we didn’t use any “annotations” (<strong>bold</strong>,&nbsp;<em>italic</em>,
 				etc.) in the original callout, so none of the text is surrounded by span-level formatting

@@ -2,7 +2,7 @@
   "object": "page",
   "id": "fdc65179-a8bd-451c-af67-59019204cfde",
   "created_time": "2022-01-04T05:41:00.000Z",
-  "last_edited_time": "2022-01-11T05:22:00.000Z",
+  "last_edited_time": "2022-01-11T06:49:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -12,8 +12,8 @@
   "icon": {
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=cb35e632dfcaeb6e1e31b971ec3ac55cd1533021337c7a15a0be4c4de24473f8&X-Amz-SignedHeaders=host&x-id=GetObject",
-      "expiry_time": "2022-01-11T06:22:17.079Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T064923Z&X-Amz-Expires=3600&X-Amz-Signature=1837dd025f0d0f889cd1de86f36dfe5f47303a9bda7d50f5d1694c6c98ac6824&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-11T07:49:23.314Z"
     }
   },
   "parent": {
@@ -436,8 +436,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=5e7bff1a88dcf2d7810b767ec961a6e111845da2fdfb91fd9e680dbabf3644d6&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T06:22:17.934Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T064924Z&X-Amz-Expires=3600&X-Amz-Signature=1b791acfe6d0be793d9b6a245e8713680eebdb530601c7e7eeb76db5d3f9912a&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T07:49:24.301Z"
                 }
               }
             },
@@ -602,8 +602,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052218Z&X-Amz-Expires=3600&X-Amz-Signature=20d98b3742f3540cde9ec0945b1d2ef378f3c9f35f93586361f191e8636c7bcd&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T06:22:18.425Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T064926Z&X-Amz-Expires=3600&X-Amz-Signature=ab0689979ad7725c35a6d7f6d5cb67c1d30824fdc5677e5575326e054274d07a&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T07:49:25.841Z"
                 }
               }
             },
@@ -2013,8 +2013,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=8c8dcce23f1aa42b06a9f904547f808a5ebb3d7acc10ed93b861c8a7f4a99bac&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-11T06:22:17.448Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T064923Z&X-Amz-Expires=3600&X-Amz-Signature=a668f70e7f61d32a176ac1d694ba28a74f82a666b02995da3544858e8ebdcf0a&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-11T07:49:23.857Z"
         }
       }
     },
@@ -2148,7 +2148,7 @@
               "object": "block",
               "id": "306c4480-934c-47d3-9009-0a7142392a71",
               "created_time": "2022-01-04T23:43:00.000Z",
-              "last_edited_time": "2022-01-09T05:48:00.000Z",
+              "last_edited_time": "2022-01-11T06:40:00.000Z",
               "has_children": false,
               "archived": false,
               "type": "paragraph",
@@ -2157,7 +2157,7 @@
                   {
                     "type": "text",
                     "text": {
-                      "content": "The JSON that follows is an example of the callout as rendered by the Notion API. It’s pretty noisy, and, for rendering purposes, most of it can be ignored.",
+                      "content": "The JSON that follows is an example of the callout as rendered by the Notion API. It’s pretty noisy, with all those time stamps and nested arrays! For rendering purposes, most of it can be ignored.",
                       "link": null
                     },
                     "annotations": {
@@ -2168,7 +2168,7 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "The JSON that follows is an example of the callout as rendered by the Notion API. It’s pretty noisy, and, for rendering purposes, most of it can be ignored.",
+                    "plain_text": "The JSON that follows is an example of the callout as rendered by the Notion API. It’s pretty noisy, with all those time stamps and nested arrays! For rendering purposes, most of it can be ignored.",
                     "href": null
                   }
                 ]
@@ -2178,7 +2178,7 @@
               "object": "block",
               "id": "457f4383-0c7d-46fa-bee4-48f40e9ef9e8",
               "created_time": "2022-01-09T05:46:00.000Z",
-              "last_edited_time": "2022-01-09T05:48:00.000Z",
+              "last_edited_time": "2022-01-11T06:45:00.000Z",
               "has_children": false,
               "archived": false,
               "type": "paragraph",
@@ -2187,7 +2187,7 @@
                   {
                     "type": "text",
                     "text": {
-                      "content": "What we mainly care about — given that we haven’t used ",
+                      "content": "Our example doesn’t have any “annotations”,— i.e., character-level formatting: bold, italic, strikethrough, underline, code, or color — so all we really care about are the values for ",
                       "link": null
                     },
                     "annotations": {
@@ -2198,24 +2198,24 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "What we mainly care about — given that we haven’t used ",
+                    "plain_text": "Our example doesn’t have any “annotations”,— i.e., character-level formatting: bold, italic, strikethrough, underline, code, or color — so all we really care about are the values for ",
                     "href": null
                   },
                   {
                     "type": "text",
                     "text": {
-                      "content": "bold",
+                      "content": "\"emoji\"",
                       "link": null
                     },
                     "annotations": {
-                      "bold": true,
+                      "bold": false,
                       "italic": false,
                       "strikethrough": false,
                       "underline": false,
-                      "code": false,
+                      "code": true,
                       "color": "default"
                     },
-                    "plain_text": "bold",
+                    "plain_text": "\"emoji\"",
                     "href": null
                   },
                   {
@@ -2238,41 +2238,7 @@
                   {
                     "type": "text",
                     "text": {
-                      "content": "italic",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": true,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "default"
-                    },
-                    "plain_text": "italic",
-                    "href": null
-                  },
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": ", etc. within the callout — are the values for ",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": false,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "default"
-                    },
-                    "plain_text": ", etc. within the callout — are the values for ",
-                    "href": null
-                  },
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": "emoji",
+                      "content": "\"content\"",
                       "link": null
                     },
                     "annotations": {
@@ -2283,13 +2249,13 @@
                       "code": true,
                       "color": "default"
                     },
-                    "plain_text": "emoji",
+                    "plain_text": "\"content\"",
                     "href": null
                   },
                   {
                     "type": "text",
                     "text": {
-                      "content": ", ",
+                      "content": ", and, well, the blocks’ overall type, ",
                       "link": null
                     },
                     "annotations": {
@@ -2300,13 +2266,13 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": ", ",
+                    "plain_text": ", and, well, the blocks’ overall type, ",
                     "href": null
                   },
                   {
                     "type": "text",
                     "text": {
-                      "content": "content",
+                      "content": "\"callout\"",
                       "link": null
                     },
                     "annotations": {
@@ -2317,13 +2283,13 @@
                       "code": true,
                       "color": "default"
                     },
-                    "plain_text": "content",
+                    "plain_text": "\"callout\"",
                     "href": null
                   },
                   {
                     "type": "text",
                     "text": {
-                      "content": ", and, well, the blocks’ overall type, which ",
+                      "content": ". The type tells ",
                       "link": null
                     },
                     "annotations": {
@@ -2334,7 +2300,7 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": ", and, well, the blocks’ overall type, which ",
+                    "plain_text": ". The type tells ",
                     "href": null
                   },
                   {
@@ -2357,7 +2323,7 @@
                   {
                     "type": "text",
                     "text": {
-                      "content": " uses to choose how to render the ",
+                      "content": " which component to use, in this case, ",
                       "link": null
                     },
                     "annotations": {
@@ -2368,13 +2334,13 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": " uses to choose how to render the ",
+                    "plain_text": " which component to use, in this case, ",
                     "href": null
                   },
                   {
                     "type": "text",
                     "text": {
-                      "content": "callout.text",
+                      "content": "<Callout>",
                       "link": null
                     },
                     "annotations": {
@@ -2385,13 +2351,13 @@
                       "code": true,
                       "color": "default"
                     },
-                    "plain_text": "callout.text",
+                    "plain_text": "<Callout>",
                     "href": null
                   },
                   {
                     "type": "text",
                     "text": {
-                      "content": " along with any subblocks.",
+                      "content": ". It also tells ",
                       "link": null
                     },
                     "annotations": {
@@ -2402,7 +2368,75 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": " along with any subblocks.",
+                    "plain_text": ". It also tells ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "notion2svelte",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": true,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "notion2svelte",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " how to parse the stuff in the ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " how to parse the stuff in the ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "\"callout\"",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "\"callout\"",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " object.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " object.",
                     "href": null
                   }
                 ]
@@ -2412,12 +2446,29 @@
               "object": "block",
               "id": "400ec1a4-6393-49e3-a94d-884bc5e070a9",
               "created_time": "2022-01-09T05:46:00.000Z",
-              "last_edited_time": "2022-01-09T05:47:00.000Z",
+              "last_edited_time": "2022-01-11T06:46:00.000Z",
               "has_children": false,
               "archived": false,
               "type": "paragraph",
               "paragraph": {
                 "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Here’s what ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Here’s what ",
+                    "href": null
+                  },
                   {
                     "type": "text",
                     "text": {
@@ -2438,7 +2489,7 @@
                   {
                     "type": "text",
                     "text": {
-                      "content": " converts the JSON to this:",
+                      "content": " spits out from all that JSON:",
                       "link": null
                     },
                     "annotations": {
@@ -2449,7 +2500,7 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": " converts the JSON to this:",
+                    "plain_text": " spits out from all that JSON:",
                     "href": null
                   }
                 ]
@@ -2471,7 +2522,7 @@
               "object": "block",
               "id": "7d1d1eb9-0fc1-4b24-920a-fa49efe38634",
               "created_time": "2022-01-04T23:51:00.000Z",
-              "last_edited_time": "2022-01-09T05:47:00.000Z",
+              "last_edited_time": "2022-01-11T06:49:00.000Z",
               "has_children": false,
               "archived": false,
               "type": "code",
@@ -2480,7 +2531,7 @@
                   {
                     "type": "text",
                     "text": {
-                      "content": "<Callout emoji=\"🦦\">Hi. I’m a sea otter.</Callout>",
+                      "content": "<Callout emoji=\"🦦\">\n  Hi. I’m a sea otter.\n</Callout>",
                       "link": null
                     },
                     "annotations": {
@@ -2491,7 +2542,7 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "<Callout emoji=\"🦦\">Hi. I’m a sea otter.</Callout>",
+                    "plain_text": "<Callout emoji=\"🦦\">\n  Hi. I’m a sea otter.\n</Callout>",
                     "href": null
                   }
                 ],
@@ -2759,8 +2810,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=cbe201fa1daaf8cdbf82d5ac708ed98eec02f49a59f3c10f0ad5084b37bebcba&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T06:22:17.932Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T064924Z&X-Amz-Expires=3600&X-Amz-Signature=5b28ce538220ac40fcaa1094f28184aabefb151e24a616d8751e0f18531bfa2b&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T07:49:24.147Z"
                 }
               }
             }
@@ -2951,8 +3002,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=6b5969309372ff8d62e79ac2688324d3f0fd910599657464d8290d8254831aa3&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T06:22:17.916Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T064924Z&X-Amz-Expires=3600&X-Amz-Signature=b00ff6652404a6af16d9fd66249c614eaf55683f515283e9efd9e0c90905f02e&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T07:49:24.437Z"
                 }
               }
             }
@@ -3139,8 +3190,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=543771f7d0643d5684af7d8b4c5afbdc3f4d616a8045eab656497c55a33816ec&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T06:22:17.905Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T064924Z&X-Amz-Expires=3600&X-Amz-Signature=ffe2e65db7139f24676fa6885b8a0b6a0a0adcad55ad74985dfbce4a45973696&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T07:49:24.532Z"
                 }
               }
             },
@@ -3186,8 +3237,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f7caa9b8-2274-4f09-a4d4-2158783537c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=797e28dd0dd6a9a15b2062143b29189d34470cf8b402b1c26826da224fae7b37&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T06:22:17.908Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f7caa9b8-2274-4f09-a4d4-2158783537c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T064924Z&X-Amz-Expires=3600&X-Amz-Signature=2a56ea7e65dcb4344a6047365addfdc8ad700eee95f9ed544fc1fef0c283f8bf&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T07:49:24.529Z"
                 }
               }
             }

@@ -4,18 +4,21 @@
 </script>
 
 <pre>
-  <span>{code}</span>
-  <span class="lang">{language}</span>
+  <code>{code}</code>
+  <span>{language}</span>
 </pre>
 
 <style>
+  code, span {
+		font-family: 'SFMono-Regular', Menlo, Consolas, 'PT Mono', 'Liberation Mono', Courier, monospace;
+  }
+
 	pre {
 		position: relative;
-		font-family: 'SFMono-Regular', Menlo, Consolas, 'PT Mono', 'Liberation Mono', Courier, monospace;
 		line-height: normal;
 		display: block;
 		border-radius: 0.5rem;
-		margin: 2.5rem;
+		margin: 0 2.5rem;
 		padding: 2.5rem;
 		overflow-x: auto;
 		white-space: pre-wrap;
@@ -25,10 +28,6 @@
 	}
 
 	span {
-		padding-bottom: 0.1rem;
-	}
-
-	.lang {
 		position: absolute;
 		right: 1rem;
 		bottom: 1rem;
