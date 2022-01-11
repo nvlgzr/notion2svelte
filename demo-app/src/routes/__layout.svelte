@@ -7,7 +7,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>visit <a target="blank" href="https://github.com/nvlgzr/notion2svelte"><em>notion2svelte</em> on GitHub</a></p>
 </footer>
 
 <style>
