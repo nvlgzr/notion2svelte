@@ -32,11 +32,7 @@
 
 <style>
 	div {
-		margin: 1rem auto;
-		background: #f9f9f9;
-		border: 0.25rem solid hsl(0, 90%, 88%);
-		padding: 1rem;
-		border-radius: 0.5rem;
+		padding: 2rem;
 	}
 	span {
 		line-height: normal;
