@@ -15,7 +15,7 @@
   div {
     margin: 0 auto;
     /* DUPLICATE ↓ See ColumnList.svelte */
-    max-width: calc(min(90vw, 42rem));
+    width: calc(min(90vw, 42rem));
     padding: 0;
     display: grid;
     font: 1.25rem/1.5rem "Helvetica Neue", Helvetica, Arial, sans-serif;

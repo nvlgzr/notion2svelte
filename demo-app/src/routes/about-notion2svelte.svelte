@@ -95,7 +95,7 @@
 	><ColumnList cols={3}
 		><Column
 			><Paragraph>
-				I like&nbsp;<strong>writing in Notion</strong>.
+				I like&nbsp;<strong>writing in Notion</strong>
 			</Paragraph>
 		</Column><Column
 			><Paragraph>
@@ -103,7 +103,7 @@
 			</Paragraph>
 		</Column><Column
 			><Paragraph>
-				I like the&nbsp;<strong>safety of git</strong>.
+				I like the&nbsp;<strong>safety of git</strong>
 			</Paragraph>
 		</Column></ColumnList
 	></Magic
