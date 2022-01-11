@@ -29,9 +29,9 @@
     <br />
     <br />
     <a href="https://github.com/nvlgzr/notion2svelte/issues">Report a Bug</a>
-    ·
+    ֍
     <a href="https://github.com/nvlgzr/notion2svelte/discussions/1">Request a Feature</a>
-    ·
+    ֍
     <a href="https://github.com/nvlgzr/notion2svelte/discussions/1">Say Hi</a>
   </p>
 </div>
