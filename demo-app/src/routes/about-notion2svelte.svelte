@@ -218,56 +218,45 @@
 <Magic blockId={'6f8cf24b-d59b-470c-930f-9e9f24e201ca'}
 	><Paragraph>
 		The output .svelte files make use of user-defined components to do the actual rendering. Let’s
-		take a look at a simple example to explore this in more detail.
+		use a Notion “callout” as a simple example.
 	</Paragraph>
 </Magic>
 <br style="display:none;" />
-<Magic blockId={'fb0f84ae-a551-4ace-a699-0aef7dfa7024'}
-	><Paragraph>
-		<strong>Example Callout</strong>
-	</Paragraph>
+<Magic blockId={'fb0f84ae-a551-4ace-a699-0aef7dfa7024'}><Paragraph /></Magic>
+<br style="display:none;" />
+<Magic blockId={'f69bb522-315c-4fd4-988f-643088e9a8df'}
+	><Image url="/assets/about-notion2svelte/f69bb522-315c-4fd4-988f-643088e9a8df.png"
+		>Screenshot of original Notion callout</Image
+	>
+</Magic>
+<br style="display:none;" />
+<Magic blockId={'ed6d421e-f74b-4dfe-8e1d-8af801e9e6ed'}
+	><Paragraph>How do we get from this ↑ to something like this ↓?</Paragraph>
 </Magic>
 <br style="display:none;" />
 <Magic blockId={'e3a6ad2e-71a9-4492-84fe-f78df05f43d7'}
 	><Callout emoji="🦦">Hi. I’m a sea otter.</Callout></Magic
 >
 <br style="display:none;" />
+<Magic blockId={'03b9b730-6d2d-4fcc-9a7d-0862f036da69'}
+	><Paragraph>
+		<InlineColor value="gray">The actual callout, after transformation by&nbsp;</InlineColor
+		><InlineColor value="gray"><em>notion2svelte</em></InlineColor>
+	</Paragraph>
+</Magic>
+<br style="display:none;" />
+<Magic blockId={'e0d09d3c-49f8-4d89-9d76-95541ffaee5f'}><Paragraph /></Magic>
+<br style="display:none;" />
+<Magic blockId={'ce11109f-74bf-41ab-89bc-ef70af26e805'}
+	><Paragraph>
+		To understand that, we need to start with the Notion API. This big JSON object shows our example
+		callout as rendered by the Notion API.
+	</Paragraph>
+</Magic>
+<br style="display:none;" />
 <Magic blockId={'26135e20-5ee7-4633-a51b-1e0c5a3879b2'}
 	><ColumnList cols={2}
 		><Column
-			><Paragraph>
-				The JSON that follows is an example of the callout as rendered by the Notion API. It’s
-				pretty noisy, with all those time stamps and nested arrays! For rendering purposes, most of
-				it can be ignored.
-			</Paragraph>
-			<Paragraph>
-				Our example doesn’t have any “annotations”,— i.e., character-level formatting: bold, italic,
-				strikethrough, underline, code, or color — so all we really care about are the values
-				for&nbsp;<InlineCode code="&quot;emoji&quot;" />,&nbsp;<InlineCode
-					code="&quot;content&quot;"
-				/>, and, well, the blocks’ overall type,&nbsp;<InlineCode code="&quot;callout&quot;" />. The
-				type tells&nbsp;<em>notion2svelte</em>&nbsp;which component to use, in this case,&nbsp;<InlineCode
-					code="&lt;Callout&gt;"
-				/>. It also tells&nbsp;<em>notion2svelte</em>&nbsp;how to parse the stuff in the&nbsp;<InlineCode
-					code="&quot;callout&quot;"
-				/>&nbsp;object.
-			</Paragraph>
-			<Paragraph>
-				Here’s what&nbsp;<em>notion2svelte</em>&nbsp;spits out from all that JSON:
-			</Paragraph>
-			<Paragraph />
-			<Code
-				code={`<Callout emoji="🦦">
-  Hi. I’m a sea otter.
-</Callout>`}
-				language="html"
-			/><Paragraph />
-			<Paragraph>
-				Note that we didn’t use any “annotations” (<strong>bold</strong>,&nbsp;<em>italic</em>,
-				etc.) in the original callout, so none of the text is surrounded by span-level formatting
-				elements.
-			</Paragraph>
-		</Column><Column
 			><Code
 				code={`{
   "object": "block",
@@ -305,9 +294,48 @@
 }`}
 				language="json"
 			/></Column
-		></ColumnList
+		><Column
+			><Paragraph>
+				It’s pretty noisy, with all those time stamps, repetitions, and&nbsp;heavy nesting! For
+				rendering purposes, most of it can be ignored.
+			</Paragraph>
+			<Paragraph>
+				Here’s what&nbsp;<em>notion2svelte</em>&nbsp;spits out from all that JSON:
+			</Paragraph>
+			<IndentGroup>
+				<Code
+					code={`<Callout emoji="🦦">
+  Hi. I’m a sea otter.
+</Callout>`}
+					language="html"
+				/>
+			</IndentGroup>
+			<Paragraph>Better, right?</Paragraph>
+		</Column></ColumnList
 	></Magic
 >
+<br style="display:none;" />
+<Magic blockId={'865b4686-c6d9-4ba2-ba4a-c1fcb1cc472b'}
+	><Paragraph>
+		<InlineColor value="gray"
+			>Note that, to keep things simple, our example leaves out complicating factors like Notion
+			“annotations” (i.e., character formatting), and sub-blocks.</InlineColor
+		>
+	</Paragraph>
+</Magic>
+<br style="display:none;" />
+<Magic blockId={'457f4383-0c7d-46fa-bee4-48f40e9ef9e8'}
+	><Paragraph>
+		All that’s needed to render this particular example are the values for&nbsp;<InlineCode
+			code="callout.icon.emoji"
+		/>,&nbsp;<InlineCode code="callout.text[0].content" />, and, well, the blocks’ overall
+		type:&nbsp;<InlineCode code="&quot;callout&quot;" />. The type tells&nbsp;<em>notion2svelte</em
+		>&nbsp;which component to use, in this case,&nbsp;<InlineCode code="&lt;Callout&gt;" />. It also
+		tells&nbsp;<em>notion2svelte</em>&nbsp;how to parse the stuff under&nbsp;<InlineCode
+			code="&quot;callout&quot;"
+		/>.
+	</Paragraph>
+</Magic>
 <br style="display:none;" />
 <Magic blockId={'1d4fa03b-5b2a-4ff9-b218-31594083e686'}
 	><ColumnList cols={2}
@@ -327,9 +355,12 @@
 <br style="display:none;" />
 <Magic blockId={'af211539-99ae-483a-89b2-d68fee30f3eb'}
 	><Toggle
-		>Code for&nbsp;<em>Callout.svelte</em>&nbsp;(gray version)
+		>Here’s the code<em>&nbsp;(simple gray)</em>
 		<span slot="children"
-			><Code
+			><Paragraph>
+				<em>Callout.svelte</em>
+			</Paragraph>
+			<Code
 				code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7Cg==">{}</script>
 
 <div class="wrapper">
@@ -364,9 +395,12 @@
 <br style="display:none;" />
 <Magic blockId={'70ac59c2-7b1f-40b9-81f0-46c7b99990ad'}
 	><Toggle
-		>Code for Callout.svelte (blue version)
+		>Here’s the code (blue border)
 		<span slot="children"
-			><Code
+			><Paragraph>
+				<em>Callout.svelte</em>
+			</Paragraph>
+			<Code
 				code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7Cg==">{}</script>
 
 <div class="wrapper">
@@ -394,21 +428,24 @@
 			</Paragraph>
 			<Paragraph>
 				Sure. You can add keyboard interactions, or make callouts behave according to user settings.
-				Anything Svelte allows you to do, you can usually do it!
+				Anything Svelte allows you to do, you can probably do it!
 			</Paragraph>
 		</Column><Column
-			><Image url="/assets/about-notion2svelte/3c907829-0848-414f-9504-3cbf0a79f701.png" />
-			<Paragraph>↓ click! ↓</Paragraph>
-			<Image url="/assets/about-notion2svelte/04f8b689-0308-49bf-8a39-b1d93069c530.png" />
+			><Image url="/assets/about-notion2svelte/cc26aa0c-ad05-48b8-873b-649424c032e8.png" />
+			<Paragraph>↓ click! ↑</Paragraph>
+			<Image url="/assets/about-notion2svelte/3c907829-0848-414f-9504-3cbf0a79f701.png" />
 		</Column></ColumnList
 	></Magic
 >
 <br style="display:none;" />
 <Magic blockId={'674d3963-ef56-4a2f-82ff-11f0ac87be8c'}
 	><Toggle
-		>Code for Callout.svelte (toggle version)
+		>Here’s the code (blue border, with toggle)
 		<span slot="children"
-			><Code
+			><Paragraph>
+				<em>Callout.svelte</em>
+			</Paragraph>
+			<Code
 				code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7CgoJZXhwb3J0IGxldCBvcGVuID0gZmFsc2U7Cg==">{}</script>
 
 <div class="wrapper {open ? 'open' : 'closed'}" on:click={() => (open = !open)}>
@@ -468,15 +505,9 @@
 <br style="display:none;" />
 <Magic blockId={'92b91cd7-462f-4129-8488-c4cf54db6035'}
 	><Paragraph>
-		For now, the fastest way to get started is to follow along with the video tutorial:
-	</Paragraph>
-</Magic>
-<br style="display:none;" />
-<Magic blockId={'1405c655-d69f-4baa-90ef-0b8332f9f9cc'}
-	><Paragraph>
-		<em><strong>notion2svelte</strong></em><strong>&nbsp;in 10 minutes |</strong>&nbsp;<MagicLink
+		For now, the fastest way to get started is to follow along with the video tutorial,&nbsp;<MagicLink
 			href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
-			>https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s</MagicLink
+			><strong>notion2svelte in 10 minutes</strong></MagicLink
 		>
 	</Paragraph>
 </Magic>
@@ -489,14 +520,13 @@
 <br style="display:none;" />
 <Magic blockId={'5fec1a8f-8321-47b7-890b-2f2cbc2f8690'}
 	><Paragraph>Find the code, start a discussion, or report an issue on GitHub:</Paragraph>
-</Magic>
-<br style="display:none;" />
-<Magic blockId={'bbffb33e-f242-4d97-9f48-64a3ff7e815b'}
-	><Paragraph>
-		<MagicLink href="https://github.com/nvlgzr/notion2svelte"
-			>https://github.com/nvlgzr/notion2svelte</MagicLink
-		>
-	</Paragraph>
+	<IndentGroup>
+		<Paragraph>
+			<MagicLink href="https://github.com/nvlgzr/notion2svelte"
+				>https://github.com/nvlgzr/notion2svelte</MagicLink
+			>
+		</Paragraph>
+	</IndentGroup>
 </Magic>
 <br style="display:none;" />
 <Magic blockId={'b9a357c7-c780-451e-9b26-6dc27bb51a3f'}><Paragraph /></Magic>
