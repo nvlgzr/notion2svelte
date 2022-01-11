@@ -14,6 +14,7 @@
 <style>
   div {
     margin: 0 auto;
+    /* DUPLICATE ↓ See ColumnList.svelte */
     max-width: calc(min(90vw, 42rem));
     padding: 0;
     display: grid;

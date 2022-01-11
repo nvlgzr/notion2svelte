@@ -9,6 +9,7 @@
   div {
     display: flex;
     margin: 0.5rem 1rem 0 0;
+    padding-bottom: 0.5rem;
   }
 
   div::before {

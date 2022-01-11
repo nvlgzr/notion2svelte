@@ -1,6 +1,8 @@
 ## 🐞 Known Bugs
 
 - Magic is now…not. The current "Fix" to the `<script>` issue isn't really a fix.
+- Bulleted lists do not reflect multiple depth levels
+- "Write-your-own components" should not be indented in Introduction
 
 # 🐝 Tasks/Ideas
 
