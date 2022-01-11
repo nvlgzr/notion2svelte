@@ -182,34 +182,34 @@
 <Magic blockId={'bd881cf3-41e5-4c9e-bfa7-67c48734378b'}><Divider /></Magic>
 <br style="display:none;" />
 <Magic blockId={'e8965b5e-a183-45af-bbb8-e16d68b5e7ca'}
-	><Header level="1">How it works, oversimplified</Header>
+	><Header level="1">How it works, grossly oversimplified</Header>
 </Magic>
 <br style="display:none;" />
 <Magic blockId={'74c878b3-7a75-4063-8bfa-7c5fcc939256'}
-	><Paragraph>Everything you see on this page was:</Paragraph>
+	><Paragraph>Everything you see on this page was…</Paragraph>
 </Magic>
 <br style="display:none;" />
 <Magic blockId={'ca7e990e-b63a-4081-b283-952df0dae70b'}
-	><NumberedListItem number="1">written in Notion</NumberedListItem>
+	><NumberedListItem number="1">…written in Notion</NumberedListItem>
 </Magic>
 <br style="display:none;" />
 <Magic blockId={'3f3cd63e-8095-47f1-9279-d415597cfb31'}
 	><NumberedListItem number="2">
-		exported as .svelte files, targeted to&nbsp;<InlineCode
+		…exported as .svelte files, targeted to&nbsp;<InlineCode
 			code="src/routes/&lt;Slug&gt;.svelte"
 		/>, using&nbsp;<em>notion2svelte</em></NumberedListItem
 	>
 </Magic>
 <br style="display:none;" />
 <Magic blockId={'4248e3a3-c088-49cb-9400-b43bfe1ed3d6'}
-	><NumberedListItem number="3">Published normally using Svelte Kit</NumberedListItem>
+	><NumberedListItem number="3">…Published normally using Svelte Kit</NumberedListItem>
 </Magic>
 <br style="display:none;" />
 <Magic blockId={'229fe91d-a7ee-42b2-9d81-1c9ad4804d5b'}><Paragraph /></Magic>
 <br style="display:none;" />
 <Magic blockId={'dfbc55c9-68a1-4ea3-ac5a-904e086dfe26'}
 	><Image url="/assets/about-notion2svelte/dfbc55c9-68a1-4ea3-ac5a-904e086dfe26.png"
-		><em>notion2svelte</em>, grossly over-simplified</Image
+		>An early run, back when the base project was the Svelte Kit Demo App</Image
 	>
 </Magic>
 <br style="display:none;" />
@@ -218,7 +218,13 @@
 <Magic blockId={'6f8cf24b-d59b-470c-930f-9e9f24e201ca'}
 	><Paragraph>
 		The output .svelte files make use of user-defined components to do the actual rendering. Let’s
-		take a look at a simple example to explore this in more detail. We’ll use this callout:
+		take a look at a simple example to explore this in more detail.
+	</Paragraph>
+</Magic>
+<br style="display:none;" />
+<Magic blockId={'fb0f84ae-a551-4ace-a699-0aef7dfa7024'}
+	><Paragraph>
+		<strong>Example Callout</strong>
 	</Paragraph>
 </Magic>
 <br style="display:none;" />

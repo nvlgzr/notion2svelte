@@ -2,7 +2,7 @@
   "object": "page",
   "id": "fdc65179-a8bd-451c-af67-59019204cfde",
   "created_time": "2022-01-04T05:41:00.000Z",
-  "last_edited_time": "2022-01-11T04:50:00.000Z",
+  "last_edited_time": "2022-01-11T05:22:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -12,8 +12,8 @@
   "icon": {
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051146Z&X-Amz-Expires=3600&X-Amz-Signature=dbb3e1719bcfbea92ad28e27e4be77e193b4a913818c0dc5265fe877f35cb8c9&X-Amz-SignedHeaders=host&x-id=GetObject",
-      "expiry_time": "2022-01-11T06:11:46.474Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=cb35e632dfcaeb6e1e31b971ec3ac55cd1533021337c7a15a0be4c4de24473f8&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-11T06:22:17.079Z"
     }
   },
   "parent": {
@@ -436,8 +436,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051147Z&X-Amz-Expires=3600&X-Amz-Signature=404287fa7415361391f82a3a7293cdaf417ffbd2def29fb205974e24e28d7dbc&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T06:11:47.369Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=5e7bff1a88dcf2d7810b767ec961a6e111845da2fdfb91fd9e680dbabf3644d6&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T06:22:17.934Z"
                 }
               }
             },
@@ -602,8 +602,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051147Z&X-Amz-Expires=3600&X-Amz-Signature=e7bf3c0cb66acf962778c210aa71c05d91cd0769f75bd15b5c3e54a80e58eb3f&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T06:11:47.350Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052218Z&X-Amz-Expires=3600&X-Amz-Signature=20d98b3742f3540cde9ec0945b1d2ef378f3c9f35f93586361f191e8636c7bcd&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T06:22:18.425Z"
                 }
               }
             },
@@ -1774,7 +1774,7 @@
       "object": "block",
       "id": "e8965b5e-a183-45af-bbb8-e16d68b5e7ca",
       "created_time": "2022-01-04T23:43:00.000Z",
-      "last_edited_time": "2022-01-04T23:43:00.000Z",
+      "last_edited_time": "2022-01-11T05:19:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "heading_1",
@@ -1783,7 +1783,7 @@
           {
             "type": "text",
             "text": {
-              "content": "How it works, oversimplified",
+              "content": "How it works, grossly oversimplified",
               "link": null
             },
             "annotations": {
@@ -1794,7 +1794,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "How it works, oversimplified",
+            "plain_text": "How it works, grossly oversimplified",
             "href": null
           }
         ]
@@ -1804,7 +1804,7 @@
       "object": "block",
       "id": "74c878b3-7a75-4063-8bfa-7c5fcc939256",
       "created_time": "2022-01-04T23:43:00.000Z",
-      "last_edited_time": "2022-01-09T05:39:00.000Z",
+      "last_edited_time": "2022-01-11T05:18:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1813,7 +1813,7 @@
           {
             "type": "text",
             "text": {
-              "content": "Everything you see on this page was:",
+              "content": "Everything you see on this page was…",
               "link": null
             },
             "annotations": {
@@ -1824,7 +1824,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Everything you see on this page was:",
+            "plain_text": "Everything you see on this page was…",
             "href": null
           }
         ]
@@ -1834,7 +1834,7 @@
       "object": "block",
       "id": "ca7e990e-b63a-4081-b283-952df0dae70b",
       "created_time": "2022-01-09T05:39:00.000Z",
-      "last_edited_time": "2022-01-09T05:39:00.000Z",
+      "last_edited_time": "2022-01-11T05:18:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "numbered_list_item",
@@ -1843,7 +1843,7 @@
           {
             "type": "text",
             "text": {
-              "content": "written in Notion",
+              "content": "…written in Notion",
               "link": null
             },
             "annotations": {
@@ -1854,7 +1854,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "written in Notion",
+            "plain_text": "…written in Notion",
             "href": null
           }
         ]
@@ -1864,7 +1864,7 @@
       "object": "block",
       "id": "3f3cd63e-8095-47f1-9279-d415597cfb31",
       "created_time": "2022-01-09T05:39:00.000Z",
-      "last_edited_time": "2022-01-09T05:40:00.000Z",
+      "last_edited_time": "2022-01-11T05:18:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "numbered_list_item",
@@ -1873,7 +1873,7 @@
           {
             "type": "text",
             "text": {
-              "content": "exported as .svelte files, targeted to ",
+              "content": "…exported as .svelte files, targeted to ",
               "link": null
             },
             "annotations": {
@@ -1884,7 +1884,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "exported as .svelte files, targeted to ",
+            "plain_text": "…exported as .svelte files, targeted to ",
             "href": null
           },
           {
@@ -1945,7 +1945,7 @@
       "object": "block",
       "id": "4248e3a3-c088-49cb-9400-b43bfe1ed3d6",
       "created_time": "2022-01-09T05:40:00.000Z",
-      "last_edited_time": "2022-01-09T05:40:00.000Z",
+      "last_edited_time": "2022-01-11T05:18:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "numbered_list_item",
@@ -1954,7 +1954,7 @@
           {
             "type": "text",
             "text": {
-              "content": "Published normally using Svelte Kit",
+              "content": "…Published normally using Svelte Kit",
               "link": null
             },
             "annotations": {
@@ -1965,7 +1965,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Published normally using Svelte Kit",
+            "plain_text": "…Published normally using Svelte Kit",
             "href": null
           }
         ]
@@ -1987,7 +1987,7 @@
       "object": "block",
       "id": "dfbc55c9-68a1-4ea3-ac5a-904e086dfe26",
       "created_time": "2022-01-04T23:43:00.000Z",
-      "last_edited_time": "2022-01-04T23:43:00.000Z",
+      "last_edited_time": "2022-01-11T05:21:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "image",
@@ -1996,24 +1996,7 @@
           {
             "type": "text",
             "text": {
-              "content": "notion2svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", grossly over-simplified",
+              "content": "An early run, back when the base project was the Svelte Kit Demo App",
               "link": null
             },
             "annotations": {
@@ -2024,14 +2007,14 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": ", grossly over-simplified",
+            "plain_text": "An early run, back when the base project was the Svelte Kit Demo App",
             "href": null
           }
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051146Z&X-Amz-Expires=3600&X-Amz-Signature=5fe3439fb3598404eb9a7e67c4cc0e359246d47192bbe678faf984ae6ca6042e&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-11T06:11:46.877Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=8c8dcce23f1aa42b06a9f904547f808a5ebb3d7acc10ed93b861c8a7f4a99bac&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-11T06:22:17.448Z"
         }
       }
     },
@@ -2051,7 +2034,7 @@
       "object": "block",
       "id": "6f8cf24b-d59b-470c-930f-9e9f24e201ca",
       "created_time": "2022-01-04T23:43:00.000Z",
-      "last_edited_time": "2022-01-09T05:43:00.000Z",
+      "last_edited_time": "2022-01-11T05:22:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -2060,7 +2043,7 @@
           {
             "type": "text",
             "text": {
-              "content": "The output .svelte files make use of user-defined components to do the actual rendering. Let’s take a look at a simple example to explore this in more detail. We’ll use this callout:",
+              "content": "The output .svelte files make use of user-defined components to do the actual rendering. Let’s take a look at a simple example to explore this in more detail.",
               "link": null
             },
             "annotations": {
@@ -2071,7 +2054,37 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "The output .svelte files make use of user-defined components to do the actual rendering. Let’s take a look at a simple example to explore this in more detail. We’ll use this callout:",
+            "plain_text": "The output .svelte files make use of user-defined components to do the actual rendering. Let’s take a look at a simple example to explore this in more detail.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "fb0f84ae-a551-4ace-a699-0aef7dfa7024",
+      "created_time": "2022-01-11T05:22:00.000Z",
+      "last_edited_time": "2022-01-11T05:22:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Example Callout",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Example Callout",
             "href": null
           }
         ]
@@ -2746,8 +2759,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051147Z&X-Amz-Expires=3600&X-Amz-Signature=f3408bac0fd4cd9c8bf950fe18f99559e4673d5a3cea6a16726855cbfc7631ee&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T06:11:47.351Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=cbe201fa1daaf8cdbf82d5ac708ed98eec02f49a59f3c10f0ad5084b37bebcba&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T06:22:17.932Z"
                 }
               }
             }
@@ -2938,8 +2951,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051147Z&X-Amz-Expires=3600&X-Amz-Signature=d8c073a4b5b4e5d66c9baf52729a7ccb78e5d613b29d7a252c3e9a76f76232d5&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T06:11:47.350Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=6b5969309372ff8d62e79ac2688324d3f0fd910599657464d8290d8254831aa3&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T06:22:17.916Z"
                 }
               }
             }
@@ -3126,8 +3139,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051147Z&X-Amz-Expires=3600&X-Amz-Signature=80c86bd4775ebe5099191b9ab7f5bfd0b140f3fbe645382e3160866bfd952c15&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T06:11:47.429Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=543771f7d0643d5684af7d8b4c5afbdc3f4d616a8045eab656497c55a33816ec&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T06:22:17.905Z"
                 }
               }
             },
@@ -3173,8 +3186,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f7caa9b8-2274-4f09-a4d4-2158783537c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T051147Z&X-Amz-Expires=3600&X-Amz-Signature=7450756990f01572addd0c0c41d4626f27d86a3fc088ab67626e478b04dff6b9&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-11T06:11:47.432Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f7caa9b8-2274-4f09-a4d4-2158783537c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220111%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220111T052217Z&X-Amz-Expires=3600&X-Amz-Signature=797e28dd0dd6a9a15b2062143b29189d34470cf8b402b1c26826da224fae7b37&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-11T06:22:17.908Z"
                 }
               }
             }

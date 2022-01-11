@@ -18,7 +18,7 @@
 
   pre {
     display: inline;
-    background: hsl(300deg 66% 85%);
+    background: hsl(300deg 66% 95%);
     color: inherit;
     border-radius: 3px;
     font-size: 85%;
