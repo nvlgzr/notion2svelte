@@ -32,14 +32,13 @@
 
   img {
     width: 100%;
-    animation: kenburns 10s 1 cubic-bezier(0.075, 0.82, 0.165, 1);
-    /* fill */
+    animation: kenburns 3s 1 cubic-bezier(0.075, 0.82, 0.165, 1);
     object-fit: cover;
   }
 
   @keyframes kenburns {
     0% {
-      transform: scale3d(2, 2, 2) translate3d(50px, 50px, 50px)
+      transform: scale3d(7, 2, 2) translate3d(50px, 50px, 50px)
         rotate(-0.02turn);
       opacity: 0;
     }
