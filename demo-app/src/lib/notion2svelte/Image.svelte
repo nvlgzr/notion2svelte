@@ -3,8 +3,8 @@
 </script>
 
 <figure>
-  <img width="100%" height="100%" src={url} />
-  <figcaption><slot /></figcaption>
+	<img width="100%" height="fit-content" src={url} />
+	<figcaption><slot /></figcaption>
 </figure>
 
 <style>
