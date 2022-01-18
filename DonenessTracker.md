@@ -3,6 +3,7 @@
 - Magic is now…not. The current "Fix" to the `<script>` issue isn't really a fix.
 - Bulleted lists do not reflect multiple depth levels
 - "Write-your-own components" should not be indented in Introduction
+- Routes that introduce new "folders" fail because _notion2svelte_ doesn't create the folders before trying to save the files. Need a "Save and create" function. Hopefully Node already has?
 
 # 🐝 Tasks/Ideas
 
