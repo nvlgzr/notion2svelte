@@ -21,5 +21,6 @@
 
   p {
     margin: 0;
+    padding-bottom: 0.5rem;
   }
 </style>
