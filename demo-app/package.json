@@ -1,5 +1,5 @@
 {
-  "name": "demo-app",
+  "name": "`notion2svelte` Demo App",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
