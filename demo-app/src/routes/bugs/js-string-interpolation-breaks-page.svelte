@@ -41,7 +41,7 @@
 <br style="display:none;" />
 <Magic blockId={'019fa202-a47e-41ea-81bb-998476040545'}
   ><Code
-    code={`const c = (t) => \`<Component code="${escapeHtml(t)}" />\`;`}
+    code={`const c = (t) => \`<Component code="$\{escapeHtml(t)}" />\`;`}
     language="javascript"
   /></Magic
 >
@@ -101,7 +101,9 @@
     code={`export const escapeBackticks = (str) => str.replace(/\`/g, "\\\`");
 …
 code: (code, language) =>
-    \`<Code code={${'`'}${escapeBackticks(code)}${'`'}} language="${language}" />\`,
+    \`<Code code=\{$\{"\`"}$\{escapeBackticks(
+      code
+    )}$\{"\`"}} language="$\{language}" />\`,
 …`}
     language="javascript"
   /></Magic
@@ -112,10 +114,10 @@ code: (code, language) =>
 <Magic blockId={'a483abec-f575-4cd7-a833-58e3ecb20204'}
   ><Code
     code={`export const escapeBackticks = (str) => str.replace(/\`/g, "\\\`");
-export const escapeOpenCurlies = (str) => str.replace(/{/g, "\\{");
+export const escapeOpenCurlies = (str) => str.replace(/\{/g, "\\\{");
 …
 code: (code, language) =>
-		\`<Code code={${'`'}${escapeOpenCurlies(escapeBackticks(code))}${'`'}} language="${language}" />\`,
+		\`<Code code=\{$\{"\`"}$\{escapeOpenCurlies(escapeBackticks(code))}$\{"\`"}} language="$\{language}" />\`,
 …`}
     language="javascript"
   /></Magic
