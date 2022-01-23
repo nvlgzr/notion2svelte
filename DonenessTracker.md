@@ -1,16 +1,7 @@
 ## 🐞 Known Bugs
 
-- slugs ending in /index result in broken links
-  **Steps to repro**
-    - Create a notion page link from /about-notion2svelte to Components (with slug: components/index)
-    - Run _notion2svelte_ to get both pages rendered:
-      - src/routes/about-notion2svelte.svelte
-      - src/routes/components/index.svelte
-    - Click on link (http://localhost:3000/components/index) in About _notion2svelte_: "Not found: /components/index"
-    - Delete "index" from path (http://localhost:3000/components/): index page loads fine.
 - Magic is now…not. The current "Fix" to the `<script>` issue isn't really a fix.
 - Bulleted lists do not reflect multiple depth levels
-- "Write-your-own components" should not be indented in Introduction
 - Routes that introduce new "folders" fail because _notion2svelte_ doesn't create the folders before trying to save the files. Need a "Save and create" function. Hopefully Node already has?
 
 # 🐝 Tasks/Ideas
