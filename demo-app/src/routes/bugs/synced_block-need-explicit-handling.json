@@ -1,0 +1,364 @@
+{
+  "object": "page",
+  "id": "82af9574-7705-48ed-843c-801e3c7a53a3",
+  "created_time": "2022-01-22T06:25:00.000Z",
+  "last_edited_time": "2022-01-23T21:43:00.000Z",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🐞"
+  },
+  "parent": {
+    "type": "database_id",
+    "database_id": "1842fdf6-5e49-4c74-a388-cab1b3a6725e"
+  },
+  "archived": false,
+  "properties": {
+    "Slug": {
+      "id": "M%40TW",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "bugs/synced_block-need-explicit-handling",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "bugs/synced_block-need-explicit-handling",
+          "href": null
+        }
+      ]
+    },
+    "Status": {
+      "id": "ava%3E",
+      "type": "select",
+      "select": {
+        "id": "f4c2d807-fdf4-476e-b894-ec247f211f2b",
+        "name": "Publishable",
+        "color": "purple"
+      }
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Synced Blocks need explicit handling",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Synced Blocks need explicit handling",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/Synced-Blocks-need-explicit-handling-82af9574770548ed843c801e3c7a53a3",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "9e2c9e43-2cb2-433d-800c-ea67e2b9d506",
+      "created_time": "2022-01-23T21:38:00.000Z",
+      "last_edited_time": "2022-01-23T21:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Failing block",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Failing block",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "420a68e7-c1e1-4d5a-9a09-9eb971b134be",
+      "created_time": "2022-01-23T21:36:00.000Z",
+      "last_edited_time": "2022-01-23T21:36:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "6f1fc95d-4382-409b-9734-ec0b34ddb349"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "bfb8eb67-90f6-44da-bf7a-b46e45831c19",
+          "created_time": "2022-01-23T21:36:00.000Z",
+          "last_edited_time": "2022-01-23T21:36:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "I’m in ur Synced Block! 🦦",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "I’m in ur Synced Block! 🦦",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "5eec45cc-03be-42db-9e87-7f3675abf30e",
+      "created_time": "2022-01-23T21:39:00.000Z",
+      "last_edited_time": "2022-01-23T21:41:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "↑ “synced_block” block type appears in output ↓",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "↑ “synced_block” block type appears in output ↓",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "6f1fc95d-4382-409b-9734-ec0b34ddb349",
+      "created_time": "2022-01-23T21:36:00.000Z",
+      "last_edited_time": "2022-01-23T21:41:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": null
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "bfb8eb67-90f6-44da-bf7a-b46e45831c19",
+          "created_time": "2022-01-23T21:36:00.000Z",
+          "last_edited_time": "2022-01-23T21:36:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "I’m in ur Synced Block! 🦦",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "I’m in ur Synced Block! 🦦",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "512ae120-3d1c-4d3b-8717-3a769de35b2c",
+      "created_time": "2022-01-23T21:39:00.000Z",
+      "last_edited_time": "2022-01-23T21:41:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Failing commit",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Failing commit",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "42782094-e630-4807-a651-74a9460682b8",
+      "created_time": "2022-01-23T21:41:00.000Z",
+      "last_edited_time": "2022-01-23T21:41:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "db9fe47b407a41ea952e1c6e891eed23b1a25fff",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "db9fe47b407a41ea952e1c6e891eed23b1a25fff",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "7439b6ab-1e88-40c7-b5e2-1dfce0a76c32",
+      "created_time": "2022-01-23T21:40:00.000Z",
+      "last_edited_time": "2022-01-23T21:41:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "synced_block + unneeded indentation",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "synced_block + unneeded indentation",
+            "href": null
+          }
+        ],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6ee75580-b84b-4b20-aa92-b97bd5706018/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220123T214321Z&X-Amz-Expires=3600&X-Amz-Signature=6d2f2143cd32359b10bdc67012c17cd2c8d0ebc7e0b44475100d8d0b50e5a9e0&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-23T22:43:21.307Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "c8ca7576-7dad-46fd-a882-c4c600483fc5",
+      "created_time": "2022-01-23T21:41:00.000Z",
+      "last_edited_time": "2022-01-23T21:41:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Fixed in commit",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Fixed in commit",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "54f92d89-2f57-42bc-8dae-14d369504a44",
+      "created_time": "2022-01-23T21:41:00.000Z",
+      "last_edited_time": "2022-01-23T21:41:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    }
+  ]
+}
