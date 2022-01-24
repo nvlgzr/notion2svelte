@@ -7,7 +7,7 @@
 # 🐝 Tasks/Ideas
 
 - Toward fixing ↑ :
-  - Replace Magic with a content-free data set passed to _every_ _notion2svelte_ component.
+  - Replace Magic with a content-free data set passed to _every_ _notion2svelte_ component?
 - More documentation tweaks
   - Ask for explicit help -> Doc design, code, usability
 - Document: 3 required props in db: Name, Slug & Status
