@@ -36,9 +36,7 @@
 </Magic>
 <br style="display:none;" />
 <Magic blockId={'420a68e7-c1e1-4d5a-9a09-9eb971b134be'}
-  >synced_block<IndentGroup>
-    <Paragraph>I’m in ur Synced Block! 🦦</Paragraph>
-  </IndentGroup>
+  ><Paragraph>I’m in ur Synced Block! 🦦</Paragraph>
 </Magic>
 <br style="display:none;" />
 <Magic blockId={'5eec45cc-03be-42db-9e87-7f3675abf30e'}
@@ -46,9 +44,7 @@
 </Magic>
 <br style="display:none;" />
 <Magic blockId={'6f1fc95d-4382-409b-9734-ec0b34ddb349'}
-  >synced_block<IndentGroup>
-    <Paragraph>I’m in ur Synced Block! 🦦</Paragraph>
-  </IndentGroup>
+  ><Paragraph>I’m in ur Synced Block! 🦦</Paragraph>
 </Magic>
 <br style="display:none;" />
 <Magic blockId={'512ae120-3d1c-4d3b-8717-3a769de35b2c'}

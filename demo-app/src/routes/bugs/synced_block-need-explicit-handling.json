@@ -313,8 +313,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6ee75580-b84b-4b20-aa92-b97bd5706018/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220123T214321Z&X-Amz-Expires=3600&X-Amz-Signature=6d2f2143cd32359b10bdc67012c17cd2c8d0ebc7e0b44475100d8d0b50e5a9e0&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-23T22:43:21.307Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6ee75580-b84b-4b20-aa92-b97bd5706018/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220123%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220123T214423Z&X-Amz-Expires=3600&X-Amz-Signature=abb712c6c7d35f55d87778a83632c9c3ebadcf097a6e7c35c228c0722e6e645a&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-23T22:44:23.505Z"
         }
       }
     },
