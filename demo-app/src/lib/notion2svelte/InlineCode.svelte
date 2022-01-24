@@ -2,7 +2,7 @@
   export let code = '';
 </script>
 
-<span><pre>{code}</pre></span>
+<span><pre>{@html code}</pre></span>
 
 <style>
   span {
