@@ -48,6 +48,7 @@
 
 # Icebox
 
+- To be truly practical, navigation should probably _not_ be done as I've shown it here, as this essentially requires the entire site to be re-fetched with _notion2svelte_ every time the nav changes. "This is a huge waste of resources." (←GitHub Copilot's response to the opening sentence.) Toy with options. E.g., straight-up Svelte-only, using file system to implicitly build the nav? and/or a separate _notion2svelte_-like tool to generate a component (used by _notion2svelte_?) to generate the nav?
 - Add media queries to smooth out the worst layout bugs…possibly using https://github.com/cibernox/svelte-media? (I tried using https://www.npmjs.com/package/svelte-media-query but it didn't work)
 - Update weird bottom-nav with something more menu-ish
 - Implement `video` and `file` types
