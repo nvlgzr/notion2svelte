@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div id="cover">&nbsp;</div>
+<div id="cover" style="height:0">&nbsp;</div>
 <main>
   <slot />
 </main>
@@ -19,11 +19,13 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
     box-sizing: border-box;
+    width: calc(min(90vw, 42rem));
+    font: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.35;
   }
 
   footer {

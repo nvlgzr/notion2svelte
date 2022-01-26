@@ -1,13 +1,10 @@
 ## 🐞 Known Bugs
 
-- Magic is now…not. The current "Fix" to the `<script>` issue isn't really a fix.
 - Bulleted lists do not reflect multiple depth levels
 - Routes that introduce new "folders" fail because _notion2svelte_ doesn't create the folders before trying to save the files. Need a "Save and create" function. Hopefully Node already has?
 
 # 🐝 Tasks/Ideas
 
-- Toward fixing ↑ :
-  - Replace Magic with a content-free data set passed to _every_ _notion2svelte_ component?
 - More documentation tweaks
   - Ask for explicit help -> Doc design, code, usability
 - Document: 3 required props in db: Name, Slug & Status
