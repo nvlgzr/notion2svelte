@@ -1,5 +1,5 @@
 <script>
-  export let href = "#";
+  export let href = '#';
   export let internal = false;
 </script>
 
@@ -22,17 +22,17 @@
     border-radius: 0.1rem;
   }
   a:before {
-    content: "";
+    content: '';
     margin-left: 0.25rem;
   }
   a:after {
     position: relative;
-    content: "\FEFF°";
+    content: '\FEFF°';
     margin-right: 0.1rem;
     font-size: 90%;
     top: -0.1em;
     color: hsl(120, 40%, 40%);
-    font-feature-settings: "caps";
+    font-feature-settings: 'caps';
     font-variant-numeric: normal;
   }
   a.internal,
@@ -48,5 +48,9 @@
   }
   a:hover.internal {
     background: hsl(310, 70%, 91%);
+  }
+
+  a:visited {
+    color: hsl(120, 40%, 50%);
   }
 </style>
