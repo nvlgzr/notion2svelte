@@ -95,6 +95,7 @@ Block props:
   button {
     border-radius: 0.25rem;
     background-color: white;
+    cursor: pointer;
   }
 
   button:hover {
