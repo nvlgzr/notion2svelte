@@ -30,9 +30,21 @@
 
 <Title>NumberedListItem</Title>
 
-<Header level={1}><strong>In Notion</strong></Header>
+<Header level={1}>1. Notion original</Header>
 <Image url="/assets/components/numbered-list-item/649e379b-c64f-4e8c-85a8-14c9138c9cad.png" />
-<Header level={1}><strong>Notion API (as of this writing)</strong></Header>
+<Header level={1}>2. Notion API</Header>
+<Paragraph
+  blockProps={{
+    pageId: '52ce8803309d42ada3fd00cb9cd1c200',
+    id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
+    created_time: '2022-01-28T20:26:00.000Z',
+    last_edited_time: '2022-01-28T20:28:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].json</em></InlineColor
+  >
+</Paragraph>
 <Code
   code={`\{
   "object": "block",
@@ -128,7 +140,19 @@
 }`}
   language="javascript"
   caption=""
-/><Header level={1}><strong>Svelte output</strong></Header>
+/><Header level={1}>3. Svelte output</Header>
+<Paragraph
+  blockProps={{
+    pageId: '52ce8803309d42ada3fd00cb9cd1c200',
+    id: '28871a46-c697-4500-b517-1c526797ab38',
+    created_time: '2022-01-28T20:32:00.000Z',
+    last_edited_time: '2022-01-28T20:32:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].svelte</em></InlineColor
+  >
+</Paragraph>
 <Code
   code={`<NumberedListItem number="1">First level</NumberedListItem>
 <IndentGroup>
@@ -137,7 +161,20 @@
 <NumberedListItem number="2">2nd entry at 1st level</NumberedListItem>`}
   language="html"
   caption=""
-/><Header level={1}><strong>Example Rendering</strong></Header>
+/><Header level={1}>4. Example rendering</Header>
+<Paragraph
+  blockProps={{
+    pageId: '52ce8803309d42ada3fd00cb9cd1c200',
+    id: 'cfec731e-78b5-4291-b2eb-5a8b679d9520',
+    created_time: '2022-01-28T21:58:00.000Z',
+    last_edited_time: '2022-01-28T21:59:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Rendered by</InlineColor><MagicLink
+    href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/NumberedListItem.svelte"
+    ><InlineColor value="gray">NumberedListItem.svelte</InlineColor></MagicLink
+  >
+</Paragraph>
 <NumberedListItem number="1">First level</NumberedListItem>
 <IndentGroup>
   <NumberedListItem number="a">Indented</NumberedListItem>
@@ -243,127 +280,36 @@
 <ColumnList cols={2}
   ><Column
     ><Header level={3}>High-level Discussion</Header>
+    <BulletedListItem><MagicLink href="/components">Components</MagicLink></BulletedListItem>
     <BulletedListItem
-      ><p
-        style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-      >
-        ⚠️ k(t, url): <span
-          style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-          >Components.</span
-        >&nbsp;No URL provided for Components.<br /><br />Did you give it a Slug, mark it
-        Publishable, and run _notion2svelte_?
-      </p></BulletedListItem
+      ><MagicLink href="/rules-for-writing-good-slugs">Writing Good Slugs</MagicLink
+      ></BulletedListItem
+    >
+    <BulletedListItem><MagicLink href="/block-props">blockProps</MagicLink></BulletedListItem>
+    <BulletedListItem
+      ><MagicLink href="/components/nested-blocks">Nested Blocks</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><p
-        style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-      >
-        ⚠️ k(t, url): <span
-          style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-          >Writing Good Slugs.</span
-        >&nbsp;No URL provided for Writing Good Slugs.<br /><br />Did you give it a Slug, mark it
-        Publishable, and run _notion2svelte_?
-      </p></BulletedListItem
-    >
-    <BulletedListItem
-      ><p
-        style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-      >
-        ⚠️ k(t, url): <span
-          style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-          >blockProps.</span
-        >&nbsp;No URL provided for blockProps.<br /><br />Did you give it a Slug, mark it
-        Publishable, and run _notion2svelte_?
-      </p></BulletedListItem
-    >
-    <BulletedListItem
-      ><p
-        style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-      >
-        ⚠️ k(t, url): <span
-          style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-          >Nested Blocks.</span
-        >&nbsp;No URL provided for Nested Blocks.<br /><br />Did you give it a Slug, mark it
-        Publishable, and run _notion2svelte_?
-      </p></BulletedListItem
-    >
-    <BulletedListItem
-      ><p
-        style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-      >
-        ⚠️ k(t, url): <span
-          style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-          >Synced Blocks.</span
-        >&nbsp;No URL provided for Synced Blocks.<br /><br />Did you give it a Slug, mark it
-        Publishable, and run _notion2svelte_?
-      </p></BulletedListItem
+      ><MagicLink href="/components/synced-blocks">Synced Blocks</MagicLink></BulletedListItem
     >
     <Header level={3}>Turn-intoable Block Components</Header>
     <BulletedListItem
-      ><p
-        style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-      >
-        ⚠️ k(t, url): <span
-          style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-          >Paragraph (aka “Text”).</span
-        >&nbsp;No URL provided for Paragraph (aka “Text”).<br /><br />Did you give it a Slug, mark
-        it Publishable, and run _notion2svelte_?
-      </p></BulletedListItem
+      ><MagicLink href="/components/paragraph">Paragraph (aka “Text”)</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><p
-        style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-      >
-        ⚠️ k(t, url): <span
-          style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-          >Header (3 types in 1!).</span
-        >&nbsp;No URL provided for Header (3 types in 1!).<br /><br />Did you give it a Slug, mark
-        it Publishable, and run _notion2svelte_?
-      </p></BulletedListItem
+      ><MagicLink href="/components/header">Header (3 types in 1!)</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><p
-        style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-      >
-        ⚠️ k(t, url): <span
-          style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-          >ChildPage.</span
-        >&nbsp;No URL provided for ChildPage.<br /><br />Did you give it a Slug, mark it
-        Publishable, and run _notion2svelte_?
-      </p></BulletedListItem
+      ><MagicLink href="/components/child-page">ChildPage</MagicLink></BulletedListItem
+    >
+    <BulletedListItem><MagicLink href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><p
-        style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-      >
-        ⚠️ k(t, url): <span
-          style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-          >TodoItem.</span
-        >&nbsp;No URL provided for TodoItem.<br /><br />Did you give it a Slug, mark it Publishable,
-        and run _notion2svelte_?
-      </p></BulletedListItem
+      ><MagicLink href="/bulleted-list-item">BulletedListItem</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><p
-        style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-      >
-        ⚠️ k(t, url): <span
-          style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-          >BulletedListItem.</span
-        >&nbsp;No URL provided for BulletedListItem.<br /><br />Did you give it a Slug, mark it
-        Publishable, and run _notion2svelte_?
-      </p></BulletedListItem
-    >
-    <BulletedListItem
-      ><p
-        style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-      >
-        ⚠️ k(t, url): <span
-          style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-          >NumberedListItem.</span
-        >&nbsp;No URL provided for NumberedListItem.<br /><br />Did you give it a Slug, mark it
-        Publishable, and run _notion2svelte_?
-      </p></BulletedListItem
+      ><MagicLink href="/components/numbered-list-item">NumberedListItem</MagicLink
+      ></BulletedListItem
     >
     <BulletedListItem><MagicLink href="/components/toggle">Toggle</MagicLink></BulletedListItem>
     <BulletedListItem><MagicLink href="/components/code">Code</MagicLink></BulletedListItem>
@@ -377,15 +323,7 @@
   </Column><Column
     ><Header level={3}>Layout-only Components</Header>
     <BulletedListItem
-      ><p
-        style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-      >
-        ⚠️ k(t, url): <span
-          style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-          >IndentGroup.</span
-        >&nbsp;No URL provided for IndentGroup.<br /><br />Did you give it a Slug, mark it
-        Publishable, and run _notion2svelte_?
-      </p></BulletedListItem
+      ><MagicLink href="/components/indent-group">IndentGroup</MagicLink></BulletedListItem
     >
     <BulletedListItem
       ><MagicLink href="/components/columns">Column & ColumnList</MagicLink>&nbsp;</BulletedListItem

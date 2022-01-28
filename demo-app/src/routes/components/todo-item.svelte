@@ -132,7 +132,6 @@
   }}
 />
 <Divider />
-<Divider />
 <Header level={1}>Where to learn more</Header>
 <Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
 <BulletedListItem
@@ -225,7 +224,8 @@
     <BulletedListItem><MagicLink href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/bulleted-list-item">BulletedListItem</MagicLink></BulletedListItem
+      ><MagicLink href="/components/bulleted-list-item">BulletedListItem</MagicLink
+      ></BulletedListItem
     >
     <BulletedListItem
       ><MagicLink href="/components/numbered-list-item">NumberedListItem</MagicLink

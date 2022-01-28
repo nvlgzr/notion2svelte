@@ -2,7 +2,7 @@
   "object": "page",
   "id": "a87a9586-7196-4be7-a9fd-16908da25b79",
   "created_time": "2022-01-26T08:50:00.000Z",
-  "last_edited_time": "2022-01-28T21:28:00.000Z",
+  "last_edited_time": "2022-01-28T22:07:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -18,7 +18,7 @@
         {
           "type": "text",
           "text": {
-            "content": "/bulleted-list-item",
+            "content": "/components/bulleted-list-item",
             "link": null
           },
           "annotations": {
@@ -29,7 +29,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "/bulleted-list-item",
+          "plain_text": "/components/bulleted-list-item",
           "href": null
         }
       ]
@@ -71,39 +71,56 @@
   "blocks": [
     {
       "object": "block",
-      "id": "1a5d88b1-9eeb-4087-9cfd-118f409c46d5",
-      "created_time": "2022-01-26T08:50:00.000Z",
-      "last_edited_time": "2022-01-26T08:50:00.000Z",
-      "has_children": false,
+      "id": "fa6e90e4-0b18-4939-a53a-f27bc35e3484",
+      "created_time": "2022-01-28T21:54:00.000Z",
+      "last_edited_time": "2022-01-28T21:54:00.000Z",
+      "has_children": true,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "In Notion",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "In Notion",
-            "href": null
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "69ec6660-b477-4f8d-8792-5dd924833e8d"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "3e35fbf0-56a5-4f0a-92f5-c30d4f9a7cfc",
+          "created_time": "2022-01-28T20:25:00.000Z",
+          "last_edited_time": "2022-01-28T22:01:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "1. Notion original",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "1. Notion original",
+                "href": null
+              }
+            ]
           }
-        ]
-      }
+        }
+      ]
     },
     {
       "object": "block",
       "id": "a7d8a997-9add-4535-9473-4d302e14b58b",
       "created_time": "2022-01-26T08:53:00.000Z",
-      "last_edited_time": "2022-01-26T08:53:00.000Z",
+      "last_edited_time": "2022-01-28T21:55:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "image",
@@ -111,46 +128,110 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a2ebd244-cb7d-44c0-818d-1e45e184d938/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T212932Z&X-Amz-Expires=3600&X-Amz-Signature=5d1d7673659187ca63c7bfb375af7e46948ecc4f4308b04878c57443df08421f&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-28T22:29:32.121Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a2ebd244-cb7d-44c0-818d-1e45e184d938/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T220942Z&X-Amz-Expires=3600&X-Amz-Signature=d300f5bda7c940c04e338b4b01f6d16a0fb9daedd791b250151b70fa11a2447d&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-28T23:09:42.383Z"
         }
       }
     },
     {
       "object": "block",
-      "id": "adf3f042-5c33-4b0d-8b04-ed61421713a3",
-      "created_time": "2022-01-26T08:50:00.000Z",
-      "last_edited_time": "2022-01-26T08:50:00.000Z",
-      "has_children": false,
+      "id": "d86f46d2-e36a-4b0c-8e06-b2ab901a0a10",
+      "created_time": "2022-01-28T21:54:00.000Z",
+      "last_edited_time": "2022-01-28T21:54:00.000Z",
+      "has_children": true,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Notion API (as of this writing)",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Notion API (as of this writing)",
-            "href": null
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "01eec727-5535-4576-9493-d16c577aa7b7",
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-01-28T20:26:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "2. Notion API",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "2. Notion API",
+                "href": null
+              }
+            ]
           }
-        ]
-      }
+        },
+        {
+          "object": "block",
+          "id": "0538fec5-3bc6-4c24-815d-78b5ce846819",
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-01-28T20:28:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Partial output of ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "Partial output of ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "src/routes/[slug].json",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "src/routes/[slug].json",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "object": "block",
       "id": "4a0219bc-fc02-4b80-9b81-29a24be449c0",
       "created_time": "2022-01-26T08:50:00.000Z",
-      "last_edited_time": "2022-01-26T09:00:00.000Z",
+      "last_edited_time": "2022-01-28T21:55:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "code",
@@ -180,39 +261,103 @@
     },
     {
       "object": "block",
-      "id": "ae0b017f-da5f-4bef-91ce-aeda41fd4874",
-      "created_time": "2022-01-26T08:50:00.000Z",
-      "last_edited_time": "2022-01-26T08:50:00.000Z",
-      "has_children": false,
+      "id": "5e924990-95ae-40a8-995d-06a40b1ac119",
+      "created_time": "2022-01-28T21:54:00.000Z",
+      "last_edited_time": "2022-01-28T21:54:00.000Z",
+      "has_children": true,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Svelte output",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Svelte output",
-            "href": null
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "46eaa6aa-2b30-4f72-915c-04d3e638fe8d"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "55e06cc7-b682-4d4c-8af3-b503b1d72bd1",
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-01-28T20:26:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "3. Svelte output",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "3. Svelte output",
+                "href": null
+              }
+            ]
           }
-        ]
-      }
+        },
+        {
+          "object": "block",
+          "id": "28871a46-c697-4500-b517-1c526797ab38",
+          "created_time": "2022-01-28T20:32:00.000Z",
+          "last_edited_time": "2022-01-28T20:32:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Partial output of ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "Partial output of ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "src/routes/[slug].svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "src/routes/[slug].svelte",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "object": "block",
       "id": "eabae0f4-72b5-4e5c-b1a9-81ea81c6d836",
       "created_time": "2022-01-26T08:50:00.000Z",
-      "last_edited_time": "2022-01-26T09:01:00.000Z",
+      "last_edited_time": "2022-01-28T21:55:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "code",
@@ -242,39 +387,105 @@
     },
     {
       "object": "block",
-      "id": "65c30f64-1a4a-4a31-aa45-0fefc2ef71c8",
-      "created_time": "2022-01-26T08:50:00.000Z",
-      "last_edited_time": "2022-01-26T08:50:00.000Z",
+      "id": "eb9a54fb-02f3-425f-abef-e958fdde6921",
+      "created_time": "2022-01-28T21:54:00.000Z",
+      "last_edited_time": "2022-01-28T21:54:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "39f58dcd-edff-4eac-ac21-4c54bc1b2e7c"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "14abb64d-4aad-4586-a941-62fdc219a70e",
+          "created_time": "2022-01-28T20:29:00.000Z",
+          "last_edited_time": "2022-01-28T21:00:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "4. Example rendering",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "4. Example rendering",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "b74983c5-eb79-44ec-a322-2201faf176e9",
+      "created_time": "2022-01-28T21:56:00.000Z",
+      "last_edited_time": "2022-01-28T21:56:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
+      "type": "paragraph",
+      "paragraph": {
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "Example Rendering",
+              "content": "Rendered by ",
               "link": null
             },
             "annotations": {
-              "bold": true,
+              "bold": false,
               "italic": false,
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "default"
+              "color": "gray"
             },
-            "plain_text": "Example Rendering",
+            "plain_text": "Rendered by ",
             "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "BulletedListItem.svelte",
+              "link": {
+                "url": "https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/BulletedListItem.svelte"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "BulletedListItem.svelte",
+            "href": "https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/BulletedListItem.svelte"
           }
         ]
       }
     },
     {
       "object": "block",
-      "id": "b74983c5-eb79-44ec-a322-2201faf176e9",
+      "id": "c6f3c941-7d42-4c10-85cf-e0a3c7d07a5d",
       "created_time": "2022-01-26T08:50:00.000Z",
-      "last_edited_time": "2022-01-26T08:51:00.000Z",
+      "last_edited_time": "2022-01-28T21:57:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "bulleted_list_item",
@@ -304,7 +515,7 @@
           "object": "block",
           "id": "7da104fc-d081-4437-964e-d6e3850d3215",
           "created_time": "2022-01-26T08:51:00.000Z",
-          "last_edited_time": "2022-01-26T08:51:00.000Z",
+          "last_edited_time": "2022-01-28T21:56:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "bulleted_list_item",
@@ -334,39 +545,14 @@
     },
     {
       "object": "block",
-      "id": "7932db71-efcc-43a7-b0eb-b50b5c7f8633",
-      "created_time": "2022-01-26T08:50:00.000Z",
-      "last_edited_time": "2022-01-26T08:50:00.000Z",
+      "id": "832c7757-d7be-47e0-8b5d-ea4f0e690a21",
+      "created_time": "2022-01-28T21:57:00.000Z",
+      "last_edited_time": "2022-01-28T21:57:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
       "paragraph": {
         "text": []
-      }
-    },
-    {
-      "object": "block",
-      "id": "72cf0568-6654-426e-b269-826afcd3457f",
-      "created_time": "2022-01-26T08:50:00.000Z",
-      "last_edited_time": "2022-01-26T08:50:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "divider",
-      "divider": {}
-    },
-    {
-      "object": "block",
-      "id": "4d00a6b2-4ce0-4d8d-8d44-17603b5fd4c0",
-      "created_time": "2022-01-26T08:50:00.000Z",
-      "last_edited_time": "2022-01-26T08:50:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "synced_block",
-      "synced_block": {
-        "synced_from": {
-          "type": "block_id",
-          "block_id": "876d6c50-40ef-4fb7-88e7-4916177344be"
-        }
       }
     },
     {
