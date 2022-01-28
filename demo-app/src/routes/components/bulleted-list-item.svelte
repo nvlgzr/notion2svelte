@@ -249,7 +249,8 @@
     <BulletedListItem><MagicLink href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/bulleted-list-item">BulletedListItem</MagicLink></BulletedListItem
+      ><MagicLink href="/components/bulleted-list-item">BulletedListItem</MagicLink
+      ></BulletedListItem
     >
     <BulletedListItem
       ><MagicLink href="/components/numbered-list-item">NumberedListItem</MagicLink
@@ -276,8 +277,9 @@
     <BulletedListItem
       ><MagicLink href="/components/title">Title (aka Name)</MagicLink></BulletedListItem
     >
-    <BulletedListItem><MagicLink href="/components/cover">Cover</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/icon">Icon</MagicLink></BulletedListItem>
+    <BulletedListItem
+      ><MagicLink href="/components/cover">Cover (Image & Icon)</MagicLink></BulletedListItem
+    >
     <Header level={3}>Annotation Components</Header>
     <BulletedListItem
       ><MagicLink href="/components/inline-code">InlineCode</MagicLink></BulletedListItem

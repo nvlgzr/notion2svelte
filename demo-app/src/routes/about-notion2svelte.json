@@ -2,7 +2,7 @@
   "object": "page",
   "id": "fdc65179-a8bd-451c-af67-59019204cfde",
   "created_time": "2022-01-04T05:41:00.000Z",
-  "last_edited_time": "2022-01-28T22:07:00.000Z",
+  "last_edited_time": "2022-01-28T23:41:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -12,8 +12,8 @@
   "icon": {
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T221002Z&X-Amz-Expires=3600&X-Amz-Signature=014473a99c7ddf83ae94a26529a61b8c73a5521de89c7da73bdc1f99050d7782&X-Amz-SignedHeaders=host&x-id=GetObject",
-      "expiry_time": "2022-01-28T23:10:02.196Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234307Z&X-Amz-Expires=3600&X-Amz-Signature=a5ca9c4e87c98b5d0a48b2fdad7b18f14f24d4ec6221b51ed57b1fcc6dc9c1ec&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-29T00:43:07.149Z"
     }
   },
   "parent": {
@@ -431,8 +431,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T221002Z&X-Amz-Expires=3600&X-Amz-Signature=9ac8b5f8883b69488c25ef137e69b50b5dc8e38ccc45502932da7ac3548d96dd&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-28T23:10:02.941Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234308Z&X-Amz-Expires=3600&X-Amz-Signature=00eece13e4bd9877e746096727a7384f7390d63d41fb3bb74874856a5ffc9ff1&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-29T00:43:08.260Z"
                 }
               }
             },
@@ -597,8 +597,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T221003Z&X-Amz-Expires=3600&X-Amz-Signature=0e14071288d32d85637452346545dc99d70f8d540f39584e1941c7da11343cd2&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-28T23:10:03.048Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234308Z&X-Amz-Expires=3600&X-Amz-Signature=4d39d2ceb41b8609d6a20db26b1df148523d3d57e9f7f3635f2ec21042596e05&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-29T00:43:08.195Z"
                 }
               }
             },
@@ -2088,8 +2088,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T221002Z&X-Amz-Expires=3600&X-Amz-Signature=439ee9f78c9ddf62c3665013bc4dc488ba37102a402fe28be41e3512b11e2461&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-28T23:10:02.581Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234307Z&X-Amz-Expires=3600&X-Amz-Signature=a3383303c4bddd391a7b291e39280dece4632474ba35881d89e4dc5da30949e9&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-29T00:43:07.657Z"
         }
       }
     },
@@ -2177,8 +2177,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0223fdc0-6313-4026-8820-e0935327a2db/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T221002Z&X-Amz-Expires=3600&X-Amz-Signature=a656361b32752218113e138b40e51d7a22556470d4d2fdee79e195a59565c7c4&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-28T23:10:02.611Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0223fdc0-6313-4026-8820-e0935327a2db/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234307Z&X-Amz-Expires=3600&X-Amz-Signature=5f7d4cc5afe718e9ad4072d7be5457723b59817742e498ba9a35289ef880a121&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-29T00:43:07.687Z"
         }
       }
     },
@@ -3335,8 +3335,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T221003Z&X-Amz-Expires=3600&X-Amz-Signature=6f0bca853f8dbb7ab9977aa403db9c72fabd75a42c9974b2d9c0fb518b777ff3&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-28T23:10:03.039Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234308Z&X-Amz-Expires=3600&X-Amz-Signature=496e5167bd3212a0d3ec433d52454c811cb858de7c1141b61207d641923b64d5&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-29T00:43:08.235Z"
                 }
               }
             }
@@ -3541,8 +3541,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T221003Z&X-Amz-Expires=3600&X-Amz-Signature=88bdb727b8d9a3f77217c7b275ca14d834d73b27ecc280d83c41ceda7c46ae83&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-28T23:10:03.109Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234308Z&X-Amz-Expires=3600&X-Amz-Signature=a158a16d1fe95ccc77e165ba77b468cc3400106dbc758b8a19a35ca9ee460e33&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-29T00:43:08.135Z"
                 }
               }
             }
@@ -3760,8 +3760,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0359dba3-1ed2-46ef-ab90-ebc828e2e4b4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T221003Z&X-Amz-Expires=3600&X-Amz-Signature=06fcba88f71f93f2e4cd0cbaf260b818ed32434a3bf6f56d91dbb3bced414000&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-28T23:10:03.030Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0359dba3-1ed2-46ef-ab90-ebc828e2e4b4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234311Z&X-Amz-Expires=3600&X-Amz-Signature=51b84a8d5481f28f9d4644b4e02698aec9e77f1808c5bcef5f35a4825362f5c0&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-29T00:43:10.291Z"
                 }
               }
             },
@@ -3807,8 +3807,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T221003Z&X-Amz-Expires=3600&X-Amz-Signature=5fa19ae244b93e701e239bfb66b288c39b3900fa58ac858bfa5565cfce58ee67&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-28T23:10:03.033Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234311Z&X-Amz-Expires=3600&X-Amz-Signature=24519dde693891403153aee3b0132e5b85a8f4c7a82ff4471dd489205241c910&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-29T00:43:10.292Z"
                 }
               }
             }
@@ -5586,7 +5586,7 @@
                   "object": "block",
                   "id": "d16d3988-5d12-4006-969f-097bbac118b6",
                   "created_time": "2022-01-27T05:53:00.000Z",
-                  "last_edited_time": "2022-01-27T06:09:00.000Z",
+                  "last_edited_time": "2022-01-28T23:39:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -5608,40 +5608,8 @@
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "Cover",
+                        "plain_text": "Cover (Image & Icon)",
                         "href": "https://www.notion.so/df34058b281e4da6badc0a15a891d18e"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "object": "block",
-                  "id": "dbb8bb58-0eb0-4d8e-910e-c95d10b32436",
-                  "created_time": "2022-01-27T05:57:00.000Z",
-                  "last_edited_time": "2022-01-27T23:50:00.000Z",
-                  "has_children": false,
-                  "archived": false,
-                  "type": "bulleted_list_item",
-                  "bulleted_list_item": {
-                    "text": [
-                      {
-                        "type": "mention",
-                        "mention": {
-                          "type": "page",
-                          "page": {
-                            "id": "a616bb8c-b2b0-4377-8584-e1d9657eb104"
-                          }
-                        },
-                        "annotations": {
-                          "bold": false,
-                          "italic": false,
-                          "strikethrough": false,
-                          "underline": false,
-                          "code": false,
-                          "color": "default"
-                        },
-                        "plain_text": "Icon",
-                        "href": "https://www.notion.so/a616bb8cb2b043778584e1d9657eb104"
                       }
                     ]
                   }

@@ -2,7 +2,7 @@
   "object": "page",
   "id": "52ce8803-309d-42ad-a3fd-00cb9cd1c200",
   "created_time": "2022-01-26T09:15:00.000Z",
-  "last_edited_time": "2022-01-28T22:07:00.000Z",
+  "last_edited_time": "2022-01-28T23:41:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -128,8 +128,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e312ae93-4d01-4c1d-bc9f-5e0a2be0c0b7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T220856Z&X-Amz-Expires=3600&X-Amz-Signature=d6e672f182df4cd750e03fea032f554858ab9f5b30c3d39c5a249e440d52172a&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-28T23:08:56.896Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e312ae93-4d01-4c1d-bc9f-5e0a2be0c0b7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234214Z&X-Amz-Expires=3600&X-Amz-Signature=ca522fee45dff46eb1fe5cc5c772bcb9b4807d29f3a21ceb27648a853e7dc9db&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-29T00:42:13.718Z"
         }
       }
     },
@@ -2031,7 +2031,7 @@
                   "object": "block",
                   "id": "d16d3988-5d12-4006-969f-097bbac118b6",
                   "created_time": "2022-01-27T05:53:00.000Z",
-                  "last_edited_time": "2022-01-27T06:09:00.000Z",
+                  "last_edited_time": "2022-01-28T23:39:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -2053,40 +2053,8 @@
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "Cover",
+                        "plain_text": "Cover (Image & Icon)",
                         "href": "https://www.notion.so/df34058b281e4da6badc0a15a891d18e"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "object": "block",
-                  "id": "dbb8bb58-0eb0-4d8e-910e-c95d10b32436",
-                  "created_time": "2022-01-27T05:57:00.000Z",
-                  "last_edited_time": "2022-01-27T23:50:00.000Z",
-                  "has_children": false,
-                  "archived": false,
-                  "type": "bulleted_list_item",
-                  "bulleted_list_item": {
-                    "text": [
-                      {
-                        "type": "mention",
-                        "mention": {
-                          "type": "page",
-                          "page": {
-                            "id": "a616bb8c-b2b0-4377-8584-e1d9657eb104"
-                          }
-                        },
-                        "annotations": {
-                          "bold": false,
-                          "italic": false,
-                          "strikethrough": false,
-                          "underline": false,
-                          "code": false,
-                          "color": "default"
-                        },
-                        "plain_text": "Icon",
-                        "href": "https://www.notion.so/a616bb8cb2b043778584e1d9657eb104"
                       }
                     ]
                   }

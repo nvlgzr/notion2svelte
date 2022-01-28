@@ -25,14 +25,14 @@
 </script>
 
 <svelte:head>
-  <title>Cover</title>
+  <title>Cover (Image & Icon)</title>
 </svelte:head>
 
 <Cover
-  coverURL={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2648cd63-fb9b-47c4-9ec2-c2ea152d0c15/IMG_1865.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T233913Z&X-Amz-Expires=3600&X-Amz-Signature=ea79e7814c60a22a4875c9238af5521fb9ec65e449b1edfe33f9f50947458e0d&X-Amz-SignedHeaders=host&x-id=GetObject'}
+  coverURL={'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2648cd63-fb9b-47c4-9ec2-c2ea152d0c15/IMG_1865.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234333Z&X-Amz-Expires=3600&X-Amz-Signature=2f3bb8823d9b4012ba8501a6b58d7dcc80288f9e5c3c373aabe8b826724f5bab&X-Amz-SignedHeaders=host&x-id=GetObject'}
   iconEmojiOrURL={'🪲'}
 />
-<Title>Cover</Title>
+<Title>Cover (Image & Icon)</Title>
 
 <Paragraph
   blockProps={{
@@ -312,8 +312,9 @@
     <BulletedListItem
       ><MagicLink href="/components/title">Title (aka Name)</MagicLink></BulletedListItem
     >
-    <BulletedListItem><MagicLink href="/components/cover">Cover</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/icon">Icon</MagicLink></BulletedListItem>
+    <BulletedListItem
+      ><MagicLink href="/components/cover">Cover (Image & Icon)</MagicLink></BulletedListItem
+    >
     <Header level={3}>Annotation Components</Header>
     <BulletedListItem
       ><MagicLink href="/components/inline-code">InlineCode</MagicLink></BulletedListItem
