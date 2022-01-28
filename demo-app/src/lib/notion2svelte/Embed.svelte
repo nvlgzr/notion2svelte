@@ -1,5 +1,5 @@
 <script>
-  export let url = "";
+  export let url = '';
 </script>
 
 <section>
@@ -9,8 +9,8 @@
     height="100%"
     title={url}
     sandbox="allow-scripts allow-popups allow-top-navigation-by-user-activation allow-forms allow-same-origin"
-    allowfullscreen=""
     loading="lazy"
+    scrolling="yes"
   />
   <caption>
     <slot />
@@ -27,8 +27,8 @@
   iframe {
     left: 0px;
     top: 0px;
-    width: calc(min(80vw, 900px));
-    height: 50vh; /* Ideally this could be set per-embed */
+    width: 80vw;
+    height: 80vh; /* Ideally this could be set per-embed */
     padding: 0.75rem;
     margin: 1rem auto;
     border: solid 2px hsl(0, 0%, 53%);
