@@ -77,16 +77,28 @@
   As the elder said:
 </Paragraph>
 <Quote>“Make it work,&nbsp;<em>then</em>&nbsp;make it pretty!” —🧓🏼</Quote><Header level={1}
-  ><strong>In Notion</strong></Header
+  >1. Notion original</Header
 >
 <Image url="/assets/components/indent-group/35d7bc61-08ab-4bdf-894d-9d1b9ef1df85.png" />
-<Header level={1}><strong>Notion API (as of this writing)</strong></Header>
+<Header level={1}>2. Notion API</Header>
+<Paragraph
+  blockProps={{
+    pageId: 'a5b6af04d0174204a0226bf57fdbe440',
+    id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
+    created_time: '2022-01-28T20:26:00.000Z',
+    last_edited_time: '2022-01-28T20:28:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].json</em></InlineColor
+  >
+</Paragraph>
 <Paragraph
   blockProps={{
     pageId: 'a5b6af04d0174204a0226bf57fdbe440',
     id: 'aff4b2ed-f952-4db4-9e9f-9f8255d52c88',
     created_time: '2022-01-26T05:40:00.000Z',
-    last_edited_time: '2022-01-27T06:19:00.000Z'
+    last_edited_time: '2022-01-28T22:51:00.000Z'
   }}
 >
   Ok, so…this output is pretty gnarly: over 600 lines of (formatted) JSON to represent 16 blocks!
@@ -763,7 +775,19 @@
       caption=""
     /></span
   ></Toggle
-><Header level={1}><strong>Svelte output</strong></Header>
+><Header level={1}>3. Svelte output</Header>
+<Paragraph
+  blockProps={{
+    pageId: 'a5b6af04d0174204a0226bf57fdbe440',
+    id: '28871a46-c697-4500-b517-1c526797ab38',
+    created_time: '2022-01-28T20:32:00.000Z',
+    last_edited_time: '2022-01-28T20:32:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].svelte</em></InlineColor
+  >
+</Paragraph>
 <Code
   code={`<Toggle
   >Even basic Paragraph blocks can contain nested blocks, but Toggles are the classic example
@@ -833,7 +857,20 @@
 >`}
   language="html"
   caption="Still a lotta lines, but at least now we’re down by an order of magnitude!"
-/><Header level={1}><strong>Example Rendering</strong></Header>
+/><Header level={1}>4. Example rendering</Header>
+<Paragraph
+  blockProps={{
+    pageId: 'a5b6af04d0174204a0226bf57fdbe440',
+    id: 'f4fa3eb9-94ce-48ca-a819-ef3699b058d7',
+    created_time: '2022-01-28T22:51:00.000Z',
+    last_edited_time: '2022-01-28T22:52:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Rendered by</InlineColor><MagicLink
+    href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/IndentGroup.svelte"
+    ><InlineColor value="gray">IndentGroup.svelte</InlineColor></MagicLink
+  ><InlineColor value="gray">&nbsp;(and a bunch of other components!)</InlineColor>
+</Paragraph>
 <Toggle
   >Even basic Paragraph blocks can contain nested blocks, but Toggles are the classic example
   <span slot="children"
@@ -904,7 +941,6 @@
     last_edited_time: '2022-01-26T05:47:00.000Z'
   }}
 />
-<Divider />
 <Divider />
 <Header level={1}>Where to learn more</Header>
 <Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
