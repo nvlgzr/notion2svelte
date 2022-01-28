@@ -30,9 +30,21 @@
 
 <Title>Quote</Title>
 
-<Header level={1}><strong>In Notion</strong></Header>
-<Image url="/assets/components/quote/8482422a-2858-41d5-81c9-c1d1d7c2f1a8.png" />
-<Header level={1}><strong>Notion API (as of this writing)</strong></Header>
+<Header level={1}>1. Notion original</Header>
+<Image url="/assets/components/quote/b9cabf79-0b04-4b1d-b675-7f7cf529ab11.png" />
+<Header level={1}>2. Notion API</Header>
+<Paragraph
+  blockProps={{
+    pageId: 'aa1322ce4c004737ac1eb3015f393fe5',
+    id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
+    created_time: '2022-01-28T20:26:00.000Z',
+    last_edited_time: '2022-01-28T20:28:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].json</em></InlineColor
+  >
+</Paragraph>
 <Code
   code={`\{
   "object": "block",
@@ -98,7 +110,19 @@
 }`}
   language="javascript"
   caption=""
-/><Header level={1}><strong>Svelte output</strong></Header>
+/><Header level={1}>3. Svelte output</Header>
+<Paragraph
+  blockProps={{
+    pageId: 'aa1322ce4c004737ac1eb3015f393fe5',
+    id: '28871a46-c697-4500-b517-1c526797ab38',
+    created_time: '2022-01-28T20:32:00.000Z',
+    last_edited_time: '2022-01-28T20:32:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].svelte</em></InlineColor
+  >
+</Paragraph>
 <Code
   code={`<Quote>
   Never tell a joke if you’ve got to look around before telling it.
@@ -117,7 +141,20 @@
 </Quote>`}
   language="html"
   caption="This isn’t&nbsp;<em>entirely</em>&nbsp;accurate. Prettier didn’t handle this example as well as I’d have liked, so I did a bit of whitespace rearranging here."
-/><Header level={1}><strong>Example Rendering</strong></Header>
+/><Header level={1}>4. Example rendering</Header>
+<Paragraph
+  blockProps={{
+    pageId: 'aa1322ce4c004737ac1eb3015f393fe5',
+    id: '8910b758-ae6f-4bb6-8fd8-86719e917c3e',
+    created_time: '2022-01-28T22:38:00.000Z',
+    last_edited_time: '2022-01-28T22:38:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Rendered by</InlineColor><MagicLink
+    href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Quote.svelte"
+    ><InlineColor value="gray">Quote.svelte</InlineColor></MagicLink
+  >
+</Paragraph>
 <Quote
   >Never tell a joke if you’ve got to look around before telling it.<span slot="children"
     ><Paragraph
@@ -125,7 +162,7 @@
         pageId: 'aa1322ce4c004737ac1eb3015f393fe5',
         id: '2266f93f-0222-487d-8723-2dc72e09f32c',
         created_time: '2022-01-26T09:32:00.000Z',
-        last_edited_time: '2022-01-26T09:33:00.000Z'
+        last_edited_time: '2022-01-28T22:38:00.000Z'
       }}
     >
       —Jimmy Carr
@@ -232,7 +269,8 @@
     <BulletedListItem><MagicLink href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/bulleted-list-item">BulletedListItem</MagicLink></BulletedListItem
+      ><MagicLink href="/components/bulleted-list-item">BulletedListItem</MagicLink
+      ></BulletedListItem
     >
     <BulletedListItem
       ><MagicLink href="/components/numbered-list-item">NumberedListItem</MagicLink

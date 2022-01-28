@@ -30,9 +30,21 @@
 
 <Title>Equation</Title>
 
-<Header level={1}><strong>In Notion</strong></Header>
+<Header level={1}>1. Notion original</Header>
 <Image url="/assets/components/equation/40267217-ee20-4205-a8b0-36923db0531c.png" />
-<Header level={1}><strong>Notion API (as of this writing)</strong></Header>
+<Header level={1}>2. Notion API</Header>
+<Paragraph
+  blockProps={{
+    pageId: 'ef8517977d17431889a3ae09285cfef8',
+    id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
+    created_time: '2022-01-28T20:26:00.000Z',
+    last_edited_time: '2022-01-28T20:28:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].json</em></InlineColor
+  >
+</Paragraph>
 <Code
   code={`\{
   "object": "block",
@@ -48,7 +60,19 @@
 }`}
   language="javascript"
   caption=""
-/><Header level={1}><strong>Svelte output</strong></Header>
+/><Header level={1}>3. Svelte output</Header>
+<Paragraph
+  blockProps={{
+    pageId: 'ef8517977d17431889a3ae09285cfef8',
+    id: '28871a46-c697-4500-b517-1c526797ab38',
+    created_time: '2022-01-28T20:32:00.000Z',
+    last_edited_time: '2022-01-28T20:32:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].svelte</em></InlineColor
+  >
+</Paragraph>
 <Code
   code={`<Equation
   block=\{true}
@@ -60,7 +84,22 @@ C @= D
 />`}
   language="html"
   caption=""
-/><Header level={1}><strong>Example Rendering</strong></Header>
+/><Header level={1}>4. Example rendering</Header>
+<Paragraph
+  blockProps={{
+    pageId: 'ef8517977d17431889a3ae09285cfef8',
+    id: 'f01f769b-c9b9-4d68-a1ee-b9de396170fe',
+    created_time: '2022-01-28T22:42:00.000Z',
+    last_edited_time: '2022-01-28T22:44:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Rendered by</InlineColor><MagicLink
+    href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Equation.svelte"
+    ><InlineColor value="gray">Equation.svelte</InlineColor></MagicLink
+  ><InlineColor value="gray">, which relies on&nbsp;</InlineColor><MagicLink
+    href="https://katex.org/"><InlineColor value="gray">katex</InlineColor></MagicLink
+  ><InlineColor value="gray">&nbsp;for typesetting</InlineColor>
+</Paragraph>
 <Equation
   block={true}
   katexString="\begin{'{'}CD}
@@ -68,7 +107,64 @@ A @>a>> B \\
 @VbVV @AAcA \\
 C @= D
 \end{'{'}CD}"
-/><Divider />
+/><ColumnList cols={5}
+  ><Column
+    ><Paragraph
+      blockProps={{
+        pageId: 'ef8517977d17431889a3ae09285cfef8',
+        id: '63990c55-ca4b-4fbe-b73d-0d89ea1e0f68',
+        created_time: '2022-01-28T22:48:00.000Z',
+        last_edited_time: '2022-01-28T22:48:00.000Z'
+      }}
+    />
+  </Column><Column
+    ><Paragraph
+      blockProps={{
+        pageId: 'ef8517977d17431889a3ae09285cfef8',
+        id: '768ee1e2-9b8d-4c4b-b473-1b538d61d30e',
+        created_time: '2022-01-28T22:49:00.000Z',
+        last_edited_time: '2022-01-28T22:49:00.000Z'
+      }}
+    />
+  </Column><Column
+    ><Paragraph
+      blockProps={{
+        pageId: 'ef8517977d17431889a3ae09285cfef8',
+        id: '04bc53f5-87c4-4e17-8238-88f45b1ec887',
+        created_time: '2022-01-28T22:48:00.000Z',
+        last_edited_time: '2022-01-28T22:49:00.000Z'
+      }}
+    >
+      🐁↑4🗿🥚
+    </Paragraph>
+  </Column><Column
+    ><Paragraph
+      blockProps={{
+        pageId: 'ef8517977d17431889a3ae09285cfef8',
+        id: '18a42ac7-119d-4f27-9034-4b0ca76c3217',
+        created_time: '2022-01-28T22:49:00.000Z',
+        last_edited_time: '2022-01-28T22:49:00.000Z'
+      }}
+    />
+  </Column><Column
+    ><Paragraph
+      blockProps={{
+        pageId: 'ef8517977d17431889a3ae09285cfef8',
+        id: 'faf008ef-2d7a-4636-815f-fd3f2e5c4214',
+        created_time: '2022-01-28T22:48:00.000Z',
+        last_edited_time: '2022-01-28T22:48:00.000Z'
+      }}
+    />
+  </Column></ColumnList
+><Paragraph
+  blockProps={{
+    pageId: 'ef8517977d17431889a3ae09285cfef8',
+    id: '27d68652-33ab-4179-b563-98554eee3c28',
+    created_time: '2022-01-28T22:48:00.000Z',
+    last_edited_time: '2022-01-28T22:48:00.000Z'
+  }}
+/>
+<Divider />
 <Header level={1}>Where to learn more</Header>
 <Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
 <BulletedListItem
@@ -161,7 +257,8 @@ C @= D
     <BulletedListItem><MagicLink href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/bulleted-list-item">BulletedListItem</MagicLink></BulletedListItem
+      ><MagicLink href="/components/bulleted-list-item">BulletedListItem</MagicLink
+      ></BulletedListItem
     >
     <BulletedListItem
       ><MagicLink href="/components/numbered-list-item">NumberedListItem</MagicLink

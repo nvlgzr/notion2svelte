@@ -30,9 +30,21 @@
 
 <Title>Code</Title>
 
-<Header level={1}><strong>In Notion</strong></Header>
+<Header level={1}>1. Notion original</Header>
 <Image url="/assets/components/code/a088f9b4-bf0f-4128-b80b-2cb5ce5a3536.png" />
-<Header level={1}><strong>Notion API (as of this writing)</strong></Header>
+<Header level={1}>2. Notion API</Header>
+<Paragraph
+  blockProps={{
+    pageId: '9a4f3d246b0c41228a8b91b6a3c40864',
+    id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
+    created_time: '2022-01-28T20:26:00.000Z',
+    last_edited_time: '2022-01-28T20:28:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].json</em></InlineColor
+  >
+</Paragraph>
 <Code
   code={`\{
   "object": "block",
@@ -68,7 +80,19 @@
 }`}
   language="javascript"
   caption=""
-/><Header level={1}><strong>Svelte output</strong></Header>
+/><Header level={1}>3. Svelte output</Header>
+<Paragraph
+  blockProps={{
+    pageId: '9a4f3d246b0c41228a8b91b6a3c40864',
+    id: '28871a46-c697-4500-b517-1c526797ab38',
+    created_time: '2022-01-28T20:32:00.000Z',
+    last_edited_time: '2022-01-28T20:32:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].svelte</em></InlineColor
+  >
+</Paragraph>
 <Code
   code={`<Code
   code=\{\`module HelloWorld exposing (..)
@@ -82,7 +106,20 @@ main =
 />`}
   language="html"
   caption=""
-/><Header level={1}><strong>Example Rendering</strong></Header>
+/><Header level={1}>4. Example rendering</Header>
+<Paragraph
+  blockProps={{
+    pageId: '9a4f3d246b0c41228a8b91b6a3c40864',
+    id: 'e40dcdc9-ae22-433a-a3ca-11a33ec5d9e1',
+    created_time: '2022-01-28T22:34:00.000Z',
+    last_edited_time: '2022-01-28T22:35:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Rendered by</InlineColor><MagicLink
+    href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Code.svelte"
+    ><InlineColor value="gray">Code.svelte</InlineColor></MagicLink
+  >
+</Paragraph>
 <Code
   code={`module HelloWorld exposing (..)
 
@@ -95,9 +132,9 @@ main =
 /><Paragraph
   blockProps={{
     pageId: '9a4f3d246b0c41228a8b91b6a3c40864',
-    id: 'e40dcdc9-ae22-433a-a3ca-11a33ec5d9e1',
+    id: '808b4254-50fb-4b2f-828c-0ac25b8a80f1',
     created_time: '2022-01-27T21:49:00.000Z',
-    last_edited_time: '2022-01-27T21:49:00.000Z'
+    last_edited_time: '2022-01-28T22:34:00.000Z'
   }}
 />
 <Divider />
@@ -193,7 +230,8 @@ main =
     <BulletedListItem><MagicLink href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/bulleted-list-item">BulletedListItem</MagicLink></BulletedListItem
+      ><MagicLink href="/components/bulleted-list-item">BulletedListItem</MagicLink
+      ></BulletedListItem
     >
     <BulletedListItem
       ><MagicLink href="/components/numbered-list-item">NumberedListItem</MagicLink
