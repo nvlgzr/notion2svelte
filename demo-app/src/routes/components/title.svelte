@@ -35,10 +35,10 @@
     pageId: '2011c59ae02b40b682f7ee828c3d51fe',
     id: '5db03761-ca67-415e-bc18-b27460fb36bb',
     created_time: '2022-01-27T22:52:00.000Z',
-    last_edited_time: '2022-01-27T22:53:00.000Z'
+    last_edited_time: '2022-01-28T23:35:00.000Z'
   }}
 >
-  ↑ That’s the page Title
+  That’s is the page Title ↑
 </Paragraph>
 <Paragraph
   blockProps={{
@@ -46,29 +46,6 @@
     id: '1d483a96-d4bc-4a24-991d-83599b279fec',
     created_time: '2022-01-27T22:53:00.000Z',
     last_edited_time: '2022-01-27T22:53:00.000Z'
-  }}
-/>
-<Callout emoji="💁🏼"
-  >You don’t have to include a title on every page. In fact, the title of this site’s&nbsp;<a
-    href="/about-notion2svelte">home page</a
-  >&nbsp;has no title.<span slot="children"
-    ><Paragraph
-      blockProps={{
-        pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-        id: 'd24b7f7f-3656-4c49-9c40-68b885b805b6',
-        created_time: '2022-01-27T22:56:00.000Z',
-        last_edited_time: '2022-01-27T23:00:00.000Z'
-      }}
-    >
-      Every page does, however, need a&nbsp;<a href="/rules-for-writing-good-slugs">slug</a>.
-    </Paragraph>
-  </span></Callout
-><Paragraph
-  blockProps={{
-    pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-    id: 'cab0f7f6-6990-49d1-86da-4e58d8e72d89',
-    created_time: '2022-01-27T23:00:00.000Z',
-    last_edited_time: '2022-01-27T23:00:00.000Z'
   }}
 />
 <ColumnList cols={2}
@@ -89,7 +66,7 @@
         pageId: '2011c59ae02b40b682f7ee828c3d51fe',
         id: '720820bd-da7c-4685-a1f6-04d472032992',
         created_time: '2022-01-27T23:02:00.000Z',
-        last_edited_time: '2022-01-27T23:04:00.000Z'
+        last_edited_time: '2022-01-28T23:38:00.000Z'
       }}
     >
       Since I’m building&nbsp;<em>notion2svelte&nbsp;</em>in the context of publishing written
@@ -100,6 +77,21 @@
   </Column><Column
     ><Image url="/assets/components/title/45f4b177-1575-412a-9686-36a88bc1602b.png" />
   </Column></ColumnList
+><Callout emoji="💁🏼"
+  >You don’t have to include a title on every page. In fact, the title of this site’s&nbsp;<a
+    href="/about-notion2svelte">home page</a
+  >&nbsp;has no title.<span slot="children"
+    ><Paragraph
+      blockProps={{
+        pageId: '2011c59ae02b40b682f7ee828c3d51fe',
+        id: 'd24b7f7f-3656-4c49-9c40-68b885b805b6',
+        created_time: '2022-01-27T22:56:00.000Z',
+        last_edited_time: '2022-01-27T23:00:00.000Z'
+      }}
+    >
+      Every page does, however, need a&nbsp;<a href="/rules-for-writing-good-slugs">slug</a>.
+    </Paragraph>
+  </span></Callout
 ><Header level={1}><strong>Notion API (as of this writing)</strong></Header>
 <Code
   code={`\{
@@ -147,8 +139,29 @@
   blockProps={{
     pageId: '2011c59ae02b40b682f7ee828c3d51fe',
     id: '7bae5cd5-b698-46e5-9a9a-f32d71760429',
+    created_time: '2022-01-28T23:12:00.000Z',
+    last_edited_time: '2022-01-28T23:12:00.000Z'
+  }}
+/>
+<Paragraph
+  blockProps={{
+    pageId: '2011c59ae02b40b682f7ee828c3d51fe',
+    id: 'da6e854f-8314-4104-a301-4622f0c24376',
+    created_time: '2022-01-28T23:12:00.000Z',
+    last_edited_time: '2022-01-28T23:12:00.000Z'
+  }}
+>
+  For the code used to render&nbsp;<em>this</em>&nbsp;page’s Title, see&nbsp;<MagicLink
+    href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Title.svelte"
+    >Title.svelte</MagicLink
+  >
+</Paragraph>
+<Paragraph
+  blockProps={{
+    pageId: '2011c59ae02b40b682f7ee828c3d51fe',
+    id: 'd3d1a805-183c-4d3a-a583-19513c753ee1',
     created_time: '2022-01-27T23:08:00.000Z',
-    last_edited_time: '2022-01-27T23:08:00.000Z'
+    last_edited_time: '2022-01-28T23:12:00.000Z'
   }}
 />
 <Divider />
@@ -244,7 +257,8 @@
     <BulletedListItem><MagicLink href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/bulleted-list-item">BulletedListItem</MagicLink></BulletedListItem
+      ><MagicLink href="/components/bulleted-list-item">BulletedListItem</MagicLink
+      ></BulletedListItem
     >
     <BulletedListItem
       ><MagicLink href="/components/numbered-list-item">NumberedListItem</MagicLink
