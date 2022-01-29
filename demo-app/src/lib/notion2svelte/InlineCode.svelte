@@ -2,7 +2,7 @@
   export let code = '';
 </script>
 
-<span><pre>{@html code}</pre></span>
+<span><code>{@html code}</code></span>
 
 <style>
   span {
@@ -14,7 +14,7 @@
     padding: 0.1rem 0.2rem 0.1rem 0.2rem;
   }
 
-  pre {
+  code {
     display: inline;
     background: hsl(300deg 66% 95%);
     color: inherit;
