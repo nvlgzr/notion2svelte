@@ -16,7 +16,7 @@
   import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
   import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
   import Equation from '$lib/notion2svelte/Equation.svelte';
-  import MagicLink from '$lib/notion2svelte/MagicLink.svelte';
+  import Link from '$lib/notion2svelte/Link.svelte';
   import NumberedListItem from '$lib/notion2svelte/NumberedListItem.svelte';
   import Paragraph from '$lib/notion2svelte/Paragraph.svelte';
   import Quote from '$lib/notion2svelte/Quote.svelte';
@@ -236,10 +236,10 @@
     last_edited_time: '2022-01-27T06:45:00.000Z'
   }}
 >
-  I hope you’ll give it&nbsp;<MagicLink href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
-    >a quick try</MagicLink
-  >&nbsp;and, if you’re feeling the vibe, let me know what you think in&nbsp;<MagicLink
-    href="https://github.com/nvlgzr/notion2svelte/discussions/1">the Discussions</MagicLink
+  I hope you’ll give it&nbsp;<Link href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
+    >a quick try</Link
+  >&nbsp;and, if you’re feeling the vibe, let me know what you think in&nbsp;<Link
+    href="https://github.com/nvlgzr/notion2svelte/discussions/1">the Discussions</Link
   >.
 </Paragraph>
 <Paragraph
@@ -526,7 +526,7 @@
       <em>Callout.svelte</em>
     </Paragraph>
     <Code
-      code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7Cg==">{}</script>
+      code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7Cg==" ✂prettier:content✂="e30=">{}</script>
 
 <div class="wrapper">
 	<div class="emoji">\{emoji}</div>
@@ -538,7 +538,7 @@
 	</div>
 </div>
 
-<style ✂prettier:content✂="Cgkud3JhcHBlciBcewoJCWJhY2tncm91bmQtY29sb3I6IHdoaXRlOwoJCWJvcmRlcjogMXB4IHNvbGlkICMzMzM7CgkJbWFyZ2luOiAxcmVtOwoJCXBhZGRpbmc6IDFyZW07CgkJYm9yZGVyLXJhZGl1czogMC41cmVtOwoJfQoKCS5lbW9qaSBcewoJCWZvbnQtc2l6ZTogMnJlbTsKCX0K"></style>`}
+<style ✂prettier:content✂="Cgkud3JhcHBlciBcewoJCWJhY2tncm91bmQtY29sb3I6IHdoaXRlOwoJCWJvcmRlcjogMXB4IHNvbGlkICMzMzM7CgkJbWFyZ2luOiAxcmVtOwoJCXBhZGRpbmc6IDFyZW07CgkJYm9yZGVyLXJhZGl1czogMC41cmVtOwoJfQoKCS5lbW9qaSBcewoJCWZvbnQtc2l6ZTogMnJlbTsKCX0K" ✂prettier:content✂=""></style>`}
       language="html"
       caption=""
     /><Paragraph
@@ -579,7 +579,7 @@
       <em>Callout.svelte</em>
     </Paragraph>
     <Code
-      code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7Cg==">{}</script>
+      code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7Cg==" ✂prettier:content✂="e30=">{}</script>
 
 <div class="wrapper">
 	<div class="emoji">\{emoji}</div>
@@ -591,7 +591,7 @@
 	</div>
 </div>
 
-<style ✂prettier:content✂="Cgkud3JhcHBlciBcewoJCWRpc3BsYXk6IGZsZXg7CgkJbWFyZ2luOiAxcmVtIDFyZW0gMnJlbSAwOwoJCXBhZGRpbmc6IDJyZW0gMnJlbSAwIDJyZW07CgkJZm9udDogMS4yNXJlbS8xLjVyZW0gJ0hlbHZldGljYSBOZXVlJywgSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsKCQliYWNrZ3JvdW5kLWNvbG9yOiBoc2woMTk4LCAxMDAlLCA5NyUpOwoJCWJvcmRlcjogNHB4IHNvbGlkIGhzbCgyMDYsIDg4JSwgNzAlKTsKCQlib3JkZXItcmFkaXVzOiAwLjVyZW07Cgl9CgkuY2FsbG91dCBcewoJCWRpc3BsYXk6IGJsb2NrOwoJfQoJLmVtb2ppIFx7CgkJbWFyZ2luLXJpZ2h0OiAwLjVlbTsKCQloZWlnaHQ6IDNyZW07CgkJd2lkdGg6IDNyZW07CgkJZm9udC1zaXplOiAzcmVtOwoJCWxpbmUtaGVpZ2h0OiAxLjE7Cgl9Cg=="></style>`}
+<style ✂prettier:content✂="Cgkud3JhcHBlciBcewoJCWRpc3BsYXk6IGZsZXg7CgkJbWFyZ2luOiAxcmVtIDFyZW0gMnJlbSAwOwoJCXBhZGRpbmc6IDJyZW0gMnJlbSAwIDJyZW07CgkJZm9udDogMS4yNXJlbS8xLjVyZW0gJ0hlbHZldGljYSBOZXVlJywgSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsKCQliYWNrZ3JvdW5kLWNvbG9yOiBoc2woMTk4LCAxMDAlLCA5NyUpOwoJCWJvcmRlcjogNHB4IHNvbGlkIGhzbCgyMDYsIDg4JSwgNzAlKTsKCQlib3JkZXItcmFkaXVzOiAwLjVyZW07Cgl9CgkuY2FsbG91dCBcewoJCWRpc3BsYXk6IGJsb2NrOwoJfQoJLmVtb2ppIFx7CgkJbWFyZ2luLXJpZ2h0OiAwLjVlbTsKCQloZWlnaHQ6IDNyZW07CgkJd2lkdGg6IDNyZW07CgkJZm9udC1zaXplOiAzcmVtOwoJCWxpbmUtaGVpZ2h0OiAxLjE7Cgl9Cg==" ✂prettier:content✂=""></style>`}
       language="html"
       caption=""
     /><Paragraph
@@ -654,7 +654,7 @@
       <em>Callout.svelte</em>
     </Paragraph>
     <Code
-      code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7CgoJZXhwb3J0IGxldCBvcGVuID0gZmFsc2U7Cg==">{}</script>
+      code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7CgoJZXhwb3J0IGxldCBvcGVuID0gZmFsc2U7Cg==" ✂prettier:content✂="e30=">{}</script>
 
 <div class="wrapper \{open ? 'open' : 'closed'}" on:click=\{() => (open = !open)}>
 	<div class="emoji">\{emoji}</div>
@@ -670,7 +670,7 @@
 	\{/if}
 </div>
 
-<style ✂prettier:content✂="Cgkud3JhcHBlciBcewoJCWRpc3BsYXk6IGZsZXg7CgkJbWFyZ2luOiAxcmVtIDFyZW0gMnJlbSAwOwoJCXBhZGRpbmc6IDJyZW0gMnJlbSAwIDJyZW07CgkJZm9udDogMS4yNXJlbS8xLjVyZW0gJ0hlbHZldGljYSBOZXVlJywgSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsKCQliYWNrZ3JvdW5kLWNvbG9yOiBoc2woMTk4LCAxMDAlLCA5NyUpOwoJCWJvcmRlcjogNHB4IHNvbGlkIGhzbCgyMDYsIDg4JSwgNzAlKTsKCQlib3JkZXItcmFkaXVzOiAwLjVyZW07Cgl9CgoJLmNsb3NlZCBcewoJCXdpZHRoOiA4cmVtOwoJfQoKCS5jYWxsb3V0IFx7CgkJZGlzcGxheTogYmxvY2s7Cgl9CgoJLmVtb2ppIFx7CgkJbWFyZ2luLXJpZ2h0OiAwLjVlbTsKCQloZWlnaHQ6IDNyZW07CgkJd2lkdGg6IDNyZW07CgkJZm9udC1zaXplOiAzcmVtOwoJCWxpbmUtaGVpZ2h0OiAxLjE7Cgl9Cg=="></style>`}
+<style ✂prettier:content✂="Cgkud3JhcHBlciBcewoJCWRpc3BsYXk6IGZsZXg7CgkJbWFyZ2luOiAxcmVtIDFyZW0gMnJlbSAwOwoJCXBhZGRpbmc6IDJyZW0gMnJlbSAwIDJyZW07CgkJZm9udDogMS4yNXJlbS8xLjVyZW0gJ0hlbHZldGljYSBOZXVlJywgSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsKCQliYWNrZ3JvdW5kLWNvbG9yOiBoc2woMTk4LCAxMDAlLCA5NyUpOwoJCWJvcmRlcjogNHB4IHNvbGlkIGhzbCgyMDYsIDg4JSwgNzAlKTsKCQlib3JkZXItcmFkaXVzOiAwLjVyZW07Cgl9CgoJLmNsb3NlZCBcewoJCXdpZHRoOiA4cmVtOwoJfQoKCS5jYWxsb3V0IFx7CgkJZGlzcGxheTogYmxvY2s7Cgl9CgoJLmVtb2ppIFx7CgkJbWFyZ2luLXJpZ2h0OiAwLjVlbTsKCQloZWlnaHQ6IDNyZW07CgkJd2lkdGg6IDNyZW07CgkJZm9udC1zaXplOiAzcmVtOwoJCWxpbmUtaGVpZ2h0OiAxLjE7Cgl9Cg==" ✂prettier:content✂=""></style>`}
       language="html"
       caption=""
     /></span
@@ -717,17 +717,17 @@
     last_edited_time: '2022-01-11T07:34:00.000Z'
   }}
 >
-  For now, the fastest way to get started is to follow along with the video tutorial,&nbsp;<MagicLink
+  For now, the fastest way to get started is to follow along with the video tutorial,&nbsp;<Link
     href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
-    ><strong>notion2svelte in 10 minutes</strong></MagicLink
+    ><strong>notion2svelte in 10 minutes</strong></Link
   >
 </Paragraph>
 <Divider />
 <Header level={1}>Where to learn more</Header>
 <Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
 <BulletedListItem
-  ><MagicLink href="https://github.com/nvlgzr/notion2svelte"
-    >https://github.com/nvlgzr/notion2svelte</MagicLink
+  ><Link href="https://github.com/nvlgzr/notion2svelte"
+    >https://github.com/nvlgzr/notion2svelte</Link
   ></BulletedListItem
 >
 <Header level={3}>Ready to try it?</Header>
@@ -739,9 +739,8 @@
     last_edited_time: '2022-01-27T05:11:00.000Z'
   }}
 >
-  Open your Terminal.app* and follow along to 👉🏿 “<MagicLink
-    href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
-    >notion2svelte in 10** minutes</MagicLink
+  Open your Terminal.app* and follow along to 👉🏿 “<Link
+    href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
   >”!
 </Paragraph>
 <IndentGroup>
@@ -756,8 +755,7 @@
     <InlineColor value="gray"
       >*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
       works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-    ><MagicLink href="https://fishshell.com/"
-      ><InlineColor value="gray">fish shell</InlineColor></MagicLink
+    ><Link href="https://fishshell.com/"><InlineColor value="gray">fish shell</InlineColor></Link
     ><InlineColor value="gray"
       >&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
       after all, so it should be pretty portable!</InlineColor
@@ -790,77 +788,55 @@
 <ColumnList cols={2}
   ><Column
     ><Header level={3}>High-level Discussion</Header>
-    <BulletedListItem><MagicLink href="/components">Components</MagicLink></BulletedListItem>
+    <BulletedListItem><Link href="/components">Components</Link></BulletedListItem>
     <BulletedListItem
-      ><MagicLink href="/rules-for-writing-good-slugs">Writing Good Slugs</MagicLink
-      ></BulletedListItem
+      ><Link href="/rules-for-writing-good-slugs">Writing Good Slugs</Link></BulletedListItem
     >
-    <BulletedListItem><MagicLink href="/block-props">blockProps</MagicLink></BulletedListItem>
-    <BulletedListItem
-      ><MagicLink href="/components/nested-blocks">Nested Blocks</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/synced-blocks">Synced Blocks</MagicLink></BulletedListItem
-    >
+    <BulletedListItem><Link href="/block-props">blockProps</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/nested-blocks">Nested Blocks</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/synced-blocks">Synced Blocks</Link></BulletedListItem>
     <Header level={3}>Turn-intoable Block Components</Header>
     <BulletedListItem
-      ><MagicLink href="/components/paragraph">Paragraph (aka “Text”)</MagicLink></BulletedListItem
+      ><Link href="/components/paragraph">Paragraph (aka “Text”)</Link></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/components/header">Header (3 types in 1!)</MagicLink></BulletedListItem
+      ><Link href="/components/header">Header (3 types in 1!)</Link></BulletedListItem
+    >
+    <BulletedListItem><Link href="/components/child-page">ChildPage</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/todo-item">TodoItem</Link></BulletedListItem>
+    <BulletedListItem
+      ><Link href="/components/bulleted-list-item">BulletedListItem</Link></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/components/child-page">ChildPage</MagicLink></BulletedListItem
+      ><Link href="/components/numbered-list-item">NumberedListItem</Link></BulletedListItem
     >
-    <BulletedListItem><MagicLink href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/bulleted-list-item">BulletedListItem</MagicLink
-      ></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/numbered-list-item">NumberedListItem</MagicLink
-      ></BulletedListItem
-    >
-    <BulletedListItem><MagicLink href="/components/toggle">Toggle</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/code">Code</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/quote">Quote</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/callout">Callout</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/equation">Equation</MagicLink></BulletedListItem>
+    <BulletedListItem><Link href="/components/toggle">Toggle</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/code">Code</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/quote">Quote</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/callout">Callout</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/equation">Equation</Link></BulletedListItem>
     <BulletedListItem
       >Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
       ></BulletedListItem
     >
   </Column><Column
     ><Header level={3}>Layout-only Components</Header>
+    <BulletedListItem><Link href="/components/indent-group">IndentGroup</Link></BulletedListItem>
     <BulletedListItem
-      ><MagicLink href="/components/indent-group">IndentGroup</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/columns">Column & ColumnList</MagicLink>&nbsp;</BulletedListItem
+      ><Link href="/components/columns">Column & ColumnList</Link>&nbsp;</BulletedListItem
     >
     <Header level={3}>Page-level Components</Header>
-    <BulletedListItem
-      ><MagicLink href="/components/title">Title (aka Name)</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/cover">Cover (Image & Icon)</MagicLink></BulletedListItem
-    >
+    <BulletedListItem><Link href="/components/title">Title (aka Name)</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/cover">Cover (Image & Icon)</Link></BulletedListItem>
     <Header level={3}>Annotation Components</Header>
-    <BulletedListItem
-      ><MagicLink href="/components/inline-code">InlineCode</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/inline-color">InlineColor</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/internal-link">InternalLink</MagicLink></BulletedListItem
-    >
-    <BulletedListItem><MagicLink href="/components/equation">Equation</MagicLink></BulletedListItem>
+    <BulletedListItem><Link href="/components/inline-code">InlineCode</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/inline-color">InlineColor</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/internal-link">InternalLink</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/equation">Equation</Link></BulletedListItem>
     <Header level={3}>Other Components</Header>
-    <BulletedListItem><MagicLink href="/components/divider">Divider</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/embed">Embed</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/image">Image</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/error">Error</MagicLink></BulletedListItem>
+    <BulletedListItem><Link href="/components/divider">Divider</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/embed">Embed</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/image">Image</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/error">Error</Link></BulletedListItem>
   </Column></ColumnList
 >

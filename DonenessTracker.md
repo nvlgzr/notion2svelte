@@ -34,7 +34,7 @@
     - InlineCode
     - InlineColor
     - Magic
-    - MagicLink
+    - Link
     - NumberedListItem
     - Paragraph
     - Portal

@@ -17,7 +17,7 @@
   import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
   import Equation from '$lib/notion2svelte/Equation.svelte';
   import Magic from '$lib/notion2svelte/Magic.svelte';
-  import MagicLink from '$lib/notion2svelte/MagicLink.svelte';
+  import Link from '$lib/notion2svelte/Link.svelte';
   import NumberedListItem from '$lib/notion2svelte/NumberedListItem.svelte';
   import Paragraph from '$lib/notion2svelte/Paragraph.svelte';
   import Quote from '$lib/notion2svelte/Quote.svelte';

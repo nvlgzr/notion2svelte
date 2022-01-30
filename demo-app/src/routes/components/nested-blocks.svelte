@@ -16,7 +16,7 @@
   import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
   import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
   import Equation from '$lib/notion2svelte/Equation.svelte';
-  import MagicLink from '$lib/notion2svelte/MagicLink.svelte';
+  import Link from '$lib/notion2svelte/Link.svelte';
   import NumberedListItem from '$lib/notion2svelte/NumberedListItem.svelte';
   import Paragraph from '$lib/notion2svelte/Paragraph.svelte';
   import Quote from '$lib/notion2svelte/Quote.svelte';
@@ -75,7 +75,7 @@
     last_edited_time: '2022-01-26T05:03:00.000Z'
   }}
 >
-  Indenting’s handled by the&nbsp;<MagicLink href="/components/indent-group">IndentGroup</MagicLink
+  Indenting’s handled by the&nbsp;<Link href="/components/indent-group">IndentGroup</Link
   >&nbsp;component, which is wrapped around every group of sub-blocks…hence the name.
 </Paragraph>
 <Paragraph
@@ -102,7 +102,7 @@
 <br />
 </em></InlineColor><em>
 <br />
-</em>*Sigh.&nbsp;<em>notion2svelte</em>&nbsp;has some issues, in part thanks to its (mis?)use of Prettier, with certain uses of angle brackets, hence the space before “style”.&nbsp;<MagicLink href='https://github.com/nvlgzr/notion2svelte/discussions'>Message me</MagicLink>&nbsp;if you have some thoughts on how to completely crush this class of bugs as it’s doing my head in. 😬"
+</em>*Sigh.&nbsp;<em>notion2svelte</em>&nbsp;has some issues, in part thanks to its (mis?)use of Prettier, with certain uses of angle brackets, hence the space before “style”.&nbsp;<Link href='https://github.com/nvlgzr/notion2svelte/discussions'>Message me</Link>&nbsp;if you have some thoughts on how to completely crush this class of bugs as it’s doing my head in. 😬"
   />
 </IndentGroup>
 <Paragraph
@@ -113,9 +113,9 @@
     last_edited_time: '2022-01-27T07:08:00.000Z'
   }}
 >
-  This simple implementation is literally all you need to nest&nbsp;<MagicLink
+  This simple implementation is literally all you need to nest&nbsp;<Link
     href="http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html"
-    >All the Things™</MagicLink
+    >All the Things™</Link
   >!
 </Paragraph>
 <Paragraph
@@ -127,8 +127,8 @@
   }}
 />
 <Callout emoji="🦦"
-  >To jump start your components (including your IndentGroup component), check out:&nbsp;<MagicLink
-    href="https://github.com/nvlgzr/n2s-starter-components">n2s Starter Components</MagicLink
+  >To jump start your components (including your IndentGroup component), check out:&nbsp;<Link
+    href="https://github.com/nvlgzr/n2s-starter-components">n2s Starter Components</Link
   >.</Callout
 ><Paragraph
   blockProps={{
@@ -142,8 +142,8 @@
 <Header level={1}>Where to learn more</Header>
 <Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
 <BulletedListItem
-  ><MagicLink href="https://github.com/nvlgzr/notion2svelte"
-    >https://github.com/nvlgzr/notion2svelte</MagicLink
+  ><Link href="https://github.com/nvlgzr/notion2svelte"
+    >https://github.com/nvlgzr/notion2svelte</Link
   ></BulletedListItem
 >
 <Header level={3}>Ready to try it?</Header>
@@ -155,9 +155,8 @@
     last_edited_time: '2022-01-27T05:11:00.000Z'
   }}
 >
-  Open your Terminal.app* and follow along to 👉🏿 “<MagicLink
-    href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
-    >notion2svelte in 10** minutes</MagicLink
+  Open your Terminal.app* and follow along to 👉🏿 “<Link
+    href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
   >”!
 </Paragraph>
 <IndentGroup>
@@ -172,8 +171,7 @@
     <InlineColor value="gray"
       >*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
       works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-    ><MagicLink href="https://fishshell.com/"
-      ><InlineColor value="gray">fish shell</InlineColor></MagicLink
+    ><Link href="https://fishshell.com/"><InlineColor value="gray">fish shell</InlineColor></Link
     ><InlineColor value="gray"
       >&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
       after all, so it should be pretty portable!</InlineColor
@@ -206,78 +204,56 @@
 <ColumnList cols={2}
   ><Column
     ><Header level={3}>High-level Discussion</Header>
-    <BulletedListItem><MagicLink href="/components">Components</MagicLink></BulletedListItem>
+    <BulletedListItem><Link href="/components">Components</Link></BulletedListItem>
     <BulletedListItem
-      ><MagicLink href="/rules-for-writing-good-slugs">Writing Good Slugs</MagicLink
-      ></BulletedListItem
+      ><Link href="/rules-for-writing-good-slugs">Writing Good Slugs</Link></BulletedListItem
     >
-    <BulletedListItem><MagicLink href="/block-props">blockProps</MagicLink></BulletedListItem>
-    <BulletedListItem
-      ><MagicLink href="/components/nested-blocks">Nested Blocks</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/synced-blocks">Synced Blocks</MagicLink></BulletedListItem
-    >
+    <BulletedListItem><Link href="/block-props">blockProps</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/nested-blocks">Nested Blocks</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/synced-blocks">Synced Blocks</Link></BulletedListItem>
     <Header level={3}>Turn-intoable Block Components</Header>
     <BulletedListItem
-      ><MagicLink href="/components/paragraph">Paragraph (aka “Text”)</MagicLink></BulletedListItem
+      ><Link href="/components/paragraph">Paragraph (aka “Text”)</Link></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/components/header">Header (3 types in 1!)</MagicLink></BulletedListItem
+      ><Link href="/components/header">Header (3 types in 1!)</Link></BulletedListItem
+    >
+    <BulletedListItem><Link href="/components/child-page">ChildPage</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/todo-item">TodoItem</Link></BulletedListItem>
+    <BulletedListItem
+      ><Link href="/components/bulleted-list-item">BulletedListItem</Link></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/components/child-page">ChildPage</MagicLink></BulletedListItem
+      ><Link href="/components/numbered-list-item">NumberedListItem</Link></BulletedListItem
     >
-    <BulletedListItem><MagicLink href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/bulleted-list-item">BulletedListItem</MagicLink
-      ></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/numbered-list-item">NumberedListItem</MagicLink
-      ></BulletedListItem
-    >
-    <BulletedListItem><MagicLink href="/components/toggle">Toggle</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/code">Code</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/quote">Quote</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/callout">Callout</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/equation">Equation</MagicLink></BulletedListItem>
+    <BulletedListItem><Link href="/components/toggle">Toggle</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/code">Code</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/quote">Quote</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/callout">Callout</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/equation">Equation</Link></BulletedListItem>
     <BulletedListItem
       >Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
       ></BulletedListItem
     >
   </Column><Column
     ><Header level={3}>Layout-only Components</Header>
+    <BulletedListItem><Link href="/components/indent-group">IndentGroup</Link></BulletedListItem>
     <BulletedListItem
-      ><MagicLink href="/components/indent-group">IndentGroup</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/columns">Column & ColumnList</MagicLink>&nbsp;</BulletedListItem
+      ><Link href="/components/columns">Column & ColumnList</Link>&nbsp;</BulletedListItem
     >
     <Header level={3}>Page-level Components</Header>
-    <BulletedListItem
-      ><MagicLink href="/components/title">Title (aka Name)</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/cover">Cover (Image & Icon)</MagicLink></BulletedListItem
-    >
+    <BulletedListItem><Link href="/components/title">Title (aka Name)</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/cover">Cover (Image & Icon)</Link></BulletedListItem>
     <Header level={3}>Annotation Components</Header>
-    <BulletedListItem
-      ><MagicLink href="/components/inline-code">InlineCode</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/inline-color">InlineColor</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/internal-link">InternalLink</MagicLink></BulletedListItem
-    >
-    <BulletedListItem><MagicLink href="/components/equation">Equation</MagicLink></BulletedListItem>
+    <BulletedListItem><Link href="/components/inline-code">InlineCode</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/inline-color">InlineColor</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/internal-link">InternalLink</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/equation">Equation</Link></BulletedListItem>
     <Header level={3}>Other Components</Header>
-    <BulletedListItem><MagicLink href="/components/divider">Divider</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/embed">Embed</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/image">Image</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/error">Error</MagicLink></BulletedListItem>
+    <BulletedListItem><Link href="/components/divider">Divider</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/embed">Embed</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/image">Image</Link></BulletedListItem>
+    <BulletedListItem><Link href="/components/error">Error</Link></BulletedListItem>
   </Column></ColumnList
 ><Paragraph
   blockProps={{
