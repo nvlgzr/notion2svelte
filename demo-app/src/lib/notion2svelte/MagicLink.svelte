@@ -1,9 +1,14 @@
 <script>
+  export let type = 'absolute'; // | 'mention' | 'alias'
   export let href = '#';
-  export let internal = false;
 </script>
 
-<a {href} class:internal><slot /></a>
+<a
+  {href}
+  class:mention={type === 'mention'}
+  class:alias={type === 'alias'}
+  class:absolute={type === 'absolute'}><slot /></a
+>
 
 <style>
   /* Link styles largely cribbed from Matthew Butterick ↓ */
@@ -27,7 +32,6 @@
   }
   a:after {
     position: relative;
-    content: '\FEFF°';
     margin-right: 0.1rem;
     font-size: 90%;
     top: -0.1em;
@@ -35,19 +39,53 @@
     font-feature-settings: 'caps';
     font-variant-numeric: normal;
   }
-  a.internal,
-  a.internal:before,
-  a.internal:after,
-  a:hover.internal,
-  a:hover.internal:before,
-  a:hover.internal:after {
+  a.mention:before,
+  a.mention:after,
+  a:hover.mention,
+  a:hover.mention:before,
+  a:hover.mention:after {
+    color: hsl(190, 33%, 46%);
+    transition-property: background;
+    transition-duration: 0.2s;
+    border-radius: 0.1rem;
+  }
+  a:hover.mention {
+    background: hsl(190, 70%, 91%);
+  }
+  a.mention::after,
+  a.alias::after {
+    content: '\FEFF°';
+  }
+
+  a.alias:before,
+  a.alias:after,
+  a:hover.alias,
+  a:hover.alias:before,
+  a:hover.alias:after {
     color: hsl(310, 33%, 46%);
     transition-property: background;
     transition-duration: 0.2s;
     border-radius: 0.1rem;
   }
-  a:hover.internal {
+  a:hover.alias {
     background: hsl(310, 70%, 91%);
+  }
+
+  a.absolute:before,
+  a.absolute:after,
+  a:hover.absolute,
+  a:hover.absolute:before,
+  a:hover.absolute:after {
+    color: hsl(70, 33%, 46%);
+    transition-property: background;
+    transition-duration: 0.2s;
+    border-radius: 0.1rem;
+  }
+  a:hover.absolute {
+    background: hsl(70, 70%, 91%);
+  }
+  a.absolute::after {
+    content: '\FEFFª';
   }
 
   a:visited {

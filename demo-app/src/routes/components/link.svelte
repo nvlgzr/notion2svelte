@@ -30,6 +30,12 @@
 
 <Title>Link</Title>
 
+<Paragraph>
+  <MagicLink type="mention" href="/foob">Writing Sood Glugs</MagicLink>
+  <MagicLink type="alias" href="/foob">Writing Sood Glugs</MagicLink>
+  <MagicLink type="absolute" href="/foob">Writing Sood Glugs</MagicLink>
+</Paragraph>
+
 <Header level={1}>1. Notion original</Header>
 <Image url="/assets/components/link/50b8f6b3-f2aa-47f5-bf05-b5b59183d3ce.png"
   >Note how Notion gives the external link a slightly slimmer font weight</Image
@@ -126,68 +132,97 @@
     pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
     id: '64d8f7b1-a938-4124-8da8-fdf1536c49a5',
     created_time: '2022-01-30T10:07:00.000Z',
-    last_edited_time: '2022-01-30T10:08:00.000Z'
+    last_edited_time: '2022-01-30T22:43:00.000Z'
   }}
 >
-  Some details to call out from these examples
+  Without even getting into bookmarks and user mentions, et al, things are already kinda complex:
 </Paragraph>
 <BulletedListItem>We have 2 types of object but 3 different styles of link!</BulletedListItem>
 <IndentGroup>
-  <BulletedListItem>Types</BulletedListItem>
+  <BulletedListItem><InlineCode code={'type:mention'} /></BulletedListItem>
   <IndentGroup>
-    <BulletedListItem><InlineCode code={'type:mention'} /></BulletedListItem>
+    <BulletedListItem>1 link style</BulletedListItem>
     <IndentGroup>
-      <BulletedListItem>Link styles</BulletedListItem>
-      <IndentGroup>
-        <BulletedListItem>@mention</BulletedListItem>
-      </IndentGroup>
-    </IndentGroup>
-    <BulletedListItem
-      ><InlineCode code={'text'} />&nbsp;+<InlineCode code={'url'} /></BulletedListItem
-    >
-    <IndentGroup>
-      <BulletedListItem>Link styles</BulletedListItem>
-      <IndentGroup>
-        <BulletedListItem
-          >relative root (starts with&nbsp;<InlineCode code={'/'} />)</BulletedListItem
-        >
-        <BulletedListItem>full url (what I call external)</BulletedListItem>
-      </IndentGroup>
+      <BulletedListItem><em>page mention</em></BulletedListItem>
     </IndentGroup>
   </IndentGroup>
+  <BulletedListItem><InlineCode code={'text'} />+<InlineCode code={'url'} /></BulletedListItem>
+  <IndentGroup>
+    <BulletedListItem>2 link styles</BulletedListItem>
+    <IndentGroup>
+      <BulletedListItem
+        ><em>relative to root</em>&nbsp;(starts with&nbsp;<InlineCode
+          code={'/'}
+        />)</BulletedListItem
+      >
+      <BulletedListItem
+        ><em>absolute</em>&nbsp;(starts with protocol: http, mailto, et al)</BulletedListItem
+      >
+    </IndentGroup>
+  </IndentGroup>
+  <Toggle
+    >How&nbsp;<em>notion2svelte</em>&nbsp;handles this
+    <span slot="children"
+      ><Paragraph
+        blockProps={{
+          pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
+          id: 'fb5d474c-0abe-43a2-b703-fe71fdd13992',
+          created_time: '2022-01-30T23:23:00.000Z',
+          last_edited_time: '2022-01-30T23:23:00.000Z'
+        }}
+      >
+        I may be misinterpreting the distinction between the two text+url link types, but this
+        doesn’t really matter. What matters is that Notion has demonstrated in their own UI that
+        these two link styles can be treated differently — even if the only difference is a slight
+        shift in font-weight — and so there’s no reason we can’t consider a similar option.
+      </Paragraph>
+      <Paragraph
+        blockProps={{
+          pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
+          id: 'aa9ef751-6fb0-4964-9ff4-97ec5331f0dc',
+          created_time: '2022-01-30T23:19:00.000Z',
+          last_edited_time: '2022-01-30T23:23:00.000Z'
+        }}
+      >
+        Of course, if you want to go the other way, nothing’s stopping you from ignoring the&nbsp;<InlineCode
+          code={'type'}
+        />&nbsp;prop in your Link component:
+      </Paragraph>
+      <Code
+        code={`<script ✂prettier:content✂="CiAgZXhwb3J0IGxldCB1cmw7Cg==" ✂prettier:content✂="e30=" ✂prettier:content✂="e30=" ✂prettier:content✂="e30=">{}</script>
+
+<a href=\{url}><slot/></a>`}
+        language="html"
+        caption="The minimum Link.svelte"
+      /></span
+    ></Toggle
+  >
+</IndentGroup>
+<BulletedListItem>There’s duplicate data:</BulletedListItem>
+<IndentGroup>
+  <BulletedListItem
+    >As far as I can tell,&nbsp;<InlineCode code={'text[n].text.link.url'} />&nbsp;is&nbsp;<em
+      >always</em
+    >&nbsp;identical to the adjacent&nbsp;<InlineCode code={'text[n].href'} /></BulletedListItem
+  >
+  <BulletedListItem
+    ><InlineCode code={'text[n].mention.page.id'} />&nbsp;is just&nbsp;<InlineCode
+      code={'text[n].href'}
+    />&nbsp;without the host —&nbsp;<em>https://www.notion.so/</em>&nbsp;— sliced off</BulletedListItem
+  >
   <Paragraph
     blockProps={{
       pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
-      id: '56812019-511b-42ad-9822-954e6fd0792f',
-      created_time: '2022-01-30T10:16:00.000Z',
-      last_edited_time: '2022-01-30T10:18:00.000Z'
+      id: '2271926f-ea39-46d2-bd8e-f721e99bbb2c',
+      created_time: '2022-01-30T23:25:00.000Z',
+      last_edited_time: '2022-01-30T23:34:00.000Z'
     }}
   >
-    I suspect this situation is the result of some more general structure needed to accommodate
-    Turn-intoable blocks, but maybe it’s just an oversight when they coukd have&nbsp;
+    <em>notion2svelte</em>&nbsp;reduces these duplications to a single&nbsp;<InlineCode
+      code={'href'}
+    />&nbsp;prop.
   </Paragraph>
 </IndentGroup>
-<BulletedListItem
-  ><InlineCode code={'text[n].mention.page.id'} />&nbsp;is just&nbsp;<InlineCode
-    code={'text[n].href'}
-  />&nbsp;minus the&nbsp;<MagicLink href="https://www.notion.so/"
-    ><em>https://www.notion.so/</em></MagicLink
-  >&nbsp;and, as far as I can tell,&nbsp;<InlineCode
-    code={'text[n].text.link.url'}
-  />&nbsp;is&nbsp;<em>always</em>&nbsp;identical to the adjacent&nbsp;<InlineCode
-    code={'text[n].href'}
-  />.</BulletedListItem
->
-<Paragraph
-  blockProps={{
-    pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
-    id: '0441ce53-3338-473e-9dd6-62e89636129c',
-    created_time: '2022-01-30T07:50:00.000Z',
-    last_edited_time: '2022-01-30T07:51:00.000Z'
-  }}
->
-  <em>notion2svelte</em>&nbsp;reduces these duplications.
-</Paragraph>
 <Header level={1}>3. Svelte output</Header>
 <Paragraph
   blockProps={{
@@ -206,7 +241,7 @@
   Internal page mention
 …
 <BulletedListItem>
-  <Link type="internal" href="/rules-for-writing-good-slugs">
+  <Link type="mention" href="/rules-for-writing-good-slugs">
     Writing Good Slugs
   </Link>
 </BulletedListItem>
@@ -227,16 +262,8 @@
     </Link>
 </BulletedListItem>`}
   language="html"
-  caption="The&nbsp;<em>type</em>&nbsp;prop can be either&nbsp;<em>internal</em>&nbsp;or&nbsp;<em>external</em>. The slot content&nbsp;"
-/><Paragraph
-  blockProps={{
-    pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
-    id: '2a334aad-3ce2-406e-8f51-eba57ef1e5e0',
-    created_time: '2022-01-30T08:11:00.000Z',
-    last_edited_time: '2022-01-30T08:11:00.000Z'
-  }}
-/>
-<Header level={1}>4. Example rendering</Header>
+  caption="&nbsp;"
+/><Header level={1}>4. Example rendering</Header>
 <Paragraph
   blockProps={{
     pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
@@ -269,7 +296,8 @@
   <strong>Internal page mention</strong>
 </Paragraph>
 <BulletedListItem
-  ><MagicLink href="/rules-for-writing-good-slugs">Writing Good Slugs</MagicLink></BulletedListItem
+  ><MagicLink type="mention" href="/rules-for-writing-good-slugs">Writing Good Slugs</MagicLink
+  ></BulletedListItem
 >
 <Paragraph
   blockProps={{
@@ -281,7 +309,10 @@
 >
   <strong>Internal alias</strong>
 </Paragraph>
-<BulletedListItem><a href="/rules-for-writing-good-slugs">Writing Good Snails</a></BulletedListItem>
+<BulletedListItem
+  ><MagicLink type="alias" href="/rules-for-writing-good-slugs">Writing Good Snails</MagicLink
+  ></BulletedListItem
+>
 <Paragraph
   blockProps={{
     pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
@@ -293,7 +324,7 @@
   <strong>External link</strong>
 </Paragraph>
 <BulletedListItem
-  ><MagicLink href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
+  ><MagicLink type="absolute" href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
     >Writing Good Puppy Dog Tales</MagicLink
   ></BulletedListItem
 >
@@ -319,13 +350,15 @@
       Notion’s handling of links is buggy. Specifically, as soon as you start applying styles
       to&nbsp;<em>parts</em>&nbsp;of the link, you suddenly end up with&nbsp;<em
         >more than one link</em
-      >! Don’t believe me? Follow along by opening this page’s&nbsp;<a href="/components/link"
-        >original in Notion</a
+      >! Don’t believe me? Follow along by opening this page’s&nbsp;<MagicLink
+        type="alias"
+        href="/components/link">original in Notion</MagicLink
       >, and inspect the raw source these example links ↓
     </Paragraph>
     <NumberedListItem number="1">
-      Let’s begin with our&nbsp;<em>internal alias</em>&nbsp;example:&nbsp;<a
-        href="/rules-for-writing-good-slugs">Writing Good Snails</a
+      Let’s begin with our&nbsp;<em>internal alias</em>&nbsp;example:&nbsp;<MagicLink
+        type="alias"
+        href="/rules-for-writing-good-slugs">Writing Good Snails</MagicLink
       >. Stripping Notion’s HTML to its structural bones, we see that this link is rendered as:</NumberedListItem
     >
     <IndentGroup>
@@ -341,11 +374,12 @@
       </Paragraph>
     </IndentGroup>
     <NumberedListItem number="2">
-      Now let’s add some internal emphasis:&nbsp;<a href="/rules-for-writing-good-slugs"
-        >Writing&nbsp;</a
-      ><a href="/rules-for-writing-good-slugs"><em>Great!</em></a><a
-        href="/rules-for-writing-good-slugs">&nbsp;Snails</a
-      >. In Notion, this still appears, at first glance, to be a single link because the underlines
+      Now let’s add some internal emphasis:&nbsp;<MagicLink
+        type="alias"
+        href="/rules-for-writing-good-slugs">Writing&nbsp;</MagicLink
+      ><MagicLink type="alias" href="/rules-for-writing-good-slugs"><em>Great!</em></MagicLink
+      ><MagicLink type="alias" href="/rules-for-writing-good-slugs">&nbsp;Snails</MagicLink>. In
+      Notion, this still appears, at first glance, to be a single link because the underlines
       touch.font</NumberedListItem
     >
     <IndentGroup>
@@ -432,19 +466,26 @@
       }}
     />
     <BulletedListItem
-      >Internal alias with styled text:&nbsp;<a href="/rules-for-writing-good-slugs"
-        >Writing&nbsp;</a
-      ><a href="/rules-for-writing-good-slugs"><InlineColor value="red">Great!</InlineColor></a><a
-        href="/rules-for-writing-good-slugs">&nbsp;Snails</a
+      >Internal alias with styled text:&nbsp;<MagicLink
+        type="alias"
+        href="/rules-for-writing-good-slugs">Writing&nbsp;</MagicLink
+      ><MagicLink type="alias" href="/rules-for-writing-good-slugs"
+        ><InlineColor value="red">Great!</InlineColor></MagicLink
+      ><MagicLink type="alias" href="/rules-for-writing-good-slugs">&nbsp;Snails</MagicLink
       ></BulletedListItem
     >
     <BulletedListItem
       >External link with styled text:&nbsp;<MagicLink
+        type="absolute"
         href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
         >Writing&nbsp;</MagicLink
-      ><MagicLink href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
+      ><MagicLink
+        type="absolute"
+        href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
         ><InlineColor value="red">Great!</InlineColor></MagicLink
-      ><MagicLink href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
+      ><MagicLink
+        type="absolute"
+        href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
         >&nbsp;Puppy Dog Tales</MagicLink
       ></BulletedListItem
     >
@@ -457,6 +498,7 @@
       }}
     >
       Thanks to multiplying links, my choice to emulate&nbsp;<MagicLink
+        type="absolute"
         href="https://practicaltypography.com/free-fonts.html">Matthew Butterick’s</MagicLink
       >&nbsp;links — removing all special formatting from links except for a cheeky little º in
       the&nbsp;<InlineCode code={'a::after'} />&nbsp;styles — comes off suddenly looking more
@@ -483,7 +525,7 @@
 <Header level={1}>Where to learn more</Header>
 <Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
 <BulletedListItem
-  ><MagicLink href="https://github.com/nvlgzr/notion2svelte"
+  ><MagicLink type="absolute" href="https://github.com/nvlgzr/notion2svelte"
     >https://github.com/nvlgzr/notion2svelte</MagicLink
   ></BulletedListItem
 >
@@ -497,6 +539,7 @@
   }}
 >
   Open your Terminal.app* and follow along to 👉🏿 “<MagicLink
+    type="absolute"
     href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
     >notion2svelte in 10** minutes</MagicLink
   >”!
@@ -513,7 +556,7 @@
     <InlineColor value="gray"
       >*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
       works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-    ><MagicLink href="https://fishshell.com/"
+    ><MagicLink type="absolute" href="https://fishshell.com/"
       ><InlineColor value="gray">fish shell</InlineColor></MagicLink
     ><InlineColor value="gray"
       >&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
@@ -543,47 +586,70 @@
   />
 </IndentGroup>
 <Divider />
-<Header level={2}>Browse the docs ⚘&nbsp;<a href="/about-notion2svelte">🏠</a>&nbsp;</Header>
+<Header level={2}
+  >Browse the docs ⚘&nbsp;<MagicLink type="alias" href="/about-notion2svelte">🏠</MagicLink
+  >&nbsp;</Header
+>
 <ColumnList cols={2}
   ><Column
     ><Header level={3}>High-level Discussion</Header>
-    <BulletedListItem><MagicLink href="/components">Components</MagicLink></BulletedListItem>
     <BulletedListItem
-      ><MagicLink href="/rules-for-writing-good-slugs">Writing Good Slugs</MagicLink
+      ><MagicLink type="mention" href="/components">Components</MagicLink></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/rules-for-writing-good-slugs">Writing Good Slugs</MagicLink
       ></BulletedListItem
     >
-    <BulletedListItem><MagicLink href="/block-props">blockProps</MagicLink></BulletedListItem>
     <BulletedListItem
-      ><MagicLink href="/components/nested-blocks">Nested Blocks</MagicLink></BulletedListItem
+      ><MagicLink type="mention" href="/block-props">blockProps</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/components/synced-blocks">Synced Blocks</MagicLink></BulletedListItem
+      ><MagicLink type="mention" href="/components/nested-blocks">Nested Blocks</MagicLink
+      ></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/synced-blocks">Synced Blocks</MagicLink
+      ></BulletedListItem
     >
     <Header level={3}>Turn-intoable Block Components</Header>
     <BulletedListItem
-      ><MagicLink href="/components/paragraph">Paragraph (aka “Text”)</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/header">Header (3 types in 1!)</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/child-page">ChildPage</MagicLink></BulletedListItem
-    >
-    <BulletedListItem><MagicLink href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
-    >
-    <BulletedListItem
-      ><MagicLink href="/components/bulleted-list-item">BulletedListItem</MagicLink
+      ><MagicLink type="mention" href="/components/paragraph">Paragraph (aka “Text”)</MagicLink
       ></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/components/numbered-list-item">NumberedListItem</MagicLink
+      ><MagicLink type="mention" href="/components/header">Header (3 types in 1!)</MagicLink
       ></BulletedListItem
     >
-    <BulletedListItem><MagicLink href="/components/toggle">Toggle</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/code">Code</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/quote">Quote</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/callout">Callout</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/equation">Equation</MagicLink></BulletedListItem>
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/child-page">ChildPage</MagicLink
+      ></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/bulleted-list-item">BulletedListItem</MagicLink
+      ></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/numbered-list-item">NumberedListItem</MagicLink
+      ></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/toggle">Toggle</MagicLink></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/code">Code</MagicLink></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/quote">Quote</MagicLink></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/callout">Callout</MagicLink></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/equation">Equation</MagicLink></BulletedListItem
+    >
     <BulletedListItem
       >Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
       ></BulletedListItem
@@ -591,17 +657,21 @@
   </Column><Column
     ><Header level={3}>Layout-only Components</Header>
     <BulletedListItem
-      ><MagicLink href="/components/indent-group">IndentGroup</MagicLink></BulletedListItem
+      ><MagicLink type="mention" href="/components/indent-group">IndentGroup</MagicLink
+      ></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/components/columns">Column & ColumnList</MagicLink>&nbsp;</BulletedListItem
+      ><MagicLink type="mention" href="/components/columns">Column & ColumnList</MagicLink
+      >&nbsp;</BulletedListItem
     >
     <Header level={3}>Page-level Components</Header>
     <BulletedListItem
-      ><MagicLink href="/components/title">Title (aka Name)</MagicLink></BulletedListItem
+      ><MagicLink type="mention" href="/components/title">Title (aka Name)</MagicLink
+      ></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/components/cover">Cover (Image & Icon)</MagicLink></BulletedListItem
+      ><MagicLink type="mention" href="/components/cover">Cover (Image & Icon)</MagicLink
+      ></BulletedListItem
     >
     <Header level={3}>Annotation Components</Header>
     <BulletedListItem
@@ -617,18 +687,32 @@
       ><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/components/inline-code">InlineCode</MagicLink></BulletedListItem
+      ><MagicLink type="mention" href="/components/inline-code">InlineCode</MagicLink
+      ></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/components/inline-color">InlineColor</MagicLink></BulletedListItem
+      ><MagicLink type="mention" href="/components/inline-color">InlineColor</MagicLink
+      ></BulletedListItem
     >
-    <BulletedListItem><MagicLink href="/components/link">Link</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/equation">Equation</MagicLink></BulletedListItem>
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/link">Link</MagicLink></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/equation">Equation</MagicLink></BulletedListItem
+    >
     <Header level={3}>Other Components</Header>
-    <BulletedListItem><MagicLink href="/components/divider">Divider</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/embed">Embed</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/image">Image</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/error">Error</MagicLink></BulletedListItem>
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/divider">Divider</MagicLink></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/embed">Embed</MagicLink></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/image">Image</MagicLink></BulletedListItem
+    >
+    <BulletedListItem
+      ><MagicLink type="mention" href="/components/error">Error</MagicLink></BulletedListItem
+    >
   </Column></ColumnList
 ><Paragraph
   blockProps={{
@@ -648,7 +732,7 @@
     last_edited_time: '2022-01-30T06:30:00.000Z'
   }}
 >
-  <MagicLink href="https://www.poetryfoundation.org/poems/47536/one-art"
+  <MagicLink type="absolute" href="https://www.poetryfoundation.org/poems/47536/one-art"
     >https://www.poetryfoundation.org/poems/47536/one-art</MagicLink
   >
 </Paragraph>
