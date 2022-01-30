@@ -30,22 +30,107 @@
 
 <Title>InlineColor</Title>
 
-<Header level={1}><strong>In Notion</strong></Header>
+<Header level={1}>1. Notion original</Header>
+<Image url="/assets/components/inline-color/59429d80-934d-46bf-972c-87373bcda9f0.png" />
+<Header level={1}>2. Notion API</Header>
 <Paragraph
   blockProps={{
     pageId: '4117d7563ce547b2b9efb6bf8404bc7b',
-    id: 'baa492e6-d53e-43b9-81be-d984f096d324',
-    created_time: '2022-01-27T23:58:00.000Z',
-    last_edited_time: '2022-01-27T23:58:00.000Z'
+    id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
+    created_time: '2022-01-28T20:26:00.000Z',
+    last_edited_time: '2022-01-28T20:28:00.000Z'
   }}
-/>
-<Header level={1}><strong>Notion API (as of this writing)</strong></Header>
-<Code code={`[tc]`} language="javascript" caption="" /><Header level={1}
-  ><strong>Svelte output</strong></Header
 >
-<Code code={`[tc]`} language="html" caption="" /><Header level={1}
-  ><strong>Example Rendering</strong></Header
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].json</em></InlineColor
+  >
+</Paragraph>
+<Code
+  code={`\{
+  "object": "block",
+  …
+  "heading_2": \{
+    "text": [
+      \{
+        …
+        "plain_text": "Express your ",
+        …
+      },
+      \{
+        "type": "text",
+        "text": \{
+          "content": "P",
+          "link": null
+        },
+        "annotations": \{
+          …
+          "color": "red"
+        },
+        "plain_text": "P",
+        "href": null
+      },
+      \{
+				…
+        "annotations": \{
+          …
+          "color": "orange"
+        },
+        "plain_text": "R",
+				…
+      },
+      \{
+        …
+        "annotations": \{
+          …
+          "color": "yellow"
+        },
+        "plain_text": "I",
+        …
+      },
+      …you get the idea
+    …
+  …
+}`}
+  language="json"
+  caption=""
+/><Header level={1}>3. Svelte output</Header>
+<Paragraph
+  blockProps={{
+    pageId: '4117d7563ce547b2b9efb6bf8404bc7b',
+    id: '28871a46-c697-4500-b517-1c526797ab38',
+    created_time: '2022-01-28T20:32:00.000Z',
+    last_edited_time: '2022-01-28T20:32:00.000Z'
+  }}
 >
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].svelte</em></InlineColor
+  >
+</Paragraph>
+<Code
+  code={`<Header level=\{2}>
+  Express your&nbsp;<InlineColor value="red">P</InlineColor>
+  <InlineColor value="orange">R</InlineColor>
+  <InlineColor value="yellow">I</InlineColor>
+  <InlineColor value="green">D</InlineColor>
+  <InlineColor value="blue">E</InlineColor>
+	<InlineColor value="purple">!</InlineColor>
+</Header>`}
+  language="html"
+  caption="As mentioned elsewhere in these docs…I’ve sometimes had to manually reformat examples for the docs.&nbsp;<MagicLink href='https://prettier.io/'>Prettier</MagicLink>’s output is, in these cases…<em>not</em>. 😳"
+/><Header level={1}>4. Example rendering</Header>
+<Paragraph
+  blockProps={{
+    pageId: '4117d7563ce547b2b9efb6bf8404bc7b',
+    id: '6b63e428-18da-4f1d-a07f-46c1a54edf81',
+    created_time: '2022-01-29T03:44:00.000Z',
+    last_edited_time: '2022-01-29T04:13:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Rendered by</InlineColor><MagicLink
+    href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/InlineColor.svelte"
+    ><InlineColor value="gray">InlineColor.svelte</InlineColor></MagicLink
+  >
+</Paragraph>
 <Header level={2}
   >Express your&nbsp;<InlineColor value="red">P</InlineColor><InlineColor value="orange"
     >R</InlineColor
@@ -154,7 +239,8 @@
     <BulletedListItem><MagicLink href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/bulleted-list-item">BulletedListItem</MagicLink></BulletedListItem
+      ><MagicLink href="/components/bulleted-list-item">BulletedListItem</MagicLink
+      ></BulletedListItem
     >
     <BulletedListItem
       ><MagicLink href="/components/numbered-list-item">NumberedListItem</MagicLink
@@ -181,18 +267,29 @@
     <BulletedListItem
       ><MagicLink href="/components/title">Title (aka Name)</MagicLink></BulletedListItem
     >
-    <BulletedListItem><MagicLink href="/components/cover">Cover</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/icon">Icon</MagicLink></BulletedListItem>
+    <BulletedListItem
+      ><MagicLink href="/components/cover">Cover (Image & Icon)</MagicLink></BulletedListItem
+    >
     <Header level={3}>Annotation Components</Header>
+    <BulletedListItem
+      ><strong>bold</strong>&nbsp;→&nbsp;<InlineCode
+        code={'&lt;strong&gt;'}
+      />&nbsp;</BulletedListItem
+    >
+    <BulletedListItem
+      ><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+    >
+    <BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+    <BulletedListItem
+      ><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
+    >
     <BulletedListItem
       ><MagicLink href="/components/inline-code">InlineCode</MagicLink></BulletedListItem
     >
     <BulletedListItem
       ><MagicLink href="/components/inline-color">InlineColor</MagicLink></BulletedListItem
     >
-    <BulletedListItem
-      ><MagicLink href="/components/internal-link">InternalLink</MagicLink></BulletedListItem
-    >
+    <BulletedListItem><MagicLink href="/components/link">Link</MagicLink></BulletedListItem>
     <BulletedListItem><MagicLink href="/components/equation">Equation</MagicLink></BulletedListItem>
     <Header level={3}>Other Components</Header>
     <BulletedListItem><MagicLink href="/components/divider">Divider</MagicLink></BulletedListItem>

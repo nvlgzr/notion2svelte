@@ -30,35 +30,127 @@
 
 <Title>InlineCode</Title>
 
-<Header level={1}><strong>In Notion</strong></Header>
+<Header level={1}>1. Notion original</Header>
+<Image url="/assets/components/inline-code/1490071b-97e1-4726-a519-b85cccae2377.png" />
 <Paragraph
   blockProps={{
     pageId: '75a1725479f8411580df3c1cb67e3060',
-    id: '520da488-7409-437e-bf1d-d8d4dd485ca9',
-    created_time: '2022-01-27T23:51:00.000Z',
-    last_edited_time: '2022-01-27T23:51:00.000Z'
+    id: '5bc36c6c-e256-46fc-b1fa-563ecdfcf028',
+    created_time: '2022-01-29T03:39:00.000Z',
+    last_edited_time: '2022-01-29T03:39:00.000Z'
   }}
 />
-<Header level={1}><strong>Notion API (as of this writing)</strong></Header>
-<Code code={`[tc]`} language="javascript" caption="" /><Header level={1}
-  ><strong>Svelte output</strong></Header
->
-<Code code={`[tc]`} language="html" caption="" /><Header level={1}
-  ><strong>Example Rendering</strong></Header
->
+<Header level={1}>2. Notion API</Header>
 <Paragraph
   blockProps={{
     pageId: '75a1725479f8411580df3c1cb67e3060',
-    id: '2f038578-9c57-4074-905c-ce6237ba700d',
-    created_time: '2022-01-27T23:51:00.000Z',
-    last_edited_time: '2022-01-27T23:56:00.000Z'
+    id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
+    created_time: '2022-01-28T20:26:00.000Z',
+    last_edited_time: '2022-01-28T20:28:00.000Z'
   }}
 >
-  Although&nbsp;<Equation block={false} katexString="E=mc^2" />&nbsp;might be the most well-known
-  equation on the planet, I’m slightly more fond of&nbsp;<Equation
-    block={false}
-    katexString="e^{'{'}iπ}=-1"
-  />. Euler needs better branding.
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].json</em></InlineColor
+  >
+</Paragraph>
+<Code
+  code={`\{
+  "object": "block",
+  ¬
+  "paragraph": \{
+    "text": [
+      \{
+        "type": "text",
+        "text": \{
+          "content": "“Did you really name your son ",
+          "link": null
+        },
+        "annotations": \{
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "“Did you really name your son ",
+        "href": null
+      },
+      \{
+        "type": "text",
+        "text": \{
+          "content": "Robert'); DROP TABLE Students;--",
+          "link": null
+        },
+        "annotations": \{
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": true,
+          "color": "default"
+        },
+        "plain_text": "Robert'); DROP TABLE Students;--",
+        "href": null
+      },
+      \{
+        "type": "text",
+        "text": \{
+          "content": "?\"",
+          "link": null
+        },
+        "annotations": \{
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "?\"",
+        "href": null
+      }
+    ]
+  }
+}`}
+  language="json"
+  caption=""
+/><Header level={1}>3. Svelte output</Header>
+<Paragraph
+  blockProps={{
+    pageId: '75a1725479f8411580df3c1cb67e3060',
+    id: '28871a46-c697-4500-b517-1c526797ab38',
+    created_time: '2022-01-28T20:32:00.000Z',
+    last_edited_time: '2022-01-28T20:32:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+    ><em>src/routes/[slug].svelte</em></InlineColor
+  >
+</Paragraph>
+<Header level={1}>4. Example rendering</Header>
+<Paragraph
+  blockProps={{
+    pageId: '75a1725479f8411580df3c1cb67e3060',
+    id: 'f26a8410-b47d-4f75-9760-6ac57877ddfd',
+    created_time: '2022-01-28T23:45:00.000Z',
+    last_edited_time: '2022-01-28T23:46:00.000Z'
+  }}
+>
+  <InlineColor value="gray">Rendered by</InlineColor><MagicLink
+    href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/InlineCode.svelte"
+    ><InlineColor value="gray">InlineCode.svelte</InlineColor></MagicLink
+  >
+</Paragraph>
+<Paragraph
+  blockProps={{
+    pageId: '75a1725479f8411580df3c1cb67e3060',
+    id: 'c9d6a1a1-e5ce-4a7b-a7b8-7918edcf006b',
+    created_time: '2022-01-29T00:05:00.000Z',
+    last_edited_time: '2022-01-29T00:13:00.000Z'
+  }}
+>
+  “Did you really name your son&nbsp;<InlineCode code={'Robert&#039;); DROP TABLE Students;--'} />?"
 </Paragraph>
 <Paragraph
   blockProps={{
@@ -161,7 +253,8 @@
     <BulletedListItem><MagicLink href="/components/todo-item">TodoItem</MagicLink></BulletedListItem
     >
     <BulletedListItem
-      ><MagicLink href="/bulleted-list-item">BulletedListItem</MagicLink></BulletedListItem
+      ><MagicLink href="/components/bulleted-list-item">BulletedListItem</MagicLink
+      ></BulletedListItem
     >
     <BulletedListItem
       ><MagicLink href="/components/numbered-list-item">NumberedListItem</MagicLink
@@ -188,18 +281,29 @@
     <BulletedListItem
       ><MagicLink href="/components/title">Title (aka Name)</MagicLink></BulletedListItem
     >
-    <BulletedListItem><MagicLink href="/components/cover">Cover</MagicLink></BulletedListItem>
-    <BulletedListItem><MagicLink href="/components/icon">Icon</MagicLink></BulletedListItem>
+    <BulletedListItem
+      ><MagicLink href="/components/cover">Cover (Image & Icon)</MagicLink></BulletedListItem
+    >
     <Header level={3}>Annotation Components</Header>
+    <BulletedListItem
+      ><strong>bold</strong>&nbsp;→&nbsp;<InlineCode
+        code={'&lt;strong&gt;'}
+      />&nbsp;</BulletedListItem
+    >
+    <BulletedListItem
+      ><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+    >
+    <BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+    <BulletedListItem
+      ><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
+    >
     <BulletedListItem
       ><MagicLink href="/components/inline-code">InlineCode</MagicLink></BulletedListItem
     >
     <BulletedListItem
       ><MagicLink href="/components/inline-color">InlineColor</MagicLink></BulletedListItem
     >
-    <BulletedListItem
-      ><MagicLink href="/components/internal-link">InternalLink</MagicLink></BulletedListItem
-    >
+    <BulletedListItem><MagicLink href="/components/link">Link</MagicLink></BulletedListItem>
     <BulletedListItem><MagicLink href="/components/equation">Equation</MagicLink></BulletedListItem>
     <Header level={3}>Other Components</Header>
     <BulletedListItem><MagicLink href="/components/divider">Divider</MagicLink></BulletedListItem>

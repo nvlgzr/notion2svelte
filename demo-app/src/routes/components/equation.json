@@ -2,7 +2,7 @@
   "object": "page",
   "id": "ef851797-7d17-4318-89a3-ae09285cfef8",
   "created_time": "2022-01-26T09:55:00.000Z",
-  "last_edited_time": "2022-01-28T23:41:00.000Z",
+  "last_edited_time": "2022-01-29T04:04:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -88,7 +88,7 @@
           "object": "block",
           "id": "3e35fbf0-56a5-4f0a-92f5-c30d4f9a7cfc",
           "created_time": "2022-01-28T20:25:00.000Z",
-          "last_edited_time": "2022-01-28T22:01:00.000Z",
+          "last_edited_time": "2022-01-29T04:12:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "heading_1",
@@ -118,6 +118,83 @@
     },
     {
       "object": "block",
+      "id": "1c2d4736-ca07-4098-8561-bc4f5caf6bcd",
+      "created_time": "2022-01-28T23:52:00.000Z",
+      "last_edited_time": "2022-01-28T23:52:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Inline",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Inline",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "49dff063-66e4-4113-b5ba-71511c705bb8",
+      "created_time": "2022-01-28T23:52:00.000Z",
+      "last_edited_time": "2022-01-28T23:52:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9abb1341-49d9-4bca-9f10-f02733be8337/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220130%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220130T105411Z&X-Amz-Expires=3600&X-Amz-Signature=40d77c6ea683e3da9f6bdb551d6e4bf5799870ae685423dc83a71a01aae22fb3&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-30T11:54:11.084Z"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "3e4a92e8-77ed-4e22-9e58-b56c026207c3",
+      "created_time": "2022-01-28T23:52:00.000Z",
+      "last_edited_time": "2022-01-28T23:52:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Block",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Block",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
       "id": "40267217-ee20-4205-a8b0-36923db0531c",
       "created_time": "2022-01-27T22:06:00.000Z",
       "last_edited_time": "2022-01-28T22:42:00.000Z",
@@ -128,8 +205,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/efbf314d-3aa8-47f6-a704-82a5abca387a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234202Z&X-Amz-Expires=3600&X-Amz-Signature=ba430df5e4842046f17c0ba9ceb72195113273040fd143a6bf7d6f5ad78ae1fc&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-29T00:42:02.593Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/efbf314d-3aa8-47f6-a704-82a5abca387a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220130%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220130T105411Z&X-Amz-Expires=3600&X-Amz-Signature=eba924265dda41917867ce6dc71ab1d72160735df3e00772fad42eafd2981910&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-30T11:54:11.036Z"
         }
       }
     },
@@ -229,9 +306,101 @@
     },
     {
       "object": "block",
+      "id": "eb084ef2-44d9-4ecf-a41d-811c8bc28c37",
+      "created_time": "2022-01-28T23:57:00.000Z",
+      "last_edited_time": "2022-01-28T23:57:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Inline",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Inline",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "b3c9d722-443e-49cd-94e3-1b0ee319482a",
+      "created_time": "2022-01-28T23:56:00.000Z",
+      "last_edited_time": "2022-01-28T23:56:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "{\n  \"object\": \"block\",\n  …\n  \"type\": \"paragraph\",\n  \"paragraph\": {\n    \"text\": [\n      …\n      {\n        \"type\": \"equation\",\n        \"equation\": {\n          \"expression\": \"E=mc^2\"\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": false,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"E=mc^2\",\n        \"href\": null\n      },\n      {\n        …\n        \"plain_text\": \" might be the most well-known equation on the planet, I’m slightly more fond of \",\n        …\n      },\n      {\n        \"type\": \"equation\",\n        \"equation\": {\n          \"expression\": \"e^{iπ}=-1\"\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": false,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"e^{iπ}=-1\",\n        \"href\": null\n      },\n      …\n    ]\n  }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "{\n  \"object\": \"block\",\n  …\n  \"type\": \"paragraph\",\n  \"paragraph\": {\n    \"text\": [\n      …\n      {\n        \"type\": \"equation\",\n        \"equation\": {\n          \"expression\": \"E=mc^2\"\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": false,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"E=mc^2\",\n        \"href\": null\n      },\n      {\n        …\n        \"plain_text\": \" might be the most well-known equation on the planet, I’m slightly more fond of \",\n        …\n      },\n      {\n        \"type\": \"equation\",\n        \"equation\": {\n          \"expression\": \"e^{iπ}=-1\"\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": false,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"e^{iπ}=-1\",\n        \"href\": null\n      },\n      …\n    ]\n  }\n}",
+            "href": null
+          }
+        ],
+        "language": "json"
+      }
+    },
+    {
+      "object": "block",
+      "id": "105c971d-3d83-4bf1-8764-f5abb59d5e5c",
+      "created_time": "2022-01-28T23:57:00.000Z",
+      "last_edited_time": "2022-01-28T23:57:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Block",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Block",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
       "id": "1ff542f4-22ee-4087-a692-4a1edd52933d",
       "created_time": "2022-01-26T09:55:00.000Z",
-      "last_edited_time": "2022-01-28T22:43:00.000Z",
+      "last_edited_time": "2022-01-28T23:56:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "code",
@@ -256,7 +425,7 @@
             "href": null
           }
         ],
-        "language": "javascript"
+        "language": "json"
       }
     },
     {
@@ -355,14 +524,178 @@
     },
     {
       "object": "block",
-      "id": "29c42734-7010-4ed1-beeb-0f476f2133e7",
-      "created_time": "2022-01-26T09:55:00.000Z",
-      "last_edited_time": "2022-01-28T22:43:00.000Z",
+      "id": "c4746133-fe4a-4b24-93cc-c3141602d469",
+      "created_time": "2022-01-28T23:57:00.000Z",
+      "last_edited_time": "2022-01-28T23:57:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Inline",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Inline",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "2ca86ad8-00ce-446c-88af-95009702c28c",
+      "created_time": "2022-01-28T23:57:00.000Z",
+      "last_edited_time": "2022-01-29T00:01:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "code",
       "code": {
-        "caption": [],
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The non-breaking space thing is a hack that I’m not sure how to fix. Without them, Svelte (or maybe it’s the browser?) strips the whitespace between the un-tagged plain text and the Equation components. Got any ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The non-breaking space thing is a hack that I’m not sure how to fix. Without them, Svelte (or maybe it’s the browser?) strips the whitespace between the un-tagged plain text and the Equation components. Got any ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "thoughts to contribute here",
+              "link": {
+                "url": "https://github.com/nvlgzr/notion2svelte/issues/2"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "thoughts to contribute here",
+            "href": "https://github.com/nvlgzr/notion2svelte/issues/2"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "?",
+            "href": null
+          }
+        ],
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "<Paragraph blockProps={{…}}>\n  Although&nbsp;<Equation block={false} katexString=\"E=mc^2\" />&nbsp;might be the most well-known\n  equation on the planet, I’m slightly more fond of&nbsp;<Equation\n    block={false}\n    katexString=\"e^{'{'}iπ}=-1\"\n  />. Euler needs better branding.\n</Paragraph>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "<Paragraph blockProps={{…}}>\n  Although&nbsp;<Equation block={false} katexString=\"E=mc^2\" />&nbsp;might be the most well-known\n  equation on the planet, I’m slightly more fond of&nbsp;<Equation\n    block={false}\n    katexString=\"e^{'{'}iπ}=-1\"\n  />. Euler needs better branding.\n</Paragraph>",
+            "href": null
+          }
+        ],
+        "language": "html"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9fc22553-a3a9-4f4a-851f-2858c9814732",
+      "created_time": "2022-01-28T23:57:00.000Z",
+      "last_edited_time": "2022-01-28T23:57:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Block",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Block",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "29c42734-7010-4ed1-beeb-0f476f2133e7",
+      "created_time": "2022-01-26T09:55:00.000Z",
+      "last_edited_time": "2022-01-29T00:03:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "code",
+      "code": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Note the `block` property",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Note the `block` property",
+            "href": null
+          }
+        ],
         "text": [
           {
             "type": "text",
@@ -529,6 +862,162 @@
               "color": "gray"
             },
             "plain_text": " for typesetting",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "c13f19dd-4112-45b0-921a-fc21397c7b3a",
+      "created_time": "2022-01-28T23:50:00.000Z",
+      "last_edited_time": "2022-01-28T23:50:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Inline",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Inline",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "2f038578-9c57-4074-905c-ce6237ba700d",
+      "created_time": "2022-01-27T23:51:00.000Z",
+      "last_edited_time": "2022-01-28T23:50:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Although ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Although ",
+            "href": null
+          },
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "E=mc^2"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "E=mc^2",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " might be the most well-known equation on the planet, I’m slightly more fond of ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " might be the most well-known equation on the planet, I’m slightly more fond of ",
+            "href": null
+          },
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "e^{iπ}=-1"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "e^{iπ}=-1",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". Euler needs better branding.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". Euler needs better branding.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "5d1ea01c-4253-469c-b680-6c7d54431317",
+      "created_time": "2022-01-28T23:50:00.000Z",
+      "last_edited_time": "2022-01-28T23:50:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_3",
+      "heading_3": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Block",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Block",
             "href": null
           }
         ]
@@ -2046,6 +2535,245 @@
                 },
                 {
                   "object": "block",
+                  "id": "b607f2f8-029c-48e9-900c-86f0ee164024",
+                  "created_time": "2022-01-29T04:01:00.000Z",
+                  "last_edited_time": "2022-01-29T04:02:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "bold",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": true,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "bold",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " → ",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " → ",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "<strong>",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": true,
+                          "color": "default"
+                        },
+                        "plain_text": "<strong>",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " ",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " ",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "2bd9d918-916a-45e1-99a0-8ffc0ac857a6",
+                  "created_time": "2022-01-29T04:02:00.000Z",
+                  "last_edited_time": "2022-01-29T04:02:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "italic",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": true,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "italic",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " → ",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " → ",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "<em>",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": true,
+                          "color": "default"
+                        },
+                        "plain_text": "<em>",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "0885c94d-3a59-46ec-bf4e-26d805850e13",
+                  "created_time": "2022-01-29T04:20:00.000Z",
+                  "last_edited_time": "2022-01-29T04:21:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "strikethrough",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": true,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "strikethrough",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " → NYI",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " → NYI",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "b9353341-7db1-4863-b288-c1eb7a722f86",
+                  "created_time": "2022-01-29T04:20:00.000Z",
+                  "last_edited_time": "2022-01-29T04:27:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "underline",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": true,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "underline",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " → NYI",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " → NYI",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
                   "id": "2bad4a10-facd-4b84-93af-a88a24d9f274",
                   "created_time": "2022-01-27T05:59:00.000Z",
                   "last_edited_time": "2022-01-27T06:09:00.000Z",
@@ -2080,7 +2808,7 @@
                   "object": "block",
                   "id": "0afc6ee3-3d2b-4489-8f0d-c60ec5f0dadd",
                   "created_time": "2022-01-27T05:59:00.000Z",
-                  "last_edited_time": "2022-01-27T06:09:00.000Z",
+                  "last_edited_time": "2022-01-29T04:01:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -2134,7 +2862,7 @@
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "InternalLink",
+                        "plain_text": "Link",
                         "href": "https://www.notion.so/0a81110f311a4b2f858a65ea1a45ab3a"
                       }
                     ]

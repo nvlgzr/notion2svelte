@@ -2,7 +2,7 @@
   "object": "page",
   "id": "75a17254-79f8-4115-80df-3c1cb67e3060",
   "created_time": "2022-01-27T23:51:00.000Z",
-  "last_edited_time": "2022-01-28T22:07:00.000Z",
+  "last_edited_time": "2022-01-29T04:04:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -71,39 +71,73 @@
   "blocks": [
     {
       "object": "block",
-      "id": "55bc2edc-20d2-4b95-904e-05d6a468d8cf",
-      "created_time": "2022-01-27T23:51:00.000Z",
-      "last_edited_time": "2022-01-27T23:51:00.000Z",
+      "id": "4161fb22-198b-4c17-bb95-57647a90229e",
+      "created_time": "2022-01-28T23:45:00.000Z",
+      "last_edited_time": "2022-01-28T23:45:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "69ec6660-b477-4f8d-8792-5dd924833e8d"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "3e35fbf0-56a5-4f0a-92f5-c30d4f9a7cfc",
+          "created_time": "2022-01-28T20:25:00.000Z",
+          "last_edited_time": "2022-01-29T04:12:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "1. Notion original",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "1. Notion original",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1490071b-97e1-4726-a519-b85cccae2377",
+      "created_time": "2022-01-29T00:14:00.000Z",
+      "last_edited_time": "2022-01-29T00:14:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "In Notion",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "In Notion",
-            "href": null
-          }
-        ]
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dc11e955-8ae3-4867-a0c9-f4ff7b0c39e3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220130%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220130T105410Z&X-Amz-Expires=3600&X-Amz-Signature=c3e4af79d9cb969c21162001609e2078fe306da8dfaaa069b803a78c067399be&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-30T11:54:10.144Z"
+        }
       }
     },
     {
       "object": "block",
-      "id": "520da488-7409-437e-bf1d-d8d4dd485ca9",
-      "created_time": "2022-01-27T23:51:00.000Z",
-      "last_edited_time": "2022-01-27T23:51:00.000Z",
+      "id": "5bc36c6c-e256-46fc-b1fa-563ecdfcf028",
+      "created_time": "2022-01-29T03:39:00.000Z",
+      "last_edited_time": "2022-01-29T03:39:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -113,39 +147,103 @@
     },
     {
       "object": "block",
-      "id": "a35ebb58-af3b-4ea5-ba35-7a75fc3b35a6",
-      "created_time": "2022-01-27T23:51:00.000Z",
-      "last_edited_time": "2022-01-27T23:51:00.000Z",
-      "has_children": false,
+      "id": "9a6ab5d9-e41c-490c-8652-b7330f3772a2",
+      "created_time": "2022-01-28T23:45:00.000Z",
+      "last_edited_time": "2022-01-28T23:45:00.000Z",
+      "has_children": true,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Notion API (as of this writing)",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Notion API (as of this writing)",
-            "href": null
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "01eec727-5535-4576-9493-d16c577aa7b7",
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-01-28T20:26:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "2. Notion API",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "2. Notion API",
+                "href": null
+              }
+            ]
           }
-        ]
-      }
+        },
+        {
+          "object": "block",
+          "id": "0538fec5-3bc6-4c24-815d-78b5ce846819",
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-01-28T20:28:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Partial output of ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "Partial output of ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "src/routes/[slug].json",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "src/routes/[slug].json",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "object": "block",
-      "id": "525a3c8d-eb6d-473f-bf1b-80f12110587e",
-      "created_time": "2022-01-27T23:51:00.000Z",
-      "last_edited_time": "2022-01-27T23:51:00.000Z",
+      "id": "3b71dfaf-3a95-4463-b545-68710790ceed",
+      "created_time": "2022-01-29T00:14:00.000Z",
+      "last_edited_time": "2022-01-29T03:40:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "code",
@@ -155,7 +253,7 @@
           {
             "type": "text",
             "text": {
-              "content": "[tc]",
+              "content": "{\n  \"object\": \"block\",\n  ¬\n  \"paragraph\": {\n    \"text\": [\n      {\n        \"type\": \"text\",\n        \"text\": {\n          \"content\": \"“Did you really name your son \",\n          \"link\": null\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": false,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"“Did you really name your son \",\n        \"href\": null\n      },\n      {\n        \"type\": \"text\",\n        \"text\": {\n          \"content\": \"Robert'); DROP TABLE Students;--\",\n          \"link\": null\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": true,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"Robert'); DROP TABLE Students;--\",\n        \"href\": null\n      },\n      {\n        \"type\": \"text\",\n        \"text\": {\n          \"content\": \"?\\\"\",\n          \"link\": null\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": false,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"?\\\"\",\n        \"href\": null\n      }\n    ]\n  }\n}",
               "link": null
             },
             "annotations": {
@@ -166,110 +264,159 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "[tc]",
+            "plain_text": "{\n  \"object\": \"block\",\n  ¬\n  \"paragraph\": {\n    \"text\": [\n      {\n        \"type\": \"text\",\n        \"text\": {\n          \"content\": \"“Did you really name your son \",\n          \"link\": null\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": false,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"“Did you really name your son \",\n        \"href\": null\n      },\n      {\n        \"type\": \"text\",\n        \"text\": {\n          \"content\": \"Robert'); DROP TABLE Students;--\",\n          \"link\": null\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": true,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"Robert'); DROP TABLE Students;--\",\n        \"href\": null\n      },\n      {\n        \"type\": \"text\",\n        \"text\": {\n          \"content\": \"?\\\"\",\n          \"link\": null\n        },\n        \"annotations\": {\n          \"bold\": false,\n          \"italic\": false,\n          \"strikethrough\": false,\n          \"underline\": false,\n          \"code\": false,\n          \"color\": \"default\"\n        },\n        \"plain_text\": \"?\\\"\",\n        \"href\": null\n      }\n    ]\n  }\n}",
             "href": null
           }
         ],
-        "language": "javascript"
+        "language": "json"
       }
     },
     {
       "object": "block",
-      "id": "fd8c205f-db32-4d40-af7f-ec596715a897",
-      "created_time": "2022-01-27T23:51:00.000Z",
-      "last_edited_time": "2022-01-27T23:51:00.000Z",
-      "has_children": false,
+      "id": "e12eef2d-fed6-4dff-b7d7-1f5a317a8110",
+      "created_time": "2022-01-28T23:45:00.000Z",
+      "last_edited_time": "2022-01-28T23:45:00.000Z",
+      "has_children": true,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Svelte output",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Svelte output",
-            "href": null
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "46eaa6aa-2b30-4f72-915c-04d3e638fe8d"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "55e06cc7-b682-4d4c-8af3-b503b1d72bd1",
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-01-28T20:26:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "3. Svelte output",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "3. Svelte output",
+                "href": null
+              }
+            ]
           }
-        ]
-      }
+        },
+        {
+          "object": "block",
+          "id": "28871a46-c697-4500-b517-1c526797ab38",
+          "created_time": "2022-01-28T20:32:00.000Z",
+          "last_edited_time": "2022-01-28T20:32:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Partial output of ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "Partial output of ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "src/routes/[slug].svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "src/routes/[slug].svelte",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "object": "block",
-      "id": "e3a7fb9e-b203-4970-959d-4fa7324c33a8",
-      "created_time": "2022-01-27T23:51:00.000Z",
-      "last_edited_time": "2022-01-27T23:51:00.000Z",
-      "has_children": false,
+      "id": "595a9fcd-e30e-4108-9554-89eae382d5ed",
+      "created_time": "2022-01-28T23:45:00.000Z",
+      "last_edited_time": "2022-01-28T23:45:00.000Z",
+      "has_children": true,
       "archived": false,
-      "type": "code",
-      "code": {
-        "caption": [],
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "[tc]",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "[tc]",
-            "href": null
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "39f58dcd-edff-4eac-ac21-4c54bc1b2e7c"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "14abb64d-4aad-4586-a941-62fdc219a70e",
+          "created_time": "2022-01-28T20:29:00.000Z",
+          "last_edited_time": "2022-01-28T21:00:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "4. Example rendering",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "4. Example rendering",
+                "href": null
+              }
+            ]
           }
-        ],
-        "language": "html"
-      }
+        }
+      ]
     },
     {
       "object": "block",
-      "id": "887c2791-b6bc-4d65-afcb-49bf916964b8",
-      "created_time": "2022-01-27T23:51:00.000Z",
-      "last_edited_time": "2022-01-27T23:51:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Example Rendering",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Example Rendering",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "2f038578-9c57-4074-905c-ce6237ba700d",
-      "created_time": "2022-01-27T23:51:00.000Z",
-      "last_edited_time": "2022-01-27T23:56:00.000Z",
+      "id": "f26a8410-b47d-4f75-9760-6ac57877ddfd",
+      "created_time": "2022-01-28T23:45:00.000Z",
+      "last_edited_time": "2022-01-28T23:46:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -278,7 +425,7 @@
           {
             "type": "text",
             "text": {
-              "content": "Although ",
+              "content": "Rendered by ",
               "link": null
             },
             "annotations": {
@@ -287,31 +434,47 @@
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "default"
+              "color": "gray"
             },
-            "plain_text": "Although ",
-            "href": null
-          },
-          {
-            "type": "equation",
-            "equation": {
-              "expression": "E=mc^2"
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "E=mc^2",
+            "plain_text": "Rendered by ",
             "href": null
           },
           {
             "type": "text",
             "text": {
-              "content": " might be the most well-known equation on the planet, I’m slightly more fond of ",
+              "content": "InlineCode.svelte",
+              "link": {
+                "url": "https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/InlineCode.svelte"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "InlineCode.svelte",
+            "href": "https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/InlineCode.svelte"
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "c9d6a1a1-e5ce-4a7b-a7b8-7918edcf006b",
+      "created_time": "2022-01-29T00:05:00.000Z",
+      "last_edited_time": "2022-01-29T00:13:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "“Did you really name your son ",
               "link": null
             },
             "annotations": {
@@ -322,29 +485,30 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": " might be the most well-known equation on the planet, I’m slightly more fond of ",
-            "href": null
-          },
-          {
-            "type": "equation",
-            "equation": {
-              "expression": "e^{iπ}=-1"
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "e^{iπ}=-1",
+            "plain_text": "“Did you really name your son ",
             "href": null
           },
           {
             "type": "text",
             "text": {
-              "content": ". Euler needs better branding.",
+              "content": "Robert'); DROP TABLE Students;--",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "Robert'); DROP TABLE Students;--",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "?\"",
               "link": null
             },
             "annotations": {
@@ -355,7 +519,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": ". Euler needs better branding.",
+            "plain_text": "?\"",
             "href": null
           }
         ]
@@ -1651,7 +1815,7 @@
                   "object": "block",
                   "id": "d16d3988-5d12-4006-969f-097bbac118b6",
                   "created_time": "2022-01-27T05:53:00.000Z",
-                  "last_edited_time": "2022-01-27T06:09:00.000Z",
+                  "last_edited_time": "2022-01-28T23:39:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -1673,40 +1837,8 @@
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "Cover",
+                        "plain_text": "Cover (Image & Icon)",
                         "href": "https://www.notion.so/df34058b281e4da6badc0a15a891d18e"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "object": "block",
-                  "id": "dbb8bb58-0eb0-4d8e-910e-c95d10b32436",
-                  "created_time": "2022-01-27T05:57:00.000Z",
-                  "last_edited_time": "2022-01-27T23:50:00.000Z",
-                  "has_children": false,
-                  "archived": false,
-                  "type": "bulleted_list_item",
-                  "bulleted_list_item": {
-                    "text": [
-                      {
-                        "type": "mention",
-                        "mention": {
-                          "type": "page",
-                          "page": {
-                            "id": "a616bb8c-b2b0-4377-8584-e1d9657eb104"
-                          }
-                        },
-                        "annotations": {
-                          "bold": false,
-                          "italic": false,
-                          "strikethrough": false,
-                          "underline": false,
-                          "code": false,
-                          "color": "default"
-                        },
-                        "plain_text": "Icon",
-                        "href": "https://www.notion.so/a616bb8cb2b043778584e1d9657eb104"
                       }
                     ]
                   }
@@ -1736,6 +1868,245 @@
                           "color": "default"
                         },
                         "plain_text": "Annotation Components",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "b607f2f8-029c-48e9-900c-86f0ee164024",
+                  "created_time": "2022-01-29T04:01:00.000Z",
+                  "last_edited_time": "2022-01-29T04:02:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "bold",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": true,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "bold",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " → ",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " → ",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "<strong>",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": true,
+                          "color": "default"
+                        },
+                        "plain_text": "<strong>",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " ",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " ",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "2bd9d918-916a-45e1-99a0-8ffc0ac857a6",
+                  "created_time": "2022-01-29T04:02:00.000Z",
+                  "last_edited_time": "2022-01-29T04:02:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "italic",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": true,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "italic",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " → ",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " → ",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "<em>",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": true,
+                          "color": "default"
+                        },
+                        "plain_text": "<em>",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "0885c94d-3a59-46ec-bf4e-26d805850e13",
+                  "created_time": "2022-01-29T04:20:00.000Z",
+                  "last_edited_time": "2022-01-29T04:21:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "strikethrough",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": true,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "strikethrough",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " → NYI",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " → NYI",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "b9353341-7db1-4863-b288-c1eb7a722f86",
+                  "created_time": "2022-01-29T04:20:00.000Z",
+                  "last_edited_time": "2022-01-29T04:27:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "underline",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": true,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "underline",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " → NYI",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " → NYI",
                         "href": null
                       }
                     ]
@@ -1777,7 +2148,7 @@
                   "object": "block",
                   "id": "0afc6ee3-3d2b-4489-8f0d-c60ec5f0dadd",
                   "created_time": "2022-01-27T05:59:00.000Z",
-                  "last_edited_time": "2022-01-27T06:09:00.000Z",
+                  "last_edited_time": "2022-01-29T04:01:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -1831,7 +2202,7 @@
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "InternalLink",
+                        "plain_text": "Link",
                         "href": "https://www.notion.so/0a81110f311a4b2f858a65ea1a45ab3a"
                       }
                     ]

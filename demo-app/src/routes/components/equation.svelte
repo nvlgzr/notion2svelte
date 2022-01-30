@@ -31,6 +31,9 @@
 <Title>Equation</Title>
 
 <Header level={1}>1. Notion original</Header>
+<Header level={3}>Inline</Header>
+<Image url="/assets/components/equation/49dff063-66e4-4113-b5ba-71511c705bb8.png" />
+<Header level={3}>Block</Header>
 <Image url="/assets/components/equation/40267217-ee20-4205-a8b0-36923db0531c.png" />
 <Header level={1}>2. Notion API</Header>
 <Paragraph
@@ -45,6 +48,59 @@
     ><em>src/routes/[slug].json</em></InlineColor
   >
 </Paragraph>
+<Header level={3}>Inline</Header>
+<Code
+  code={`\{
+  "object": "block",
+  …
+  "type": "paragraph",
+  "paragraph": \{
+    "text": [
+      …
+      \{
+        "type": "equation",
+        "equation": \{
+          "expression": "E=mc^2"
+        },
+        "annotations": \{
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "E=mc^2",
+        "href": null
+      },
+      \{
+        …
+        "plain_text": " might be the most well-known equation on the planet, I’m slightly more fond of ",
+        …
+      },
+      \{
+        "type": "equation",
+        "equation": \{
+          "expression": "e^\{iπ}=-1"
+        },
+        "annotations": \{
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "e^\{iπ}=-1",
+        "href": null
+      },
+      …
+    ]
+  }
+}`}
+  language="json"
+  caption=""
+/><Header level={3}>Block</Header>
 <Code
   code={`\{
   "object": "block",
@@ -58,7 +114,7 @@
     "expression": "\\begin\{CD}\nA @>a>> B \\\\\n@VbVV @AAcA \\\\\nC @= D\n\\end\{CD}"
   }
 }`}
-  language="javascript"
+  language="json"
   caption=""
 /><Header level={1}>3. Svelte output</Header>
 <Paragraph
@@ -73,6 +129,18 @@
     ><em>src/routes/[slug].svelte</em></InlineColor
   >
 </Paragraph>
+<Header level={3}>Inline</Header>
+<Code
+  code={`<Paragraph blockProps=\{\{…}}>
+  Although&nbsp;<Equation block=\{false} katexString="E=mc^2" />&nbsp;might be the most well-known
+  equation on the planet, I’m slightly more fond of&nbsp;<Equation
+    block=\{false}
+    katexString="e^\{'\{'}iπ}=-1"
+  />. Euler needs better branding.
+</Paragraph>`}
+  language="html"
+  caption="The non-breaking space thing is a hack that I’m not sure how to fix. Without them, Svelte (or maybe it’s the browser?) strips the whitespace between the un-tagged plain text and the Equation components. Got any&nbsp;<MagicLink href='https://github.com/nvlgzr/notion2svelte/issues/2'>thoughts to contribute here</MagicLink>?"
+/><Header level={3}>Block</Header>
 <Code
   code={`<Equation
   block=\{true}
@@ -83,7 +151,7 @@ C @= D
 \end\{'\{'}CD}"
 />`}
   language="html"
-  caption=""
+  caption="Note the `block` property"
 /><Header level={1}>4. Example rendering</Header>
 <Paragraph
   blockProps={{
@@ -100,6 +168,22 @@ C @= D
     href="https://katex.org/"><InlineColor value="gray">katex</InlineColor></MagicLink
   ><InlineColor value="gray">&nbsp;for typesetting</InlineColor>
 </Paragraph>
+<Header level={3}>Inline</Header>
+<Paragraph
+  blockProps={{
+    pageId: 'ef8517977d17431889a3ae09285cfef8',
+    id: '2f038578-9c57-4074-905c-ce6237ba700d',
+    created_time: '2022-01-27T23:51:00.000Z',
+    last_edited_time: '2022-01-28T23:50:00.000Z'
+  }}
+>
+  Although&nbsp;<Equation block={false} katexString="E=mc^2" />&nbsp;might be the most well-known
+  equation on the planet, I’m slightly more fond of&nbsp;<Equation
+    block={false}
+    katexString="e^{'{'}iπ}=-1"
+  />. Euler needs better branding.
+</Paragraph>
+<Header level={3}>Block</Header>
 <Equation
   block={true}
   katexString="\begin{'{'}CD}
@@ -290,14 +374,24 @@ C @= D
     >
     <Header level={3}>Annotation Components</Header>
     <BulletedListItem
+      ><strong>bold</strong>&nbsp;→&nbsp;<InlineCode
+        code={'&lt;strong&gt;'}
+      />&nbsp;</BulletedListItem
+    >
+    <BulletedListItem
+      ><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+    >
+    <BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+    <BulletedListItem
+      ><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
+    >
+    <BulletedListItem
       ><MagicLink href="/components/inline-code">InlineCode</MagicLink></BulletedListItem
     >
     <BulletedListItem
       ><MagicLink href="/components/inline-color">InlineColor</MagicLink></BulletedListItem
     >
-    <BulletedListItem
-      ><MagicLink href="/components/internal-link">InternalLink</MagicLink></BulletedListItem
-    >
+    <BulletedListItem><MagicLink href="/components/link">Link</MagicLink></BulletedListItem>
     <BulletedListItem><MagicLink href="/components/equation">Equation</MagicLink></BulletedListItem>
     <Header level={3}>Other Components</Header>
     <BulletedListItem><MagicLink href="/components/divider">Divider</MagicLink></BulletedListItem>
