@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { promises as fs } from "fs";
-import { join } from "path";
+import { promises as fs, existsSync, mkdirSync } from "fs";
+import { join, dirname } from "path";
 import { exec } from "child_process";
 import { fetchAllPages, fetchFullPage } from "./lib/notion.js";
 import { resolveTilde } from "./lib/resolve-tilde.js";
@@ -22,6 +22,15 @@ function go() {
   } else {
     run();
   }
+}
+
+function ensureDirectoryExistence(filePath) {
+  var dir = dirname(filePath);
+  if (existsSync(dir)) {
+    return true;
+  }
+  ensureDirectoryExistence(dir);
+  mkdirSync(dir);
 }
 
 async function run() {
@@ -54,6 +63,8 @@ async function run() {
 
     const jsonPath = join(out, slug + ".json");
     console.log(` › Writing JSON to ${jsonPath}`);
+
+    ensureDirectoryExistence(jsonPath);
     await fs.writeFile(jsonPath, JSON.stringify(fullPage, null, 2));
 
     console.log(` › Rendering…`);
