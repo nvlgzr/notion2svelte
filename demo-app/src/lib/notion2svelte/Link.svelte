@@ -54,7 +54,9 @@
   }
   a.mention::after,
   a.alias::after {
-    content: '\FEFF°';
+    content: '\FEFF⭒';
+    font-size: 1rem;
+    top: -0.55rem;
   }
 
   a.alias:before,
@@ -85,7 +87,7 @@
     background: hsl(70, 70%, 91%);
   }
   a.absolute::after {
-    content: '\FEFFª';
+    content: '\FEFF°';
   }
 
   a:visited {
