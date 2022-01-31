@@ -1,20 +1,20 @@
 #!/usr/bin/env node
 
-import { promises as fs, existsSync, mkdirSync } from "fs";
-import { join, dirname } from "path";
-import { exec } from "child_process";
-import { fetchAllPages, fetchFullPage } from "./lib/notion.js";
-import { resolveTilde } from "./lib/resolve-tilde.js";
-import { renderPage, stripDashes, slugFrom } from "./lib/sveltifier.js";
-import timestamp from "./lib/world-timestamp.js";
-import env from "./env.js";
+import { promises as fs, existsSync, mkdirSync } from 'fs';
+import { join, dirname } from 'path';
+import { exec } from 'child_process';
+import { fetchAllPages, fetchFullPage } from './lib/notion.js';
+import { resolveTilde } from './lib/resolve-tilde.js';
+import { renderPage, stripDashes, slugFrom } from './lib/sveltifier.js';
+import timestamp from './lib/world-timestamp.js';
+import env from './env.js';
 
 const out = resolveTilde(env.OUTPUT_PATH);
 const testPageId = env.NOTION_TEST_PAGE_ID;
 const db = env.NOTION_DATABASE_ID;
 const cacheToken = env.CACHE_TOKEN;
 const ignoreCache = env.FORCE_REFRESH;
-const publishableStatus = env.PUBLISHABLE_STATUS || "Publishable";
+const publishableStatus = env.PUBLISHABLE_STATUS || 'Publishable';
 
 function go() {
   if (testPageId) {
@@ -36,32 +36,30 @@ function ensureDirectoryExistence(filePath) {
 async function run() {
   console.log(`\n🏭 ${timestamp}`);
 
-  let pages = [""];
+  let pages = [''];
 
   try {
     console.log(`1. Fetching publishable pages from Database #${db}`);
     pages = await fetchAllPages({
       dbId: db,
-      publishableStatus,
+      publishableStatus
     });
   } catch (e) {
-    console.error("💥🙉 Abort! Abort!", e);
+    console.error('💥🙉 Abort! Abort!', e);
     return;
   }
 
-  console.log(
-    `2. Processing ${pages.length} ${pages.length === 1 ? "page" : "pages"}`
-  );
+  console.log(`2. Processing ${pages.length} ${pages.length === 1 ? 'page' : 'pages'}`);
   for (let page of pages) {
     const pageId = stripDashes(page.id);
     const slug = slugFrom(page);
 
-    console.log(" › ———");
+    console.log(' › ———');
     console.log(` › Fetching #${pageId}`);
-    const path = join(out, slug + ".svelte");
+    const path = join(out, slug + '.svelte');
     const fullPage = await fetchFullPage(pageId);
 
-    const jsonPath = join(out, slug + ".json");
+    const jsonPath = join(out, slug + '.json');
     console.log(` › Writing JSON to ${jsonPath}`);
 
     ensureDirectoryExistence(jsonPath);
@@ -75,36 +73,36 @@ async function run() {
 
     console.log(` › Formatting file…`);
 
-    if (path.includes(" ")) {
+    if (path.includes(' ')) {
       console.warn(
         "\n⚠️ 🐌\n\n  ⎸ Looks like you've got a space in your slug,\n  ⎸ which might be a mistake.\n  ⎸\n  ⎸ Usually `my-page-slug` or `MyPageSlug` is\n  ⎸ preferable to `My Page Slug`, since that\n  ⎸ translates to `…/My%20Page%20Slug. \n  ⎸\n"
       );
     }
-    exec(`prettier --write "${path}"`, (e, stdout, stderr) => {
-      if (e) {
-        console.log(` › error: ${e.message}`);
+    // exec(`prettier --write "${path}"`, (e, stdout, stderr) => {
+    //   if (e) {
+    //     console.log(` › error: ${e.message}`);
 
-        return;
-      }
-      if (stderr && !stderr.includes("Debugger attached")) {
-        console.log(` › stderr: ${stderr}`);
-        return;
-      }
-      // console.log(` › ${stdout.trim()}`);
-    });
+    //     return;
+    //   }
+    //   if (stderr && !stderr.includes('Debugger attached')) {
+    //     console.log(` › stderr: ${stderr}`);
+    //     return;
+    //   }
+    //   // console.log(` › ${stdout.trim()}`);
+    // });
   }
   console.log(`⟢ FIN ⟣\n`);
 }
 
 async function runTest() {
-  console.log("🐞", testPageId);
+  console.log('🐞', testPageId);
 
-  const testPagePath = join(out, "test.json");
-  let pageJSON = "";
+  const testPagePath = join(out, 'test.json');
+  let pageJSON = '';
 
   try {
     console.log(`0. Checking for existing test cache…`);
-    const cache = await fs.readFile(testPagePath, "utf-8");
+    const cache = await fs.readFile(testPagePath, 'utf-8');
     console.log(`1. Cache found. Parsing.`);
     pageJSON = JSON.parse(cache);
   } catch (e) {
@@ -116,17 +114,15 @@ async function runTest() {
 
   if (!pageJSON || testPageId !== cacheToken || ignoreCache) {
     try {
-      console.log(
-        `1a. Cache empty or broken. Fetching fresh page data for #${testPageId}`
-      );
+      console.log(`1a. Cache empty or broken. Fetching fresh page data for #${testPageId}`);
       pageJSON = await fetchFullPage(testPageId);
     } catch (e) {
-      console.error("💥🙉 Abort! Abort!", e, testPageId);
+      console.error('💥🙉 Abort! Abort!', e, testPageId);
       return;
     }
 
     try {
-      console.log("1b. Writing to test cache.");
+      console.log('1b. Writing to test cache.');
       await fs.writeFile(testPagePath, JSON.stringify(pageJSON, null, 2));
       exec(
         `perl -pi.bak -e 's/CACHE_TOKEN=.*/CACHE_TOKEN=${testPageId}/g' .env; rm .env.bak`,
@@ -147,22 +143,20 @@ async function runTest() {
     }
   }
 
-  let renderedPage = "";
+  let renderedPage = '';
 
   try {
     console.log(`2. Rendering data`);
     renderedPage = renderPage(pageJSON);
   } catch (e) {
     console.log(
-      `💥🐛 Mayday! Mayday!:\n\n${e}\n\njson ↴\n${JSON.stringify(
-        pageJSON
-      ).slice(0, 1024)}…\n\n`
+      `💥🐛 Mayday! Mayday!:\n\n${e}\n\njson ↴\n${JSON.stringify(pageJSON).slice(0, 1024)}…\n\n`
     );
     return;
   }
 
   try {
-    const sveltePath = join(out, "test.svelte");
+    const sveltePath = join(out, 'test.svelte');
     console.log(`3. Writing rendered Svelte page to ${sveltePath}`);
     await fs.writeFile(sveltePath, renderedPage);
     console.log(`⟢ FIN ⟣\n`);

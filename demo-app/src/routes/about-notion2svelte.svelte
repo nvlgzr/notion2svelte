@@ -52,7 +52,7 @@
         last_edited_time: '2022-01-10T12:14:00.000Z'
       }}
     >
-      <strong>Write</strong>&nbsp;in Notion
+      <strong>Write</strong> in Notion
     </Paragraph>
     <Paragraph
       blockProps={{
@@ -62,7 +62,7 @@
         last_edited_time: '2022-01-10T12:14:00.000Z'
       }}
     >
-      <strong>Publish</strong>&nbsp;in Svelte
+      <strong>Publish</strong> in Svelte
     </Paragraph>
     <Paragraph
       blockProps={{
@@ -72,27 +72,26 @@
         last_edited_time: '2022-01-10T12:14:00.000Z'
       }}
     >
-      <strong>Control</strong>&nbsp;with&nbsp;<em>notion2svelte</em>
+      <strong>Control</strong> with <em>notion2svelte</em>
     </Paragraph>
   </span></Quote
-><Header level={1}>Introducing&nbsp;<InlineCode code={'notion2svelte'} /></Header>
+><Header level={1}>Introducing <InlineCode code={'notion2svelte'} /></Header>
 <Paragraph
   blockProps={{
     pageId: 'fdc65179a8bd451caf6759019204cfde',
     id: '0828193e-9eaa-4b99-a0f9-599a801c99e5',
     created_time: '2022-01-04T05:41:00.000Z',
-    last_edited_time: '2022-01-09T05:16:00.000Z'
+    last_edited_time: '2022-01-31T05:21:00.000Z'
   }}
 >
-  Just like it sounds,&nbsp;<em>notion2svelte</em>&nbsp;transforms Notion-based content into .svelte
-  pages:
+  Just like it sounds, <em>notion2svelte</em> transforms Notion-based content into <em>.svelte</em> pages:
 </Paragraph>
 <Equation block={true} katexString="Notion → notion2svelte → Svelte" /><ColumnList cols={2}
   ><Column
     ><Header level={2}>Source (Notion)</Header>
     <Image url="/assets/about-notion2svelte/ed21d11c-9389-4694-9db4-549e002a1b92.png" />
     <BulletedListItem>😃 Awesome editing experience</BulletedListItem>
-    <BulletedListItem>🤨 Domain-locked to&nbsp;<em>notion.so</em></BulletedListItem>
+    <BulletedListItem>🤨 Domain-locked to <em>notion.so</em></BulletedListItem>
     <BulletedListItem>😐 Proprietary limitations</BulletedListItem>
   </Column><Column
     ><Header level={2}>Destination (Svelte)</Header>
@@ -102,7 +101,7 @@
     <BulletedListItem>🪡 Infinite possibilities</BulletedListItem>
   </Column></ColumnList
 ><Divider />
-<Header level={1}>Why&nbsp;<em>notion2svelte</em>?</Header>
+<Header level={1}>Why <em>notion2svelte</em>?</Header>
 <ColumnList cols={3}
   ><Column
     ><Paragraph
@@ -113,7 +112,7 @@
         last_edited_time: '2022-01-11T00:49:00.000Z'
       }}
     >
-      I like&nbsp;<strong>writing in Notion</strong>
+      I like <strong>writing in Notion</strong>
     </Paragraph>
   </Column><Column
     ><Paragraph
@@ -124,7 +123,7 @@
         last_edited_time: '2022-01-09T05:22:00.000Z'
       }}
     >
-      I like&nbsp;<strong>coding in Svelte</strong>
+      I like <strong>coding in Svelte</strong>
     </Paragraph>
   </Column><Column
     ><Paragraph
@@ -135,7 +134,7 @@
         last_edited_time: '2022-01-11T00:49:00.000Z'
       }}
     >
-      I like the&nbsp;<strong>safety of git</strong>
+      I like the <strong>safety of git</strong>
     </Paragraph>
   </Column></ColumnList
 ><Paragraph
@@ -146,8 +145,8 @@
     last_edited_time: '2022-01-09T05:23:00.000Z'
   }}
 >
-  That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.&nbsp;</em>It’s not the best
-  project out there, but it’s the only one that does what I want. Namely:
+  That, in a nutshell, is what got me started on <em>notion2svelte. </em>It’s not the best project
+  out there, but it’s the only one that does what I want. Namely:
 </Paragraph>
 <BulletedListItem>Store intermediary artifacts to-disk</BulletedListItem>
 <IndentGroup>
@@ -167,9 +166,7 @@
     interactivity that Notion doesn’t allow</BulletedListItem
   >
 </IndentGroup>
-<BulletedListItem
-  >Command-line tool, rather than runtime&nbsp;<em>npm</em>&nbsp;package</BulletedListItem
->
+<BulletedListItem>Command-line tool, rather than runtime <em>npm</em> package</BulletedListItem>
 <IndentGroup>
   <Paragraph
     blockProps={{
@@ -182,10 +179,9 @@
     <em>Benefits</em>
   </Paragraph>
   <BulletedListItem
-    >100% decoupled tooling: want to “eject” from&nbsp;<em>notion2svelte</em>? No problem. Just stop
-    using it. From the perspective of your Svelte app, the pages created by&nbsp;<em
-      >notion2svelte</em
-    >&nbsp;are no different than pages you code yourself</BulletedListItem
+    >100% decoupled tooling: want to “eject” from <em>notion2svelte</em>? No problem. Just stop
+    using it. From the perspective of your Svelte app, the pages created by <em>notion2svelte</em> are
+    no different than pages you code yourself</BulletedListItem
   >
 </IndentGroup>
 <BulletedListItem>Write-your-own components</BulletedListItem>
@@ -201,9 +197,9 @@
     <em>Benefits</em>
   </Paragraph>
   <BulletedListItem>Provides wide creative freedom</BulletedListItem>
-  <BulletedListItem>Keeps&nbsp;<em>notion2svelte</em>&nbsp;simple</BulletedListItem>
+  <BulletedListItem>Keeps <em>notion2svelte</em> simple</BulletedListItem>
 </IndentGroup>
-<Header level={1}>Why NOT&nbsp;<em>notion2svelte</em>?</Header>
+<Header level={1}>Why NOT <em>notion2svelte</em>?</Header>
 <Paragraph
   blockProps={{
     pageId: 'fdc65179a8bd451caf6759019204cfde',
@@ -212,10 +208,8 @@
     last_edited_time: '2022-01-23T21:07:00.000Z'
   }}
 >
-  Why&nbsp;<em>not</em>&nbsp;use it? Mainly because it’s early days and, while&nbsp;<em
-    >notion2svelte</em
-  >&nbsp;isn’t&nbsp;<em>capable</em>&nbsp;of breaking your app, you may not have the patience for
-  its idiosyncrasies.
+  Why <em>not</em> use it? Mainly because it’s early days and, while <em>notion2svelte</em> isn’t
+  <em>capable</em> of breaking your app, you may not have the patience for its idiosyncrasies.
 </Paragraph>
 <Paragraph
   blockProps={{
@@ -236,9 +230,11 @@
     last_edited_time: '2022-01-27T06:45:00.000Z'
   }}
 >
-  I hope you’ll give it&nbsp;<Link href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
-    >a quick try</Link
-  >&nbsp;and, if you’re feeling the vibe, let me know what you think in&nbsp;<Link
+  I hope you’ll give it <Link
+    type="absolute"
+    href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">a quick try</Link
+  > and, if you’re feeling the vibe, let me know what you think in <Link
+    type="absolute"
     href="https://github.com/nvlgzr/notion2svelte/discussions/1">the Discussions</Link
   >.
 </Paragraph>
@@ -264,9 +260,8 @@
 </Paragraph>
 <NumberedListItem number="1">…written in Notion</NumberedListItem>
 <NumberedListItem number="2">
-  …exported as .svelte files, targeted to&nbsp;<InlineCode
-    code={'src/routes/&lt;Slug&gt;.svelte'}
-  />, using&nbsp;<em>notion2svelte</em></NumberedListItem
+  …exported as .svelte files, targeted to <InlineCode code={'src/routes/&lt;Slug&gt;.svelte'} />,
+  using <em>notion2svelte</em></NumberedListItem
 >
 <NumberedListItem number="3">…Published normally using Svelte Kit</NumberedListItem>
 <Paragraph
@@ -328,8 +323,9 @@
     last_edited_time: '2022-01-22T20:23:00.000Z'
   }}
 >
-  <InlineColor value="gray">The same callout, after transformation by&nbsp;</InlineColor
-  ><InlineColor value="gray"><em>notion2svelte</em></InlineColor>
+  <InlineColor value="gray">The same callout, after transformation by</InlineColor><InlineColor
+    value="gray"><em>notion2svelte</em></InlineColor
+  >
 </Paragraph>
 <Paragraph
   blockProps={{
@@ -347,16 +343,15 @@
     last_edited_time: '2022-01-22T20:28:00.000Z'
   }}
 >
-  The first step&nbsp;<em>notion2svelte</em>&nbsp;takes is to query the Notion API.
+  The first step <em>notion2svelte</em> takes is to query the Notion API.
 </Paragraph>
 <Toggle
   >How notion2svelte uses the Notion API
   <span slot="children"
     ><NumberedListItem number="a">
       We use the values in your .env to fetch all “Publishable” pages from a specified Notion
-      database. To be&nbsp;<em>publishable</em>, a page must have a property named&nbsp;<em
-        >Status</em
-      >&nbsp;with a value of&nbsp;<em>Publishable</em>.</NumberedListItem
+      database. To be <em>publishable</em>, a page must have a property named <em>Status</em> with a
+      value of <em>Publishable</em>.</NumberedListItem
     >
     <NumberedListItem number="b">
       Recursively fetching all the blocks on a page, we stitch together a single JSON representation
@@ -375,7 +370,7 @@
     last_edited_time: '2022-01-22T20:34:00.000Z'
   }}
 >
-  &nbsp;This big JSON object shows our example callout as rendered by the Notion API.
+  This big JSON object shows our example callout as rendered by the Notion API.
 </Paragraph>
 <ColumnList cols={2}
   ><Column
@@ -415,7 +410,6 @@
   }
 }`}
       language="json"
-      caption=""
     /></Column
   ><Column
     ><Paragraph
@@ -426,8 +420,8 @@
         last_edited_time: '2022-01-11T07:14:00.000Z'
       }}
     >
-      It’s pretty noisy, with all those time stamps, repetitions, and&nbsp;heavy nesting! For
-      rendering purposes, most of it can be ignored.
+      It’s pretty noisy, with all those time stamps, repetitions, and heavy nesting! For rendering
+      purposes, most of it can be ignored.
     </Paragraph>
     <Paragraph
       blockProps={{
@@ -437,15 +431,16 @@
         last_edited_time: '2022-01-24T01:05:00.000Z'
       }}
     >
-      Here’s what&nbsp;<em>notion2svelte</em>&nbsp;spits out from all that JSON:
+      Here’s what <em>notion2svelte</em> spits out from all that JSON:
     </Paragraph>
     <Code
       code={`<Callout emoji="🦦" block-props=\{\{…}}>
   Hi. I’m a sea otter.
 </Callout>`}
       language="html"
-      caption="The&nbsp;<em>block-props</em>&nbsp;attribute gives your component implementations access to Notion’s most relevant block metadata."
-    /><Paragraph
+      >The <em>block-props</em> attribute gives your component implementations access to Notion’s most
+      relevant block metadata.</Code
+    ><Paragraph
       blockProps={{
         pageId: 'fdc65179a8bd451caf6759019204cfde',
         id: 'b985d513-ddb9-4ae9-9d28-35c069106fdc',
@@ -477,12 +472,13 @@
     last_edited_time: '2022-01-11T07:18:00.000Z'
   }}
 >
-  All that’s needed to render this particular example are the values for&nbsp;<InlineCode
+  All that’s needed to render this particular example are the values for <InlineCode
     code={'callout.icon.emoji'}
-  />,&nbsp;<InlineCode code={'callout.text[0].content'} />, and, well, the blocks’ overall
-  type:&nbsp;<InlineCode code={'&quot;callout&quot;'} />. The type tells&nbsp;<em>notion2svelte</em
-  >&nbsp;which component to use, in this case,&nbsp;<InlineCode code={'&lt;Callout&gt;'} />. It also
-  tells&nbsp;<em>notion2svelte</em>&nbsp;how to parse the stuff under&nbsp;<InlineCode
+  />, <InlineCode code={'callout.text[0].content'} />, and, well, the blocks’ overall type: <InlineCode
+    code={'&quot;callout&quot;'}
+  />. The type tells <em>notion2svelte</em> which component to use, in this case, <InlineCode
+    code={'&lt;Callout&gt;'}
+  />. It also tells <em>notion2svelte</em> how to parse the stuff under <InlineCode
     code={'&quot;callout&quot;'}
   />.
 </Paragraph>
@@ -507,13 +503,13 @@
         last_edited_time: '2022-01-09T05:56:00.000Z'
       }}
     >
-      &nbsp;Do you want a simple, gray callout with minimal styling, like this:
+      Do you want a simple, gray callout with minimal styling, like this:
     </Paragraph>
   </Column><Column
     ><Image url="/assets/about-notion2svelte/70a6d0d1-1eaa-493e-8af4-cd1b69690c54.png" />
   </Column></ColumnList
 ><Toggle
-  >Here’s the code<em>&nbsp;(simple gray)</em>
+  >Here’s the code<em> (simple gray)</em>
   <span slot="children"
     ><Paragraph
       blockProps={{
@@ -526,7 +522,7 @@
       <em>Callout.svelte</em>
     </Paragraph>
     <Code
-      code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7Cg==" ✂prettier:content✂="e30=">{}</script>
+      code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7Cg==">{}</script>
 
 <div class="wrapper">
 	<div class="emoji">\{emoji}</div>
@@ -538,9 +534,8 @@
 	</div>
 </div>
 
-<style ✂prettier:content✂="Cgkud3JhcHBlciBcewoJCWJhY2tncm91bmQtY29sb3I6IHdoaXRlOwoJCWJvcmRlcjogMXB4IHNvbGlkICMzMzM7CgkJbWFyZ2luOiAxcmVtOwoJCXBhZGRpbmc6IDFyZW07CgkJYm9yZGVyLXJhZGl1czogMC41cmVtOwoJfQoKCS5lbW9qaSBcewoJCWZvbnQtc2l6ZTogMnJlbTsKCX0K" ✂prettier:content✂=""></style>`}
+<style ✂prettier:content✂="Cgkud3JhcHBlciBcewoJCWJhY2tncm91bmQtY29sb3I6IHdoaXRlOwoJCWJvcmRlcjogMXB4IHNvbGlkICMzMzM7CgkJbWFyZ2luOiAxcmVtOwoJCXBhZGRpbmc6IDFyZW07CgkJYm9yZGVyLXJhZGl1czogMC41cmVtOwoJfQoKCS5lbW9qaSBcewoJCWZvbnQtc2l6ZTogMnJlbTsKCX0K"></style>`}
       language="html"
-      caption=""
     /><Paragraph
       blockProps={{
         pageId: 'fdc65179a8bd451caf6759019204cfde',
@@ -579,7 +574,7 @@
       <em>Callout.svelte</em>
     </Paragraph>
     <Code
-      code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7Cg==" ✂prettier:content✂="e30=">{}</script>
+      code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7Cg==">{}</script>
 
 <div class="wrapper">
 	<div class="emoji">\{emoji}</div>
@@ -591,9 +586,8 @@
 	</div>
 </div>
 
-<style ✂prettier:content✂="Cgkud3JhcHBlciBcewoJCWRpc3BsYXk6IGZsZXg7CgkJbWFyZ2luOiAxcmVtIDFyZW0gMnJlbSAwOwoJCXBhZGRpbmc6IDJyZW0gMnJlbSAwIDJyZW07CgkJZm9udDogMS4yNXJlbS8xLjVyZW0gJ0hlbHZldGljYSBOZXVlJywgSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsKCQliYWNrZ3JvdW5kLWNvbG9yOiBoc2woMTk4LCAxMDAlLCA5NyUpOwoJCWJvcmRlcjogNHB4IHNvbGlkIGhzbCgyMDYsIDg4JSwgNzAlKTsKCQlib3JkZXItcmFkaXVzOiAwLjVyZW07Cgl9CgkuY2FsbG91dCBcewoJCWRpc3BsYXk6IGJsb2NrOwoJfQoJLmVtb2ppIFx7CgkJbWFyZ2luLXJpZ2h0OiAwLjVlbTsKCQloZWlnaHQ6IDNyZW07CgkJd2lkdGg6IDNyZW07CgkJZm9udC1zaXplOiAzcmVtOwoJCWxpbmUtaGVpZ2h0OiAxLjE7Cgl9Cg==" ✂prettier:content✂=""></style>`}
+<style ✂prettier:content✂="Cgkud3JhcHBlciBcewoJCWRpc3BsYXk6IGZsZXg7CgkJbWFyZ2luOiAxcmVtIDFyZW0gMnJlbSAwOwoJCXBhZGRpbmc6IDJyZW0gMnJlbSAwIDJyZW07CgkJZm9udDogMS4yNXJlbS8xLjVyZW0gJ0hlbHZldGljYSBOZXVlJywgSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsKCQliYWNrZ3JvdW5kLWNvbG9yOiBoc2woMTk4LCAxMDAlLCA5NyUpOwoJCWJvcmRlcjogNHB4IHNvbGlkIGhzbCgyMDYsIDg4JSwgNzAlKTsKCQlib3JkZXItcmFkaXVzOiAwLjVyZW07Cgl9CgkuY2FsbG91dCBcewoJCWRpc3BsYXk6IGJsb2NrOwoJfQoJLmVtb2ppIFx7CgkJbWFyZ2luLXJpZ2h0OiAwLjVlbTsKCQloZWlnaHQ6IDNyZW07CgkJd2lkdGg6IDNyZW07CgkJZm9udC1zaXplOiAzcmVtOwoJCWxpbmUtaGVpZ2h0OiAxLjE7Cgl9Cg=="></style>`}
       language="html"
-      caption=""
     /><Paragraph
       blockProps={{
         pageId: 'fdc65179a8bd451caf6759019204cfde',
@@ -654,7 +648,7 @@
       <em>Callout.svelte</em>
     </Paragraph>
     <Code
-      code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7CgoJZXhwb3J0IGxldCBvcGVuID0gZmFsc2U7Cg==" ✂prettier:content✂="e30=">{}</script>
+      code={`<script ✂prettier:content✂="CglleHBvcnQgbGV0IGVtb2ppID0gJyc7CgoJZXhwb3J0IGxldCBvcGVuID0gZmFsc2U7Cg==">{}</script>
 
 <div class="wrapper \{open ? 'open' : 'closed'}" on:click=\{() => (open = !open)}>
 	<div class="emoji">\{emoji}</div>
@@ -670,9 +664,8 @@
 	\{/if}
 </div>
 
-<style ✂prettier:content✂="Cgkud3JhcHBlciBcewoJCWRpc3BsYXk6IGZsZXg7CgkJbWFyZ2luOiAxcmVtIDFyZW0gMnJlbSAwOwoJCXBhZGRpbmc6IDJyZW0gMnJlbSAwIDJyZW07CgkJZm9udDogMS4yNXJlbS8xLjVyZW0gJ0hlbHZldGljYSBOZXVlJywgSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsKCQliYWNrZ3JvdW5kLWNvbG9yOiBoc2woMTk4LCAxMDAlLCA5NyUpOwoJCWJvcmRlcjogNHB4IHNvbGlkIGhzbCgyMDYsIDg4JSwgNzAlKTsKCQlib3JkZXItcmFkaXVzOiAwLjVyZW07Cgl9CgoJLmNsb3NlZCBcewoJCXdpZHRoOiA4cmVtOwoJfQoKCS5jYWxsb3V0IFx7CgkJZGlzcGxheTogYmxvY2s7Cgl9CgoJLmVtb2ppIFx7CgkJbWFyZ2luLXJpZ2h0OiAwLjVlbTsKCQloZWlnaHQ6IDNyZW07CgkJd2lkdGg6IDNyZW07CgkJZm9udC1zaXplOiAzcmVtOwoJCWxpbmUtaGVpZ2h0OiAxLjE7Cgl9Cg==" ✂prettier:content✂=""></style>`}
+<style ✂prettier:content✂="Cgkud3JhcHBlciBcewoJCWRpc3BsYXk6IGZsZXg7CgkJbWFyZ2luOiAxcmVtIDFyZW0gMnJlbSAwOwoJCXBhZGRpbmc6IDJyZW0gMnJlbSAwIDJyZW07CgkJZm9udDogMS4yNXJlbS8xLjVyZW0gJ0hlbHZldGljYSBOZXVlJywgSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsKCQliYWNrZ3JvdW5kLWNvbG9yOiBoc2woMTk4LCAxMDAlLCA5NyUpOwoJCWJvcmRlcjogNHB4IHNvbGlkIGhzbCgyMDYsIDg4JSwgNzAlKTsKCQlib3JkZXItcmFkaXVzOiAwLjVyZW07Cgl9CgoJLmNsb3NlZCBcewoJCXdpZHRoOiA4cmVtOwoJfQoKCS5jYWxsb3V0IFx7CgkJZGlzcGxheTogYmxvY2s7Cgl9CgoJLmVtb2ppIFx7CgkJbWFyZ2luLXJpZ2h0OiAwLjVlbTsKCQloZWlnaHQ6IDNyZW07CgkJd2lkdGg6IDNyZW07CgkJZm9udC1zaXplOiAzcmVtOwoJCWxpbmUtaGVpZ2h0OiAxLjE7Cgl9Cg=="></style>`}
       language="html"
-      caption=""
     /></span
   ></Toggle
 ><Header level={3}>A word about imports</Header>
@@ -684,12 +677,11 @@
     last_edited_time: '2022-01-05T09:14:00.000Z'
   }}
 >
-  It should go without saying, but your Sveltekit app needs to know where to actually&nbsp;<em
-    >find</em
-  >&nbsp;the components that match&nbsp;<em>notion2svelte</em>’s output. At present, this means
-  putting them in&nbsp;<em>src/lib/notion2svelte</em>. The reason why becomes apparent when we look
-  at the&nbsp;<InlineCode code={'import'} />&nbsp;statements rendered by&nbsp;<em>notion2svelte</em
-  >.
+  It should go without saying, but your Sveltekit app needs to know where to actually <em>find</em>
+  the components that match <em>notion2svelte</em>’s output. At present, this means putting them in
+  <em>src/lib/notion2svelte</em>. The reason why becomes apparent when we look at the <InlineCode
+    code={'import'}
+  /> statements rendered by <em>notion2svelte</em>.
 </Paragraph>
 <Paragraph
   blockProps={{
@@ -703,12 +695,9 @@
   error if you try to run your app without the necessary components in place. After all, they’re
   just regular Svelte imports. Nothing special.
 </Paragraph>
-<Code
-  code={`import Callout from '$lib/notion2svelte/Callout.svelte';`}
-  language="html"
-  caption=""
-/><Divider />
-<Header level={1}>How to use&nbsp;<em>notion2svelte</em></Header>
+<Code code={`import Callout from '$lib/notion2svelte/Callout.svelte';`} language="html" /><Divider
+/>
+<Header level={1}>How to use <em>notion2svelte</em></Header>
 <Paragraph
   blockProps={{
     pageId: 'fdc65179a8bd451caf6759019204cfde',
@@ -717,7 +706,8 @@
     last_edited_time: '2022-01-11T07:34:00.000Z'
   }}
 >
-  For now, the fastest way to get started is to follow along with the video tutorial,&nbsp;<Link
+  For now, the fastest way to get started is to follow along with the video tutorial, <Link
+    type="absolute"
     href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
     ><strong>notion2svelte in 10 minutes</strong></Link
   >
@@ -726,7 +716,7 @@
 <Header level={1}>Where to learn more</Header>
 <Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
 <BulletedListItem
-  ><Link href="https://github.com/nvlgzr/notion2svelte"
+  ><Link type="absolute" href="https://github.com/nvlgzr/notion2svelte"
     >https://github.com/nvlgzr/notion2svelte</Link
   ></BulletedListItem
 >
@@ -740,6 +730,7 @@
   }}
 >
   Open your Terminal.app* and follow along to 👉🏿 “<Link
+    type="absolute"
     href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
   >”!
 </Paragraph>
@@ -754,11 +745,12 @@
   >
     <InlineColor value="gray"
       >*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-      works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-    ><Link href="https://fishshell.com/"><InlineColor value="gray">fish shell</InlineColor></Link
-    ><InlineColor value="gray"
-      >&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
-      after all, so it should be pretty portable!</InlineColor
+      works for you if you’re not running macOS! That said, I suspect my reliance on
+    </InlineColor><Link type="absolute" href="https://fishshell.com/"
+      ><InlineColor value="gray">fish shell</InlineColor></Link
+    ><InlineColor value="gray">
+      is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
+      all, so it should be pretty portable!</InlineColor
     >
   </Paragraph>
   <Paragraph
@@ -784,59 +776,123 @@
   />
 </IndentGroup>
 <Divider />
-<Header level={2}>Browse the docs ⚘&nbsp;<a href="/about-notion2svelte">🏠</a>&nbsp;</Header>
+<Header level={2}
+  >Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+</Header>
 <ColumnList cols={2}
   ><Column
     ><Header level={3}>High-level Discussion</Header>
-    <BulletedListItem><Link href="/components">Components</Link></BulletedListItem>
+    <BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
     <BulletedListItem
-      ><Link href="/rules-for-writing-good-slugs">Writing Good Slugs</Link></BulletedListItem
+      ><Link type="mention" href="/high-level-discussion/rules-for-writing-good-slugs"
+        >Writing Good Slugs</Link
+      ></BulletedListItem
     >
-    <BulletedListItem><Link href="/block-props">blockProps</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/nested-blocks">Nested Blocks</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/synced-blocks">Synced Blocks</Link></BulletedListItem>
+    <BulletedListItem
+      ><Link type="mention" href="/high-level-discussion/block-props">blockProps</Link
+      ></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/high-level-discussion/nested-blocks">Nested Blocks</Link
+      ></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/high-level-discussion/synced-blocks">Synced Blocks</Link
+      ></BulletedListItem
+    >
     <Header level={3}>Turn-intoable Block Components</Header>
     <BulletedListItem
-      ><Link href="/components/paragraph">Paragraph (aka “Text”)</Link></BulletedListItem
+      ><Link type="mention" href="/standard-components/paragraph">Paragraph (aka “Text”)</Link
+      ></BulletedListItem
     >
     <BulletedListItem
-      ><Link href="/components/header">Header (3 types in 1!)</Link></BulletedListItem
-    >
-    <BulletedListItem><Link href="/components/child-page">ChildPage</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/todo-item">TodoItem</Link></BulletedListItem>
-    <BulletedListItem
-      ><Link href="/components/bulleted-list-item">BulletedListItem</Link></BulletedListItem
+      ><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
+      ></BulletedListItem
     >
     <BulletedListItem
-      ><Link href="/components/numbered-list-item">NumberedListItem</Link></BulletedListItem
+      ><Link type="mention" href="/standard-components/child-page">ChildPage</Link
+      ></BulletedListItem
     >
-    <BulletedListItem><Link href="/components/toggle">Toggle</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/code">Code</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/quote">Quote</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/callout">Callout</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/equation">Equation</Link></BulletedListItem>
     <BulletedListItem
-      >Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
+      ><Link type="mention" href="/standard-components/todo-item">TodoItem</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/standard-components/bulleted-list-item">BulletedListItem</Link
+      ></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/standard-components/numbered-list-item">NumberedListItem</Link
+      ></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/standard-components/toggle">Toggle</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/standard-components/code">Code</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/standard-components/quote">Quote</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/standard-components/callout">Callout</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
+    >
+    <BulletedListItem
+      >Toggle Headings<InlineColor value="gray">
+        (not yet implemented)</InlineColor
       ></BulletedListItem
     >
   </Column><Column
     ><Header level={3}>Layout-only Components</Header>
-    <BulletedListItem><Link href="/components/indent-group">IndentGroup</Link></BulletedListItem>
     <BulletedListItem
-      ><Link href="/components/columns">Column & ColumnList</Link>&nbsp;</BulletedListItem
+      ><Link type="mention" href="/layout-only-components/indent-group">IndentGroup</Link
+      ></BulletedListItem
     >
+    <BulletedListItem
+      ><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link>
+    </BulletedListItem>
     <Header level={3}>Page-level Components</Header>
-    <BulletedListItem><Link href="/components/title">Title (aka Name)</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/cover">Cover (Image & Icon)</Link></BulletedListItem>
+    <BulletedListItem
+      ><Link type="mention" href="/page-level-components/title">Title (aka Name)</Link
+      ></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/page-level-components/cover">Cover (Image & Icon)</Link
+      ></BulletedListItem
+    >
     <Header level={3}>Annotation Components</Header>
-    <BulletedListItem><Link href="/components/inline-code">InlineCode</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/inline-color">InlineColor</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/internal-link">InternalLink</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/equation">Equation</Link></BulletedListItem>
+    <BulletedListItem
+      ><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+    </BulletedListItem>
+    <BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
+    <BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
+    <BulletedListItem
+      ><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/annotations/inline-color">InlineColor</Link></BulletedListItem
+    >
+    <BulletedListItem><Link type="mention" href="/annotations/link">Link</Link></BulletedListItem>
+    <BulletedListItem
+      ><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
+    >
     <Header level={3}>Other Components</Header>
-    <BulletedListItem><Link href="/components/divider">Divider</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/embed">Embed</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/image">Image</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/error">Error</Link></BulletedListItem>
+    <BulletedListItem
+      ><Link type="mention" href="/other-components/divider">Divider</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/other-components/embed">Embed</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/other-components/image">Image</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/other-components/error">Error</Link></BulletedListItem
+    >
   </Column></ColumnList
 >

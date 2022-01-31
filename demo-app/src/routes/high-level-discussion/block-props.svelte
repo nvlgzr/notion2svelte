@@ -25,257 +25,216 @@
 </script>
 
 <svelte:head>
-  <title>Components</title>
+  <title>blockProps</title>
 </svelte:head>
 
-<Title>Components</Title>
+<Title>blockProps</Title>
 
-<Header level={1}>A quick word about terminology</Header>
 <Paragraph
   blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: '3961f6a0-e487-4735-9879-39138ed7627e',
-    created_time: '2022-01-26T08:09:00.000Z',
-    last_edited_time: '2022-01-26T08:43:00.000Z'
+    pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+    id: '1b3d6de1-8b7a-48c5-bf63-9ea5b3a17906',
+    created_time: '2022-01-28T20:36:00.000Z',
+    last_edited_time: '2022-01-28T20:37:00.000Z'
   }}
 >
-  Let’s talk about <em><strong>elements</strong></em>, <em><strong>blocks</strong></em>, and
-  <em><strong>components</strong></em>. Structurally, these are interchangeable because they all use
-  tripartite units comprising a required <em>type</em>, optional <em>attributes</em> and
-  <em>content</em>, also optional.
+  <em>notion2svelte</em> passes <InlineCode code={'blockProps'} /> to every paragraph* so that your component
+  implementation can optionally make use of Notion’s block metadata.
 </Paragraph>
-<Paragraph
-  blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: 'ec0c84b3-6161-4f89-ac77-d17655adbb74',
-    created_time: '2022-01-26T08:41:00.000Z',
-    last_edited_time: '2022-01-26T08:45:00.000Z'
+<Code
+  code={`<Paragraph
+  <InlineColor value='purple'>blockProps</InlineColor>=\{\{
+    pageId: …,
+    id: …,
+    created_time: …,
+    last_edited_time: …
   }}
 >
-  That said, in titling this doc <em>Components</em>, I’m referring specifically to <em>Svelte</em>
-  components, i.e., pages ending in <em>.svelte</em>, for it’s these that make up
-  <em>notion2svelte’s</em> final output. In short:
+  ur content
+</Paragraph>`}
+  language="javascript"
+/><Header level={1}>Intended Uses</Header>
+<Paragraph
+  blockProps={{
+    pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+    id: '90ece235-05ce-413f-a94f-c4904fd66d66',
+    created_time: '2022-01-26T23:57:00.000Z',
+    last_edited_time: '2022-01-27T21:05:00.000Z'
+  }}
+>
+  <InlineCode code={'blockProps'} /> take the most useful pieces of block metadata and provide them to
+  your components* to use (or ignore) however you see fit. On my own personal site, I expect to use them
+  to:
 </Paragraph>
 <BulletedListItem
-  >The Web’s got <em>elements</em>: <InlineCode code={'&lt;hr /&gt;'} />, <InlineCode
-    code={'&lt;a href=…&gt;🔗&lt;/a&gt;'}
-  />, etc.</BulletedListItem
+  >Provide a UX, built into each block, whereby readers can provide feedback with the reference page
+  & block automatically included in the message</BulletedListItem
 >
-<Toggle
-  >Notion’s got <em>blocks</em>
-  <InlineColor value="gray">(toggle for details)</InlineColor>
-  <span slot="children"
-    ><Paragraph
-      blockProps={{
-        pageId: '98564b233ea84b78ad3147e3a0971ef5',
-        id: '9a95285c-c21c-4bed-b01f-fec9e4240922',
-        created_time: '2022-01-26T08:29:00.000Z',
-        last_edited_time: '2022-01-26T08:30:00.000Z'
-      }}
+<BulletedListItem
+  >Support automatic “bookmarking” as readers progress through my online fiction</BulletedListItem
+>
+<BulletedListItem>Enable precision links…</BulletedListItem>
+<IndentGroup>
+  <Paragraph
+    blockProps={{
+      pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+      id: '50c85f1b-03f9-495d-ad2c-0a159c7eee23',
+      created_time: '2022-01-27T21:00:00.000Z',
+      last_edited_time: '2022-01-27T21:00:00.000Z'
+    }}
+  >
+    <InlineCode code={'https://navelgazer.club/somepage#[block-id]'} />
+  </Paragraph>
+  <Paragraph
+    blockProps={{
+      pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+      id: '6f626dc8-8597-4779-9893-a7b24f5e6a41',
+      created_time: '2022-01-27T21:00:00.000Z',
+      last_edited_time: '2022-01-27T21:01:00.000Z'
+    }}
+  >
+    …similar to Notion’s block links: <Link
+      type="absolute"
+      href="/b266b66cecc74e218f494f80f5c820cc#1f965316ac104b8182e19bb1b6658357">(for example)</Link
     >
-      Of course, most Notion content exists in whatever proprietary structure they’ve created in
-      their database, and blocks are usually generated via the GUI…
-    </Paragraph>
-    <Image url="/assets/components/4c421841-a417-4ca0-af7a-f80dda7ef09a.png" />
-    <Paragraph
-      blockProps={{
-        pageId: '98564b233ea84b78ad3147e3a0971ef5',
-        id: '88b44a35-b4d7-4f78-a68b-1d75ed77bfa4',
-        created_time: '2022-01-26T08:27:00.000Z',
-        last_edited_time: '2022-01-26T08:32:00.000Z'
-      }}
-    >
-      …while the API affords computer-focussed interactions with Notion’s pages & blocks.
-    </Paragraph>
-    <Code
-      code={`\{
-  …
-  "blocks" : [
-    \{
-      …
-      "type" : "divider",
-      …
-    },
-    \{
-      …
-      "type" : "paragraph",
-      "paragraph" : \{
-        "text" : [
-          \{
-            …
-            "href": "http://…",
-            …
-          }
-        ]
-      }
-      …
-    }
-  ]
-}  `}
-      language="json"
-    /><Paragraph
-      blockProps={{
-        pageId: '98564b233ea84b78ad3147e3a0971ef5',
-        id: '32dc15ad-df18-424c-a615-7f8ffd318c77',
-        created_time: '2022-01-26T08:32:00.000Z',
-        last_edited_time: '2022-01-26T08:33:00.000Z'
-      }}
-    >
-      And all of this complexity still boils down to the same thing: <em>types</em>, with optional
-      <em>props & content</em>.
-    </Paragraph>
-  </span></Toggle
-><BulletedListItem
-  >Svelte’s got <em>components</em>: <InlineCode code={'&lt;Divider /&gt;'} />, <InlineCode
-    code={'&lt;Code language=…/&gt;'}
-  />, and these are our current topic.</BulletedListItem
->
-<Paragraph
-  blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: '8db0ea76-9a07-4a68-874b-437675723688',
-    created_time: '2022-01-26T08:35:00.000Z',
-    last_edited_time: '2022-01-26T08:47:00.000Z'
-  }}
->
-  Capisce?
-</Paragraph>
-<Header level={1}>The 4 stages of component transformation</Header>
-<Callout emoji="🦦"
-  >This is pretty self-explanatory, so feel free to skip straight down to the docs.</Callout
-><Paragraph
-  blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: 'aedae2ac-d168-4e90-b78d-ab383e3d8f8c',
-    created_time: '2022-01-17T08:19:00.000Z',
-    last_edited_time: '2022-01-17T08:23:00.000Z'
-  }}
->
-  To orient you as you read the docs below, they are all organized using the same four headers, each
-  intended to give you a clear vision of the <em>before-</em>, <em>during-</em>, and <em>after</em>.
-</Paragraph>
-<NumberedListItem number="1">
-  <InlineColor value="green"><strong>As rendered in Notion</strong></InlineColor></NumberedListItem
->
-<IndentGroup>
-  <Paragraph
-    blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
-      id: 'd884d4a3-70d5-4f3a-9ba9-b4f722ab42bd',
-      created_time: '2022-01-17T08:11:00.000Z',
-      last_edited_time: '2022-01-17T08:11:00.000Z'
-    }}
-  >
-    Individual components start their lives as blocks in Notion, completely independent, of course,
-    from <em>notion2svelte</em>. You’ll find a screenshot of each component at the top of each doc.
   </Paragraph>
 </IndentGroup>
-<NumberedListItem number="2">
-  <InlineColor value="green"><strong>Notion API</strong></InlineColor></NumberedListItem
->
-<IndentGroup>
-  <Paragraph
-    blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
-      id: '3b20c3de-269f-4eff-92f6-bc10fe60b773',
-      created_time: '2022-01-17T08:11:00.000Z',
-      last_edited_time: '2022-01-17T08:11:00.000Z'
-    }}
-  >
-    <em>notion2svelte</em> recursively fetches all the blocks on a page and stores the result in a
-    single <em>.json</em> file next to the final <em>.svelte</em> output.
-  </Paragraph>
-</IndentGroup>
-<NumberedListItem number="3">
-  <InlineColor value="green"><strong>Svelte output</strong></InlineColor></NumberedListItem
->
-<IndentGroup>
-  <Paragraph
-    blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
-      id: 'f0d25453-e9fc-4b83-b233-f5fd8d1dee3b',
-      created_time: '2022-01-17T08:11:00.000Z',
-      last_edited_time: '2022-01-23T21:24:00.000Z'
-    }}
-  >
-    <InlineCode code={'{&quot;type&quot;:&quot;thingy&quot;…}'} /> → <InlineCode
-      code={'&lt;Thingy&gt;…&lt;/Thingy&gt;'}
-    />
-  </Paragraph>
-</IndentGroup>
-<NumberedListItem number="4">
-  <InlineColor value="green"><strong>Rendered content</strong></InlineColor></NumberedListItem
->
-<IndentGroup>
-  <Paragraph
-    blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
-      id: '9f35b586-ab18-4f4d-8182-e1b48be8e1b4',
-      created_time: '2022-01-17T08:12:00.000Z',
-      last_edited_time: '2022-01-17T08:12:00.000Z'
-    }}
-  >
-    <em>notion2svelte</em> is out of the picture again by this step, but, just as it’s helpful to
-    see a screenshot of a block type in its original <em>notion.so</em> context, so it’s helpful to see
-    (one version) of the rendered Svelte component.
-  </Paragraph>
-</IndentGroup>
+<BulletedListItem>Feed into site analytics</BulletedListItem>
 <Paragraph
   blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: 'd086edea-5a87-46dc-96fa-8b24aaf3da2a',
-    created_time: '2022-01-17T07:54:00.000Z',
-    last_edited_time: '2022-01-17T07:58:00.000Z'
-  }}
->
-  You may find it interesting to note that each “Step 1” image is actually a screenshot of “Step 4”
-  as rendered on the source Notion page. The image effectively <em>freezes</em> the Notion styles, while
-  the example Svelte-side styles are native HTML elements.
-</Paragraph>
-<Paragraph
-  blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: '78e79acc-66ba-4b25-8dcf-b2b0a3951fbe',
-    created_time: '2022-01-17T07:58:00.000Z',
-    last_edited_time: '2022-01-17T08:23:00.000Z'
-  }}
->
-  This works because the pages on this site were generated using <em>notion2svelte!</em>
-</Paragraph>
-<Header level={1}>Component Docs</Header>
-<Paragraph
-  blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: '85c7a786-59e3-41ea-97a4-6610f85e9472',
-    created_time: '2022-01-19T23:38:00.000Z',
-    last_edited_time: '2022-01-19T23:38:00.000Z'
+    pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+    id: '17281e52-ae81-4950-8a31-02ac16500c6c',
+    created_time: '2022-01-26T23:54:00.000Z',
+    last_edited_time: '2022-01-26T23:56:00.000Z'
   }}
 />
-<ColumnList cols={3}
-  ><Column
+<Callout emoji="🚧"
+  >*As of this writing, the <InlineCode code={'blockProps'} /> attribute only gets passed to
+  <em>Paragraph</em>
+  components. At some point, I expect to do the grunt work required to pass them in to <em>all</em> components.
+  Watch this space, I guess. 🙄</Callout
+><Header level={1}>Accessing Notion metadata</Header>
+<Paragraph
+  blockProps={{
+    pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+    id: 'db2902be-7276-4575-8ced-f9b9e3c64d0d',
+    created_time: '2022-01-27T00:05:00.000Z',
+    last_edited_time: '2022-01-27T00:06:00.000Z'
+  }}
+>
+  Say you’ve got a simple paragraph in Notion, exported to Svelte via <em>notion2svelte</em>. The
+  resulting <em>.svelte</em> file will include something like this
+</Paragraph>
+<Code
+  code={`…
+import Paragraph from '$lib/notion2svelte/Paragraph.svelte';
+…
+
+…
+<Paragraph blockProps=\{\{
+  pageId: "38ed521bf46e49be8d2af67a53b37c6e"
+  id: "db9fe47b407a41ea952e1c6e891ecd23b1a25fff",
+  created_time: "2022-01-09T05:46:00.000Z",
+  last_edited_time: "2022-01-24T01:05:00.000Z"
+}}>
+  Dying is the greatest, most interesting thing any of us get to do. If I knew I could do it twice, I’d do it right now. As it is, I’ll probably avoid it as long as possible. Save the best for last, you know?
+</Paragraph>
+…`}
+  language="html"
+/><Paragraph
+  blockProps={{
+    pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+    id: '117e9261-954d-472f-9f8b-c7ec67c94b08',
+    created_time: '2022-01-24T04:32:00.000Z',
+    last_edited_time: '2022-01-27T00:12:00.000Z'
+  }}
+>
+  Inside <em>Paragraph.svelte</em>, <InlineCode code={'blockProps'} /> gets accessed in the usual way,
+  using <InlineCode code={'export let blockProps'} />. After that, the sky’s the limit.
+</Paragraph>
+<Header level={1}>Want an example?</Header>
+<Paragraph
+  blockProps={{
+    pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+    id: 'ffae8c5a-2339-410d-ac53-cfe8d09ba8e3',
+    created_time: '2022-01-27T00:12:00.000Z',
+    last_edited_time: '2022-01-27T00:28:00.000Z'
+  }}
+>
+  You’re staring at it. In fact, you might have already noticed that, when you hover over text —
+  like, say, this very paragraph — a <InlineCode code={'֍'} /> appears ← over there. If you haven’t already
+  clicked one of those buttons, take a second now to give it a go!
+</Paragraph>
+<Paragraph
+  blockProps={{
+    pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+    id: '1684779b-cde2-4835-a60d-7fd447b82037',
+    created_time: '2022-01-27T06:56:00.000Z',
+    last_edited_time: '2022-01-27T06:56:00.000Z'
+  }}
+>
+  It should look like this ↓
+</Paragraph>
+<Image url="/assets/high-level-discussion/block-props/5fb082b3-d27c-4fed-b49e-c800b88faa93.png"
+  >The JSON is a straight dump of <InlineCode code={'blockProps'} />. The button’s URL is assembled
+  by combining <InlineCode code={'pageId'} /> with the block <InlineCode code={'id'} />. Click it to
+  visit the source page in Notion.</Image
+>
+<Paragraph
+  blockProps={{
+    pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+    id: '7ac2fd86-b39d-48c8-b7f2-2af2fe1d4fe7',
+    created_time: '2022-01-27T00:15:00.000Z',
+    last_edited_time: '2022-01-27T00:15:00.000Z'
+  }}
+>
+  Nifty, no?
+</Paragraph>
+<Paragraph
+  blockProps={{
+    pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+    id: '4bfbad02-7c29-44e5-8a5a-4aad9a1a3813',
+    created_time: '2022-01-27T00:15:00.000Z',
+    last_edited_time: '2022-01-27T00:15:00.000Z'
+  }}
+/>
+<Callout emoji="🧠"
+  >In case you’re wondering, this → ֍ ← is a <em>right-facing Armenian eternity sign</em>. That’s
+  all I know about it. Ftw, <em>Unicode</em> also offers the
+  <em>left-facing Armenian eternity sign</em>: ֎<span slot="children"
     ><Paragraph
       blockProps={{
-        pageId: '98564b233ea84b78ad3147e3a0971ef5',
-        id: '64f6a0d7-e349-41b4-bf0a-fb6e591edf70',
-        created_time: '2022-01-26T08:49:00.000Z',
-        last_edited_time: '2022-01-26T08:49:00.000Z'
+        pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+        id: 'ef20ae12-750b-4b9c-83ff-2cb7be543421',
+        created_time: '2022-01-27T04:03:00.000Z',
+        last_edited_time: '2022-01-27T05:44:00.000Z'
       }}
-    />
-  </Column><Column
-    ><Image url="/assets/components/effd4d29-3d15-4097-af12-f493312f7267.png"
-      >Notion’s interchangeable block types, as of 1/19/22.</Image
     >
-  </Column><Column
-    ><Paragraph
+      Elegant, no? 😃 You take a sliver-moon of just the right proportions, double it once so that
+      the resulting duo has the same rotational symmetry as an S, double it again so that you’ve got
+      what looks like a 4-bladed fan, then double once more, twisting the double so that its blades
+      perfectly overlap the first fan to form what appears to be an impossibly-circular snip of
+      rope. Lovely.
+    </Paragraph>
+    <Header level={1}>֍ 🤓👍 Armenian Eternity ֎</Header>
+    <Paragraph
       blockProps={{
-        pageId: '98564b233ea84b78ad3147e3a0971ef5',
-        id: 'd0e9de7c-da9e-4943-94b0-e6dd61e5af35',
-        created_time: '2022-01-26T08:49:00.000Z',
-        last_edited_time: '2022-01-26T08:49:00.000Z'
+        pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+        id: '1da3207b-10b9-4f9c-9c26-e61fd85fffa4',
+        created_time: '2022-01-27T04:09:00.000Z',
+        last_edited_time: '2022-01-27T04:09:00.000Z'
       }}
     />
-  </Column></ColumnList
-><Divider />
+  </span></Callout
+><Paragraph
+  blockProps={{
+    pageId: '38ed521bf46e49be8d2af67a53a37c6e',
+    id: 'dd6d52c8-d9de-4dd7-9b38-57be36f0e54c',
+    created_time: '2022-01-27T00:26:00.000Z',
+    last_edited_time: '2022-01-27T00:26:00.000Z'
+  }}
+/>
+<Divider />
 <Header level={1}>Where to learn more</Header>
 <Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
 <BulletedListItem
@@ -286,7 +245,7 @@
 <Header level={3}>Ready to try it?</Header>
 <Paragraph
   blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
+    pageId: '38ed521bf46e49be8d2af67a53a37c6e',
     id: '58ff394d-4eda-4d56-aaea-89d926fcd3da',
     created_time: '2022-01-26T09:47:00.000Z',
     last_edited_time: '2022-01-27T05:11:00.000Z'
@@ -300,7 +259,7 @@
 <IndentGroup>
   <Paragraph
     blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
+      pageId: '38ed521bf46e49be8d2af67a53a37c6e',
       id: 'b77e2c4c-0270-4680-aee3-73500e7e5e95',
       created_time: '2022-01-26T09:47:00.000Z',
       last_edited_time: '2022-01-27T05:14:00.000Z'
@@ -318,7 +277,7 @@
   </Paragraph>
   <Paragraph
     blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
+      pageId: '38ed521bf46e49be8d2af67a53a37c6e',
       id: 'fc7a7eef-1c40-431e-9842-85d97d1e1d49',
       created_time: '2022-01-27T05:11:00.000Z',
       last_edited_time: '2022-01-27T05:11:00.000Z'
@@ -331,7 +290,7 @@
   </Paragraph>
   <Paragraph
     blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
+      pageId: '38ed521bf46e49be8d2af67a53a37c6e',
       id: '86f56fbe-bc18-4df1-90bd-277d0d5a05c5',
       created_time: '2022-01-27T05:10:00.000Z',
       last_edited_time: '2022-01-27T05:10:00.000Z'
@@ -458,11 +417,4 @@
       ><Link type="mention" href="/other-components/error">Error</Link></BulletedListItem
     >
   </Column></ColumnList
-><Paragraph
-  blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: 'fd66e0a3-b7cf-414c-b8cd-e7fa6431b613',
-    created_time: '2022-01-24T06:48:00.000Z',
-    last_edited_time: '2022-01-24T06:48:00.000Z'
-  }}
-/>
+>

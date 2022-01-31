@@ -25,257 +25,131 @@
 </script>
 
 <svelte:head>
-  <title>Components</title>
+  <title>Nested Blocks</title>
 </svelte:head>
 
-<Title>Components</Title>
+<Title>Nested Blocks</Title>
 
-<Header level={1}>A quick word about terminology</Header>
+<Header level={1}>General Discussion</Header>
 <Paragraph
   blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: '3961f6a0-e487-4735-9879-39138ed7627e',
-    created_time: '2022-01-26T08:09:00.000Z',
-    last_edited_time: '2022-01-26T08:43:00.000Z'
+    pageId: '6a969adc5c004dfe9242ddd1fd223d42',
+    id: 'd3b9a212-3dcf-4dfe-9372-8b4bbdebfc17',
+    created_time: '2022-01-15T06:49:00.000Z',
+    last_edited_time: '2022-01-26T05:02:00.000Z'
   }}
 >
-  Let’s talk about <em><strong>elements</strong></em>, <em><strong>blocks</strong></em>, and
-  <em><strong>components</strong></em>. Structurally, these are interchangeable because they all use
-  tripartite units comprising a required <em>type</em>, optional <em>attributes</em> and
-  <em>content</em>, also optional.
+  Notion allows nesting of most, if not all, of its interchangeable block types. While there are
+  probably myriad subtle design details that the Notion team have considered when rendering nested
+  blocks, the most obvious visual feature of these suckers is that they’re indented…
 </Paragraph>
-<Paragraph
-  blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: 'ec0c84b3-6161-4f89-ac77-d17655adbb74',
-    created_time: '2022-01-26T08:41:00.000Z',
-    last_edited_time: '2022-01-26T08:45:00.000Z'
-  }}
->
-  That said, in titling this doc <em>Components</em>, I’m referring specifically to <em>Svelte</em>
-  components, i.e., pages ending in <em>.svelte</em>, for it’s these that make up
-  <em>notion2svelte’s</em> final output. In short:
-</Paragraph>
-<BulletedListItem
-  >The Web’s got <em>elements</em>: <InlineCode code={'&lt;hr /&gt;'} />, <InlineCode
-    code={'&lt;a href=…&gt;🔗&lt;/a&gt;'}
-  />, etc.</BulletedListItem
->
-<Toggle
-  >Notion’s got <em>blocks</em>
-  <InlineColor value="gray">(toggle for details)</InlineColor>
-  <span slot="children"
-    ><Paragraph
-      blockProps={{
-        pageId: '98564b233ea84b78ad3147e3a0971ef5',
-        id: '9a95285c-c21c-4bed-b01f-fec9e4240922',
-        created_time: '2022-01-26T08:29:00.000Z',
-        last_edited_time: '2022-01-26T08:30:00.000Z'
-      }}
-    >
-      Of course, most Notion content exists in whatever proprietary structure they’ve created in
-      their database, and blocks are usually generated via the GUI…
-    </Paragraph>
-    <Image url="/assets/components/4c421841-a417-4ca0-af7a-f80dda7ef09a.png" />
-    <Paragraph
-      blockProps={{
-        pageId: '98564b233ea84b78ad3147e3a0971ef5',
-        id: '88b44a35-b4d7-4f78-a68b-1d75ed77bfa4',
-        created_time: '2022-01-26T08:27:00.000Z',
-        last_edited_time: '2022-01-26T08:32:00.000Z'
-      }}
-    >
-      …while the API affords computer-focussed interactions with Notion’s pages & blocks.
-    </Paragraph>
-    <Code
-      code={`\{
-  …
-  "blocks" : [
-    \{
-      …
-      "type" : "divider",
-      …
-    },
-    \{
-      …
-      "type" : "paragraph",
-      "paragraph" : \{
-        "text" : [
-          \{
-            …
-            "href": "http://…",
-            …
-          }
-        ]
-      }
-      …
-    }
-  ]
-}  `}
-      language="json"
-    /><Paragraph
-      blockProps={{
-        pageId: '98564b233ea84b78ad3147e3a0971ef5',
-        id: '32dc15ad-df18-424c-a615-7f8ffd318c77',
-        created_time: '2022-01-26T08:32:00.000Z',
-        last_edited_time: '2022-01-26T08:33:00.000Z'
-      }}
-    >
-      And all of this complexity still boils down to the same thing: <em>types</em>, with optional
-      <em>props & content</em>.
-    </Paragraph>
-  </span></Toggle
-><BulletedListItem
-  >Svelte’s got <em>components</em>: <InlineCode code={'&lt;Divider /&gt;'} />, <InlineCode
-    code={'&lt;Code language=…/&gt;'}
-  />, and these are our current topic.</BulletedListItem
->
-<Paragraph
-  blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: '8db0ea76-9a07-4a68-874b-437675723688',
-    created_time: '2022-01-26T08:35:00.000Z',
-    last_edited_time: '2022-01-26T08:47:00.000Z'
-  }}
->
-  Capisce?
-</Paragraph>
-<Header level={1}>The 4 stages of component transformation</Header>
-<Callout emoji="🦦"
-  >This is pretty self-explanatory, so feel free to skip straight down to the docs.</Callout
-><Paragraph
-  blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: 'aedae2ac-d168-4e90-b78d-ab383e3d8f8c',
-    created_time: '2022-01-17T08:19:00.000Z',
-    last_edited_time: '2022-01-17T08:23:00.000Z'
-  }}
->
-  To orient you as you read the docs below, they are all organized using the same four headers, each
-  intended to give you a clear vision of the <em>before-</em>, <em>during-</em>, and <em>after</em>.
-</Paragraph>
-<NumberedListItem number="1">
-  <InlineColor value="green"><strong>As rendered in Notion</strong></InlineColor></NumberedListItem
->
 <IndentGroup>
   <Paragraph
     blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
-      id: 'd884d4a3-70d5-4f3a-9ba9-b4f722ab42bd',
-      created_time: '2022-01-17T08:11:00.000Z',
-      last_edited_time: '2022-01-17T08:11:00.000Z'
+      pageId: '6a969adc5c004dfe9242ddd1fd223d42',
+      id: '524faf01-04ae-4f83-9a0f-0569d4c0bd14',
+      created_time: '2022-01-26T05:00:00.000Z',
+      last_edited_time: '2022-01-26T05:00:00.000Z'
     }}
   >
-    Individual components start their lives as blocks in Notion, completely independent, of course,
-    from <em>notion2svelte</em>. You’ll find a screenshot of each component at the top of each doc.
+    …like this.
   </Paragraph>
-</IndentGroup>
-<NumberedListItem number="2">
-  <InlineColor value="green"><strong>Notion API</strong></InlineColor></NumberedListItem
->
-<IndentGroup>
   <Paragraph
     blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
-      id: '3b20c3de-269f-4eff-92f6-bc10fe60b773',
-      created_time: '2022-01-17T08:11:00.000Z',
-      last_edited_time: '2022-01-17T08:11:00.000Z'
+      pageId: '6a969adc5c004dfe9242ddd1fd223d42',
+      id: '6b0ce6ee-0a93-494f-9750-b953ffb0f276',
+      created_time: '2022-01-26T05:00:00.000Z',
+      last_edited_time: '2022-01-26T05:01:00.000Z'
     }}
   >
-    <em>notion2svelte</em> recursively fetches all the blocks on a page and stores the result in a
-    single <em>.json</em> file next to the final <em>.svelte</em> output.
+    This, and the one above it. are both sub-blocks of the main paragraph, and, as such, you’ll
+    probably want to indent sub-blocks in your own code!
   </Paragraph>
 </IndentGroup>
-<NumberedListItem number="3">
-  <InlineColor value="green"><strong>Svelte output</strong></InlineColor></NumberedListItem
->
-<IndentGroup>
-  <Paragraph
-    blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
-      id: 'f0d25453-e9fc-4b83-b233-f5fd8d1dee3b',
-      created_time: '2022-01-17T08:11:00.000Z',
-      last_edited_time: '2022-01-23T21:24:00.000Z'
-    }}
-  >
-    <InlineCode code={'{&quot;type&quot;:&quot;thingy&quot;…}'} /> → <InlineCode
-      code={'&lt;Thingy&gt;…&lt;/Thingy&gt;'}
-    />
-  </Paragraph>
-</IndentGroup>
-<NumberedListItem number="4">
-  <InlineColor value="green"><strong>Rendered content</strong></InlineColor></NumberedListItem
->
-<IndentGroup>
-  <Paragraph
-    blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
-      id: '9f35b586-ab18-4f4d-8182-e1b48be8e1b4',
-      created_time: '2022-01-17T08:12:00.000Z',
-      last_edited_time: '2022-01-17T08:12:00.000Z'
-    }}
-  >
-    <em>notion2svelte</em> is out of the picture again by this step, but, just as it’s helpful to
-    see a screenshot of a block type in its original <em>notion.so</em> context, so it’s helpful to see
-    (one version) of the rendered Svelte component.
-  </Paragraph>
-</IndentGroup>
+<Header level={2}>How to Indent blocks</Header>
 <Paragraph
   blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: 'd086edea-5a87-46dc-96fa-8b24aaf3da2a',
-    created_time: '2022-01-17T07:54:00.000Z',
-    last_edited_time: '2022-01-17T07:58:00.000Z'
+    pageId: '6a969adc5c004dfe9242ddd1fd223d42',
+    id: '28d4bc03-ba2c-44a5-9464-56b5e2ebf034',
+    created_time: '2022-01-26T05:02:00.000Z',
+    last_edited_time: '2022-01-26T05:03:00.000Z'
   }}
 >
-  You may find it interesting to note that each “Step 1” image is actually a screenshot of “Step 4”
-  as rendered on the source Notion page. The image effectively <em>freezes</em> the Notion styles, while
-  the example Svelte-side styles are native HTML elements.
+  Indenting’s handled by the <Link type="mention" href="/layout-only-components/indent-group"
+    >IndentGroup</Link
+  > component, which is wrapped around every group of sub-blocks…hence the name.
 </Paragraph>
 <Paragraph
   blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: '78e79acc-66ba-4b25-8dcf-b2b0a3951fbe',
-    created_time: '2022-01-17T07:58:00.000Z',
-    last_edited_time: '2022-01-17T08:23:00.000Z'
+    pageId: '6a969adc5c004dfe9242ddd1fd223d42',
+    id: '8e3e8d7c-416a-4a79-af7d-9e333ca6ec70',
+    created_time: '2022-01-26T05:03:00.000Z',
+    last_edited_time: '2022-01-26T22:48:00.000Z'
   }}
 >
-  This works because the pages on this site were generated using <em>notion2svelte!</em>
+  The most basic version of this component might look something like this:
 </Paragraph>
-<Header level={1}>Component Docs</Header>
+<IndentGroup>
+  <Code
+    code={`<div><slot /></div>
+
+< style>*
+  div \{
+    padding-left: 1.5rem;
+  }
+</style>`}
+    language="html"
+    ><InlineColor value="gray">↑ [svelte-root]/</InlineColor><InlineColor value="gray"
+      ><em
+        >src/lib/notion2svelte/IndentGroup.svelte
+        <br />
+      </em></InlineColor
+    ><em>
+      <br />
+    </em>*Sigh. <em>notion2svelte</em> has some issues, in part thanks to its (mis?)use of Prettier,
+    with certain uses of angle brackets, hence the space before “style”. <Link
+      type="absolute"
+      href="https://github.com/nvlgzr/notion2svelte/discussions">Message me</Link
+    > if you have some thoughts on how to completely crush this class of bugs as it’s doing my head in.
+    😬</Code
+  >
+</IndentGroup>
 <Paragraph
   blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: '85c7a786-59e3-41ea-97a4-6610f85e9472',
-    created_time: '2022-01-19T23:38:00.000Z',
-    last_edited_time: '2022-01-19T23:38:00.000Z'
+    pageId: '6a969adc5c004dfe9242ddd1fd223d42',
+    id: '67fffd45-af99-41fd-b434-e7da16c5df70',
+    created_time: '2022-01-26T05:06:00.000Z',
+    last_edited_time: '2022-01-27T07:08:00.000Z'
+  }}
+>
+  This simple implementation is literally all you need to nest <Link
+    type="absolute"
+    href="http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html"
+    >All the Things™</Link
+  >!
+</Paragraph>
+<Paragraph
+  blockProps={{
+    pageId: '6a969adc5c004dfe9242ddd1fd223d42',
+    id: '9f2dcec3-fe75-40ef-a833-c4a3e7b4ad1e',
+    created_time: '2022-01-26T05:16:00.000Z',
+    last_edited_time: '2022-01-26T05:16:00.000Z'
   }}
 />
-<ColumnList cols={3}
-  ><Column
-    ><Paragraph
-      blockProps={{
-        pageId: '98564b233ea84b78ad3147e3a0971ef5',
-        id: '64f6a0d7-e349-41b4-bf0a-fb6e591edf70',
-        created_time: '2022-01-26T08:49:00.000Z',
-        last_edited_time: '2022-01-26T08:49:00.000Z'
-      }}
-    />
-  </Column><Column
-    ><Image url="/assets/components/effd4d29-3d15-4097-af12-f493312f7267.png"
-      >Notion’s interchangeable block types, as of 1/19/22.</Image
-    >
-  </Column><Column
-    ><Paragraph
-      blockProps={{
-        pageId: '98564b233ea84b78ad3147e3a0971ef5',
-        id: 'd0e9de7c-da9e-4943-94b0-e6dd61e5af35',
-        created_time: '2022-01-26T08:49:00.000Z',
-        last_edited_time: '2022-01-26T08:49:00.000Z'
-      }}
-    />
-  </Column></ColumnList
-><Divider />
+<Callout emoji="🦦"
+  >To jump start your components (including your IndentGroup component), check out: <Link
+    type="absolute"
+    href="https://github.com/nvlgzr/n2s-starter-components">n2s Starter Components</Link
+  >.</Callout
+><Paragraph
+  blockProps={{
+    pageId: '6a969adc5c004dfe9242ddd1fd223d42',
+    id: '673a13c8-fd25-4cec-910d-d6d2d55683f1',
+    created_time: '2022-01-26T05:10:00.000Z',
+    last_edited_time: '2022-01-26T05:10:00.000Z'
+  }}
+/>
+<Divider />
 <Header level={1}>Where to learn more</Header>
 <Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
 <BulletedListItem
@@ -286,7 +160,7 @@
 <Header level={3}>Ready to try it?</Header>
 <Paragraph
   blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
+    pageId: '6a969adc5c004dfe9242ddd1fd223d42',
     id: '58ff394d-4eda-4d56-aaea-89d926fcd3da',
     created_time: '2022-01-26T09:47:00.000Z',
     last_edited_time: '2022-01-27T05:11:00.000Z'
@@ -300,7 +174,7 @@
 <IndentGroup>
   <Paragraph
     blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
+      pageId: '6a969adc5c004dfe9242ddd1fd223d42',
       id: 'b77e2c4c-0270-4680-aee3-73500e7e5e95',
       created_time: '2022-01-26T09:47:00.000Z',
       last_edited_time: '2022-01-27T05:14:00.000Z'
@@ -318,7 +192,7 @@
   </Paragraph>
   <Paragraph
     blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
+      pageId: '6a969adc5c004dfe9242ddd1fd223d42',
       id: 'fc7a7eef-1c40-431e-9842-85d97d1e1d49',
       created_time: '2022-01-27T05:11:00.000Z',
       last_edited_time: '2022-01-27T05:11:00.000Z'
@@ -331,7 +205,7 @@
   </Paragraph>
   <Paragraph
     blockProps={{
-      pageId: '98564b233ea84b78ad3147e3a0971ef5',
+      pageId: '6a969adc5c004dfe9242ddd1fd223d42',
       id: '86f56fbe-bc18-4df1-90bd-277d0d5a05c5',
       created_time: '2022-01-27T05:10:00.000Z',
       last_edited_time: '2022-01-27T05:10:00.000Z'
@@ -460,9 +334,9 @@
   </Column></ColumnList
 ><Paragraph
   blockProps={{
-    pageId: '98564b233ea84b78ad3147e3a0971ef5',
-    id: 'fd66e0a3-b7cf-414c-b8cd-e7fa6431b613',
-    created_time: '2022-01-24T06:48:00.000Z',
-    last_edited_time: '2022-01-24T06:48:00.000Z'
+    pageId: '6a969adc5c004dfe9242ddd1fd223d42',
+    id: 'c358d816-a554-4bdc-b9a7-b7acb802cd95',
+    created_time: '2022-01-24T06:50:00.000Z',
+    last_edited_time: '2022-01-24T06:50:00.000Z'
   }}
 />

@@ -2,7 +2,7 @@
   "object": "page",
   "id": "fdc65179-a8bd-451c-af67-59019204cfde",
   "created_time": "2022-01-04T05:41:00.000Z",
-  "last_edited_time": "2022-01-28T23:41:00.000Z",
+  "last_edited_time": "2022-01-31T06:15:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -12,8 +12,8 @@
   "icon": {
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234307Z&X-Amz-Expires=3600&X-Amz-Signature=a5ca9c4e87c98b5d0a48b2fdad7b18f14f24d4ec6221b51ed57b1fcc6dc9c1ec&X-Amz-SignedHeaders=host&x-id=GetObject",
-      "expiry_time": "2022-01-29T00:43:07.149Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=1bf5cd7e3e3eafb8ca6564bf36b23f891b41a48f3cf9c36729cc40636d618707&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-01-31T07:25:10.023Z"
     }
   },
   "parent": {
@@ -22,14 +22,36 @@
   },
   "archived": false,
   "properties": {
+    "Group": {
+      "id": "D%5E%3CB",
+      "type": "select",
+      "select": null
+    },
     "Slug": {
       "id": "M%40TW",
+      "type": "formula",
+      "formula": {
+        "type": "string",
+        "string": "/about-notion2svelte"
+      }
+    },
+    "Status": {
+      "id": "ava%3E",
+      "type": "select",
+      "select": {
+        "id": "f4c2d807-fdf4-476e-b894-ec247f211f2b",
+        "name": "Publishable",
+        "color": "purple"
+      }
+    },
+    "Page": {
+      "id": "vbwr",
       "type": "rich_text",
       "rich_text": [
         {
           "type": "text",
           "text": {
-            "content": "/about-notion2svelte",
+            "content": "about-notion2svelte",
             "link": null
           },
           "annotations": {
@@ -40,19 +62,10 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "/about-notion2svelte",
+          "plain_text": "about-notion2svelte",
           "href": null
         }
       ]
-    },
-    "Status": {
-      "id": "ava%3E",
-      "type": "select",
-      "select": {
-        "id": "f4c2d807-fdf4-476e-b894-ec247f211f2b",
-        "name": "Publishable",
-        "color": "purple"
-      }
     },
     "Name": {
       "id": "title",
@@ -297,7 +310,7 @@
       "object": "block",
       "id": "0828193e-9eaa-4b99-a0f9-599a801c99e5",
       "created_time": "2022-01-04T05:41:00.000Z",
-      "last_edited_time": "2022-01-09T05:16:00.000Z",
+      "last_edited_time": "2022-01-31T05:21:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -340,7 +353,7 @@
           {
             "type": "text",
             "text": {
-              "content": " transforms Notion-based content into .svelte pages:",
+              "content": " transforms Notion-based content into ",
               "link": null
             },
             "annotations": {
@@ -351,7 +364,41 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": " transforms Notion-based content into .svelte pages:",
+            "plain_text": " transforms Notion-based content into ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " pages:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " pages:",
             "href": null
           }
         ]
@@ -431,8 +478,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234308Z&X-Amz-Expires=3600&X-Amz-Signature=00eece13e4bd9877e746096727a7384f7390d63d41fb3bb74874856a5ffc9ff1&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-29T00:43:08.260Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062511Z&X-Amz-Expires=3600&X-Amz-Signature=9f2f8ede390610d0321bf8312786f62f907c099fa520dcb3cc8901a82e167c33&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-31T07:25:11.179Z"
                 }
               }
             },
@@ -597,8 +644,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234308Z&X-Amz-Expires=3600&X-Amz-Signature=4d39d2ceb41b8609d6a20db26b1df148523d3d57e9f7f3635f2ec21042596e05&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-29T00:43:08.195Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=6983c816b83373f57f2e2d2727d404864b8b00b12336751df0c7a581d9324699&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-31T07:25:10.648Z"
                 }
               }
             },
@@ -2088,8 +2135,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234307Z&X-Amz-Expires=3600&X-Amz-Signature=a3383303c4bddd391a7b291e39280dece4632474ba35881d89e4dc5da30949e9&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-29T00:43:07.657Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=c3c721d3d0162f7905e350858ef635344b749fe3bc3f540d27d3f22ea97736ba&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-31T07:25:10.232Z"
         }
       }
     },
@@ -2177,8 +2224,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0223fdc0-6313-4026-8820-e0935327a2db/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234307Z&X-Amz-Expires=3600&X-Amz-Signature=5f7d4cc5afe718e9ad4072d7be5457723b59817742e498ba9a35289ef880a121&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-29T00:43:07.687Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0223fdc0-6313-4026-8820-e0935327a2db/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=b8251c150edc4d6ab294d1e671ab5c09213cd9b6972ed5862cfc143f7d02f45b&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-31T07:25:10.244Z"
         }
       }
     },
@@ -3335,8 +3382,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234308Z&X-Amz-Expires=3600&X-Amz-Signature=496e5167bd3212a0d3ec433d52454c811cb858de7c1141b61207d641923b64d5&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-29T00:43:08.235Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=503586a9545923ae19f22912c5a62b544df287d9c38c8aaf836f95dd137300f5&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-31T07:25:10.609Z"
                 }
               }
             }
@@ -3541,8 +3588,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234308Z&X-Amz-Expires=3600&X-Amz-Signature=a158a16d1fe95ccc77e165ba77b468cc3400106dbc758b8a19a35ca9ee460e33&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-29T00:43:08.135Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=9681825e0d58d385514716edc2478508223caa5ddfa0abb4ea7f153faccce6c9&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-31T07:25:10.676Z"
                 }
               }
             }
@@ -3760,8 +3807,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0359dba3-1ed2-46ef-ab90-ebc828e2e4b4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234311Z&X-Amz-Expires=3600&X-Amz-Signature=51b84a8d5481f28f9d4644b4e02698aec9e77f1808c5bcef5f35a4825362f5c0&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-29T00:43:10.291Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0359dba3-1ed2-46ef-ab90-ebc828e2e4b4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=e54aef6401cc217b216c8d304a7a7c35c72b0b0cef5522640bc49fe9daaad780&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-31T07:25:10.659Z"
                 }
               }
             },
@@ -3807,8 +3854,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T234311Z&X-Amz-Expires=3600&X-Amz-Signature=24519dde693891403153aee3b0132e5b85a8f4c7a82ff4471dd489205241c910&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-29T00:43:10.292Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=f04a6703c806f354af0d44551437fefeed633a8f074f20de30d03dca8c287f76&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-31T07:25:10.659Z"
                 }
               }
             }
@@ -5646,6 +5693,245 @@
                 },
                 {
                   "object": "block",
+                  "id": "b607f2f8-029c-48e9-900c-86f0ee164024",
+                  "created_time": "2022-01-29T04:01:00.000Z",
+                  "last_edited_time": "2022-01-29T04:02:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "bold",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": true,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "bold",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " → ",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " → ",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "<strong>",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": true,
+                          "color": "default"
+                        },
+                        "plain_text": "<strong>",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " ",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " ",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "2bd9d918-916a-45e1-99a0-8ffc0ac857a6",
+                  "created_time": "2022-01-29T04:02:00.000Z",
+                  "last_edited_time": "2022-01-29T04:02:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "italic",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": true,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "italic",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " → ",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " → ",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "<em>",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": true,
+                          "color": "default"
+                        },
+                        "plain_text": "<em>",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "0885c94d-3a59-46ec-bf4e-26d805850e13",
+                  "created_time": "2022-01-29T04:20:00.000Z",
+                  "last_edited_time": "2022-01-29T04:21:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "strikethrough",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": true,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "strikethrough",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " → NYI",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " → NYI",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "b9353341-7db1-4863-b288-c1eb7a722f86",
+                  "created_time": "2022-01-29T04:20:00.000Z",
+                  "last_edited_time": "2022-01-29T04:27:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "underline",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": true,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "underline",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " → NYI",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " → NYI",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
                   "id": "2bad4a10-facd-4b84-93af-a88a24d9f274",
                   "created_time": "2022-01-27T05:59:00.000Z",
                   "last_edited_time": "2022-01-27T06:09:00.000Z",
@@ -5680,7 +5966,7 @@
                   "object": "block",
                   "id": "0afc6ee3-3d2b-4489-8f0d-c60ec5f0dadd",
                   "created_time": "2022-01-27T05:59:00.000Z",
-                  "last_edited_time": "2022-01-27T06:09:00.000Z",
+                  "last_edited_time": "2022-01-29T04:01:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -5734,7 +6020,7 @@
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "InternalLink",
+                        "plain_text": "Link",
                         "href": "https://www.notion.so/0a81110f311a4b2f858a65ea1a45ab3a"
                       }
                     ]

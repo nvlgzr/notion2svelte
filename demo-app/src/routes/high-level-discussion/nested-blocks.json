@@ -1,8 +1,8 @@
 {
   "object": "page",
-  "id": "98564b23-3ea8-4b78-ad31-47e3a0971ef5",
-  "created_time": "2022-01-17T07:21:00.000Z",
-  "last_edited_time": "2022-01-31T06:15:00.000Z",
+  "id": "6a969adc-5c00-4dfe-9242-ddd1fd223d42",
+  "created_time": "2022-01-15T06:48:00.000Z",
+  "last_edited_time": "2022-01-31T07:47:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -14,14 +14,18 @@
     "Group": {
       "id": "D%5E%3CB",
       "type": "select",
-      "select": null
+      "select": {
+        "id": "ZnU<",
+        "name": "high-level-discussion",
+        "color": "default"
+      }
     },
     "Slug": {
       "id": "M%40TW",
       "type": "formula",
       "formula": {
         "type": "string",
-        "string": "/components"
+        "string": "/high-level-discussion/nested-blocks"
       }
     },
     "Status": {
@@ -40,7 +44,7 @@
         {
           "type": "text",
           "text": {
-            "content": "components",
+            "content": "nested-blocks",
             "link": null
           },
           "annotations": {
@@ -51,7 +55,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "components",
+          "plain_text": "nested-blocks",
           "href": null
         }
       ]
@@ -63,7 +67,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Components",
+            "content": "Nested Blocks",
             "link": null
           },
           "annotations": {
@@ -74,19 +78,19 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Components",
+          "plain_text": "Nested Blocks",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/Components-98564b233ea84b78ad3147e3a0971ef5",
+  "url": "https://www.notion.so/Nested-Blocks-6a969adc5c004dfe9242ddd1fd223d42",
   "blocks": [
     {
       "object": "block",
-      "id": "64601a57-6e7a-42b0-8876-dc3764c3f51a",
-      "created_time": "2022-01-17T07:22:00.000Z",
-      "last_edited_time": "2022-01-26T08:00:00.000Z",
+      "id": "7edcf589-7cba-4984-b85f-7efdbed1eff6",
+      "created_time": "2022-01-15T06:49:00.000Z",
+      "last_edited_time": "2022-01-15T06:49:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "heading_1",
@@ -95,7 +99,7 @@
           {
             "type": "text",
             "text": {
-              "content": "A quick word about terminology",
+              "content": "General Discussion",
               "link": null
             },
             "annotations": {
@@ -106,7 +110,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "A quick word about terminology",
+            "plain_text": "General Discussion",
             "href": null
           }
         ]
@@ -114,550 +118,18 @@
     },
     {
       "object": "block",
-      "id": "3961f6a0-e487-4735-9879-39138ed7627e",
-      "created_time": "2022-01-26T08:09:00.000Z",
-      "last_edited_time": "2022-01-26T08:43:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Let’s talk about ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Let’s talk about ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "elements",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "elements",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "blocks",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "blocks",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", and ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", and ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "components",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "components",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ". Structurally, these are interchangeable because they all use tripartite units comprising a required ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ". Structurally, these are interchangeable because they all use tripartite units comprising a required ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "type",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "type",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", optional ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", optional ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "attributes",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "attributes",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " and ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " and ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "content",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "content",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", also optional.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", also optional.",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "ec0c84b3-6161-4f89-ac77-d17655adbb74",
-      "created_time": "2022-01-26T08:41:00.000Z",
-      "last_edited_time": "2022-01-26T08:45:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "That said, in titling this doc ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "That said, in titling this doc ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "Components",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Components",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", I’m referring specifically to ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", I’m referring specifically to ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "Svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " components, i.e., pages ending in ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " components, i.e., pages ending in ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ".svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ".svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", for it’s these that make up ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", for it’s these that make up ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte’s",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte’s",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " final output. In short:",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " final output. In short:",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "2b07deaf-8a3c-4b4b-9f10-70e55b6ca78f",
-      "created_time": "2022-01-26T08:15:00.000Z",
-      "last_edited_time": "2022-01-26T08:19:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "bulleted_list_item",
-      "bulleted_list_item": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "The Web’s got ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "The Web’s got ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "elements",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "elements",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ": ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ": ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "<hr />",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "<hr />",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "<a href=…>🔗</a>",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "<a href=…>🔗</a>",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", etc.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", etc.",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "1c721cd7-d122-48de-aac9-9819f786f881",
-      "created_time": "2022-01-26T08:16:00.000Z",
-      "last_edited_time": "2022-01-26T08:32:00.000Z",
+      "id": "d3b9a212-3dcf-4dfe-9372-8b4bbdebfc17",
+      "created_time": "2022-01-15T06:49:00.000Z",
+      "last_edited_time": "2022-01-26T05:02:00.000Z",
       "has_children": true,
       "archived": false,
-      "type": "toggle",
-      "toggle": {
+      "type": "paragraph",
+      "paragraph": {
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "Notion’s got ",
+              "content": "Notion allows nesting of most, if not all, of its interchangeable block types. While there are probably myriad subtle design details that the Notion team have considered when rendering nested blocks, the most obvious visual feature of these suckers is that they’re indented…",
               "link": null
             },
             "annotations": {
@@ -668,58 +140,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Notion’s got ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "blocks",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "blocks",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "(toggle for details)",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "gray"
-            },
-            "plain_text": "(toggle for details)",
+            "plain_text": "Notion allows nesting of most, if not all, of its interchangeable block types. While there are probably myriad subtle design details that the Notion team have considered when rendering nested blocks, the most obvious visual feature of these suckers is that they’re indented…",
             "href": null
           }
         ]
@@ -727,9 +148,9 @@
       "blocks": [
         {
           "object": "block",
-          "id": "9a95285c-c21c-4bed-b01f-fec9e4240922",
-          "created_time": "2022-01-26T08:29:00.000Z",
-          "last_edited_time": "2022-01-26T08:30:00.000Z",
+          "id": "524faf01-04ae-4f83-9a0f-0569d4c0bd14",
+          "created_time": "2022-01-26T05:00:00.000Z",
+          "last_edited_time": "2022-01-26T05:00:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "paragraph",
@@ -738,7 +159,7 @@
               {
                 "type": "text",
                 "text": {
-                  "content": "Of course, most Notion content exists in whatever proprietary structure they’ve created in their database, and blocks are usually generated via the GUI…",
+                  "content": "…like this.",
                   "link": null
                 },
                 "annotations": {
@@ -749,7 +170,7 @@
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "Of course, most Notion content exists in whatever proprietary structure they’ve created in their database, and blocks are usually generated via the GUI…",
+                "plain_text": "…like this.",
                 "href": null
               }
             ]
@@ -757,26 +178,9 @@
         },
         {
           "object": "block",
-          "id": "4c421841-a417-4ca0-af7a-f80dda7ef09a",
-          "created_time": "2022-01-26T08:17:00.000Z",
-          "last_edited_time": "2022-01-26T08:17:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "image",
-          "image": {
-            "caption": [],
-            "type": "file",
-            "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/660a128a-c7db-4509-acc4-fbd565beb07f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062507Z&X-Amz-Expires=3600&X-Amz-Signature=1e0ca439dfa83897306b4715ba91e8672f062dbfcce9408eea1fad1b245255a8&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2022-01-31T07:25:07.914Z"
-            }
-          }
-        },
-        {
-          "object": "block",
-          "id": "88b44a35-b4d7-4f78-a68b-1d75ed77bfa4",
-          "created_time": "2022-01-26T08:27:00.000Z",
-          "last_edited_time": "2022-01-26T08:32:00.000Z",
+          "id": "6b0ce6ee-0a93-494f-9750-b953ffb0f276",
+          "created_time": "2022-01-26T05:00:00.000Z",
+          "last_edited_time": "2022-01-26T05:01:00.000Z",
           "has_children": false,
           "archived": false,
           "type": "paragraph",
@@ -785,7 +189,7 @@
               {
                 "type": "text",
                 "text": {
-                  "content": "…while the API affords computer-focussed interactions with Notion’s pages & blocks.",
+                  "content": "This, and the one above it. are both sub-blocks of the main paragraph, and, as such, you’ll probably want to indent sub-blocks in your own code!",
                   "link": null
                 },
                 "annotations": {
@@ -796,137 +200,7 @@
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "…while the API affords computer-focussed interactions with Notion’s pages & blocks.",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "abb1ca00-f5ec-4fd3-98d4-53025f2dc663",
-          "created_time": "2022-01-26T08:19:00.000Z",
-          "last_edited_time": "2022-01-26T08:30:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "code",
-          "code": {
-            "caption": [],
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "{\n  …\n  \"blocks\" : [\n    {\n      …\n      \"type\" : \"divider\",\n      …\n    },\n    {\n      …\n      \"type\" : \"paragraph\",\n      \"paragraph\" : {\n        \"text\" : [\n          {\n            …\n            \"href\": \"http://…\",\n            …\n          }\n        ]\n      }\n      …\n    }\n  ]\n}  ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "{\n  …\n  \"blocks\" : [\n    {\n      …\n      \"type\" : \"divider\",\n      …\n    },\n    {\n      …\n      \"type\" : \"paragraph\",\n      \"paragraph\" : {\n        \"text\" : [\n          {\n            …\n            \"href\": \"http://…\",\n            …\n          }\n        ]\n      }\n      …\n    }\n  ]\n}  ",
-                "href": null
-              }
-            ],
-            "language": "json"
-          }
-        },
-        {
-          "object": "block",
-          "id": "32dc15ad-df18-424c-a615-7f8ffd318c77",
-          "created_time": "2022-01-26T08:32:00.000Z",
-          "last_edited_time": "2022-01-26T08:33:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "And all of this complexity still boils down to the same thing: ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "And all of this complexity still boils down to the same thing: ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "types",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "types",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": ", with optional ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": ", with optional ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "props & content",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "props & content",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": ".",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": ".",
+                "plain_text": "This, and the one above it. are both sub-blocks of the main paragraph, and, as such, you’ll probably want to indent sub-blocks in your own code!",
                 "href": null
               }
             ]
@@ -936,18 +210,18 @@
     },
     {
       "object": "block",
-      "id": "eb3a0cbe-1b5f-4110-9ded-c6c514aceadd",
-      "created_time": "2022-01-26T08:17:00.000Z",
-      "last_edited_time": "2022-01-26T08:47:00.000Z",
+      "id": "370d4005-fda5-4594-bab2-37a4026d4657",
+      "created_time": "2022-01-26T05:02:00.000Z",
+      "last_edited_time": "2022-01-26T05:02:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "bulleted_list_item",
-      "bulleted_list_item": {
+      "type": "heading_2",
+      "heading_2": {
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "Svelte’s got ",
+              "content": "How to Indent blocks",
               "link": null
             },
             "annotations": {
@@ -958,109 +232,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Svelte’s got ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "components",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "components",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ": ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ": ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "<Divider />",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "<Divider />",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "<Code language=…/>",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "<Code language=…/>",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", and these are our current topic.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", and these are our current topic.",
+            "plain_text": "How to Indent blocks",
             "href": null
           }
         ]
@@ -1068,9 +240,9 @@
     },
     {
       "object": "block",
-      "id": "8db0ea76-9a07-4a68-874b-437675723688",
-      "created_time": "2022-01-26T08:35:00.000Z",
-      "last_edited_time": "2022-01-26T08:47:00.000Z",
+      "id": "28d4bc03-ba2c-44a5-9464-56b5e2ebf034",
+      "created_time": "2022-01-26T05:02:00.000Z",
+      "last_edited_time": "2022-01-26T05:03:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1079,7 +251,7 @@
           {
             "type": "text",
             "text": {
-              "content": "Capisce?",
+              "content": "Indenting’s handled by the ",
               "link": null
             },
             "annotations": {
@@ -1090,7 +262,43 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Capisce?",
+            "plain_text": "Indenting’s handled by the ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "a5b6af04-d017-4204-a022-6bf57fdbe440"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IndentGroup",
+            "href": "https://www.notion.so/a5b6af04d0174204a0226bf57fdbe440"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " component, which is wrapped around every group of sub-blocks…hence the name.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " component, which is wrapped around every group of sub-blocks…hence the name.",
             "href": null
           }
         ]
@@ -1098,18 +306,18 @@
     },
     {
       "object": "block",
-      "id": "0a219c64-7475-4121-85ef-18b191754c1c",
-      "created_time": "2022-01-17T07:21:00.000Z",
-      "last_edited_time": "2022-01-17T07:29:00.000Z",
-      "has_children": false,
+      "id": "8e3e8d7c-416a-4a79-af7d-9e333ca6ec70",
+      "created_time": "2022-01-26T05:03:00.000Z",
+      "last_edited_time": "2022-01-26T22:48:00.000Z",
+      "has_children": true,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
+      "type": "paragraph",
+      "paragraph": {
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "The 4 stages of component transformation",
+              "content": "The most basic version of this component might look something like this:",
               "link": null
             },
             "annotations": {
@@ -1120,7 +328,246 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "The 4 stages of component transformation",
+            "plain_text": "The most basic version of this component might look something like this:",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "80c622b4-5acf-473a-9d7f-d46a7af59638",
+          "created_time": "2022-01-26T05:04:00.000Z",
+          "last_edited_time": "2022-01-31T07:47:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "code",
+          "code": {
+            "caption": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "↑ [svelte-root]/",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "↑ [svelte-root]/",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "src/lib/notion2svelte/IndentGroup.svelte\n",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "src/lib/notion2svelte/IndentGroup.svelte\n",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "\n",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "\n",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "*Sigh. ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "*Sigh. ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "notion2svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "notion2svelte",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " has some issues, in part thanks to its (mis?)use of Prettier, with certain uses of angle brackets, hence the space before “style”. ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " has some issues, in part thanks to its (mis?)use of Prettier, with certain uses of angle brackets, hence the space before “style”. ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Message me",
+                  "link": {
+                    "url": "https://github.com/nvlgzr/notion2svelte/discussions"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Message me",
+                "href": "https://github.com/nvlgzr/notion2svelte/discussions"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " if you have some thoughts on how to completely crush this class of bugs as it’s doing my head in. 😬",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " if you have some thoughts on how to completely crush this class of bugs as it’s doing my head in. 😬",
+                "href": null
+              }
+            ],
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "<div><slot /></div>\n\n< style>*\n  div {\n    padding-left: 1.5rem;\n  }\n</style>",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "<div><slot /></div>\n\n< style>*\n  div {\n    padding-left: 1.5rem;\n  }\n</style>",
+                "href": null
+              }
+            ],
+            "language": "html"
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "67fffd45-af99-41fd-b434-e7da16c5df70",
+      "created_time": "2022-01-26T05:06:00.000Z",
+      "last_edited_time": "2022-01-27T07:08:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This simple implementation is literally all you need to nest ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This simple implementation is literally all you need to nest ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "All the Things™",
+              "link": {
+                "url": "http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "All the Things™",
+            "href": "http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "!",
             "href": null
           }
         ]
@@ -1128,9 +575,21 @@
     },
     {
       "object": "block",
-      "id": "05a78860-92f6-48cd-850e-4ea5907bfdfb",
-      "created_time": "2022-01-17T08:17:00.000Z",
-      "last_edited_time": "2022-01-17T08:19:00.000Z",
+      "id": "9f2dcec3-fe75-40ef-a833-c4a3e7b4ad1e",
+      "created_time": "2022-01-26T05:16:00.000Z",
+      "last_edited_time": "2022-01-26T05:16:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "efb1fa46-dcb6-4bc2-9589-d5e0eed4c6c7",
+      "created_time": "2022-01-26T05:16:00.000Z",
+      "last_edited_time": "2022-01-26T05:19:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "callout",
@@ -1139,7 +598,7 @@
           {
             "type": "text",
             "text": {
-              "content": "This is pretty self-explanatory, so feel free to skip straight down to the docs.",
+              "content": "To jump start your components (including your IndentGroup component), check out: ",
               "link": null
             },
             "annotations": {
@@ -1150,31 +609,16 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "This is pretty self-explanatory, so feel free to skip straight down to the docs.",
+            "plain_text": "To jump start your components (including your IndentGroup component), check out: ",
             "href": null
-          }
-        ],
-        "icon": {
-          "type": "emoji",
-          "emoji": "🦦"
-        }
-      }
-    },
-    {
-      "object": "block",
-      "id": "aedae2ac-d168-4e90-b78d-ab383e3d8f8c",
-      "created_time": "2022-01-17T08:19:00.000Z",
-      "last_edited_time": "2022-01-17T08:23:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "text": [
+          },
           {
             "type": "text",
             "text": {
-              "content": "To orient you as you read the docs below, they are all organized using the same four headers, each intended to give you a clear vision of the ",
-              "link": null
+              "content": "n2s Starter Components",
+              "link": {
+                "url": "https://github.com/nvlgzr/n2s-starter-components"
+              }
             },
             "annotations": {
               "bold": false,
@@ -1184,93 +628,8 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "To orient you as you read the docs below, they are all organized using the same four headers, each intended to give you a clear vision of the ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "before-",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "before-",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "during-",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "during-",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", and ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", and ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "after",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "after",
-            "href": null
+            "plain_text": "n2s Starter Components",
+            "href": "https://github.com/nvlgzr/n2s-starter-components"
           },
           {
             "type": "text",
@@ -1289,607 +648,18 @@
             "plain_text": ".",
             "href": null
           }
-        ]
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "🦦"
+        }
       }
     },
     {
       "object": "block",
-      "id": "079b54c9-6bcc-446a-8a22-2baf43419a26",
-      "created_time": "2022-01-17T07:29:00.000Z",
-      "last_edited_time": "2022-01-17T08:11:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "numbered_list_item",
-      "numbered_list_item": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "As rendered in Notion",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "green"
-            },
-            "plain_text": "As rendered in Notion",
-            "href": null
-          }
-        ]
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "d884d4a3-70d5-4f3a-9ba9-b4f722ab42bd",
-          "created_time": "2022-01-17T08:11:00.000Z",
-          "last_edited_time": "2022-01-17T08:11:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "Individual components start their lives as blocks in Notion, completely independent, of course, from ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Individual components start their lives as blocks in Notion, completely independent, of course, from ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "notion2svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "notion2svelte",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": ". You’ll find a screenshot of each component at the top of each doc.",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": ". You’ll find a screenshot of each component at the top of each doc.",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "2bd0b250-cefc-4afe-9fab-c4b113624563",
-      "created_time": "2022-01-17T07:30:00.000Z",
-      "last_edited_time": "2022-01-17T08:11:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "numbered_list_item",
-      "numbered_list_item": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Notion API",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "green"
-            },
-            "plain_text": "Notion API",
-            "href": null
-          }
-        ]
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "3b20c3de-269f-4eff-92f6-bc10fe60b773",
-          "created_time": "2022-01-17T08:11:00.000Z",
-          "last_edited_time": "2022-01-17T08:11:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "notion2svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "notion2svelte",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " recursively fetches all the blocks on a page and stores the result in a single ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " recursively fetches all the blocks on a page and stores the result in a single ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": ".json",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": ".json",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " file next to the final ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " file next to the final ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": ".svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": ".svelte",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " output.",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " output.",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "2ff8481b-e579-455a-9b11-207c7b018450",
-      "created_time": "2022-01-17T07:33:00.000Z",
-      "last_edited_time": "2022-01-17T08:12:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "numbered_list_item",
-      "numbered_list_item": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Svelte output",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "green"
-            },
-            "plain_text": "Svelte output",
-            "href": null
-          }
-        ]
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "f0d25453-e9fc-4b83-b233-f5fd8d1dee3b",
-          "created_time": "2022-01-17T08:11:00.000Z",
-          "last_edited_time": "2022-01-23T21:24:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "{\"type\":\"thingy\"…}",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": true,
-                  "color": "default"
-                },
-                "plain_text": "{\"type\":\"thingy\"…}",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " → ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " → ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "<Thingy>…</Thingy>",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": true,
-                  "color": "default"
-                },
-                "plain_text": "<Thingy>…</Thingy>",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "73def60d-a4a1-449f-885a-48edf950190a",
-      "created_time": "2022-01-17T07:35:00.000Z",
-      "last_edited_time": "2022-01-17T08:12:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "numbered_list_item",
-      "numbered_list_item": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Rendered content",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "green"
-            },
-            "plain_text": "Rendered content",
-            "href": null
-          }
-        ]
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "9f35b586-ab18-4f4d-8182-e1b48be8e1b4",
-          "created_time": "2022-01-17T08:12:00.000Z",
-          "last_edited_time": "2022-01-17T08:12:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "notion2svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "notion2svelte",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " is out of the picture again by this step, but, just as it’s helpful to see a screenshot of a block type in its original ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " is out of the picture again by this step, but, just as it’s helpful to see a screenshot of a block type in its original ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "notion.so",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "notion.so",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " context, so it’s helpful to see (one version) of the rendered Svelte component.",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " context, so it’s helpful to see (one version) of the rendered Svelte component.",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "d086edea-5a87-46dc-96fa-8b24aaf3da2a",
-      "created_time": "2022-01-17T07:54:00.000Z",
-      "last_edited_time": "2022-01-17T07:58:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "You may find it interesting to note that each “Step 1” image is actually a screenshot of “Step 4” as rendered on the source Notion page. The image effectively ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "You may find it interesting to note that each “Step 1” image is actually a screenshot of “Step 4” as rendered on the source Notion page. The image effectively ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "freezes",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "freezes",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " the Notion styles, while the example Svelte-side styles are native HTML elements.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " the Notion styles, while the example Svelte-side styles are native HTML elements.",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "78e79acc-66ba-4b25-8dcf-b2b0a3951fbe",
-      "created_time": "2022-01-17T07:58:00.000Z",
-      "last_edited_time": "2022-01-17T08:23:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "This works because the pages on this site were generated using ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "This works because the pages on this site were generated using ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte!",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte!",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "8af49d2e-4faf-49bb-82f1-5d3674ff1b32",
-      "created_time": "2022-01-17T07:21:00.000Z",
-      "last_edited_time": "2022-01-17T08:00:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Component Docs",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Component Docs",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "85c7a786-59e3-41ea-97a4-6610f85e9472",
-      "created_time": "2022-01-19T23:38:00.000Z",
-      "last_edited_time": "2022-01-19T23:38:00.000Z",
+      "id": "673a13c8-fd25-4cec-910d-d6d2d55683f1",
+      "created_time": "2022-01-26T05:10:00.000Z",
+      "last_edited_time": "2022-01-26T05:10:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1899,116 +669,9 @@
     },
     {
       "object": "block",
-      "id": "2a87e92e-1ff5-4197-908e-b91f99b6f2b9",
-      "created_time": "2022-01-26T08:49:00.000Z",
-      "last_edited_time": "2022-01-26T08:49:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column_list",
-      "column_list": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "288126ed-5158-48f5-b95b-0a9b58cad83f",
-          "created_time": "2022-01-26T08:49:00.000Z",
-          "last_edited_time": "2022-01-26T08:49:00.000Z",
-          "has_children": true,
-          "archived": false,
-          "type": "column",
-          "column": {},
-          "blocks": [
-            {
-              "object": "block",
-              "id": "64f6a0d7-e349-41b4-bf0a-fb6e591edf70",
-              "created_time": "2022-01-26T08:49:00.000Z",
-              "last_edited_time": "2022-01-26T08:49:00.000Z",
-              "has_children": false,
-              "archived": false,
-              "type": "paragraph",
-              "paragraph": {
-                "text": []
-              }
-            }
-          ]
-        },
-        {
-          "object": "block",
-          "id": "a693d7bb-4426-4944-a366-545fea73b927",
-          "created_time": "2022-01-26T08:49:00.000Z",
-          "last_edited_time": "2022-01-26T08:49:00.000Z",
-          "has_children": true,
-          "archived": false,
-          "type": "column",
-          "column": {},
-          "blocks": [
-            {
-              "object": "block",
-              "id": "effd4d29-3d15-4097-af12-f493312f7267",
-              "created_time": "2022-01-19T23:38:00.000Z",
-              "last_edited_time": "2022-01-26T08:49:00.000Z",
-              "has_children": false,
-              "archived": false,
-              "type": "image",
-              "image": {
-                "caption": [
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": "Notion’s interchangeable block types, as of 1/19/22.",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": false,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "default"
-                    },
-                    "plain_text": "Notion’s interchangeable block types, as of 1/19/22.",
-                    "href": null
-                  }
-                ],
-                "type": "file",
-                "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8b02b995-690e-4112-88cf-5cbc4bb5478d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062507Z&X-Amz-Expires=3600&X-Amz-Signature=cd6ea9d9009f03daf720016ad77f1510f10258c3e965f2e1fb28916edc0ff755&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-31T07:25:07.979Z"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "object": "block",
-          "id": "ca26758e-5ffc-428f-ba47-9bda5c256199",
-          "created_time": "2022-01-26T08:49:00.000Z",
-          "last_edited_time": "2022-01-26T08:49:00.000Z",
-          "has_children": true,
-          "archived": false,
-          "type": "column",
-          "column": {},
-          "blocks": [
-            {
-              "object": "block",
-              "id": "d0e9de7c-da9e-4943-94b0-e6dd61e5af35",
-              "created_time": "2022-01-26T08:49:00.000Z",
-              "last_edited_time": "2022-01-26T08:49:00.000Z",
-              "has_children": false,
-              "archived": false,
-              "type": "paragraph",
-              "paragraph": {
-                "text": []
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "4199010d-bc38-4b17-a242-5f201b37f610",
-      "created_time": "2022-01-24T06:48:00.000Z",
-      "last_edited_time": "2022-01-24T06:48:00.000Z",
+      "id": "eca10e68-1866-4d0c-8435-bf6854b719de",
+      "created_time": "2022-01-24T06:50:00.000Z",
+      "last_edited_time": "2022-01-24T06:50:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "synced_block",
@@ -2424,9 +1087,9 @@
     },
     {
       "object": "block",
-      "id": "fd771adb-b0b4-4f3c-ae68-76e7b097551a",
-      "created_time": "2022-01-24T06:48:00.000Z",
-      "last_edited_time": "2022-01-24T06:48:00.000Z",
+      "id": "dc798d7b-97a9-4266-9848-079a54bcc0f2",
+      "created_time": "2022-01-24T06:50:00.000Z",
+      "last_edited_time": "2022-01-24T06:50:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "column_list",
@@ -2434,9 +1097,9 @@
       "blocks": [
         {
           "object": "block",
-          "id": "865ecec2-b5ce-4bd3-9cf3-ee4b8cd8a43f",
-          "created_time": "2022-01-24T06:48:00.000Z",
-          "last_edited_time": "2022-01-24T06:48:00.000Z",
+          "id": "ba1863a2-610e-44c7-9c47-9db0b846fd58",
+          "created_time": "2022-01-24T06:50:00.000Z",
+          "last_edited_time": "2022-01-24T06:50:00.000Z",
           "has_children": true,
           "archived": false,
           "type": "column",
@@ -2444,9 +1107,9 @@
           "blocks": [
             {
               "object": "block",
-              "id": "0317856c-d188-4521-ae77-2a37e7a08e0f",
-              "created_time": "2022-01-24T06:48:00.000Z",
-              "last_edited_time": "2022-01-24T06:48:00.000Z",
+              "id": "0ccaf09d-1054-4b6b-af32-ffc9c9668d60",
+              "created_time": "2022-01-24T06:50:00.000Z",
+              "last_edited_time": "2022-01-24T06:50:00.000Z",
               "has_children": true,
               "archived": false,
               "type": "synced_block",
@@ -3082,9 +1745,9 @@
         },
         {
           "object": "block",
-          "id": "5f64bae1-68ac-477d-8cd5-b9da2cef13f6",
-          "created_time": "2022-01-24T06:48:00.000Z",
-          "last_edited_time": "2022-01-24T06:48:00.000Z",
+          "id": "29fcc086-08e8-40ee-9655-c8018027c622",
+          "created_time": "2022-01-24T06:50:00.000Z",
+          "last_edited_time": "2022-01-24T06:50:00.000Z",
           "has_children": true,
           "archived": false,
           "type": "column",
@@ -3092,9 +1755,9 @@
           "blocks": [
             {
               "object": "block",
-              "id": "5bfb7387-3567-4c15-8283-0d5ad3fbc80e",
-              "created_time": "2022-01-24T06:48:00.000Z",
-              "last_edited_time": "2022-01-24T06:48:00.000Z",
+              "id": "e2b9e181-8c09-4f7b-b04b-23679c80f9d1",
+              "created_time": "2022-01-24T06:50:00.000Z",
+              "last_edited_time": "2022-01-24T06:50:00.000Z",
               "has_children": true,
               "archived": false,
               "type": "synced_block",
@@ -3873,9 +2536,9 @@
     },
     {
       "object": "block",
-      "id": "fd66e0a3-b7cf-414c-b8cd-e7fa6431b613",
-      "created_time": "2022-01-24T06:48:00.000Z",
-      "last_edited_time": "2022-01-24T06:48:00.000Z",
+      "id": "c358d816-a554-4bdc-b9a7-b7acb802cd95",
+      "created_time": "2022-01-24T06:50:00.000Z",
+      "last_edited_time": "2022-01-24T06:50:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",

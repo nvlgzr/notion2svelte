@@ -1,8 +1,8 @@
 {
   "object": "page",
-  "id": "98564b23-3ea8-4b78-ad31-47e3a0971ef5",
-  "created_time": "2022-01-17T07:21:00.000Z",
-  "last_edited_time": "2022-01-31T06:15:00.000Z",
+  "id": "0a81110f-311a-4b2f-858a-65ea1a45ab3a",
+  "created_time": "2022-01-28T00:01:00.000Z",
+  "last_edited_time": "2022-01-31T20:07:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -14,14 +14,18 @@
     "Group": {
       "id": "D%5E%3CB",
       "type": "select",
-      "select": null
+      "select": {
+        "id": "]Q>[",
+        "name": "annotations",
+        "color": "default"
+      }
     },
     "Slug": {
       "id": "M%40TW",
       "type": "formula",
       "formula": {
         "type": "string",
-        "string": "/components"
+        "string": "/annotations/link"
       }
     },
     "Status": {
@@ -40,7 +44,7 @@
         {
           "type": "text",
           "text": {
-            "content": "components",
+            "content": "link",
             "link": null
           },
           "annotations": {
@@ -51,7 +55,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "components",
+          "plain_text": "link",
           "href": null
         }
       ]
@@ -63,7 +67,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Components",
+            "content": "Link",
             "link": null
           },
           "annotations": {
@@ -74,28 +78,75 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Components",
+          "plain_text": "Link",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/Components-98564b233ea84b78ad3147e3a0971ef5",
+  "url": "https://www.notion.so/Link-0a81110f311a4b2f858a65ea1a45ab3a",
   "blocks": [
     {
       "object": "block",
-      "id": "64601a57-6e7a-42b0-8876-dc3764c3f51a",
-      "created_time": "2022-01-17T07:22:00.000Z",
-      "last_edited_time": "2022-01-26T08:00:00.000Z",
+      "id": "43aa76e2-b507-4755-a52c-ec253b725b01",
+      "created_time": "2022-01-29T04:11:00.000Z",
+      "last_edited_time": "2022-01-29T04:11:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "69ec6660-b477-4f8d-8792-5dd924833e8d"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "3e35fbf0-56a5-4f0a-92f5-c30d4f9a7cfc",
+          "created_time": "2022-01-28T20:25:00.000Z",
+          "last_edited_time": "2022-01-29T04:12:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "1. Notion original",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "1. Notion original",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "50b8f6b3-f2aa-47f5-bf05-b5b59183d3ce",
+      "created_time": "2022-01-30T06:51:00.000Z",
+      "last_edited_time": "2022-01-31T03:36:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": [
+      "type": "image",
+      "image": {
+        "caption": [
           {
             "type": "text",
             "text": {
-              "content": "A quick word about terminology",
+              "content": "Note how Notion gives the external link a slightly slimmer font weight",
               "link": null
             },
             "annotations": {
@@ -106,26 +157,144 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "A quick word about terminology",
+            "plain_text": "Note how Notion gives the external link a slightly slimmer font weight",
             "href": null
           }
-        ]
+        ],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f9709ed9-3849-4746-9478-fe356270bde3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T201735Z&X-Amz-Expires=3600&X-Amz-Signature=3727465f6b460fdbe153fdb1ad02861d14d76b0f6645e830a896e37de162c97f&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-31T21:17:35.419Z"
+        }
       }
     },
     {
       "object": "block",
-      "id": "3961f6a0-e487-4735-9879-39138ed7627e",
-      "created_time": "2022-01-26T08:09:00.000Z",
-      "last_edited_time": "2022-01-26T08:43:00.000Z",
+      "id": "dc485010-2144-45b7-92ec-797e2c51a305",
+      "created_time": "2022-01-29T04:11:00.000Z",
+      "last_edited_time": "2022-01-29T04:11:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "01eec727-5535-4576-9493-d16c577aa7b7",
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-01-28T20:26:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "2. Notion API",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "2. Notion API",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "0538fec5-3bc6-4c24-815d-78b5ce846819",
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-01-28T20:28:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Partial output of ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "Partial output of ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "src/routes/[slug].json",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "src/routes/[slug].json",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "3bdd7424-1aa6-45e4-8ec5-34102b872d3d",
+      "created_time": "2022-01-29T04:11:00.000Z",
+      "last_edited_time": "2022-01-30T10:07:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "paragraph",
-      "paragraph": {
+      "type": "code",
+      "code": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "There’s so much going on here, it can be a bit overwhelming!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "There’s so much going on here, it can be a bit overwhelming!",
+            "href": null
+          }
+        ],
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "Let’s talk about ",
+              "content": "{\n      …\n            \"plain_text\": \"Internal page mention\",\n      …\n    {\n      …\n      \"bulleted_list_item\": {\n        \"text\": [\n          {\n            \"type\": \"mention\",\n            \"mention\": {\n              \"type\": \"page\",\n              \"page\": {\n                \"id\": \"57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1\"\n              }\n            },\n            \"annotations\": {…},\n            \"plain_text\": \"Writing Good Slugs\",\n            \"href\": \"https://www.notion.so/57ec9a2db8544bf694a45f0e2a0b68d1\"\n          }\n        ]\n      }\n    },\n    {\n      …\n            \"plain_text\": \"Internal alias\",\n      …\n    },\n    {\n      …\n      \"bulleted_list_item\": {\n        \"text\": [\n          {\n            \"type\": \"text\",\n            \"text\": {\n              \"content\": \"Writing Good Snails\",\n              \"link\": {\n                \"url\": \"/57ec9a2db8544bf694a45f0e2a0b68d1\"\n              }\n            },\n            \"annotations\": {…},\n            \"plain_text\": \"Writing Good Snails\",\n            \"href\": \"/57ec9a2db8544bf694a45f0e2a0b68d1\"\n          }\n        ]\n      }\n    },\n    {\n      …\n            \"plain_text\": \"External link\",\n      …\n    },\n    {\n      …\n      \"bulleted_list_item\": {\n        \"text\": [\n          {\n            \"type\": \"text\",\n            \"text\": {\n              \"content\": \"Writing Good Puppy Dog Tales\",\n              \"link\": {\n                \"url\": \"https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F\"\n              }\n            },\n            \"annotations\": {…},\n            \"plain_text\": \"Writing Good Puppy Dog Tales\",\n            \"href\": \"https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F\"\n          }\n        ]\n      }\n    }",
               "link": null
             },
             "annotations": {
@@ -136,221 +305,18 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Let’s talk about ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "elements",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "elements",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "blocks",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "blocks",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", and ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", and ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "components",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "components",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ". Structurally, these are interchangeable because they all use tripartite units comprising a required ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ". Structurally, these are interchangeable because they all use tripartite units comprising a required ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "type",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "type",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", optional ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", optional ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "attributes",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "attributes",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " and ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " and ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "content",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "content",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", also optional.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", also optional.",
+            "plain_text": "{\n      …\n            \"plain_text\": \"Internal page mention\",\n      …\n    {\n      …\n      \"bulleted_list_item\": {\n        \"text\": [\n          {\n            \"type\": \"mention\",\n            \"mention\": {\n              \"type\": \"page\",\n              \"page\": {\n                \"id\": \"57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1\"\n              }\n            },\n            \"annotations\": {…},\n            \"plain_text\": \"Writing Good Slugs\",\n            \"href\": \"https://www.notion.so/57ec9a2db8544bf694a45f0e2a0b68d1\"\n          }\n        ]\n      }\n    },\n    {\n      …\n            \"plain_text\": \"Internal alias\",\n      …\n    },\n    {\n      …\n      \"bulleted_list_item\": {\n        \"text\": [\n          {\n            \"type\": \"text\",\n            \"text\": {\n              \"content\": \"Writing Good Snails\",\n              \"link\": {\n                \"url\": \"/57ec9a2db8544bf694a45f0e2a0b68d1\"\n              }\n            },\n            \"annotations\": {…},\n            \"plain_text\": \"Writing Good Snails\",\n            \"href\": \"/57ec9a2db8544bf694a45f0e2a0b68d1\"\n          }\n        ]\n      }\n    },\n    {\n      …\n            \"plain_text\": \"External link\",\n      …\n    },\n    {\n      …\n      \"bulleted_list_item\": {\n        \"text\": [\n          {\n            \"type\": \"text\",\n            \"text\": {\n              \"content\": \"Writing Good Puppy Dog Tales\",\n              \"link\": {\n                \"url\": \"https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F\"\n              }\n            },\n            \"annotations\": {…},\n            \"plain_text\": \"Writing Good Puppy Dog Tales\",\n            \"href\": \"https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F\"\n          }\n        ]\n      }\n    }",
             "href": null
           }
-        ]
+        ],
+        "language": "json"
       }
     },
     {
       "object": "block",
-      "id": "ec0c84b3-6161-4f89-ac77-d17655adbb74",
-      "created_time": "2022-01-26T08:41:00.000Z",
-      "last_edited_time": "2022-01-26T08:45:00.000Z",
+      "id": "64d8f7b1-a938-4124-8da8-fdf1536c49a5",
+      "created_time": "2022-01-30T10:07:00.000Z",
+      "last_edited_time": "2022-01-30T22:43:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -359,7 +325,7 @@
           {
             "type": "text",
             "text": {
-              "content": "That said, in titling this doc ",
+              "content": "Without even getting into bookmarks and user mentions, et al, things are already kinda complex:",
               "link": null
             },
             "annotations": {
@@ -370,143 +336,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "That said, in titling this doc ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "Components",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Components",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", I’m referring specifically to ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", I’m referring specifically to ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "Svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " components, i.e., pages ending in ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " components, i.e., pages ending in ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ".svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ".svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", for it’s these that make up ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", for it’s these that make up ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte’s",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte’s",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " final output. In short:",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " final output. In short:",
+            "plain_text": "Without even getting into bookmarks and user mentions, et al, things are already kinda complex:",
             "href": null
           }
         ]
@@ -514,10 +344,10 @@
     },
     {
       "object": "block",
-      "id": "2b07deaf-8a3c-4b4b-9f10-70e55b6ca78f",
-      "created_time": "2022-01-26T08:15:00.000Z",
-      "last_edited_time": "2022-01-26T08:19:00.000Z",
-      "has_children": false,
+      "id": "f1de3206-571c-4fd7-b34a-0ba1a7833668",
+      "created_time": "2022-01-30T10:10:00.000Z",
+      "last_edited_time": "2022-01-30T23:33:00.000Z",
+      "has_children": true,
       "archived": false,
       "type": "bulleted_list_item",
       "bulleted_list_item": {
@@ -525,7 +355,7 @@
           {
             "type": "text",
             "text": {
-              "content": "The Web’s got ",
+              "content": "We have 2 types of object but 3 different styles of link!",
               "link": null
             },
             "annotations": {
@@ -536,128 +366,558 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "The Web’s got ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "elements",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "elements",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ": ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ": ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "<hr />",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "<hr />",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "<a href=…>🔗</a>",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "<a href=…>🔗</a>",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", etc.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", etc.",
+            "plain_text": "We have 2 types of object but 3 different styles of link!",
             "href": null
           }
         ]
-      }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "bdd0bc6c-2a04-4f66-9483-9c1f4b6769f8",
+          "created_time": "2022-01-30T10:13:00.000Z",
+          "last_edited_time": "2022-01-30T23:33:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "type:mention",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "type:mention",
+                "href": null
+              }
+            ]
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "1e9f8ff5-3a4d-43a6-9016-f610b5c6bfbe",
+              "created_time": "2022-01-30T10:14:00.000Z",
+              "last_edited_time": "2022-01-30T22:43:00.000Z",
+              "has_children": true,
+              "archived": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "1 link style",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "1 link style",
+                    "href": null
+                  }
+                ]
+              },
+              "blocks": [
+                {
+                  "object": "block",
+                  "id": "93d4cb92-2e8f-449a-a1a5-d0a8cf39d5c1",
+                  "created_time": "2022-01-30T10:14:00.000Z",
+                  "last_edited_time": "2022-01-30T23:30:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "page mention",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": true,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "page mention",
+                        "href": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "54f1202e-9c48-476d-a85e-ccad799b9e7e",
+          "created_time": "2022-01-30T10:13:00.000Z",
+          "last_edited_time": "2022-01-30T23:33:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "text",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "text",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "+",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "+",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "url",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "url",
+                "href": null
+              }
+            ]
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "4a7650f4-5ecb-476f-ab15-b5222419986a",
+              "created_time": "2022-01-30T10:14:00.000Z",
+              "last_edited_time": "2022-01-30T22:45:00.000Z",
+              "has_children": true,
+              "archived": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "2 link styles",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "2 link styles",
+                    "href": null
+                  }
+                ]
+              },
+              "blocks": [
+                {
+                  "object": "block",
+                  "id": "62ec2e03-95d8-4565-9c13-dd08340f3ea9",
+                  "created_time": "2022-01-30T10:15:00.000Z",
+                  "last_edited_time": "2022-01-30T22:44:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "relative to root",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": true,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "relative to root",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " (starts with ",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " (starts with ",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "/",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": true,
+                          "color": "default"
+                        },
+                        "plain_text": "/",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": ")",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": ")",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "02c7676c-086f-4e74-a5b3-d451791f0c61",
+                  "created_time": "2022-01-30T10:15:00.000Z",
+                  "last_edited_time": "2022-01-30T22:47:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": "absolute",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": true,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "absolute",
+                        "href": null
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " (starts with protocol: http, mailto, et al)",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " (starts with protocol: http, mailto, et al)",
+                        "href": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "56812019-511b-42ad-9822-954e6fd0792f",
+          "created_time": "2022-01-30T10:16:00.000Z",
+          "last_edited_time": "2022-01-30T23:33:00.000Z",
+          "has_children": true,
+          "archived": false,
+          "type": "toggle",
+          "toggle": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "How ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "How ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "notion2svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "notion2svelte",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " handles this",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " handles this",
+                "href": null
+              }
+            ]
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "fb5d474c-0abe-43a2-b703-fe71fdd13992",
+              "created_time": "2022-01-30T23:23:00.000Z",
+              "last_edited_time": "2022-01-30T23:23:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "I may be misinterpreting the distinction between the two text+url link types, but this doesn’t really matter. What matters is that Notion has demonstrated in their own UI that these two link styles can be treated differently — even if the only difference is a slight shift in font-weight — and so there’s no reason we can’t consider a similar option.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "I may be misinterpreting the distinction between the two text+url link types, but this doesn’t really matter. What matters is that Notion has demonstrated in their own UI that these two link styles can be treated differently — even if the only difference is a slight shift in font-weight — and so there’s no reason we can’t consider a similar option.",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "aa9ef751-6fb0-4964-9ff4-97ec5331f0dc",
+              "created_time": "2022-01-30T23:19:00.000Z",
+              "last_edited_time": "2022-01-30T23:23:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Of course, if you want to go the other way, nothing’s stopping you from ignoring the ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Of course, if you want to go the other way, nothing’s stopping you from ignoring the ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "type",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "type",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " prop in your Link component:",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " prop in your Link component:",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "116b21f2-b416-41f0-9a2e-022d4a46be4c",
+              "created_time": "2022-01-30T23:20:00.000Z",
+              "last_edited_time": "2022-01-30T23:23:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "code",
+              "code": {
+                "caption": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "The minimum Link.svelte",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "The minimum Link.svelte",
+                    "href": null
+                  }
+                ],
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "<script>\n  export let url;\n</script>\n\n<a href={url}><slot/></a>",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "<script>\n  export let url;\n</script>\n\n<a href={url}><slot/></a>",
+                    "href": null
+                  }
+                ],
+                "language": "html"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "object": "block",
-      "id": "1c721cd7-d122-48de-aac9-9819f786f881",
-      "created_time": "2022-01-26T08:16:00.000Z",
-      "last_edited_time": "2022-01-26T08:32:00.000Z",
+      "id": "90ea5905-47f8-4d85-9ca7-329241fb1a21",
+      "created_time": "2022-01-30T23:24:00.000Z",
+      "last_edited_time": "2022-01-30T23:33:00.000Z",
       "has_children": true,
       "archived": false,
-      "type": "toggle",
-      "toggle": {
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "Notion’s got ",
+              "content": "There’s duplicate data:",
               "link": null
             },
             "annotations": {
@@ -668,26 +928,429 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Notion’s got ",
+            "plain_text": "There’s duplicate data:",
             "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "blocks",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "blocks",
-            "href": null
-          },
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "66789171-9249-48cf-9bf5-5bd85dfa8fa9",
+          "created_time": "2022-01-30T23:25:00.000Z",
+          "last_edited_time": "2022-01-30T23:29:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "As far as I can tell, ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "As far as I can tell, ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "text[n].text.link.url",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "text[n].text.link.url",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " is ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " is ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "always",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "always",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " identical to the adjacent ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " identical to the adjacent ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "text[n].href",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "text[n].href",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "5fc33036-fc2f-4620-bccd-20b82a98be4f",
+          "created_time": "2022-01-30T10:09:00.000Z",
+          "last_edited_time": "2022-01-30T23:31:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "text[n].mention.page.id",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "text[n].mention.page.id",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " is just ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " is just ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "text[n].href",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "text[n].href",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " without the host — ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " without the host — ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "https://www.notion.so/",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "https://www.notion.so/",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " — sliced off",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " — sliced off",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "2271926f-ea39-46d2-bd8e-f721e99bbb2c",
+          "created_time": "2022-01-30T23:25:00.000Z",
+          "last_edited_time": "2022-01-30T23:34:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "notion2svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "notion2svelte",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " reduces these duplications to a single ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " reduces these duplications to a single ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "href",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "href",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " prop.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " prop.",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "eb619fcf-b4a4-468b-b553-04b4e22f9a57",
+      "created_time": "2022-01-29T04:11:00.000Z",
+      "last_edited_time": "2022-01-29T04:11:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "46eaa6aa-2b30-4f72-915c-04d3e638fe8d"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "55e06cc7-b682-4d4c-8af3-b503b1d72bd1",
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-01-28T20:26:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "3. Svelte output",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "3. Svelte output",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "28871a46-c697-4500-b517-1c526797ab38",
+          "created_time": "2022-01-28T20:32:00.000Z",
+          "last_edited_time": "2022-01-28T20:32:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Partial output of ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "Partial output of ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "src/routes/[slug].svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "src/routes/[slug].svelte",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "2c4d7321-92fe-4e99-a903-3a739c87eaaa",
+      "created_time": "2022-01-29T04:11:00.000Z",
+      "last_edited_time": "2022-01-30T23:35:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "code",
+      "code": {
+        "caption": [
           {
             "type": "text",
             "text": {
@@ -704,11 +1367,91 @@
             },
             "plain_text": " ",
             "href": null
-          },
+          }
+        ],
+        "text": [
           {
             "type": "text",
             "text": {
-              "content": "(toggle for details)",
+              "content": "…\n  Internal page mention\n…\n<BulletedListItem>\n  <Link type=\"mention\" href=\"/rules-for-writing-good-slugs\">\n    Writing Good Slugs\n  </Link>\n</BulletedListItem>\n…\n  Internal alias\n…\n<BulletedListItem>\n  <Link type=\"internal\" href=\"/rules-for-writing-good-slugs\">\n    Writing Good Snails\n  </Link>\n</BulletedListItem>\n…\n  External link\n…\n<BulletedListItem>\n  <Link type=\"external\" href=\"https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F\">\n    Writing Good Puppy Dog Tales\n    </Link>\n</BulletedListItem>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "…\n  Internal page mention\n…\n<BulletedListItem>\n  <Link type=\"mention\" href=\"/rules-for-writing-good-slugs\">\n    Writing Good Slugs\n  </Link>\n</BulletedListItem>\n…\n  Internal alias\n…\n<BulletedListItem>\n  <Link type=\"internal\" href=\"/rules-for-writing-good-slugs\">\n    Writing Good Snails\n  </Link>\n</BulletedListItem>\n…\n  External link\n…\n<BulletedListItem>\n  <Link type=\"external\" href=\"https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F\">\n    Writing Good Puppy Dog Tales\n    </Link>\n</BulletedListItem>",
+            "href": null
+          }
+        ],
+        "language": "html"
+      }
+    },
+    {
+      "object": "block",
+      "id": "26094748-8cf2-4e86-ad1f-bd603bd0af49",
+      "created_time": "2022-01-29T04:11:00.000Z",
+      "last_edited_time": "2022-01-29T04:11:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "39f58dcd-edff-4eac-ac21-4c54bc1b2e7c"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "14abb64d-4aad-4586-a941-62fdc219a70e",
+          "created_time": "2022-01-28T20:29:00.000Z",
+          "last_edited_time": "2022-01-28T21:00:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "4. Example rendering",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "4. Example rendering",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "37637bb7-2a74-4905-8474-3d3ed2994a92",
+      "created_time": "2022-01-29T04:11:00.000Z",
+      "last_edited_time": "2022-01-31T03:40:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Rendered by ",
               "link": null
             },
             "annotations": {
@@ -719,226 +1462,158 @@
               "code": false,
               "color": "gray"
             },
-            "plain_text": "(toggle for details)",
+            "plain_text": "Rendered by ",
             "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Link.svelte",
+              "link": {
+                "url": "https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Link.svelte"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "Link.svelte",
+            "href": "https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Link.svelte"
           }
         ]
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "9a95285c-c21c-4bed-b01f-fec9e4240922",
-          "created_time": "2022-01-26T08:29:00.000Z",
-          "last_edited_time": "2022-01-26T08:30:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "Of course, most Notion content exists in whatever proprietary structure they’ve created in their database, and blocks are usually generated via the GUI…",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Of course, most Notion content exists in whatever proprietary structure they’ve created in their database, and blocks are usually generated via the GUI…",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "4c421841-a417-4ca0-af7a-f80dda7ef09a",
-          "created_time": "2022-01-26T08:17:00.000Z",
-          "last_edited_time": "2022-01-26T08:17:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "image",
-          "image": {
-            "caption": [],
-            "type": "file",
-            "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/660a128a-c7db-4509-acc4-fbd565beb07f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062507Z&X-Amz-Expires=3600&X-Amz-Signature=1e0ca439dfa83897306b4715ba91e8672f062dbfcce9408eea1fad1b245255a8&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2022-01-31T07:25:07.914Z"
-            }
-          }
-        },
-        {
-          "object": "block",
-          "id": "88b44a35-b4d7-4f78-a68b-1d75ed77bfa4",
-          "created_time": "2022-01-26T08:27:00.000Z",
-          "last_edited_time": "2022-01-26T08:32:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "…while the API affords computer-focussed interactions with Notion’s pages & blocks.",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "…while the API affords computer-focussed interactions with Notion’s pages & blocks.",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "abb1ca00-f5ec-4fd3-98d4-53025f2dc663",
-          "created_time": "2022-01-26T08:19:00.000Z",
-          "last_edited_time": "2022-01-26T08:30:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "code",
-          "code": {
-            "caption": [],
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "{\n  …\n  \"blocks\" : [\n    {\n      …\n      \"type\" : \"divider\",\n      …\n    },\n    {\n      …\n      \"type\" : \"paragraph\",\n      \"paragraph\" : {\n        \"text\" : [\n          {\n            …\n            \"href\": \"http://…\",\n            …\n          }\n        ]\n      }\n      …\n    }\n  ]\n}  ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "{\n  …\n  \"blocks\" : [\n    {\n      …\n      \"type\" : \"divider\",\n      …\n    },\n    {\n      …\n      \"type\" : \"paragraph\",\n      \"paragraph\" : {\n        \"text\" : [\n          {\n            …\n            \"href\": \"http://…\",\n            …\n          }\n        ]\n      }\n      …\n    }\n  ]\n}  ",
-                "href": null
-              }
-            ],
-            "language": "json"
-          }
-        },
-        {
-          "object": "block",
-          "id": "32dc15ad-df18-424c-a615-7f8ffd318c77",
-          "created_time": "2022-01-26T08:32:00.000Z",
-          "last_edited_time": "2022-01-26T08:33:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "And all of this complexity still boils down to the same thing: ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "And all of this complexity still boils down to the same thing: ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "types",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "types",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": ", with optional ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": ", with optional ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "props & content",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "props & content",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": ".",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": ".",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
+      }
     },
     {
       "object": "block",
-      "id": "eb3a0cbe-1b5f-4110-9ded-c6c514aceadd",
-      "created_time": "2022-01-26T08:17:00.000Z",
-      "last_edited_time": "2022-01-26T08:47:00.000Z",
+      "id": "469b3cb0-70a9-4129-84f5-00f620532ad6",
+      "created_time": "2022-01-28T00:01:00.000Z",
+      "last_edited_time": "2022-01-30T06:57:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Link component lets you differentiate between ⑴ internal page mentions, ⑵ links to internal pages — I like to think of these as aliased mentions — and ⑶ links to external pages:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Link component lets you differentiate between ⑴ internal page mentions, ⑵ links to internal pages — I like to think of these as aliased mentions — and ⑶ links to external pages:",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "32835464-e2aa-4cde-8f03-494320c60659",
+      "created_time": "2022-01-29T22:13:00.000Z",
+      "last_edited_time": "2022-01-29T22:15:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Internal page mention",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Internal page mention",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "3eb6879e-ec2d-444e-a4a9-7378c1de94b9",
+      "created_time": "2022-01-29T22:13:00.000Z",
+      "last_edited_time": "2022-01-29T22:14:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "text": [
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Writing Good Slugs",
+            "href": "https://www.notion.so/57ec9a2db8544bf694a45f0e2a0b68d1"
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "691abeb0-ad0e-4eb6-b0d2-7859fa479552",
+      "created_time": "2022-01-29T22:14:00.000Z",
+      "last_edited_time": "2022-01-29T23:44:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Internal alias",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Internal alias",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "0d5d4b03-3416-4977-98b2-2d617ae2b45e",
+      "created_time": "2022-01-29T22:13:00.000Z",
+      "last_edited_time": "2022-01-29T23:43:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "bulleted_list_item",
@@ -947,8 +1622,10 @@
           {
             "type": "text",
             "text": {
-              "content": "Svelte’s got ",
-              "link": null
+              "content": "Writing Good Snails",
+              "link": {
+                "url": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+              }
             },
             "annotations": {
               "bold": false,
@@ -958,119 +1635,17 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Svelte’s got ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "components",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "components",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ": ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ": ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "<Divider />",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "<Divider />",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "<Code language=…/>",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "<Code language=…/>",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", and these are our current topic.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", and these are our current topic.",
-            "href": null
+            "plain_text": "Writing Good Snails",
+            "href": "/57ec9a2db8544bf694a45f0e2a0b68d1"
           }
         ]
       }
     },
     {
       "object": "block",
-      "id": "8db0ea76-9a07-4a68-874b-437675723688",
-      "created_time": "2022-01-26T08:35:00.000Z",
-      "last_edited_time": "2022-01-26T08:47:00.000Z",
+      "id": "48f36011-893c-4d85-8be6-b7fec8be13e4",
+      "created_time": "2022-01-29T22:14:00.000Z",
+      "last_edited_time": "2022-01-29T22:16:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1079,233 +1654,7 @@
           {
             "type": "text",
             "text": {
-              "content": "Capisce?",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Capisce?",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "0a219c64-7475-4121-85ef-18b191754c1c",
-      "created_time": "2022-01-17T07:21:00.000Z",
-      "last_edited_time": "2022-01-17T07:29:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "The 4 stages of component transformation",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "The 4 stages of component transformation",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "05a78860-92f6-48cd-850e-4ea5907bfdfb",
-      "created_time": "2022-01-17T08:17:00.000Z",
-      "last_edited_time": "2022-01-17T08:19:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "callout",
-      "callout": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "This is pretty self-explanatory, so feel free to skip straight down to the docs.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "This is pretty self-explanatory, so feel free to skip straight down to the docs.",
-            "href": null
-          }
-        ],
-        "icon": {
-          "type": "emoji",
-          "emoji": "🦦"
-        }
-      }
-    },
-    {
-      "object": "block",
-      "id": "aedae2ac-d168-4e90-b78d-ab383e3d8f8c",
-      "created_time": "2022-01-17T08:19:00.000Z",
-      "last_edited_time": "2022-01-17T08:23:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "To orient you as you read the docs below, they are all organized using the same four headers, each intended to give you a clear vision of the ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "To orient you as you read the docs below, they are all organized using the same four headers, each intended to give you a clear vision of the ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "before-",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "before-",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "during-",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "during-",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", and ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", and ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "after",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "after",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ".",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ".",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "079b54c9-6bcc-446a-8a22-2baf43419a26",
-      "created_time": "2022-01-17T07:29:00.000Z",
-      "last_edited_time": "2022-01-17T08:11:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "numbered_list_item",
-      "numbered_list_item": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "As rendered in Notion",
+              "content": "External link",
               "link": null
             },
             "annotations": {
@@ -1314,495 +1663,9 @@
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "green"
-            },
-            "plain_text": "As rendered in Notion",
-            "href": null
-          }
-        ]
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "d884d4a3-70d5-4f3a-9ba9-b4f722ab42bd",
-          "created_time": "2022-01-17T08:11:00.000Z",
-          "last_edited_time": "2022-01-17T08:11:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "Individual components start their lives as blocks in Notion, completely independent, of course, from ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Individual components start their lives as blocks in Notion, completely independent, of course, from ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "notion2svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "notion2svelte",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": ". You’ll find a screenshot of each component at the top of each doc.",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": ". You’ll find a screenshot of each component at the top of each doc.",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "2bd0b250-cefc-4afe-9fab-c4b113624563",
-      "created_time": "2022-01-17T07:30:00.000Z",
-      "last_edited_time": "2022-01-17T08:11:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "numbered_list_item",
-      "numbered_list_item": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Notion API",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "green"
-            },
-            "plain_text": "Notion API",
-            "href": null
-          }
-        ]
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "3b20c3de-269f-4eff-92f6-bc10fe60b773",
-          "created_time": "2022-01-17T08:11:00.000Z",
-          "last_edited_time": "2022-01-17T08:11:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "notion2svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "notion2svelte",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " recursively fetches all the blocks on a page and stores the result in a single ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " recursively fetches all the blocks on a page and stores the result in a single ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": ".json",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": ".json",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " file next to the final ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " file next to the final ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": ".svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": ".svelte",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " output.",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " output.",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "2ff8481b-e579-455a-9b11-207c7b018450",
-      "created_time": "2022-01-17T07:33:00.000Z",
-      "last_edited_time": "2022-01-17T08:12:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "numbered_list_item",
-      "numbered_list_item": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Svelte output",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "green"
-            },
-            "plain_text": "Svelte output",
-            "href": null
-          }
-        ]
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "f0d25453-e9fc-4b83-b233-f5fd8d1dee3b",
-          "created_time": "2022-01-17T08:11:00.000Z",
-          "last_edited_time": "2022-01-23T21:24:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "{\"type\":\"thingy\"…}",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": true,
-                  "color": "default"
-                },
-                "plain_text": "{\"type\":\"thingy\"…}",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " → ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " → ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "<Thingy>…</Thingy>",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": true,
-                  "color": "default"
-                },
-                "plain_text": "<Thingy>…</Thingy>",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "73def60d-a4a1-449f-885a-48edf950190a",
-      "created_time": "2022-01-17T07:35:00.000Z",
-      "last_edited_time": "2022-01-17T08:12:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "numbered_list_item",
-      "numbered_list_item": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Rendered content",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "green"
-            },
-            "plain_text": "Rendered content",
-            "href": null
-          }
-        ]
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "9f35b586-ab18-4f4d-8182-e1b48be8e1b4",
-          "created_time": "2022-01-17T08:12:00.000Z",
-          "last_edited_time": "2022-01-17T08:12:00.000Z",
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "notion2svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "notion2svelte",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " is out of the picture again by this step, but, just as it’s helpful to see a screenshot of a block type in its original ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " is out of the picture again by this step, but, just as it’s helpful to see a screenshot of a block type in its original ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "notion.so",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "notion.so",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " context, so it’s helpful to see (one version) of the rendered Svelte component.",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " context, so it’s helpful to see (one version) of the rendered Svelte component.",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "d086edea-5a87-46dc-96fa-8b24aaf3da2a",
-      "created_time": "2022-01-17T07:54:00.000Z",
-      "last_edited_time": "2022-01-17T07:58:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "You may find it interesting to note that each “Step 1” image is actually a screenshot of “Step 4” as rendered on the source Notion page. The image effectively ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
               "color": "default"
             },
-            "plain_text": "You may find it interesting to note that each “Step 1” image is actually a screenshot of “Step 4” as rendered on the source Notion page. The image effectively ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "freezes",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "freezes",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " the Notion styles, while the example Svelte-side styles are native HTML elements.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " the Notion styles, while the example Svelte-side styles are native HTML elements.",
+            "plain_text": "External link",
             "href": null
           }
         ]
@@ -1810,19 +1673,21 @@
     },
     {
       "object": "block",
-      "id": "78e79acc-66ba-4b25-8dcf-b2b0a3951fbe",
-      "created_time": "2022-01-17T07:58:00.000Z",
-      "last_edited_time": "2022-01-17T08:23:00.000Z",
+      "id": "ebb65cd6-e3f0-4832-9c94-b5adac2ccd92",
+      "created_time": "2022-01-29T18:22:00.000Z",
+      "last_edited_time": "2022-01-29T23:45:00.000Z",
       "has_children": false,
       "archived": false,
-      "type": "paragraph",
-      "paragraph": {
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "This works because the pages on this site were generated using ",
-              "link": null
+              "content": "Writing Good Puppy Dog Tales",
+              "link": {
+                "url": "https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
+              }
             },
             "annotations": {
               "bold": false,
@@ -1832,64 +1697,17 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "This works because the pages on this site were generated using ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte!",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte!",
-            "href": null
+            "plain_text": "Writing Good Puppy Dog Tales",
+            "href": "https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
           }
         ]
       }
     },
     {
       "object": "block",
-      "id": "8af49d2e-4faf-49bb-82f1-5d3674ff1b32",
-      "created_time": "2022-01-17T07:21:00.000Z",
-      "last_edited_time": "2022-01-17T08:00:00.000Z",
-      "has_children": false,
-      "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Component Docs",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Component Docs",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "85c7a786-59e3-41ea-97a4-6610f85e9472",
-      "created_time": "2022-01-19T23:38:00.000Z",
-      "last_edited_time": "2022-01-19T23:38:00.000Z",
+      "id": "72c30aa3-a7d4-4491-b33d-522996ece908",
+      "created_time": "2022-01-30T06:38:00.000Z",
+      "last_edited_time": "2022-01-30T06:45:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1899,62 +1717,283 @@
     },
     {
       "object": "block",
-      "id": "2a87e92e-1ff5-4197-908e-b91f99b6f2b9",
-      "created_time": "2022-01-26T08:49:00.000Z",
-      "last_edited_time": "2022-01-26T08:49:00.000Z",
+      "id": "442b551f-312b-403c-9acd-b55e6c2f8031",
+      "created_time": "2022-01-30T00:14:00.000Z",
+      "last_edited_time": "2022-01-30T06:44:00.000Z",
       "has_children": true,
       "archived": false,
-      "type": "column_list",
-      "column_list": {},
+      "type": "toggle",
+      "toggle": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A word about links with “annotations”",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A word about links with “annotations”",
+            "href": null
+          }
+        ]
+      },
       "blocks": [
         {
           "object": "block",
-          "id": "288126ed-5158-48f5-b95b-0a9b58cad83f",
-          "created_time": "2022-01-26T08:49:00.000Z",
-          "last_edited_time": "2022-01-26T08:49:00.000Z",
-          "has_children": true,
+          "id": "d98a87c9-bdfb-4e44-b102-644b0f3229a0",
+          "created_time": "2022-01-30T00:22:00.000Z",
+          "last_edited_time": "2022-01-30T00:28:00.000Z",
+          "has_children": false,
           "archived": false,
-          "type": "column",
-          "column": {},
-          "blocks": [
-            {
-              "object": "block",
-              "id": "64f6a0d7-e349-41b4-bf0a-fb6e591edf70",
-              "created_time": "2022-01-26T08:49:00.000Z",
-              "last_edited_time": "2022-01-26T08:49:00.000Z",
-              "has_children": false,
-              "archived": false,
-              "type": "paragraph",
-              "paragraph": {
-                "text": []
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Notion’s handling of links is buggy. Specifically, as soon as you start applying styles to ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Notion’s handling of links is buggy. Specifically, as soon as you start applying styles to ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "parts",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "parts",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " of the link, you suddenly end up with ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " of the link, you suddenly end up with ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "more than one link",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "more than one link",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "! Don’t believe me? Follow along by opening this page’s ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "! Don’t believe me? Follow along by opening this page’s ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "original in Notion",
+                  "link": {
+                    "url": "/0a81110f311a4b2f858a65ea1a45ab3a"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "original in Notion",
+                "href": "/0a81110f311a4b2f858a65ea1a45ab3a"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ", and inspect the raw source these example links ↓",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ", and inspect the raw source these example links ↓",
+                "href": null
               }
-            }
-          ]
+            ]
+          }
         },
         {
           "object": "block",
-          "id": "a693d7bb-4426-4944-a366-545fea73b927",
-          "created_time": "2022-01-26T08:49:00.000Z",
-          "last_edited_time": "2022-01-26T08:49:00.000Z",
+          "id": "eed8610c-e1f5-478b-9cc0-e1f0381f26e6",
+          "created_time": "2022-01-30T00:25:00.000Z",
+          "last_edited_time": "2022-01-30T00:33:00.000Z",
           "has_children": true,
           "archived": false,
-          "type": "column",
-          "column": {},
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Let’s begin with our ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Let’s begin with our ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "internal alias",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "internal alias",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " example: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " example: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Writing Good Snails",
+                  "link": {
+                    "url": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Writing Good Snails",
+                "href": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ". Stripping Notion’s HTML to its structural bones, we see that this link is rendered as:",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ". Stripping Notion’s HTML to its structural bones, we see that this link is rendered as:",
+                "href": null
+              }
+            ]
+          },
           "blocks": [
             {
               "object": "block",
-              "id": "effd4d29-3d15-4097-af12-f493312f7267",
-              "created_time": "2022-01-19T23:38:00.000Z",
-              "last_edited_time": "2022-01-26T08:49:00.000Z",
+              "id": "02a9258a-18d8-4aac-80c5-83f1297215a3",
+              "created_time": "2022-01-30T00:30:00.000Z",
+              "last_edited_time": "2022-01-30T00:36:00.000Z",
               "has_children": false,
               "archived": false,
-              "type": "image",
-              "image": {
-                "caption": [
+              "type": "code",
+              "code": {
+                "caption": [],
+                "text": [
                   {
                     "type": "text",
                     "text": {
-                      "content": "Notion’s interchangeable block types, as of 1/19/22.",
+                      "content": "<a><span>Writing Good Snails</span></a>",
                       "link": null
                     },
                     "annotations": {
@@ -1965,50 +2004,833 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "Notion’s interchangeable block types, as of 1/19/22.",
+                    "plain_text": "<a><span>Writing Good Snails</span></a>",
                     "href": null
                   }
                 ],
-                "type": "file",
-                "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8b02b995-690e-4112-88cf-5cbc4bb5478d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062507Z&X-Amz-Expires=3600&X-Amz-Signature=cd6ea9d9009f03daf720016ad77f1510f10258c3e965f2e1fb28916edc0ff755&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-31T07:25:07.979Z"
-                }
+                "language": "html"
+              }
+            },
+            {
+              "object": "block",
+              "id": "056e44d0-c749-41d9-a978-7c73f2bbb64a",
+              "created_time": "2022-01-30T00:31:00.000Z",
+              "last_edited_time": "2022-01-30T00:31:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "All well and good.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "All well and good.",
+                    "href": null
+                  }
+                ]
               }
             }
           ]
         },
         {
           "object": "block",
-          "id": "ca26758e-5ffc-428f-ba47-9bda5c256199",
-          "created_time": "2022-01-26T08:49:00.000Z",
-          "last_edited_time": "2022-01-26T08:49:00.000Z",
+          "id": "80daa80b-f2fb-4245-b118-48c8639a5fd7",
+          "created_time": "2022-01-30T00:31:00.000Z",
+          "last_edited_time": "2022-01-30T06:30:00.000Z",
           "has_children": true,
           "archived": false,
-          "type": "column",
-          "column": {},
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Now let’s add some internal emphasis: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Now let’s add some internal emphasis: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Writing ",
+                  "link": {
+                    "url": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Writing ",
+                "href": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Great!",
+                  "link": {
+                    "url": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Great!",
+                "href": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " Snails",
+                  "link": {
+                    "url": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " Snails",
+                "href": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ". In Notion, this still appears, at first glance, to be a single link because the underlines touch.font",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ". In Notion, this still appears, at first glance, to be a single link because the underlines touch.font",
+                "href": null
+              }
+            ]
+          },
           "blocks": [
             {
               "object": "block",
-              "id": "d0e9de7c-da9e-4943-94b0-e6dd61e5af35",
-              "created_time": "2022-01-26T08:49:00.000Z",
-              "last_edited_time": "2022-01-26T08:49:00.000Z",
+              "id": "d45218c3-2429-4256-8d4d-9ca06e51cefb",
+              "created_time": "2022-01-30T00:33:00.000Z",
+              "last_edited_time": "2022-01-30T00:33:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e4195553-dc76-4aab-81ad-5bdf5281fdb7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T201737Z&X-Amz-Expires=3600&X-Amz-Signature=5c3ad616c435f211d3d975a88db5f9482174848fd2c62670997ec9eb02f610e4&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-01-31T21:17:37.666Z"
+                }
+              }
+            },
+            {
+              "object": "block",
+              "id": "efcaf3e8-7a67-4a1f-8985-d644dba0ef63",
+              "created_time": "2022-01-30T00:33:00.000Z",
+              "last_edited_time": "2022-01-30T02:45:00.000Z",
               "has_children": false,
               "archived": false,
               "type": "paragraph",
               "paragraph": {
-                "text": []
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Now take a look at the source again. If you were implementing this by hand, you’d write (again, just the structure)…",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Now take a look at the source again. If you were implementing this by hand, you’d write (again, just the structure)…",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "b3fee300-aaed-4f81-9e66-8aa785419372",
+              "created_time": "2022-01-30T02:45:00.000Z",
+              "last_edited_time": "2022-01-30T02:51:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "code",
+              "code": {
+                "caption": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "Makes sense, right? 🤷🏻",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "Makes sense, right? 🤷🏻",
+                    "href": null
+                  }
+                ],
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "<a>\n\t<span>Writing </span>\n\t<span>Great! </span>\n\t<span>Snails</span>\n</a>",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "<a>\n\t<span>Writing </span>\n\t<span>Great! </span>\n\t<span>Snails</span>\n</a>",
+                    "href": null
+                  }
+                ],
+                "language": "html"
+              }
+            },
+            {
+              "object": "block",
+              "id": "aacb614f-5064-432f-a70a-709e5b46d12d",
+              "created_time": "2022-01-30T02:51:00.000Z",
+              "last_edited_time": "2022-01-30T02:51:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "…but here’s what Notion gets you:",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "…but here’s what Notion gets you:",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "94418e78-d896-4e75-a057-88d39088e2e3",
+              "created_time": "2022-01-30T00:36:00.000Z",
+              "last_edited_time": "2022-01-30T06:32:00.000Z",
+              "has_children": false,
+              "archived": false,
+              "type": "code",
+              "code": {
+                "caption": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "The cake is a lie! ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": true,
+                      "italic": true,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "The cake is a lie! ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "🙀 ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "🙀 ",
+                    "href": null
+                  }
+                ],
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "<a><span>Writing </span></a>\n<a><span>Great! </span></a>\n<a><span>Snails</span></a>",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "<a><span>Writing </span></a>\n<a><span>Great! </span></a>\n<a><span>Snails</span></a>",
+                    "href": null
+                  }
+                ],
+                "language": "html"
               }
             }
           ]
+        },
+        {
+          "object": "block",
+          "id": "9ca116e5-6eb8-4432-9709-9e4ba749bfaf",
+          "created_time": "2022-01-30T02:44:00.000Z",
+          "last_edited_time": "2022-01-30T06:32:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "The same thing happens with external links. 😤",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "The same thing happens with external links. 😤",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "f10f8e4b-f778-40dd-89b1-05761c9a7c4e",
+          "created_time": "2022-01-30T06:32:00.000Z",
+          "last_edited_time": "2022-01-30T06:32:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "If this bothers you, let Notion know. I don’t think my solo complaint is likely to move the needle on something that probably affects their entire stack. 😬",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "If this bothers you, let Notion know. I don’t think my solo complaint is likely to move the needle on something that probably affects their entire stack. 😬",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "9ca6bbcc-012b-4eb2-b312-3f407d1e4e68",
+          "created_time": "2022-01-30T06:32:00.000Z",
+          "last_edited_time": "2022-01-30T06:33:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "heading_3",
+          "heading_3": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "How this affects ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "How this affects ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "notion2svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "notion2svelte",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "52e26993-066d-4db7-a359-b5ccadf6db6d",
+          "created_time": "2022-01-30T06:33:00.000Z",
+          "last_edited_time": "2022-01-30T06:39:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "I can see a future where I get sick of this situation and complicate ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "I can see a future where I get sick of this situation and complicate ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "notion2svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "notion2svelte",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " by having it stitch together adjacent links if they share a target URL. In these early days, however, it’s just too much scope for this little tool, so this is the kind of thing you’re looking at if you venture outside of Notion’s implicit rejection of links with margins.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " by having it stitch together adjacent links if they share a target URL. In these early days, however, it’s just too much scope for this little tool, so this is the kind of thing you’re looking at if you venture outside of Notion’s implicit rejection of links with margins.",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "e9382baf-5f52-4e2b-805d-e3d961ec3fe0",
+          "created_time": "2022-01-30T06:39:00.000Z",
+          "last_edited_time": "2022-01-30T06:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": []
+          }
+        },
+        {
+          "object": "block",
+          "id": "d2588bde-bdad-4593-8cc9-038389f99663",
+          "created_time": "2022-01-29T23:45:00.000Z",
+          "last_edited_time": "2022-01-30T06:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Internal alias with styled text: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Internal alias with styled text: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Writing ",
+                  "link": {
+                    "url": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Writing ",
+                "href": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Great!",
+                  "link": {
+                    "url": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "red"
+                },
+                "plain_text": "Great!",
+                "href": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " Snails",
+                  "link": {
+                    "url": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " Snails",
+                "href": "/57ec9a2db8544bf694a45f0e2a0b68d1"
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "dcf06d9f-9145-45c6-aa69-48cc4be6c9ad",
+          "created_time": "2022-01-30T00:18:00.000Z",
+          "last_edited_time": "2022-01-30T06:40:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "External link with styled text: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "External link with styled text: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Writing ",
+                  "link": {
+                    "url": "https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Writing ",
+                "href": "https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Great!",
+                  "link": {
+                    "url": "https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "red"
+                },
+                "plain_text": "Great!",
+                "href": "https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " Puppy Dog Tales",
+                  "link": {
+                    "url": "https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " Puppy Dog Tales",
+                "href": "https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "853e84b3-8591-4b41-92e1-6287ac843801",
+          "created_time": "2022-01-29T22:34:00.000Z",
+          "last_edited_time": "2022-01-30T06:44:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Thanks to multiplying links, my choice to emulate ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Thanks to multiplying links, my choice to emulate ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Matthew Butterick’s",
+                  "link": {
+                    "url": "https://practicaltypography.com/free-fonts.html"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Matthew Butterick’s",
+                "href": "https://practicaltypography.com/free-fonts.html"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " links — removing all special formatting from links except for a cheeky little º in the ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " links — removing all special formatting from links except for a cheeky little º in the ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "a::after",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "a::after",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " styles — comes off suddenly looking more amateur than class. Ah, well. 😞",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " styles — comes off suddenly looking more amateur than class. Ah, well. 😞",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "637feeb4-3745-404d-932b-95ff5069c771",
+          "created_time": "2022-01-30T06:44:00.000Z",
+          "last_edited_time": "2022-01-30T06:44:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": []
+          }
         }
       ]
     },
     {
       "object": "block",
-      "id": "4199010d-bc38-4b17-a242-5f201b37f610",
-      "created_time": "2022-01-24T06:48:00.000Z",
-      "last_edited_time": "2022-01-24T06:48:00.000Z",
+      "id": "959bc12b-1758-4808-9e6c-b79e1e07f919",
+      "created_time": "2022-01-28T00:20:00.000Z",
+      "last_edited_time": "2022-01-28T00:20:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "7b47f2a2-ad7a-4cc8-9ac2-da7b5b3b57a2",
+      "created_time": "2022-01-28T00:20:00.000Z",
+      "last_edited_time": "2022-01-28T00:20:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "synced_block",
@@ -2424,9 +3246,9 @@
     },
     {
       "object": "block",
-      "id": "fd771adb-b0b4-4f3c-ae68-76e7b097551a",
-      "created_time": "2022-01-24T06:48:00.000Z",
-      "last_edited_time": "2022-01-24T06:48:00.000Z",
+      "id": "66aebad1-b531-490c-9b95-d78a5e9b9684",
+      "created_time": "2022-01-28T00:20:00.000Z",
+      "last_edited_time": "2022-01-28T00:20:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "column_list",
@@ -2434,9 +3256,9 @@
       "blocks": [
         {
           "object": "block",
-          "id": "865ecec2-b5ce-4bd3-9cf3-ee4b8cd8a43f",
-          "created_time": "2022-01-24T06:48:00.000Z",
-          "last_edited_time": "2022-01-24T06:48:00.000Z",
+          "id": "9126770e-57fb-44de-ae7a-d91a311fd465",
+          "created_time": "2022-01-28T00:20:00.000Z",
+          "last_edited_time": "2022-01-28T00:20:00.000Z",
           "has_children": true,
           "archived": false,
           "type": "column",
@@ -2444,9 +3266,9 @@
           "blocks": [
             {
               "object": "block",
-              "id": "0317856c-d188-4521-ae77-2a37e7a08e0f",
-              "created_time": "2022-01-24T06:48:00.000Z",
-              "last_edited_time": "2022-01-24T06:48:00.000Z",
+              "id": "aa25d7b7-0866-48e0-b07f-7b5e13b33c97",
+              "created_time": "2022-01-28T00:20:00.000Z",
+              "last_edited_time": "2022-01-28T00:20:00.000Z",
               "has_children": true,
               "archived": false,
               "type": "synced_block",
@@ -3082,9 +3904,9 @@
         },
         {
           "object": "block",
-          "id": "5f64bae1-68ac-477d-8cd5-b9da2cef13f6",
-          "created_time": "2022-01-24T06:48:00.000Z",
-          "last_edited_time": "2022-01-24T06:48:00.000Z",
+          "id": "7476a7e1-06c6-46ce-b317-2f8ccde71538",
+          "created_time": "2022-01-28T00:20:00.000Z",
+          "last_edited_time": "2022-01-29T04:27:00.000Z",
           "has_children": true,
           "archived": false,
           "type": "column",
@@ -3092,9 +3914,9 @@
           "blocks": [
             {
               "object": "block",
-              "id": "5bfb7387-3567-4c15-8283-0d5ad3fbc80e",
-              "created_time": "2022-01-24T06:48:00.000Z",
-              "last_edited_time": "2022-01-24T06:48:00.000Z",
+              "id": "61e52ea1-9eac-42db-a584-708921c551b2",
+              "created_time": "2022-01-28T00:20:00.000Z",
+              "last_edited_time": "2022-01-28T00:20:00.000Z",
               "has_children": true,
               "archived": false,
               "type": "synced_block",
@@ -3873,14 +4695,64 @@
     },
     {
       "object": "block",
-      "id": "fd66e0a3-b7cf-414c-b8cd-e7fa6431b613",
-      "created_time": "2022-01-24T06:48:00.000Z",
-      "last_edited_time": "2022-01-24T06:48:00.000Z",
+      "id": "e1e71b2f-956d-4add-9d67-f4c3e6945324",
+      "created_time": "2022-01-30T06:29:00.000Z",
+      "last_edited_time": "2022-01-30T06:30:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
       "paragraph": {
-        "text": []
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "🧘🏾",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "🧘🏾",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "28583833-e30e-40bd-8a63-79c3dcaaf5fe",
+      "created_time": "2022-01-30T06:29:00.000Z",
+      "last_edited_time": "2022-01-30T06:30:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://www.poetryfoundation.org/poems/47536/one-art",
+              "link": {
+                "url": "https://www.poetryfoundation.org/poems/47536/one-art"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://www.poetryfoundation.org/poems/47536/one-art",
+            "href": "https://www.poetryfoundation.org/poems/47536/one-art"
+          }
+        ]
       }
     }
   ]
