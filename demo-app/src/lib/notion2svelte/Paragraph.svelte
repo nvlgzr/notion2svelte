@@ -38,7 +38,7 @@
   {#if $$slots.default}
     <slot />
   {:else}
-    &nbsp;
+    &nbsp; <!-- Ensures empty blocks get rendered -->
   {/if}
   {#if showControl}
     <div>

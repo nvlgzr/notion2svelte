@@ -2,7 +2,7 @@
   "object": "page",
   "id": "ef851797-7d17-4318-89a3-ae09285cfef8",
   "created_time": "2022-01-26T09:55:00.000Z",
-  "last_edited_time": "2022-01-29T04:04:00.000Z",
+  "last_edited_time": "2022-01-30T23:55:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -158,8 +158,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9abb1341-49d9-4bca-9f10-f02733be8337/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220130%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220130T105411Z&X-Amz-Expires=3600&X-Amz-Signature=40d77c6ea683e3da9f6bdb551d6e4bf5799870ae685423dc83a71a01aae22fb3&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-30T11:54:11.084Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9abb1341-49d9-4bca-9f10-f02733be8337/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T041057Z&X-Amz-Expires=3600&X-Amz-Signature=0b775246d59afad0d55ea41ef05131ed2b99e89688af50a3a390bc1ce8446892&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-31T05:10:57.390Z"
         }
       }
     },
@@ -205,8 +205,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/efbf314d-3aa8-47f6-a704-82a5abca387a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220130%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220130T105411Z&X-Amz-Expires=3600&X-Amz-Signature=eba924265dda41917867ce6dc71ab1d72160735df3e00772fad42eafd2981910&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-30T11:54:11.036Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/efbf314d-3aa8-47f6-a704-82a5abca387a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T041057Z&X-Amz-Expires=3600&X-Amz-Signature=fd9f72c2e245074475bd6663608971734c1e0ba311da4d6da9a188ea7b460819&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-31T05:10:57.389Z"
         }
       }
     },
@@ -1034,156 +1034,6 @@
       "equation": {
         "expression": "\\begin{CD}\nA @>a>> B \\\\\n@VbVV @AAcA \\\\\nC @= D\n\\end{CD}"
       }
-    },
-    {
-      "object": "block",
-      "id": "9992fabe-dede-40f5-a65f-5b57715c362c",
-      "created_time": "2022-01-28T22:48:00.000Z",
-      "last_edited_time": "2022-01-28T22:49:00.000Z",
-      "has_children": true,
-      "archived": false,
-      "type": "column_list",
-      "column_list": {},
-      "blocks": [
-        {
-          "object": "block",
-          "id": "04e579a3-b044-4a9d-8de8-5181308dcf8b",
-          "created_time": "2022-01-28T22:48:00.000Z",
-          "last_edited_time": "2022-01-28T22:49:00.000Z",
-          "has_children": true,
-          "archived": false,
-          "type": "column",
-          "column": {},
-          "blocks": [
-            {
-              "object": "block",
-              "id": "63990c55-ca4b-4fbe-b73d-0d89ea1e0f68",
-              "created_time": "2022-01-28T22:48:00.000Z",
-              "last_edited_time": "2022-01-28T22:48:00.000Z",
-              "has_children": false,
-              "archived": false,
-              "type": "paragraph",
-              "paragraph": {
-                "text": []
-              }
-            }
-          ]
-        },
-        {
-          "object": "block",
-          "id": "d2445953-312f-450f-95b8-41e58740139c",
-          "created_time": "2022-01-28T22:49:00.000Z",
-          "last_edited_time": "2022-01-28T22:49:00.000Z",
-          "has_children": true,
-          "archived": false,
-          "type": "column",
-          "column": {},
-          "blocks": [
-            {
-              "object": "block",
-              "id": "768ee1e2-9b8d-4c4b-b473-1b538d61d30e",
-              "created_time": "2022-01-28T22:49:00.000Z",
-              "last_edited_time": "2022-01-28T22:49:00.000Z",
-              "has_children": false,
-              "archived": false,
-              "type": "paragraph",
-              "paragraph": {
-                "text": []
-              }
-            }
-          ]
-        },
-        {
-          "object": "block",
-          "id": "d293d710-f844-4ebb-9c13-e6f8ce515018",
-          "created_time": "2022-01-28T22:48:00.000Z",
-          "last_edited_time": "2022-01-28T22:49:00.000Z",
-          "has_children": true,
-          "archived": false,
-          "type": "column",
-          "column": {},
-          "blocks": [
-            {
-              "object": "block",
-              "id": "04bc53f5-87c4-4e17-8238-88f45b1ec887",
-              "created_time": "2022-01-28T22:48:00.000Z",
-              "last_edited_time": "2022-01-28T22:49:00.000Z",
-              "has_children": false,
-              "archived": false,
-              "type": "paragraph",
-              "paragraph": {
-                "text": [
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": "🐁↑4🗿🥚",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": false,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "default"
-                    },
-                    "plain_text": "🐁↑4🗿🥚",
-                    "href": null
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "object": "block",
-          "id": "376f423d-271b-4a2c-b1f0-47b2fef6792f",
-          "created_time": "2022-01-28T22:49:00.000Z",
-          "last_edited_time": "2022-01-28T22:49:00.000Z",
-          "has_children": true,
-          "archived": false,
-          "type": "column",
-          "column": {},
-          "blocks": [
-            {
-              "object": "block",
-              "id": "18a42ac7-119d-4f27-9034-4b0ca76c3217",
-              "created_time": "2022-01-28T22:49:00.000Z",
-              "last_edited_time": "2022-01-28T22:49:00.000Z",
-              "has_children": false,
-              "archived": false,
-              "type": "paragraph",
-              "paragraph": {
-                "text": []
-              }
-            }
-          ]
-        },
-        {
-          "object": "block",
-          "id": "260f933c-0726-4124-8eb2-b78d1970f7c8",
-          "created_time": "2022-01-28T22:48:00.000Z",
-          "last_edited_time": "2022-01-28T22:49:00.000Z",
-          "has_children": true,
-          "archived": false,
-          "type": "column",
-          "column": {},
-          "blocks": [
-            {
-              "object": "block",
-              "id": "faf008ef-2d7a-4636-815f-fd3f2e5c4214",
-              "created_time": "2022-01-28T22:48:00.000Z",
-              "last_edited_time": "2022-01-28T22:48:00.000Z",
-              "has_children": false,
-              "archived": false,
-              "type": "paragraph",
-              "paragraph": {
-                "text": []
-              }
-            }
-          ]
-        }
-      ]
     },
     {
       "object": "block",

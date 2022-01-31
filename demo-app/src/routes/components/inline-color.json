@@ -2,7 +2,7 @@
   "object": "page",
   "id": "4117d756-3ce5-47b2-b9ef-b6bf8404bc7b",
   "created_time": "2022-01-27T23:57:00.000Z",
-  "last_edited_time": "2022-01-29T04:13:00.000Z",
+  "last_edited_time": "2022-01-31T03:46:00.000Z",
   "cover": null,
   "icon": null,
   "parent": {
@@ -128,8 +128,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7cb5b814-d3dc-4b26-8a0e-31522e464be9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220130%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220130T105409Z&X-Amz-Expires=3600&X-Amz-Signature=8f30801be0aa3dffc0116738086d744410e5cde727c568af4e8d3c8aaf203ff4&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-30T11:54:09.163Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7cb5b814-d3dc-4b26-8a0e-31522e464be9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T041054Z&X-Amz-Expires=3600&X-Amz-Signature=c13a4f805f3a529580a5e744acfe9bef9d9ed556b96748f0abe435a827faa8e0&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-01-31T05:10:54.708Z"
         }
       }
     },
@@ -357,7 +357,7 @@
       "object": "block",
       "id": "d8d6cf52-9d8e-4926-8097-8de1a88708f6",
       "created_time": "2022-01-29T03:44:00.000Z",
-      "last_edited_time": "2022-01-29T03:58:00.000Z",
+      "last_edited_time": "2022-01-31T03:46:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "code",
@@ -366,7 +366,7 @@
           {
             "type": "text",
             "text": {
-              "content": "As mentioned elsewhere in these docs…I’ve sometimes had to manually reformat examples for the docs. ",
+              "content": "As mentioned elsewhere in these docs…I’ve sometimes had to manually reformat examples for the docs.  The issue I have is with all those dangling ",
               "link": null
             },
             "annotations": {
@@ -377,32 +377,13 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "As mentioned elsewhere in these docs…I’ve sometimes had to manually reformat examples for the docs. ",
+            "plain_text": "As mentioned elsewhere in these docs…I’ve sometimes had to manually reformat examples for the docs.  The issue I have is with all those dangling ",
             "href": null
           },
           {
             "type": "text",
             "text": {
-              "content": "Prettier",
-              "link": {
-                "url": "https://prettier.io/"
-              }
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Prettier",
-            "href": "https://prettier.io/"
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "’s output is, in these cases…",
+              "content": ">",
               "link": null
             },
             "annotations": {
@@ -410,33 +391,16 @@
               "italic": false,
               "strikethrough": false,
               "underline": false,
-              "code": false,
+              "code": true,
               "color": "default"
             },
-            "plain_text": "’s output is, in these cases…",
+            "plain_text": ">",
             "href": null
           },
           {
             "type": "text",
             "text": {
-              "content": "not",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "not",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ". 😳",
+              "content": " that Prettier seems to generate",
               "link": null
             },
             "annotations": {
@@ -447,7 +411,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": ". 😳",
+            "plain_text": " that Prettier seems to generate",
             "href": null
           }
         ],
@@ -696,6 +660,89 @@
               "color": "purple"
             },
             "plain_text": "!",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "311cdf8a-a73e-470d-b528-0b1a5de585c2",
+      "created_time": "2022-01-31T03:37:00.000Z",
+      "last_edited_time": "2022-01-31T03:38:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "🐛 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "🐛 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "The space between these ↑ letters comes from ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "The space between these ↑ letters comes from ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "a known bug",
+              "link": {
+                "url": "https://github.com/nvlgzr/notion2svelte/issues/2"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "a known bug",
+            "href": "https://github.com/nvlgzr/notion2svelte/issues/2"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": ".",
             "href": null
           }
         ]

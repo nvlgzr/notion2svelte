@@ -41,7 +41,7 @@
     last_edited_time: '2022-01-28T20:28:00.000Z'
   }}
 >
-  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+  <InlineColor value="gray">Partial output of</InlineColor><InlineColor value="gray"
     ><em>src/routes/[slug].json</em></InlineColor
   >
 </Paragraph>
@@ -92,7 +92,6 @@
   …
 }`}
   language="json"
-  caption=""
 /><Header level={1}>3. Svelte output</Header>
 <Paragraph
   blockProps={{
@@ -102,7 +101,7 @@
     last_edited_time: '2022-01-28T20:32:00.000Z'
   }}
 >
-  <InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+  <InlineColor value="gray">Partial output of</InlineColor><InlineColor value="gray"
     ><em>src/routes/[slug].svelte</em></InlineColor
   >
 </Paragraph>
@@ -116,8 +115,10 @@
 	<InlineColor value="purple">!</InlineColor>
 </Header>`}
   language="html"
-  caption="As mentioned elsewhere in these docs…I’ve sometimes had to manually reformat examples for the docs.&nbsp;<Link href='https://prettier.io/'>Prettier</Link>’s output is, in these cases…<em>not</em>. 😳"
-/><Header level={1}>4. Example rendering</Header>
+  >As mentioned elsewhere in these docs…I’ve sometimes had to manually reformat examples for the
+  docs. The issue I have is with all those dangling <InlineCode code={'&gt;'} /> that Prettier seems
+  to generate</Code
+><Header level={1}>4. Example rendering</Header>
 <Paragraph
   blockProps={{
     pageId: '4117d7563ce547b2b9efb6bf8404bc7b',
@@ -127,17 +128,31 @@
   }}
 >
   <InlineColor value="gray">Rendered by</InlineColor><Link
+    type="absolute"
     href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/InlineColor.svelte"
     ><InlineColor value="gray">InlineColor.svelte</InlineColor></Link
   >
 </Paragraph>
 <Header level={2}
-  >Express your&nbsp;<InlineColor value="red">P</InlineColor><InlineColor value="orange"
-    >R</InlineColor
+  >Express your <InlineColor value="red">P</InlineColor><InlineColor value="orange">R</InlineColor
   ><InlineColor value="yellow">I</InlineColor><InlineColor value="green">D</InlineColor><InlineColor
     value="blue">E</InlineColor
   ><InlineColor value="purple">!</InlineColor></Header
 >
+<Paragraph
+  blockProps={{
+    pageId: '4117d7563ce547b2b9efb6bf8404bc7b',
+    id: '311cdf8a-a73e-470d-b528-0b1a5de585c2',
+    created_time: '2022-01-31T03:37:00.000Z',
+    last_edited_time: '2022-01-31T03:38:00.000Z'
+  }}
+>
+  🐛 <InlineColor value="gray">The space between these ↑ letters comes from</InlineColor><Link
+    type="absolute"
+    href="https://github.com/nvlgzr/notion2svelte/issues/2"
+    ><InlineColor value="gray">a known bug</InlineColor></Link
+  ><InlineColor value="gray">.</InlineColor>
+</Paragraph>
 <Paragraph
   blockProps={{
     pageId: '4117d7563ce547b2b9efb6bf8404bc7b',
@@ -150,7 +165,7 @@
 <Header level={1}>Where to learn more</Header>
 <Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
 <BulletedListItem
-  ><Link href="https://github.com/nvlgzr/notion2svelte"
+  ><Link type="absolute" href="https://github.com/nvlgzr/notion2svelte"
     >https://github.com/nvlgzr/notion2svelte</Link
   ></BulletedListItem
 >
@@ -164,6 +179,7 @@
   }}
 >
   Open your Terminal.app* and follow along to 👉🏿 “<Link
+    type="absolute"
     href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
   >”!
 </Paragraph>
@@ -178,11 +194,12 @@
   >
     <InlineColor value="gray"
       >*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-      works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-    ><Link href="https://fishshell.com/"><InlineColor value="gray">fish shell</InlineColor></Link
-    ><InlineColor value="gray"
-      >&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
-      after all, so it should be pretty portable!</InlineColor
+      works for you if you’re not running macOS! That said, I suspect my reliance on
+    </InlineColor><Link type="absolute" href="https://fishshell.com/"
+      ><InlineColor value="gray">fish shell</InlineColor></Link
+    ><InlineColor value="gray">
+      is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
+      all, so it should be pretty portable!</InlineColor
     >
   </Paragraph>
   <Paragraph
@@ -208,71 +225,102 @@
   />
 </IndentGroup>
 <Divider />
-<Header level={2}>Browse the docs ⚘&nbsp;<a href="/about-notion2svelte">🏠</a>&nbsp;</Header>
+<Header level={2}
+  >Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+</Header>
 <ColumnList cols={2}
   ><Column
     ><Header level={3}>High-level Discussion</Header>
-    <BulletedListItem><Link href="/components">Components</Link></BulletedListItem>
+    <BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
     <BulletedListItem
-      ><Link href="/rules-for-writing-good-slugs">Writing Good Slugs</Link></BulletedListItem
+      ><Link type="mention" href="/rules-for-writing-good-slugs">Writing Good Slugs</Link
+      ></BulletedListItem
     >
-    <BulletedListItem><Link href="/block-props">blockProps</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/nested-blocks">Nested Blocks</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/synced-blocks">Synced Blocks</Link></BulletedListItem>
+    <BulletedListItem><Link type="mention" href="/block-props">blockProps</Link></BulletedListItem>
+    <BulletedListItem
+      ><Link type="mention" href="/components/nested-blocks">Nested Blocks</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/components/synced-blocks">Synced Blocks</Link></BulletedListItem
+    >
     <Header level={3}>Turn-intoable Block Components</Header>
     <BulletedListItem
-      ><Link href="/components/paragraph">Paragraph (aka “Text”)</Link></BulletedListItem
+      ><Link type="mention" href="/components/paragraph">Paragraph (aka “Text”)</Link
+      ></BulletedListItem
     >
     <BulletedListItem
-      ><Link href="/components/header">Header (3 types in 1!)</Link></BulletedListItem
-    >
-    <BulletedListItem><Link href="/components/child-page">ChildPage</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/todo-item">TodoItem</Link></BulletedListItem>
-    <BulletedListItem
-      ><Link href="/components/bulleted-list-item">BulletedListItem</Link></BulletedListItem
+      ><Link type="mention" href="/components/header">Header (3 types in 1!)</Link
+      ></BulletedListItem
     >
     <BulletedListItem
-      ><Link href="/components/numbered-list-item">NumberedListItem</Link></BulletedListItem
+      ><Link type="mention" href="/components/child-page">ChildPage</Link></BulletedListItem
     >
-    <BulletedListItem><Link href="/components/toggle">Toggle</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/code">Code</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/quote">Quote</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/callout">Callout</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/equation">Equation</Link></BulletedListItem>
     <BulletedListItem
-      >Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
+      ><Link type="mention" href="/components/todo-item">TodoItem</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/components/bulleted-list-item">BulletedListItem</Link
+      ></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/components/numbered-list-item">NumberedListItem</Link
+      ></BulletedListItem
+    >
+    <BulletedListItem><Link type="mention" href="/components/toggle">Toggle</Link></BulletedListItem
+    >
+    <BulletedListItem><Link type="mention" href="/components/code">Code</Link></BulletedListItem>
+    <BulletedListItem><Link type="mention" href="/components/quote">Quote</Link></BulletedListItem>
+    <BulletedListItem
+      ><Link type="mention" href="/components/callout">Callout</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/components/equation">Equation</Link></BulletedListItem
+    >
+    <BulletedListItem
+      >Toggle Headings<InlineColor value="gray">
+        (not yet implemented)</InlineColor
       ></BulletedListItem
     >
   </Column><Column
     ><Header level={3}>Layout-only Components</Header>
-    <BulletedListItem><Link href="/components/indent-group">IndentGroup</Link></BulletedListItem>
     <BulletedListItem
-      ><Link href="/components/columns">Column & ColumnList</Link>&nbsp;</BulletedListItem
+      ><Link type="mention" href="/components/indent-group">IndentGroup</Link></BulletedListItem
     >
+    <BulletedListItem
+      ><Link type="mention" href="/components/columns">Column & ColumnList</Link>
+    </BulletedListItem>
     <Header level={3}>Page-level Components</Header>
-    <BulletedListItem><Link href="/components/title">Title (aka Name)</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/cover">Cover (Image & Icon)</Link></BulletedListItem>
+    <BulletedListItem
+      ><Link type="mention" href="/components/title">Title (aka Name)</Link></BulletedListItem
+    >
+    <BulletedListItem
+      ><Link type="mention" href="/components/cover">Cover (Image & Icon)</Link></BulletedListItem
+    >
     <Header level={3}>Annotation Components</Header>
     <BulletedListItem
-      ><strong>bold</strong>&nbsp;→&nbsp;<InlineCode
-        code={'&lt;strong&gt;'}
-      />&nbsp;</BulletedListItem
+      ><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+    </BulletedListItem>
+    <BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
+    <BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
+    <BulletedListItem
+      ><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
     >
     <BulletedListItem
-      ><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+      ><Link type="mention" href="/components/inline-code">InlineCode</Link></BulletedListItem
     >
-    <BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
     <BulletedListItem
-      ><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
+      ><Link type="mention" href="/components/inline-color">InlineColor</Link></BulletedListItem
     >
-    <BulletedListItem><Link href="/components/inline-code">InlineCode</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/inline-color">InlineColor</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/link">Link</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/equation">Equation</Link></BulletedListItem>
+    <BulletedListItem><Link type="mention" href="/components/link">Link</Link></BulletedListItem>
+    <BulletedListItem
+      ><Link type="mention" href="/components/equation">Equation</Link></BulletedListItem
+    >
     <Header level={3}>Other Components</Header>
-    <BulletedListItem><Link href="/components/divider">Divider</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/embed">Embed</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/image">Image</Link></BulletedListItem>
-    <BulletedListItem><Link href="/components/error">Error</Link></BulletedListItem>
+    <BulletedListItem
+      ><Link type="mention" href="/components/divider">Divider</Link></BulletedListItem
+    >
+    <BulletedListItem><Link type="mention" href="/components/embed">Embed</Link></BulletedListItem>
+    <BulletedListItem><Link type="mention" href="/components/image">Image</Link></BulletedListItem>
+    <BulletedListItem><Link type="mention" href="/components/error">Error</Link></BulletedListItem>
   </Column></ColumnList
 >

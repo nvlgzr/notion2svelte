@@ -1,7 +1,6 @@
 <script>
   export let code = '';
   export let language = '';
-  export let caption = '';
 </script>
 
 <pre>
@@ -9,8 +8,8 @@
   <span>{language}</span>
 </pre>
 <div>
-  {#if caption}
-    <div>{@html caption}</div>
+  {#if $$slots.default}
+    <div><slot /></div>
   {/if}
 </div>
 
