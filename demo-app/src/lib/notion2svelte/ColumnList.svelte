@@ -15,7 +15,6 @@
     /* border: 1px solid black; */
     display: grid;
     gap: 1rem;
-    /* DUPLICATE ↓ See Magic.svelte */
     width: calc(min(90vw, 42rem));
     padding: 1rem 0;
   }
