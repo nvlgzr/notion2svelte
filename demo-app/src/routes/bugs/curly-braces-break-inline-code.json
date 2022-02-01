@@ -2,7 +2,7 @@
   "object": "page",
   "id": "219dbe0c-d076-4583-abb4-34aee4b5ae88",
   "created_time": "2022-01-19T23:13:00.000Z",
-  "last_edited_time": "2022-01-19T23:21:00.000Z",
+  "last_edited_time": "2022-02-01T00:47:00.000Z",
   "cover": null,
   "icon": {
     "type": "emoji",
@@ -14,14 +14,40 @@
   },
   "archived": false,
   "properties": {
+    "Group": {
+      "id": "D%5E%3CB",
+      "type": "select",
+      "select": {
+        "id": "x`mr",
+        "name": "bugs",
+        "color": "default"
+      }
+    },
     "Slug": {
       "id": "M%40TW",
+      "type": "formula",
+      "formula": {
+        "type": "string",
+        "string": "/bugs/curly-braces-break-inline-code"
+      }
+    },
+    "Status": {
+      "id": "ava%3E",
+      "type": "select",
+      "select": {
+        "id": "f4c2d807-fdf4-476e-b894-ec247f211f2b",
+        "name": "Publishable",
+        "color": "purple"
+      }
+    },
+    "Page": {
+      "id": "vbwr",
       "type": "rich_text",
       "rich_text": [
         {
           "type": "text",
           "text": {
-            "content": "bugs/curly-braces-break-inline-code",
+            "content": "curly-braces-break-inline-code",
             "link": null
           },
           "annotations": {
@@ -32,19 +58,10 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "bugs/curly-braces-break-inline-code",
+          "plain_text": "curly-braces-break-inline-code",
           "href": null
         }
       ]
-    },
-    "Status": {
-      "id": "ava%3E",
-      "type": "select",
-      "select": {
-        "id": "f4c2d807-fdf4-476e-b894-ec247f211f2b",
-        "name": "Publishable",
-        "color": "purple"
-      }
     },
     "Name": {
       "id": "title",
@@ -270,8 +287,8 @@
             "caption": [],
             "type": "file",
             "file": {
-              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ca5de4be-d277-45d7-91d9-ce6fcef62258/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220119T232410Z&X-Amz-Expires=3600&X-Amz-Signature=451d38b71884c974f4e6b6ebff7b8ca638b529dd1bea0c36e552f6b344d071a9&X-Amz-SignedHeaders=host&x-id=GetObject",
-              "expiry_time": "2022-01-20T00:24:10.750Z"
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ca5de4be-d277-45d7-91d9-ce6fcef62258/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220201%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220201T004752Z&X-Amz-Expires=3600&X-Amz-Signature=d9fd1cb0b77d1018e68165e1c798bfd710a70b4b2a7e16b8a0ef52a9401c5f13&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2022-02-01T01:47:52.971Z"
             }
           }
         }
@@ -371,12 +388,30 @@
       "object": "block",
       "id": "a11d0c31-93fd-4ff3-bc57-bf08498efcaf",
       "created_time": "2022-01-19T23:13:00.000Z",
-      "last_edited_time": "2022-01-19T23:13:00.000Z",
+      "last_edited_time": "2022-01-19T23:25:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
       "paragraph": {
-        "text": []
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "11d49a082fde0dc4714851d233f39082e7b0b78f",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "11d49a082fde0dc4714851d233f39082e7b0b78f",
+            "href": null
+          }
+        ]
       }
     },
     {
@@ -451,8 +486,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3ceb5d6a-5a7e-40c9-8a40-1c15ed6a18d8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220119T232408Z&X-Amz-Expires=3600&X-Amz-Signature=ad5f7bf1fe1369fe3ee161333b49b74057d69baa53308aeee602fd4fa1c4bc4c&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-20T00:24:08.238Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3ceb5d6a-5a7e-40c9-8a40-1c15ed6a18d8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220201%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220201T004752Z&X-Amz-Expires=3600&X-Amz-Signature=44a0e687eaca1fb03264fccec78a17ea37b5c184567f3d34645138be6ecc6d26&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-02-01T01:47:52.539Z"
         }
       }
     },
@@ -516,8 +551,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/11014493-409c-490a-ab97-060141f48255/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220119T232408Z&X-Amz-Expires=3600&X-Amz-Signature=f9f39471cf1b5f783f1e4c8cbfcdaa9b3e8e1ee1ef8039f526ae3f789ece7ba4&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-20T00:24:08.248Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/11014493-409c-490a-ab97-060141f48255/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220201%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220201T004752Z&X-Amz-Expires=3600&X-Amz-Signature=8ea45843fd48ca54261ede4f31ce7d194d2e55ef30ac7f9f3428821621463bdf&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-02-01T01:47:52.560Z"
         }
       }
     },
