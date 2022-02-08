@@ -1,10 +1,10 @@
 <script>
-  export let url = "Missing URL for image";
+  export let url = 'Missing URL for image';
 </script>
 
 <figure>
-	<img width="100%" height="fit-content" src={url} />
-	<figcaption><slot /></figcaption>
+  <img width="100%" height="fit-content" src={url} />
+  <figcaption><slot /></figcaption>
 </figure>
 
 <style>

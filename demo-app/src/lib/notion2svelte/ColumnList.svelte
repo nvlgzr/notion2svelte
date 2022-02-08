@@ -12,7 +12,6 @@
 
 <style>
   div {
-    /* border: 1px solid black; */
     display: grid;
     gap: 1rem;
     width: calc(min(90vw, 42rem));

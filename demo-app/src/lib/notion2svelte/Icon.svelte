@@ -1,5 +1,5 @@
 <script>
-  export let iconEmojiOrURL = "🧧";
+  export let iconEmojiOrURL = '🧧';
 
   $: assumeURL = iconEmojiOrURL.length > 3;
 </script>

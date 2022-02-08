@@ -13,7 +13,7 @@
   }
 
   div::before {
-    content: "◦";
+    content: '◦';
     margin-right: 0.5rem;
   }
 

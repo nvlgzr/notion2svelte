@@ -1,42 +1,42 @@
 <script>
-	import katex from 'katex';
+  import katex from 'katex';
 
-	export let katexString = '';
-	export let block = false;
+  export let katexString = '';
+  export let block = false;
 
-	$: html = render ? katex.renderToString(katexString, { displayMode: block }) : katexString;
+  $: html = render ? katex.renderToString(katexString, { displayMode: block }) : katexString;
 
-	let render = true;
+  let render = true;
 
-	const click = () => (render = !render);
+  const click = () => (render = !render);
 </script>
 
 <svelte:head>
-	<link
-		rel="stylesheet"
-		href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css"
-		integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs"
-		crossorigin="anonymous"
-	/>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css"
+    integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs"
+    crossorigin="anonymous"
+  />
 </svelte:head>
 
 {#if block}
-	<div on:click={click}>
-		{@html html}
-	</div>
+  <div on:click={click}>
+    {@html html}
+  </div>
 {:else}
-	<span on:click={click}>
-		{@html html}
-	</span>
+  <span on:click={click}>
+    {@html html}
+  </span>
 {/if}
 
 <style>
-	div {
-		padding: 2rem;
-	}
-	span {
-		line-height: normal;
-		border-radius: 3px;
-		font-size: 85%;
-	}
+  div {
+    padding: 2rem;
+  }
+  span {
+    line-height: normal;
+    border-radius: 3px;
+    font-size: 85%;
+  }
 </style>

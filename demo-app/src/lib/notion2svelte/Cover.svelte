@@ -1,25 +1,23 @@
 <script>
-  import HeroImage from "./HeroImage.svelte";
-  import Icon from "./Icon.svelte";
+  import HeroImage from './HeroImage.svelte';
+  import Icon from './Icon.svelte';
 
-  export let coverURL = "";
-  export let iconEmojiOrURL = "";
-  export let height = "18rem";
-  export let k = "0rem";
+  export let coverURL = '';
+  export let iconEmojiOrURL = '';
+  export let height = '18rem';
+  export let k = '0rem';
 
   // Get rid of `null`s from the Notion API
   $: iconEmojiOrURL =
-    iconEmojiOrURL === "null" || iconEmojiOrURL === "undefined"
-      ? ""
-      : iconEmojiOrURL;
+    iconEmojiOrURL === 'null' || iconEmojiOrURL === 'undefined' ? '' : iconEmojiOrURL;
 
   $: if (coverURL.length < 8) {
-    height = "0rem";
-    k = "0rem";
+    height = '0rem';
+    k = '0rem';
   } else if (!iconEmojiOrURL) {
-    k = "0rem";
+    k = '0rem';
   } else {
-    k = "6rem";
+    k = '6rem';
   }
 </script>
 

@@ -1,8 +1,8 @@
 <script>
-  import Portal from "./Portal.svelte";
+  import Portal from './Portal.svelte';
 
-  export let src = "";
-  export let height = "100%";
+  export let src = '';
+  export let height = '100%';
 </script>
 
 <Portal target="#cover">
@@ -38,8 +38,7 @@
 
   @keyframes kenburns {
     0% {
-      transform: scale3d(7, 2, 2) translate3d(50px, 50px, 50px)
-        rotate(-0.02turn);
+      transform: scale3d(7, 2, 2) translate3d(50px, 50px, 50px) rotate(-0.02turn);
       opacity: 0;
     }
     100% {

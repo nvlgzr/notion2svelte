@@ -1,5 +1,5 @@
 <script>
-  export let emoji = "";
+  export let emoji = '';
 </script>
 
 <aside>

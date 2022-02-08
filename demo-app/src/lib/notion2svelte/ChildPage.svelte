@@ -1,7 +1,7 @@
 <script>
-  import { fly } from "svelte/transition";
+  import { fly } from 'svelte/transition';
 
-  export let title = "Untitled";
+  export let title = 'Untitled';
 </script>
 
 <div use:fly={{ duration: 100 }}>
@@ -32,7 +32,7 @@
     max-width: 70vw;
     border: 0.25rem solid fuchsia;
     border-radius: 1rem 0;
-    font: 1.25rem/1.5rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 1.25rem/1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;
     box-shadow: 0.25rem 0.25rem 0.5rem hsla(0, 0%, 0%, 0.25);
   }
 </style>
