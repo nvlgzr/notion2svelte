@@ -1,10 +1,19 @@
 <script>
   export let code = '';
   export let language = '';
+
+  const unEscapeHtml = (str) => {
+    return str
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#039;/g, "'");
+  };
 </script>
 
 <pre>
-  <code>{code}</code>
+  <code>{unEscapeHtml(code)}</code>
   <span>{language}</span>
 </pre>
 <div>
@@ -17,6 +26,7 @@
   code,
   span {
     font-family: 'SFMono-Regular', Menlo, Consolas, 'PT Mono', 'Liberation Mono', Courier, monospace;
+    tab-size: 3;
   }
 
   pre {
