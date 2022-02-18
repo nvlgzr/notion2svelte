@@ -28,7 +28,7 @@
       </script>
       
 
-  <Cover coverURL={"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2648cd63-fb9b-47c4-9ec2-c2ea152d0c15/IMG_1865.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T200638Z&X-Amz-Expires=3600&X-Amz-Signature=fd2579803948f282824c1f70a8dc9e5fac815ecd5d71e8c826ec6304d370f2c9&X-Amz-SignedHeaders=host&x-id=GetObject"} iconEmojiOrURL={"🪲"} />
+  <Cover coverURL={"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2648cd63-fb9b-47c4-9ec2-c2ea152d0c15/IMG_1865.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220218T035226Z&X-Amz-Expires=3600&X-Amz-Signature=3024ba00aa32db6198f56873f2cd21d95d2baef257df0f5fa6fea01efe21a9ce&X-Amz-SignedHeaders=host&x-id=GetObject"} iconEmojiOrURL={"🪲"} />
   <Title>Cover (Image & Icon)</Title>
 
 
@@ -48,7 +48,7 @@ Notion uses Amazon for image hosting, and a side effect of that choices is that 
 <NumberedListItem number=c> Use relative links to point the <InlineCode code={"src"} /> attribute at the (full res! 🙀) images</NumberedListItem>
 
 </IndentGroup>
-<Paragraph blockProps={{"pageId":"df34058b281e4da6badc0a15a891d18e","id":"de9d5124-60cb-4388-99a1-c608e0a079fe","created_time":"2022-01-28T02:46:00.000Z","last_edited_time":"2022-01-28T02:46:00.000Z"}}>
+<Paragraph blockProps={{"pageId":"df34058b281e4da6badc0a15a891d18e","id":"de9d5124-60cb-4388-99a1-c608e0a079fe","created_time":"2022-01-28T02:46:00.000Z","last_edited_time":"2022-01-31T20:37:00.000Z"}}>
 Yes, I know this isn’t awesome. No, I haven’t done any research yet to figure out current best-practices, or, perhaps, some sort of extensible API.
 </Paragraph>
 <Paragraph blockProps={{"pageId":"df34058b281e4da6badc0a15a891d18e","id":"ea73c6b2-261c-4d8a-a7ba-7cacb135d140","created_time":"2022-01-28T03:02:00.000Z","last_edited_time":"2022-01-28T23:02:00.000Z"}}>
@@ -69,7 +69,7 @@ If you’re cool with that, there’s nothing much for you to do to display Cove
     }
   },
   …
-}`} language="javascript"></Code><TodoItem checked={false}>2022-02-01 →  TODO: download cover + icon images, rather than relying on expiring Amazon links</TodoItem>
+}`} language="javascript"></Code><TodoItem checked={false}>2022-02-14T14:00:00.000-08:00 →  TODO: download cover + icon images, rather than relying on expiring Amazon links</TodoItem>
 <Header level={1}><strong>Svelte output</strong></Header>
 <Code code={`<Cover
   coverURL=\{'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2648cd63-fb9b-47c4-9ec2-c2ea152d0c15/IMG_1865.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220128T110028Z&X-Amz-Expires=3600&X-Amz-Signature=438ced7db084ce6bd25d2a08f498b78c8e2b0b6fad1c231ba2ba148c42bc7a3d&X-Amz-SignedHeaders=host&x-id=GetObject'}
@@ -113,11 +113,13 @@ Open your Terminal.app* and follow along to 👉🏿 “<Link type="absolute" hr
 <Divider />
 <Header level={2}>Browse the docs ⚘ <Link type="alias" href='/about-notion2svelte'>🏠</Link> </Header>
 <ColumnList cols={2}><Column><Header level={3}>High-level Discussion</Header>
+<BulletedListItem><Link type="mention" href='/high-level-discussion/flow-diagram'>Where notion2svelte Fits</Link> </BulletedListItem>
 <BulletedListItem><Link type="mention" href='/components'>Components</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/high-level-discussion/rules-for-writing-good-slugs'>Writing Good Slugs</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/high-level-discussion/block-props'>blockProps</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/high-level-discussion/nested-blocks'>Nested Blocks</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/high-level-discussion/synced-blocks'>Synced Blocks</Link></BulletedListItem>
+<BulletedListItem><Link type="mention" href='/high-level-discussion/dot-env'>Configuring your .env</Link> </BulletedListItem>
 <Header level={3}>Turn-intoable Block Components</Header>
 <BulletedListItem><Link type="mention" href='/standard-components/paragraph'>Paragraph (aka “Text”)</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/standard-components/header'>Header (3 types in 1!)</Link></BulletedListItem>

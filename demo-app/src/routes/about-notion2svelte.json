@@ -2,7 +2,7 @@
   "object": "page",
   "id": "fdc65179-a8bd-451c-af67-59019204cfde",
   "created_time": "2022-01-04T05:41:00.000Z",
-  "last_edited_time": "2022-01-31T06:15:00.000Z",
+  "last_edited_time": "2022-02-18T07:41:00.000Z",
   "cover": {
     "type": "external",
     "external": {
@@ -12,8 +12,8 @@
   "icon": {
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=1bf5cd7e3e3eafb8ca6564bf36b23f891b41a48f3cf9c36729cc40636d618707&X-Amz-SignedHeaders=host&x-id=GetObject",
-      "expiry_time": "2022-01-31T07:25:10.023Z"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220218T075206Z&X-Amz-Expires=3600&X-Amz-Signature=27020ffd689854854e3d73931ec058dfcbf4e324baf026c77e6001cd6a7ea37b&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "expiry_time": "2022-02-18T08:52:06.453Z"
     }
   },
   "parent": {
@@ -478,8 +478,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062511Z&X-Amz-Expires=3600&X-Amz-Signature=9f2f8ede390610d0321bf8312786f62f907c099fa520dcb3cc8901a82e167c33&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-31T07:25:11.179Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220218T075207Z&X-Amz-Expires=3600&X-Amz-Signature=65e754ed9f517f5a6b406248a86438356084a9a1eea6feccd2a3f416aeb203cc&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-02-18T08:52:07.040Z"
                 }
               }
             },
@@ -644,8 +644,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=6983c816b83373f57f2e2d2727d404864b8b00b12336751df0c7a581d9324699&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-31T07:25:10.648Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220218T075207Z&X-Amz-Expires=3600&X-Amz-Signature=bc67e32e75d53d5b483fffcf39fc0a6e6d972fcec8bd0214c97b642603300eff&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-02-18T08:52:07.161Z"
                 }
               }
             },
@@ -1390,7 +1390,7 @@
       "object": "block",
       "id": "47cae4e7-ec66-4e18-8597-d5a5acdecac6",
       "created_time": "2022-01-04T23:37:00.000Z",
-      "last_edited_time": "2022-01-09T05:34:00.000Z",
+      "last_edited_time": "2022-02-01T03:29:00.000Z",
       "has_children": true,
       "archived": false,
       "type": "bulleted_list_item",
@@ -1399,7 +1399,7 @@
           {
             "type": "text",
             "text": {
-              "content": "Write-your-own components",
+              "content": "Write-your-own ",
               "link": null
             },
             "annotations": {
@@ -1410,8 +1410,27 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Write-your-own components",
+            "plain_text": "Write-your-own ",
             "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "components",
+              "link": {
+                "url": "/98564b233ea84b78ad3147e3a0971ef5"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "components",
+            "href": "/98564b233ea84b78ad3147e3a0971ef5"
           }
         ]
       },
@@ -1742,7 +1761,7 @@
       "object": "block",
       "id": "e8632bf0-7ed4-407b-a1c1-402b916dc158",
       "created_time": "2022-01-27T06:27:00.000Z",
-      "last_edited_time": "2022-01-27T06:30:00.000Z",
+      "last_edited_time": "2022-02-18T07:03:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1751,7 +1770,7 @@
           {
             "type": "text",
             "text": {
-              "content": "It’s a bit of an adventure. Kinda like driving stick for the first time, in that it’s fun, once you get the hang of it.",
+              "content": "It’s a bit of an adventure. Kinda like driving stick for the first time: it’s fun!…but take some getting used to.",
               "link": null
             },
             "annotations": {
@@ -1762,7 +1781,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "It’s a bit of an adventure. Kinda like driving stick for the first time, in that it’s fun, once you get the hang of it.",
+            "plain_text": "It’s a bit of an adventure. Kinda like driving stick for the first time: it’s fun!…but take some getting used to.",
             "href": null
           }
         ]
@@ -1926,7 +1945,7 @@
       "object": "block",
       "id": "74c878b3-7a75-4063-8bfa-7c5fcc939256",
       "created_time": "2022-01-04T23:43:00.000Z",
-      "last_edited_time": "2022-01-11T05:18:00.000Z",
+      "last_edited_time": "2022-02-18T07:03:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -1935,7 +1954,7 @@
           {
             "type": "text",
             "text": {
-              "content": "Everything you see on this page was…",
+              "content": "Everything you see on this site was…",
               "link": null
             },
             "annotations": {
@@ -1946,7 +1965,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Everything you see on this page was…",
+            "plain_text": "Everything you see on this site was…",
             "href": null
           }
         ]
@@ -1956,7 +1975,7 @@
       "object": "block",
       "id": "ca7e990e-b63a-4081-b283-952df0dae70b",
       "created_time": "2022-01-09T05:39:00.000Z",
-      "last_edited_time": "2022-01-11T05:18:00.000Z",
+      "last_edited_time": "2022-02-01T03:36:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "numbered_list_item",
@@ -1986,7 +2005,7 @@
       "object": "block",
       "id": "3f3cd63e-8095-47f1-9279-d415597cfb31",
       "created_time": "2022-01-09T05:39:00.000Z",
-      "last_edited_time": "2022-01-11T05:18:00.000Z",
+      "last_edited_time": "2022-02-01T03:36:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "numbered_list_item",
@@ -1995,7 +2014,7 @@
           {
             "type": "text",
             "text": {
-              "content": "…exported as .svelte files, targeted to ",
+              "content": "…exported as a ",
               "link": null
             },
             "annotations": {
@@ -2006,30 +2025,30 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "…exported as .svelte files, targeted to ",
+            "plain_text": "…exported as a ",
             "href": null
           },
           {
             "type": "text",
             "text": {
-              "content": "src/routes/<Slug>.svelte",
+              "content": ".svelte",
               "link": null
             },
             "annotations": {
               "bold": false,
-              "italic": false,
+              "italic": true,
               "strikethrough": false,
               "underline": false,
-              "code": true,
+              "code": false,
               "color": "default"
             },
-            "plain_text": "src/routes/<Slug>.svelte",
+            "plain_text": ".svelte",
             "href": null
           },
           {
             "type": "text",
             "text": {
-              "content": ", using ",
+              "content": " file by running ",
               "link": null
             },
             "annotations": {
@@ -2040,7 +2059,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": ", using ",
+            "plain_text": " file by running ",
             "href": null
           },
           {
@@ -2067,7 +2086,7 @@
       "object": "block",
       "id": "4248e3a3-c088-49cb-9400-b43bfe1ed3d6",
       "created_time": "2022-01-09T05:40:00.000Z",
-      "last_edited_time": "2022-01-11T05:18:00.000Z",
+      "last_edited_time": "2022-02-01T05:15:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "numbered_list_item",
@@ -2076,7 +2095,7 @@
           {
             "type": "text",
             "text": {
-              "content": "…Published normally using Svelte Kit",
+              "content": "…published normally using ",
               "link": null
             },
             "annotations": {
@@ -2087,7 +2106,24 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "…Published normally using Svelte Kit",
+            "plain_text": "…published normally using ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Svelte Kit",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Svelte Kit",
             "href": null
           }
         ]
@@ -2109,7 +2145,7 @@
       "object": "block",
       "id": "dfbc55c9-68a1-4ea3-ac5a-904e086dfe26",
       "created_time": "2022-01-04T23:43:00.000Z",
-      "last_edited_time": "2022-01-11T05:21:00.000Z",
+      "last_edited_time": "2022-02-01T05:20:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "image",
@@ -2118,7 +2154,7 @@
           {
             "type": "text",
             "text": {
-              "content": "An early run, back when the base project was the Svelte Kit Demo App",
+              "content": "The screenshot on the right is from early-ish in the project, when I was using the Svelte Kit demo app as my test site; hence the light blue background & (if you zoom way in) familiar top nav",
               "link": null
             },
             "annotations": {
@@ -2129,22 +2165,22 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "An early run, back when the base project was the Svelte Kit Demo App",
+            "plain_text": "The screenshot on the right is from early-ish in the project, when I was using the Svelte Kit demo app as my test site; hence the light blue background & (if you zoom way in) familiar top nav",
             "href": null
           }
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=c3c721d3d0162f7905e350858ef635344b749fe3bc3f540d27d3f22ea97736ba&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-31T07:25:10.232Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220218T075206Z&X-Amz-Expires=3600&X-Amz-Signature=9301ce0df8694e99fb34d9afc6966bb1037ab3020ebd9ff789cca3ceea371218&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-02-18T08:52:06.674Z"
         }
       }
     },
     {
       "object": "block",
-      "id": "373fc2b7-6d70-4c1b-98bd-3f9e21005607",
+      "id": "87844166-99b9-417f-9479-2076b0f1576e",
       "created_time": "2022-01-09T05:40:00.000Z",
-      "last_edited_time": "2022-01-09T05:40:00.000Z",
+      "last_edited_time": "2022-02-01T03:40:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -2156,7 +2192,7 @@
       "object": "block",
       "id": "6f8cf24b-d59b-470c-930f-9e9f24e201ca",
       "created_time": "2022-01-04T23:43:00.000Z",
-      "last_edited_time": "2022-01-11T07:07:00.000Z",
+      "last_edited_time": "2022-02-01T03:47:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -2165,7 +2201,7 @@
           {
             "type": "text",
             "text": {
-              "content": "The output .svelte files make use of user-defined components to do the actual rendering. Let’s use a Notion “callout” as a simple example.",
+              "content": "The ",
               "link": null
             },
             "annotations": {
@@ -2176,7 +2212,177 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "The output .svelte files make use of user-defined components to do the actual rendering. Let’s use a Notion “callout” as a simple example.",
+            "plain_text": "The ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " files output by ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " files output by ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " are incomplete in that they rely on a pre-defined set of ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " are incomplete in that they rely on a pre-defined set of ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " components — stored in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " components — stored in ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "src/lib/notion2svelte ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "src/lib/notion2svelte ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "— to do the actual rendering. That’s where ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "— to do the actual rendering. That’s where ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "you",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "you",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " come in!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " come in!",
             "href": null
           }
         ]
@@ -2184,14 +2390,160 @@
     },
     {
       "object": "block",
-      "id": "fb0f84ae-a551-4ace-a699-0aef7dfa7024",
-      "created_time": "2022-01-11T07:07:00.000Z",
-      "last_edited_time": "2022-01-11T07:07:00.000Z",
+      "id": "f59e36b5-bd5a-4284-9abc-648a1b432b14",
+      "created_time": "2022-02-01T03:47:00.000Z",
+      "last_edited_time": "2022-02-01T05:22:00.000Z",
+      "has_children": true,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "As the author of these components, you get to make them look & behave however you want. As a for-instance: you can hover over this — or any other — paragraph to access metadata about its source block in Notion.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "As the author of these components, you get to make them look & behave however you want. As a for-instance: you can hover over this — or any other — paragraph to access metadata about its source block in Notion.",
+            "href": null
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "99153858-2431-48d4-b1ea-5368b0188c86",
+          "created_time": "2022-02-01T05:22:00.000Z",
+          "last_edited_time": "2022-02-01T05:22:00.000Z",
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "See ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "See ",
+                "href": null
+              },
+              {
+                "type": "mention",
+                "mention": {
+                  "type": "page",
+                  "page": {
+                    "id": "38ed521b-f46e-49be-8d2a-f67a53a37c6e"
+                  }
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": true,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "blockProps",
+                "href": "https://www.notion.so/38ed521bf46e49be8d2af67a53a37c6e"
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ".",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": ".",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "15eafa98-6906-4426-9562-039574eebc4d",
+      "created_time": "2022-02-01T03:51:00.000Z",
+      "last_edited_time": "2022-02-01T05:24:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Example Time! 🧐",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Example Time! 🧐",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "c76cdd2e-c9fc-4bfe-92c4-04a3e65d12b1",
+      "created_time": "2022-02-01T05:24:00.000Z",
+      "last_edited_time": "2022-02-01T05:25:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
       "paragraph": {
-        "text": []
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How do we get from this…",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How do we get from this…",
+            "href": null
+          }
+        ]
       }
     },
     {
@@ -2224,8 +2576,8 @@
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0223fdc0-6313-4026-8820-e0935327a2db/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=b8251c150edc4d6ab294d1e671ab5c09213cd9b6972ed5862cfc143f7d02f45b&X-Amz-SignedHeaders=host&x-id=GetObject",
-          "expiry_time": "2022-01-31T07:25:10.244Z"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0223fdc0-6313-4026-8820-e0935327a2db/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220218T075206Z&X-Amz-Expires=3600&X-Amz-Signature=29e27b9012a8fcd1d1cf9127bc72a4d049df8397930008badc3bdba61c481003&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2022-02-18T08:52:06.678Z"
         }
       }
     },
@@ -2233,7 +2585,7 @@
       "object": "block",
       "id": "ed6d421e-f74b-4dfe-8e1d-8af801e9e6ed",
       "created_time": "2022-01-11T07:12:00.000Z",
-      "last_edited_time": "2022-01-11T07:12:00.000Z",
+      "last_edited_time": "2022-02-01T05:26:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -2242,7 +2594,7 @@
           {
             "type": "text",
             "text": {
-              "content": "How do we get from this ↑ to something like this ↓?",
+              "content": "…to something like this ↓?",
               "link": null
             },
             "annotations": {
@@ -2253,7 +2605,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "How do we get from this ↑ to something like this ↓?",
+            "plain_text": "…to something like this ↓?",
             "href": null
           }
         ]
@@ -2866,7 +3218,7 @@
               "object": "block",
               "id": "7d1d1eb9-0fc1-4b24-920a-fa49efe38634",
               "created_time": "2022-01-04T23:51:00.000Z",
-              "last_edited_time": "2022-01-24T01:07:00.000Z",
+              "last_edited_time": "2022-02-01T05:27:00.000Z",
               "has_children": false,
               "archived": false,
               "type": "code",
@@ -2928,7 +3280,7 @@
                   {
                     "type": "text",
                     "text": {
-                      "content": "<Callout emoji=\"🦦\" block-props={{…}}>\n  Hi. I’m a sea otter.\n</Callout>",
+                      "content": "<Callout emoji=\"🦦\" blockProps={{…}}>\n  Hi. I’m a sea otter.\n</Callout>",
                       "link": null
                     },
                     "annotations": {
@@ -2939,7 +3291,7 @@
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "<Callout emoji=\"🦦\" block-props={{…}}>\n  Hi. I’m a sea otter.\n</Callout>",
+                    "plain_text": "<Callout emoji=\"🦦\" blockProps={{…}}>\n  Hi. I’m a sea otter.\n</Callout>",
                     "href": null
                   }
                 ],
@@ -3014,7 +3366,7 @@
       "object": "block",
       "id": "457f4383-0c7d-46fa-bee4-48f40e9ef9e8",
       "created_time": "2022-01-09T05:46:00.000Z",
-      "last_edited_time": "2022-01-11T07:18:00.000Z",
+      "last_edited_time": "2022-02-18T07:41:00.000Z",
       "has_children": false,
       "archived": false,
       "type": "paragraph",
@@ -3023,7 +3375,7 @@
           {
             "type": "text",
             "text": {
-              "content": "All that’s needed to render this particular example are the values for ",
+              "content": "To render this particular example, all we really need from the JSON are the values for ",
               "link": null
             },
             "annotations": {
@@ -3034,7 +3386,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "All that’s needed to render this particular example are the values for ",
+            "plain_text": "To render this particular example, all we really need from the JSON are the values for ",
             "href": null
           },
           {
@@ -3193,74 +3545,6 @@
           {
             "type": "text",
             "text": {
-              "content": ". It also tells ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ". It also tells ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " how to parse the stuff under ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " how to parse the stuff under ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "\"callout\"",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "\"callout\"",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
               "content": ".",
               "link": null
             },
@@ -3382,8 +3666,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=503586a9545923ae19f22912c5a62b544df287d9c38c8aaf836f95dd137300f5&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-31T07:25:10.609Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220218T075207Z&X-Amz-Expires=3600&X-Amz-Signature=5948572a437abc9f200c4a030c3a2bd9d491065e2d7edf5f62b1753cb14e8dde&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-02-18T08:52:07.074Z"
                 }
               }
             }
@@ -3588,8 +3872,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=9681825e0d58d385514716edc2478508223caa5ddfa0abb4ea7f153faccce6c9&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-31T07:25:10.676Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220218T075207Z&X-Amz-Expires=3600&X-Amz-Signature=79d0378f9253bed54d6236dec42ab4a6b2acaa2226b6384e62fc121010b858ab&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-02-18T08:52:07.113Z"
                 }
               }
             }
@@ -3807,8 +4091,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0359dba3-1ed2-46ef-ab90-ebc828e2e4b4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=e54aef6401cc217b216c8d304a7a7c35c72b0b0cef5522640bc49fe9daaad780&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-31T07:25:10.659Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0359dba3-1ed2-46ef-ab90-ebc828e2e4b4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220218T075207Z&X-Amz-Expires=3600&X-Amz-Signature=42c689581b347b4db23b7bf1d15d4903ca9193d868d32bb555d0405073ec084b&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-02-18T08:52:07.024Z"
                 }
               }
             },
@@ -3854,8 +4138,8 @@
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220131%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220131T062510Z&X-Amz-Expires=3600&X-Amz-Signature=f04a6703c806f354af0d44551437fefeed633a8f074f20de30d03dca8c287f76&X-Amz-SignedHeaders=host&x-id=GetObject",
-                  "expiry_time": "2022-01-31T07:25:10.659Z"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220218T075207Z&X-Amz-Expires=3600&X-Amz-Signature=60e395fb3df997ffdeb8019defee0592e6e68fc1e3d5dabfbc1f5adf9141b337&X-Amz-SignedHeaders=host&x-id=GetObject",
+                  "expiry_time": "2022-02-18T08:52:07.020Z"
                 }
               }
             }
@@ -4840,9 +5124,58 @@
                 },
                 {
                   "object": "block",
+                  "id": "4079b7f4-04e0-4002-bb44-168474a26b5a",
+                  "created_time": "2022-02-17T23:53:00.000Z",
+                  "last_edited_time": "2022-02-17T23:53:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "mention",
+                        "mention": {
+                          "type": "page",
+                          "page": {
+                            "id": "f16dfed7-beb5-4a71-b674-35e17e7e33e5"
+                          }
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "Where notion2svelte Fits",
+                        "href": "https://www.notion.so/f16dfed7beb54a71b67435e17e7e33e5"
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " ",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " ",
+                        "href": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
                   "id": "9cee5919-3b5e-41c4-bd1e-17491ee8f80b",
                   "created_time": "2022-01-19T23:06:00.000Z",
-                  "last_edited_time": "2022-01-26T23:49:00.000Z",
+                  "last_edited_time": "2022-02-17T23:53:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -4874,7 +5207,7 @@
                   "object": "block",
                   "id": "2c54242b-655a-4364-9b88-e9e6e82e75d8",
                   "created_time": "2022-01-22T04:50:00.000Z",
-                  "last_edited_time": "2022-01-26T23:49:00.000Z",
+                  "last_edited_time": "2022-02-17T23:53:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -4906,7 +5239,7 @@
                   "object": "block",
                   "id": "851f3e13-1aeb-4134-a361-ea12a5c8e637",
                   "created_time": "2022-01-26T23:49:00.000Z",
-                  "last_edited_time": "2022-01-27T06:08:00.000Z",
+                  "last_edited_time": "2022-02-17T23:53:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -4938,7 +5271,7 @@
                   "object": "block",
                   "id": "a31a7111-3314-44e3-8940-1a83d7b3ca09",
                   "created_time": "2022-01-19T23:06:00.000Z",
-                  "last_edited_time": "2022-01-26T23:49:00.000Z",
+                  "last_edited_time": "2022-02-17T23:53:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -4970,7 +5303,7 @@
                   "object": "block",
                   "id": "dca914b3-8efc-4c41-adbd-d47458c9fd9b",
                   "created_time": "2022-01-26T09:05:00.000Z",
-                  "last_edited_time": "2022-01-27T06:09:00.000Z",
+                  "last_edited_time": "2022-02-17T23:53:00.000Z",
                   "has_children": false,
                   "archived": false,
                   "type": "bulleted_list_item",
@@ -4994,6 +5327,55 @@
                         },
                         "plain_text": "Synced Blocks",
                         "href": "https://www.notion.so/b266b66cecc74e218f494f80f5c820cc"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "object": "block",
+                  "id": "f4cc41bb-e696-471d-be27-6617d7bdb94f",
+                  "created_time": "2022-02-17T23:53:00.000Z",
+                  "last_edited_time": "2022-02-17T23:53:00.000Z",
+                  "has_children": false,
+                  "archived": false,
+                  "type": "bulleted_list_item",
+                  "bulleted_list_item": {
+                    "text": [
+                      {
+                        "type": "mention",
+                        "mention": {
+                          "type": "page",
+                          "page": {
+                            "id": "3c584e91-1b5c-4378-b120-e3cf62797212"
+                          }
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": "Configuring your .env",
+                        "href": "https://www.notion.so/3c584e911b5c4378b120e3cf62797212"
+                      },
+                      {
+                        "type": "text",
+                        "text": {
+                          "content": " ",
+                          "link": null
+                        },
+                        "annotations": {
+                          "bold": false,
+                          "italic": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "code": false,
+                          "color": "default"
+                        },
+                        "plain_text": " ",
+                        "href": null
                       }
                     ]
                   }

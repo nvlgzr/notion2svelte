@@ -40,6 +40,9 @@
 <Paragraph blockProps={{"pageId":"0a81110f311a4b2f858a65ea1a45ab3a","id":"0538fec5-3bc6-4c24-815d-78b5ce846819","created_time":"2022-01-28T20:26:00.000Z","last_edited_time":"2022-01-28T20:28:00.000Z"}}>
 <InlineColor value='gray'>Partial output of </InlineColor><InlineColor value='gray'><em>src/routes/[slug].json</em></InlineColor>
 </Paragraph>
+<Paragraph blockProps={{"pageId":"0a81110f311a4b2f858a65ea1a45ab3a","id":"577562ee-dfd9-42bd-889c-e04479602dd8","created_time":"2022-01-31T20:31:00.000Z","last_edited_time":"2022-01-31T20:31:00.000Z"}}>
+
+</Paragraph>
 <Code code={`\{
       …
             "plain_text": "Internal page mention",
@@ -134,7 +137,7 @@ Without even getting into bookmarks and user mentions, et al, things are already
 </IndentGroup>
 
 </IndentGroup>
-<Toggle>How <em>notion2svelte</em> handles this
+<Toggle>I suspect this situation is the result of some more general structure needed to accommodate Turn-intoable blocks, but maybe it’s just an oversight when they could have just been explicit and had three types: <InlineCode code={"mention"} />, <InlineCode code={"alias"} />, and <InlineCode code={"external"} />. That’s my opinion…and that’s why <em>notion2svelte</em> does just that! 😎
 <span slot="children"><Paragraph blockProps={{"pageId":"0a81110f311a4b2f858a65ea1a45ab3a","id":"fb5d474c-0abe-43a2-b703-fe71fdd13992","created_time":"2022-01-30T23:23:00.000Z","last_edited_time":"2022-01-30T23:23:00.000Z"}}>
 I may be misinterpreting the distinction between the two text+url link types, but this doesn’t really matter. What matters is that Notion has demonstrated in their own UI that these two link styles can be treated differently — even if the only difference is a slight shift in font-weight — and so there’s no reason we can’t consider a similar option.
 </Paragraph>
@@ -172,7 +175,7 @@ Of course, if you want to go the other way, nothing’s stopping you from ignori
   Internal alias
 …
 <BulletedListItem>
-  <Link type="internal" href="/rules-for-writing-good-slugs">
+  <Link type="alias" href="/rules-for-writing-good-slugs">
     Writing Good Snails
   </Link>
 </BulletedListItem>
@@ -180,10 +183,10 @@ Of course, if you want to go the other way, nothing’s stopping you from ignori
   External link
 …
 <BulletedListItem>
-  <Link type="external" href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F">
+  <Link type="absolute" href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F">
     Writing Good Puppy Dog Tales
     </Link>
-</BulletedListItem>`} language="html"> </Code><Header level={1}>4. Example rendering</Header>
+</BulletedListItem>`} language="html">The <em>type</em> prop can be either <em>mention</em>, <em>alias</em> or <em>external</em>.</Code><Header level={1}>4. Example rendering</Header>
 <Paragraph blockProps={{"pageId":"0a81110f311a4b2f858a65ea1a45ab3a","id":"37637bb7-2a74-4905-8474-3d3ed2994a92","created_time":"2022-01-29T04:11:00.000Z","last_edited_time":"2022-01-31T03:40:00.000Z"}}>
 <InlineColor value='gray'>Rendered by </InlineColor><Link type="absolute" href='https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Link.svelte'><InlineColor value='gray'>Link.svelte</InlineColor></Link>
 </Paragraph>
@@ -206,8 +209,8 @@ The Link component lets you differentiate between ⑴ internal page mentions, �
 
 </Paragraph>
 <Toggle><strong>A word about links with “annotations”</strong>
-<span slot="children"><Paragraph blockProps={{"pageId":"0a81110f311a4b2f858a65ea1a45ab3a","id":"d98a87c9-bdfb-4e44-b102-644b0f3229a0","created_time":"2022-01-30T00:22:00.000Z","last_edited_time":"2022-01-30T00:28:00.000Z"}}>
-Notion’s handling of links is buggy. Specifically, as soon as you start applying styles to <em>parts</em> of the link, you suddenly end up with <em>more than one link</em>! Don’t believe me? Follow along by opening this page’s <Link type="alias" href='/annotations/link'>original in Notion</Link>, and inspect the raw source these example links ↓
+<span slot="children"><Paragraph blockProps={{"pageId":"0a81110f311a4b2f858a65ea1a45ab3a","id":"d98a87c9-bdfb-4e44-b102-644b0f3229a0","created_time":"2022-01-30T00:22:00.000Z","last_edited_time":"2022-01-30T10:38:00.000Z"}}>
+Notion’s handling of links is buggy. Specifically, as soon as you start applying styles to <em>parts</em> of the link, you suddenly end up with <em>more than one link</em>! Don’t believe me? Follow along by opening this page’s <Link type="alias" href='/annotations/link'>original in Notion</Link>, and inspect the raw source for these examples ↓
 </Paragraph>
 <NumberedListItem number=1> Let’s begin with our <em>internal alias</em> example: <Link type="alias" href='/high-level-discussion/rules-for-writing-good-slugs'>Writing Good Snails</Link>. Stripping Notion’s HTML to its structural bones, we see that this link is rendered as:</NumberedListItem>
 <IndentGroup>
@@ -280,11 +283,13 @@ Open your Terminal.app* and follow along to 👉🏿 “<Link type="absolute" hr
 <Divider />
 <Header level={2}>Browse the docs ⚘ <Link type="alias" href='/about-notion2svelte'>🏠</Link> </Header>
 <ColumnList cols={2}><Column><Header level={3}>High-level Discussion</Header>
+<BulletedListItem><Link type="mention" href='/high-level-discussion/flow-diagram'>Where notion2svelte Fits</Link> </BulletedListItem>
 <BulletedListItem><Link type="mention" href='/components'>Components</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/high-level-discussion/rules-for-writing-good-slugs'>Writing Good Slugs</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/high-level-discussion/block-props'>blockProps</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/high-level-discussion/nested-blocks'>Nested Blocks</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/high-level-discussion/synced-blocks'>Synced Blocks</Link></BulletedListItem>
+<BulletedListItem><Link type="mention" href='/high-level-discussion/dot-env'>Configuring your .env</Link> </BulletedListItem>
 <Header level={3}>Turn-intoable Block Components</Header>
 <BulletedListItem><Link type="mention" href='/standard-components/paragraph'>Paragraph (aka “Text”)</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/standard-components/header'>Header (3 types in 1!)</Link></BulletedListItem>
@@ -323,6 +328,9 @@ Open your Terminal.app* and follow along to 👉🏿 “<Link type="absolute" hr
 </Paragraph>
 <Paragraph blockProps={{"pageId":"0a81110f311a4b2f858a65ea1a45ab3a","id":"28583833-e30e-40bd-8a63-79c3dcaaf5fe","created_time":"2022-01-30T06:29:00.000Z","last_edited_time":"2022-01-30T06:30:00.000Z"}}>
 <Link type="absolute" href='https://www.poetryfoundation.org/poems/47536/one-art'>https://www.poetryfoundation.org/poems/47536/one-art</Link>
+</Paragraph>
+<Paragraph blockProps={{"pageId":"0a81110f311a4b2f858a65ea1a45ab3a","id":"6d19eae5-a2d8-46b7-bf19-0c0c86d9d459","created_time":"2022-01-30T10:25:00.000Z","last_edited_time":"2022-01-30T10:25:00.000Z"}}>
+🖖🏽 Prosper.
 </Paragraph>
 
   

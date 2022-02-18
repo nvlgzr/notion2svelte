@@ -54,16 +54,10 @@ Point being, as soon as I try to @mention that page, it’ll end up throwing whe
 <Paragraph blockProps={{"pageId":"f8b93766ebbc4211a1e74d4475d3d8a4","id":"7f37dad1-a0c6-4950-8b61-7e141fee0698","created_time":"2022-01-31T21:01:00.000Z","last_edited_time":"2022-01-31T21:02:00.000Z"}}>
 Here we go.
 </Paragraph>
-<Error pageId="f8b93766ebbc4211a1e74d4475d3d8a4" blockId="46e3a8bcfa0846a6882cd94023fe4e10" message="pageId is not defined" stack="ReferenceError: pageId is not defined
-    at linkOrWarning (file:///Users/c/Documents/1-Due/notion2svelte/lib/decorators.js:107:77)
-    at maybeLink (file:///Users/c/Documents/1-Due/notion2svelte/lib/decorators.js:114:14)
-    at decorateInlineContent (file:///Users/c/Documents/1-Due/notion2svelte/lib/decorators.js:148:14)
-    at file:///Users/c/Documents/1-Due/notion2svelte/lib/sveltifier.js:23:23
-    at Array.map (<anonymous>)
-    at richText (file:///Users/c/Documents/1-Due/notion2svelte/lib/sveltifier.js:23:12)
-    at renderBlock (file:///Users/c/Documents/1-Due/notion2svelte/lib/sveltifier.js:298:35)
-    at renderPage (file:///Users/c/Documents/1-Due/notion2svelte/lib/sveltifier.js:162:22)
-    at run (file:///Users/c/Documents/1-Due/notion2svelte/index.js:69:22)" /><Paragraph blockProps={{"pageId":"f8b93766ebbc4211a1e74d4475d3d8a4","id":"fb46097d-1bb6-4a02-a4a2-4416bf51964c","created_time":"2022-01-31T21:02:00.000Z","last_edited_time":"2022-01-31T21:02:00.000Z"}}>
+<Paragraph blockProps={{"pageId":"f8b93766ebbc4211a1e74d4475d3d8a4","id":"46e3a8bc-fa08-46a6-882c-d94023fe4e10","created_time":"2022-01-28T00:11:00.000Z","last_edited_time":"2022-01-31T21:02:00.000Z"}}>
+<p style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; ">⚠️ l(t, type, url): <span style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">README (For Visitors).</span>&nbsp;No slug found for mention w/text: README (For Visitors)'. Have you imported the target page with notion2svelte yet?</p>
+</Paragraph>
+<Paragraph blockProps={{"pageId":"f8b93766ebbc4211a1e74d4475d3d8a4","id":"fb46097d-1bb6-4a02-a4a2-4416bf51964c","created_time":"2022-01-31T21:02:00.000Z","last_edited_time":"2022-01-31T21:02:00.000Z"}}>
 ↑ Rendered by <Link type="absolute" href='https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Error.svelte'>Error.svelte</Link>
 </Paragraph>
 <Paragraph blockProps={{"pageId":"f8b93766ebbc4211a1e74d4475d3d8a4","id":"d4ccfaa1-7533-4dc6-b6ca-9af6c2be5439","created_time":"2022-01-28T00:21:00.000Z","last_edited_time":"2022-01-28T00:21:00.000Z"}}>
@@ -92,11 +86,13 @@ Open your Terminal.app* and follow along to 👉🏿 “<Link type="absolute" hr
 <Divider />
 <Header level={2}>Browse the docs ⚘ <Link type="alias" href='/about-notion2svelte'>🏠</Link> </Header>
 <ColumnList cols={2}><Column><Header level={3}>High-level Discussion</Header>
+<BulletedListItem><Link type="mention" href='/high-level-discussion/flow-diagram'>Where notion2svelte Fits</Link> </BulletedListItem>
 <BulletedListItem><Link type="mention" href='/components'>Components</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/high-level-discussion/rules-for-writing-good-slugs'>Writing Good Slugs</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/high-level-discussion/block-props'>blockProps</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/high-level-discussion/nested-blocks'>Nested Blocks</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/high-level-discussion/synced-blocks'>Synced Blocks</Link></BulletedListItem>
+<BulletedListItem><Link type="mention" href='/high-level-discussion/dot-env'>Configuring your .env</Link> </BulletedListItem>
 <Header level={3}>Turn-intoable Block Components</Header>
 <BulletedListItem><Link type="mention" href='/standard-components/paragraph'>Paragraph (aka “Text”)</Link></BulletedListItem>
 <BulletedListItem><Link type="mention" href='/standard-components/header'>Header (3 types in 1!)</Link></BulletedListItem>
