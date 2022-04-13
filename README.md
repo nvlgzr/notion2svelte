@@ -50,7 +50,7 @@ So the basic goal is clear:
 
   ![Page in Notion → notion2svelte → ready-to-render .svelte file](notion2svelte-demo.png)
 
-For more about what sets _notion2svelte_ apart, how it works, etc., here's [a high level overview](https://notion2svelte.vercel.app/pages/about-notion2svelte).
+For more about what sets _notion2svelte_ apart, how it works, etc., the docs provide [a high level overview](https://notion2svelte.vercel.app).
 
 <!-- GETTING STARTED -->
 
