@@ -15,8 +15,8 @@
   "license": "ISC",
   "author": "nvlgzr",
   "files": [
-    "dist",
-    "src",
+    "lib/**/*",
+    ".env-sample",
     "package.json",
     "README.md"
   ],

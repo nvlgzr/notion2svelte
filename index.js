@@ -7,7 +7,7 @@ import { fetchAllPages, fetchFullPage } from './lib/notion.js';
 import { resolveTilde } from './lib/resolve-tilde.js';
 import { renderPage, stripDashes, slugFrom } from './lib/sveltifier.js';
 import timestamp from './lib/world-timestamp.js';
-import env from './env.js';
+import env from './lib/env.js';
 
 const out = resolveTilde(env.OUTPUT_PATH);
 const testPageId = env.NOTION_TEST_PAGE_ID;
