@@ -33,6 +33,13 @@ function ensureDirectoryExistence(filePath) {
   mkdirSync(dir);
 }
 
+function stripExpiryTimes(pageJSON) {
+  // This is a bit hacky, but I'm pretty sure it's solid. 🤞😬
+  const pageString = JSON.stringify(pageJSON);
+  const filtered = pageString.replace(/."expiry_time":".+?"/g, '');
+  return JSON.parse(filtered);
+}
+
 async function run() {
   console.log(`\n🏭 ${timestamp}`);
 
@@ -57,7 +64,8 @@ async function run() {
     console.log(' › ———');
     console.log(` › Fetching #${pageId}`);
     const path = join(out, slug + '.svelte');
-    const fullPage = await fetchFullPage(pageId);
+    const fetchedPage = await fetchFullPage(pageId);
+    const fullPage = stripExpiryTimes(fetchedPage);
 
     const jsonPath = join(out, slug + '.json.js');
     console.log(` › Writing JSON to ${jsonPath}`);
