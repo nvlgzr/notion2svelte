@@ -59,11 +59,22 @@ async function run() {
     const path = join(out, slug + '.svelte');
     const fullPage = await fetchFullPage(pageId);
 
-    const jsonPath = join(out, slug + '.json');
+    const jsonPath = join(out, slug + '.json.js');
     console.log(` › Writing JSON to ${jsonPath}`);
 
+    const preJson = 'const json = ';
+    const postJson = `
+
+export async function get({ params }) {
+  return {
+    body: {
+      json
+    }
+  }
+}`;
+
     ensureDirectoryExistence(jsonPath);
-    await fs.writeFile(jsonPath, JSON.stringify(fullPage, null, 2));
+    await fs.writeFile(jsonPath, preJson + JSON.stringify(fullPage, null, 2) + postJson);
 
     console.log(` › Rendering…`);
     const contents = renderPage(fullPage);
