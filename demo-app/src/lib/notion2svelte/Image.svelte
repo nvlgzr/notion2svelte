@@ -12,12 +12,12 @@
     color: gray;
     background-color: whitesmoke;
     padding: 1rem;
-    border: thin silver solid;
     border-radius: 0.5rem;
     margin: 0 auto 1rem auto;
   }
 
   figcaption {
-    margin-top: 0.5rem;
+    height: fit-content;
+    margin-bottom: -0.25rem;
   }
 </style>
