@@ -97,18 +97,18 @@ export async function get({ params }) {
         "\n⚠️ 🐌\n\n  ⎸ Looks like you've got a space in your slug,\n  ⎸ which might be a mistake.\n  ⎸\n  ⎸ Usually `my-page-slug` or `MyPageSlug` is\n  ⎸ preferable to `My Page Slug`, since that\n  ⎸ translates to `…/My%20Page%20Slug. \n  ⎸\n"
       );
     }
-    // exec(`prettier --write "${path}"`, (e, stdout, stderr) => {
-    //   if (e) {
-    //     console.log(` › error: ${e.message}`);
+    exec(`prettier --write --plugin=prettier-plugin-svelte "${path}"`, (e, stdout, stderr) => {
+      if (e) {
+        console.log(` › error: ${e.message}`);
 
-    //     return;
-    //   }
-    //   if (stderr && !stderr.includes('Debugger attached')) {
-    //     console.log(` › stderr: ${stderr}`);
-    //     return;
-    //   }
-    //   // console.log(` › ${stdout.trim()}`);
-    // });
+        return;
+      }
+      if (stderr && !stderr.includes('Debugger attached')) {
+        console.log(` › stderr: ${stderr}`);
+        return;
+      }
+      // console.log(` › ${stdout.trim()}`);
+    });
   }
   console.log(`⟢ FIN ⟣\n`);
 }
