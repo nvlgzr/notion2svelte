@@ -2,7 +2,7 @@
 
 import { fs, join } from './lib/fs-extras.js';
 import { exec } from 'child_process';
-import { fetchAllPages, fetchFullPage } from './lib/notion.js';
+import { fetchAllPages, fetchFullPage, stripExpiryTimes } from './lib/notion.js';
 import { resolveTilde } from './lib/resolve-tilde.js';
 import { renderPage, stripDashes, slugFrom } from './lib/sveltifier.js';
 import timestamp from './lib/world-timestamp.js';
@@ -21,13 +21,6 @@ function go() {
   } else {
     runTest();
   }
-}
-
-function stripExpiryTimes(pageJSON) {
-  // This is a bit hacky, but I'm pretty sure it's solid. 🤞😬
-  const pageString = JSON.stringify(pageJSON);
-  const filtered = pageString.replace(/."expiry_time":".+?"/g, '');
-  return JSON.parse(filtered);
 }
 
 async function run() {
