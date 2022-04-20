@@ -17,10 +17,10 @@ const ignoreCache = env.FORCE_REFRESH;
 const publishableStatus = env.PUBLISHABLE_STATUS || 'Publishable';
 
 function go() {
-  if (testPageId) {
-    runTest();
-  } else {
+  if (!testPageId) {
     run();
+  } else {
+    runTest();
   }
 }
 
