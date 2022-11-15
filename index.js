@@ -63,11 +63,11 @@ async function run() {
 
     console.log(' › ———');
     console.log(` › Fetching #${pageId}`);
-    const path = join(out, slug + '.svelte');
+    const path = join(out, slug + '/+page.svelte');
     const fetchedPage = await fetchFullPage(pageId);
     const fullPage = stripExpiryTimes(fetchedPage);
 
-    const jsonPath = join(out, slug + '.json.js');
+    const jsonPath = join(out, slug + '/' + slug + '.json.js');
     console.log(` › Writing JSON to ${jsonPath}`);
 
     const preJson = 'const json = ';
