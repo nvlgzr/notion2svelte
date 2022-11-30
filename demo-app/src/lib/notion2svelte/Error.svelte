@@ -48,7 +48,7 @@
     <span>Unable to render block <span class="bid">#{blockId}</span></span>
     {message}
     <div class="linkhack">
-      <a class="to-notion" href={notionURL} target="_blank">Highlight in Notion</a>
+      <a class="to-notion" href={notionURL} target="_blank" rel="noreferrer">Highlight in Notion</a>
     </div>
   </div>
 </div>
