@@ -191,14 +191,7 @@
 	>
 </IndentGroup>
 <BulletedListItem
-	>Write-your-own <p
-		style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-	>
-		⚠️ l(t, type, url): <span
-			style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">components.</span
-		>&nbsp;No slug found for alias w/text: components'. Have you imported the target page with
-		notion2svelte yet?
-	</p></BulletedListItem
+	>Write-your-own <Link type="alias" href="/components">components</Link></BulletedListItem
 >
 <IndentGroup>
 	<Paragraph
@@ -331,20 +324,13 @@
 			last_edited_time: '2022-02-01T05:22:00.000Z'
 		}}
 	>
-		<InlineColor value="gray">See</InlineColor>
-		<p
-			style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-		>
-			⚠️ l(t, type, url): <span
-				style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-				><InlineColor value="gray"
-					><span style="text-decoration:underline;">blockProps</span></InlineColor
-				>.</span
-			>&nbsp;No slug found for mention w/text: <InlineColor value="gray"
+		<InlineColor value="gray">See</InlineColor><Link
+			type="mention"
+			href="/high-level-discussion/block-props"
+			><InlineColor value="gray"
 				><span style="text-decoration:underline;">blockProps</span></InlineColor
-			>'. Have you imported the target page with notion2svelte yet?
-		</p>
-		<InlineColor value="gray">.</InlineColor>
+			></Link
+		><InlineColor value="gray">.</InlineColor>
 	</Paragraph>
 </IndentGroup>
 <Header level={1}>Example Time! 🧐</Header>
@@ -899,213 +885,75 @@
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <p
-		style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-	>
-		⚠️ l(t, type, url): <span
-			style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">🏠.</span
-		>&nbsp;No slug found for alias w/text: 🏠'. Have you imported the target page with notion2svelte
-		yet?
-	</p>
+	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
 		><Header level={3}>High-level Discussion</Header>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
+			><Link type="mention" href="/high-level-discussion/flow-diagram"
+				>Where notion2svelte Fits</Link
 			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Where notion2svelte Fits.</span
-				>&nbsp;No slug found for mention w/text: Where notion2svelte Fits'. Have you imported the
-				target page with notion2svelte yet?
-			</p>
 		</BulletedListItem>
+		<BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Components.</span
-				>&nbsp;No slug found for mention w/text: Components'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/high-level-discussion/rules-for-writing-good-slugs"
+				>Writing Good Slugs</Link
+			></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Writing Good Slugs.</span
-				>&nbsp;No slug found for mention w/text: Writing Good Slugs'. Have you imported the target
-				page with notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/high-level-discussion/block-props">blockProps</Link
+			></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>blockProps.</span
-				>&nbsp;No slug found for mention w/text: blockProps'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/high-level-discussion/nested-blocks">Nested Blocks</Link
+			></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Nested Blocks.</span
-				>&nbsp;No slug found for mention w/text: Nested Blocks'. Have you imported the target page
-				with notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/high-level-discussion/synced-blocks">Synced Blocks</Link
+			></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Synced Blocks.</span
-				>&nbsp;No slug found for mention w/text: Synced Blocks'. Have you imported the target page
-				with notion2svelte yet?
-			</p></BulletedListItem
-		>
-		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Configuring your .env.</span
-				>&nbsp;No slug found for mention w/text: Configuring your .env'. Have you imported the
-				target page with notion2svelte yet?
-			</p>
+			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link>
 		</BulletedListItem>
 		<Header level={3}>Turn-intoable Block Components</Header>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Paragraph (aka “Text”).</span
-				>&nbsp;No slug found for mention w/text: Paragraph (aka “Text”)'. Have you imported the
-				target page with notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/standard-components/paragraph">Paragraph (aka “Text”)</Link
+			></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Header (3 types in 1!).</span
-				>&nbsp;No slug found for mention w/text: Header (3 types in 1!)'. Have you imported the
-				target page with notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
+			></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>ChildPage.</span
-				>&nbsp;No slug found for mention w/text: ChildPage'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/standard-components/child-page">ChildPage</Link
+			></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>TodoItem.</span
-				>&nbsp;No slug found for mention w/text: TodoItem'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/standard-components/todo-item">TodoItem</Link></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>BulletedListItem.</span
-				>&nbsp;No slug found for mention w/text: BulletedListItem'. Have you imported the target
-				page with notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/standard-components/bulleted-list-item">BulletedListItem</Link
+			></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>NumberedListItem.</span
-				>&nbsp;No slug found for mention w/text: NumberedListItem'. Have you imported the target
-				page with notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/standard-components/numbered-list-item">NumberedListItem</Link
+			></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Toggle.</span
-				>&nbsp;No slug found for mention w/text: Toggle'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/standard-components/toggle">Toggle</Link></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Code.</span
-				>&nbsp;No slug found for mention w/text: Code'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/standard-components/code">Code</Link></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Quote.</span
-				>&nbsp;No slug found for mention w/text: Quote'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/standard-components/quote">Quote</Link></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Callout.</span
-				>&nbsp;No slug found for mention w/text: Callout'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/standard-components/callout">Callout</Link></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Equation.</span
-				>&nbsp;No slug found for mention w/text: Equation'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
 			>Toggle Headings<InlineColor value="gray">
@@ -1115,49 +963,20 @@
 	</Column><Column
 		><Header level={3}>Layout-only Components</Header>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>IndentGroup.</span
-				>&nbsp;No slug found for mention w/text: IndentGroup'. Have you imported the target page
-				with notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/layout-only-components/indent-group">IndentGroup</Link
+			></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Column & ColumnList.</span
-				>&nbsp;No slug found for mention w/text: Column & ColumnList'. Have you imported the target
-				page with notion2svelte yet?
-			</p>
+			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link>
 		</BulletedListItem>
 		<Header level={3}>Page-level Components</Header>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Title (aka Name).</span
-				>&nbsp;No slug found for mention w/text: Title (aka Name)'. Have you imported the target
-				page with notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/page-level-components/title">Title (aka Name)</Link
+			></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Cover (Image & Icon).</span
-				>&nbsp;No slug found for mention w/text: Cover (Image & Icon)'. Have you imported the target
-				page with notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/page-level-components/cover">Cover (Image & Icon)</Link
+			></BulletedListItem
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
@@ -1169,89 +988,27 @@
 			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>InlineCode.</span
-				>&nbsp;No slug found for mention w/text: InlineCode'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>InlineColor.</span
-				>&nbsp;No slug found for mention w/text: InlineColor'. Have you imported the target page
-				with notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/annotations/inline-color">InlineColor</Link></BulletedListItem
 		>
+		<BulletedListItem><Link type="mention" href="/annotations/link">Link</Link></BulletedListItem>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Link.</span
-				>&nbsp;No slug found for mention w/text: Link'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
-		>
-		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Equation.</span
-				>&nbsp;No slug found for mention w/text: Equation'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<Header level={3}>Other Components</Header>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;"
-					>Divider.</span
-				>&nbsp;No slug found for mention w/text: Divider'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/other-components/divider">Divider</Link></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Embed.</span
-				>&nbsp;No slug found for mention w/text: Embed'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/other-components/embed">Embed</Link></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Image.</span
-				>&nbsp;No slug found for mention w/text: Image'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/other-components/image">Image</Link></BulletedListItem
 		>
 		<BulletedListItem
-			><p
-				style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
-			>
-				⚠️ l(t, type, url): <span
-					style="font-weight: 600; display: inline; padding: 3px; border-radius: 3px;">Error.</span
-				>&nbsp;No slug found for mention w/text: Error'. Have you imported the target page with
-				notion2svelte yet?
-			</p></BulletedListItem
+			><Link type="mention" href="/other-components/error">Error</Link></BulletedListItem
 		>
 	</Column></ColumnList
 >
