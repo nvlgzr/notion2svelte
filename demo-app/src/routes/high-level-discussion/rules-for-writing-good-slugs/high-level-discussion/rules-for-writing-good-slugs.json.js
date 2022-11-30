@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1",
   "created_time": "2022-01-21T22:31:00.000Z",
-  "last_edited_time": "2022-11-30T00:54:00.000Z",
+  "last_edited_time": "2022-11-30T10:49:00.000Z",
   "created_by": {
     "object": "user",
     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -142,7 +142,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T03:12:00.000Z",
-      "last_edited_time": "2022-01-27T07:10:00.000Z",
+      "last_edited_time": "2022-11-30T10:26:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -194,7 +194,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "treats Slugs at face value. If your page has a slug of “foo/bar/baz,” ",
+              "content": "treats Slugs at face value. If your page has a Slug of “foo/bar/baz,” ",
               "link": null
             },
             "annotations": {
@@ -205,7 +205,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "treats Slugs at face value. If your page has a slug of “foo/bar/baz,” ",
+            "plain_text": "treats Slugs at face value. If your page has a Slug of “foo/bar/baz,” ",
             "href": null
           },
           {
@@ -245,7 +245,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "src/routes/foo/bar/baz.svelte.",
+              "content": "src/routes/foo/bar/baz/",
               "link": null
             },
             "annotations": {
@@ -256,7 +256,41 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "src/routes/foo/bar/baz.svelte.",
+            "plain_text": "src/routes/foo/bar/baz/",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "+page.svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "+page.svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
             "href": null
           },
           {
@@ -296,7 +330,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": " if you follow two simple rules:",
+              "content": " if you follow one simple rule:",
               "link": null
             },
             "annotations": {
@@ -307,7 +341,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": " if you follow two simple rules:",
+            "plain_text": " if you follow one simple rule:",
             "href": null
           }
         ]
@@ -441,7 +475,7 @@ const json = {
             "block_id": "640b7926-9aa3-47b6-8034-8b06dd7d4987"
           },
           "created_time": "2022-01-24T06:54:00.000Z",
-          "last_edited_time": "2022-01-24T06:57:00.000Z",
+          "last_edited_time": "2022-11-30T10:26:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -497,256 +531,6 @@ const json = {
     },
     {
       "object": "block",
-      "id": "c95047a8-9482-40ad-8a47-6cc9158bc550",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T03:15:00.000Z",
-      "last_edited_time": "2022-01-24T06:59:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": true,
-      "archived": false,
-      "type": "numbered_list_item",
-      "numbered_list_item": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Avoid using ",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Avoid using ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "index",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "index",
-            "href": null
-          }
-        ]
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "6deb92b8-fa3e-4571-ab5d-db6453021503",
-          "parent": {
-            "type": "block_id",
-            "block_id": "c95047a8-9482-40ad-8a47-6cc9158bc550"
-          },
-          "created_time": "2022-01-24T06:55:00.000Z",
-          "last_edited_time": "2022-01-24T06:59:00.000Z",
-          "created_by": {
-            "object": "user",
-            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-          },
-          "last_edited_by": {
-            "object": "user",
-            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-          },
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "color": "default",
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "❌ ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "❌ ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "/blog/index",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": true,
-                  "color": "default"
-                },
-                "plain_text": "/blog/index",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " → ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " → ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "/routes/blog/index.svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": true,
-                  "color": "default"
-                },
-                "plain_text": "/routes/blog/index.svelte",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "8364a73c-239d-4ba2-b596-659d0faf99ee",
-          "parent": {
-            "type": "block_id",
-            "block_id": "c95047a8-9482-40ad-8a47-6cc9158bc550"
-          },
-          "created_time": "2022-01-24T06:55:00.000Z",
-          "last_edited_time": "2022-01-24T06:59:00.000Z",
-          "created_by": {
-            "object": "user",
-            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-          },
-          "last_edited_by": {
-            "object": "user",
-            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-          },
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "color": "default",
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "✅ ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "✅ ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "/blog",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": true,
-                  "color": "default"
-                },
-                "plain_text": "/blog",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " → ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " → ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "/routes/blog.svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": true,
-                  "color": "default"
-                },
-                "plain_text": "/routes/blog.svelte",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
       "id": "b3f01428-12b9-4154-8366-5994a7083261",
       "parent": {
         "type": "page_id",
@@ -778,7 +562,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-24T06:59:00.000Z",
-      "last_edited_time": "2022-01-24T07:00:00.000Z",
+      "last_edited_time": "2022-11-30T10:27:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -796,7 +580,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "Keep reading for details.",
+              "content": "Keep reading for details. Or not. ↑ This is all you really need to know. 😎",
               "link": null
             },
             "annotations": {
@@ -807,7 +591,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "Keep reading for details.",
+            "plain_text": "Keep reading for details. Or not. ↑ This is all you really need to know. 😎",
             "href": null
           }
         ]
@@ -865,7 +649,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T03:17:00.000Z",
-      "last_edited_time": "2022-01-22T03:39:00.000Z",
+      "last_edited_time": "2022-11-30T10:49:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -942,7 +726,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T04:01:00.000Z",
-      "last_edited_time": "2022-01-22T04:02:00.000Z",
+      "last_edited_time": "2022-11-30T10:28:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -961,7 +745,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "Page-relative links",
+              "content": "❌ Page-relative links",
               "link": null
             },
             "annotations": {
@@ -972,7 +756,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "Page-relative links",
+            "plain_text": "❌ Page-relative links",
             "href": null
           }
         ]
@@ -986,7 +770,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T03:39:00.000Z",
-      "last_edited_time": "2022-01-27T07:15:00.000Z",
+      "last_edited_time": "2022-11-30T10:30:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1021,7 +805,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "link-target",
+              "content": "mantis-shrimp",
               "link": null
             },
             "annotations": {
@@ -1032,13 +816,13 @@ const json = {
               "code": true,
               "color": "default"
             },
-            "plain_text": "link-target",
+            "plain_text": "mantis-shrimp",
             "href": null
           },
           {
             "type": "text",
             "text": {
-              "content": ". Then you run ",
+              "content": ". Running ",
               "link": null
             },
             "annotations": {
@@ -1049,7 +833,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": ". Then you run ",
+            "plain_text": ". Running ",
             "href": null
           },
           {
@@ -1072,7 +856,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": ". This’ll get you…",
+              "content": " gets you…",
               "link": null
             },
             "annotations": {
@@ -1083,7 +867,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": ". This’ll get you…",
+            "plain_text": " gets you…",
             "href": null
           }
         ]
@@ -1097,7 +881,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T03:43:00.000Z",
-      "last_edited_time": "2022-01-27T07:15:00.000Z",
+      "last_edited_time": "2022-11-30T10:30:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1132,7 +916,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "src/routes/link-target.svelte",
+              "content": "src/routes/mantis-shrimp/+page.svelte",
               "link": null
             },
             "annotations": {
@@ -1143,7 +927,7 @@ const json = {
               "code": true,
               "color": "default"
             },
-            "plain_text": "src/routes/link-target.svelte",
+            "plain_text": "src/routes/mantis-shrimp/+page.svelte",
             "href": null
           }
         ]
@@ -1217,7 +1001,7 @@ const json = {
             "block_id": "241726d4-f6a7-42c8-92bc-51670bf72080"
           },
           "created_time": "2022-01-27T07:12:00.000Z",
-          "last_edited_time": "2022-01-27T07:13:00.000Z",
+          "last_edited_time": "2022-11-30T10:30:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1230,7 +1014,7 @@ const json = {
           "archived": false,
           "type": "paragraph",
           "paragraph": {
-            "color": "default",
+            "color": "gray",
             "text": [
               {
                 "type": "text",
@@ -1332,7 +1116,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T03:46:00.000Z",
-      "last_edited_time": "2022-01-27T07:16:00.000Z",
+      "last_edited_time": "2022-11-30T10:32:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1410,7 +1194,7 @@ const json = {
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "default"
+              "color": "blue"
             },
             "plain_text": "one",
             "href": null
@@ -1444,7 +1228,7 @@ const json = {
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "default"
+              "color": "purple"
             },
             "plain_text": "two",
             "href": null
@@ -1477,7 +1261,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T03:47:00.000Z",
-      "last_edited_time": "2022-01-22T04:04:00.000Z",
+      "last_edited_time": "2022-11-30T10:32:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1496,7 +1280,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "├── src\n│   └── routes\n│       ├── one.svelte\n│       ├── target.svelte\n│       └── subpages\n│           ├── two.svelte\n│           …",
+              "content": "├── src\n│   └── routes\n│       ├── ",
               "link": null
             },
             "annotations": {
@@ -1507,7 +1291,109 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "├── src\n│   └── routes\n│       ├── one.svelte\n│       ├── target.svelte\n│       └── subpages\n│           ├── two.svelte\n│           …",
+            "plain_text": "├── src\n│   └── routes\n│       ├── ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "one",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "blue"
+            },
+            "plain_text": "one",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".svelte\n│       ├── ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".svelte\n│       ├── ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "mantis-shrimp",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "mantis-shrimp",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "/+page.svelte\n│       └── subpages\n│           ├── ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "/+page.svelte\n│       └── subpages\n│           ├── ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "two",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "purple"
+            },
+            "plain_text": "two",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".svelte\n│           …",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".svelte\n│           …",
             "href": null
           }
         ]
@@ -1521,7 +1407,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T03:51:00.000Z",
-      "last_edited_time": "2022-01-27T07:17:00.000Z",
+      "last_edited_time": "2022-11-30T10:33:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1590,7 +1476,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "href=\"link-target\"",
+              "content": "href=\"mantis-shrimp\"",
               "link": null
             },
             "annotations": {
@@ -1601,7 +1487,7 @@ const json = {
               "code": true,
               "color": "default"
             },
-            "plain_text": "href=\"link-target\"",
+            "plain_text": "href=\"mantis-shrimp\"",
             "href": null
           },
           {
@@ -1726,7 +1612,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "link-target",
+              "content": "mantis-shrimp",
               "link": null
             },
             "annotations": {
@@ -1737,7 +1623,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "link-target",
+            "plain_text": "mantis-shrimp",
             "href": null
           },
           {
@@ -1760,7 +1646,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "https://foo.io/link-target",
+              "content": "https://foo.io/mantis-shrimp",
               "link": null
             },
             "annotations": {
@@ -1771,7 +1657,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "https://foo.io/link-target",
+            "plain_text": "https://foo.io/mantis-shrimp",
             "href": null
           },
           {
@@ -1802,7 +1688,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T03:53:00.000Z",
-      "last_edited_time": "2022-01-27T07:17:00.000Z",
+      "last_edited_time": "2022-11-30T10:42:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1820,7 +1706,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "But now let’s look at the same link (href=”link-target”) clicked from ",
+              "content": "But now let’s look at the same link (href=”mantis-shrimp”) clicked from ",
               "link": null
             },
             "annotations": {
@@ -1831,7 +1717,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "But now let’s look at the same link (href=”link-target”) clicked from ",
+            "plain_text": "But now let’s look at the same link (href=”mantis-shrimp”) clicked from ",
             "href": null
           },
           {
@@ -1939,7 +1825,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "htttps://foo.io/subpages/link-target",
+              "content": "htttps://foo.io/subpages/mantis-shrimp",
               "link": null
             },
             "annotations": {
@@ -1950,13 +1836,13 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "htttps://foo.io/subpages/link-target",
+            "plain_text": "htttps://foo.io/subpages/mantis-shrimp",
             "href": null
           },
           {
             "type": "text",
             "text": {
-              "content": " which, of course, does not exist, leading to a 404 😥.",
+              "content": " which, of course, does not exist, leading to a ",
               "link": null
             },
             "annotations": {
@@ -1967,7 +1853,41 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": " which, of course, does not exist, leading to a 404 😥.",
+            "plain_text": " which, of course, does not exist, leading to a ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "404",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "404",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 😥.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 😥.",
             "href": null
           }
         ]
@@ -1981,7 +1901,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T04:01:00.000Z",
-      "last_edited_time": "2022-01-22T04:04:00.000Z",
+      "last_edited_time": "2022-11-30T10:28:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -2000,7 +1920,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "Site-relative links",
+              "content": "🌞👍 Site-relative links",
               "link": null
             },
             "annotations": {
@@ -2011,7 +1931,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "Site-relative links",
+            "plain_text": "🌞👍 Site-relative links",
             "href": null
           }
         ]
@@ -2302,1161 +2222,6 @@ const json = {
               "color": "default"
             },
             "plain_text": "Which is what we want.",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "46f96155-e8b0-4283-9741-4a075cc2e13c",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:19:00.000Z",
-      "last_edited_time": "2022-01-22T04:20:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "is_toggleable": false,
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Avoid using ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Avoid using ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "index",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "index",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "14854b49-94e6-4520-a212-273030be2e9f",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T03:11:00.000Z",
-      "last_edited_time": "2022-01-22T04:22:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "As you probably know, Svelte has special rules for it handles pages named ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "As you probably know, Svelte has special rules for it handles pages named ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "index.svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "index.svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ". In particular, Svelte expects the page name to ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ". In particular, Svelte expects the page name to ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "not",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "not",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " be referenced when navigating to an index page.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " be referenced when navigating to an index page.",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "ddfe9f5a-c106-435e-ba10-d0530deb0a6c",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:22:00.000Z",
-      "last_edited_time": "2022-01-22T04:22:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Continuing our example from above, say we’ve got a sub-route called ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Continuing our example from above, say we’ve got a sub-route called ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "subpages",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "subpages",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "749a5da9-fa23-464e-8fda-16536978afbc",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:22:00.000Z",
-      "last_edited_time": "2022-01-22T04:49:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "code",
-      "code": {
-        "caption": [],
-        "language": "javascript",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "├── src\n│   └── routes\n│       ├ …\n│       └── subpages\n│           ├── index.svelte <<\n│           ├── …",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "├── src\n│   └── routes\n│       ├ …\n│       └── subpages\n│           ├── index.svelte <<\n│           ├── …",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "c4e44c91-0288-4cd6-8818-7e1ec3f2b486",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:24:00.000Z",
-      "last_edited_time": "2022-01-22T04:30:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " can create such a page easily enough. Just give the page a Slug of /",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " can create such a page easily enough. Just give the page a Slug of /",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "subpages/index",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "subpages/index",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ". The problem here is that links created by ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ". The problem here is that links created by ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " will end up with URLs like ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " will end up with URLs like ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "https://foo.io/subpages/index",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "https://foo.io/subpages/index",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", which Svelte doesn’t recognize.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", which Svelte doesn’t recognize.",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "f40a1e5c-340b-43aa-a462-0645d1d33c72",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:30:00.000Z",
-      "last_edited_time": "2022-01-22T04:30:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "heading_3",
-      "heading_3": {
-        "is_toggleable": false,
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Workaround",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Workaround",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "df166d88-4159-4b95-943c-130851ce5405",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:30:00.000Z",
-      "last_edited_time": "2022-01-22T04:32:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "The workaround for index pages is simple enough: just remove the “index” part from your Slug:",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "The workaround for index pages is simple enough: just remove the “index” part from your Slug:",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "fbebc9dc-55b1-4b2d-b6d3-80c1fff4b314",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:32:00.000Z",
-      "last_edited_time": "2022-01-22T04:33:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "bulleted_list_item",
-      "bulleted_list_item": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Slug: ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Slug: ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "/subpages",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "/subpages",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "ce194033-3132-4abd-9ed7-dac4806fc302",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:32:00.000Z",
-      "last_edited_time": "2022-01-22T04:34:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": true,
-      "archived": false,
-      "type": "bulleted_list_item",
-      "bulleted_list_item": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Output:",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Output:",
-            "href": null
-          }
-        ]
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "1d5a8f1b-dd2d-4eed-b3c1-c9e42a4caf7e",
-          "parent": {
-            "type": "block_id",
-            "block_id": "ce194033-3132-4abd-9ed7-dac4806fc302"
-          },
-          "created_time": "2022-01-22T04:33:00.000Z",
-          "last_edited_time": "2022-01-22T04:49:00.000Z",
-          "created_by": {
-            "object": "user",
-            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-          },
-          "last_edited_by": {
-            "object": "user",
-            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-          },
-          "has_children": false,
-          "archived": false,
-          "type": "code",
-          "code": {
-            "caption": [],
-            "language": "javascript",
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "├── src\n│   └── routes\n│       ├ subpages.svelte <<\n│       └── subpages\n│           ├── …",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "├── src\n│   └── routes\n│       ├ subpages.svelte <<\n│       └── subpages\n│           ├── …",
-                "href": null
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "bd1940fc-dccc-4ea0-92cd-f6f24d707927",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:33:00.000Z",
-      "last_edited_time": "2022-01-22T04:35:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Now, links created by ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Now, links created by ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "to this page look like ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "to this page look like ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "https://foo.io/subpages",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "https://foo.io/subpages",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ".",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ".",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "c57d0fdc-99c3-4abe-b1f5-14660d5605f0",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:36:00.000Z",
-      "last_edited_time": "2022-01-27T07:18:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "heading_3",
-      "heading_3": {
-        "is_toggleable": false,
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Limitation of the Workaround",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Limitation of the Workaround",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "b07ec7eb-3c42-4675-a564-122427bb0f00",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:36:00.000Z",
-      "last_edited_time": "2022-01-22T04:38:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "All is well and good with this approach, so long as you aren’t taking advantage of Svelte Kit’s ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "All is well and good with this approach, so long as you aren’t taking advantage of Svelte Kit’s ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "__layout.svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "__layout.svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " pages.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " pages.",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "655dd639-6de5-4be5-98af-c0874d533d19",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:36:00.000Z",
-      "last_edited_time": "2022-01-22T04:49:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "code",
-      "code": {
-        "caption": [],
-        "language": "javascript",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "├── src\n│   └── routes\n│       ├ subpages.svelte\n│       └── subpages\n│           ├── __layout.svelte <<\n│           ├── two.svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "├── src\n│   └── routes\n│       ├ subpages.svelte\n│       └── subpages\n│           ├── __layout.svelte <<\n│           ├── two.svelte",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "f7a8799a-9b0c-441e-a3af-135dac570a48",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:36:00.000Z",
-      "last_edited_time": "2022-01-22T04:42:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Unlike a ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Unlike a ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "subpages/index.svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "subpages/index.svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " page, ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " page, ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "subpages.svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "subpages.svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " is unable to participate in whatever behaviors and/or styles are on offer by ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " is unable to participate in whatever behaviors and/or styles are on offer by ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "__layout.svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "__layout.svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ".",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ".",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "a8aacb94-a943-48e1-9def-29bc3276922b",
-      "parent": {
-        "type": "page_id",
-        "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
-      },
-      "created_time": "2022-01-22T04:42:00.000Z",
-      "last_edited_time": "2022-01-22T04:44:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "This is a real problem, hopefully to be addressed by a future version of ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "This is a real problem, hopefully to be addressed by a future version of ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte.",
             "href": null
           }
         ]
