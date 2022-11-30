@@ -47,7 +47,7 @@
 		last_edited_time: '2022-01-28T20:28:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].json</em></InlineColor
 	>
 </Paragraph>
@@ -132,7 +132,7 @@
 		last_edited_time: '2022-01-28T20:32:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].svelte</em></InlineColor
 	>
 </Paragraph>
@@ -153,8 +153,8 @@
   &lt;/span&gt;
 &lt;/Quote&gt;`}
 	language="html"
-	>This isn’t <em>entirely</em> accurate. Prettier didn’t handle this example as well as I’d have liked,
-	so I did a bit of whitespace rearranging here.</Code
+	>This isn’t&nbsp;<em>entirely</em>&nbsp;accurate. Prettier didn’t handle this example as well as
+	I’d have liked, so I did a bit of whitespace rearranging here.</Code
 ><Header level={1}>4. Example rendering</Header>
 <Paragraph
 	blockProps={{
@@ -164,7 +164,7 @@
 		last_edited_time: '2022-01-28T22:38:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Rendered by</InlineColor><Link
+	<InlineColor value="gray">Rendered by&nbsp;</InlineColor><Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Quote.svelte"
 		><InlineColor value="gray">Quote.svelte</InlineColor></Link
@@ -224,12 +224,12 @@
 	>
 		<InlineColor value="gray"
 			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on
-		</InlineColor><Link type="absolute" href="https://fishshell.com/"
+			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
+		><Link type="absolute" href="https://fishshell.com/"
 			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray">
-			is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
-			all, so it should be pretty portable!</InlineColor
+		><InlineColor value="gray"
+			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
+			after all, so it should be pretty portable!</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -256,7 +256,7 @@
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
@@ -327,8 +327,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">
-				(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -351,12 +350,14 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
 		</BulletedListItem>
-		<BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
-		<BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+		<BulletedListItem
+			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem
@@ -459,9 +460,9 @@
 		}}
 	/>
 	<Image url="/assets/standard-components/quote/92542dea-1308-472a-93ba-2268e94266fa."
-		>Photo: <Link type="absolute" href="https://unsplash.com/@cleipelt">Chris Leipelt</Link> via <Link
-			type="absolute"
-			href="https://unsplash.com/photos/kWd5ER2XpSg">Unsplash</Link
+		>Photo:&nbsp;<Link type="absolute" href="https://unsplash.com/@cleipelt">Chris Leipelt</Link
+		>&nbsp;via&nbsp;<Link type="absolute" href="https://unsplash.com/photos/kWd5ER2XpSg"
+			>Unsplash</Link
 		></Image
 	>
 	<Paragraph
@@ -473,11 +474,11 @@
 		}}
 	>
 		If you’ve ever felt the sudden urge to leap off of a tall building, you’re already familiar with
-		the concept of <em>l’appel du vide </em>— a French term that literally translates as “the call
-		of the void” and refers to a sudden but passing urge to engage in self-destructive behavior.
-		I’ve always heard this voice, although its specific suggestions change from time to time. Rather
-		than jumping from a great height, for example, it might tell me to crawl down onto the BART
-		tracks on my commute home or chug the drain cleaner sitting under my sink.
+		the concept of&nbsp;<em>l’appel du vide&nbsp;</em>— a French term that literally translates as
+		“the call of the void” and refers to a sudden but passing urge to engage in self-destructive
+		behavior. I’ve always heard this voice, although its specific suggestions change from time to
+		time. Rather than jumping from a great height, for example, it might tell me to crawl down onto
+		the BART tracks on my commute home or chug the drain cleaner sitting under my sink.
 	</Paragraph>
 	<Paragraph
 		blockProps={{
@@ -487,12 +488,13 @@
 			last_edited_time: '2022-06-06T19:46:00.000Z'
 		}}
 	>
-		I’m far from alone in this, however. Researchers from Florida State University estimate that <Link
-			type="absolute"
-			href="https://www.ncbi.nlm.nih.gov/pubmed/22119089">up to 30%</Link
-		> of people experience similar intrusive thoughts. Ironically, these are rarely linked to true suicidal
-		behavior. Quite the opposite, in fact — the study found that rather than indicating a death wish,
-		l’appel du vide is simply a misinterpreted message from your brain warning you to not act recklessly.
+		I’m far from alone in this, however. Researchers from Florida State University estimate
+		that&nbsp;<Link type="absolute" href="https://www.ncbi.nlm.nih.gov/pubmed/22119089"
+			>up to 30%</Link
+		>&nbsp;of people experience similar intrusive thoughts. Ironically, these are rarely linked to
+		true suicidal behavior. Quite the opposite, in fact — the study found that rather than
+		indicating a death wish, l’appel du vide is simply a misinterpreted message from your brain
+		warning you to not act recklessly.
 	</Paragraph>
 	<Paragraph
 		blockProps={{
@@ -549,7 +551,7 @@
 			last_edited_time: '2022-06-06T19:46:00.000Z'
 		}}
 	>
-		The Golden Gate Bridge is one of the <Link
+		The Golden Gate Bridge is one of the&nbsp;<Link
 			type="absolute"
 			href="https://en.wikipedia.org/wiki/List_of_suicide_sites"
 			>top suicide sites in the world</Link
@@ -604,11 +606,11 @@
 	>
 		This morbid fascination came to a head in 1995, when the Marin County coroner requested that
 		media outlets stop keeping an official count after several people vied to become the 1,000th
-		person to die by suicide on the Golden Gate Bridge. According to <Link
+		person to die by suicide on the Golden Gate Bridge. According to&nbsp;<Link
 			type="absolute"
 			href="https://www.newyorker.com/magazine/2003/10/13/jumpers">the</Link
 		><Link type="absolute" href="https://www.newyorker.com/magazine/2003/10/13/jumpers"
-			><em> New Yorker</em></Link
+			><em>&nbsp;New Yorker</em></Link
 		>, “a local disk jockey went so far as to promise a case of Snapple to the family of the
 		victim.” In keeping with recommended suicide prevention guidelines for the media, publications
 		no longer strictly track the number of suicides on the Golden Gate Bridge and rarely report on
@@ -635,14 +637,15 @@
 		}}
 	>
 		You can’t help but feel a sense of wonder when you visit the Golden Gate Bridge. Even on a
-		cloudy day, the view from the bridge is striking (provided that <Link
+		cloudy day, the view from the bridge is striking (provided that&nbsp;<Link
 			type="absolute"
 			href="https://twitter.com/KarlTheFog/status/1212117069593862144">Karl</Link
-		>/<Link type="absolute" href="https://twitter.com/fog_karla">Karla</Link> the Fog isn’t making an
-		appearance as well). Look out toward the city while standing on it, and you’ll see a magnificent
-		panorama, spanning from the dense vegetation of the Presidio to the austere buildings of the financial
-		district to the lone isle of Alcatraz to the hills of Marin, looming in the outskirts of your peripheral
-		vision. All the while, some 220 feet below you, the turbulent water churns into frothy whitecaps.
+		>/<Link type="absolute" href="https://twitter.com/fog_karla">Karla</Link>&nbsp;the Fog isn’t
+		making an appearance as well). Look out toward the city while standing on it, and you’ll see a
+		magnificent panorama, spanning from the dense vegetation of the Presidio to the austere
+		buildings of the financial district to the lone isle of Alcatraz to the hills of Marin, looming
+		in the outskirts of your peripheral vision. All the while, some 220 feet below you, the
+		turbulent water churns into frothy whitecaps.
 	</Paragraph>
 	<Paragraph
 		blockProps={{
@@ -653,10 +656,8 @@
 		}}
 	>
 		It’s a poetic image, to be sure. In the public sphere, this romantic aesthetic is frequently
-		cited as a reason why actively suicidal people are so drawn to the bridge. A 2005 article from <em
-			>SFGate</em
-		>
-		entitled “<Link
+		cited as a reason why actively suicidal people are so drawn to the bridge. A 2005 article
+		from&nbsp;<em>SFGate</em>&nbsp;entitled “<Link
 			type="absolute"
 			href="https://www.sfgate.com/bayarea/article/Lethal-Beauty-The-Allure-Beauty-and-an-easy-3302966.php"
 			>Lethal Beauty</Link
@@ -708,7 +709,7 @@
 	>
 		“Most of the discussion about [the bridge being] ‘romanticized’ has been speculative in nature.
 		As such, it takes away from the central problem — easy access to lethal means,” says Paul
-		Muller, president and founding member of the <Link
+		Muller, president and founding member of the&nbsp;<Link
 			type="absolute"
 			href="http://www.bridgerail.net/">Bridge Rail Foundation</Link
 		>, an organization created with the goal of ending suicides on the Golden Gate Bridge.
@@ -766,7 +767,7 @@
 		Another misconception about the Golden Gate is that it serves as an international suicide
 		destination. On the contrary, “85% of bridge jumpers live within an hour’s drive of the bridge,
 		and 92% live in California. Less than 8% are from out of state or abroad,” the Bridge Rail
-		Foundation’s <Link
+		Foundation’s&nbsp;<Link
 			type="absolute"
 			href="http://www.bridgerail.net/golden-gate-bridge-suicides/demographics">website states</Link
 		>.
@@ -817,16 +818,16 @@
 			last_edited_time: '2022-06-06T19:46:00.000Z'
 		}}
 	>
-		According to <Link
+		According to&nbsp;<Link
 			type="absolute"
 			href="https://www.washingtonpost.com/news/to-your-health/wp/2014/03/27/why-suicide-barriers-work-especially-at-magnets-like-the-golden-gate-bridge/"
 			>one study</Link
-		> that Muller cited, building a barrier at the Duke Ellington Bridge in Washington, D.C., not only
-		stopped suicides from taking place there, but they also did not increase at an unprotected bridge
-		just blocks away. Mounting evidence of barrier effectiveness such as this, in addition to persistent
-		pressure from advocacy organizations, eventually won out. After a yearslong bureaucratic tango, the
-		Golden Gate Bridge board of directors approved funding in 2014 for a net that would prevent jumpers
-		from falling all the way down.
+		>&nbsp;that Muller cited, building a barrier at the Duke Ellington Bridge in Washington, D.C.,
+		not only stopped suicides from taking place there, but they also did not increase at an
+		unprotected bridge just blocks away. Mounting evidence of barrier effectiveness such as this, in
+		addition to persistent pressure from advocacy organizations, eventually won out. After a
+		yearslong bureaucratic tango, the Golden Gate Bridge board of directors approved funding in 2014
+		for a net that would prevent jumpers from falling all the way down.
 	</Paragraph>
 	<Paragraph
 		blockProps={{
@@ -838,7 +839,7 @@
 	>
 		Construction on the net began in 2019 and was originally projected to be completed in January
 		2021, although the timeline has since been pushed back two years to January 2023 — a delay that
-		is expected to cost an additional <Link
+		is expected to cost an additional&nbsp;<Link
 			type="absolute"
 			href="https://www.marinij.com/2020/08/26/golden-gate-bridge-suicide-barrier-delays-to-cost-23m/"
 			>$23 million</Link
@@ -909,7 +910,7 @@
 	>
 		“Where nets have been erected as suicide barriers, they’ve proven to be 100% effective thus
 		far,” Denis Mulligan, CEO and general manager of the Golden Gate Bridge Highway and
-		Transportation District, <Link
+		Transportation District,&nbsp;<Link
 			type="absolute"
 			href="https://www.cnn.com/2014/06/27/health/golden-gate-suicide-barrier/index.html"
 			>told CNN in 2014</Link
@@ -943,8 +944,8 @@
 		“The idea that [suicidal ideation] can pass is not well understood in the public,” Muller
 		explains. “<Link type="absolute" href="http://seattlefriends.org/files/seiden_study.pdf"
 			>90% of people</Link
-		> who make an attempt [to jump off the Golden Gate Bridge] and do not die as a result do not subsequently
-		die by suicide.”
+		>&nbsp;who make an attempt [to jump off the Golden Gate Bridge] and do not die as a result do
+		not subsequently die by suicide.”
 	</Paragraph>
 	<Paragraph
 		blockProps={{
@@ -955,7 +956,7 @@
 		}}
 	>
 		“A handful of people — fewer than 35 — have survived a jump from the Golden Gate Bridge,” the
-		Bridge Rail Foundation <Link
+		Bridge Rail Foundation&nbsp;<Link
 			type="absolute"
 			href="http://www.bridgerail.net/golden-gate-bridge-suicides/demographics">website says</Link
 		>. “Nearly every one said afterward that they wanted to live as soon as they went over the
@@ -988,7 +989,7 @@
 	>
 		It’s impossible to go about your daily life in San Francisco without seeing the Golden Gate
 		Bridge. Even if you don’t live near it, you’re bound to run across it on tourists’ T-shirts,
-		street art, and hell, even the <Link
+		street art, and hell, even the&nbsp;<Link
 			type="absolute"
 			href="https://newsroom.cisco.com/feature-content?type=webcontent&articleId=1928468"
 			>Cisco logo</Link
@@ -1006,16 +1007,18 @@
 	>
 		<em
 			>Suicide is preventable. Anyone who is experiencing suicidal thoughts or a mental health
-			crisis should immediately reach out for help by calling the
-		</em><Link type="absolute" href="https://suicidepreventionlifeline.org/"
+			crisis should immediately reach out for help by calling the&nbsp;</em
+		><Link type="absolute" href="https://suicidepreventionlifeline.org/"
 			><em>National Suicide Prevention Lifeline</em></Link
-		><em> at 1(800)273-TALK (8255), or contact the </em><Link
+		><em>&nbsp;at 1(800)273-TALK (8255), or contact the&nbsp;</em><Link
 			type="absolute"
 			href="https://www.crisistextline.org/"><em>Crisis Text Line</em></Link
-		><em> by texting TALK to 741741. You can also reach out to the local </em><Link
+		><em>&nbsp;by texting TALK to 741741. You can also reach out to the local&nbsp;</em><Link
 			type="absolute"
 			href="https://www.sfsuicide.org/our-programs/24-hour-crisis-line/"
 			><em>San Francisco Crisis Line</em></Link
-		><em> by calling (415)781–0500 or texting MYLIFE to 741741 for 24/7 confidential support.</em>
+		><em
+			>&nbsp;by calling (415)781–0500 or texting MYLIFE to 741741 for 24/7 confidential support.</em
+		>
 	</Paragraph>
 </ChildPage>

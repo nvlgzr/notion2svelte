@@ -65,7 +65,7 @@
 			}}
 		>
 			There’s nothing much to know about titles, except perhaps that Notion’s default term for this
-			concept is <em>Name</em>, as shown in this screenshot.
+			concept is&nbsp;<em>Name</em>, as shown in this screenshot.
 		</Paragraph>
 		<Paragraph
 			blockProps={{
@@ -75,18 +75,19 @@
 				last_edited_time: '2022-01-28T23:38:00.000Z'
 			}}
 		>
-			Since I’m building <em>notion2svelte </em>in the context of publishing written pieces (as
-			opposed to tracking TODOs or any of the other myriad things that a notion Page might be
-			“naming”), I chose <em>Title</em> as the more contextually appropriate component name.
+			Since I’m building&nbsp;<em>notion2svelte&nbsp;</em>in the context of publishing written
+			pieces (as opposed to tracking TODOs or any of the other myriad things that a notion Page
+			might be “naming”), I chose&nbsp;<em>Title</em>&nbsp;as the more contextually appropriate
+			component name.
 		</Paragraph>
 	</Column><Column
 		><Image url="/assets/page-level-components/title/45f4b177-1575-412a-9686-36a88bc1602b.png" />
 	</Column></ColumnList
 ><Callout emoji="💁🏼"
-	>You don’t have to include a title on every page. In fact, the title of this site’s <Link
+	>You don’t have to include a title on every page. In fact, the title of this site’s&nbsp;<Link
 		type="alias"
 		href="/about-notion2svelte">home page</Link
-	> has no title.<span slot="children"
+	>&nbsp;has no title.<span slot="children"
 		><Paragraph
 			blockProps={{
 				pageId: '2011c59ae02b40b682f7ee828c3d51fe',
@@ -95,7 +96,7 @@
 				last_edited_time: '2022-01-27T23:00:00.000Z'
 			}}
 		>
-			Every page does, however, need a <Link
+			Every page does, however, need a&nbsp;<Link
 				type="alias"
 				href="/high-level-discussion/rules-for-writing-good-slugs">slug</Link
 			>.
@@ -142,7 +143,8 @@
 
 &lt;Title&gt;Title (aka Name)&lt;/Title&gt;`}
 	language="html"
-	>Note that <em>notion2svelte</em> sets both the browser tab title, as well as rendering a Title component</Code
+	>Note that&nbsp;<em>notion2svelte</em>&nbsp;sets both the browser tab title, as well as rendering
+	a Title component</Code
 ><Paragraph
 	blockProps={{
 		pageId: '2011c59ae02b40b682f7ee828c3d51fe',
@@ -159,9 +161,9 @@
 		last_edited_time: '2022-01-31T07:55:00.000Z'
 	}}
 >
-	<InlineColor value="gray">For the code used to render</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">For the code used to render&nbsp;</InlineColor><InlineColor value="gray"
 		><em>this</em></InlineColor
-	><InlineColor value="gray">page’s Title, see</InlineColor><Link
+	><InlineColor value="gray">&nbsp;page’s Title, see&nbsp;</InlineColor><Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Title.svelte"
 		><InlineColor value="gray">Title.svelte</InlineColor></Link
@@ -208,12 +210,12 @@
 	>
 		<InlineColor value="gray"
 			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on
-		</InlineColor><Link type="absolute" href="https://fishshell.com/"
+			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
+		><Link type="absolute" href="https://fishshell.com/"
 			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray">
-			is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
-			all, so it should be pretty portable!</InlineColor
+		><InlineColor value="gray"
+			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
+			after all, so it should be pretty portable!</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -240,7 +242,7 @@
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
@@ -311,8 +313,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">
-				(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -335,12 +336,14 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
 		</BulletedListItem>
-		<BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
-		<BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+		<BulletedListItem
+			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

@@ -44,12 +44,12 @@
 		last_edited_time: '2022-01-28T20:37:00.000Z'
 	}}
 >
-	<em>notion2svelte</em> passes <InlineCode code={'blockProps'} /> to every paragraph* so that your component
-	implementation can optionally make use of Notion’s block metadata.
+	<em>notion2svelte</em>&nbsp;passes&nbsp;<InlineCode code={'blockProps'} />&nbsp;to every
+	paragraph* so that your component implementation can optionally make use of Notion’s block
+	metadata.
 </Paragraph>
 <Code
-	code={`&lt;Paragraph
-  &lt;InlineColor value=&#039;purple&#039;&gt;blockProps&lt;/InlineColor&gt;=\{\{
+	code={`&lt;Paragraph &lt;InlineColor value=&#039;purple&#039;&gt;blockProps&lt;/InlineColor&gt;=\{\{
     pageId: …,
     id: …,
     created_time: …,
@@ -68,9 +68,9 @@
 		last_edited_time: '2022-01-27T21:05:00.000Z'
 	}}
 >
-	<InlineCode code={'blockProps'} /> take the most useful pieces of block metadata and provide them to
-	your components* to use (or ignore) however you see fit. On my own personal site, I expect to use them
-	to:
+	<InlineCode code={'blockProps'} />&nbsp;take the most useful pieces of block metadata and provide
+	them to your components* to use (or ignore) however you see fit. On my own personal site, I expect
+	to use them to:
 </Paragraph>
 <BulletedListItem
 	>Provide a UX, built into each block, whereby readers can provide feedback with the reference page
@@ -99,7 +99,7 @@
 			last_edited_time: '2022-01-27T21:01:00.000Z'
 		}}
 	>
-		…similar to Notion’s block links: <Link
+		…similar to Notion’s block links:&nbsp;<Link
 			type="absolute"
 			href="/b266b66cecc74e218f494f80f5c820cc#1f965316ac104b8182e19bb1b6658357">(for example)</Link
 		>
@@ -115,10 +115,9 @@
 	}}
 />
 <Callout emoji="🚧"
-	>*As of this writing, the <InlineCode code={'blockProps'} /> attribute only gets passed to
-	<em>Paragraph</em>
-	components. At some point, I expect to do the grunt work required to pass them in to <em>all</em> components.
-	Watch this space, I guess. 🙄</Callout
+	>*As of this writing, the&nbsp;<InlineCode code={'blockProps'} />&nbsp;attribute only gets passed
+	to&nbsp;<em>Paragraph</em>&nbsp;components. At some point, I expect to do the grunt work required
+	to pass them in to&nbsp;<em>all</em>&nbsp;components. Watch this space, I guess. 🙄</Callout
 ><Header level={1}>Accessing Notion metadata</Header>
 <Paragraph
 	blockProps={{
@@ -128,8 +127,8 @@
 		last_edited_time: '2022-01-27T00:06:00.000Z'
 	}}
 >
-	Say you’ve got a simple paragraph in Notion, exported to Svelte via <em>notion2svelte</em>. The
-	resulting <em>.svelte</em> file will include something like this
+	Say you’ve got a simple paragraph in Notion, exported to Svelte via&nbsp;<em>notion2svelte</em>.
+	The resulting&nbsp;<em>.svelte</em>&nbsp;file will include something like this
 </Paragraph>
 <Code
 	code={`…
@@ -155,8 +154,9 @@ import Paragraph from &#039;$lib/notion2svelte/Paragraph.svelte&#039;;
 		last_edited_time: '2022-01-27T00:12:00.000Z'
 	}}
 >
-	Inside <em>Paragraph.svelte</em>, <InlineCode code={'blockProps'} /> gets accessed in the usual way,
-	using <InlineCode code={'export let blockProps'} />. After that, the sky’s the limit.
+	Inside&nbsp;<em>Paragraph.svelte</em>,&nbsp;<InlineCode code={'blockProps'} />&nbsp;gets accessed
+	in the usual way, using&nbsp;<InlineCode code={'export let blockProps'} />. After that, the sky’s
+	the limit.
 </Paragraph>
 <Header level={1}>Want an example?</Header>
 <Paragraph
@@ -168,8 +168,8 @@ import Paragraph from &#039;$lib/notion2svelte/Paragraph.svelte&#039;;
 	}}
 >
 	You’re staring at it. In fact, you might have already noticed that, when you hover over text —
-	like, say, this very paragraph — a <InlineCode code={'֍'} /> appears ← over there. If you haven’t already
-	clicked one of those buttons, take a second now to give it a go!
+	like, say, this very paragraph — a&nbsp;<InlineCode code={'֍'} />&nbsp;appears ← over there. If
+	you haven’t already clicked one of those buttons, take a second now to give it a go!
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -182,9 +182,10 @@ import Paragraph from &#039;$lib/notion2svelte/Paragraph.svelte&#039;;
 	It should look like this ↓
 </Paragraph>
 <Image url="/assets/high-level-discussion/block-props/5fb082b3-d27c-4fed-b49e-c800b88faa93.png"
-	>The JSON is a straight dump of <InlineCode code={'blockProps'} />. The button’s URL is assembled
-	by combining <InlineCode code={'pageId'} /> with the block <InlineCode code={'id'} />. Click it to
-	visit the source page in Notion.</Image
+	>The JSON is a straight dump of&nbsp;<InlineCode code={'blockProps'} />. The button’s URL is
+	assembled by combining&nbsp;<InlineCode code={'pageId'} />&nbsp;with the block&nbsp;<InlineCode
+		code={'id'}
+	/>. Click it to visit the source page in Notion.</Image
 >
 <Paragraph
 	blockProps={{
@@ -205,9 +206,10 @@ import Paragraph from &#039;$lib/notion2svelte/Paragraph.svelte&#039;;
 	}}
 />
 <Callout emoji="🧠"
-	>In case you’re wondering, this → ֍ ← is a <em>right-facing Armenian eternity sign</em>. That’s
-	all I know about it. Ftw, <em>Unicode</em> also offers the
-	<em>left-facing Armenian eternity sign</em>: ֎<span slot="children"
+	>In case you’re wondering, this → ֍ ← is a&nbsp;<em>right-facing Armenian eternity sign</em>.
+	That’s all I know about it. Ftw,&nbsp;<em>Unicode</em>&nbsp;also offers the&nbsp;<em
+		>left-facing Armenian eternity sign</em
+	>: ֎<span slot="children"
 		><Paragraph
 			blockProps={{
 				pageId: '38ed521bf46e49be8d2af67a53a37c6e',
@@ -273,12 +275,12 @@ import Paragraph from &#039;$lib/notion2svelte/Paragraph.svelte&#039;;
 	>
 		<InlineColor value="gray"
 			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on
-		</InlineColor><Link type="absolute" href="https://fishshell.com/"
+			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
+		><Link type="absolute" href="https://fishshell.com/"
 			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray">
-			is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
-			all, so it should be pretty portable!</InlineColor
+		><InlineColor value="gray"
+			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
+			after all, so it should be pretty portable!</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -305,7 +307,7 @@ import Paragraph from &#039;$lib/notion2svelte/Paragraph.svelte&#039;;
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
@@ -376,8 +378,7 @@ import Paragraph from &#039;$lib/notion2svelte/Paragraph.svelte&#039;;
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">
-				(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -400,12 +401,14 @@ import Paragraph from &#039;$lib/notion2svelte/Paragraph.svelte&#039;;
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
 		</BulletedListItem>
-		<BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
-		<BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+		<BulletedListItem
+			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

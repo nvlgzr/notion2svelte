@@ -58,7 +58,7 @@
 				last_edited_time: '2022-01-10T12:14:00.000Z'
 			}}
 		>
-			<strong>Write</strong> in Notion
+			<strong>Write</strong>&nbsp;in Notion
 		</Paragraph>
 		<Paragraph
 			blockProps={{
@@ -68,7 +68,7 @@
 				last_edited_time: '2022-01-10T12:14:00.000Z'
 			}}
 		>
-			<strong>Publish</strong> in Svelte
+			<strong>Publish</strong>&nbsp;in Svelte
 		</Paragraph>
 		<Paragraph
 			blockProps={{
@@ -78,10 +78,10 @@
 				last_edited_time: '2022-01-10T12:14:00.000Z'
 			}}
 		>
-			<strong>Control</strong> with <em>notion2svelte</em>
+			<strong>Control</strong>&nbsp;with&nbsp;<em>notion2svelte</em>
 		</Paragraph>
 	</span></Quote
-><Header level={1}>Introducing <InlineCode code={'notion2svelte'} /></Header>
+><Header level={1}>Introducing&nbsp;<InlineCode code={'notion2svelte'} /></Header>
 <Paragraph
 	blockProps={{
 		pageId: 'fdc65179a8bd451caf6759019204cfde',
@@ -90,14 +90,16 @@
 		last_edited_time: '2022-01-31T05:21:00.000Z'
 	}}
 >
-	Just like it sounds, <em>notion2svelte</em> transforms Notion-based content into <em>.svelte</em> pages:
+	Just like it sounds,&nbsp;<em>notion2svelte</em>&nbsp;transforms Notion-based content into&nbsp;<em
+		>.svelte</em
+	>&nbsp;pages:
 </Paragraph>
 <Equation block={true} katexString="Notion → notion2svelte → Svelte" /><ColumnList cols={2}
 	><Column
 		><Header level={2}>Source (Notion)</Header>
 		<Image url="/assets/about-notion2svelte/ed21d11c-9389-4694-9db4-549e002a1b92.png" />
 		<BulletedListItem>😃 Awesome editing experience</BulletedListItem>
-		<BulletedListItem>🤨 Domain-locked to <em>notion.so</em></BulletedListItem>
+		<BulletedListItem>🤨 Domain-locked to&nbsp;<em>notion.so</em></BulletedListItem>
 		<BulletedListItem>😐 Proprietary limitations</BulletedListItem>
 	</Column><Column
 		><Header level={2}>Destination (Svelte)</Header>
@@ -107,7 +109,7 @@
 		<BulletedListItem>🪡 Infinite possibilities</BulletedListItem>
 	</Column></ColumnList
 ><Divider />
-<Header level={1}>Why <em>notion2svelte</em>?</Header>
+<Header level={1}>Why&nbsp;<em>notion2svelte</em>?</Header>
 <ColumnList cols={3}
 	><Column
 		><Paragraph
@@ -118,7 +120,7 @@
 				last_edited_time: '2022-01-11T00:49:00.000Z'
 			}}
 		>
-			I like <strong>writing in Notion</strong>
+			I like&nbsp;<strong>writing in Notion</strong>
 		</Paragraph>
 	</Column><Column
 		><Paragraph
@@ -129,7 +131,7 @@
 				last_edited_time: '2022-01-09T05:22:00.000Z'
 			}}
 		>
-			I like <strong>coding in Svelte</strong>
+			I like&nbsp;<strong>coding in Svelte</strong>
 		</Paragraph>
 	</Column><Column
 		><Paragraph
@@ -140,7 +142,7 @@
 				last_edited_time: '2022-01-11T00:49:00.000Z'
 			}}
 		>
-			I like the <strong>safety of git</strong>
+			I like the&nbsp;<strong>safety of git</strong>
 		</Paragraph>
 	</Column></ColumnList
 ><Paragraph
@@ -151,8 +153,8 @@
 		last_edited_time: '2022-01-09T05:23:00.000Z'
 	}}
 >
-	That, in a nutshell, is what got me started on <em>notion2svelte. </em>It’s not the best project
-	out there, but it’s the only one that does what I want. Namely:
+	That, in a nutshell, is what got me started on&nbsp;<em>notion2svelte.&nbsp;</em>It’s not the best
+	project out there, but it’s the only one that does what I want. Namely:
 </Paragraph>
 <BulletedListItem>Store intermediary artifacts to-disk</BulletedListItem>
 <IndentGroup>
@@ -172,7 +174,9 @@
 		interactivity that Notion doesn’t allow</BulletedListItem
 	>
 </IndentGroup>
-<BulletedListItem>Command-line tool, rather than runtime <em>npm</em> package</BulletedListItem>
+<BulletedListItem
+	>Command-line tool, rather than runtime&nbsp;<em>npm</em>&nbsp;package</BulletedListItem
+>
 <IndentGroup>
 	<Paragraph
 		blockProps={{
@@ -185,13 +189,14 @@
 		<em>Benefits</em>
 	</Paragraph>
 	<BulletedListItem
-		>100% decoupled tooling: want to “eject” from <em>notion2svelte</em>? No problem. Just stop
-		using it. From the perspective of your Svelte app, the pages created by <em>notion2svelte</em> are
-		no different than pages you code yourself</BulletedListItem
+		>100% decoupled tooling: want to “eject” from&nbsp;<em>notion2svelte</em>? No problem. Just stop
+		using it. From the perspective of your Svelte app, the pages created by&nbsp;<em
+			>notion2svelte</em
+		>&nbsp;are no different than pages you code yourself</BulletedListItem
 	>
 </IndentGroup>
 <BulletedListItem
-	>Write-your-own <Link type="alias" href="/components">components</Link></BulletedListItem
+	>Write-your-own&nbsp;<Link type="alias" href="/components">components</Link></BulletedListItem
 >
 <IndentGroup>
 	<Paragraph
@@ -205,9 +210,9 @@
 		<em>Benefits</em>
 	</Paragraph>
 	<BulletedListItem>Provides wide creative freedom</BulletedListItem>
-	<BulletedListItem>Keeps <em>notion2svelte</em> simple</BulletedListItem>
+	<BulletedListItem>Keeps&nbsp;<em>notion2svelte</em>&nbsp;simple</BulletedListItem>
 </IndentGroup>
-<Header level={1}>Why NOT <em>notion2svelte</em>?</Header>
+<Header level={1}>Why NOT&nbsp;<em>notion2svelte</em>?</Header>
 <Paragraph
 	blockProps={{
 		pageId: 'fdc65179a8bd451caf6759019204cfde',
@@ -216,8 +221,10 @@
 		last_edited_time: '2022-01-23T21:07:00.000Z'
 	}}
 >
-	Why <em>not</em> use it? Mainly because it’s early days and, while <em>notion2svelte</em> isn’t
-	<em>capable</em> of breaking your app, you may not have the patience for its idiosyncrasies.
+	Why&nbsp;<em>not</em>&nbsp;use it? Mainly because it’s early days and, while&nbsp;<em
+		>notion2svelte</em
+	>&nbsp;isn’t&nbsp;<em>capable</em>&nbsp;of breaking your app, you may not have the patience for
+	its idiosyncrasies.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -238,10 +245,10 @@
 		last_edited_time: '2022-01-27T06:45:00.000Z'
 	}}
 >
-	I hope you’ll give it <Link
+	I hope you’ll give it&nbsp;<Link
 		type="absolute"
 		href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">a quick try</Link
-	> and, if you’re feeling the vibe, let me know what you think in <Link
+	>&nbsp;and, if you’re feeling the vibe, let me know what you think in&nbsp;<Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/discussions/1">the Discussions</Link
 	>.
@@ -268,9 +275,10 @@
 </Paragraph>
 <NumberedListItem number="1">…written in Notion</NumberedListItem>
 <NumberedListItem number="2">
-	…exported as a <em>.svelte</em> file by running <em>notion2svelte</em></NumberedListItem
+	…exported as a&nbsp;<em>.svelte</em>&nbsp;file by running&nbsp;<em>notion2svelte</em
+	></NumberedListItem
 >
-<NumberedListItem number="3">…published normally using <em>Svelte Kit</em></NumberedListItem>
+<NumberedListItem number="3">…published normally using&nbsp;<em>Svelte Kit</em></NumberedListItem>
 <Paragraph
 	blockProps={{
 		pageId: 'fdc65179a8bd451caf6759019204cfde',
@@ -299,9 +307,10 @@
 		last_edited_time: '2022-02-01T03:47:00.000Z'
 	}}
 >
-	The <em>.svelte</em> files output by <em>notion2svelte</em> are incomplete in that they rely on a
-	pre-defined set of <em>Svelte</em> components — stored in <em>src/lib/notion2svelte </em>— to do
-	the actual rendering. That’s where <strong>you</strong> come in!
+	The&nbsp;<em>.svelte</em>&nbsp;files output by&nbsp;<em>notion2svelte</em>&nbsp;are incomplete in
+	that they rely on a pre-defined set of&nbsp;<em>Svelte</em>&nbsp;components — stored in&nbsp;<em
+		>src/lib/notion2svelte&nbsp;</em
+	>— to do the actual rendering. That’s where&nbsp;<strong>you</strong>&nbsp;come in!
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -324,7 +333,7 @@
 			last_edited_time: '2022-02-01T05:22:00.000Z'
 		}}
 	>
-		<InlineColor value="gray">See</InlineColor><Link
+		<InlineColor value="gray">See&nbsp;</InlineColor><Link
 			type="mention"
 			href="/high-level-discussion/block-props"
 			><InlineColor value="gray"
@@ -365,9 +374,8 @@
 		last_edited_time: '2022-01-22T20:23:00.000Z'
 	}}
 >
-	<InlineColor value="gray">The same callout, after transformation by</InlineColor><InlineColor
-		value="gray"><em>notion2svelte</em></InlineColor
-	>
+	<InlineColor value="gray">The same callout, after transformation by&nbsp;</InlineColor
+	><InlineColor value="gray"><em>notion2svelte</em></InlineColor>
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -385,15 +393,16 @@
 		last_edited_time: '2022-01-22T20:28:00.000Z'
 	}}
 >
-	The first step <em>notion2svelte</em> takes is to query the Notion API.
+	The first step&nbsp;<em>notion2svelte</em>&nbsp;takes is to query the Notion API.
 </Paragraph>
 <Toggle
 	>How notion2svelte uses the Notion API
 	<span slot="children"
 		><NumberedListItem number="a">
 			We use the values in your .env to fetch all “Publishable” pages from a specified Notion
-			database. To be <em>publishable</em>, a page must have a property named <em>Status</em> with a
-			value of <em>Publishable</em>.</NumberedListItem
+			database. To be&nbsp;<em>publishable</em>, a page must have a property named&nbsp;<em
+				>Status</em
+			>&nbsp;with a value of&nbsp;<em>Publishable</em>.</NumberedListItem
 		>
 		<NumberedListItem number="b">
 			Recursively fetching all the blocks on a page, we stitch together a single JSON representation
@@ -412,7 +421,7 @@
 		last_edited_time: '2022-01-22T20:34:00.000Z'
 	}}
 >
-	This big JSON object shows our example callout as rendered by the Notion API.
+	&nbsp;This big JSON object shows our example callout as rendered by the Notion API.
 </Paragraph>
 <ColumnList cols={2}
 	><Column
@@ -462,8 +471,8 @@
 				last_edited_time: '2022-01-11T07:14:00.000Z'
 			}}
 		>
-			It’s pretty noisy, with all those time stamps, repetitions, and heavy nesting! For rendering
-			purposes, most of it can be ignored.
+			It’s pretty noisy, with all those time stamps, repetitions, and&nbsp;heavy nesting! For
+			rendering purposes, most of it can be ignored.
 		</Paragraph>
 		<Paragraph
 			blockProps={{
@@ -473,15 +482,15 @@
 				last_edited_time: '2022-01-24T01:05:00.000Z'
 			}}
 		>
-			Here’s what <em>notion2svelte</em> spits out from all that JSON:
+			Here’s what&nbsp;<em>notion2svelte</em>&nbsp;spits out from all that JSON:
 		</Paragraph>
 		<Code
 			code={`&lt;Callout emoji=&quot;🦦&quot; blockProps=\{\{…}}&gt;
   Hi. I’m a sea otter.
 &lt;/Callout&gt;`}
 			language="html"
-			>The <em>block-props</em> attribute gives your component implementations access to Notion’s most
-			relevant block metadata.</Code
+			>The&nbsp;<em>block-props</em>&nbsp;attribute gives your component implementations access to
+			Notion’s most relevant block metadata.</Code
 		><Paragraph
 			blockProps={{
 				pageId: 'fdc65179a8bd451caf6759019204cfde',
@@ -514,13 +523,11 @@
 		last_edited_time: '2022-02-18T07:41:00.000Z'
 	}}
 >
-	To render this particular example, all we really need from the JSON are the values for <InlineCode
+	To render this particular example, all we really need from the JSON are the values for&nbsp;<InlineCode
 		code={'callout.icon.emoji'}
-	/>, <InlineCode code={'callout.text[0].content'} />, and, well, the blocks’ overall type: <InlineCode
-		code={'&quot;callout&quot;'}
-	/>. The type tells <em>notion2svelte</em> which component to use, in this case, <InlineCode
-		code={'&lt;Callout&gt;'}
-	/>.
+	/>,&nbsp;<InlineCode code={'callout.text[0].content'} />, and, well, the blocks’ overall
+	type:&nbsp;<InlineCode code={'&quot;callout&quot;'} />. The type tells&nbsp;<em>notion2svelte</em
+	>&nbsp;which component to use, in this case,&nbsp;<InlineCode code={'&lt;Callout&gt;'} />.
 </Paragraph>
 <ColumnList cols={2}
 	><Column
@@ -543,13 +550,13 @@
 				last_edited_time: '2022-01-09T05:56:00.000Z'
 			}}
 		>
-			Do you want a simple, gray callout with minimal styling, like this:
+			&nbsp;Do you want a simple, gray callout with minimal styling, like this:
 		</Paragraph>
 	</Column><Column
 		><Image url="/assets/about-notion2svelte/70a6d0d1-1eaa-493e-8af4-cd1b69690c54.png" />
 	</Column></ColumnList
 ><Toggle
-	>Here’s the code<em> (simple gray)</em>
+	>Here’s the code<em>&nbsp;(simple gray)</em>
 	<span slot="children"
 		><Paragraph
 			blockProps={{
@@ -783,11 +790,12 @@
 		last_edited_time: '2022-01-05T09:14:00.000Z'
 	}}
 >
-	It should go without saying, but your Sveltekit app needs to know where to actually <em>find</em>
-	the components that match <em>notion2svelte</em>’s output. At present, this means putting them in
-	<em>src/lib/notion2svelte</em>. The reason why becomes apparent when we look at the <InlineCode
-		code={'import'}
-	/> statements rendered by <em>notion2svelte</em>.
+	It should go without saying, but your Sveltekit app needs to know where to actually&nbsp;<em
+		>find</em
+	>&nbsp;the components that match&nbsp;<em>notion2svelte</em>’s output. At present, this means
+	putting them in&nbsp;<em>src/lib/notion2svelte</em>. The reason why becomes apparent when we look
+	at the&nbsp;<InlineCode code={'import'} />&nbsp;statements rendered by&nbsp;<em>notion2svelte</em
+	>.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -805,7 +813,7 @@
 	code={`import Callout from &#039;$lib/notion2svelte/Callout.svelte&#039;;`}
 	language="html"
 /><Divider />
-<Header level={1}>How to use <em>notion2svelte</em></Header>
+<Header level={1}>How to use&nbsp;<em>notion2svelte</em></Header>
 <Paragraph
 	blockProps={{
 		pageId: 'fdc65179a8bd451caf6759019204cfde',
@@ -814,7 +822,7 @@
 		last_edited_time: '2022-01-11T07:34:00.000Z'
 	}}
 >
-	For now, the fastest way to get started is to follow along with the video tutorial, <Link
+	For now, the fastest way to get started is to follow along with the video tutorial,&nbsp;<Link
 		type="absolute"
 		href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
 		><strong>notion2svelte in 10 minutes</strong></Link
@@ -853,12 +861,12 @@
 	>
 		<InlineColor value="gray"
 			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on
-		</InlineColor><Link type="absolute" href="https://fishshell.com/"
+			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
+		><Link type="absolute" href="https://fishshell.com/"
 			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray">
-			is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
-			all, so it should be pretty portable!</InlineColor
+		><InlineColor value="gray"
+			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
+			after all, so it should be pretty portable!</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -885,7 +893,7 @@
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
@@ -956,8 +964,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">
-				(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -980,12 +987,14 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
 		</BulletedListItem>
-		<BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
-		<BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+		<BulletedListItem
+			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

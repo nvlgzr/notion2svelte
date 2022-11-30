@@ -45,10 +45,11 @@
 		last_edited_time: '2022-01-26T08:43:00.000Z'
 	}}
 >
-	Let’s talk about <em><strong>elements</strong></em>, <em><strong>blocks</strong></em>, and
-	<em><strong>components</strong></em>. Structurally, these are interchangeable because they all use
-	tripartite units comprising a required <em>type</em>, optional <em>attributes</em> and
-	<em>content</em>, also optional.
+	Let’s talk about&nbsp;<em><strong>elements</strong></em>,&nbsp;<em><strong>blocks</strong></em>,
+	and&nbsp;<em><strong>components</strong></em>. Structurally, these are interchangeable because
+	they all use tripartite units comprising a required&nbsp;<em>type</em>, optional&nbsp;<em
+		>attributes</em
+	>&nbsp;and&nbsp;<em>content</em>, also optional.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -58,17 +59,19 @@
 		last_edited_time: '2022-01-26T08:45:00.000Z'
 	}}
 >
-	That said, in titling this doc <em>Components</em>, I’m referring specifically to <em>Svelte</em>
-	components, i.e., pages ending in <em>.svelte</em>, for it’s these that make up
-	<em>notion2svelte’s</em> final output. In short:
+	That said, in titling this doc&nbsp;<em>Components</em>, I’m referring specifically to&nbsp;<em
+		>Svelte</em
+	>&nbsp;components, i.e., pages ending in&nbsp;<em>.svelte</em>, for it’s these that make up&nbsp;<em
+		>notion2svelte’s</em
+	>&nbsp;final output. In short:
 </Paragraph>
 <BulletedListItem
-	>The Web’s got <em>elements</em>: <InlineCode code={'&lt;hr /&gt;'} />, <InlineCode
+	>The Web’s got&nbsp;<em>elements</em>:&nbsp;<InlineCode code={'&lt;hr /&gt;'} />,&nbsp;<InlineCode
 		code={'&lt;a href=…&gt;🔗&lt;/a&gt;'}
 	/>, etc.</BulletedListItem
 >
 <Toggle
-	>Notion’s got <em>blocks</em>
+	>Notion’s got&nbsp;<em>blocks</em>
 	<InlineColor value="gray">(toggle for details)</InlineColor>
 	<span slot="children"
 		><Paragraph
@@ -127,14 +130,14 @@
 				last_edited_time: '2022-01-26T08:33:00.000Z'
 			}}
 		>
-			And all of this complexity still boils down to the same thing: <em>types</em>, with optional
-			<em>props & content</em>.
+			And all of this complexity still boils down to the same thing:&nbsp;<em>types</em>, with
+			optional&nbsp;<em>props & content</em>.
 		</Paragraph>
 	</span></Toggle
 ><BulletedListItem
-	>Svelte’s got <em>components</em>: <InlineCode code={'&lt;Divider /&gt;'} />, <InlineCode
-		code={'&lt;Code language=…/&gt;'}
-	/>, and these are our current topic.</BulletedListItem
+	>Svelte’s got&nbsp;<em>components</em>:&nbsp;<InlineCode
+		code={'&lt;Divider /&gt;'}
+	/>,&nbsp;<InlineCode code={'&lt;Code language=…/&gt;'} />, and these are our current topic.</BulletedListItem
 >
 <Paragraph
 	blockProps={{
@@ -158,7 +161,9 @@
 	}}
 >
 	To orient you as you read the docs below, they are all organized using the same four headers, each
-	intended to give you a clear vision of the <em>before-</em>, <em>during-</em>, and <em>after</em>.
+	intended to give you a clear vision of the&nbsp;<em>before-</em>,&nbsp;<em>during-</em>, and&nbsp;<em
+		>after</em
+	>.
 </Paragraph>
 <NumberedListItem number="1">
 	<InlineColor value="green"><strong>As rendered in Notion</strong></InlineColor></NumberedListItem
@@ -173,7 +178,8 @@
 		}}
 	>
 		Individual components start their lives as blocks in Notion, completely independent, of course,
-		from <em>notion2svelte</em>. You’ll find a screenshot of each component at the top of each doc.
+		from&nbsp;<em>notion2svelte</em>. You’ll find a screenshot of each component at the top of each
+		doc.
 	</Paragraph>
 </IndentGroup>
 <NumberedListItem number="2">
@@ -188,8 +194,8 @@
 			last_edited_time: '2022-01-17T08:11:00.000Z'
 		}}
 	>
-		<em>notion2svelte</em> recursively fetches all the blocks on a page and stores the result in a
-		single <em>.json</em> file next to the final <em>.svelte</em> output.
+		<em>notion2svelte</em>&nbsp;recursively fetches all the blocks on a page and stores the result
+		in a single&nbsp;<em>.json</em>&nbsp;file next to the final&nbsp;<em>.svelte</em>&nbsp;output.
 	</Paragraph>
 </IndentGroup>
 <NumberedListItem number="3">
@@ -204,7 +210,7 @@
 			last_edited_time: '2022-01-23T21:24:00.000Z'
 		}}
 	>
-		<InlineCode code={'{&quot;type&quot;:&quot;thingy&quot;…}'} /> → <InlineCode
+		<InlineCode code={'{&quot;type&quot;:&quot;thingy&quot;…}'} />&nbsp;→&nbsp;<InlineCode
 			code={'&lt;Thingy&gt;…&lt;/Thingy&gt;'}
 		/>
 	</Paragraph>
@@ -221,9 +227,9 @@
 			last_edited_time: '2022-01-17T08:12:00.000Z'
 		}}
 	>
-		<em>notion2svelte</em> is out of the picture again by this step, but, just as it’s helpful to
-		see a screenshot of a block type in its original <em>notion.so</em> context, so it’s helpful to see
-		(one version) of the rendered Svelte component.
+		<em>notion2svelte</em>&nbsp;is out of the picture again by this step, but, just as it’s helpful
+		to see a screenshot of a block type in its original&nbsp;<em>notion.so</em>&nbsp;context, so
+		it’s helpful to see (one version) of the rendered Svelte component.
 	</Paragraph>
 </IndentGroup>
 <Paragraph
@@ -235,8 +241,8 @@
 	}}
 >
 	You may find it interesting to note that each “Step 1” image is actually a screenshot of “Step 4”
-	as rendered on the source Notion page. The image effectively <em>freezes</em> the Notion styles, while
-	the example Svelte-side styles are native HTML elements.
+	as rendered on the source Notion page. The image effectively&nbsp;<em>freezes</em>&nbsp;the Notion
+	styles, while the example Svelte-side styles are native HTML elements.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -246,7 +252,7 @@
 		last_edited_time: '2022-01-17T08:23:00.000Z'
 	}}
 >
-	This works because the pages on this site were generated using <em>notion2svelte!</em>
+	This works because the pages on this site were generated using&nbsp;<em>notion2svelte!</em>
 </Paragraph>
 <Header level={1}>Component Docs</Header>
 <Paragraph
@@ -314,12 +320,12 @@
 	>
 		<InlineColor value="gray"
 			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on
-		</InlineColor><Link type="absolute" href="https://fishshell.com/"
+			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
+		><Link type="absolute" href="https://fishshell.com/"
 			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray">
-			is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
-			all, so it should be pretty portable!</InlineColor
+		><InlineColor value="gray"
+			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
+			after all, so it should be pretty portable!</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -346,7 +352,7 @@
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
@@ -417,8 +423,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">
-				(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -441,12 +446,14 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
 		</BulletedListItem>
-		<BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
-		<BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+		<BulletedListItem
+			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

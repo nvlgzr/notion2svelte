@@ -45,9 +45,8 @@
 	}}
 >
 	There’s not much point in documenting these components separately. Needless to say, Columns live
-	inside ColumnLists. As defined by Notion, every ColumnList is effectively just a single row of <em
-		>n</em
-	> columns.
+	inside ColumnLists. As defined by Notion, every ColumnList is effectively just a single row
+	of&nbsp;<em>n</em>&nbsp;columns.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -58,8 +57,8 @@
 	}}
 >
 	Both are intended to be layout-only, though you’re certainly welcome to add backgrounds and
-	outlines and gradients and wtf you want because <em>that’s the whole point</em> of extracting your
-	content from Notion! 😉
+	outlines and gradients and wtf you want because&nbsp;<em>that’s the whole point</em>&nbsp;of
+	extracting your content from Notion! 😉
 </Paragraph>
 <Header level={1}>1. Notion original</Header>
 <Image url="/assets/layout-only-components/columns/5943669d-e80c-478d-9f17-870261454e36.png"
@@ -75,7 +74,7 @@
 		last_edited_time: '2022-01-28T20:28:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].json</em></InlineColor
 	>
 </Paragraph>
@@ -287,7 +286,7 @@
 		last_edited_time: '2022-01-28T20:32:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].svelte</em></InlineColor
 	>
 </Paragraph>
@@ -316,15 +315,15 @@
 		last_edited_time: '2022-01-28T22:56:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Rendered by</InlineColor><Link
+	<InlineColor value="gray">Rendered by&nbsp;</InlineColor><Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/ColumnList.svelte"
 		><InlineColor value="gray">ColumnList.svelte</InlineColor></Link
-	><InlineColor value="gray">&</InlineColor><Link
+	><InlineColor value="gray">&nbsp;&&nbsp;</InlineColor><Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Column.svelte"
 		><InlineColor value="gray">Column.svelte</InlineColor></Link
-	><InlineColor value="gray">(wHeader and Image)</InlineColor>
+	><InlineColor value="gray">&nbsp;(wHeader and Image)</InlineColor>
 </Paragraph>
 <ColumnList cols={3}
 	><Column
@@ -348,11 +347,12 @@
 	Oh boy. Notice how the first two images have failed to render? It would seem that Notion’s
 	Amazon-backed images are pre-processed for use in Notion pages, ensuring that they always render
 	just fine, whereas the Notion API gives you back your original image which — if it happens to be
-	in <em>.heic</em> format, as is often the case when saving from on an iPhone — will simply <Link
+	in&nbsp;<em>.heic</em>&nbsp;format, as is often the case when saving from on an iPhone — will
+	simply&nbsp;<Link
 		type="absolute"
 		href="https://stackoverflow.com/questions/51135568/image-heic-not-loaded-properly-on-browsers"
 		>fail</Link
-	> to render. <Link type="absolute" href="https://caniuse.com/heif"
+	>&nbsp;to render.&nbsp;<Link type="absolute" href="https://caniuse.com/heif"
 		><strong>Even in Safari</strong></Link
 	>!
 </Paragraph>
@@ -365,7 +365,8 @@
 	}}
 >
 	Although it’s tempting to get angry with Apple for using HEIF without properly supporting it, the
-	only thing in <em>my</em> power is to augment <em>notion2svelte</em> to compensate.
+	only thing in&nbsp;<em>my</em>&nbsp;power is to augment&nbsp;<em>notion2svelte</em>&nbsp;to
+	compensate.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -429,12 +430,12 @@
 	>
 		<InlineColor value="gray"
 			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on
-		</InlineColor><Link type="absolute" href="https://fishshell.com/"
+			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
+		><Link type="absolute" href="https://fishshell.com/"
 			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray">
-			is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
-			all, so it should be pretty portable!</InlineColor
+		><InlineColor value="gray"
+			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
+			after all, so it should be pretty portable!</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -461,7 +462,7 @@
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
@@ -532,8 +533,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">
-				(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -556,12 +556,14 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
 		</BulletedListItem>
-		<BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
-		<BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+		<BulletedListItem
+			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

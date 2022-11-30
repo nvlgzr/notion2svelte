@@ -44,9 +44,10 @@
 		last_edited_time: '2022-01-27T06:12:00.000Z'
 	}}
 >
-	One of a very few layout-only components, <InlineCode code={'IndentGroup'} /> is simply a wrapper for
-	positioning <Link type="mention" href="/high-level-discussion/nested-blocks">Nested Blocks</Link>.
-	In fact, that document’s got all you really need to know.
+	One of a very few layout-only components,&nbsp;<InlineCode code={'IndentGroup'} />&nbsp;is simply
+	a wrapper for positioning&nbsp;<Link type="mention" href="/high-level-discussion/nested-blocks"
+		>Nested Blocks</Link
+	>. In fact, that document’s got all you really need to know.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -56,8 +57,8 @@
 		last_edited_time: '2022-01-27T06:14:00.000Z'
 	}}
 >
-	This page is mainly here to demonstrate <em>notion2svelte’s</em> support for the crazy mishmush of
-	nesting combinations Notion allows.
+	This page is mainly here to demonstrate&nbsp;<em>notion2svelte’s</em>&nbsp;support for the crazy
+	mishmush of nesting combinations Notion allows.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -67,9 +68,9 @@
 		last_edited_time: '2022-01-27T06:23:00.000Z'
 	}}
 >
-	As ugly as this looks in Notion, this site’s <em>Example Rendering</em> ↓ is much uglier. I’ve thrown
-	my styles together somewhat fast and loose, and sometimes the vertical spacing looks pretty off. Ah,
-	well.
+	As ugly as this looks in Notion, this site’s&nbsp;<em>Example Rendering</em>&nbsp;↓ is much
+	uglier. I’ve thrown my styles together somewhat fast and loose, and sometimes the vertical spacing
+	looks pretty off. Ah, well.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -81,7 +82,7 @@
 >
 	As the elder said:
 </Paragraph>
-<Quote>“Make it work, <em>then</em> make it pretty!” —🧓🏼</Quote><Header level={1}
+<Quote>“Make it work,&nbsp;<em>then</em>&nbsp;make it pretty!” —🧓🏼</Quote><Header level={1}
 	>1. Notion original</Header
 >
 <Image url="/assets/layout-only-components/indent-group/35d7bc61-08ab-4bdf-894d-9d1b9ef1df85.png" />
@@ -94,7 +95,7 @@
 		last_edited_time: '2022-01-28T20:28:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].json</em></InlineColor
 	>
 </Paragraph>
@@ -796,7 +797,7 @@
 		last_edited_time: '2022-01-28T20:32:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].svelte</em></InlineColor
 	>
 </Paragraph>
@@ -826,7 +827,7 @@
     &lt;/Paragraph&gt;
     &lt;BulletedListItem&gt;I’m bulleted, though&lt;/BulletedListItem&gt;
     &lt;Callout emoji=&quot;🦦&quot;
-      &gt;I’m a callout with my&amp;nbsp;&lt;em&gt;own&lt;/em&gt;&amp;nbsp;nested blocks&lt;span slot=&quot;children&quot;
+      &gt;I’m a callout with my &lt;em&gt;own&lt;/em&gt; nested blocks&lt;span slot=&quot;children&quot;
         &gt;&lt;IndentGroup&gt;
           &lt;NumberedListItem number=&quot;a&quot;&gt;Numbered&lt;/NumberedListItem&gt;
           &lt;IndentGroup&gt;
@@ -877,11 +878,11 @@
 		last_edited_time: '2022-01-28T22:52:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Rendered by</InlineColor><Link
+	<InlineColor value="gray">Rendered by&nbsp;</InlineColor><Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/IndentGroup.svelte"
 		><InlineColor value="gray">IndentGroup.svelte</InlineColor></Link
-	><InlineColor value="gray">(and a bunch of other components!)</InlineColor>
+	><InlineColor value="gray">&nbsp;(and a bunch of other components!)</InlineColor>
 </Paragraph>
 <Toggle
 	>Even basic Paragraph blocks can contain nested blocks, but Toggles are the classic example
@@ -908,7 +909,7 @@
 		</Paragraph>
 		<BulletedListItem>I’m bulleted, though</BulletedListItem>
 		<Callout emoji="🦦"
-			>I’m a callout with my <em>own</em> nested blocks<span slot="children"
+			>I’m a callout with my&nbsp;<em>own</em>&nbsp;nested blocks<span slot="children"
 				><NumberedListItem number="a">Numbered</NumberedListItem>
 				<IndentGroup>
 					<NumberedListItem number="i">Lists</NumberedListItem>
@@ -985,12 +986,12 @@
 	>
 		<InlineColor value="gray"
 			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on
-		</InlineColor><Link type="absolute" href="https://fishshell.com/"
+			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
+		><Link type="absolute" href="https://fishshell.com/"
 			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray">
-			is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
-			all, so it should be pretty portable!</InlineColor
+		><InlineColor value="gray"
+			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
+			after all, so it should be pretty portable!</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -1017,7 +1018,7 @@
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
@@ -1088,8 +1089,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">
-				(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -1112,12 +1112,14 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
 		</BulletedListItem>
-		<BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
-		<BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+		<BulletedListItem
+			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

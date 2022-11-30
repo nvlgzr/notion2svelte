@@ -81,9 +81,9 @@
 		last_edited_time: '2022-01-26T05:03:00.000Z'
 	}}
 >
-	Indenting’s handled by the <Link type="mention" href="/layout-only-components/indent-group"
+	Indenting’s handled by the&nbsp;<Link type="mention" href="/layout-only-components/indent-group"
 		>IndentGroup</Link
-	> component, which is wrapped around every group of sub-blocks…hence the name.
+	>&nbsp;component, which is wrapped around every group of sub-blocks…hence the name.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -106,18 +106,15 @@
 &lt;/style&gt;`}
 		language="html"
 		><InlineColor value="gray">↑ [svelte-root]/</InlineColor><InlineColor value="gray"
-			><em
-				>src/lib/notion2svelte/IndentGroup.svelte
-				<br />
-			</em></InlineColor
+			><em>src/lib/notion2svelte/IndentGroup.svelte&nbsp;</em></InlineColor
 		><em>
 			<br />
-		</em>*Sigh. <em>notion2svelte</em> has some issues, in part thanks to its (mis?)use of Prettier,
-		with certain uses of angle brackets, hence the space before “style”. <Link
+		</em>*Sigh.&nbsp;<em>notion2svelte</em>&nbsp;has some issues, in part thanks to its (mis?)use of
+		Prettier, with certain uses of angle brackets, hence the space before “style”.&nbsp;<Link
 			type="absolute"
 			href="https://github.com/nvlgzr/notion2svelte/discussions">Message me</Link
-		> if you have some thoughts on how to completely crush this class of bugs as it’s doing my head in.
-		😬</Code
+		>&nbsp;if you have some thoughts on how to completely crush this class of bugs as it’s doing my
+		head in. 😬</Code
 	>
 </IndentGroup>
 <Paragraph
@@ -128,7 +125,7 @@
 		last_edited_time: '2022-01-27T07:08:00.000Z'
 	}}
 >
-	This simple implementation is literally all you need to nest <Link
+	This simple implementation is literally all you need to nest&nbsp;<Link
 		type="absolute"
 		href="http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html"
 		>All the Things™</Link
@@ -143,7 +140,7 @@
 	}}
 />
 <Callout emoji="🦦"
-	>To jump start your components (including your IndentGroup component), check out: <Link
+	>To jump start your components (including your IndentGroup component), check out:&nbsp;<Link
 		type="absolute"
 		href="https://github.com/nvlgzr/n2s-starter-components">n2s Starter Components</Link
 	>.</Callout
@@ -188,12 +185,12 @@
 	>
 		<InlineColor value="gray"
 			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on
-		</InlineColor><Link type="absolute" href="https://fishshell.com/"
+			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
+		><Link type="absolute" href="https://fishshell.com/"
 			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray">
-			is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
-			all, so it should be pretty portable!</InlineColor
+		><InlineColor value="gray"
+			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
+			after all, so it should be pretty portable!</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -220,7 +217,7 @@
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
@@ -291,8 +288,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">
-				(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -315,12 +311,14 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
 		</BulletedListItem>
-		<BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
-		<BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+		<BulletedListItem
+			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

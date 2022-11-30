@@ -38,7 +38,7 @@
 <Title>Configuring your .env</Title>
 
 <Callout emoji="🧸"
-	>This information on this page can also be found in <Link
+	>This information on this page can also be found in&nbsp;<Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/.env-sample"><em>.env-sample</em></Link
 	></Callout
@@ -51,8 +51,8 @@
 		last_edited_time: '2022-02-18T07:45:00.000Z'
 	}}
 >
-	In order to fetch data from your Notion account, <em>notion2svelte</em> needs a “secret,” which
-	you can generate by following <Link
+	In order to fetch data from your Notion account,&nbsp;<em>notion2svelte</em>&nbsp;needs a
+	“secret,” which you can generate by following&nbsp;<Link
 		type="absolute"
 		href="https://developers.notion.com/docs/getting-started">these instructions</Link
 	>.
@@ -65,10 +65,10 @@
 		last_edited_time: '2022-02-18T07:45:00.000Z'
 	}}
 >
-	<em>notion2svelte</em> is designed to interface with your pages via a Notion database, so make
-	sure that said database is connected to whatever secret you use for <InlineCode
+	<em>notion2svelte</em>&nbsp;is designed to interface with your pages via a Notion database, so
+	make sure that said database is connected to whatever secret you use for&nbsp;<InlineCode
 		code={'NOTION_API_KEY'}
-	/> via a Notion “Integration”.
+	/>&nbsp;via a Notion “Integration”.
 </Paragraph>
 <Header level={1}>Optional keys</Header>
 <Header level={2}>Regular use</Header>
@@ -85,9 +85,9 @@ OUTPUT_STATIC_FOLDER=`}
 		last_edited_time: '2022-02-18T07:45:00.000Z'
 	}}
 >
-	<InlineCode code={'PUBLISHABLE_STATUS'} /> defines the string that <em>notion2svelte</em> uses to
-	filter against your pages’ <em>Status</em> prop; if <em>Status</em> is not set to (by default)
-	<em>Publishable</em>, the page won’t be included.
+	<InlineCode code={'PUBLISHABLE_STATUS'} />&nbsp;defines the string that&nbsp;<em>notion2svelte</em
+	>&nbsp;uses to filter against your pages’&nbsp;<em>Status</em>&nbsp;prop; if&nbsp;<em>Status</em
+	>&nbsp;is not set to (by default)&nbsp;<em>Publishable</em>, the page won’t be included.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -97,8 +97,9 @@ OUTPUT_STATIC_FOLDER=`}
 		last_edited_time: '2022-02-18T07:45:00.000Z'
 	}}
 >
-	<InlineCode code={'OUTPUT_PATH'} /> tells <em>notion2svelte</em> where to save <em>.svelte</em>
-	files. If left empty (the default), <em>notion2svelte</em> will output to the current directory.
+	<InlineCode code={'OUTPUT_PATH'} />&nbsp;tells&nbsp;<em>notion2svelte</em>&nbsp;where to
+	save&nbsp;<em>.svelte</em>&nbsp;files. If left empty (the default),&nbsp;<em>notion2svelte</em
+	>&nbsp;will output to the current directory.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -108,10 +109,9 @@ OUTPUT_STATIC_FOLDER=`}
 		last_edited_time: '2022-02-18T07:46:00.000Z'
 	}}
 >
-	<InlineCode code={'OUTPUT_STATIC_FOLDER'} /> tells <em>notion2svelte</em> where to save
-	<em>media</em>
-	files, esp. images. Again, the default is empty, meaning images will be stored in
-	<em>./static/<page-id>/…</page-id></em>
+	<InlineCode code={'OUTPUT_STATIC_FOLDER'} />&nbsp;tells&nbsp;<em>notion2svelte</em>&nbsp;where to
+	save&nbsp;<em>media</em>&nbsp;files, esp. images. Again, the default is empty, meaning images will
+	be stored in&nbsp;<em>./static/<page-id>/…</page-id></em>
 </Paragraph>
 <Header level={2}>Debugging</Header>
 <Paragraph
@@ -122,7 +122,7 @@ OUTPUT_STATIC_FOLDER=`}
 		last_edited_time: '2022-02-18T07:46:00.000Z'
 	}}
 >
-	While building <em>notion2svelte</em>, I found myself frequently needing to rerun the tool
+	While building&nbsp;<em>notion2svelte</em>, I found myself frequently needing to rerun the tool
 	repeatedly on a single page.
 </Paragraph>
 <Paragraph
@@ -149,8 +149,8 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 		last_edited_time: '2022-02-18T07:46:00.000Z'
 	}}
 >
-	<InlineCode code={'NOTION_TEST_PAGE_ID'} /> skips the pages-from-database loop, and fetches just the
-	one page specified.
+	<InlineCode code={'NOTION_TEST_PAGE_ID'} />&nbsp;skips the pages-from-database loop, and fetches
+	just the one page specified.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -160,7 +160,8 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 		last_edited_time: '2022-02-18T07:48:00.000Z'
 	}}
 >
-	<InlineCode code={'CACHE_TOKEN'} /> helps <em>notion2svelte</em> whether it should fetch the test page:
+	<InlineCode code={'CACHE_TOKEN'} />&nbsp;helps&nbsp;<em>notion2svelte</em>&nbsp;whether it should
+	fetch the test page:
 </Paragraph>
 <IndentGroup>
 	<Paragraph
@@ -171,8 +172,9 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 			last_edited_time: '2022-02-18T07:51:00.000Z'
 		}}
 	>
-		<em>If</em> the cache token <em>matches</em> the test page id, <em>notion2svelte</em> will skip fetching,
-		and instead read the page object from locally-stored* JSON.
+		<em>If</em>&nbsp;the cache token&nbsp;<em>matches</em>&nbsp;the test page id,&nbsp;<em
+			>notion2svelte</em
+		>&nbsp;will skip fetching, and instead read the page object from locally-stored* JSON.
 	</Paragraph>
 	<IndentGroup>
 		<Paragraph
@@ -183,13 +185,14 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 				last_edited_time: '2022-02-18T07:51:00.000Z'
 			}}
 		>
-			<InlineColor value="gray">*In</InlineColor><InlineColor value="gray"
+			<InlineColor value="gray">*In&nbsp;</InlineColor><InlineColor value="gray"
 				><em>notion2svelte 0.0.1</em></InlineColor
-			><InlineColor value="gray">, a</InlineColor><InlineColor value="gray"
+			><InlineColor value="gray">, a&nbsp;</InlineColor><InlineColor value="gray"
 				><em><slug>.json</slug></em></InlineColor
-			><InlineColor value="gray">precursor file is output with every</InlineColor><InlineColor
-				value="gray"><em><slug>.svelte</slug></em></InlineColor
-			><InlineColor value="gray">page.</InlineColor>
+			><InlineColor value="gray">&nbsp;precursor file is output with every&nbsp;</InlineColor
+			><InlineColor value="gray"><em><slug>.svelte</slug></em></InlineColor><InlineColor
+				value="gray">&nbsp;page.</InlineColor
+			>
 		</Paragraph>
 	</IndentGroup>
 	<Paragraph
@@ -200,9 +203,10 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 			last_edited_time: '2022-02-18T07:50:00.000Z'
 		}}
 	>
-		It’s a bit of a hack because <em>notion2svelte</em> actually <em>updates</em> the CACHE_TOKEN in
-		your <em>.env</em> every time a test page is fetched. It seems wrong to have a tool editing its
-		own <em>.env</em> file, but it worked and it was easy, so for now, this is how it works. ¯\_(ツ)_/¯
+		It’s a bit of a hack because&nbsp;<em>notion2svelte</em>&nbsp;actually&nbsp;<em>updates</em
+		>&nbsp;the CACHE_TOKEN in your&nbsp;<em>.env</em>&nbsp;every time a test page is fetched. It
+		seems wrong to have a tool editing its own&nbsp;<em>.env</em>&nbsp;file, but it worked and it
+		was easy, so for now, this is how it works. ¯\_(ツ)_/¯
 	</Paragraph>
 </IndentGroup>
 <Paragraph
@@ -213,9 +217,9 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 		last_edited_time: '2022-02-18T07:51:00.000Z'
 	}}
 >
-	<InlineCode code={'FORCE_REFRESH'} />, when set to <InlineCode code={'true'} />, tells
-	<em>notion2svelte</em>
-	to ignore the cache token & hit the Notion API <em>every</em> time.
+	<InlineCode code={'FORCE_REFRESH'} />, when set to&nbsp;<InlineCode code={'true'} />, tells&nbsp;<em
+		>notion2svelte</em
+	>&nbsp;to ignore the cache token & hit the Notion API&nbsp;<em>every</em>&nbsp;time.
 </Paragraph>
 <Divider />
 <Header level={1}>Where to learn more</Header>
@@ -250,12 +254,12 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 	>
 		<InlineColor value="gray"
 			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on
-		</InlineColor><Link type="absolute" href="https://fishshell.com/"
+			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
+		><Link type="absolute" href="https://fishshell.com/"
 			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray">
-			is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
-			all, so it should be pretty portable!</InlineColor
+		><InlineColor value="gray"
+			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
+			after all, so it should be pretty portable!</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -282,7 +286,7 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
@@ -353,8 +357,7 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">
-				(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -377,12 +380,14 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
 		</BulletedListItem>
-		<BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
-		<BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+		<BulletedListItem
+			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

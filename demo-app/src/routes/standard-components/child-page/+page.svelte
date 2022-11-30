@@ -48,10 +48,11 @@
 	In a traditional file directory, there is a distinction between, well, files and directories. Not
 	so with Notion, where the parent of any given page is either another page or the sidebar. This
 	presents a challenge when mapping Notion pages to files in a directory tree, which is what’s
-	required on the output side of <em>notion2svelte</em>.
+	required on the output side of&nbsp;<em>notion2svelte</em>.
 </Paragraph>
 <Callout emoji="🤔"
-	>What is the “right” way to represent a <em>child_page</em> in <em>src/routes</em>?</Callout
+	>What is the “right” way to represent a&nbsp;<em>child_page</em>&nbsp;in&nbsp;<em>src/routes</em
+	>?</Callout
 ><Paragraph
 	blockProps={{
 		pageId: '991f1062fc784019aea56e890ca04ca2',
@@ -60,10 +61,11 @@
 		last_edited_time: '2022-01-31T06:49:00.000Z'
 	}}
 >
-	For this first release, <em>notion2svelte </em>gives you more than you probably need when it comes
-	to child pages…enough to render the entire page, in fact (minus the title/cover/icon…)! But this
-	comes with a caveat: it’s <em>not</em> recursive. That means that you’ll get errors wherever
-	<em>notion2svelte </em>encounters a child page inside another child page.
+	For this first release,&nbsp;<em>notion2svelte&nbsp;</em>gives you more than you probably need
+	when it comes to child pages…enough to render the entire page, in fact (minus the
+	title/cover/icon…)! But this comes with a caveat: it’s&nbsp;<em>not</em>&nbsp;recursive. That
+	means that you’ll get errors wherever&nbsp;<em>notion2svelte&nbsp;</em>encounters a child page
+	inside another child page.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -73,8 +75,8 @@
 		last_edited_time: '2022-01-31T06:50:00.000Z'
 	}}
 >
-	The demo component I made for this site goes the unusual route of <em>inlining</em> the child page.
-	There’s no practical motivation behind this…it was fast and cheap to do.
+	The demo component I made for this site goes the unusual route of&nbsp;<em>inlining</em>&nbsp;the
+	child page. There’s no practical motivation behind this…it was fast and cheap to do.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -93,8 +95,9 @@
 	}}
 >
 	This is one of the components most likely to change in future versions. Got a great idea for how
-	this should work? <Link type="absolute" href="https://github.com/nvlgzr/notion2svelte/discussions"
-		>Let me know</Link
+	this&nbsp;should work?&nbsp;<Link
+		type="absolute"
+		href="https://github.com/nvlgzr/notion2svelte/discussions">Let me know</Link
 	>!
 </Paragraph>
 <Header level={1}>1. Notion original</Header>
@@ -108,7 +111,7 @@
 		last_edited_time: '2022-01-28T20:28:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].json</em></InlineColor
 	>
 </Paragraph>
@@ -177,7 +180,7 @@
 		last_edited_time: '2022-01-28T20:32:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].svelte</em></InlineColor
 	>
 </Paragraph>
@@ -193,7 +196,7 @@
     &gt;⚠️ child_page: &lt;span
       style=&quot;font-weight: 600; display: inline; padding: 3px; border-radius: 3px;&quot;
       &gt;I’m the grandchild.&lt;/span
-    &gt;&amp;nbsp;has no content&lt;/p
+    &gt; has no content&lt;/p
   &gt;
   &lt;Error
     pageId=&quot;991f1062fc784019aea56e890ca04ca2&quot;
@@ -213,10 +216,10 @@
   /&gt;
 &lt;/ChildPage&gt;`}
 	language="html"
-	>By including a grandchild page <em>and</em> a link to the same grandchild page, we’ve generated
-	two distinct errors. The first (⚠️) is a “warning” generated while rendering “annotated” spans of
-	text. The second (the wiggly one below) is a catch-all for all uncaught errors thrown during
-	<em>notion2svelte </em>execution.
+	>By including a grandchild page&nbsp;<em>and</em>&nbsp;a link to the same grandchild page, we’ve
+	generated two distinct errors. The first (⚠️) is a “warning” generated while rendering “annotated”
+	spans of text. The second (the wiggly one below) is a catch-all for all uncaught errors thrown
+	during&nbsp;<em>notion2svelte&nbsp;</em>execution.
 	<br />
 	See <Link type="mention" href="/other-components/error">Error</Link>.</Code
 ><Header level={1}>4. Example rendering</Header>
@@ -228,7 +231,7 @@
 		last_edited_time: '2022-01-28T21:03:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Rendered by</InlineColor><Link
+	<InlineColor value="gray">Rendered by&nbsp;</InlineColor><Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/ChildPage.svelte"
 		><InlineColor value="gray">ChildPage.svelte</InlineColor></Link
@@ -281,9 +284,9 @@
 	}}
 />
 <Callout emoji="🚧"
-	>Just to reiterate: with this current version of <em>notion2svelte</em>, it’s best to either avoid
-	nesting child pages, or perhaps just have your ChildPage component generate a link back to the
-	original Notion page?<span slot="children"
+	>Just to reiterate: with this current version of&nbsp;<em>notion2svelte</em>, it’s best to either
+	avoid nesting child pages, or perhaps just have your ChildPage component generate a link back to
+	the original Notion page?<span slot="children"
 		><Paragraph
 			blockProps={{
 				pageId: '991f1062fc784019aea56e890ca04ca2',
@@ -337,12 +340,12 @@
 	>
 		<InlineColor value="gray"
 			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on
-		</InlineColor><Link type="absolute" href="https://fishshell.com/"
+			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
+		><Link type="absolute" href="https://fishshell.com/"
 			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray">
-			is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
-			all, so it should be pretty portable!</InlineColor
+		><InlineColor value="gray"
+			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
+			after all, so it should be pretty portable!</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -369,7 +372,7 @@
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
@@ -440,8 +443,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">
-				(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -464,12 +466,14 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
 		</BulletedListItem>
-		<BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
-		<BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+		<BulletedListItem
+			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

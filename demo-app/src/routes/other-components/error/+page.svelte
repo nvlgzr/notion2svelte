@@ -45,8 +45,8 @@
 		last_edited_time: '2022-01-31T20:52:00.000Z'
 	}}
 >
-	While in the middle of developing <em>notion2svelte</em>, I became frustrated whenever some
-	uncaught error would crash <em>notion2svelte</em>. First there would be the confusion of “why
+	While in the middle of developing&nbsp;<em>notion2svelte</em>, I became frustrated whenever some
+	uncaught error would crash&nbsp;<em>notion2svelte</em>. First there would be the confusion of “why
 	isn’t it rendering as I expected?”. Then there was an inevitable scramble to look in various
 	consoles for an error.
 </Paragraph>
@@ -70,11 +70,13 @@
 		last_edited_time: '2022-01-31T21:00:00.000Z'
 	}}
 >
-	In the Notion database that hosts my source files for this site, I have a page called <em
+	In the Notion database that hosts my source files for this site, I have a page called&nbsp;<em
 		>README (For Visitors)</em
 	>. I don’t ever intend to publish that file here, and so it has no slug, nor have I marked it
-	Publishable before running <em>notion2svelte.</em> Point being, <em>notion2svelte</em> doesn’t recognize
-	it, and so it throws an error which, as of this writing, I don’t catch and handle in any useful way.
+	Publishable before running&nbsp;<em>notion2svelte.</em>&nbsp;Point being,&nbsp;<em
+		>notion2svelte</em
+	>&nbsp;doesn’t recognize it, and so it throws an error which, as of this writing, I don’t catch
+	and handle in any useful way.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -84,11 +86,11 @@
 		last_edited_time: '2022-01-31T21:01:00.000Z'
 	}}
 >
-	Point being, as soon as I try to @mention that page, it’ll end up throwing when I run <em
+	Point being, as soon as I try to @mention that page, it’ll end up throwing when I run&nbsp;<em
 		>notion2svelte</em
-	>, and <em>notion2svelte</em> will take that error and render it as an <InlineCode
+	>, and&nbsp;<em>notion2svelte</em>&nbsp;will take that error and render it as an&nbsp;<InlineCode
 		code={'Error'}
-	/> component in the app.
+	/>&nbsp;component in the app.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -136,7 +138,7 @@
 		last_edited_time: '2022-01-31T21:02:00.000Z'
 	}}
 >
-	↑ Rendered by <Link
+	↑ Rendered by&nbsp;<Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Error.svelte"
 		>Error.svelte</Link
@@ -183,12 +185,12 @@
 	>
 		<InlineColor value="gray"
 			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on
-		</InlineColor><Link type="absolute" href="https://fishshell.com/"
+			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
+		><Link type="absolute" href="https://fishshell.com/"
 			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray">
-			is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
-			all, so it should be pretty portable!</InlineColor
+		><InlineColor value="gray"
+			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
+			after all, so it should be pretty portable!</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -215,7 +217,7 @@
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
@@ -286,8 +288,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">
-				(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -310,12 +311,14 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
 		</BulletedListItem>
-		<BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
-		<BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+		<BulletedListItem
+			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

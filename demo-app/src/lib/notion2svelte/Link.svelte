@@ -26,10 +26,6 @@
     transition-duration: 0.2s;
     border-radius: 0.1rem;
   }
-  a:before {
-    content: '';
-    margin-left: 0.25rem;
-  }
   a:after {
     position: relative;
     margin-right: 0.1rem;

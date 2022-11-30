@@ -58,11 +58,11 @@
 	}}
 >
 	In such cases, I find myself having to go into Notion to add a pair of temporary blocks with dummy
-	content which I move around, trying to surround the invisible broken blocks. Once I can see (via <em
-		>notion2svelte’s</em
-	>
-	output) that my temp blocks have bookended the broken ones, I can select everything between the
-	two temp blocks, inclusive, and delete. Then rerun <em>notion2svelte</em>.
+	content which I move around, trying to surround the invisible broken blocks. Once I can see
+	(via&nbsp;<em>notion2svelte’s</em>&nbsp;output) that my temp blocks have bookended the broken
+	ones, I can select everything between the two temp blocks, inclusive, and delete. Then rerun&nbsp;<em
+		>notion2svelte</em
+	>.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -73,7 +73,7 @@
 	}}
 >
 	Despite this hassle, I’m using synced blocks, for now,* to consistently generate the end material
-	on every page, which serves as both navigation and, thanks to CSS’s <InlineCode
+	on every page, which serves as both navigation and, thanks to CSS’s&nbsp;<InlineCode
 		code={':visited'}
 	/>, as a map of the docs you’ve read…or at least glanced at.
 </Paragraph>
@@ -87,14 +87,11 @@
 		}}
 	>
 		<InlineColor value="gray"
-			>*There are multiple possibilities for implementing more “standard” web navigation with
-		</InlineColor><InlineColor value="gray"><em>notion2svelte</em></InlineColor><InlineColor
-			value="gray"
-			>. For instance, navigation could be built at compile time using Svelte Kit’s
-		</InlineColor><InlineColor value="gray"><InlineCode code={'load'} /></InlineColor><InlineColor
-			value="gray"
-		>
-			to scan the file system.</InlineColor
+			>*There are multiple possibilities for implementing more “standard” web navigation with&nbsp;</InlineColor
+		><InlineColor value="gray"><em>notion2svelte</em></InlineColor><InlineColor value="gray"
+			>. For instance, navigation could be built at compile time using Svelte Kit’s&nbsp;</InlineColor
+		><InlineColor value="gray"><InlineCode code={'load'} /></InlineColor><InlineColor value="gray"
+			>&nbsp;to scan the file system.</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -107,9 +104,9 @@
 	>
 		<InlineColor value="gray"
 			>Some of your navigation might simply be hand-coded. There’s probably room to incorporate some
-			sort of Notion-driven nav in
-		</InlineColor><InlineColor value="gray"><em>notion2svelte, </em></InlineColor><InlineColor
-			value="gray">but for now, that’s out of scope.</InlineColor
+			sort of Notion-driven nav in&nbsp;</InlineColor
+		><InlineColor value="gray"><em>notion2svelte,&nbsp;</em></InlineColor><InlineColor value="gray"
+			>but for now, that’s out of scope.</InlineColor
 		>
 	</Paragraph>
 </IndentGroup>
@@ -124,7 +121,7 @@
 		last_edited_time: '2022-01-28T20:28:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].json</em></InlineColor
 	>
 </Paragraph>
@@ -191,7 +188,7 @@
 		last_edited_time: '2022-01-28T20:32:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].svelte</em></InlineColor
 	>
 </Paragraph>
@@ -215,8 +212,9 @@
 		last_edited_time: '2022-01-28T20:40:00.000Z'
 	}}
 >
-	At present, <em>notion2svelte</em> responds to Synced Blocks by simply stripping them away. I wasn’t
-	able to think of a more interesting use for them, given that they are primarily an input tool.
+	At present,&nbsp;<em>notion2svelte</em>&nbsp;responds to Synced Blocks by simply stripping them
+	away. I wasn’t able to think of a more interesting use for them, given that they are primarily an
+	input tool.
 </Paragraph>
 <Header level={1}>4. Example rendering</Header>
 <Header level={3}>The Original</Header>
@@ -282,12 +280,12 @@
 	>
 		<InlineColor value="gray"
 			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on
-		</InlineColor><Link type="absolute" href="https://fishshell.com/"
+			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
+		><Link type="absolute" href="https://fishshell.com/"
 			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray">
-			is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app, after
-			all, so it should be pretty portable!</InlineColor
+		><InlineColor value="gray"
+			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
+			after all, so it should be pretty portable!</InlineColor
 		>
 	</Paragraph>
 	<Paragraph
@@ -314,7 +312,7 @@
 </IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘ <Link type="alias" href="/about-notion2svelte">🏠</Link>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
 </Header>
 <ColumnList cols={2}
 	><Column
@@ -385,8 +383,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">
-				(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -409,12 +406,14 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong> → <InlineCode code={'&lt;strong&gt;'} />
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
 		</BulletedListItem>
-		<BulletedListItem><em>italic</em> → <InlineCode code={'&lt;em&gt;'} /></BulletedListItem>
-		<BulletedListItem><s>strikethrough</s> → NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span> → NYI</BulletedListItem
+			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
+		<BulletedListItem
+			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem
