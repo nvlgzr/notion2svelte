@@ -12,8 +12,7 @@
   };
 </script>
 
-<pre>
-  <code>{unEscapeHtml(code)}</code>
+<pre><code>{unEscapeHtml(code)}</code>
   <span>{language}</span>
 </pre>
 <div>
