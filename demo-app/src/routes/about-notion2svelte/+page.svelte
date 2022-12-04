@@ -43,9 +43,9 @@
 <Paragraph
 	blockProps={{
 		pageId: 'fdc65179a8bd451caf6759019204cfde',
-		id: '1ceeb64a-bae5-458f-855b-912a863940bb',
-		created_time: '2022-01-04T05:46:00.000Z',
-		last_edited_time: '2022-01-04T06:03:00.000Z'
+		id: 'b0408b84-5dd5-49db-805e-a1ec19657fb8',
+		created_time: '2022-12-02T05:23:00.000Z',
+		last_edited_time: '2022-12-02T05:26:00.000Z'
 	}}
 />
 <Quote
@@ -231,10 +231,10 @@
 		pageId: 'fdc65179a8bd451caf6759019204cfde',
 		id: 'e8632bf0-7ed4-407b-a1c1-402b916dc158',
 		created_time: '2022-01-27T06:27:00.000Z',
-		last_edited_time: '2022-02-18T07:03:00.000Z'
+		last_edited_time: '2022-12-02T05:26:00.000Z'
 	}}
 >
-	It’s a bit of an adventure. Kinda like driving stick for the first time: it’s fun!…but take some
+	It’s a bit of an adventure. Kinda like driving stick for the first time: it’s fun!…but takes some
 	getting used to.
 </Paragraph>
 <Paragraph
@@ -312,37 +312,32 @@
 		>src/lib/notion2svelte&nbsp;</em
 	>— to do the actual rendering. That’s where&nbsp;<strong>you</strong>&nbsp;come in!
 </Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: 'fdc65179a8bd451caf6759019204cfde',
-		id: 'f59e36b5-bd5a-4284-9abc-648a1b432b14',
-		created_time: '2022-02-01T03:47:00.000Z',
-		last_edited_time: '2022-02-01T05:22:00.000Z'
-	}}
->
-	As the author of these components, you get to make them look & behave however you want. As a
-	for-instance: you can hover over this — or any other — paragraph to access metadata about its
-	source block in Notion.
-</Paragraph>
-<IndentGroup>
-	<Paragraph
-		blockProps={{
-			pageId: 'fdc65179a8bd451caf6759019204cfde',
-			id: '99153858-2431-48d4-b1ea-5368b0188c86',
-			created_time: '2022-02-01T05:22:00.000Z',
-			last_edited_time: '2022-02-01T05:22:00.000Z'
-		}}
-	>
-		<InlineColor value="gray">See&nbsp;</InlineColor><Link
-			type="mention"
-			href="/high-level-discussion/block-props"
-			><InlineColor value="gray"
-				><span style="text-decoration:underline;">blockProps</span></InlineColor
-			></Link
-		><InlineColor value="gray">.</InlineColor>
-	</Paragraph>
-</IndentGroup>
-<Header level={1}>Example Time! 🧐</Header>
+<ColumnList cols={2}
+	><Column
+		><Paragraph
+			blockProps={{
+				pageId: 'fdc65179a8bd451caf6759019204cfde',
+				id: 'f59e36b5-bd5a-4284-9abc-648a1b432b14',
+				created_time: '2022-02-01T03:47:00.000Z',
+				last_edited_time: '2022-12-02T06:25:00.000Z'
+			}}
+		>
+			As the author of these components, you get to make them look & behave however you want. As a
+			for-instance: you can hover over this — or any other — paragraph to access metadata about its
+			source block in Notion.
+		</Paragraph>
+	</Column><Column
+		><Image url="/assets/about-notion2svelte/844f4edc-dd62-48b2-b82b-3e55f686b115.png"
+			><InlineColor value="gray">See&nbsp;</InlineColor><Link
+				type="mention"
+				href="/high-level-discussion/block-props"
+				><InlineColor value="gray"
+					><span style="text-decoration:underline;">blockProps</span></InlineColor
+				></Link
+			><InlineColor value="gray">.</InlineColor></Image
+		>
+	</Column></ColumnList
+><Header level={1}>Example Time! 🧐</Header>
 <Paragraph
 	blockProps={{
 		pageId: 'fdc65179a8bd451caf6759019204cfde',
@@ -399,33 +394,42 @@
 	>How notion2svelte uses the Notion API
 	<span slot="children"
 		><NumberedListItem number="a">
-			We use the values in your .env to fetch all “Publishable” pages from a specified Notion
-			database. To be&nbsp;<em>publishable</em>, a page must have a property named&nbsp;<em
-				>Status</em
-			>&nbsp;with a value of&nbsp;<em>Publishable</em>.</NumberedListItem
+			<em>notion2svelte</em>&nbsp;uses the values in your .env to fetch all “Publishable” pages from
+			a specified Notion database. To be&nbsp;<em>publishable</em>, a page must have a property
+			named&nbsp;<em>Status</em>&nbsp;with a value of&nbsp;<em>Publishable</em>.</NumberedListItem
 		>
 		<NumberedListItem number="b">
 			Recursively fetching all the blocks on a page, we stitch together a single JSON representation
 			of the page, stored to disk in case you need it.</NumberedListItem
 		>
 		<NumberedListItem number="c">
-			The resulting JSON the gets parsed into a .svelte page built entirely from components defined
+			The resulting JSON gets parsed into a .svelte page built entirely from components defined
 			outside the page. This keeps the boundary clear between content and presentation.</NumberedListItem
 		>
 	</span></Toggle
-><Paragraph
-	blockProps={{
-		pageId: 'fdc65179a8bd451caf6759019204cfde',
-		id: '90055a54-d77c-4cda-81f2-f44f83461964',
-		created_time: '2022-01-22T20:25:00.000Z',
-		last_edited_time: '2022-01-22T20:34:00.000Z'
-	}}
->
-	&nbsp;This big JSON object shows our example callout as rendered by the Notion API.
-</Paragraph>
-<ColumnList cols={2}
+><ColumnList cols={2}
 	><Column
-		><Code
+		><Paragraph
+			blockProps={{
+				pageId: 'fdc65179a8bd451caf6759019204cfde',
+				id: '78683661-4ef6-41df-9e8e-d652f6f4ecd8',
+				created_time: '2022-12-02T06:15:00.000Z',
+				last_edited_time: '2022-12-02T06:15:00.000Z'
+			}}
+		>
+			<strong>Before</strong>
+		</Paragraph>
+		<Paragraph
+			blockProps={{
+				pageId: 'fdc65179a8bd451caf6759019204cfde',
+				id: '90055a54-d77c-4cda-81f2-f44f83461964',
+				created_time: '2022-01-22T20:25:00.000Z',
+				last_edited_time: '2022-12-02T06:15:00.000Z'
+			}}
+		>
+			This big JSON object shows our example callout as rendered by the Notion API.
+		</Paragraph>
+		<Code
 			code={`\{
   &quot;object&quot;: &quot;block&quot;,
   &quot;id&quot;: &quot;011d46be-4bf6-4817-a0da-a849ec16f1aa&quot;,
@@ -466,6 +470,16 @@
 		><Paragraph
 			blockProps={{
 				pageId: 'fdc65179a8bd451caf6759019204cfde',
+				id: '05f09fd6-4489-4393-a23c-d2fcbe6fa3a3',
+				created_time: '2022-12-02T06:15:00.000Z',
+				last_edited_time: '2022-12-02T06:15:00.000Z'
+			}}
+		>
+			<strong>After</strong>
+		</Paragraph>
+		<Paragraph
+			blockProps={{
+				pageId: 'fdc65179a8bd451caf6759019204cfde',
 				id: 'e619f13a-8903-4b2b-abda-d6cc6cbf8cf1',
 				created_time: '2022-01-11T07:14:00.000Z',
 				last_edited_time: '2022-01-11T07:14:00.000Z'
@@ -485,7 +499,13 @@
 			Here’s what&nbsp;<em>notion2svelte</em>&nbsp;spits out from all that JSON:
 		</Paragraph>
 		<Code
-			code={`&lt;Callout emoji=&quot;🦦&quot; blockProps=\{\{…}}&gt;
+			code={`&lt;Callout emoji=&quot;🦦&quot;
+  blockProps=\{\{
+	  pageId: &#039;fdc65179a8bd451caf67x9019204cfde&#039;,
+		id: &#039;011d46be-4bf6-4817-a0da-a849ec16f1aa&#039;,
+		created_time: &#039;2021-12-20T10:00:00.000Z&#039;,
+		last_edited_time: &#039;2021-12-20T10:04:00.000Z&#039;
+	}}&gt;
   Hi. I’m a sea otter.
 &lt;/Callout&gt;`}
 			language="html"
@@ -547,10 +567,10 @@
 				pageId: 'fdc65179a8bd451caf6759019204cfde',
 				id: '19fdf8a0-f929-473d-af16-3030b4e42e4b',
 				created_time: '2022-01-09T05:55:00.000Z',
-				last_edited_time: '2022-01-09T05:56:00.000Z'
+				last_edited_time: '2022-12-02T05:29:00.000Z'
 			}}
 		>
-			&nbsp;Do you want a simple, gray callout with minimal styling, like this:
+			Do you want a simple, gray callout with minimal styling, like this:
 		</Paragraph>
 	</Column><Column
 		><Image url="/assets/about-notion2svelte/70a6d0d1-1eaa-493e-8af4-cd1b69690c54.png" />
@@ -606,7 +626,8 @@
 			}}
 		/>
 	</span></Toggle
-><ColumnList cols={2}
+><Divider />
+<ColumnList cols={2}
 	><Column
 		><Paragraph
 			blockProps={{
@@ -680,7 +701,8 @@
 			}}
 		/>
 	</span></Toggle
-><ColumnList cols={2}
+><Divider />
+<ColumnList cols={2}
 	><Column
 		><Paragraph
 			blockProps={{
@@ -697,25 +719,37 @@
 				pageId: 'fdc65179a8bd451caf6759019204cfde',
 				id: 'fdb3757e-6109-4405-b202-24d89dccb1e5',
 				created_time: '2022-01-05T09:14:00.000Z',
-				last_edited_time: '2022-01-11T07:24:00.000Z'
+				last_edited_time: '2022-12-02T05:56:00.000Z'
 			}}
 		>
-			Sure. You can add keyboard interactions, or make callouts behave according to user settings.
-			Anything Svelte allows you to do, you can probably do it!
+			Sure.
 		</Paragraph>
-	</Column><Column
-		><Image url="/assets/about-notion2svelte/cc26aa0c-ad05-48b8-873b-649424c032e8.png" />
 		<Paragraph
 			blockProps={{
 				pageId: 'fdc65179a8bd451caf6759019204cfde',
-				id: '81c37598-a496-45b7-9d9c-66d0aca7e755',
-				created_time: '2022-01-05T09:14:00.000Z',
-				last_edited_time: '2022-01-11T07:20:00.000Z'
+				id: '163de697-b5ad-4563-9d12-6e1028c442e6',
+				created_time: '2022-12-02T05:56:00.000Z',
+				last_edited_time: '2022-12-02T06:04:00.000Z'
 			}}
 		>
-			↓ click! ↑
+			You can add keyboard interactions, or make callouts behave according to user settings.
+			Anything Svelte allows you to do, you can (probably) do it!
 		</Paragraph>
-		<Image url="/assets/about-notion2svelte/3c907829-0848-414f-9504-3cbf0a79f701.png" />
+		<Paragraph
+			blockProps={{
+				pageId: 'fdc65179a8bd451caf6759019204cfde',
+				id: '77323ed7-8cc5-42e0-8e9c-201ec687a25c',
+				created_time: '2022-12-02T06:04:00.000Z',
+				last_edited_time: '2022-12-02T06:04:00.000Z'
+			}}
+		/>
+	</Column><Column
+		><Image url="/assets/about-notion2svelte/cc26aa0c-ad05-48b8-873b-649424c032e8.png"
+			>Toggle closed</Image
+		>
+		<Image url="/assets/about-notion2svelte/3c907829-0848-414f-9504-3cbf0a79f701.png"
+			>Toggle open</Image
+		>
 	</Column></ColumnList
 ><Toggle
 	>Here’s the code (blue border, with toggle)
@@ -819,15 +853,41 @@
 		pageId: 'fdc65179a8bd451caf6759019204cfde',
 		id: '92b91cd7-462f-4129-8488-c4cf54db6035',
 		created_time: '2022-01-05T09:14:00.000Z',
-		last_edited_time: '2022-01-11T07:34:00.000Z'
+		last_edited_time: '2022-12-02T10:20:00.000Z'
 	}}
 >
 	For now, the fastest way to get started is to follow along with the video tutorial,&nbsp;<Link
 		type="absolute"
 		href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s"
 		><strong>notion2svelte in 10 minutes</strong></Link
-	>
+	><strong>.</strong>
 </Paragraph>
+<Callout emoji="😃"
+	>Here’s the checklist I follow in the video in case you want to clone it and follow along.<span
+		slot="children"
+		><Paragraph
+			blockProps={{
+				pageId: 'fdc65179a8bd451caf6759019204cfde',
+				id: 'e5440f88-0cbd-46e5-bc4a-67c1884018a5',
+				created_time: '2022-12-02T10:21:00.000Z',
+				last_edited_time: '2022-12-02T10:28:00.000Z'
+			}}
+		>
+			<Link
+				type="absolute"
+				href="https://www.notion.so/nvlgzr/notion2svelte-Checklist-b02cf22ade7f42dd8ab54be9534fb984"
+				>https://www.notion.so/nvlgzr/notion2svelte-Checklist-b02cf22ade7f42dd8ab54be9534fb984</Link
+			>
+		</Paragraph>
+	</span></Callout
+><Paragraph
+	blockProps={{
+		pageId: 'fdc65179a8bd451caf6759019204cfde',
+		id: 'cccf487c-6648-4e16-af94-f238e4faa371',
+		created_time: '2022-12-02T10:21:00.000Z',
+		last_edited_time: '2022-12-02T10:25:00.000Z'
+	}}
+/>
 <Divider />
 <Header level={1}>Where to learn more</Header>
 <Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
@@ -842,7 +902,7 @@
 		pageId: 'fdc65179a8bd451caf6759019204cfde',
 		id: '58ff394d-4eda-4d56-aaea-89d926fcd3da',
 		created_time: '2022-01-26T09:47:00.000Z',
-		last_edited_time: '2022-01-27T05:11:00.000Z'
+		last_edited_time: '2022-12-03T01:36:00.000Z'
 	}}
 >
 	Open your Terminal.app* and follow along to 👉🏿 “<Link
@@ -850,59 +910,57 @@
 		href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
 	>”!
 </Paragraph>
-<IndentGroup>
-	<Paragraph
-		blockProps={{
-			pageId: 'fdc65179a8bd451caf6759019204cfde',
-			id: 'b77e2c4c-0270-4680-aee3-73500e7e5e95',
-			created_time: '2022-01-26T09:47:00.000Z',
-			last_edited_time: '2022-01-27T05:14:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-		><Link type="absolute" href="https://fishshell.com/"
-			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray"
-			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
-			after all, so it should be pretty portable!</InlineColor
+<Toggle
+	><InlineColor value="gray">Caveats</InlineColor>
+	<span slot="children"
+		><Paragraph
+			blockProps={{
+				pageId: 'fdc65179a8bd451caf6759019204cfde',
+				id: 'b77e2c4c-0270-4680-aee3-73500e7e5e95',
+				created_time: '2022-01-26T09:47:00.000Z',
+				last_edited_time: '2022-12-02T06:19:00.000Z'
+			}}
 		>
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: 'fdc65179a8bd451caf6759019204cfde',
-			id: 'fc7a7eef-1c40-431e-9842-85d97d1e1d49',
-			created_time: '2022-01-27T05:11:00.000Z',
-			last_edited_time: '2022-01-27T05:11:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>**Technically, the video’s shorter than 10 minutes, but you might want to set aside 20-30
-			minutes to allow for your own play time. 🧫</InlineColor
-		>🧪
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: 'fdc65179a8bd451caf6759019204cfde',
-			id: '86f56fbe-bc18-4df1-90bd-277d0d5a05c5',
-			created_time: '2022-01-27T05:10:00.000Z',
-			last_edited_time: '2022-01-27T05:10:00.000Z'
-		}}
-	/>
-</IndentGroup>
-<Divider />
+			<InlineColor value="gray"
+				>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether
+				it works for you if you’re not running macOS! This is a Node app, after all, so it should be
+				pretty portable.</InlineColor
+			>
+		</Paragraph>
+		<Paragraph
+			blockProps={{
+				pageId: 'fdc65179a8bd451caf6759019204cfde',
+				id: 'fc7a7eef-1c40-431e-9842-85d97d1e1d49',
+				created_time: '2022-01-27T05:11:00.000Z',
+				last_edited_time: '2022-12-02T06:19:00.000Z'
+			}}
+		>
+			<InlineColor value="gray"
+				>**Technically, the video’s shorter than 10 minutes, but you might want to set aside 20-30
+				minutes to allow for experimentation. 🧫</InlineColor
+			>🧪
+		</Paragraph>
+		<Paragraph
+			blockProps={{
+				pageId: 'fdc65179a8bd451caf6759019204cfde',
+				id: '86f56fbe-bc18-4df1-90bd-277d0d5a05c5',
+				created_time: '2022-01-27T05:10:00.000Z',
+				last_edited_time: '2022-12-02T06:19:00.000Z'
+			}}
+		/>
+	</span></Toggle
+><Divider />
 <Header level={2}
-	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
-</Header>
+	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>&nbsp;</Header
+>
 <ColumnList cols={2}
 	><Column
 		><Header level={3}>High-level Discussion</Header>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/flow-diagram"
 				>Where notion2svelte Fits</Link
-			>
-		</BulletedListItem>
+			>&nbsp;</BulletedListItem
+		>
 		<BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/rules-for-writing-good-slugs"
@@ -922,8 +980,9 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link>
-		</BulletedListItem>
+			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link
+			>&nbsp;</BulletedListItem
+		>
 		<Header level={3}>Turn-intoable Block Components</Header>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/paragraph">Paragraph (aka “Text”)</Link
@@ -974,8 +1033,9 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link>
-		</BulletedListItem>
+			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link
+			>&nbsp;</BulletedListItem
+		>
 		<Header level={3}>Page-level Components</Header>
 		<BulletedListItem
 			><Link type="mention" href="/page-level-components/title">Title (aka Name)</Link
@@ -987,8 +1047,10 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
-		</BulletedListItem>
+			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode
+				code={'&lt;strong&gt;'}
+			/>&nbsp;</BulletedListItem
+		>
 		<BulletedListItem
 			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
 		>

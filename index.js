@@ -67,7 +67,7 @@ async function run() {
     const fetchedPage = await fetchFullPage(pageId);
     const fullPage = stripExpiryTimes(fetchedPage);
 
-    const jsonPath = join(out, slug + '/' + slug + '.json.js');
+    const jsonPath = join(out, slug + '/notion-export.js');
     console.log(` › Writing JSON to ${jsonPath}`);
 
     const preJson = 'const json = ';
