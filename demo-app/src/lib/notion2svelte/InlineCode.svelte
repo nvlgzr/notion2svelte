@@ -11,7 +11,6 @@
     color: hsl(268, 71%, 43%);
     border-radius: 3px;
     font-size: 85%; /* Sets height of gray box */
-    padding: 0.1rem 0.2rem 0.1rem 0.2rem;
   }
 
   code {
