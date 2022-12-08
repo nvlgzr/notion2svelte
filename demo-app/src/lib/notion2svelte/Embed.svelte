@@ -27,7 +27,7 @@
   iframe {
     left: 0px;
     top: 0px;
-    width: 80vw;
+    width: 60vw;
     height: 80vh; /* Ideally this could be set per-embed */
     padding: 0.75rem;
     margin: 1rem auto;
