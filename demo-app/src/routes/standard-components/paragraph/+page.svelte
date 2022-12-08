@@ -35,10 +35,14 @@
 	<title>Paragraph (aka “Text”)</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>Paragraph (aka “Text”)</Title>
 
 <Header level={1}>1. Notion original</Header>
-<Image url="/assets/standard-components/paragraph/e8de3858-4c19-426a-ba76-d361cf73033b.png"
+<Image
+	url="/assets/standard-components/paragraph/e8de3858-4c19-426a-ba76-d361cf73033b.png"
+	caption="📝 This ↑ might look like two paragraph blocks, but it’s actually a single line with a soft return (⇧+enter) after the semicolon."
 	>📝 This ↑ might look like two paragraph blocks, but it’s actually a single line with a soft
 	return (⇧+enter) after the semicolon.</Image
 >
@@ -48,7 +52,7 @@
 		pageId: '28fac2e07c794fb4935e9284a4b6a313',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -68,11 +72,7 @@
 <Code
 	code={`\{
   &quot;object&quot;: &quot;block&quot;,
-  &quot;id&quot;: &quot;5973a617-31c3-4525-a952-adc2f416fb2f&quot;,
-  &quot;created_time&quot;: &quot;2022-01-14T20:26:00.000Z&quot;,
-  &quot;last_edited_time&quot;: &quot;2022-01-14T20:26:00.000Z&quot;,
-  &quot;has_children&quot;: false,
-  &quot;archived&quot;: false,
+  …
   &quot;type&quot;: &quot;paragraph&quot;,
   &quot;paragraph&quot;: \{
     &quot;text&quot;: [
@@ -130,11 +130,10 @@
 		pageId: '28fac2e07c794fb4935e9284a4b6a313',
 		id: '4d10f10d-c9a5-4c0b-b94a-20acb8710202',
 		created_time: '2022-01-28T20:29:00.000Z',
-		last_edited_time: '2022-01-28T20:32:00.000Z'
+		last_edited_time: '2022-12-08T22:50:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Rendered by</InlineColor><InlineColor value="gray"><em /></InlineColor
-	><Link
+	<InlineColor value="gray">Rendered by&ensp;</InlineColor><Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Paragraph.svelte"
 		><InlineColor value="gray"><em>Paragraph.svelte</em></InlineColor></Link
@@ -200,8 +199,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link
