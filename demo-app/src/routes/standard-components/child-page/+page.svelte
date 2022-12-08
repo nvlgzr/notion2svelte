@@ -35,81 +35,22 @@
 	<title>ChildPage</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>ChildPage</Title>
 
-<Header level={1}>↑ About that Error</Header>
-<Paragraph
-	blockProps={{
-		pageId: '991f1062fc784019aea56e890ca04ca2',
-		id: 'ab32307f-75a7-4621-973a-fe326ac952e3',
-		created_time: '2022-01-31T06:44:00.000Z',
-		last_edited_time: '2022-01-31T06:48:00.000Z'
-	}}
->
-	In a traditional file directory, there is a distinction between, well, files and directories. Not
-	so with Notion, where the parent of any given page is either another page or the sidebar. This
-	presents a challenge when mapping Notion pages to files in a directory tree, which is what’s
-	required on the output side of&ensp;<em>notion2svelte</em>.
-</Paragraph>
-<Callout emoji="🤔"
-	>What is the “right” way to represent a&ensp;<em>child_page</em>&ensp;in&ensp;<em>src/routes</em
-	>?</Callout
-><Paragraph
-	blockProps={{
-		pageId: '991f1062fc784019aea56e890ca04ca2',
-		id: 'ee467e10-ad5b-401f-98af-7eb873ea0950',
-		created_time: '2022-01-26T20:59:00.000Z',
-		last_edited_time: '2022-01-31T06:49:00.000Z'
-	}}
->
-	For this first release,&ensp;<em>notion2svelte&ensp;</em>gives you more than you probably need
-	when it comes to child pages…enough to render the entire page, in fact (minus the
-	title/cover/icon…)! But this comes with a caveat: it’s&ensp;<em>not</em>&ensp;recursive. That
-	means that you’ll get errors wherever&ensp;<em>notion2svelte&ensp;</em>encounters a child page
-	inside another child page.
-</Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: '991f1062fc784019aea56e890ca04ca2',
-		id: '2c754530-a3ae-457a-b61c-7c104d4587c5',
-		created_time: '2022-01-27T21:11:00.000Z',
-		last_edited_time: '2022-01-31T06:50:00.000Z'
-	}}
->
-	The demo component I made for this site goes the unusual route of&ensp;<em>inlining</em>&ensp;the
-	child page. There’s no practical motivation behind this…it was fast and cheap to do.
-</Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: '991f1062fc784019aea56e890ca04ca2',
-		id: '8aa8092b-51d2-4251-82fb-47644ce16065',
-		created_time: '2022-01-31T06:50:00.000Z',
-		last_edited_time: '2022-01-31T06:50:00.000Z'
-	}}
-/>
-<Paragraph
-	blockProps={{
-		pageId: '991f1062fc784019aea56e890ca04ca2',
-		id: 'd808c897-a441-40eb-a8a7-34e640e4cfda',
-		created_time: '2022-01-31T06:50:00.000Z',
-		last_edited_time: '2022-01-31T06:50:00.000Z'
-	}}
->
-	This is one of the components most likely to change in future versions. Got a great idea for how
-	this&ensp;should work?&ensp;<Link
-		type="absolute"
-		href="https://github.com/nvlgzr/notion2svelte/discussions">Let me know</Link
-	>!
-</Paragraph>
 <Header level={1}>1. Notion original</Header>
-<Image url="/assets/standard-components/child-page/53c83b37-2af7-4eeb-9248-3aa5c19fea63.png" />
+<Image
+	url="/assets/standard-components/child-page/53c83b37-2af7-4eeb-9248-3aa5c19fea63.png"
+	caption=""
+/>
 <Header level={1}>2. Notion API</Header>
 <Paragraph
 	blockProps={{
 		pageId: '991f1062fc784019aea56e890ca04ca2',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -119,11 +60,7 @@
 <Code
 	code={`\{
       &quot;object&quot;: &quot;block&quot;,
-      &quot;id&quot;: &quot;bc15f3e2-0cdf-4c7a-a7b0-2884c99779c0&quot;,
-      &quot;created_time&quot;: &quot;2022-01-26T09:58:00.000Z&quot;,
-      &quot;last_edited_time&quot;: &quot;2022-01-26T21:13:00.000Z&quot;,
-      &quot;has_children&quot;: true,
-      &quot;archived&quot;: false,
+      …
       &quot;type&quot;: &quot;child_page&quot;,
       &quot;child_page&quot;: \{
         &quot;title&quot;: &quot;I’m a child page with 3 blocks: some Lorem, another child page, and a link to same&quot;
@@ -237,10 +174,13 @@
 			pageId: '991f1062fc784019aea56e890ca04ca2',
 			id: '92e27557-4d07-495a-95d7-212e663bcb59',
 			created_time: '2022-01-26T10:03:00.000Z',
-			last_edited_time: '2022-01-26T10:03:00.000Z'
+			last_edited_time: '2022-12-08T22:46:00.000Z'
 		}}
 	>
-		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.
+		This is the first block. It’s just a simple paragraph. Next comes another sub-page — call it a
+		grandchild? — which&ensp;<em>notion2svelte</em>&ensp;isn’t currently equipped to handle. The
+		block after that, which also errors out, is an&ensp;<em>alias</em>&ensp;to the same grandchild
+		page.
 	</Paragraph>
 	<p
 		style="display: inline-block; background: floralwhite; padding: 1rem; margin: 0.25rem 0; border: 1px fuchsia solid; border-radius: 6px; "
@@ -293,14 +233,70 @@
 			aren’t explicitly supported by Notion.)
 		</Paragraph>
 	</span></Callout
+><Header level={2}>↑ About that Error</Header>
+<Paragraph
+	blockProps={{
+		pageId: '991f1062fc784019aea56e890ca04ca2',
+		id: 'ab32307f-75a7-4621-973a-fe326ac952e3',
+		created_time: '2022-01-31T06:44:00.000Z',
+		last_edited_time: '2022-12-08T22:44:00.000Z'
+	}}
+>
+	In a traditional file directory, there is a distinction between, well, files and directories. Not
+	so with Notion, where the parent of any given page is either another page or the sidebar. This
+	presents a challenge when mapping Notion pages to files in a directory tree, which is what’s
+	required on the output side of&ensp;<em>notion2svelte</em>.
+</Paragraph>
+<Callout emoji="🤔"
+	>What is the “right” way to represent a&ensp;<em>child_page</em>&ensp;in&ensp;<em>src/routes</em
+	>?</Callout
 ><Paragraph
 	blockProps={{
 		pageId: '991f1062fc784019aea56e890ca04ca2',
-		id: '5016cde0-0427-480c-b5e0-0bcc8fc4df00',
-		created_time: '2022-01-26T21:16:00.000Z',
-		last_edited_time: '2022-01-26T21:16:00.000Z'
+		id: 'ee467e10-ad5b-401f-98af-7eb873ea0950',
+		created_time: '2022-01-26T20:59:00.000Z',
+		last_edited_time: '2022-12-08T22:44:00.000Z'
+	}}
+>
+	For this first release,&ensp;<em>notion2svelte&ensp;</em>gives you more than you probably need
+	when it comes to child pages…enough to render the entire page, in fact (minus the
+	title/cover/icon…)! But this comes with a caveat: it’s&ensp;<em>not</em>&ensp;recursive. That
+	means that you’ll get errors wherever&ensp;<em>notion2svelte&ensp;</em>encounters a child page
+	inside another child page.
+</Paragraph>
+<Paragraph
+	blockProps={{
+		pageId: '991f1062fc784019aea56e890ca04ca2',
+		id: '2c754530-a3ae-457a-b61c-7c104d4587c5',
+		created_time: '2022-01-27T21:11:00.000Z',
+		last_edited_time: '2022-12-08T22:44:00.000Z'
+	}}
+>
+	The demo component I made for this site goes the unusual route of&ensp;<em>inlining</em>&ensp;the
+	child page. There’s no practical motivation behind this…it was fast and cheap to do.
+</Paragraph>
+<Paragraph
+	blockProps={{
+		pageId: '991f1062fc784019aea56e890ca04ca2',
+		id: '8aa8092b-51d2-4251-82fb-47644ce16065',
+		created_time: '2022-01-31T06:50:00.000Z',
+		last_edited_time: '2022-12-08T22:44:00.000Z'
 	}}
 />
+<Paragraph
+	blockProps={{
+		pageId: '991f1062fc784019aea56e890ca04ca2',
+		id: 'd808c897-a441-40eb-a8a7-34e640e4cfda',
+		created_time: '2022-01-31T06:50:00.000Z',
+		last_edited_time: '2022-12-08T22:44:00.000Z'
+	}}
+>
+	This is one of the components most likely to change in future versions. Got a great idea for how
+	this&ensp;should work?&ensp;<Link
+		type="absolute"
+		href="https://github.com/nvlgzr/notion2svelte/discussions">Let me know</Link
+	>!
+</Paragraph>
 <Divider />
 <Header level={2}
 	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
@@ -341,8 +337,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link

@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "991f1062-fc78-4019-aea5-6e890ca04ca2",
   "created_time": "2022-01-23T20:33:00.000Z",
-  "last_edited_time": "2022-12-08T05:13:00.000Z",
+  "last_edited_time": "2022-12-08T22:44:00.000Z",
   "created_by": {
     "object": "user",
     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -127,602 +127,6 @@ const json = {
   "blocks": [
     {
       "object": "block",
-      "id": "8321b948-c894-4cde-9c54-3bd4a017d71f",
-      "parent": {
-        "type": "page_id",
-        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
-      },
-      "created_time": "2022-01-31T06:48:00.000Z",
-      "last_edited_time": "2022-01-31T06:48:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "is_toggleable": false,
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "↑ About that Error",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "↑ About that Error",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "ab32307f-75a7-4621-973a-fe326ac952e3",
-      "parent": {
-        "type": "page_id",
-        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
-      },
-      "created_time": "2022-01-31T06:44:00.000Z",
-      "last_edited_time": "2022-01-31T06:48:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "In a traditional file directory, there is a distinction between, well, files and directories. Not so with Notion, where the parent of any given page is either another page or the sidebar. This presents a challenge when mapping Notion pages to files in a directory tree, which is what’s required on the output side of ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "In a traditional file directory, there is a distinction between, well, files and directories. Not so with Notion, where the parent of any given page is either another page or the sidebar. This presents a challenge when mapping Notion pages to files in a directory tree, which is what’s required on the output side of ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ".",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ".",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "911d4644-1c87-4a52-9ce1-4ae03be0c82c",
-      "parent": {
-        "type": "page_id",
-        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
-      },
-      "created_time": "2022-01-31T06:46:00.000Z",
-      "last_edited_time": "2022-01-31T06:47:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "callout",
-      "callout": {
-        "icon": {
-          "type": "emoji",
-          "emoji": "🤔"
-        },
-        "color": "gray_background",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "What is the “right” way to represent a ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "What is the “right” way to represent a ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "child_page",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "child_page",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " in ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " in ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "src/routes",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "src/routes",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "?",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "?",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "ee467e10-ad5b-401f-98af-7eb873ea0950",
-      "parent": {
-        "type": "page_id",
-        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
-      },
-      "created_time": "2022-01-26T20:59:00.000Z",
-      "last_edited_time": "2022-01-31T06:49:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "For this first release, ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "For this first release, ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "gives you more than you probably need when it comes to child pages…enough to render the entire page, in fact (minus the title/cover/icon…)! But this comes with a caveat: it’s ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "gives you more than you probably need when it comes to child pages…enough to render the entire page, in fact (minus the title/cover/icon…)! But this comes with a caveat: it’s ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "not",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "not",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " recursive. That means that you’ll get errors wherever ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " recursive. That means that you’ll get errors wherever ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "encounters a child page inside another child page.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "encounters a child page inside another child page.",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "2c754530-a3ae-457a-b61c-7c104d4587c5",
-      "parent": {
-        "type": "page_id",
-        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
-      },
-      "created_time": "2022-01-27T21:11:00.000Z",
-      "last_edited_time": "2022-01-31T06:50:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "The demo component I made for this site goes the unusual route of ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "The demo component I made for this site goes the unusual route of ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "inlining",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "inlining",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " the child page. There’s no practical motivation behind this…it was fast and cheap to do.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " the child page. There’s no practical motivation behind this…it was fast and cheap to do.",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "8aa8092b-51d2-4251-82fb-47644ce16065",
-      "parent": {
-        "type": "page_id",
-        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
-      },
-      "created_time": "2022-01-31T06:50:00.000Z",
-      "last_edited_time": "2022-01-31T06:50:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": []
-      }
-    },
-    {
-      "object": "block",
-      "id": "d808c897-a441-40eb-a8a7-34e640e4cfda",
-      "parent": {
-        "type": "page_id",
-        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
-      },
-      "created_time": "2022-01-31T06:50:00.000Z",
-      "last_edited_time": "2022-01-31T06:50:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "This is one of the components most likely to change in future versions. Got a great idea for how this ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "This is one of the components most likely to change in future versions. Got a great idea for how this ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "should work",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "should work",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "? ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "? ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "Let me know",
-              "link": {
-                "url": "https://github.com/nvlgzr/notion2svelte/discussions"
-              }
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Let me know",
-            "href": "https://github.com/nvlgzr/notion2svelte/discussions"
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "!",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "!",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
       "id": "e8b1b736-a14a-4f29-87ec-ecb461cd6d47",
       "parent": {
         "type": "page_id",
@@ -756,7 +160,7 @@ const json = {
             "block_id": "69ec6660-b477-4f8d-8792-5dd924833e8d"
           },
           "created_time": "2022-01-28T20:25:00.000Z",
-          "last_edited_time": "2022-12-08T04:49:00.000Z",
+          "last_edited_time": "2022-12-08T21:25:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -818,7 +222,7 @@ const json = {
         "caption": [],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b05b4bdc-ee11-48c8-9b1c-7c7a86bc73dc/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T082605Z&X-Amz-Expires=3600&X-Amz-Signature=61d42dd883f204e8c41f0c6c94d07bcd55d4b382479e480069ff9c0757b9fee0&X-Amz-SignedHeaders=host&x-id=GetObject"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b05b4bdc-ee11-48c8-9b1c-7c7a86bc73dc/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T224645Z&X-Amz-Expires=3600&X-Amz-Signature=d29984755c562b59d48d76866beb3a4008aa4ddb6e59df07adadcdd0fe1b5a69&X-Amz-SignedHeaders=host&x-id=GetObject"
         }
       }
     },
@@ -901,7 +305,7 @@ const json = {
             "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
           },
           "created_time": "2022-01-28T20:26:00.000Z",
-          "last_edited_time": "2022-12-06T22:00:00.000Z",
+          "last_edited_time": "2022-12-08T08:39:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -963,7 +367,7 @@ const json = {
         "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
       },
       "created_time": "2022-01-23T20:33:00.000Z",
-      "last_edited_time": "2022-01-31T07:26:00.000Z",
+      "last_edited_time": "2022-12-08T22:43:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -982,7 +386,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "{\n      \"object\": \"block\",\n      \"id\": \"bc15f3e2-0cdf-4c7a-a7b0-2884c99779c0\",\n      \"created_time\": \"2022-01-26T09:58:00.000Z\",\n      \"last_edited_time\": \"2022-01-26T21:13:00.000Z\",\n      \"has_children\": true,\n      \"archived\": false,\n      \"type\": \"child_page\",\n      \"child_page\": {\n        \"title\": \"I’m a child page with 3 blocks: some Lorem, another child page, and a link to same\"\n      },\n      \"blocks\": [\n        {\n          …\n          \"paragraph\": {\n                …\n                \"plain_text\": \"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.\",\n                …\n          }\n        },\n        {\n          \"object\": \"block\",\n          …\n          \"type\": \"child_page\",\n          \"child_page\": {\n            \"title\": \"I’m the grandchild\"\n          }\n        },\n        {\n          …\n          \"paragraph\": {\n            \"text\": [\n                …\n                \"plain_text\": \"I’m the grandchild\",\n                \"href\": \"https://www.notion.so/ebe7d6569bd440b18435d8f6f792227b\"\n              },\n              {\n                …\n                \"plain_text\": \" \",\n                …\n              }\n            ]\n          }\n        }\n      ]\n    }",
+              "content": "{\n      \"object\": \"block\",\n      …\n      \"type\": \"child_page\",\n      \"child_page\": {\n        \"title\": \"I’m a child page with 3 blocks: some Lorem, another child page, and a link to same\"\n      },\n      \"blocks\": [\n        {\n          …\n          \"paragraph\": {\n                …\n                \"plain_text\": \"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.\",\n                …\n          }\n        },\n        {\n          \"object\": \"block\",\n          …\n          \"type\": \"child_page\",\n          \"child_page\": {\n            \"title\": \"I’m the grandchild\"\n          }\n        },\n        {\n          …\n          \"paragraph\": {\n            \"text\": [\n                …\n                \"plain_text\": \"I’m the grandchild\",\n                \"href\": \"https://www.notion.so/ebe7d6569bd440b18435d8f6f792227b\"\n              },\n              {\n                …\n                \"plain_text\": \" \",\n                …\n              }\n            ]\n          }\n        }\n      ]\n    }",
               "link": null
             },
             "annotations": {
@@ -993,7 +397,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "{\n      \"object\": \"block\",\n      \"id\": \"bc15f3e2-0cdf-4c7a-a7b0-2884c99779c0\",\n      \"created_time\": \"2022-01-26T09:58:00.000Z\",\n      \"last_edited_time\": \"2022-01-26T21:13:00.000Z\",\n      \"has_children\": true,\n      \"archived\": false,\n      \"type\": \"child_page\",\n      \"child_page\": {\n        \"title\": \"I’m a child page with 3 blocks: some Lorem, another child page, and a link to same\"\n      },\n      \"blocks\": [\n        {\n          …\n          \"paragraph\": {\n                …\n                \"plain_text\": \"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.\",\n                …\n          }\n        },\n        {\n          \"object\": \"block\",\n          …\n          \"type\": \"child_page\",\n          \"child_page\": {\n            \"title\": \"I’m the grandchild\"\n          }\n        },\n        {\n          …\n          \"paragraph\": {\n            \"text\": [\n                …\n                \"plain_text\": \"I’m the grandchild\",\n                \"href\": \"https://www.notion.so/ebe7d6569bd440b18435d8f6f792227b\"\n              },\n              {\n                …\n                \"plain_text\": \" \",\n                …\n              }\n            ]\n          }\n        }\n      ]\n    }",
+            "plain_text": "{\n      \"object\": \"block\",\n      …\n      \"type\": \"child_page\",\n      \"child_page\": {\n        \"title\": \"I’m a child page with 3 blocks: some Lorem, another child page, and a link to same\"\n      },\n      \"blocks\": [\n        {\n          …\n          \"paragraph\": {\n                …\n                \"plain_text\": \"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.\",\n                …\n          }\n        },\n        {\n          \"object\": \"block\",\n          …\n          \"type\": \"child_page\",\n          \"child_page\": {\n            \"title\": \"I’m the grandchild\"\n          }\n        },\n        {\n          …\n          \"paragraph\": {\n            \"text\": [\n                …\n                \"plain_text\": \"I’m the grandchild\",\n                \"href\": \"https://www.notion.so/ebe7d6569bd440b18435d8f6f792227b\"\n              },\n              {\n                …\n                \"plain_text\": \" \",\n                …\n              }\n            ]\n          }\n        }\n      ]\n    }",
             "href": null
           }
         ]
@@ -1327,13 +731,13 @@ const json = {
       "blocks": [
         {
           "object": "block",
-          "id": "14abb64d-4aad-4586-a941-62fdc219a70e",
+          "id": "553986e4-cefc-4232-b36d-8320bd2f2855",
           "parent": {
             "type": "block_id",
             "block_id": "39f58dcd-edff-4eac-ac21-4c54bc1b2e7c"
           },
           "created_time": "2022-01-28T20:29:00.000Z",
-          "last_edited_time": "2022-01-28T21:00:00.000Z",
+          "last_edited_time": "2022-12-08T21:33:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1441,7 +845,7 @@ const json = {
         "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
       },
       "created_time": "2022-01-26T09:58:00.000Z",
-      "last_edited_time": "2022-01-26T21:13:00.000Z",
+      "last_edited_time": "2022-12-08T22:46:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1465,7 +869,7 @@ const json = {
             "page_id": "bc15f3e2-0cdf-4c7a-a7b0-2884c99779c0"
           },
           "created_time": "2022-01-26T10:03:00.000Z",
-          "last_edited_time": "2022-01-26T10:03:00.000Z",
+          "last_edited_time": "2022-12-08T22:46:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1483,7 +887,7 @@ const json = {
               {
                 "type": "text",
                 "text": {
-                  "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.",
+                  "content": "This is the first block. It’s just a simple paragraph. Next comes another sub-page — call it a grandchild? — which ",
                   "link": null
                 },
                 "annotations": {
@@ -1494,7 +898,75 @@ const json = {
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.",
+                "plain_text": "This is the first block. It’s just a simple paragraph. Next comes another sub-page — call it a grandchild? — which ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "notion2svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "notion2svelte",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " isn’t currently equipped to handle. The block after that, which also errors out, is an ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " isn’t currently equipped to handle. The block after that, which also errors out, is an ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "alias",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "alias",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " to the same grandchild page.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " to the same grandchild page.",
                 "href": null
               }
             ]
@@ -1741,13 +1213,471 @@ const json = {
     },
     {
       "object": "block",
-      "id": "5016cde0-0427-480c-b5e0-0bcc8fc4df00",
+      "id": "8321b948-c894-4cde-9c54-3bd4a017d71f",
       "parent": {
         "type": "page_id",
         "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
       },
-      "created_time": "2022-01-26T21:16:00.000Z",
-      "last_edited_time": "2022-01-26T21:16:00.000Z",
+      "created_time": "2022-01-31T06:48:00.000Z",
+      "last_edited_time": "2022-12-08T22:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "heading_2",
+      "heading_2": {
+        "is_toggleable": false,
+        "color": "default",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "↑ About that Error",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "↑ About that Error",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "ab32307f-75a7-4621-973a-fe326ac952e3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
+      },
+      "created_time": "2022-01-31T06:44:00.000Z",
+      "last_edited_time": "2022-12-08T22:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In a traditional file directory, there is a distinction between, well, files and directories. Not so with Notion, where the parent of any given page is either another page or the sidebar. This presents a challenge when mapping Notion pages to files in a directory tree, which is what’s required on the output side of ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In a traditional file directory, there is a distinction between, well, files and directories. Not so with Notion, where the parent of any given page is either another page or the sidebar. This presents a challenge when mapping Notion pages to files in a directory tree, which is what’s required on the output side of ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "911d4644-1c87-4a52-9ce1-4ae03be0c82c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
+      },
+      "created_time": "2022-01-31T06:46:00.000Z",
+      "last_edited_time": "2022-12-08T22:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "callout",
+      "callout": {
+        "icon": {
+          "type": "emoji",
+          "emoji": "🤔"
+        },
+        "color": "gray_background",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What is the “right” way to represent a ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What is the “right” way to represent a ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "child_page",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "child_page",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " in ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "src/routes",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "src/routes",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "?",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "ee467e10-ad5b-401f-98af-7eb873ea0950",
+      "parent": {
+        "type": "page_id",
+        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
+      },
+      "created_time": "2022-01-26T20:59:00.000Z",
+      "last_edited_time": "2022-12-08T22:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "For this first release, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "For this first release, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "gives you more than you probably need when it comes to child pages…enough to render the entire page, in fact (minus the title/cover/icon…)! But this comes with a caveat: it’s ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "gives you more than you probably need when it comes to child pages…enough to render the entire page, in fact (minus the title/cover/icon…)! But this comes with a caveat: it’s ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "not",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "not",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " recursive. That means that you’ll get errors wherever ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " recursive. That means that you’ll get errors wherever ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "encounters a child page inside another child page.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "encounters a child page inside another child page.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "2c754530-a3ae-457a-b61c-7c104d4587c5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
+      },
+      "created_time": "2022-01-27T21:11:00.000Z",
+      "last_edited_time": "2022-12-08T22:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The demo component I made for this site goes the unusual route of ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The demo component I made for this site goes the unusual route of ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "inlining",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "inlining",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " the child page. There’s no practical motivation behind this…it was fast and cheap to do.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " the child page. There’s no practical motivation behind this…it was fast and cheap to do.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "8aa8092b-51d2-4251-82fb-47644ce16065",
+      "parent": {
+        "type": "page_id",
+        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
+      },
+      "created_time": "2022-01-31T06:50:00.000Z",
+      "last_edited_time": "2022-12-08T22:44:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1762,6 +1692,119 @@ const json = {
       "paragraph": {
         "color": "default",
         "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "d808c897-a441-40eb-a8a7-34e640e4cfda",
+      "parent": {
+        "type": "page_id",
+        "page_id": "991f1062-fc78-4019-aea5-6e890ca04ca2"
+      },
+      "created_time": "2022-01-31T06:50:00.000Z",
+      "last_edited_time": "2022-12-08T22:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This is one of the components most likely to change in future versions. Got a great idea for how this ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This is one of the components most likely to change in future versions. Got a great idea for how this ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "should work",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "should work",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "? ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "? ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Let me know",
+              "link": {
+                "url": "https://github.com/nvlgzr/notion2svelte/discussions"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Let me know",
+            "href": "https://github.com/nvlgzr/notion2svelte/discussions"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "!",
+            "href": null
+          }
+        ]
       }
     },
     {
@@ -1821,7 +1864,7 @@ const json = {
             "block_id": "2f7f4bed-9692-4017-a0b3-c390cc40422a"
           },
           "created_time": "2022-01-24T06:42:00.000Z",
-          "last_edited_time": "2022-12-08T05:08:00.000Z",
+          "last_edited_time": "2022-12-08T21:35:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -2470,7 +2513,7 @@ const json = {
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "Header (3 types in 1!)",
+                        "plain_text": "Header",
                         "href": "https://www.notion.so/970f68f89f1a4140b76a7ba91a3209cb"
                       }
                     ]
