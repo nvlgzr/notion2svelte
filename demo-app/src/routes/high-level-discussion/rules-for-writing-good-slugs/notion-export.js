@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1",
   "created_time": "2022-01-21T22:31:00.000Z",
-  "last_edited_time": "2022-12-08T05:13:00.000Z",
+  "last_edited_time": "2022-12-08T23:25:00.000Z",
   "created_by": {
     "object": "user",
     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1132,7 +1132,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T03:46:00.000Z",
-      "last_edited_time": "2022-11-30T10:32:00.000Z",
+      "last_edited_time": "2022-12-08T23:23:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1210,7 +1210,7 @@ const json = {
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "blue"
+              "color": "default"
             },
             "plain_text": "one",
             "href": null
@@ -1244,7 +1244,7 @@ const json = {
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "purple"
+              "color": "default"
             },
             "plain_text": "two",
             "href": null
@@ -1277,7 +1277,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T03:47:00.000Z",
-      "last_edited_time": "2022-11-30T10:32:00.000Z",
+      "last_edited_time": "2022-12-08T23:23:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1296,7 +1296,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "├── src\n│   └── routes\n│       ├── ",
+              "content": "├── src\n│   └── routes\n│       ├── one.svelte\n│       ├── mantis-shrimp/+page.svelte\n│       └── subpages\n│           ├── two.svelte\n│           …",
               "link": null
             },
             "annotations": {
@@ -1307,109 +1307,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "├── src\n│   └── routes\n│       ├── ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "one",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "blue"
-            },
-            "plain_text": "one",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ".svelte\n│       ├── ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ".svelte\n│       ├── ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "mantis-shrimp",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "mantis-shrimp",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "/+page.svelte\n│       └── subpages\n│           ├── ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "/+page.svelte\n│       └── subpages\n│           ├── ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "two",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "purple"
-            },
-            "plain_text": "two",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ".svelte\n│           …",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ".svelte\n│           …",
+            "plain_text": "├── src\n│   └── routes\n│       ├── one.svelte\n│       ├── mantis-shrimp/+page.svelte\n│       └── subpages\n│           ├── two.svelte\n│           …",
             "href": null
           }
         ]
@@ -1704,7 +1602,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T03:53:00.000Z",
-      "last_edited_time": "2022-11-30T10:42:00.000Z",
+      "last_edited_time": "2022-12-08T23:24:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1722,7 +1620,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "But now let’s look at the same link (href=”mantis-shrimp”) clicked from ",
+              "content": "But now let’s look at the same link (again, ",
               "link": null
             },
             "annotations": {
@@ -1733,7 +1631,41 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "But now let’s look at the same link (href=”mantis-shrimp”) clicked from ",
+            "plain_text": "But now let’s look at the same link (again, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "href=”mantis-shrimp”",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "href=”mantis-shrimp”",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ") clicked from ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ") clicked from ",
             "href": null
           },
           {
@@ -1961,7 +1893,7 @@ const json = {
         "page_id": "57ec9a2d-b854-4bf6-94a4-5f0e2a0b68d1"
       },
       "created_time": "2022-01-22T03:20:00.000Z",
-      "last_edited_time": "2022-01-27T07:17:00.000Z",
+      "last_edited_time": "2022-12-08T23:25:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -2149,7 +2081,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": " Now, no matter where you link to the ”target” page, the link will be resolved using the site root, leading us infallibly to ",
+              "content": ", so, no matter where you link to the ”target” page, the link will be resolved using the site root, leading us infallibly to ",
               "link": null
             },
             "annotations": {
@@ -2160,7 +2092,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": " Now, no matter where you link to the ”target” page, the link will be resolved using the site root, leading us infallibly to ",
+            "plain_text": ", so, no matter where you link to the ”target” page, the link will be resolved using the site root, leading us infallibly to ",
             "href": null
           },
           {
@@ -2349,7 +2281,7 @@ const json = {
             "block_id": "2f7f4bed-9692-4017-a0b3-c390cc40422a"
           },
           "created_time": "2022-01-24T06:42:00.000Z",
-          "last_edited_time": "2022-12-08T05:08:00.000Z",
+          "last_edited_time": "2022-12-08T21:35:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -2998,7 +2930,7 @@ const json = {
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "Header (3 types in 1!)",
+                        "plain_text": "Header",
                         "href": "https://www.notion.so/970f68f89f1a4140b76a7ba91a3209cb"
                       }
                     ]

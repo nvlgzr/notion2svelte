@@ -35,6 +35,8 @@
 	<title>Writing Good Slugs</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>Writing Good Slugs</Title>
 
 <Paragraph
@@ -161,20 +163,20 @@
 		pageId: '57ec9a2db8544bf694a45f0e2a0b68d1',
 		id: '665df6a5-4fe9-4227-9da8-ce9d080b37b5',
 		created_time: '2022-01-22T03:46:00.000Z',
-		last_edited_time: '2022-11-30T10:32:00.000Z'
+		last_edited_time: '2022-12-08T23:23:00.000Z'
 	}}
 >
-	Now let’s say that you have two pages linking&ensp;<em>to</em
-	>&ensp;“link-target”,&ensp;<InlineColor value="blue"><em>one</em></InlineColor
-	>&ensp;and&ensp;<InlineColor value="purple"><em>two</em></InlineColor>, like so
+	Now let’s say that you have two pages linking&ensp;<em>to</em>&ensp;“link-target”,&ensp;<em
+		>one</em
+	>&ensp;and&ensp;<em>two</em>, like so
 </Paragraph>
 <Code
 	code={`├── src
 │   └── routes
-│       ├── &lt;InlineColor value=&#039;blue&#039;&gt;&lt;em&gt;&lt;strong&gt;one&lt;/strong&gt;&lt;/em&gt;&lt;/InlineColor&gt;.svelte
-│       ├── &lt;strong&gt;mantis-shrimp&lt;/strong&gt;/+page.svelte
+│       ├── one.svelte
+│       ├── mantis-shrimp/+page.svelte
 │       └── subpages
-│           ├── &lt;InlineColor value=&#039;purple&#039;&gt;&lt;strong&gt;two&lt;/strong&gt;&lt;/InlineColor&gt;.svelte
+│           ├── two.svelte
 │           …`}
 	language="javascript"
 /><Paragraph
@@ -197,15 +199,14 @@
 		pageId: '57ec9a2db8544bf694a45f0e2a0b68d1',
 		id: '74890dd3-67ae-44e6-89cd-b9aacc851579',
 		created_time: '2022-01-22T03:53:00.000Z',
-		last_edited_time: '2022-11-30T10:42:00.000Z'
+		last_edited_time: '2022-12-08T23:24:00.000Z'
 	}}
 >
-	But now let’s look at the same link (href=”mantis-shrimp”) clicked from&ensp;<em
-		>https://foo.io//subpages/two</em
-	>. Here, the relative root is no longer&ensp;<em>https://foo.io</em>, but&ensp;<em
-		>https://foo.io/subpages</em
-	>. Now, when we click the link, it resolves to&ensp;<em>htttps://foo.io/subpages/mantis-shrimp</em
-	>&ensp;which, of course, does not exist, leading to a&ensp;<InlineCode code={'404'} />&ensp;😥.
+	But now let’s look at the same link (again,&ensp;<InlineCode code={'href=”mantis-shrimp”'} />)
+	clicked from&ensp;<em>https://foo.io//subpages/two</em>. Here, the relative root is no
+	longer&ensp;<em>https://foo.io</em>, but&ensp;<em>https://foo.io/subpages</em>. Now, when we click
+	the link, it resolves to&ensp;<em>htttps://foo.io/subpages/mantis-shrimp</em>&ensp;which, of
+	course, does not exist, leading to a&ensp;<InlineCode code={'404'} />&ensp;😥.
 </Paragraph>
 <Header level={3}>🌞👍 Site-relative links</Header>
 <Paragraph
@@ -213,18 +214,15 @@
 		pageId: '57ec9a2db8544bf694a45f0e2a0b68d1',
 		id: 'dd21dba5-8353-49af-a4c6-f2eeb36c1e38',
 		created_time: '2022-01-22T03:20:00.000Z',
-		last_edited_time: '2022-01-27T07:17:00.000Z'
+		last_edited_time: '2022-12-08T23:25:00.000Z'
 	}}
 >
 	When you prepend a Slug with&ensp;<InlineCode code={'/'} />,&ensp;<em>notion2svelte&ensp;</em
 	>creates&ensp;<strong>site</strong>-relative links. Now, instead of &ensp;<InlineCode
 		code={'&lt;a href=&quot;link-target&quot;&gt;Link&lt;/a&gt;'}
-	/>, we have &ensp;<InlineCode
-		code={'&lt;a href=&quot;/link-target&quot;&gt;Link&lt;/a&gt;'}
-	/>&ensp;Now, no matter where you link to the ”target” page, the link will be resolved using the
-	site root, leading us infallibly to&ensp;<InlineCode code={'https://foo.io/link-target'} /><em
-		>.</em
-	>
+	/>, we have &ensp;<InlineCode code={'&lt;a href=&quot;/link-target&quot;&gt;Link&lt;/a&gt;'} />,
+	so, no matter where you link to the ”target” page, the link will be resolved using the site root,
+	leading us infallibly to&ensp;<InlineCode code={'https://foo.io/link-target'} /><em>.</em>
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -284,8 +282,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link
