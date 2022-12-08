@@ -35,11 +35,14 @@
 	<title>NumberedListItem</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>NumberedListItem</Title>
 
 <Header level={1}>1. Notion original</Header>
 <Image
 	url="/assets/standard-components/numbered-list-item/649e379b-c64f-4e8c-85a8-14c9138c9cad.png"
+	caption=""
 />
 <Header level={1}>2. Notion API</Header>
 <Paragraph
@@ -47,7 +50,7 @@
 		pageId: '52ce8803309d42ada3fd00cb9cd1c200',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -57,11 +60,7 @@
 <Code
 	code={`\{
   &quot;object&quot;: &quot;block&quot;,
-  &quot;id&quot;: &quot;515444ca-0efd-4871-bc15-68501efee7f4&quot;,
-  &quot;created_time&quot;: &quot;2022-01-26T09:15:00.000Z&quot;,
-  &quot;last_edited_time&quot;: &quot;2022-01-26T09:15:00.000Z&quot;,
-  &quot;has_children&quot;: true,
-  &quot;archived&quot;: false,
+  …
   &quot;type&quot;: &quot;numbered_list_item&quot;,
   &quot;numbered_list_item&quot;: \{
     &quot;text&quot;: [
@@ -262,8 +261,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link
