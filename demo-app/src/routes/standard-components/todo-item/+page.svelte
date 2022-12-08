@@ -35,17 +35,22 @@
 	<title>TodoItem</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>TodoItem</Title>
 
 <Header level={1}>1. Notion original</Header>
-<Image url="/assets/standard-components/todo-item/7abddc48-4a58-4ee4-a54a-564f33422a1d.png" />
+<Image
+	url="/assets/standard-components/todo-item/7abddc48-4a58-4ee4-a54a-564f33422a1d.png"
+	caption=""
+/>
 <Header level={1}>2. Notion API</Header>
 <Paragraph
 	blockProps={{
 		pageId: 'f4715756f4844a9980a72385b6b1fb76',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -55,11 +60,7 @@
 <Code
 	code={`\{
       &quot;object&quot;: &quot;block&quot;,
-      &quot;id&quot;: &quot;8e3ee011-625f-46b9-8ca7-44f94e74fc45&quot;,
-      &quot;created_time&quot;: &quot;2022-01-22T05:03:00.000Z&quot;,
-      &quot;last_edited_time&quot;: &quot;2022-01-22T05:03:00.000Z&quot;,
-      &quot;has_children&quot;: false,
-      &quot;archived&quot;: false,
+      …
       &quot;type&quot;: &quot;to_do&quot;,
       &quot;to_do&quot;: \{
         &quot;text&quot;: [
@@ -117,18 +118,6 @@
 	>
 </Paragraph>
 <TodoItem checked={false}>Remember the milk</TodoItem>
-<IndentGroup>
-	<Paragraph
-		blockProps={{
-			pageId: 'f4715756f4844a9980a72385b6b1fb76',
-			id: '2aa346a3-18e2-4c74-9a26-c9828e63c8e2',
-			created_time: '2022-01-23T02:38:00.000Z',
-			last_edited_time: '2022-01-23T02:38:00.000Z'
-		}}
-	>
-		↑ Try it! It’s clickable!
-	</Paragraph>
-</IndentGroup>
 <Paragraph
 	blockProps={{
 		pageId: 'f4715756f4844a9980a72385b6b1fb76',
@@ -177,8 +166,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link
