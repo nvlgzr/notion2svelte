@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "38ed521b-f46e-49be-8d2a-f67a53a37c6e",
   "created_time": "2022-01-24T04:21:00.000Z",
-  "last_edited_time": "2022-12-08T05:13:00.000Z",
+  "last_edited_time": "2022-12-08T23:19:00.000Z",
   "created_by": {
     "object": "user",
     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -227,7 +227,7 @@ const json = {
         "page_id": "38ed521b-f46e-49be-8d2a-f67a53a37c6e"
       },
       "created_time": "2022-01-28T20:35:00.000Z",
-      "last_edited_time": "2022-01-28T20:38:00.000Z",
+      "last_edited_time": "2022-12-08T23:09:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -246,7 +246,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "<Paragraph\n  ",
+              "content": "<Paragraph\n  blockProps={{\n    pageId: …,\n    id: …,\n    created_time: …,\n    last_edited_time: …\n  }}\n>\n  ur content\n</Paragraph>",
               "link": null
             },
             "annotations": {
@@ -257,41 +257,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "<Paragraph\n  ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "blockProps",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "purple"
-            },
-            "plain_text": "blockProps",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "={{\n    pageId: …,\n    id: …,\n    created_time: …,\n    last_edited_time: …\n  }}\n>\n  ur content\n</Paragraph>",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "={{\n    pageId: …,\n    id: …,\n    created_time: …,\n    last_edited_time: …\n  }}\n>\n  ur content\n</Paragraph>",
+            "plain_text": "<Paragraph\n  blockProps={{\n    pageId: …,\n    id: …,\n    created_time: …,\n    last_edited_time: …\n  }}\n>\n  ur content\n</Paragraph>",
             "href": null
           }
         ]
@@ -349,7 +315,7 @@ const json = {
         "page_id": "38ed521b-f46e-49be-8d2a-f67a53a37c6e"
       },
       "created_time": "2022-01-26T23:57:00.000Z",
-      "last_edited_time": "2022-01-27T21:05:00.000Z",
+      "last_edited_time": "2022-12-08T23:16:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -384,7 +350,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": " take the most useful pieces of block metadata and provide them to your components* to use (or ignore) however you see fit. On my own personal site, I expect to use them to:",
+              "content": " take the most useful pieces of block metadata and provide them to your components* to use (or ignore) however you see fit. On my own personal site, I hope to use them to:",
               "link": null
             },
             "annotations": {
@@ -395,7 +361,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": " take the most useful pieces of block metadata and provide them to your components* to use (or ignore) however you see fit. On my own personal site, I expect to use them to:",
+            "plain_text": " take the most useful pieces of block metadata and provide them to your components* to use (or ignore) however you see fit. On my own personal site, I hope to use them to:",
             "href": null
           }
         ]
@@ -495,7 +461,7 @@ const json = {
         "page_id": "38ed521b-f46e-49be-8d2a-f67a53a37c6e"
       },
       "created_time": "2022-01-27T20:55:00.000Z",
-      "last_edited_time": "2022-01-27T21:00:00.000Z",
+      "last_edited_time": "2022-12-08T23:16:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -513,7 +479,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "Enable precision links…",
+              "content": "Enable deep links to specific blocks, as already supported by Notion with URLs like this, but fully-self-contained in your Svelte app",
               "link": null
             },
             "annotations": {
@@ -524,7 +490,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "Enable precision links…",
+            "plain_text": "Enable deep links to specific blocks, as already supported by Notion with URLs like this, but fully-self-contained in your Svelte app",
             "href": null
           }
         ]
@@ -532,13 +498,13 @@ const json = {
       "blocks": [
         {
           "object": "block",
-          "id": "50c85f1b-03f9-495d-ad2c-0a159c7eee23",
+          "id": "68aaea5e-c56a-4430-bf02-f999db534af4",
           "parent": {
             "type": "block_id",
             "block_id": "75096a79-5d7f-4e3b-8e3f-3cda8da126c2"
           },
-          "created_time": "2022-01-27T21:00:00.000Z",
-          "last_edited_time": "2022-01-27T21:00:00.000Z",
+          "created_time": "2022-12-08T23:13:00.000Z",
+          "last_edited_time": "2022-12-08T23:15:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -556,86 +522,9 @@ const json = {
               {
                 "type": "text",
                 "text": {
-                  "content": "https://navelgazer.club/somepage#[block-id]",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": true,
-                  "color": "default"
-                },
-                "plain_text": "https://navelgazer.club/somepage#[block-id]",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " ",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "6f626dc8-8597-4779-9893-a7b24f5e6a41",
-          "parent": {
-            "type": "block_id",
-            "block_id": "75096a79-5d7f-4e3b-8e3f-3cda8da126c2"
-          },
-          "created_time": "2022-01-27T21:00:00.000Z",
-          "last_edited_time": "2022-01-27T21:01:00.000Z",
-          "created_by": {
-            "object": "user",
-            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-          },
-          "last_edited_by": {
-            "object": "user",
-            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-          },
-          "has_children": false,
-          "archived": false,
-          "type": "paragraph",
-          "paragraph": {
-            "color": "default",
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "…similar to Notion’s block links: ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "…similar to Notion’s block links: ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "(for example)",
+                  "content": "https://www.notion.so/nvlgzr/blockProps-38ed521bf46e49be8d2af67a53a37c6e#68aaea5ec56a4430bf02f999db534af4",
                   "link": {
-                    "url": "/b266b66cecc74e218f494f80f5c820cc#1f965316ac104b8182e19bb1b6658357"
+                    "url": "https://notion.so/nvlgzr/blockProps-38ed521bf46e49be8d2af67a53a37c6e#68aaea5ec56a4430bf02f999db534af4"
                   }
                 },
                 "annotations": {
@@ -646,8 +535,8 @@ const json = {
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "(for example)",
-                "href": "/b266b66cecc74e218f494f80f5c820cc#1f965316ac104b8182e19bb1b6658357"
+                "plain_text": "https://www.notion.so/nvlgzr/blockProps-38ed521bf46e49be8d2af67a53a37c6e#68aaea5ec56a4430bf02f999db534af4",
+                "href": "https://notion.so/nvlgzr/blockProps-38ed521bf46e49be8d2af67a53a37c6e#68aaea5ec56a4430bf02f999db534af4"
               }
             ]
           }
@@ -1387,7 +1276,7 @@ const json = {
         "page_id": "38ed521b-f46e-49be-8d2a-f67a53a37c6e"
       },
       "created_time": "2022-01-27T00:26:00.000Z",
-      "last_edited_time": "2022-01-27T05:40:00.000Z",
+      "last_edited_time": "2022-12-08T23:18:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1438,7 +1327,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": ". The button’s URL is assembled by combining ",
+              "content": ". The URL behind the “Highlight block in Notion” button gets assembled by combining ",
               "link": null
             },
             "annotations": {
@@ -1449,7 +1338,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": ". The button’s URL is assembled by combining ",
+            "plain_text": ". The URL behind the “Highlight block in Notion” button gets assembled by combining ",
             "href": null
           },
           {
@@ -1506,7 +1395,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": ". Click it to visit the source page in Notion.",
+              "content": ". Click it to visit the source page in Notion. Nifty, no?",
               "link": null
             },
             "annotations": {
@@ -1517,57 +1406,14 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": ". Click it to visit the source page in Notion.",
+            "plain_text": ". Click it to visit the source page in Notion. Nifty, no?",
             "href": null
           }
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3534dcc7-6c18-40da-874c-e216d75cfe4a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T082603Z&X-Amz-Expires=3600&X-Amz-Signature=90ac1d2e90d01a61210eb6dd01df43c7d0534f50cb5c9c1b0756ce3d974aece0&X-Amz-SignedHeaders=host&x-id=GetObject"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3534dcc7-6c18-40da-874c-e216d75cfe4a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T232004Z&X-Amz-Expires=3600&X-Amz-Signature=b2b5437f66f914779ef1d37375af253e3605e1429cb1226cfc79bfc96cf7f06c&X-Amz-SignedHeaders=host&x-id=GetObject"
         }
-      }
-    },
-    {
-      "object": "block",
-      "id": "7ac2fd86-b39d-48c8-b7f2-2af2fe1d4fe7",
-      "parent": {
-        "type": "page_id",
-        "page_id": "38ed521b-f46e-49be-8d2a-f67a53a37c6e"
-      },
-      "created_time": "2022-01-27T00:15:00.000Z",
-      "last_edited_time": "2022-01-27T00:15:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Nifty, no?",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Nifty, no?",
-            "href": null
-          }
-        ]
       }
     },
     {
@@ -1603,7 +1449,7 @@ const json = {
         "page_id": "38ed521b-f46e-49be-8d2a-f67a53a37c6e"
       },
       "created_time": "2022-01-27T00:15:00.000Z",
-      "last_edited_time": "2022-01-27T05:43:00.000Z",
+      "last_edited_time": "2022-12-08T23:19:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1659,7 +1505,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": ". That’s all I know about it. Ftw, ",
+              "content": ". That’s all I know about it. Fwiw, ",
               "link": null
             },
             "annotations": {
@@ -1670,7 +1516,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": ". That’s all I know about it. Ftw, ",
+            "plain_text": ". That’s all I know about it. Fwiw, ",
             "href": null
           },
           {
@@ -1795,7 +1641,7 @@ const json = {
             "block_id": "1b32b9bd-e788-4edf-b44c-2802348e2d2c"
           },
           "created_time": "2022-01-27T04:08:00.000Z",
-          "last_edited_time": "2022-01-27T04:09:00.000Z",
+          "last_edited_time": "2022-12-08T23:19:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1940,7 +1786,7 @@ const json = {
             "block_id": "2f7f4bed-9692-4017-a0b3-c390cc40422a"
           },
           "created_time": "2022-01-24T06:42:00.000Z",
-          "last_edited_time": "2022-12-08T05:08:00.000Z",
+          "last_edited_time": "2022-12-08T21:35:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -2589,7 +2435,7 @@ const json = {
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "Header (3 types in 1!)",
+                        "plain_text": "Header",
                         "href": "https://www.notion.so/970f68f89f1a4140b76a7ba91a3209cb"
                       }
                     ]

@@ -35,6 +35,8 @@
 	<title>blockProps</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>blockProps</Title>
 
 <Paragraph
@@ -51,7 +53,7 @@
 </Paragraph>
 <Code
 	code={`&lt;Paragraph
-  &lt;InlineColor value=&#039;purple&#039;&gt;blockProps&lt;/InlineColor&gt;=\{\{
+  blockProps=\{\{
     pageId: …,
     id: …,
     created_time: …,
@@ -67,11 +69,11 @@
 		pageId: '38ed521bf46e49be8d2af67a53a37c6e',
 		id: '90ece235-05ce-413f-a94f-c4904fd66d66',
 		created_time: '2022-01-26T23:57:00.000Z',
-		last_edited_time: '2022-01-27T21:05:00.000Z'
+		last_edited_time: '2022-12-08T23:16:00.000Z'
 	}}
 >
 	<InlineCode code={'blockProps'} />&ensp;take the most useful pieces of block metadata and provide
-	them to your components* to use (or ignore) however you see fit. On my own personal site, I expect
+	them to your components* to use (or ignore) however you see fit. On my own personal site, I hope
 	to use them to:
 </Paragraph>
 <BulletedListItem
@@ -81,29 +83,23 @@
 <BulletedListItem
 	>Support automatic “bookmarking” as readers progress through my online fiction</BulletedListItem
 >
-<BulletedListItem>Enable precision links…</BulletedListItem>
+<BulletedListItem
+	>Enable deep links to specific blocks, as already supported by Notion with URLs like this, but
+	fully-self-contained in your Svelte app</BulletedListItem
+>
 <IndentGroup>
 	<Paragraph
 		blockProps={{
 			pageId: '38ed521bf46e49be8d2af67a53a37c6e',
-			id: '50c85f1b-03f9-495d-ad2c-0a159c7eee23',
-			created_time: '2022-01-27T21:00:00.000Z',
-			last_edited_time: '2022-01-27T21:00:00.000Z'
+			id: '68aaea5e-c56a-4430-bf02-f999db534af4',
+			created_time: '2022-12-08T23:13:00.000Z',
+			last_edited_time: '2022-12-08T23:15:00.000Z'
 		}}
 	>
-		<InlineCode code={'https://navelgazer.club/somepage#[block-id]'} />&ensp;
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: '38ed521bf46e49be8d2af67a53a37c6e',
-			id: '6f626dc8-8597-4779-9893-a7b24f5e6a41',
-			created_time: '2022-01-27T21:00:00.000Z',
-			last_edited_time: '2022-01-27T21:01:00.000Z'
-		}}
-	>
-		…similar to Notion’s block links:&ensp;<Link
+		<Link
 			type="absolute"
-			href="/b266b66cecc74e218f494f80f5c820cc#1f965316ac104b8182e19bb1b6658357">(for example)</Link
+			href="https://notion.so/nvlgzr/blockProps-38ed521bf46e49be8d2af67a53a37c6e#68aaea5ec56a4430bf02f999db534af4"
+			>https://www.notion.so/nvlgzr/blockProps-38ed521bf46e49be8d2af67a53a37c6e#68aaea5ec56a4430bf02f999db534af4</Link
 		>
 	</Paragraph>
 </IndentGroup>
@@ -184,22 +180,15 @@ import Paragraph from &#039;$lib/notion2svelte/Paragraph.svelte&#039;;
 >
 	It should look like this ↓
 </Paragraph>
-<Image url="/assets/high-level-discussion/block-props/5fb082b3-d27c-4fed-b49e-c800b88faa93.png"
-	>The JSON is a straight dump of&ensp;<InlineCode code={'blockProps'} />. The button’s URL is
-	assembled by combining&ensp;<InlineCode code={'pageId'} />&ensp;with the block&ensp;<InlineCode
-		code={'id'}
-	/>. Click it to visit the source page in Notion.</Image
+<Image
+	url="/assets/high-level-discussion/block-props/5fb082b3-d27c-4fed-b49e-c800b88faa93.png"
+	caption="The JSON is a straight dump of blockProps. The URL behind the “Highlight block in Notion” button gets assembled by combining pageId with the block id. Click it to visit the source page in Notion. Nifty, no?"
+	>The JSON is a straight dump of&ensp;<InlineCode code={'blockProps'} />. The URL behind the
+	“Highlight block in Notion” button gets assembled by combining&ensp;<InlineCode
+		code={'pageId'}
+	/>&ensp;with the block&ensp;<InlineCode code={'id'} />. Click it to visit the source page in
+	Notion. Nifty, no?</Image
 >
-<Paragraph
-	blockProps={{
-		pageId: '38ed521bf46e49be8d2af67a53a37c6e',
-		id: '7ac2fd86-b39d-48c8-b7f2-2af2fe1d4fe7',
-		created_time: '2022-01-27T00:15:00.000Z',
-		last_edited_time: '2022-01-27T00:15:00.000Z'
-	}}
->
-	Nifty, no?
-</Paragraph>
 <Paragraph
 	blockProps={{
 		pageId: '38ed521bf46e49be8d2af67a53a37c6e',
@@ -210,7 +199,7 @@ import Paragraph from &#039;$lib/notion2svelte/Paragraph.svelte&#039;;
 />
 <Callout emoji="🧠"
 	>In case you’re wondering, this → ֍ ← is a&ensp;<em>right-facing Armenian eternity sign</em>.
-	That’s all I know about it. Ftw,&ensp;<em>Unicode</em>&ensp;also offers the&ensp;<em
+	That’s all I know about it. Fwiw,&ensp;<em>Unicode</em>&ensp;also offers the&ensp;<em
 		>left-facing Armenian eternity sign</em
 	>: ֎<span slot="children"
 		><Paragraph
@@ -285,8 +274,7 @@ import Paragraph from &#039;$lib/notion2svelte/Paragraph.svelte&#039;;
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link
