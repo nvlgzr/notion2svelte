@@ -35,6 +35,7 @@
 	<title>Error</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
 <Title>Error</Title>
 
 <Header level={1}>Motivation</Header>
@@ -68,7 +69,7 @@
 		pageId: 'f8b93766ebbc4211a1e74d4475d3d8a4',
 		id: 'ea40e332-ab16-4628-af73-cb7dae8a6f8f',
 		created_time: '2022-01-31T20:57:00.000Z',
-		last_edited_time: '2022-01-31T21:00:00.000Z'
+		last_edited_time: '2022-12-08T08:51:00.000Z'
 	}}
 >
 	In the Notion database that hosts my source files for this site, I have a page called&ensp;<em
@@ -83,7 +84,7 @@
 		pageId: 'f8b93766ebbc4211a1e74d4475d3d8a4',
 		id: '3919a7a0-4bc5-4844-a974-b0aade6e8a55',
 		created_time: '2022-01-31T21:00:00.000Z',
-		last_edited_time: '2022-01-31T21:01:00.000Z'
+		last_edited_time: '2022-12-08T08:56:00.000Z'
 	}}
 >
 	Rather than bring the entire process to a halt or hoping that you notice an error in the Console,
@@ -138,7 +139,7 @@
 		>↓ this page</Link
 	>&ensp;has never been marked Publishable during a local run of&ensp;<em>notion2svelte…</em>
 </Paragraph>
-<Image url="/assets/other-components/error/719944fb-1ec8-42b5-9e29-4d4f54a31f4f.png" />
+<Image url="/assets/other-components/error/719944fb-1ec8-42b5-9e29-4d4f54a31f4f.png" caption="" />
 <Paragraph
 	blockProps={{
 		pageId: 'f8b93766ebbc4211a1e74d4475d3d8a4',
@@ -157,7 +158,7 @@
 		pageId: 'f8b93766ebbc4211a1e74d4475d3d8a4',
 		id: '46e3a8bc-fa08-46a6-882c-d94023fe4e10',
 		created_time: '2022-01-28T00:11:00.000Z',
-		last_edited_time: '2022-01-31T21:02:00.000Z'
+		last_edited_time: '2022-12-08T08:49:00.000Z'
 	}}
 >
 	Rendered by <Link

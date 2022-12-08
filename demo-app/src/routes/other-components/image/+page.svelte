@@ -35,6 +35,7 @@
 	<title>Image</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
 <Title>Image</Title>
 
 <Toggle

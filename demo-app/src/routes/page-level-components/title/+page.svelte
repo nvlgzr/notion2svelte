@@ -35,6 +35,7 @@
 	<title>Title (aka Name)</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
 <Title>Title (aka Name)</Title>
 
 <Paragraph
@@ -82,7 +83,10 @@
 			component name.
 		</Paragraph>
 	</Column><Column
-		><Image url="/assets/page-level-components/title/45f4b177-1575-412a-9686-36a88bc1602b.png" />
+		><Image
+			url="/assets/page-level-components/title/45f4b177-1575-412a-9686-36a88bc1602b.png"
+			caption=""
+		/>
 	</Column></ColumnList
 ><Callout emoji="💁🏼"
 	>You don’t have to include a title on every page. In fact, the title of this site’s&ensp;<Link

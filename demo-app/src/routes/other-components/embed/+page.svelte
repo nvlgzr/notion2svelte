@@ -35,17 +35,18 @@
 	<title>Embed</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
 <Title>Embed</Title>
 
 <Header level={1}>1. Notion original</Header>
-<Image url="/assets/other-components/embed/c00e75df-9ac7-45b5-bf9f-c8dfe3a042f4.png" />
+<Image url="/assets/other-components/embed/c00e75df-9ac7-45b5-bf9f-c8dfe3a042f4.png" caption="" />
 <Header level={1}>2. Notion API</Header>
 <Paragraph
 	blockProps={{
 		pageId: '7481d378fee347f78de9bedbf31a7ea6',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"

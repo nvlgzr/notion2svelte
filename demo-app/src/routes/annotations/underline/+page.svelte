@@ -35,17 +35,18 @@
 	<title>Underline</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
 <Title>Underline</Title>
 
 <Header level={1}>1. Notion original</Header>
-<Image url="/assets/annotations/underline/d6a96338-17a7-4fde-a5e4-bfedf86b0d5b.png" />
+<Image url="/assets/annotations/underline/d6a96338-17a7-4fde-a5e4-bfedf86b0d5b.png" caption="" />
 <Header level={1}>2. Notion API</Header>
 <Paragraph
 	blockProps={{
 		pageId: '5cb76e2e6d8f4697b53a95905d6c0c69',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -111,7 +112,7 @@
 		pageId: '5cb76e2e6d8f4697b53a95905d6c0c69',
 		id: 'f6e54e55-1799-4733-8776-a7ee7c81518c',
 		created_time: '2022-12-08T04:39:00.000Z',
-		last_edited_time: '2022-12-08T04:39:00.000Z'
+		last_edited_time: '2022-12-08T09:13:00.000Z'
 	}}
 >
 	Green squiggly rendered by&ensp;<Link

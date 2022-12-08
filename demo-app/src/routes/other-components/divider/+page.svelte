@@ -35,6 +35,7 @@
 	<title>Divider</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
 <Title>Divider</Title>
 
 <Paragraph
@@ -48,14 +49,14 @@
 	This is, by far, the least complex component you’ll have to deal with. 🥱
 </Paragraph>
 <Header level={1}>1. Notion original</Header>
-<Image url="/assets/other-components/divider/46adebc0-d22c-44de-90a4-c8b33aac7fe8.png" />
+<Image url="/assets/other-components/divider/46adebc0-d22c-44de-90a4-c8b33aac7fe8.png" caption="" />
 <Header level={1}>2. Notion API</Header>
 <Paragraph
 	blockProps={{
 		pageId: '539eb6b1b5214fda8246b35378287ccb',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"

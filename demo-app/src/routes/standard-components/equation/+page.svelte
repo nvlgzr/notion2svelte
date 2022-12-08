@@ -35,6 +35,7 @@
 	<title>Equation</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
 <Title>Equation</Title>
 
 <Header level={1}>1. Notion original</Header>

@@ -35,6 +35,7 @@
 	<title>Link</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
 <Title>Link</Title>
 
 <Header level={1}>1. Notion original</Header>

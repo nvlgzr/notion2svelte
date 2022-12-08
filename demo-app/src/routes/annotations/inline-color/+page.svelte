@@ -35,17 +35,18 @@
 	<title>InlineColor</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
 <Title>InlineColor</Title>
 
 <Header level={1}>1. Notion original</Header>
-<Image url="/assets/annotations/inline-color/260aebbe-e7e8-4515-b8d0-9d33cf66bc96.png" />
+<Image url="/assets/annotations/inline-color/260aebbe-e7e8-4515-b8d0-9d33cf66bc96.png" caption="" />
 <Header level={1}>2. Notion API</Header>
 <Paragraph
 	blockProps={{
 		pageId: '4117d7563ce547b2b9efb6bf8404bc7b',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"

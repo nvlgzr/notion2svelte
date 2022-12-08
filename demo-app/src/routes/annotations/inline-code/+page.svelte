@@ -35,10 +35,11 @@
 	<title>InlineCode</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
 <Title>InlineCode</Title>
 
 <Header level={1}>1. Notion original</Header>
-<Image url="/assets/annotations/inline-code/1490071b-97e1-4726-a519-b85cccae2377.png" />
+<Image url="/assets/annotations/inline-code/1490071b-97e1-4726-a519-b85cccae2377.png" caption="" />
 <Paragraph
 	blockProps={{
 		pageId: '75a1725479f8411580df3c1cb67e3060',
@@ -53,7 +54,7 @@
 		pageId: '75a1725479f8411580df3c1cb67e3060',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
