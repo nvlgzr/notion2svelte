@@ -36,14 +36,24 @@
 </svelte:head>
 
 <Cover coverURL={''} iconEmojiOrURL={'📄'} />
+
 <Title>Configuring your .env</Title>
 
-<Callout emoji="🧸"
-	>This information on this page can also be found in&ensp;<Link
-		type="absolute"
-		href="https://github.com/nvlgzr/notion2svelte/blob/main/.env-sample"><em>.env-sample</em></Link
-	></Callout
-><Header level={1}>Required key</Header>
+<Paragraph
+	blockProps={{
+		pageId: '3c584e911b5c4378b120e3cf62797212',
+		id: '0757ffcf-4e93-42fb-bab2-cf278f97e393',
+		created_time: '2022-12-08T22:56:00.000Z',
+		last_edited_time: '2022-12-08T22:58:00.000Z'
+	}}
+>
+	<em>notion2svelte</em>&ensp;expects to find a&ensp;<em>.env</em>&ensp;file in the directory where
+	it’s run (typically the root of your SvelteKit directory). At minimum, this file —&ensp;<em
+		>which should&ensp;</em
+	><em><strong>not</strong></em><em>&ensp;be checked into source control!</em>&ensp;— must contain
+	your Notion API key.
+</Paragraph>
+<Header level={1}>Required key</Header>
 <Code code={`NOTION_API_KEY=secret_QoIn8edvksjn…`} language="typescript" /><Paragraph
 	blockProps={{
 		pageId: '3c584e911b5c4378b120e3cf62797212',
@@ -158,10 +168,10 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 		pageId: '3c584e911b5c4378b120e3cf62797212',
 		id: 'caba7b12-b1ee-4a30-afe2-27531d17288c',
 		created_time: '2022-02-17T22:36:00.000Z',
-		last_edited_time: '2022-02-18T07:48:00.000Z'
+		last_edited_time: '2022-12-08T22:55:00.000Z'
 	}}
 >
-	<InlineCode code={'CACHE_TOKEN'} />&ensp;helps&ensp;<em>notion2svelte</em>&ensp;whether it should
+	<InlineCode code={'CACHE_TOKEN'} />&ensp;tells&ensp;<em>notion2svelte</em>&ensp;whether it should
 	fetch the test page:
 </Paragraph>
 <IndentGroup>
@@ -170,32 +180,13 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 			pageId: '3c584e911b5c4378b120e3cf62797212',
 			id: 'a507b69d-ba96-450f-96f1-448a763ed784',
 			created_time: '2022-02-17T22:37:00.000Z',
-			last_edited_time: '2022-02-18T07:51:00.000Z'
+			last_edited_time: '2022-12-08T22:55:00.000Z'
 		}}
 	>
-		<em>If</em>&ensp;the cache token&ensp;<em>matches</em>&ensp;the test page id,&ensp;<em
-			>notion2svelte</em
-		>&ensp;will skip fetching, and instead read the page object from locally-stored* JSON.
+		If the cache token&ensp;<em>matches</em>&ensp;the test page id,&ensp;<em>notion2svelte</em
+		>&ensp;will skip fetching, and instead read the JSON directly from the locally-stored*
+		intermediary output.
 	</Paragraph>
-	<IndentGroup>
-		<Paragraph
-			blockProps={{
-				pageId: '3c584e911b5c4378b120e3cf62797212',
-				id: '43be2b89-7edd-41e9-824c-617d4ebba004',
-				created_time: '2022-02-17T22:45:00.000Z',
-				last_edited_time: '2022-02-18T07:51:00.000Z'
-			}}
-		>
-			<InlineColor value="gray">*In&ensp;</InlineColor><InlineColor value="gray"
-				><em>notion2svelte 0.0.1</em></InlineColor
-			><InlineColor value="gray">, a&ensp;</InlineColor><InlineColor value="gray"
-				><em><slug>.json</slug></em></InlineColor
-			><InlineColor value="gray">&ensp;precursor file is output with every&ensp;</InlineColor
-			><InlineColor value="gray"><em><slug>.svelte</slug></em></InlineColor><InlineColor
-				value="gray">&ensp;page.</InlineColor
-			>
-		</Paragraph>
-	</IndentGroup>
 	<Paragraph
 		blockProps={{
 			pageId: '3c584e911b5c4378b120e3cf62797212',
@@ -222,7 +213,40 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 		>notion2svelte</em
 	>&ensp;to ignore the cache token & hit the Notion API&ensp;<em>every</em>&ensp;time.
 </Paragraph>
-<Divider />
+<Paragraph
+	blockProps={{
+		pageId: '3c584e911b5c4378b120e3cf62797212',
+		id: 'b892d942-7d28-4887-9310-42d6c8ba0407',
+		created_time: '2022-12-08T22:55:00.000Z',
+		last_edited_time: '2022-12-08T22:55:00.000Z'
+	}}
+/>
+<Paragraph
+	blockProps={{
+		pageId: '3c584e911b5c4378b120e3cf62797212',
+		id: '43be2b89-7edd-41e9-824c-617d4ebba004',
+		created_time: '2022-02-17T22:45:00.000Z',
+		last_edited_time: '2022-12-08T22:55:00.000Z'
+	}}
+>
+	<InlineColor value="gray">*In&ensp;</InlineColor><InlineColor value="gray"
+		><em>notion2svelte 0.2.0</em></InlineColor
+	><InlineColor value="gray">, a&ensp;</InlineColor><InlineColor value="gray"
+		><em><slug>/notion-export.js</slug></em></InlineColor
+	><InlineColor value="gray">&ensp;file is output next to every&ensp;</InlineColor><InlineColor
+		value="gray"><em><slug>/+page.svelte</slug></em></InlineColor
+	><InlineColor value="gray"
+		>&ensp;page, just for kicks (and to help me troubleshoot&ensp;</InlineColor
+	><InlineColor value="gray"><em>notion2svelte</em></InlineColor><InlineColor value="gray"
+		>&ensp;rendering issues).</InlineColor
+	>
+</Paragraph>
+<Callout emoji="🧸"
+	>See also:&ensp;<Link
+		type="absolute"
+		href="https://github.com/nvlgzr/notion2svelte/blob/main/.env-sample"><em>.env-sample</em></Link
+	></Callout
+><Divider />
 <Header level={2}
 	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
 >
@@ -262,8 +286,7 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link

@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "3c584e91-1b5c-4378-b120-e3cf62797212",
   "created_time": "2022-02-17T22:03:00.000Z",
-  "last_edited_time": "2022-12-08T05:13:00.000Z",
+  "last_edited_time": "2022-12-08T22:59:00.000Z",
   "created_by": {
     "object": "user",
     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -130,13 +130,13 @@ const json = {
   "blocks": [
     {
       "object": "block",
-      "id": "c17345e0-98c5-4dca-a571-1069bf3ad932",
+      "id": "0757ffcf-4e93-42fb-bab2-cf278f97e393",
       "parent": {
         "type": "page_id",
         "page_id": "3c584e91-1b5c-4378-b120-e3cf62797212"
       },
-      "created_time": "2022-02-17T22:04:00.000Z",
-      "last_edited_time": "2022-02-17T22:08:00.000Z",
+      "created_time": "2022-12-08T22:56:00.000Z",
+      "last_edited_time": "2022-12-08T22:58:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -147,18 +147,31 @@ const json = {
       },
       "has_children": false,
       "archived": false,
-      "type": "callout",
-      "callout": {
-        "icon": {
-          "type": "emoji",
-          "emoji": "🧸"
-        },
-        "color": "gray_background",
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "This information on this page can also be found in ",
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " expects to find a ",
               "link": null
             },
             "annotations": {
@@ -169,16 +182,14 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "This information on this page can also be found in ",
+            "plain_text": " expects to find a ",
             "href": null
           },
           {
             "type": "text",
             "text": {
-              "content": ".env-sample",
-              "link": {
-                "url": "https://github.com/nvlgzr/notion2svelte/blob/main/.env-sample"
-              }
+              "content": ".env",
+              "link": null
             },
             "annotations": {
               "bold": false,
@@ -188,21 +199,106 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": ".env-sample",
-            "href": "https://github.com/nvlgzr/notion2svelte/blob/main/.env-sample"
+            "plain_text": ".env",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " file in the directory where it’s run (typically the root of your SvelteKit directory). At minimum, this file — ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " file in the directory where it’s run (typically the root of your SvelteKit directory). At minimum, this file — ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "which should ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "which should ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "not",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "not",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " be checked into source control!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " be checked into source control!",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " — must contain your Notion API key.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " — must contain your Notion API key.",
+            "href": null
           }
         ]
       }
     },
     {
       "object": "block",
-      "id": "0757ffcf-4e93-42fb-bab2-cf278f97e393",
+      "id": "80becdd7-89a4-4301-a20f-828a3df3945c",
       "parent": {
         "type": "page_id",
         "page_id": "3c584e91-1b5c-4378-b120-e3cf62797212"
       },
       "created_time": "2022-02-17T22:08:00.000Z",
-      "last_edited_time": "2022-02-17T22:20:00.000Z",
+      "last_edited_time": "2022-12-08T22:56:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1418,7 +1514,7 @@ const json = {
         "page_id": "3c584e91-1b5c-4378-b120-e3cf62797212"
       },
       "created_time": "2022-02-17T22:36:00.000Z",
-      "last_edited_time": "2022-02-18T07:48:00.000Z",
+      "last_edited_time": "2022-12-08T22:55:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1453,7 +1549,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": " helps ",
+              "content": " tells ",
               "link": null
             },
             "annotations": {
@@ -1464,7 +1560,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": " helps ",
+            "plain_text": " tells ",
             "href": null
           },
           {
@@ -1512,7 +1608,7 @@ const json = {
             "block_id": "caba7b12-b1ee-4a30-afe2-27531d17288c"
           },
           "created_time": "2022-02-17T22:37:00.000Z",
-          "last_edited_time": "2022-02-18T07:51:00.000Z",
+          "last_edited_time": "2022-12-08T22:55:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1521,7 +1617,7 @@ const json = {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
           },
-          "has_children": true,
+          "has_children": false,
           "archived": false,
           "type": "paragraph",
           "paragraph": {
@@ -1530,24 +1626,7 @@ const json = {
               {
                 "type": "text",
                 "text": {
-                  "content": "If",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "If",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " the cache token ",
+                  "content": "If the cache token ",
                   "link": null
                 },
                 "annotations": {
@@ -1558,7 +1637,7 @@ const json = {
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": " the cache token ",
+                "plain_text": "If the cache token ",
                 "href": null
               },
               {
@@ -1615,7 +1694,7 @@ const json = {
               {
                 "type": "text",
                 "text": {
-                  "content": " will skip fetching, and instead read the page object from locally-stored* JSON.",
+                  "content": " will skip fetching, and instead read the JSON directly from the locally-stored* intermediary output.",
                   "link": null
                 },
                 "annotations": {
@@ -1626,158 +1705,11 @@ const json = {
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": " will skip fetching, and instead read the page object from locally-stored* JSON.",
+                "plain_text": " will skip fetching, and instead read the JSON directly from the locally-stored* intermediary output.",
                 "href": null
               }
             ]
-          },
-          "blocks": [
-            {
-              "object": "block",
-              "id": "43be2b89-7edd-41e9-824c-617d4ebba004",
-              "parent": {
-                "type": "block_id",
-                "block_id": "a507b69d-ba96-450f-96f1-448a763ed784"
-              },
-              "created_time": "2022-02-17T22:45:00.000Z",
-              "last_edited_time": "2022-02-18T07:51:00.000Z",
-              "created_by": {
-                "object": "user",
-                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-              },
-              "last_edited_by": {
-                "object": "user",
-                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-              },
-              "has_children": false,
-              "archived": false,
-              "type": "paragraph",
-              "paragraph": {
-                "color": "default",
-                "text": [
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": "*In ",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": false,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "gray"
-                    },
-                    "plain_text": "*In ",
-                    "href": null
-                  },
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": "notion2svelte 0.0.1",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": true,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "gray"
-                    },
-                    "plain_text": "notion2svelte 0.0.1",
-                    "href": null
-                  },
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": ", a ",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": false,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "gray"
-                    },
-                    "plain_text": ", a ",
-                    "href": null
-                  },
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": "<slug>.json",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": true,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "gray"
-                    },
-                    "plain_text": "<slug>.json",
-                    "href": null
-                  },
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": " precursor file is output with every ",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": false,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "gray"
-                    },
-                    "plain_text": " precursor file is output with every ",
-                    "href": null
-                  },
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": "<slug>.svelte",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": true,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "gray"
-                    },
-                    "plain_text": "<slug>.svelte",
-                    "href": null
-                  },
-                  {
-                    "type": "text",
-                    "text": {
-                      "content": " page.",
-                      "link": null
-                    },
-                    "annotations": {
-                      "bold": false,
-                      "italic": false,
-                      "strikethrough": false,
-                      "underline": false,
-                      "code": false,
-                      "color": "gray"
-                    },
-                    "plain_text": " page.",
-                    "href": null
-                  }
-                ]
-              }
-            }
-          ]
+          }
         },
         {
           "object": "block",
@@ -2124,6 +2056,276 @@ const json = {
     },
     {
       "object": "block",
+      "id": "b892d942-7d28-4887-9310-42d6c8ba0407",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3c584e91-1b5c-4378-b120-e3cf62797212"
+      },
+      "created_time": "2022-12-08T22:55:00.000Z",
+      "last_edited_time": "2022-12-08T22:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "text": []
+      }
+    },
+    {
+      "object": "block",
+      "id": "43be2b89-7edd-41e9-824c-617d4ebba004",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3c584e91-1b5c-4378-b120-e3cf62797212"
+      },
+      "created_time": "2022-02-17T22:45:00.000Z",
+      "last_edited_time": "2022-12-08T22:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "*In ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "*In ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte 0.2.0",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "notion2svelte 0.2.0",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", a ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": ", a ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "<slug>/notion-export.js",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "<slug>/notion-export.js",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " file is output next to every ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": " file is output next to every ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "<slug>/+page.svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "<slug>/+page.svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " page, just for kicks (and to help me troubleshoot ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": " page, just for kicks (and to help me troubleshoot ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " rendering issues).",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": " rendering issues).",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "c17345e0-98c5-4dca-a571-1069bf3ad932",
+      "parent": {
+        "type": "page_id",
+        "page_id": "3c584e91-1b5c-4378-b120-e3cf62797212"
+      },
+      "created_time": "2022-02-17T22:04:00.000Z",
+      "last_edited_time": "2022-12-08T22:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "callout",
+      "callout": {
+        "icon": {
+          "type": "emoji",
+          "emoji": "🧸"
+        },
+        "color": "gray_background",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "See also: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "See also: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".env-sample",
+              "link": {
+                "url": "https://github.com/nvlgzr/notion2svelte/blob/main/.env-sample"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".env-sample",
+            "href": "https://github.com/nvlgzr/notion2svelte/blob/main/.env-sample"
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
       "id": "6db4ea05-d0b7-410f-bb21-b2f3204a718b",
       "parent": {
         "type": "page_id",
@@ -2179,7 +2381,7 @@ const json = {
             "block_id": "2f7f4bed-9692-4017-a0b3-c390cc40422a"
           },
           "created_time": "2022-01-24T06:42:00.000Z",
-          "last_edited_time": "2022-12-08T05:08:00.000Z",
+          "last_edited_time": "2022-12-08T21:35:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -2828,7 +3030,7 @@ const json = {
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "Header (3 types in 1!)",
+                        "plain_text": "Header",
                         "href": "https://www.notion.so/970f68f89f1a4140b76a7ba91a3209cb"
                       }
                     ]

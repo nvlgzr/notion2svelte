@@ -35,6 +35,8 @@
 	<title>Nested Blocks</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>Nested Blocks</Title>
 
 <Header level={1}>General Discussion</Header>
@@ -79,10 +81,10 @@
 		pageId: '6a969adc5c004dfe9242ddd1fd223d42',
 		id: '28d4bc03-ba2c-44a5-9464-56b5e2ebf034',
 		created_time: '2022-01-26T05:02:00.000Z',
-		last_edited_time: '2022-01-26T05:03:00.000Z'
+		last_edited_time: '2022-12-08T23:04:00.000Z'
 	}}
 >
-	Indenting’s handled by the&ensp;<Link type="mention" href="/layout-only-components/indent-group"
+	Indenting is handled by the&ensp;<Link type="mention" href="/layout-only-components/indent-group"
 		>IndentGroup</Link
 	>&ensp;component, which is wrapped around every group of sub-blocks…hence the name.
 </Paragraph>
@@ -100,25 +102,15 @@
 	<Code
 		code={`&lt;div&gt;&lt;slot /&gt;&lt;/div&gt;
 
-&lt; style&gt;*
+&lt;style&gt;
   div \{
     padding-left: 1.5rem;
   }
 &lt;/style&gt;`}
 		language="html"
 		><InlineColor value="gray">↑ [svelte-root]/</InlineColor><InlineColor value="gray"
-			><em
-				>src/lib/notion2svelte/IndentGroup.svelte
-				<br />
-			</em></InlineColor
-		><em>
-			<br />
-		</em>*Sigh.&ensp;<em>notion2svelte</em>&ensp;has some issues, in part thanks to its (mis?)use of
-		Prettier, with certain uses of angle brackets, hence the space before “style”.&ensp;<Link
-			type="absolute"
-			href="https://github.com/nvlgzr/notion2svelte/discussions">Message me</Link
-		>&ensp;if you have some thoughts on how to completely crush this class of bugs as it’s doing my
-		head in. 😬</Code
+			><em>src/lib/notion2svelte/IndentGroup.svelte</em></InlineColor
+		></Code
 	>
 </IndentGroup>
 <Paragraph
@@ -196,8 +188,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link

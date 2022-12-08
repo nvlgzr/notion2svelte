@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "6a969adc-5c00-4dfe-9242-ddd1fd223d42",
   "created_time": "2022-01-15T06:48:00.000Z",
-  "last_edited_time": "2022-12-08T05:13:00.000Z",
+  "last_edited_time": "2022-12-08T23:07:00.000Z",
   "created_by": {
     "object": "user",
     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -352,7 +352,7 @@ const json = {
         "page_id": "6a969adc-5c00-4dfe-9242-ddd1fd223d42"
       },
       "created_time": "2022-01-26T05:02:00.000Z",
-      "last_edited_time": "2022-01-26T05:03:00.000Z",
+      "last_edited_time": "2022-12-08T23:04:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -370,7 +370,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "Indenting’s handled by the ",
+              "content": "Indenting is handled by the ",
               "link": null
             },
             "annotations": {
@@ -381,7 +381,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "Indenting’s handled by the ",
+            "plain_text": "Indenting is handled by the ",
             "href": null
           },
           {
@@ -474,7 +474,7 @@ const json = {
             "block_id": "8e3e8d7c-416a-4a79-af7d-9e333ca6ec70"
           },
           "created_time": "2022-01-26T05:04:00.000Z",
-          "last_edited_time": "2022-01-31T07:47:00.000Z",
+          "last_edited_time": "2022-12-08T23:07:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -508,7 +508,7 @@ const json = {
               {
                 "type": "text",
                 "text": {
-                  "content": "src/lib/notion2svelte/IndentGroup.svelte\n",
+                  "content": "src/lib/notion2svelte/IndentGroup.svelte",
                   "link": null
                 },
                 "annotations": {
@@ -519,111 +519,7 @@ const json = {
                   "code": false,
                   "color": "gray"
                 },
-                "plain_text": "src/lib/notion2svelte/IndentGroup.svelte\n",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "\n",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "\n",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "*Sigh. ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "*Sigh. ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "notion2svelte",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "notion2svelte",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " has some issues, in part thanks to its (mis?)use of Prettier, with certain uses of angle brackets, hence the space before “style”. ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " has some issues, in part thanks to its (mis?)use of Prettier, with certain uses of angle brackets, hence the space before “style”. ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "Message me",
-                  "link": {
-                    "url": "https://github.com/nvlgzr/notion2svelte/discussions"
-                  }
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Message me",
-                "href": "https://github.com/nvlgzr/notion2svelte/discussions"
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " if you have some thoughts on how to completely crush this class of bugs as it’s doing my head in. 😬",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " if you have some thoughts on how to completely crush this class of bugs as it’s doing my head in. 😬",
+                "plain_text": "src/lib/notion2svelte/IndentGroup.svelte",
                 "href": null
               }
             ],
@@ -632,7 +528,7 @@ const json = {
               {
                 "type": "text",
                 "text": {
-                  "content": "<div><slot /></div>\n\n< style>*\n  div {\n    padding-left: 1.5rem;\n  }\n</style>",
+                  "content": "<div><slot /></div>\n\n<style>\n  div {\n    padding-left: 1.5rem;\n  }\n</style>",
                   "link": null
                 },
                 "annotations": {
@@ -643,7 +539,7 @@ const json = {
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "<div><slot /></div>\n\n< style>*\n  div {\n    padding-left: 1.5rem;\n  }\n</style>",
+                "plain_text": "<div><slot /></div>\n\n<style>\n  div {\n    padding-left: 1.5rem;\n  }\n</style>",
                 "href": null
               }
             ]
@@ -920,7 +816,7 @@ const json = {
             "block_id": "2f7f4bed-9692-4017-a0b3-c390cc40422a"
           },
           "created_time": "2022-01-24T06:42:00.000Z",
-          "last_edited_time": "2022-12-08T05:08:00.000Z",
+          "last_edited_time": "2022-12-08T21:35:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1569,7 +1465,7 @@ const json = {
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "Header (3 types in 1!)",
+                        "plain_text": "Header",
                         "href": "https://www.notion.so/970f68f89f1a4140b76a7ba91a3209cb"
                       }
                     ]
