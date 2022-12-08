@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "df34058b-281e-4da6-badc-0a15a891d18e",
   "created_time": "2022-01-27T23:41:00.000Z",
-  "last_edited_time": "2022-12-08T05:13:00.000Z",
+  "last_edited_time": "2022-12-08T20:27:00.000Z",
   "created_by": {
     "object": "user",
     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -14,7 +14,7 @@ const json = {
   "cover": {
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2648cd63-fb9b-47c4-9ec2-c2ea152d0c15/IMG_1865.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T082550Z&X-Amz-Expires=3600&X-Amz-Signature=6cafb6e2451bb111dacead7490c54384a992111b06fe9697e801fb4521a95c16&X-Amz-SignedHeaders=host&x-id=GetObject"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2648cd63-fb9b-47c4-9ec2-c2ea152d0c15/IMG_1865.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T203842Z&X-Amz-Expires=3600&X-Amz-Signature=e79e1defa2c1aaf0e32ad3a08cbc23013fb9dc6682af254cdd59a08533e38b96&X-Amz-SignedHeaders=host&x-id=GetObject"
     }
   },
   "icon": {
@@ -141,7 +141,7 @@ const json = {
         "page_id": "df34058b-281e-4da6-badc-0a15a891d18e"
       },
       "created_time": "2022-01-28T22:59:00.000Z",
-      "last_edited_time": "2022-01-28T23:01:00.000Z",
+      "last_edited_time": "2022-12-08T19:46:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -159,7 +159,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "The Cover component gives you access to the icon and cover image on each page, if they exist.",
+              "content": "The Cover component gives you access to both the icon and cover image on each page",
               "link": null
             },
             "annotations": {
@@ -170,7 +170,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "The Cover component gives you access to the icon and cover image on each page, if they exist.",
+            "plain_text": "The Cover component gives you access to both the icon and cover image on each page",
             "href": null
           }
         ]
@@ -178,13 +178,13 @@ const json = {
     },
     {
       "object": "block",
-      "id": "a4ebeec5-5b01-41af-bb83-b5a0b5dbe963",
+      "id": "eb824e16-4e01-4e37-983a-541b9b92c3c3",
       "parent": {
         "type": "page_id",
         "page_id": "df34058b-281e-4da6-badc-0a15a891d18e"
       },
-      "created_time": "2022-01-28T23:01:00.000Z",
-      "last_edited_time": "2022-01-28T23:02:00.000Z",
+      "created_time": "2022-01-28T02:47:00.000Z",
+      "last_edited_time": "2022-12-08T19:40:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -195,173 +195,23 @@ const json = {
       },
       "has_children": true,
       "archived": false,
-      "type": "toggle",
-      "toggle": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "A brief digression: ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "A brief digression: ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "How ",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "How ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " handles images",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " handles images",
-            "href": null
-          }
-        ]
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "5ecd510d-8c0c-429f-a002-caf01305e500"
+        }
       },
       "blocks": [
         {
           "object": "block",
-          "id": "9015fd6a-3c64-4605-a4fb-ddf04a846e32",
+          "id": "a4ebeec5-5b01-41af-bb83-b5a0b5dbe963",
           "parent": {
             "type": "block_id",
-            "block_id": "a4ebeec5-5b01-41af-bb83-b5a0b5dbe963"
+            "block_id": "5ecd510d-8c0c-429f-a002-caf01305e500"
           },
-          "created_time": "2022-01-28T02:47:00.000Z",
-          "last_edited_time": "2022-01-28T23:02:00.000Z",
-          "created_by": {
-            "object": "user",
-            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-          },
-          "last_edited_by": {
-            "object": "user",
-            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-          },
-          "has_children": false,
-          "archived": false,
-          "type": "callout",
-          "callout": {
-            "icon": {
-              "type": "emoji",
-              "emoji": "🧚🏿"
-            },
-            "color": "gray_background",
-            "text": [
-              {
-                "type": "text",
-                "text": {
-                  "content": "What you’re about to read is from a Synced Block shared with the ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "What you’re about to read is from a Synced Block shared with the ",
-                "href": null
-              },
-              {
-                "type": "mention",
-                "mention": {
-                  "type": "page",
-                  "page": {
-                    "id": "e4737844-2dd5-40b2-87a9-6ce548dd9cf2"
-                  }
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "Image",
-                "href": "https://www.notion.so/e47378442dd540b287a96ce548dd9cf2"
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " component. It applies equally here.",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " component. It applies equally here.",
-                "href": null
-              }
-            ]
-          }
-        },
-        {
-          "object": "block",
-          "id": "eb824e16-4e01-4e37-983a-541b9b92c3c3",
-          "parent": {
-            "type": "block_id",
-            "block_id": "a4ebeec5-5b01-41af-bb83-b5a0b5dbe963"
-          },
-          "created_time": "2022-01-28T02:47:00.000Z",
-          "last_edited_time": "2022-01-28T23:02:00.000Z",
+          "created_time": "2022-01-28T23:01:00.000Z",
+          "last_edited_time": "2022-12-08T19:40:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -372,12 +222,79 @@ const json = {
           },
           "has_children": true,
           "archived": false,
-          "type": "synced_block",
-          "synced_block": {
-            "synced_from": {
-              "type": "block_id",
-              "block_id": "5ecd510d-8c0c-429f-a002-caf01305e500"
-            }
+          "type": "toggle",
+          "toggle": {
+            "color": "default",
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "A brief digression: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "A brief digression: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "How ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "How ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "notion2svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "notion2svelte",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " handles images",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " handles images",
+                "href": null
+              }
+            ]
           },
           "blocks": [
             {
@@ -385,10 +302,10 @@ const json = {
               "id": "0b1fdbfb-15e0-4af9-a17a-7ad129a572cb",
               "parent": {
                 "type": "block_id",
-                "block_id": "5ecd510d-8c0c-429f-a002-caf01305e500"
+                "block_id": "a4ebeec5-5b01-41af-bb83-b5a0b5dbe963"
               },
               "created_time": "2022-01-28T10:59:00.000Z",
-              "last_edited_time": "2022-01-28T10:59:00.000Z",
+              "last_edited_time": "2022-12-08T19:40:00.000Z",
               "created_by": {
                 "object": "user",
                 "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -463,10 +380,10 @@ const json = {
               "id": "96511cc9-60c5-458e-8e25-66df77c86cd9",
               "parent": {
                 "type": "block_id",
-                "block_id": "5ecd510d-8c0c-429f-a002-caf01305e500"
+                "block_id": "a4ebeec5-5b01-41af-bb83-b5a0b5dbe963"
               },
               "created_time": "2022-01-28T02:46:00.000Z",
-              "last_edited_time": "2022-01-28T10:59:00.000Z",
+              "last_edited_time": "2022-12-08T19:40:00.000Z",
               "created_by": {
                 "object": "user",
                 "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -543,7 +460,7 @@ const json = {
                     "block_id": "96511cc9-60c5-458e-8e25-66df77c86cd9"
                   },
                   "created_time": "2022-01-28T02:46:00.000Z",
-                  "last_edited_time": "2022-01-28T10:59:00.000Z",
+                  "last_edited_time": "2022-12-08T19:40:00.000Z",
                   "created_by": {
                     "object": "user",
                     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -586,7 +503,7 @@ const json = {
                     "block_id": "96511cc9-60c5-458e-8e25-66df77c86cd9"
                   },
                   "created_time": "2022-01-28T02:46:00.000Z",
-                  "last_edited_time": "2022-01-28T10:59:00.000Z",
+                  "last_edited_time": "2022-12-08T19:40:00.000Z",
                   "created_by": {
                     "object": "user",
                     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -646,7 +563,7 @@ const json = {
                     "block_id": "96511cc9-60c5-458e-8e25-66df77c86cd9"
                   },
                   "created_time": "2022-01-28T02:46:00.000Z",
-                  "last_edited_time": "2022-01-28T10:59:00.000Z",
+                  "last_edited_time": "2022-12-08T19:40:00.000Z",
                   "created_by": {
                     "object": "user",
                     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -722,10 +639,10 @@ const json = {
               "id": "de9d5124-60cb-4388-99a1-c608e0a079fe",
               "parent": {
                 "type": "block_id",
-                "block_id": "5ecd510d-8c0c-429f-a002-caf01305e500"
+                "block_id": "a4ebeec5-5b01-41af-bb83-b5a0b5dbe963"
               },
               "created_time": "2022-01-28T02:46:00.000Z",
-              "last_edited_time": "2022-01-31T20:37:00.000Z",
+              "last_edited_time": "2022-12-08T19:40:00.000Z",
               "created_by": {
                 "object": "user",
                 "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -759,18 +676,183 @@ const json = {
                   }
                 ]
               }
+            },
+            {
+              "object": "block",
+              "id": "ea73c6b2-261c-4d8a-a7ba-7cacb135d140",
+              "parent": {
+                "type": "block_id",
+                "block_id": "a4ebeec5-5b01-41af-bb83-b5a0b5dbe963"
+              },
+              "created_time": "2022-01-28T03:02:00.000Z",
+              "last_edited_time": "2022-12-08T19:40:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "color": "default",
+                "text": []
+              }
+            },
+            {
+              "object": "block",
+              "id": "5875be71-fd67-4b2e-bbf9-3e6115daa59f",
+              "parent": {
+                "type": "block_id",
+                "block_id": "a4ebeec5-5b01-41af-bb83-b5a0b5dbe963"
+              },
+              "created_time": "2022-01-28T02:48:00.000Z",
+              "last_edited_time": "2022-12-08T19:40:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "color": "default",
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "If you’re cool with that, there’s nothing much for you to do to display Covers except handle the ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "If you’re cool with that, there’s nothing much for you to do to display Covers except handle the ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "coverURL",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": true,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "coverURL",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " and ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " and ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "iconEmojiOrURL",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": true,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "iconEmojiOrURL",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " props.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " props.",
+                    "href": null
+                  }
+                ]
+              }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "f3a13985-d09f-41fa-82b0-65ec971d0404",
+      "parent": {
+        "type": "page_id",
+        "page_id": "df34058b-281e-4da6-badc-0a15a891d18e"
+      },
+      "created_time": "2022-12-08T19:48:00.000Z",
+      "last_edited_time": "2022-12-08T19:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "69ec6660-b477-4f8d-8792-5dd924833e8d"
+        }
+      },
+      "blocks": [
         {
           "object": "block",
-          "id": "ea73c6b2-261c-4d8a-a7ba-7cacb135d140",
+          "id": "3e35fbf0-56a5-4f0a-92f5-c30d4f9a7cfc",
           "parent": {
             "type": "block_id",
-            "block_id": "a4ebeec5-5b01-41af-bb83-b5a0b5dbe963"
+            "block_id": "69ec6660-b477-4f8d-8792-5dd924833e8d"
           },
-          "created_time": "2022-01-28T03:02:00.000Z",
-          "last_edited_time": "2022-01-28T23:02:00.000Z",
+          "created_time": "2022-01-28T20:25:00.000Z",
+          "last_edited_time": "2022-12-08T19:50:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -781,21 +863,141 @@ const json = {
           },
           "has_children": false,
           "archived": false,
-          "type": "paragraph",
-          "paragraph": {
+          "type": "heading_1",
+          "heading_1": {
+            "is_toggleable": false,
             "color": "default",
-            "text": []
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "1. Notion original",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "1. Notion original",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "0599be75-67c3-4dc9-8b15-f64a292b1dd3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "df34058b-281e-4da6-badc-0a15a891d18e"
+      },
+      "created_time": "2022-12-08T19:49:00.000Z",
+      "last_edited_time": "2022-12-08T19:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8f52b876-36bd-494e-91b5-938aa43540bf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T203842Z&X-Amz-Expires=3600&X-Amz-Signature=1e080b13ca1a44e7717bcd186dd6fb725b3b36e77fea18663059e9bc749ae7ba&X-Amz-SignedHeaders=host&x-id=GetObject"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "225b3235-ed78-453d-921a-7e4e8c5998e0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "df34058b-281e-4da6-badc-0a15a891d18e"
+      },
+      "created_time": "2022-12-08T19:49:00.000Z",
+      "last_edited_time": "2022-12-08T19:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "01eec727-5535-4576-9493-d16c577aa7b7",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
+          },
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-12-06T21:58:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "is_toggleable": false,
+            "color": "default",
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "2. Notion API",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "2. Notion API",
+                "href": null
+              }
+            ]
           }
         },
         {
           "object": "block",
-          "id": "5875be71-fd67-4b2e-bbf9-3e6115daa59f",
+          "id": "0538fec5-3bc6-4c24-815d-78b5ce846819",
           "parent": {
             "type": "block_id",
-            "block_id": "a4ebeec5-5b01-41af-bb83-b5a0b5dbe963"
+            "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
           },
-          "created_time": "2022-01-28T02:48:00.000Z",
-          "last_edited_time": "2022-01-28T23:02:00.000Z",
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-12-08T08:39:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -813,7 +1015,7 @@ const json = {
               {
                 "type": "text",
                 "text": {
-                  "content": "If you’re cool with that, there’s nothing much for you to do to display Covers except handle the ",
+                  "content": "Partial output of ",
                   "link": null
                 },
                 "annotations": {
@@ -822,15 +1024,15 @@ const json = {
                   "strikethrough": false,
                   "underline": false,
                   "code": false,
-                  "color": "default"
+                  "color": "gray"
                 },
-                "plain_text": "If you’re cool with that, there’s nothing much for you to do to display Covers except handle the ",
+                "plain_text": "Partial output of ",
                 "href": null
               },
               {
                 "type": "text",
                 "text": {
-                  "content": "coverURL",
+                  "content": "src/routes/[slug]/notion-export.js",
                   "link": null
                 },
                 "annotations": {
@@ -839,60 +1041,9 @@ const json = {
                   "strikethrough": false,
                   "underline": false,
                   "code": false,
-                  "color": "default"
+                  "color": "gray"
                 },
-                "plain_text": "coverURL",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " and ",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " and ",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": "iconEmojiOrURL",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": true,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": "iconEmojiOrURL",
-                "href": null
-              },
-              {
-                "type": "text",
-                "text": {
-                  "content": " props.",
-                  "link": null
-                },
-                "annotations": {
-                  "bold": false,
-                  "italic": false,
-                  "strikethrough": false,
-                  "underline": false,
-                  "code": false,
-                  "color": "default"
-                },
-                "plain_text": " props.",
+                "plain_text": "src/routes/[slug]/notion-export.js",
                 "href": null
               }
             ]
@@ -902,57 +1053,13 @@ const json = {
     },
     {
       "object": "block",
-      "id": "a91c9995-839e-48f9-9a93-c32077e5923c",
-      "parent": {
-        "type": "page_id",
-        "page_id": "df34058b-281e-4da6-badc-0a15a891d18e"
-      },
-      "created_time": "2022-01-27T23:41:00.000Z",
-      "last_edited_time": "2022-01-28T02:47:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "is_toggleable": false,
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Notion API (as of this writing)",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Notion API (as of this writing)",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
       "id": "7a3e9de2-a4ef-4d89-976c-184bf8b19903",
       "parent": {
         "type": "page_id",
         "page_id": "df34058b-281e-4da6-badc-0a15a891d18e"
       },
       "created_time": "2022-01-27T23:41:00.000Z",
-      "last_edited_time": "2022-01-31T20:05:00.000Z",
+      "last_edited_time": "2022-12-08T19:50:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -990,13 +1097,13 @@ const json = {
     },
     {
       "object": "block",
-      "id": "e7addb0e-49ea-4236-929d-27c3f9e2a438",
+      "id": "cca56299-e0d3-437d-97ac-2c937b5a785f",
       "parent": {
         "type": "page_id",
         "page_id": "df34058b-281e-4da6-badc-0a15a891d18e"
       },
-      "created_time": "2022-01-31T20:05:00.000Z",
-      "last_edited_time": "2022-02-24T19:28:00.000Z",
+      "created_time": "2022-12-08T19:50:00.000Z",
+      "last_edited_time": "2022-12-08T19:50:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1005,97 +1112,121 @@ const json = {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
       },
-      "has_children": false,
+      "has_children": true,
       "archived": false,
-      "type": "to_do",
-      "to_do": {
-        "checked": false,
-        "color": "default",
-        "text": [
-          {
-            "type": "mention",
-            "mention": {
-              "type": "date",
-              "date": {
-                "start": "2022-02-25T14:00:00.000-08:00",
-                "end": null,
-                "time_zone": null
-              }
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "2022-02-25T14:00:00.000-08:00",
-            "href": null
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "46eaa6aa-2b30-4f72-915c-04d3e638fe8d"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "55e06cc7-b682-4d4c-8af3-b503b1d72bd1",
+          "parent": {
+            "type": "block_id",
+            "block_id": "46eaa6aa-2b30-4f72-915c-04d3e638fe8d"
           },
-          {
-            "type": "text",
-            "text": {
-              "content": " TODO: download cover + icon images, rather than relying on expiring Amazon links",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " TODO: download cover + icon images, rather than relying on expiring Amazon links",
-            "href": null
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-01-28T20:26:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "is_toggleable": false,
+            "color": "default",
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "3. Svelte output",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "3. Svelte output",
+                "href": null
+              }
+            ]
           }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "1f11dad4-8fc5-432b-9e5f-3027eaa4fdae",
-      "parent": {
-        "type": "page_id",
-        "page_id": "df34058b-281e-4da6-badc-0a15a891d18e"
-      },
-      "created_time": "2022-01-27T23:41:00.000Z",
-      "last_edited_time": "2022-01-27T23:41:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "is_toggleable": false,
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Svelte output",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Svelte output",
-            "href": null
+        },
+        {
+          "object": "block",
+          "id": "28871a46-c697-4500-b517-1c526797ab38",
+          "parent": {
+            "type": "block_id",
+            "block_id": "46eaa6aa-2b30-4f72-915c-04d3e638fe8d"
+          },
+          "created_time": "2022-01-28T20:32:00.000Z",
+          "last_edited_time": "2022-01-28T20:32:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "color": "default",
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Partial output of ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "Partial output of ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "src/routes/[slug].svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "src/routes/[slug].svelte",
+                "href": null
+              }
+            ]
           }
-        ]
-      }
+        }
+      ]
     },
     {
       "object": "block",
@@ -1347,7 +1478,7 @@ const json = {
         "page_id": "df34058b-281e-4da6-badc-0a15a891d18e"
       },
       "created_time": "2022-01-28T02:53:00.000Z",
-      "last_edited_time": "2022-01-31T20:06:00.000Z",
+      "last_edited_time": "2022-12-08T20:27:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1403,13 +1534,13 @@ const json = {
     },
     {
       "object": "block",
-      "id": "2f00176a-8416-47cf-a9a3-44af4aa192df",
+      "id": "e8f0fe8a-aad4-45f0-912d-d56081261bbc",
       "parent": {
         "type": "page_id",
         "page_id": "df34058b-281e-4da6-badc-0a15a891d18e"
       },
-      "created_time": "2022-01-28T23:11:00.000Z",
-      "last_edited_time": "2022-01-28T23:11:00.000Z",
+      "created_time": "2022-12-08T19:51:00.000Z",
+      "last_edited_time": "2022-12-08T19:51:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1418,13 +1549,61 @@ const json = {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
       },
-      "has_children": false,
+      "has_children": true,
       "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": []
-      }
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "39f58dcd-edff-4eac-ac21-4c54bc1b2e7c"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "14abb64d-4aad-4586-a941-62fdc219a70e",
+          "parent": {
+            "type": "block_id",
+            "block_id": "39f58dcd-edff-4eac-ac21-4c54bc1b2e7c"
+          },
+          "created_time": "2022-01-28T20:29:00.000Z",
+          "last_edited_time": "2022-01-28T21:00:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "is_toggleable": false,
+            "color": "default",
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "4. Example rendering",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "4. Example rendering",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "object": "block",
@@ -1434,7 +1613,7 @@ const json = {
         "page_id": "df34058b-281e-4da6-badc-0a15a891d18e"
       },
       "created_time": "2022-01-28T23:09:00.000Z",
-      "last_edited_time": "2022-01-31T07:55:00.000Z",
+      "last_edited_time": "2022-12-08T20:27:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1452,7 +1631,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "For the code used to render ",
+              "content": "See cover and icon 👆 at the top of this page, rendered by ",
               "link": null
             },
             "annotations": {
@@ -1461,43 +1640,9 @@ const json = {
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "gray"
+              "color": "default"
             },
-            "plain_text": "For the code used to render ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "this",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "gray"
-            },
-            "plain_text": "this",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " page’s Cover, see ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "gray"
-            },
-            "plain_text": " page’s Cover, see ",
+            "plain_text": "See cover and icon 👆 at the top of this page, rendered by ",
             "href": null
           },
           {

@@ -37,45 +37,67 @@
 
 <Title>Image</Title>
 
-<Callout emoji="🧚🏿"
-	>What you’re about to read is from a Synced Block shared with the Cover component. It applies
-	equally here.</Callout
-><Header level={1}>How&ensp;<em>notion2svelte</em>&ensp;handles images</Header>
-<Paragraph
-	blockProps={{
-		pageId: 'e47378442dd540b287a96ce548dd9cf2',
-		id: '96511cc9-60c5-458e-8e25-66df77c86cd9',
-		created_time: '2022-01-28T02:46:00.000Z',
-		last_edited_time: '2022-01-28T10:59:00.000Z'
-	}}
->
-	Notion uses Amazon for image hosting, and a side effect of that choices is that the image URLs on
-	offer from the Notion API have a super-short shelf life. For this initial release,&ensp;<em
-		>notion2svelte</em
-	>&ensp;handles this in a rather naive fashion. Here’s the flow:
-</Paragraph>
-<IndentGroup>
-	<NumberedListItem number="a">Fetch the actual image</NumberedListItem>
-	<NumberedListItem number="b">
-		Store it in&ensp;<em>static/assets/<page-id>…</page-id></em></NumberedListItem
+<Toggle
+	>A brief digression:&ensp;<strong>How&ensp;</strong><em><strong>notion2svelte</strong></em><strong
+		>&ensp;handles images</strong
 	>
-	<NumberedListItem number="c">
-		Use relative links to point the&ensp;<InlineCode code={'src'} />&ensp;attribute at the (full
-		res! 🙀) images</NumberedListItem
-	>
-</IndentGroup>
-<Paragraph
-	blockProps={{
-		pageId: 'e47378442dd540b287a96ce548dd9cf2',
-		id: 'de9d5124-60cb-4388-99a1-c608e0a079fe',
-		created_time: '2022-01-28T02:46:00.000Z',
-		last_edited_time: '2022-01-31T20:37:00.000Z'
-	}}
->
-	Yes, I know this isn’t awesome. No, I haven’t done any research yet to figure out current
-	best-practices, or, perhaps, some sort of extensible API.
-</Paragraph>
-<Header level={1}>1. Notion original</Header>
+	<span slot="children"
+		><Header level={1}>How&ensp;<em>notion2svelte</em>&ensp;handles images</Header>
+		<Paragraph
+			blockProps={{
+				pageId: 'e47378442dd540b287a96ce548dd9cf2',
+				id: '96511cc9-60c5-458e-8e25-66df77c86cd9',
+				created_time: '2022-01-28T02:46:00.000Z',
+				last_edited_time: '2022-12-08T19:40:00.000Z'
+			}}
+		>
+			Notion uses Amazon for image hosting, and a side effect of that choices is that the image URLs
+			on offer from the Notion API have a super-short shelf life. For this initial release,&ensp;<em
+				>notion2svelte</em
+			>&ensp;handles this in a rather naive fashion. Here’s the flow:
+		</Paragraph>
+		<IndentGroup>
+			<NumberedListItem number="a">Fetch the actual image</NumberedListItem>
+			<NumberedListItem number="b">
+				Store it in&ensp;<em>static/assets/<page-id>…</page-id></em></NumberedListItem
+			>
+			<NumberedListItem number="c">
+				Use relative links to point the&ensp;<InlineCode code={'src'} />&ensp;attribute at the (full
+				res! 🙀) images</NumberedListItem
+			>
+		</IndentGroup>
+		<Paragraph
+			blockProps={{
+				pageId: 'e47378442dd540b287a96ce548dd9cf2',
+				id: 'de9d5124-60cb-4388-99a1-c608e0a079fe',
+				created_time: '2022-01-28T02:46:00.000Z',
+				last_edited_time: '2022-12-08T19:40:00.000Z'
+			}}
+		>
+			Yes, I know this isn’t awesome. No, I haven’t done any research yet to figure out current
+			best-practices, or, perhaps, some sort of extensible API.
+		</Paragraph>
+		<Paragraph
+			blockProps={{
+				pageId: 'e47378442dd540b287a96ce548dd9cf2',
+				id: 'ea73c6b2-261c-4d8a-a7ba-7cacb135d140',
+				created_time: '2022-01-28T03:02:00.000Z',
+				last_edited_time: '2022-12-08T19:40:00.000Z'
+			}}
+		/>
+		<Paragraph
+			blockProps={{
+				pageId: 'e47378442dd540b287a96ce548dd9cf2',
+				id: '5875be71-fd67-4b2e-bbf9-3e6115daa59f',
+				created_time: '2022-01-28T02:48:00.000Z',
+				last_edited_time: '2022-12-08T19:40:00.000Z'
+			}}
+		>
+			If you’re cool with that, there’s nothing much for you to do to display Covers except handle
+			the&ensp;<em>coverURL</em>&ensp;and&ensp;<em>iconEmojiOrURL</em>&ensp;props.
+		</Paragraph>
+	</span></Toggle
+><Header level={1}>1. Notion original</Header>
 <Image url="/assets/other-components/image/c8f08868-31f2-4707-a987-5b0f2e660e8f.png" caption="" />
 <Header level={1}>2. Notion API</Header>
 <Paragraph
