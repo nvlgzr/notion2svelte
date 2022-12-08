@@ -44,6 +44,6 @@
 
   .emptyIcon {
     /* background-color: red; */
-    height: 3rem;
+    height: 10rem;
   }
 </style>
