@@ -38,7 +38,9 @@
 <Title>Link</Title>
 
 <Header level={1}>1. Notion original</Header>
-<Image url="/assets/annotations/link/50b8f6b3-f2aa-47f5-bf05-b5b59183d3ce.png"
+<Image
+	url="/assets/annotations/link/50b8f6b3-f2aa-47f5-bf05-b5b59183d3ce.png"
+	caption="Note how Notion gives the external link a slightly slimmer font weight"
 	>Note how Notion gives the external link a slightly slimmer font weight</Image
 >
 <Header level={1}>2. Notion API</Header>
@@ -47,7 +49,7 @@
 		pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -401,7 +403,7 @@
 			touch.</NumberedListItem
 		>
 		<IndentGroup>
-			<Image url="/assets/annotations/link/d45218c3-2429-4256-8d4d-9ca06e51cefb.png" />
+			<Image url="/assets/annotations/link/d45218c3-2429-4256-8d4d-9ca06e51cefb.png" caption="" />
 			<Paragraph
 				blockProps={{
 					pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
@@ -465,14 +467,14 @@
 				pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
 				id: '52e26993-066d-4db7-a359-b5ccadf6db6d',
 				created_time: '2022-01-30T06:33:00.000Z',
-				last_edited_time: '2022-01-30T06:39:00.000Z'
+				last_edited_time: '2022-12-08T19:33:00.000Z'
 			}}
 		>
 			I can see a future where I get sick of this situation and complicate&ensp;<em
 				>notion2svelte</em
 			>&ensp;by having it stitch together adjacent links if they share a target URL. In these early
 			days, however, it’s just too much scope for this little tool, so this is the kind of thing
-			you’re looking at if you venture outside of Notion’s implicit rejection of links with margins.
+			you’re looking at if you decide to style a substring within a link.
 		</Paragraph>
 		<Paragraph
 			blockProps={{
@@ -507,15 +509,22 @@
 				pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
 				id: '853e84b3-8591-4b41-92e1-6287ac843801',
 				created_time: '2022-01-29T22:34:00.000Z',
-				last_edited_time: '2022-01-30T06:44:00.000Z'
+				last_edited_time: '2022-12-08T10:42:00.000Z'
+			}}
+		/>
+		<Paragraph
+			blockProps={{
+				pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
+				id: '3c09c0f8-5672-41d4-8dd8-3598b77aa309',
+				created_time: '2022-01-29T22:34:00.000Z',
+				last_edited_time: '2022-12-08T10:44:00.000Z'
 			}}
 		>
-			Thanks to multiplying links, my choice to emulate&ensp;<Link
-				type="absolute"
-				href="https://practicaltypography.com/free-fonts.html">Matthew Butterick’s</Link
-			>&ensp;links — removing all special formatting from links except for a cheeky little º in
-			the&ensp;<InlineCode code={'a::after'} />&ensp;styles — comes off suddenly looking more
-			amateur than class. Ah, well. 😞
+			If all you’re doing to style links is underline ‘em or change the font, you’ll probably
+			notice&ensp;<em>none&ensp;</em>of this in practice. But if, like me, your link styles are
+			inspired by&ensp;<Link type="absolute" href="https://practicaltypography.com/free-fonts.html"
+				>Matthew Butterick</Link
+			>, then links broken up by annotation formatting ends up looking broken. Oh well.
 		</Paragraph>
 		<Paragraph
 			blockProps={{
