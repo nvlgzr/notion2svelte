@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "a5b6af04-d017-4204-a022-6bf57fdbe440",
   "created_time": "2022-01-26T05:19:00.000Z",
-  "last_edited_time": "2022-12-08T05:13:00.000Z",
+  "last_edited_time": "2022-12-08T22:02:00.000Z",
   "created_by": {
     "object": "user",
     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -133,7 +133,7 @@ const json = {
         "page_id": "a5b6af04-d017-4204-a022-6bf57fdbe440"
       },
       "created_time": "2022-01-26T05:48:00.000Z",
-      "last_edited_time": "2022-01-27T06:12:00.000Z",
+      "last_edited_time": "2022-12-08T21:58:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -221,7 +221,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": ". In fact, that document’s got all you really need to know.",
+              "content": ". In fact, the nested block docs have all you really need to know.",
               "link": null
             },
             "annotations": {
@@ -232,7 +232,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": ". In fact, that document’s got all you really need to know.",
+            "plain_text": ". In fact, the nested block docs have all you really need to know.",
             "href": null
           }
         ]
@@ -246,7 +246,7 @@ const json = {
         "page_id": "a5b6af04-d017-4204-a022-6bf57fdbe440"
       },
       "created_time": "2022-01-27T06:12:00.000Z",
-      "last_edited_time": "2022-01-27T06:14:00.000Z",
+      "last_edited_time": "2022-12-08T21:58:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -298,7 +298,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": " support for the crazy mishmush of nesting combinations Notion allows.",
+              "content": " support for the various nesting combinations Notion allows.",
               "link": null
             },
             "annotations": {
@@ -309,7 +309,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": " support for the crazy mishmush of nesting combinations Notion allows.",
+            "plain_text": " support for the various nesting combinations Notion allows.",
             "href": null
           }
         ]
@@ -323,7 +323,7 @@ const json = {
         "page_id": "a5b6af04-d017-4204-a022-6bf57fdbe440"
       },
       "created_time": "2022-01-27T06:14:00.000Z",
-      "last_edited_time": "2022-01-27T06:23:00.000Z",
+      "last_edited_time": "2022-12-08T22:00:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -375,7 +375,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": " ↓ is much uglier. I’ve thrown my styles together somewhat fast and loose, and sometimes the vertical spacing looks pretty off. Ah, well.",
+              "content": " ↓ is even uglier! I’ve thrown my styles together somewhat fast and loose, and sometimes the vertical spacing looks pretty off. Caveat lector: you’ll almost certainly want to heavily customize the ",
               "link": null
             },
             "annotations": {
@@ -386,99 +386,49 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": " ↓ is much uglier. I’ve thrown my styles together somewhat fast and loose, and sometimes the vertical spacing looks pretty off. Ah, well.",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "98d3c9df-afeb-4b1b-b265-28a8e555b38d",
-      "parent": {
-        "type": "page_id",
-        "page_id": "a5b6af04-d017-4204-a022-6bf57fdbe440"
-      },
-      "created_time": "2022-01-27T06:23:00.000Z",
-      "last_edited_time": "2022-01-27T06:23:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "As the elder said:",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "As the elder said:",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "8e1f2166-3fc6-48d8-ba5b-ce272b8afe17",
-      "parent": {
-        "type": "page_id",
-        "page_id": "a5b6af04-d017-4204-a022-6bf57fdbe440"
-      },
-      "created_time": "2022-01-27T06:17:00.000Z",
-      "last_edited_time": "2022-01-27T06:22:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "quote",
-      "quote": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "“Make it work, ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "“Make it work, ",
+            "plain_text": " ↓ is even uglier! I’ve thrown my styles together somewhat fast and loose, and sometimes the vertical spacing looks pretty off. Caveat lector: you’ll almost certainly want to heavily customize the ",
             "href": null
           },
           {
             "type": "text",
             "text": {
-              "content": "then",
+              "content": "default components",
+              "link": {
+                "url": "https://github.com/nvlgzr/notion2svelte/tree/main/demo-app/src/lib/notion2svelte"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "default components",
+            "href": "https://github.com/nvlgzr/notion2svelte/tree/main/demo-app/src/lib/notion2svelte"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " provided by ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " provided by ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
               "link": null
             },
             "annotations": {
@@ -489,13 +439,13 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "then",
+            "plain_text": "notion2svelte",
             "href": null
           },
           {
             "type": "text",
             "text": {
-              "content": " make it pretty!” —🧓🏼",
+              "content": ".",
               "link": null
             },
             "annotations": {
@@ -506,7 +456,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": " make it pretty!” —🧓🏼",
+            "plain_text": ".",
             "href": null
           }
         ]
@@ -547,7 +497,7 @@ const json = {
             "block_id": "69ec6660-b477-4f8d-8792-5dd924833e8d"
           },
           "created_time": "2022-01-28T20:25:00.000Z",
-          "last_edited_time": "2022-12-08T04:49:00.000Z",
+          "last_edited_time": "2022-12-08T21:25:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -609,7 +559,7 @@ const json = {
         "caption": [],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/63813f40-7540-441e-bbb4-05439cb31ec5/Screen_Shot_2022-01-25_at_21.10.42.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T082602Z&X-Amz-Expires=3600&X-Amz-Signature=8e9bc8ff5a81e63de7a206a347f7eaebe551424b944db85d54ea443d3a9795a1&X-Amz-SignedHeaders=host&x-id=GetObject"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/63813f40-7540-441e-bbb4-05439cb31ec5/Screen_Shot_2022-01-25_at_21.10.42.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T220237Z&X-Amz-Expires=3600&X-Amz-Signature=fdeb318d65af09e8acca550ff39a3772f10fe87e093a20667503f042fd30eb33&X-Amz-SignedHeaders=host&x-id=GetObject"
         }
       }
     },
@@ -692,7 +642,7 @@ const json = {
             "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
           },
           "created_time": "2022-01-28T20:26:00.000Z",
-          "last_edited_time": "2022-12-06T22:00:00.000Z",
+          "last_edited_time": "2022-12-08T08:39:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -754,7 +704,7 @@ const json = {
         "page_id": "a5b6af04-d017-4204-a022-6bf57fdbe440"
       },
       "created_time": "2022-01-26T05:40:00.000Z",
-      "last_edited_time": "2022-01-28T22:51:00.000Z",
+      "last_edited_time": "2022-12-08T22:02:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -772,7 +722,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "Ok, so…this output is pretty gnarly: over 600 lines of (formatted) JSON to represent 16 blocks!",
+              "content": "Ok, so…this output is pretty gnarly: over 600 lines of (formatted) JSON to represent 16 blocks! I don’t have the energy to trim it down with ",
               "link": null
             },
             "annotations": {
@@ -783,7 +733,41 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "Ok, so…this output is pretty gnarly: over 600 lines of (formatted) JSON to represent 16 blocks!",
+            "plain_text": "Ok, so…this output is pretty gnarly: over 600 lines of (formatted) JSON to represent 16 blocks! I don’t have the energy to trim it down with ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "…",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "…",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "'s, so instead I’ve hidden it all behind this toggle.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "'s, so instead I’ve hidden it all behind this toggle.",
             "href": null
           }
         ]
@@ -1102,13 +1086,13 @@ const json = {
       "blocks": [
         {
           "object": "block",
-          "id": "14abb64d-4aad-4586-a941-62fdc219a70e",
+          "id": "553986e4-cefc-4232-b36d-8320bd2f2855",
           "parent": {
             "type": "block_id",
             "block_id": "39f58dcd-edff-4eac-ac21-4c54bc1b2e7c"
           },
           "created_time": "2022-01-28T20:29:00.000Z",
-          "last_edited_time": "2022-01-28T21:00:00.000Z",
+          "last_edited_time": "2022-12-08T21:33:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -2028,7 +2012,7 @@ const json = {
             "block_id": "2f7f4bed-9692-4017-a0b3-c390cc40422a"
           },
           "created_time": "2022-01-24T06:42:00.000Z",
-          "last_edited_time": "2022-12-08T05:08:00.000Z",
+          "last_edited_time": "2022-12-08T21:35:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -2677,7 +2661,7 @@ const json = {
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "Header (3 types in 1!)",
+                        "plain_text": "Header",
                         "href": "https://www.notion.so/970f68f89f1a4140b76a7ba91a3209cb"
                       }
                     ]

@@ -35,6 +35,8 @@
 	<title>IndentGroup</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>IndentGroup</Title>
 
 <Paragraph
@@ -42,58 +44,53 @@
 		pageId: 'a5b6af04d0174204a0226bf57fdbe440',
 		id: '5393bdbc-279a-4210-a090-d858b1301b67',
 		created_time: '2022-01-26T05:48:00.000Z',
-		last_edited_time: '2022-01-27T06:12:00.000Z'
+		last_edited_time: '2022-12-08T21:58:00.000Z'
 	}}
 >
 	One of a very few layout-only components,&ensp;<InlineCode code={'IndentGroup'} />&ensp;is simply
 	a wrapper for positioning&ensp;<Link type="mention" href="/high-level-discussion/nested-blocks"
 		>Nested Blocks</Link
-	>. In fact, that document’s got all you really need to know.
+	>. In fact, the nested block docs have all you really need to know.
 </Paragraph>
 <Paragraph
 	blockProps={{
 		pageId: 'a5b6af04d0174204a0226bf57fdbe440',
 		id: '66bc4d6d-6a12-4c6e-b93d-e814891cd612',
 		created_time: '2022-01-27T06:12:00.000Z',
-		last_edited_time: '2022-01-27T06:14:00.000Z'
+		last_edited_time: '2022-12-08T21:58:00.000Z'
 	}}
 >
-	This page is mainly here to demonstrate&ensp;<em>notion2svelte’s</em>&ensp;support for the crazy
-	mishmush of nesting combinations Notion allows.
+	This page is mainly here to demonstrate&ensp;<em>notion2svelte’s</em>&ensp;support for the various
+	nesting combinations Notion allows.
 </Paragraph>
 <Paragraph
 	blockProps={{
 		pageId: 'a5b6af04d0174204a0226bf57fdbe440',
 		id: 'e8eff102-44d0-4492-b7a1-02b08d1cf000',
 		created_time: '2022-01-27T06:14:00.000Z',
-		last_edited_time: '2022-01-27T06:23:00.000Z'
+		last_edited_time: '2022-12-08T22:00:00.000Z'
 	}}
 >
-	As ugly as this looks in Notion, this site’s&ensp;<em>Example Rendering</em>&ensp;↓ is much
-	uglier. I’ve thrown my styles together somewhat fast and loose, and sometimes the vertical spacing
-	looks pretty off. Ah, well.
+	As ugly as this looks in Notion, this site’s&ensp;<em>Example Rendering</em>&ensp;↓ is even
+	uglier! I’ve thrown my styles together somewhat fast and loose, and sometimes the vertical spacing
+	looks pretty off. Caveat lector: you’ll almost certainly want to heavily customize the&ensp;<Link
+		type="absolute"
+		href="https://github.com/nvlgzr/notion2svelte/tree/main/demo-app/src/lib/notion2svelte"
+		>default components</Link
+	>&ensp;provided by&ensp;<em>notion2svelte</em>.
 </Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: 'a5b6af04d0174204a0226bf57fdbe440',
-		id: '98d3c9df-afeb-4b1b-b265-28a8e555b38d',
-		created_time: '2022-01-27T06:23:00.000Z',
-		last_edited_time: '2022-01-27T06:23:00.000Z'
-	}}
->
-	As the elder said:
-</Paragraph>
-<Quote>“Make it work,&ensp;<em>then</em>&ensp;make it pretty!” —🧓🏼</Quote><Header level={1}
-	>1. Notion original</Header
->
-<Image url="/assets/layout-only-components/indent-group/35d7bc61-08ab-4bdf-894d-9d1b9ef1df85.png" />
+<Header level={1}>1. Notion original</Header>
+<Image
+	url="/assets/layout-only-components/indent-group/35d7bc61-08ab-4bdf-894d-9d1b9ef1df85.png"
+	caption=""
+/>
 <Header level={1}>2. Notion API</Header>
 <Paragraph
 	blockProps={{
 		pageId: 'a5b6af04d0174204a0226bf57fdbe440',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -105,10 +102,12 @@
 		pageId: 'a5b6af04d0174204a0226bf57fdbe440',
 		id: 'aff4b2ed-f952-4db4-9e9f-9f8255d52c88',
 		created_time: '2022-01-26T05:40:00.000Z',
-		last_edited_time: '2022-01-28T22:51:00.000Z'
+		last_edited_time: '2022-12-08T22:02:00.000Z'
 	}}
 >
-	Ok, so…this output is pretty gnarly: over 600 lines of (formatted) JSON to represent 16 blocks!
+	Ok, so…this output is pretty gnarly: over 600 lines of (formatted) JSON to represent 16 blocks! I
+	don’t have the energy to trim it down with&ensp;<InlineCode code={'…'} />'s, so instead I’ve
+	hidden it all behind this toggle.
 </Paragraph>
 <Toggle
 	>You have been warned.
@@ -986,8 +985,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link
