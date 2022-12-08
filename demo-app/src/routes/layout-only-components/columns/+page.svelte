@@ -35,6 +35,8 @@
 	<title>Column & ColumnList</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>Column & ColumnList</Title>
 
 <Paragraph
@@ -42,27 +44,30 @@
 		pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
 		id: 'c976cab2-f979-490f-9016-5256a19d42bf',
 		created_time: '2022-01-27T22:30:00.000Z',
-		last_edited_time: '2022-01-27T22:32:00.000Z'
+		last_edited_time: '2022-12-08T21:38:00.000Z'
 	}}
 >
-	There’s not much point in documenting these components separately. Needless to say, Columns live
-	inside ColumnLists. As defined by Notion, every ColumnList is effectively just a single row
-	of&ensp;<em>n</em>&ensp;columns.
+	There’s not much point in documenting these components separately. Needless to say,&ensp;<InlineCode
+		code={'Columns'}
+	/>&ensp;live inside&ensp;<InlineCode code={'ColumnLists'} />. As defined by Notion, every column
+	list is effectively just a single row of&ensp;<em>n</em>&ensp;columns.
 </Paragraph>
 <Paragraph
 	blockProps={{
 		pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
 		id: 'f36e2f14-201b-4eff-b11b-7f8b8f757ee8',
 		created_time: '2022-01-27T22:30:00.000Z',
-		last_edited_time: '2022-01-27T22:30:00.000Z'
+		last_edited_time: '2022-12-08T21:38:00.000Z'
 	}}
 >
 	Both are intended to be layout-only, though you’re certainly welcome to add backgrounds and
-	outlines and gradients and wtf you want because&ensp;<em>that’s the whole point</em>&ensp;of
+	outlines and gradients, etc. to your heart’s content.&ensp;<em>That’s the whole point&ensp;</em>of
 	extracting your content from Notion! 😉
 </Paragraph>
 <Header level={1}>1. Notion original</Header>
-<Image url="/assets/layout-only-components/columns/5943669d-e80c-478d-9f17-870261454e36.png"
+<Image
+	url="/assets/layout-only-components/columns/5943669d-e80c-478d-9f17-870261454e36.png"
+	caption="In case you’re curious, the marks over the images are Balinese digits: 1 2 3. Gotta love that Unicode!"
 	>In case you’re curious, the marks over the images are Balinese digits: 1 2 3. Gotta love that
 	Unicode!</Image
 >
@@ -72,7 +77,7 @@
 		pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -82,188 +87,46 @@
 <Code
 	code={`\{
   &quot;object&quot;: &quot;block&quot;,
-  &quot;id&quot;: &quot;f1d9ec6b-ddd7-45b4-9401-c3e2d2ebbf29&quot;,
-  &quot;created_time&quot;: &quot;2022-01-27T22:17:00.000Z&quot;,
-  &quot;last_edited_time&quot;: &quot;2022-01-27T22:18:00.000Z&quot;,
-  &quot;has_children&quot;: true,
-  &quot;archived&quot;: false,
+  …
   &quot;type&quot;: &quot;column_list&quot;,
   &quot;column_list&quot;: \{},
   &quot;blocks&quot;: [
     \{
       &quot;object&quot;: &quot;block&quot;,
-      &quot;id&quot;: &quot;3caa91fd-6079-44cd-9e84-1eafada318f3&quot;,
-      &quot;created_time&quot;: &quot;2022-01-27T22:17:00.000Z&quot;,
-      &quot;last_edited_time&quot;: &quot;2022-01-27T22:19:00.000Z&quot;,
-      &quot;has_children&quot;: true,
-      &quot;archived&quot;: false,
+      …
       &quot;type&quot;: &quot;column&quot;,
       &quot;column&quot;: \{},
       &quot;blocks&quot;: [
         \{
-          &quot;object&quot;: &quot;block&quot;,
-          &quot;id&quot;: &quot;d02b0197-e66f-43a5-8207-c1f42bbc59a0&quot;,
-          &quot;created_time&quot;: &quot;2022-01-27T22:18:00.000Z&quot;,
-          &quot;last_edited_time&quot;: &quot;2022-01-27T22:19:00.000Z&quot;,
-          &quot;has_children&quot;: false,
-          &quot;archived&quot;: false,
-          &quot;type&quot;: &quot;heading_1&quot;,
-          &quot;heading_1&quot;: \{
-            &quot;text&quot;: [
-              \{
-                &quot;type&quot;: &quot;text&quot;,
-                &quot;text&quot;: \{
-                  &quot;content&quot;: &quot;᭑&quot;,
-                  &quot;link&quot;: null
-                },
-                &quot;annotations&quot;: \{
-                  &quot;bold&quot;: false,
-                  &quot;italic&quot;: false,
-                  &quot;strikethrough&quot;: false,
-                  &quot;underline&quot;: false,
-                  &quot;code&quot;: false,
-                  &quot;color&quot;: &quot;default&quot;
-                },
-                &quot;plain_text&quot;: &quot;᭑&quot;,
-                &quot;href&quot;: null
-              }
-            ]
-          }
+          …&quot;heading_1&quot;: \{…&quot;plain_text&quot;: &quot;᭑&quot;,…}
         },
         \{
-          &quot;object&quot;: &quot;block&quot;,
-          &quot;id&quot;: &quot;a8410bc7-07a4-4648-8516-bde1bcbffe1b&quot;,
-          &quot;created_time&quot;: &quot;2022-01-27T22:17:00.000Z&quot;,
-          &quot;last_edited_time&quot;: &quot;2022-01-27T22:17:00.000Z&quot;,
-          &quot;has_children&quot;: false,
-          &quot;archived&quot;: false,
-          &quot;type&quot;: &quot;image&quot;,
-          &quot;image&quot;: \{
-            &quot;caption&quot;: [],
-            &quot;type&quot;: &quot;file&quot;,
-            &quot;file&quot;: \{
-              &quot;url&quot;: &quot;https://s3.us-west-2.amazonaws.com/secure.notion-static.com/83942994-9c55-4fa3-87f6-28e3c8ed09c8/CD2C6E7F-78F1-4354-A4D5-58E76D10C886_1_201_a.heic?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220127%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20220127T222902Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=00076f4328fc27cd6669838eab76249a7effa5468834b3850a2a45cb00e9668e&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&quot;,
-              &quot;expiry_time&quot;: &quot;2022-01-27T23:29:02.937Z&quot;
-            }
-          }
+          …&quot;image&quot;: \{…}
         }
       ]
     },
     \{
       &quot;object&quot;: &quot;block&quot;,
-      &quot;id&quot;: &quot;d775da15-baad-4019-a671-9f9ea4e9fbcf&quot;,
-      &quot;created_time&quot;: &quot;2022-01-27T22:17:00.000Z&quot;,
-      &quot;last_edited_time&quot;: &quot;2022-01-27T22:19:00.000Z&quot;,
-      &quot;has_children&quot;: true,
-      &quot;archived&quot;: false,
-      &quot;type&quot;: &quot;column&quot;,
+      …
       &quot;column&quot;: \{},
       &quot;blocks&quot;: [
         \{
-          &quot;object&quot;: &quot;block&quot;,
-          &quot;id&quot;: &quot;47b74b38-dec4-42d1-89d1-0649386e8f4f&quot;,
-          &quot;created_time&quot;: &quot;2022-01-27T22:19:00.000Z&quot;,
-          &quot;last_edited_time&quot;: &quot;2022-01-27T22:19:00.000Z&quot;,
-          &quot;has_children&quot;: false,
-          &quot;archived&quot;: false,
-          &quot;type&quot;: &quot;heading_1&quot;,
-          &quot;heading_1&quot;: \{
-            &quot;text&quot;: [
-              \{
-                &quot;type&quot;: &quot;text&quot;,
-                &quot;text&quot;: \{
-                  &quot;content&quot;: &quot;᭒&quot;,
-                  &quot;link&quot;: null
-                },
-                &quot;annotations&quot;: \{
-                  &quot;bold&quot;: false,
-                  &quot;italic&quot;: false,
-                  &quot;strikethrough&quot;: false,
-                  &quot;underline&quot;: false,
-                  &quot;code&quot;: false,
-                  &quot;color&quot;: &quot;default&quot;
-                },
-                &quot;plain_text&quot;: &quot;᭒&quot;,
-                &quot;href&quot;: null
-              }
-            ]
-          }
+          …&quot;heading_1&quot;: \{…&quot;plain_text&quot;: &quot;᭒&quot;,…}
         },
         \{
-          &quot;object&quot;: &quot;block&quot;,
-          &quot;id&quot;: &quot;8e423534-3965-453e-a56a-ea041fcc2cce&quot;,
-          &quot;created_time&quot;: &quot;2022-01-27T22:17:00.000Z&quot;,
-          &quot;last_edited_time&quot;: &quot;2022-01-27T22:17:00.000Z&quot;,
-          &quot;has_children&quot;: false,
-          &quot;archived&quot;: false,
-          &quot;type&quot;: &quot;image&quot;,
-          &quot;image&quot;: \{
-            &quot;caption&quot;: [],
-            &quot;type&quot;: &quot;file&quot;,
-            &quot;file&quot;: \{
-              &quot;url&quot;: &quot;https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b0df0d64-acca-4cbc-836a-743329690882/812669A3-6EC3-4B0B-A554-64648E122F2E_1_201_a.heic?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220127%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20220127T222902Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5e3c2a1e64c3287030a4ba68c428a8b53f19d9c95c4b1c13ba8af81701878558&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&quot;,
-              &quot;expiry_time&quot;: &quot;2022-01-27T23:29:02.929Z&quot;
-            }
-          }
+          …&quot;image&quot;: \{…}
         }
       ]
     },
     \{
       &quot;object&quot;: &quot;block&quot;,
-      &quot;id&quot;: &quot;30a857dc-ff04-474d-86f6-95bab140d43e&quot;,
-      &quot;created_time&quot;: &quot;2022-01-27T22:18:00.000Z&quot;,
-      &quot;last_edited_time&quot;: &quot;2022-01-27T22:19:00.000Z&quot;,
-      &quot;has_children&quot;: true,
-      &quot;archived&quot;: false,
-      &quot;type&quot;: &quot;column&quot;,
+      …
       &quot;column&quot;: \{},
       &quot;blocks&quot;: [
-        \{
-          &quot;object&quot;: &quot;block&quot;,
-          &quot;id&quot;: &quot;7ced39ac-32b6-4118-a7e2-0f3b5ad6b209&quot;,
-          &quot;created_time&quot;: &quot;2022-01-27T22:19:00.000Z&quot;,
-          &quot;last_edited_time&quot;: &quot;2022-01-27T22:19:00.000Z&quot;,
-          &quot;has_children&quot;: false,
-          &quot;archived&quot;: false,
-          &quot;type&quot;: &quot;heading_1&quot;,
-          &quot;heading_1&quot;: \{
-            &quot;text&quot;: [
-              \{
-                &quot;type&quot;: &quot;text&quot;,
-                &quot;text&quot;: \{
-                  &quot;content&quot;: &quot;᭓&quot;,
-                  &quot;link&quot;: null
-                },
-                &quot;annotations&quot;: \{
-                  &quot;bold&quot;: false,
-                  &quot;italic&quot;: false,
-                  &quot;strikethrough&quot;: false,
-                  &quot;underline&quot;: false,
-                  &quot;code&quot;: false,
-                  &quot;color&quot;: &quot;default&quot;
-                },
-                &quot;plain_text&quot;: &quot;᭓&quot;,
-                &quot;href&quot;: null
-              }
-            ]
-          }
+        \{ …&quot;heading_1&quot;: \{…&quot;plain_text&quot;: &quot;᭓&quot;,…}
         },
         \{
-          &quot;object&quot;: &quot;block&quot;,
-          &quot;id&quot;: &quot;dcd84270-50b5-4033-83dc-83dc41e7c5b8&quot;,
-          &quot;created_time&quot;: &quot;2022-01-27T22:18:00.000Z&quot;,
-          &quot;last_edited_time&quot;: &quot;2022-01-27T22:18:00.000Z&quot;,
-          &quot;has_children&quot;: false,
-          &quot;archived&quot;: false,
-          &quot;type&quot;: &quot;image&quot;,
-          &quot;image&quot;: \{
-            &quot;caption&quot;: [],
-            &quot;type&quot;: &quot;file&quot;,
-            &quot;file&quot;: \{
-              &quot;url&quot;: &quot;https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cb323a02-365d-4301-ad51-1683d71cedb5/7D7F17EE-121E-4CD0-B053-23E23C892981_1_105_c.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220127%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20220127T222902Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=d2873089ccda4af4941d462f13c5dc2844250b79144ebe461e849af00f35c7b4&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject&quot;,
-              &quot;expiry_time&quot;: &quot;2022-01-27T23:29:02.970Z&quot;
-            }
-          }
+          …&quot;image&quot;: \{…}
         }
       ]
     }
@@ -305,7 +168,7 @@
 		pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
 		id: '35cb0aad-e947-4891-87a5-ddc65f27ec0f',
 		created_time: '2022-01-28T22:54:00.000Z',
-		last_edited_time: '2022-01-28T22:56:00.000Z'
+		last_edited_time: '2022-12-08T21:50:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Rendered by</InlineColor><Link
@@ -316,73 +179,91 @@
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Column.svelte"
 		><InlineColor value="gray">Column.svelte</InlineColor></Link
-	><InlineColor value="gray">&ensp;(wHeader and Image)</InlineColor>
+	><InlineColor value="gray">&ensp;(w/help from&ensp;</InlineColor><Link
+		type="mention"
+		href="/standard-components/header"><InlineColor value="gray">Header</InlineColor></Link
+	><InlineColor value="gray">&ensp;&&ensp;</InlineColor><Link
+		type="mention"
+		href="/other-components/image"><InlineColor value="gray">Image</InlineColor></Link
+	><InlineColor value="gray">&ensp;)</InlineColor>
 </Paragraph>
 <ColumnList cols={3}
 	><Column
 		><Header level={1}>᭑</Header>
-		<Image url="/assets/layout-only-components/columns/a8410bc7-07a4-4648-8516-bde1bcbffe1b.heic" />
+		<Image
+			url="/assets/layout-only-components/columns/a8410bc7-07a4-4648-8516-bde1bcbffe1b.heic"
+			caption=""
+		/>
 	</Column><Column
 		><Header level={1}>᭒</Header>
-		<Image url="/assets/layout-only-components/columns/8e423534-3965-453e-a56a-ea041fcc2cce.heic" />
+		<Image
+			url="/assets/layout-only-components/columns/8e423534-3965-453e-a56a-ea041fcc2cce.heic"
+			caption=""
+		/>
 	</Column><Column
 		><Header level={1}>᭓</Header>
-		<Image url="/assets/layout-only-components/columns/dcd84270-50b5-4033-83dc-83dc41e7c5b8.jpg" />
+		<Image
+			url="/assets/layout-only-components/columns/dcd84270-50b5-4033-83dc-83dc41e7c5b8.jpg"
+			caption=""
+		/>
 	</Column></ColumnList
+><Callout emoji="⚠️"
+	>Oh boy… 😳<span slot="children"
+		><Paragraph
+			blockProps={{
+				pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
+				id: 'cd734fc2-4962-43d2-b1f3-eb57a2d429dd',
+				created_time: '2022-12-08T21:54:00.000Z',
+				last_edited_time: '2022-12-08T21:54:00.000Z'
+			}}
+		>
+			Notice how the first two images have failed to render? It would seem that Notion’s
+			Amazon-backed images are pre-processed for use in Notion pages, ensuring that they always
+			render just fine, whereas the Notion API gives you back your original image which — if it
+			happens to be in&ensp;<em>.heic</em>&ensp;format, as is often the case when saving from on an
+			iPhone — will simply&ensp;<Link
+				type="absolute"
+				href="https://stackoverflow.com/questions/51135568/image-heic-not-loaded-properly-on-browsers"
+				>fail</Link
+			>&ensp;to render.&ensp;<Link type="absolute" href="https://caniuse.com/heif"
+				><strong>Even in Safari</strong></Link
+			>!
+		</Paragraph>
+		<Paragraph
+			blockProps={{
+				pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
+				id: 'bac9f4a1-105e-4587-bf34-2cc1c737f4b5',
+				created_time: '2022-01-27T22:42:00.000Z',
+				last_edited_time: '2022-12-08T21:54:00.000Z'
+			}}
+		>
+			Although it’s tempting to get angry with Apple for using HEIF without properly supporting it,
+			the only thing in&ensp;<em>my</em>&ensp;power is to augment&ensp;<em>notion2svelte</em
+			>&ensp;to compensate.
+		</Paragraph>
+		<Paragraph
+			blockProps={{
+				pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
+				id: 'aa7828c1-17f8-4c74-96e0-1daf6f06d851',
+				created_time: '2022-01-27T22:44:00.000Z',
+				last_edited_time: '2022-12-08T21:54:00.000Z'
+			}}
+		>
+			Which I plan to do.
+		</Paragraph>
+		<Paragraph
+			blockProps={{
+				pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
+				id: 'a3df10ea-2061-4493-ae3e-e0cd1746957f',
+				created_time: '2022-01-27T22:45:00.000Z',
+				last_edited_time: '2022-12-08T21:54:00.000Z'
+			}}
+		>
+			Eventually.
+		</Paragraph>
+		<Header level={1}>😬</Header>
+	</span></Callout
 ><Paragraph
-	blockProps={{
-		pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
-		id: '9799c5c6-946e-43a9-8e4e-1a76d1554ca6',
-		created_time: '2022-01-27T22:40:00.000Z',
-		last_edited_time: '2022-01-27T22:49:00.000Z'
-	}}
->
-	Oh boy. Notice how the first two images have failed to render? It would seem that Notion’s
-	Amazon-backed images are pre-processed for use in Notion pages, ensuring that they always render
-	just fine, whereas the Notion API gives you back your original image which — if it happens to be
-	in&ensp;<em>.heic</em>&ensp;format, as is often the case when saving from on an iPhone — will
-	simply&ensp;<Link
-		type="absolute"
-		href="https://stackoverflow.com/questions/51135568/image-heic-not-loaded-properly-on-browsers"
-		>fail</Link
-	>&ensp;to render.&ensp;<Link type="absolute" href="https://caniuse.com/heif"
-		><strong>Even in Safari</strong></Link
-	>!
-</Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
-		id: 'bac9f4a1-105e-4587-bf34-2cc1c737f4b5',
-		created_time: '2022-01-27T22:42:00.000Z',
-		last_edited_time: '2022-01-31T07:49:00.000Z'
-	}}
->
-	Although it’s tempting to get angry with Apple for using HEIF without properly supporting it, the
-	only thing in&ensp;<em>my</em>&ensp;power is to augment&ensp;<em>notion2svelte</em>&ensp;to
-	compensate.
-</Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
-		id: 'aa7828c1-17f8-4c74-96e0-1daf6f06d851',
-		created_time: '2022-01-27T22:44:00.000Z',
-		last_edited_time: '2022-01-27T22:45:00.000Z'
-	}}
->
-	Which I plan to do.
-</Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
-		id: 'a3df10ea-2061-4493-ae3e-e0cd1746957f',
-		created_time: '2022-01-27T22:45:00.000Z',
-		last_edited_time: '2022-01-27T22:45:00.000Z'
-	}}
->
-	Eventually.
-</Paragraph>
-<Header level={1}>😬</Header>
-<Paragraph
 	blockProps={{
 		pageId: '97e26ade6cc84c4590e7e74dbe6cb0b4',
 		id: '672c9606-09a8-4212-90b6-d553281ec7eb',
@@ -430,8 +311,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link
