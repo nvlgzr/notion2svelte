@@ -35,6 +35,8 @@
 	<title>Components</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>Components</Title>
 
 <Header level={1}>A quick word about terminology</Header>
@@ -98,7 +100,7 @@
 			Of course, most Notion content exists in whatever proprietary structure they’ve created in
 			their database, and blocks are usually generated via the GUI…
 		</Paragraph>
-		<Image url="/assets/components/4c421841-a417-4ca0-af7a-f80dda7ef09a.png" />
+		<Image url="/assets/components/4c421841-a417-4ca0-af7a-f80dda7ef09a.png" caption="" />
 		<Paragraph
 			blockProps={{
 				pageId: '98564b233ea84b78ad3147e3a0971ef5',
@@ -292,7 +294,9 @@
 			<em>notion2svelte</em>&ensp;is aimed primarily toward rendering “turn-intoable” Notion blocks
 			👇
 		</Paragraph>
-		<Image url="/assets/components/3fab1818-a16b-449b-9753-1c82d682eba9.png"
+		<Image
+			url="/assets/components/3fab1818-a16b-449b-9753-1c82d682eba9.png"
+			caption="Notion’s interchangeable block types, as of 12/3/22"
 			>Notion’s interchangeable block types, as of 12/3/22</Image
 		>
 		<Paragraph
@@ -389,4 +393,138 @@
 			The ToC ↓ demonstrates this synced-block technique
 		</Paragraph>
 	</Column></ColumnList
-><ColumnList cols={2}><Column /><Column /></ColumnList>
+><Divider />
+<Header level={2}
+	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
+>
+<ColumnList cols={2}
+	><Column
+		><Header level={3}>High-level Discussion</Header>
+		<BulletedListItem
+			><Link type="mention" href="/high-level-discussion/flow-diagram"
+				>Where notion2svelte Fits</Link
+			>&ensp;</BulletedListItem
+		>
+		<BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
+		<BulletedListItem
+			><Link type="mention" href="/high-level-discussion/rules-for-writing-good-slugs"
+				>Writing Good Slugs</Link
+			></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/high-level-discussion/block-props">blockProps</Link
+			></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/high-level-discussion/nested-blocks">Nested Blocks</Link
+			></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/high-level-discussion/synced-blocks">Synced Blocks</Link
+			></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link
+			>&ensp;</BulletedListItem
+		>
+		<Header level={3}>Turn-intoable Block Components</Header>
+		<BulletedListItem
+			><Link type="mention" href="/standard-components/paragraph">Paragraph (aka “Text”)</Link
+			></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/standard-components/child-page">ChildPage</Link
+			></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/standard-components/todo-item">TodoItem</Link></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/standard-components/bulleted-list-item">BulletedListItem</Link
+			></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/standard-components/numbered-list-item">NumberedListItem</Link
+			></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/standard-components/toggle">Toggle</Link></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/standard-components/code">Code</Link></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/standard-components/quote">Quote</Link></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/standard-components/callout">Callout</Link></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
+		>
+		<BulletedListItem
+			>Toggle Headings<InlineColor value="gray">&ensp;(not yet implemented)</InlineColor
+			></BulletedListItem
+		>
+	</Column><Column
+		><Header level={3}>Layout-only Components</Header>
+		<BulletedListItem
+			><Link type="mention" href="/layout-only-components/indent-group">IndentGroup</Link
+			></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link
+			>&ensp;</BulletedListItem
+		>
+		<Header level={3}>Page-level Components</Header>
+		<BulletedListItem
+			><Link type="mention" href="/page-level-components/title">Title (aka Name)</Link
+			></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/page-level-components/cover">Cover (Image & Icon)</Link
+			></BulletedListItem
+		>
+		<Header level={3}>Annotation Components</Header>
+		<BulletedListItem
+			><strong>bold</strong>&ensp;→&ensp;<InlineCode
+				code={'&lt;strong&gt;'}
+			/>&ensp;</BulletedListItem
+		>
+		<BulletedListItem
+			><em>italic</em>&ensp;→&ensp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><s>strikethrough</s>&ensp;→&ensp;<InlineCode code={'&lt;s&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/annotations/underline">Underline</Link></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/annotations/inline-color">InlineColor</Link></BulletedListItem
+		>
+		<BulletedListItem><Link type="mention" href="/annotations/link">Link</Link></BulletedListItem>
+		<BulletedListItem
+			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
+		>
+		<Header level={3}>Other Components</Header>
+		<BulletedListItem
+			><Link type="mention" href="/other-components/divider">Divider</Link></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/other-components/embed">Embed</Link></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/other-components/image">Image</Link></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/other-components/error">Error</Link></BulletedListItem
+		>
+	</Column></ColumnList
+>
