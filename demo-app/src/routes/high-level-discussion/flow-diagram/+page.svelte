@@ -39,6 +39,7 @@
 	coverURL={'/assets/high-level-discussion/flow-diagram/cover.png'}
 	iconEmojiOrURL={'undefined'}
 />
+
 <Title>Where notion2svelte Fits</Title>
 
 <Header level={1}>Two obvious assumptions</Header>
@@ -54,6 +55,7 @@
 	/>
 	<Image
 		url="/assets/high-level-discussion/flow-diagram/0702cae0-fa81-4d2d-a67e-a9234ee44bb1.png"
+		caption=""
 	/>
 </IndentGroup>
 <NumberedListItem number="2">You want to publish from Svelte</NumberedListItem>
@@ -68,6 +70,7 @@
 	/>
 	<Image
 		url="/assets/high-level-discussion/flow-diagram/30d993da-1075-4f62-9ab6-0af73f1fdfe2.png"
+		caption=""
 	/>
 </IndentGroup>
 <Header level={1}>One unusual assumption</Header>
@@ -87,6 +90,7 @@
 	<BulletedListItem>Guaranteed synchronicity between code and content</BulletedListItem>
 	<Image
 		url="/assets/high-level-discussion/flow-diagram/e015942f-62ad-4df0-9f4a-16d117d5d01f.png"
+		caption=""
 	/>
 </IndentGroup>
 <Paragraph
@@ -140,7 +144,10 @@
 		>
 	</Paragraph>
 </IndentGroup>
-<Image url="/assets/high-level-discussion/flow-diagram/911d9023-87e7-4a51-aae9-11241ce75c9d.png" />
+<Image
+	url="/assets/high-level-discussion/flow-diagram/911d9023-87e7-4a51-aae9-11241ce75c9d.png"
+	caption=""
+/>
 <Paragraph
 	blockProps={{
 		pageId: 'f16dfed7beb54a71b67435e17e7e33e5',
@@ -152,7 +159,10 @@
 	…then, for each fetched page,&ensp;<em>notion2svelte</em>&ensp;recursively fetches all blocks
 	needed to render that page
 </Paragraph>
-<Image url="/assets/high-level-discussion/flow-diagram/601efbcd-7b58-4854-b6ec-1e984c227018.png" />
+<Image
+	url="/assets/high-level-discussion/flow-diagram/601efbcd-7b58-4854-b6ec-1e984c227018.png"
+	caption=""
+/>
 <Paragraph
 	blockProps={{
 		pageId: 'f16dfed7beb54a71b67435e17e7e33e5',
@@ -219,7 +229,10 @@
 		><InlineColor value="gray">.</InlineColor>
 	</Paragraph>
 </IndentGroup>
-<Image url="/assets/high-level-discussion/flow-diagram/82f08bf6-fa03-4e0a-b758-844225cf9e9e.png" />
+<Image
+	url="/assets/high-level-discussion/flow-diagram/82f08bf6-fa03-4e0a-b758-844225cf9e9e.png"
+	caption=""
+/>
 <Paragraph
 	blockProps={{
 		pageId: 'f16dfed7beb54a71b67435e17e7e33e5',
@@ -241,7 +254,10 @@
 	On the surface, there’s not much else to say about this particular detail, as this is basically
 	just Svelte 101!
 </Paragraph>
-<Image url="/assets/high-level-discussion/flow-diagram/66b337c4-3c7c-49ef-8a55-ed177bc39e02.png" />
+<Image
+	url="/assets/high-level-discussion/flow-diagram/66b337c4-3c7c-49ef-8a55-ed177bc39e02.png"
+	caption=""
+/>
 <BulletedListItem
 	>You’ve got&ensp;<em>.svelte</em>&ensp;files output by&ensp;<em>notion2svelte</em
 	></BulletedListItem
@@ -273,8 +289,9 @@
 	scanned the git diff for undesirable changes, it’s time to commit and, when you’re ready for the
 	changes to go publish, to push
 </Paragraph>
-<Image url="/assets/high-level-discussion/flow-diagram/c0a3133a-068a-49b8-bc3c-0f9bb69bd69f.png"
-	>The full* workflow</Image
+<Image
+	url="/assets/high-level-discussion/flow-diagram/c0a3133a-068a-49b8-bc3c-0f9bb69bd69f.png"
+	caption="The full* workflow">The full* workflow</Image
 >
 <Header level={3}>The role of&ensp;<em>Publishable</em></Header>
 <Paragraph
@@ -310,7 +327,10 @@
 	As such, you’ll probably want to change each page’s Status to (e.g.)&ensp;<em>Published</em
 	>&ensp;once it’s been processed by&ensp;<em>notion2svelte</em>
 </Paragraph>
-<Image url="/assets/high-level-discussion/flow-diagram/72ff9d21-461b-4559-b4f1-b1a9f8357499.png" />
+<Image
+	url="/assets/high-level-discussion/flow-diagram/72ff9d21-461b-4559-b4f1-b1a9f8357499.png"
+	caption=""
+/>
 <Header level={1}>Ejecting</Header>
 <Paragraph
 	blockProps={{
@@ -384,8 +404,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link

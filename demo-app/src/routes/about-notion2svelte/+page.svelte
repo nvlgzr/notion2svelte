@@ -39,6 +39,7 @@
 	coverURL={'/assets/about-notion2svelte/cover.jpg'}
 	iconEmojiOrURL={'/assets/about-notion2svelte/icon.png'}
 />
+
 <Title />
 
 <Paragraph
@@ -98,13 +99,13 @@
 <Equation block={true} katexString="Notion → notion2svelte → Svelte" /><ColumnList cols={2}
 	><Column
 		><Header level={2}>Source (Notion)</Header>
-		<Image url="/assets/about-notion2svelte/ed21d11c-9389-4694-9db4-549e002a1b92.png" />
+		<Image url="/assets/about-notion2svelte/ed21d11c-9389-4694-9db4-549e002a1b92.png" caption="" />
 		<BulletedListItem>😃 Awesome editing experience</BulletedListItem>
 		<BulletedListItem>🤨 Domain-locked to&ensp;<em>notion.so</em></BulletedListItem>
 		<BulletedListItem>😐 Proprietary limitations</BulletedListItem>
 	</Column><Column
 		><Header level={2}>Destination (Svelte)</Header>
-		<Image url="/assets/about-notion2svelte/ce917906-431b-4d6a-9134-506027e66805.png" />
+		<Image url="/assets/about-notion2svelte/ce917906-431b-4d6a-9134-506027e66805.png" caption="" />
 		<BulletedListItem>👘 Your styles</BulletedListItem>
 		<BulletedListItem>🤔 Your domain</BulletedListItem>
 		<BulletedListItem>🪡 Infinite possibilities</BulletedListItem>
@@ -360,7 +361,9 @@
 		last_edited_time: '2022-01-09T05:40:00.000Z'
 	}}
 />
-<Image url="/assets/about-notion2svelte/dfbc55c9-68a1-4ea3-ac5a-904e086dfe26.png"
+<Image
+	url="/assets/about-notion2svelte/dfbc55c9-68a1-4ea3-ac5a-904e086dfe26.png"
+	caption="The screenshot on the right is from early-ish in the project, when I was using the Svelte Kit demo app as my test site; hence the light blue background & (if you zoom way in) familiar top nav"
 	>The screenshot on the right is from early-ish in the project, when I was using the Svelte Kit
 	demo app as my test site; hence the light blue background & (if you zoom way in) familiar top nav</Image
 >
@@ -400,7 +403,9 @@
 			source block in Notion.
 		</Paragraph>
 	</Column><Column
-		><Image url="/assets/about-notion2svelte/844f4edc-dd62-48b2-b82b-3e55f686b115.png"
+		><Image
+			url="/assets/about-notion2svelte/844f4edc-dd62-48b2-b82b-3e55f686b115.png"
+			caption="See blockProps."
 			><InlineColor value="gray">See&ensp;</InlineColor><Link
 				type="mention"
 				href="/high-level-discussion/block-props"
@@ -419,8 +424,9 @@
 >
 	How do we get from this…
 </Paragraph>
-<Image url="/assets/about-notion2svelte/f69bb522-315c-4fd4-988f-643088e9a8df.png"
-	>Screenshot of original Notion callout</Image
+<Image
+	url="/assets/about-notion2svelte/f69bb522-315c-4fd4-988f-643088e9a8df.png"
+	caption="Screenshot of original Notion callout">Screenshot of original Notion callout</Image
 >
 <Paragraph
 	blockProps={{
@@ -644,7 +650,7 @@
 			Do you want a simple, gray callout with minimal styling, like this:
 		</Paragraph>
 	</Column><Column
-		><Image url="/assets/about-notion2svelte/70a6d0d1-1eaa-493e-8af4-cd1b69690c54.png" />
+		><Image url="/assets/about-notion2svelte/70a6d0d1-1eaa-493e-8af4-cd1b69690c54.png" caption="" />
 	</Column></ColumnList
 ><Toggle
 	>Here’s the code<em>&ensp;(simple gray)</em>
@@ -711,7 +717,7 @@
 			Or would you prefer something more colorful?
 		</Paragraph>
 	</Column><Column
-		><Image url="/assets/about-notion2svelte/1f440d04-1010-43c2-89f5-05b39b51aef6.png" />
+		><Image url="/assets/about-notion2svelte/1f440d04-1010-43c2-89f5-05b39b51aef6.png" caption="" />
 	</Column></ColumnList
 ><Toggle
 	>Here’s the code (blue border)
@@ -815,11 +821,13 @@
 			}}
 		/>
 	</Column><Column
-		><Image url="/assets/about-notion2svelte/cc26aa0c-ad05-48b8-873b-649424c032e8.png"
-			>Toggle closed</Image
+		><Image
+			url="/assets/about-notion2svelte/cc26aa0c-ad05-48b8-873b-649424c032e8.png"
+			caption="Toggle closed">Toggle closed</Image
 		>
-		<Image url="/assets/about-notion2svelte/3c907829-0848-414f-9504-3cbf0a79f701.png"
-			>Toggle open</Image
+		<Image
+			url="/assets/about-notion2svelte/3c907829-0848-414f-9504-3cbf0a79f701.png"
+			caption="Toggle open">Toggle open</Image
 		>
 	</Column></ColumnList
 ><Toggle
@@ -1052,8 +1060,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link

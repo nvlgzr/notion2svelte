@@ -35,17 +35,22 @@
 	<title>Callout</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>Callout</Title>
 
 <Header level={1}>1. Notion original</Header>
-<Image url="/assets/standard-components/callout/d0214ecc-41c1-454d-a102-6b65adaa6352.png" />
+<Image
+	url="/assets/standard-components/callout/d0214ecc-41c1-454d-a102-6b65adaa6352.png"
+	caption=""
+/>
 <Header level={1}>2. Notion API</Header>
 <Paragraph
 	blockProps={{
 		pageId: '1e2eab4c0589489cb6bdbaa0e1f9593f',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -174,8 +179,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link

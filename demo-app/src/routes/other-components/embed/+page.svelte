@@ -36,6 +36,7 @@
 </svelte:head>
 
 <Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>Embed</Title>
 
 <Header level={1}>1. Notion original</Header>
@@ -147,8 +148,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link

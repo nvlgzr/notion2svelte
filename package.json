@@ -13,7 +13,7 @@
     "url": "https://github.com/nvlgzr/notion2svelte/issues"
   },
   "license": "ISC",
-  "author": "nvlgzr",
+  "author": "Elbong Gearny",
   "files": [
     "lib/**/*",
     ".env-sample",

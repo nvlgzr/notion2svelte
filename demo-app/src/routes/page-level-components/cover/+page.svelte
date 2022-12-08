@@ -36,6 +36,7 @@
 </svelte:head>
 
 <Cover coverURL={'/assets/page-level-components/cover/cover.jpg'} iconEmojiOrURL={'🪲'} />
+
 <Title>Cover (Image & Icon)</Title>
 
 <Paragraph
@@ -249,8 +250,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link
