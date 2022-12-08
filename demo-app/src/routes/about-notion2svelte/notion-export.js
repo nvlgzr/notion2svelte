@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "fdc65179-a8bd-451c-af67-59019204cfde",
   "created_time": "2022-01-04T05:41:00.000Z",
-  "last_edited_time": "2022-12-08T23:28:00.000Z",
+  "last_edited_time": "2022-12-08T23:54:00.000Z",
   "created_by": {
     "object": "user",
     "id": "9ba3d972-a756-4f33-82db-db0b87d6991d"
@@ -20,7 +20,7 @@ const json = {
   "icon": {
     "type": "file",
     "file": {
-      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T233211Z&X-Amz-Expires=3600&X-Amz-Signature=13c4c9dbc479d5458bfa971b3914b3e09158ee4dfadadb408e5e8ae785ac8731&X-Amz-SignedHeaders=host&x-id=GetObject"
+      "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3172ef8c-8d93-487a-bdb4-76304f1dbb19/notion2svelte.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T235418Z&X-Amz-Expires=3600&X-Amz-Signature=dd20142e717a1d7e22c5d27ee2aec8f90289a923d2dc684a620c12e552e4bc58&X-Amz-SignedHeaders=host&x-id=GetObject"
     }
   },
   "parent": {
@@ -670,7 +670,7 @@ const json = {
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T233212Z&X-Amz-Expires=3600&X-Amz-Signature=4a57b7e2f82344a922df2452ac7add3a98670b3a966a7d61d36a8d82f7b0be02&X-Amz-SignedHeaders=host&x-id=GetObject"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd6ca920-8720-4fdd-bafa-02578e54e4ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T235421Z&X-Amz-Expires=3600&X-Amz-Signature=c1d0418cf9e4c1e0b12ca0a2931bdcd11a1122cd9ec5dc4132064788955f001a&X-Amz-SignedHeaders=host&x-id=GetObject"
                 }
               }
             },
@@ -912,7 +912,7 @@ const json = {
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T233212Z&X-Amz-Expires=3600&X-Amz-Signature=cd72cd245339425afeef13c9186d7dfd1b39aa94925b9b8d4120de03682a8572&X-Amz-SignedHeaders=host&x-id=GetObject"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0ed159d5-2d44-4146-9926-1d60d3598a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T235420Z&X-Amz-Expires=3600&X-Amz-Signature=1b1c60bf58d353a361fdf2870a428a35123b290af2fc5f1d0e751ffe49f32b7d&X-Amz-SignedHeaders=host&x-id=GetObject"
                 }
               }
             },
@@ -3001,7 +3001,7 @@ const json = {
         "page_id": "fdc65179-a8bd-451c-af67-59019204cfde"
       },
       "created_time": "2022-12-08T05:31:00.000Z",
-      "last_edited_time": "2022-12-08T05:33:00.000Z",
+      "last_edited_time": "2022-12-08T23:54:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -3019,7 +3019,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "You can now selectively expose props in a Notion database to ",
+              "content": "You can now selectively expose props in a Notion database for use in your components. I haven’t got this well-documented yet, but the TL;DR is: prepend props to be exposed with ",
               "link": null
             },
             "annotations": {
@@ -3030,7 +3030,75 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "You can now selectively expose props in a Notion database to ",
+            "plain_text": "You can now selectively expose props in a Notion database for use in your components. I haven’t got this well-documented yet, but the TL;DR is: prepend props to be exposed with ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "§",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "§",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". Any prop thus marked will be added (minus the §) to the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". Any prop thus marked will be added (minus the §) to the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "pageStuff",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "pageStuff",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " variable which you can reference from within your components.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " variable which you can reference from within your components.",
             "href": null
           }
         ]
@@ -3434,7 +3502,7 @@ const json = {
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T233211Z&X-Amz-Expires=3600&X-Amz-Signature=ae019492896595330abf64d2dfe82e591474b2949d474663c2c1c4a50a8e9a1f&X-Amz-SignedHeaders=host&x-id=GetObject"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/065b59a4-70ad-47f7-8157-f76790c60cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T235420Z&X-Amz-Expires=3600&X-Amz-Signature=ad964c55cbe30a2c05228effea3f433d8cb06e991129c6330c6e5193fb2a8543&X-Amz-SignedHeaders=host&x-id=GetObject"
         }
       }
     },
@@ -3865,7 +3933,7 @@ const json = {
                 ],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f4668060-e227-476c-861a-689f3bfb7b4c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T233212Z&X-Amz-Expires=3600&X-Amz-Signature=7fed9754df9ec5a352b8461ec297868ab16494f891ae7db6b600a15b1c861cd4&X-Amz-SignedHeaders=host&x-id=GetObject"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f4668060-e227-476c-861a-689f3bfb7b4c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T235421Z&X-Amz-Expires=3600&X-Amz-Signature=1b51a837ce0628c4671804bf9ead1c8a874140ee658a14d33efe4d4b3f908263&X-Amz-SignedHeaders=host&x-id=GetObject"
                 }
               }
             }
@@ -4002,7 +4070,7 @@ const json = {
         ],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0223fdc0-6313-4026-8820-e0935327a2db/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T233211Z&X-Amz-Expires=3600&X-Amz-Signature=2b61c3f4084397f1b0fba86dfe25d21991fca56c9478f0b59064b4122aec4102&X-Amz-SignedHeaders=host&x-id=GetObject"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0223fdc0-6313-4026-8820-e0935327a2db/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T235420Z&X-Amz-Expires=3600&X-Amz-Signature=a52a29d39d9d775fec6f02305ed8c17b18278d1709b1eb2d4becd8ada15e1b9e&X-Amz-SignedHeaders=host&x-id=GetObject"
         }
       }
     },
@@ -5523,7 +5591,7 @@ const json = {
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T233211Z&X-Amz-Expires=3600&X-Amz-Signature=a9a2fa2a16e34552fdbc55ac3f5de1e6f6d0d102343059930a02f9c06f967d6e&X-Amz-SignedHeaders=host&x-id=GetObject"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33438354-07db-4d95-9f36-369c915c7236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T235421Z&X-Amz-Expires=3600&X-Amz-Signature=bfdc5731725720008469f3a65c727e41190175429258854ff1653ddf54d1d9ed&X-Amz-SignedHeaders=host&x-id=GetObject"
                 }
               }
             }
@@ -5862,7 +5930,7 @@ const json = {
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T233211Z&X-Amz-Expires=3600&X-Amz-Signature=2e30285417e6e1ef6c28416f6128f1179c8496d91b50234674ca5ad6d46036df&X-Amz-SignedHeaders=host&x-id=GetObject"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e64b9771-eded-4920-ad4c-dde763e3c61e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T235422Z&X-Amz-Expires=3600&X-Amz-Signature=7831e048d5f371d5dff25dc731b3031b0195522b304de2cfa4add2914d74cbad&X-Amz-SignedHeaders=host&x-id=GetObject"
                 }
               }
             }
@@ -6313,7 +6381,7 @@ const json = {
                 ],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0359dba3-1ed2-46ef-ab90-ebc828e2e4b4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T233211Z&X-Amz-Expires=3600&X-Amz-Signature=de5048ea64d69eb7fd1c3a2605df1a492cd22c572ef53ee48536049397e3599a&X-Amz-SignedHeaders=host&x-id=GetObject"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0359dba3-1ed2-46ef-ab90-ebc828e2e4b4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T235421Z&X-Amz-Expires=3600&X-Amz-Signature=9ada067f3feea72110c39ee053c51316751c49597c17f1de030a617418a3d422&X-Amz-SignedHeaders=host&x-id=GetObject"
                 }
               }
             },
@@ -6359,7 +6427,7 @@ const json = {
                 ],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T233211Z&X-Amz-Expires=3600&X-Amz-Signature=5498cdb2883a7852ec58eb6603b44d94fcefaee21bd39616b9172c1a5f804b71&X-Amz-SignedHeaders=host&x-id=GetObject"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9ee4dd49-0008-431a-b252-fa767de24a48/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T235421Z&X-Amz-Expires=3600&X-Amz-Signature=661af64791790509a680b4a60f654a6912f4d5f6125d89252fc1de9c5f1046eb&X-Amz-SignedHeaders=host&x-id=GetObject"
                 }
               }
             }

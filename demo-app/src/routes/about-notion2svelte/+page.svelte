@@ -325,7 +325,12 @@
 	component</BulletedListItem
 >
 <BulletedListItem
-	>You can now selectively expose props in a Notion database to&ensp;</BulletedListItem
+	>You can now selectively expose props in a Notion database for use in your components. I haven’t
+	got this well-documented yet, but the TL;DR is: prepend props to be exposed with&ensp;<InlineCode
+		code={'§'}
+	/>. Any prop thus marked will be added (minus the §) to the&ensp;<InlineCode
+		code={'pageStuff'}
+	/>&ensp;variable which you can reference from within your components.</BulletedListItem
 >
 <Paragraph
 	blockProps={{
