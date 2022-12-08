@@ -39,16 +39,22 @@
 
 <Header level={1}>1. Notion original</Header>
 <Header level={3}>Inline</Header>
-<Image url="/assets/standard-components/equation/49dff063-66e4-4113-b5ba-71511c705bb8.png" />
+<Image
+	url="/assets/standard-components/equation/49dff063-66e4-4113-b5ba-71511c705bb8.png"
+	caption=""
+/>
 <Header level={3}>Block</Header>
-<Image url="/assets/standard-components/equation/40267217-ee20-4205-a8b0-36923db0531c.png" />
+<Image
+	url="/assets/standard-components/equation/40267217-ee20-4205-a8b0-36923db0531c.png"
+	caption=""
+/>
 <Header level={1}>2. Notion API</Header>
 <Paragraph
 	blockProps={{
 		pageId: 'ef8517977d17431889a3ae09285cfef8',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -159,7 +165,7 @@ C @= D
 		pageId: 'ef8517977d17431889a3ae09285cfef8',
 		id: 'f01f769b-c9b9-4d68-a1ee-b9de396170fe',
 		created_time: '2022-01-28T22:42:00.000Z',
-		last_edited_time: '2022-01-28T22:44:00.000Z'
+		last_edited_time: '2022-12-08T10:33:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Rendered by</InlineColor><Link
@@ -169,7 +175,12 @@ C @= D
 	><InlineColor value="gray">, which relies on&ensp;</InlineColor><Link
 		type="absolute"
 		href="https://katex.org/"><InlineColor value="gray">katex</InlineColor></Link
-	><InlineColor value="gray">&ensp;for typesetting</InlineColor>
+	><InlineColor value="gray"
+		>&ensp;for typesetting. Notice how this implementation lets you toggle between ASCII and
+		rendered&ensp;</InlineColor
+	><InlineColor value="gray"><em>latex</em></InlineColor><InlineColor value="gray"
+		>&ensp;by clicking on a diagram or equation.</InlineColor
+	>
 </Paragraph>
 <Header level={3}>Inline</Header>
 <Paragraph

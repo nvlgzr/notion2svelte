@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "ef851797-7d17-4318-89a3-ae09285cfef8",
   "created_time": "2022-01-26T09:55:00.000Z",
-  "last_edited_time": "2022-12-08T05:13:00.000Z",
+  "last_edited_time": "2022-12-08T10:34:00.000Z",
   "created_by": {
     "object": "user",
     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -160,7 +160,7 @@ const json = {
             "block_id": "69ec6660-b477-4f8d-8792-5dd924833e8d"
           },
           "created_time": "2022-01-28T20:25:00.000Z",
-          "last_edited_time": "2022-12-08T04:49:00.000Z",
+          "last_edited_time": "2022-12-08T10:32:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -266,7 +266,7 @@ const json = {
         "caption": [],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9abb1341-49d9-4bca-9f10-f02733be8337/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T082553Z&X-Amz-Expires=3600&X-Amz-Signature=bfdd6c3694d26981116ff58cac97b0f8455cd574e11bbe51610fdfea31eb12e2&X-Amz-SignedHeaders=host&x-id=GetObject"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9abb1341-49d9-4bca-9f10-f02733be8337/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T103426Z&X-Amz-Expires=3600&X-Amz-Signature=3e7fdad5cc150fac2e9897b9a812482d01d1216b4652a5be81b9036bb9477422&X-Amz-SignedHeaders=host&x-id=GetObject"
         }
       }
     },
@@ -338,7 +338,7 @@ const json = {
         "caption": [],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/efbf314d-3aa8-47f6-a704-82a5abca387a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T082553Z&X-Amz-Expires=3600&X-Amz-Signature=43dd13e67eab08ea6a74dc474d350594cb7f8a791ffb1278e808c3eaa7b53830&X-Amz-SignedHeaders=host&x-id=GetObject"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/efbf314d-3aa8-47f6-a704-82a5abca387a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T103426Z&X-Amz-Expires=3600&X-Amz-Signature=adda1365e3fed18d3df9375a0e97e753ff8416c1f06e0675ed96202be2fff9a7&X-Amz-SignedHeaders=host&x-id=GetObject"
         }
       }
     },
@@ -421,7 +421,7 @@ const json = {
             "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
           },
           "created_time": "2022-01-28T20:26:00.000Z",
-          "last_edited_time": "2022-12-06T22:00:00.000Z",
+          "last_edited_time": "2022-12-08T08:39:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1077,7 +1077,7 @@ const json = {
         "page_id": "ef851797-7d17-4318-89a3-ae09285cfef8"
       },
       "created_time": "2022-01-28T22:42:00.000Z",
-      "last_edited_time": "2022-01-28T22:44:00.000Z",
+      "last_edited_time": "2022-12-08T10:33:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1167,7 +1167,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": " for typesetting",
+              "content": " for typesetting. Notice how this implementation lets you toggle between ASCII and rendered ",
               "link": null
             },
             "annotations": {
@@ -1178,7 +1178,41 @@ const json = {
               "code": false,
               "color": "gray"
             },
-            "plain_text": " for typesetting",
+            "plain_text": " for typesetting. Notice how this implementation lets you toggle between ASCII and rendered ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "latex",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "latex",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " by clicking on a diagram or equation.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": " by clicking on a diagram or equation.",
             "href": null
           }
         ]

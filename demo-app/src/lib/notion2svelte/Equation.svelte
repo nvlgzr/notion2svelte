@@ -31,6 +31,9 @@
 {/if}
 
 <style>
+  div, span {
+    cursor: pointer;
+  }
   div {
     padding: 2rem;
   }
