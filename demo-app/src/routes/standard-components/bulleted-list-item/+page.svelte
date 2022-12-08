@@ -35,11 +35,14 @@
 	<title>BulletedListItem</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>BulletedListItem</Title>
 
 <Header level={1}>1. Notion original</Header>
 <Image
 	url="/assets/standard-components/bulleted-list-item/a7d8a997-9add-4535-9473-4d302e14b58b.png"
+	caption=""
 />
 <Header level={1}>2. Notion API</Header>
 <Paragraph
@@ -47,7 +50,7 @@
 		pageId: 'a87a958671964be7a9fd16908da25b79',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -57,12 +60,7 @@
 <Code
 	code={`\{
   &quot;object&quot;: &quot;block&quot;,
-  &quot;id&quot;: &quot;b74983c5-eb79-44ec-a322-2201faf176e9&quot;,
-  &quot;created_time&quot;: &quot;2022-01-26T08:50:00.000Z&quot;,
-  &quot;last_edited_time&quot;: &quot;2022-01-26T08:51:00.000Z&quot;,
-  &quot;has_children&quot;: true,
-  &quot;archived&quot;: false,
-  &quot;type&quot;: &quot;bulleted_list_item&quot;,
+  …
   &quot;bulleted_list_item&quot;: \{
     &quot;text&quot;: [
       \{
@@ -158,15 +156,10 @@
 <IndentGroup>
 	<BulletedListItem>…shall we?</BulletedListItem>
 </IndentGroup>
-<Paragraph
-	blockProps={{
-		pageId: 'a87a958671964be7a9fd16908da25b79',
-		id: '832c7757-d7be-47e0-8b5d-ea4f0e690a21',
-		created_time: '2022-01-28T21:57:00.000Z',
-		last_edited_time: '2022-01-28T21:57:00.000Z'
-	}}
-/>
-<Divider />
+<Callout emoji="ℹ️"
+	>As of this writing,&ensp;<em>notion2svelte</em>&ensp;doesn’t differentiate between nested levels
+	of bullet points, which is why both of these rendered bullet styles are identical circles.</Callout
+><Divider />
 <Header level={2}
 	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
 >
@@ -206,8 +199,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link
