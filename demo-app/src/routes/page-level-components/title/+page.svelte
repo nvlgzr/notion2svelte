@@ -36,56 +36,81 @@
 </svelte:head>
 
 <Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>Title (aka Name)</Title>
 
-<Paragraph
-	blockProps={{
-		pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-		id: '5db03761-ca67-415e-bc18-b27460fb36bb',
-		created_time: '2022-01-27T22:52:00.000Z',
-		last_edited_time: '2022-01-28T23:35:00.000Z'
-	}}
->
-	That’s is the page Title ↑
-</Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-		id: '1d483a96-d4bc-4a24-991d-83599b279fec',
-		created_time: '2022-01-27T22:53:00.000Z',
-		last_edited_time: '2022-01-27T22:53:00.000Z'
-	}}
-/>
+<Header level={1}>Why “Title” instead of “Name”?</Header>
 <ColumnList cols={2}
 	><Column
 		><Paragraph
 			blockProps={{
 				pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-				id: 'ae48042e-7988-441b-a5b7-1ffd02817a04',
-				created_time: '2022-01-27T23:00:00.000Z',
-				last_edited_time: '2022-01-27T23:02:00.000Z'
+				id: '657fc3aa-b994-4b2b-b3ba-2722047de038',
+				created_time: '2022-12-08T21:10:00.000Z',
+				last_edited_time: '2022-12-08T21:11:00.000Z'
 			}}
 		>
-			There’s nothing much to know about titles, except perhaps that Notion’s default term for this
-			concept is&ensp;<em>Name</em>, as shown in this screenshot.
+			What Notion calls a page&ensp;<InlineCode code={'Name'} />,&ensp;<em>notion2svelte</em
+			>&ensp;calls&ensp;<InlineCode code={'&lt;Title&gt;'} />. Why?
 		</Paragraph>
 		<Paragraph
 			blockProps={{
 				pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-				id: '720820bd-da7c-4685-a1f6-04d472032992',
-				created_time: '2022-01-27T23:02:00.000Z',
-				last_edited_time: '2022-01-28T23:38:00.000Z'
+				id: 'bb3b7391-b4b0-465d-8853-7815ae82c4ff',
+				created_time: '2022-01-27T23:00:00.000Z',
+				last_edited_time: '2022-12-08T21:21:00.000Z'
+			}}
+		/>
+		<Paragraph
+			blockProps={{
+				pageId: '2011c59ae02b40b682f7ee828c3d51fe',
+				id: '468d8c0d-68bb-4c1a-b22b-2fd4ed8aa0fb',
+				created_time: '2022-01-27T23:00:00.000Z',
+				last_edited_time: '2022-12-08T21:21:00.000Z'
 			}}
 		>
-			Since I’m building&ensp;<em>notion2svelte&ensp;</em>in the context of publishing written
-			pieces (as opposed to tracking TODOs or any of the other myriad things that a notion Page
-			might be “naming”), I chose&ensp;<em>Title</em>&ensp;as the more contextually appropriate
-			component name.
+			Well, Notion pages tend to represent a variety of content types…pages, databases, to-dos,
+			etc., so “Name” works as a generic term.&ensp;<em>notion2svelte</em>&ensp;is more targeted
+			toward the publishing of creative writing, and&ensp;<InlineCode
+				code={'&lt;Name&gt;Your page title&lt;/Name&gt;'}
+			/>&ensp;just doesn’t feel right.
 		</Paragraph>
 	</Column><Column
-		><Image
-			url="/assets/page-level-components/title/45f4b177-1575-412a-9686-36a88bc1602b.png"
+		><Paragraph
+			blockProps={{
+				pageId: '2011c59ae02b40b682f7ee828c3d51fe',
+				id: '5f1b724d-2a6b-4384-b537-ccb7b87ffbbb',
+				created_time: '2022-12-08T21:18:00.000Z',
+				last_edited_time: '2022-12-08T21:19:00.000Z'
+			}}
+		>
+			So…
+		</Paragraph>
+		<Image
+			url="/assets/page-level-components/title/dc978147-eb34-4ad0-8b8b-75f795e735e7.png"
 			caption=""
+		/>
+		<Paragraph
+			blockProps={{
+				pageId: '2011c59ae02b40b682f7ee828c3d51fe',
+				id: '218902cb-f2d2-42b6-9aee-6cbe0ef3ff51',
+				created_time: '2022-12-08T21:11:00.000Z',
+				last_edited_time: '2022-12-08T21:18:00.000Z'
+			}}
+		>
+			…becomes…
+		</Paragraph>
+		<Image
+			url="/assets/page-level-components/title/2d566ebd-a19d-4260-92f1-db393aa585be.png"
+			caption=""
+		/>
+		<Paragraph
+			blockProps={{
+				pageId: '2011c59ae02b40b682f7ee828c3d51fe',
+				id: 'd3a5cf17-4a9e-4be7-a5a4-6300498386e2',
+				created_time: '2022-12-08T21:18:00.000Z',
+				last_edited_time: '2022-12-08T21:18:00.000Z'
+			}}
 		/>
 	</Column></ColumnList
 ><Callout emoji="💁🏼"
@@ -107,7 +132,24 @@
 			>.
 		</Paragraph>
 	</span></Callout
-><Header level={1}><strong>Notion API (as of this writing)</strong></Header>
+><Header level={1}>1. Notion original</Header>
+<Image
+	url="/assets/page-level-components/title/05ea4b27-27c0-4d3f-8d0e-9e35bbdde07f.png"
+	caption=""
+/>
+<Header level={1}>2. Notion API</Header>
+<Paragraph
+	blockProps={{
+		pageId: '2011c59ae02b40b682f7ee828c3d51fe',
+		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
+		created_time: '2022-01-28T20:26:00.000Z',
+		last_edited_time: '2022-12-08T08:39:00.000Z'
+	}}
+>
+	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
+		><em>src/routes/[slug]/notion-export.js</em></InlineColor
+	>
+</Paragraph>
 <Code
 	code={`\{
   &quot;object&quot;: &quot;page&quot;,
@@ -140,48 +182,43 @@
   }
 }`}
 	language="javascript"
-/><Header level={1}><strong>Svelte output</strong></Header>
+/><Header level={1}>3. Svelte output</Header>
+<Paragraph
+	blockProps={{
+		pageId: '2011c59ae02b40b682f7ee828c3d51fe',
+		id: '28871a46-c697-4500-b517-1c526797ab38',
+		created_time: '2022-01-28T20:32:00.000Z',
+		last_edited_time: '2022-01-28T20:32:00.000Z'
+	}}
+>
+	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
+		><em>src/routes/[slug].svelte</em></InlineColor
+	>
+</Paragraph>
 <Code
 	code={`&lt;svelte:head&gt;
-  &lt;title&gt;Title (aka Name)&lt;/title&gt;
+	&lt;title&gt;Title (aka Name)&lt;/title&gt;
 &lt;/svelte:head&gt;
 
 &lt;Title&gt;Title (aka Name)&lt;/Title&gt;`}
 	language="html"
-	>Note that&ensp;<em>notion2svelte</em>&ensp;sets both the browser tab title, as well as rendering
-	a Title component</Code
-><Paragraph
-	blockProps={{
-		pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-		id: '7bae5cd5-b698-46e5-9a9a-f32d71760429',
-		created_time: '2022-01-28T23:12:00.000Z',
-		last_edited_time: '2022-01-28T23:12:00.000Z'
-	}}
-/>
+	><em>notion2svelte</em>&ensp;renders&ensp;<InlineCode code={'&lt;svelte:head&gt;'} />&ensp;so that
+	the browser tab matches the page title</Code
+><Header level={1}>4. Example rendering</Header>
 <Paragraph
 	blockProps={{
 		pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-		id: 'da6e854f-8314-4104-a301-4622f0c24376',
-		created_time: '2022-01-28T23:12:00.000Z',
-		last_edited_time: '2022-01-31T07:55:00.000Z'
+		id: '96d976f1-b433-4aab-9fd5-2a9730267ccc',
+		created_time: '2022-12-08T21:32:00.000Z',
+		last_edited_time: '2022-12-08T21:35:00.000Z'
 	}}
 >
-	<InlineColor value="gray">For the code used to render&ensp;</InlineColor><InlineColor value="gray"
-		><em>this</em></InlineColor
-	><InlineColor value="gray">&ensp;page’s Title, see&ensp;</InlineColor><Link
+	See top of this page, rendered by&ensp;<Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Title.svelte"
-		><InlineColor value="gray">Title.svelte</InlineColor></Link
+		>Title.svelte</Link
 	>
 </Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-		id: 'd3d1a805-183c-4d3a-a583-19513c753ee1',
-		created_time: '2022-01-27T23:08:00.000Z',
-		last_edited_time: '2022-01-28T23:12:00.000Z'
-	}}
-/>
 <Divider />
 <Header level={2}
 	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header

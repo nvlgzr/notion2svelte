@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe",
   "created_time": "2022-01-27T22:52:00.000Z",
-  "last_edited_time": "2022-12-08T20:55:00.000Z",
+  "last_edited_time": "2022-12-08T21:36:00.000Z",
   "created_by": {
     "object": "user",
     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -127,13 +127,13 @@ const json = {
   "blocks": [
     {
       "object": "block",
-      "id": "5db03761-ca67-415e-bc18-b27460fb36bb",
+      "id": "f2f59203-f879-420e-840c-d9a1ac61c600",
       "parent": {
         "type": "page_id",
         "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
       },
-      "created_time": "2022-01-27T22:52:00.000Z",
-      "last_edited_time": "2022-01-28T23:35:00.000Z",
+      "created_time": "2022-12-08T21:10:00.000Z",
+      "last_edited_time": "2022-12-08T21:20:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -144,14 +144,15 @@ const json = {
       },
       "has_children": false,
       "archived": false,
-      "type": "paragraph",
-      "paragraph": {
+      "type": "heading_1",
+      "heading_1": {
+        "is_toggleable": false,
         "color": "default",
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "That’s is the page Title ↑",
+              "content": "Why “Title” instead of “Name”?",
               "link": null
             },
             "annotations": {
@@ -162,35 +163,10 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "That’s is the page Title ↑",
+            "plain_text": "Why “Title” instead of “Name”?",
             "href": null
           }
         ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "1d483a96-d4bc-4a24-991d-83599b279fec",
-      "parent": {
-        "type": "page_id",
-        "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
-      },
-      "created_time": "2022-01-27T22:53:00.000Z",
-      "last_edited_time": "2022-01-27T22:53:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": []
       }
     },
     {
@@ -201,7 +177,7 @@ const json = {
         "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
       },
       "created_time": "2022-01-27T23:02:00.000Z",
-      "last_edited_time": "2022-01-27T23:02:00.000Z",
+      "last_edited_time": "2022-12-08T21:07:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -223,7 +199,7 @@ const json = {
             "block_id": "3a215c5f-2276-45c5-9bf0-0c77bafbb8e6"
           },
           "created_time": "2022-01-27T23:02:00.000Z",
-          "last_edited_time": "2022-01-28T23:35:00.000Z",
+          "last_edited_time": "2022-12-08T21:21:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -239,13 +215,13 @@ const json = {
           "blocks": [
             {
               "object": "block",
-              "id": "ae48042e-7988-441b-a5b7-1ffd02817a04",
+              "id": "657fc3aa-b994-4b2b-b3ba-2722047de038",
               "parent": {
                 "type": "block_id",
                 "block_id": "bde31154-1d8f-4c47-b489-95fccc7f79f1"
               },
-              "created_time": "2022-01-27T23:00:00.000Z",
-              "last_edited_time": "2022-01-27T23:02:00.000Z",
+              "created_time": "2022-12-08T21:10:00.000Z",
+              "last_edited_time": "2022-12-08T21:11:00.000Z",
               "created_by": {
                 "object": "user",
                 "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -263,7 +239,7 @@ const json = {
                   {
                     "type": "text",
                     "text": {
-                      "content": "There’s nothing much to know about titles, except perhaps that Notion’s default term for this concept is ",
+                      "content": "What Notion calls a page ",
                       "link": null
                     },
                     "annotations": {
@@ -274,7 +250,7 @@ const json = {
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "There’s nothing much to know about titles, except perhaps that Notion’s default term for this concept is ",
+                    "plain_text": "What Notion calls a page ",
                     "href": null
                   },
                   {
@@ -285,10 +261,10 @@ const json = {
                     },
                     "annotations": {
                       "bold": false,
-                      "italic": true,
+                      "italic": false,
                       "strikethrough": false,
                       "underline": false,
-                      "code": false,
+                      "code": true,
                       "color": "default"
                     },
                     "plain_text": "Name",
@@ -297,7 +273,7 @@ const json = {
                   {
                     "type": "text",
                     "text": {
-                      "content": ", as shown in this screenshot.",
+                      "content": ", ",
                       "link": null
                     },
                     "annotations": {
@@ -308,7 +284,75 @@ const json = {
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": ", as shown in this screenshot.",
+                    "plain_text": ", ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "notion2svelte",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": true,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "notion2svelte",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " calls ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " calls ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "<Title>",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "<Title>",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": ". Why?",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": ". Why?",
                     "href": null
                   }
                 ]
@@ -316,13 +360,38 @@ const json = {
             },
             {
               "object": "block",
-              "id": "720820bd-da7c-4685-a1f6-04d472032992",
+              "id": "bb3b7391-b4b0-465d-8853-7815ae82c4ff",
               "parent": {
                 "type": "block_id",
                 "block_id": "bde31154-1d8f-4c47-b489-95fccc7f79f1"
               },
-              "created_time": "2022-01-27T23:02:00.000Z",
-              "last_edited_time": "2022-01-28T23:38:00.000Z",
+              "created_time": "2022-01-27T23:00:00.000Z",
+              "last_edited_time": "2022-12-08T21:21:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "color": "default",
+                "text": []
+              }
+            },
+            {
+              "object": "block",
+              "id": "468d8c0d-68bb-4c1a-b22b-2fd4ed8aa0fb",
+              "parent": {
+                "type": "block_id",
+                "block_id": "bde31154-1d8f-4c47-b489-95fccc7f79f1"
+              },
+              "created_time": "2022-01-27T23:00:00.000Z",
+              "last_edited_time": "2022-12-08T21:21:00.000Z",
               "created_by": {
                 "object": "user",
                 "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -340,7 +409,7 @@ const json = {
                   {
                     "type": "text",
                     "text": {
-                      "content": "Since I’m building ",
+                      "content": "Well, Notion pages tend to represent a variety of content types…pages, databases, to-dos, etc., so “Name” works as a generic term. ",
                       "link": null
                     },
                     "annotations": {
@@ -351,13 +420,13 @@ const json = {
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "Since I’m building ",
+                    "plain_text": "Well, Notion pages tend to represent a variety of content types…pages, databases, to-dos, etc., so “Name” works as a generic term. ",
                     "href": null
                   },
                   {
                     "type": "text",
                     "text": {
-                      "content": "notion2svelte ",
+                      "content": "notion2svelte",
                       "link": null
                     },
                     "annotations": {
@@ -368,13 +437,13 @@ const json = {
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "notion2svelte ",
+                    "plain_text": "notion2svelte",
                     "href": null
                   },
                   {
                     "type": "text",
                     "text": {
-                      "content": "in the context of publishing written pieces (as opposed to tracking TODOs or any of the other myriad things that a notion Page might be “naming”), I chose ",
+                      "content": " is more targeted toward the publishing of creative writing, and ",
                       "link": null
                     },
                     "annotations": {
@@ -385,30 +454,30 @@ const json = {
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": "in the context of publishing written pieces (as opposed to tracking TODOs or any of the other myriad things that a notion Page might be “naming”), I chose ",
+                    "plain_text": " is more targeted toward the publishing of creative writing, and ",
                     "href": null
                   },
                   {
                     "type": "text",
                     "text": {
-                      "content": "Title",
+                      "content": "<Name>Your page title</Name>",
                       "link": null
                     },
                     "annotations": {
                       "bold": false,
-                      "italic": true,
+                      "italic": false,
                       "strikethrough": false,
                       "underline": false,
-                      "code": false,
+                      "code": true,
                       "color": "default"
                     },
-                    "plain_text": "Title",
+                    "plain_text": "<Name>Your page title</Name>",
                     "href": null
                   },
                   {
                     "type": "text",
                     "text": {
-                      "content": " as the more contextually appropriate component name.",
+                      "content": " just doesn’t feel right.",
                       "link": null
                     },
                     "annotations": {
@@ -419,7 +488,7 @@ const json = {
                       "code": false,
                       "color": "default"
                     },
-                    "plain_text": " as the more contextually appropriate component name.",
+                    "plain_text": " just doesn’t feel right.",
                     "href": null
                   }
                 ]
@@ -435,7 +504,7 @@ const json = {
             "block_id": "3a215c5f-2276-45c5-9bf0-0c77bafbb8e6"
           },
           "created_time": "2022-01-27T23:02:00.000Z",
-          "last_edited_time": "2022-01-28T23:35:00.000Z",
+          "last_edited_time": "2022-12-08T21:20:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -451,13 +520,56 @@ const json = {
           "blocks": [
             {
               "object": "block",
-              "id": "45f4b177-1575-412a-9686-36a88bc1602b",
+              "id": "5f1b724d-2a6b-4384-b537-ccb7b87ffbbb",
               "parent": {
                 "type": "block_id",
                 "block_id": "87cdda52-68cb-453b-b2b7-58f7a907ec58"
               },
-              "created_time": "2022-01-27T23:00:00.000Z",
-              "last_edited_time": "2022-01-28T23:38:00.000Z",
+              "created_time": "2022-12-08T21:18:00.000Z",
+              "last_edited_time": "2022-12-08T21:19:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "color": "default",
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "So…",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "So…",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "dc978147-eb34-4ad0-8b8b-75f795e735e7",
+              "parent": {
+                "type": "block_id",
+                "block_id": "87cdda52-68cb-453b-b2b7-58f7a907ec58"
+              },
+              "created_time": "2022-12-08T21:07:00.000Z",
+              "last_edited_time": "2022-12-08T21:07:00.000Z",
               "created_by": {
                 "object": "user",
                 "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -473,8 +585,104 @@ const json = {
                 "caption": [],
                 "type": "file",
                 "file": {
-                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/55f3dcb3-9ac4-45c7-8a8c-dc5db5fdd281/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T205604Z&X-Amz-Expires=3600&X-Amz-Signature=94a3797fbcaca62b75e9d0e84db7c67f0158344a8e323f423d58c32c6cf1e964&X-Amz-SignedHeaders=host&x-id=GetObject"
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cb764ab2-f96f-48ca-87fc-f0e297a2bf3b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T213613Z&X-Amz-Expires=3600&X-Amz-Signature=35300f15ea21aa3e25a3d47e593bfc32fe115703e4d83e77c8f2246c9e4a7aa9&X-Amz-SignedHeaders=host&x-id=GetObject"
                 }
+              }
+            },
+            {
+              "object": "block",
+              "id": "218902cb-f2d2-42b6-9aee-6cbe0ef3ff51",
+              "parent": {
+                "type": "block_id",
+                "block_id": "87cdda52-68cb-453b-b2b7-58f7a907ec58"
+              },
+              "created_time": "2022-12-08T21:11:00.000Z",
+              "last_edited_time": "2022-12-08T21:18:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "color": "default",
+                "text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "…becomes…",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "…becomes…",
+                    "href": null
+                  }
+                ]
+              }
+            },
+            {
+              "object": "block",
+              "id": "2d566ebd-a19d-4260-92f1-db393aa585be",
+              "parent": {
+                "type": "block_id",
+                "block_id": "87cdda52-68cb-453b-b2b7-58f7a907ec58"
+              },
+              "created_time": "2022-12-08T21:20:00.000Z",
+              "last_edited_time": "2022-12-08T21:20:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "image",
+              "image": {
+                "caption": [],
+                "type": "file",
+                "file": {
+                  "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7a136ec8-081b-42f1-bf74-223ba77b0bf1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T213613Z&X-Amz-Expires=3600&X-Amz-Signature=f66c12d67901c30af667e1cacb8bb731fa281ee627367a773e50669add4c2f6e&X-Amz-SignedHeaders=host&x-id=GetObject"
+                }
+              }
+            },
+            {
+              "object": "block",
+              "id": "d3a5cf17-4a9e-4be7-a5a4-6300498386e2",
+              "parent": {
+                "type": "block_id",
+                "block_id": "87cdda52-68cb-453b-b2b7-58f7a907ec58"
+              },
+              "created_time": "2022-12-08T21:18:00.000Z",
+              "last_edited_time": "2022-12-08T21:18:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+              },
+              "has_children": false,
+              "archived": false,
+              "type": "paragraph",
+              "paragraph": {
+                "color": "default",
+                "text": []
               }
             }
           ]
@@ -489,7 +697,7 @@ const json = {
         "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
       },
       "created_time": "2022-01-27T22:53:00.000Z",
-      "last_edited_time": "2022-01-28T23:35:00.000Z",
+      "last_edited_time": "2022-12-08T21:24:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -647,13 +855,86 @@ const json = {
     },
     {
       "object": "block",
-      "id": "b76cc874-76e2-464b-8b24-f24b615cba69",
+      "id": "5e4af01d-f490-4c0d-a194-5a4f8aaafbe8",
       "parent": {
         "type": "page_id",
         "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
       },
-      "created_time": "2022-01-27T22:52:00.000Z",
-      "last_edited_time": "2022-01-27T22:58:00.000Z",
+      "created_time": "2022-12-08T21:25:00.000Z",
+      "last_edited_time": "2022-12-08T21:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "69ec6660-b477-4f8d-8792-5dd924833e8d"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "3e35fbf0-56a5-4f0a-92f5-c30d4f9a7cfc",
+          "parent": {
+            "type": "block_id",
+            "block_id": "69ec6660-b477-4f8d-8792-5dd924833e8d"
+          },
+          "created_time": "2022-01-28T20:25:00.000Z",
+          "last_edited_time": "2022-12-08T21:25:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "is_toggleable": false,
+            "color": "default",
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "1. Notion original",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "1. Notion original",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "05ea4b27-27c0-4d3f-8d0e-9e35bbdde07f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
+      },
+      "created_time": "2022-12-08T21:24:00.000Z",
+      "last_edited_time": "2022-12-08T21:25:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -664,30 +945,147 @@ const json = {
       },
       "has_children": false,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "is_toggleable": false,
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Notion API (as of this writing)",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Notion API (as of this writing)",
-            "href": null
-          }
-        ]
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8b0abab6-1ec0-423f-8285-94c930673bbe/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T213612Z&X-Amz-Expires=3600&X-Amz-Signature=18a075963c87298097e290493848f3f1d8229e28e93fcf84862ac4b873bbcaf6&X-Amz-SignedHeaders=host&x-id=GetObject"
+        }
       }
+    },
+    {
+      "object": "block",
+      "id": "02a6817e-510f-418b-882a-9fd30aedbb48",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
+      },
+      "created_time": "2022-12-08T21:25:00.000Z",
+      "last_edited_time": "2022-12-08T21:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": true,
+      "archived": false,
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "01eec727-5535-4576-9493-d16c577aa7b7",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
+          },
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-12-06T21:58:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "is_toggleable": false,
+            "color": "default",
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "2. Notion API",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "2. Notion API",
+                "href": null
+              }
+            ]
+          }
+        },
+        {
+          "object": "block",
+          "id": "0538fec5-3bc6-4c24-815d-78b5ce846819",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
+          },
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-12-08T08:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "color": "default",
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Partial output of ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "Partial output of ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "src/routes/[slug]/notion-export.js",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "src/routes/[slug]/notion-export.js",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "object": "block",
@@ -697,7 +1095,7 @@ const json = {
         "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
       },
       "created_time": "2022-01-27T22:52:00.000Z",
-      "last_edited_time": "2022-01-27T23:07:00.000Z",
+      "last_edited_time": "2022-12-08T21:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -735,13 +1133,13 @@ const json = {
     },
     {
       "object": "block",
-      "id": "21d336cd-4fb4-489f-b332-4712131ab8c5",
+      "id": "70374bd1-5c25-472d-90ea-70843cf1f7ff",
       "parent": {
         "type": "page_id",
         "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
       },
-      "created_time": "2022-01-27T22:52:00.000Z",
-      "last_edited_time": "2022-01-27T22:58:00.000Z",
+      "created_time": "2022-12-08T21:25:00.000Z",
+      "last_edited_time": "2022-12-08T21:25:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -750,42 +1148,131 @@ const json = {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
       },
-      "has_children": false,
+      "has_children": true,
       "archived": false,
-      "type": "heading_1",
-      "heading_1": {
-        "is_toggleable": false,
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Svelte output",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Svelte output",
-            "href": null
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "46eaa6aa-2b30-4f72-915c-04d3e638fe8d"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "55e06cc7-b682-4d4c-8af3-b503b1d72bd1",
+          "parent": {
+            "type": "block_id",
+            "block_id": "46eaa6aa-2b30-4f72-915c-04d3e638fe8d"
+          },
+          "created_time": "2022-01-28T20:26:00.000Z",
+          "last_edited_time": "2022-01-28T20:26:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "is_toggleable": false,
+            "color": "default",
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "3. Svelte output",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "3. Svelte output",
+                "href": null
+              }
+            ]
           }
-        ]
-      }
+        },
+        {
+          "object": "block",
+          "id": "28871a46-c697-4500-b517-1c526797ab38",
+          "parent": {
+            "type": "block_id",
+            "block_id": "46eaa6aa-2b30-4f72-915c-04d3e638fe8d"
+          },
+          "created_time": "2022-01-28T20:32:00.000Z",
+          "last_edited_time": "2022-01-28T20:32:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "has_children": false,
+          "archived": false,
+          "type": "paragraph",
+          "paragraph": {
+            "color": "default",
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Partial output of ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "Partial output of ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "src/routes/[slug].svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "src/routes/[slug].svelte",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "object": "block",
-      "id": "96b00ca5-f53b-49b7-8a86-ab5fbf2a0d04",
+      "id": "f9e5cb03-32e5-4582-b299-54d8a41cd72b",
       "parent": {
         "type": "page_id",
         "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
       },
-      "created_time": "2022-01-27T22:52:00.000Z",
-      "last_edited_time": "2022-01-27T23:08:00.000Z",
+      "created_time": "2022-12-08T21:25:00.000Z",
+      "last_edited_time": "2022-12-08T21:35:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -799,23 +1286,6 @@ const json = {
       "type": "code",
       "code": {
         "caption": [
-          {
-            "type": "text",
-            "text": {
-              "content": "Note that ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Note that ",
-            "href": null
-          },
           {
             "type": "text",
             "text": {
@@ -836,7 +1306,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": " sets both the browser tab title, as well as rendering a Title component",
+              "content": " renders ",
               "link": null
             },
             "annotations": {
@@ -847,7 +1317,41 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": " sets both the browser tab title, as well as rendering a Title component",
+            "plain_text": " renders ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "<svelte:head>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "<svelte:head>",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " so that the browser tab matches the page title",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " so that the browser tab matches the page title",
             "href": null
           }
         ],
@@ -856,7 +1360,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "<svelte:head>\n  <title>Title (aka Name)</title>\n</svelte:head>\n\n<Title>Title (aka Name)</Title>",
+              "content": "<svelte:head>\n\t<title>Title (aka Name)</title>\n</svelte:head>\n\n<Title>Title (aka Name)</Title>",
               "link": null
             },
             "annotations": {
@@ -867,7 +1371,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "<svelte:head>\n  <title>Title (aka Name)</title>\n</svelte:head>\n\n<Title>Title (aka Name)</Title>",
+            "plain_text": "<svelte:head>\n\t<title>Title (aka Name)</title>\n</svelte:head>\n\n<Title>Title (aka Name)</Title>",
             "href": null
           }
         ]
@@ -875,13 +1379,13 @@ const json = {
     },
     {
       "object": "block",
-      "id": "7bae5cd5-b698-46e5-9a9a-f32d71760429",
+      "id": "7858e925-b589-46e1-9621-b33469bd96f1",
       "parent": {
         "type": "page_id",
         "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
       },
-      "created_time": "2022-01-28T23:12:00.000Z",
-      "last_edited_time": "2022-01-28T23:12:00.000Z",
+      "created_time": "2022-12-08T21:25:00.000Z",
+      "last_edited_time": "2022-12-08T21:25:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -890,23 +1394,71 @@ const json = {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
       },
-      "has_children": false,
+      "has_children": true,
       "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": []
-      }
+      "type": "synced_block",
+      "synced_block": {
+        "synced_from": {
+          "type": "block_id",
+          "block_id": "39f58dcd-edff-4eac-ac21-4c54bc1b2e7c"
+        }
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "553986e4-cefc-4232-b36d-8320bd2f2855",
+          "parent": {
+            "type": "block_id",
+            "block_id": "39f58dcd-edff-4eac-ac21-4c54bc1b2e7c"
+          },
+          "created_time": "2022-01-28T20:29:00.000Z",
+          "last_edited_time": "2022-12-08T21:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+          },
+          "has_children": false,
+          "archived": false,
+          "type": "heading_1",
+          "heading_1": {
+            "is_toggleable": false,
+            "color": "default",
+            "text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "4. Example rendering",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "4. Example rendering",
+                "href": null
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "object": "block",
-      "id": "da6e854f-8314-4104-a301-4622f0c24376",
+      "id": "96d976f1-b433-4aab-9fd5-2a9730267ccc",
       "parent": {
         "type": "page_id",
         "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
       },
-      "created_time": "2022-01-28T23:12:00.000Z",
-      "last_edited_time": "2022-01-31T07:55:00.000Z",
+      "created_time": "2022-12-08T21:32:00.000Z",
+      "last_edited_time": "2022-12-08T21:35:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -924,7 +1476,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "For the code used to render ",
+              "content": "See top of this page, rendered by ",
               "link": null
             },
             "annotations": {
@@ -933,43 +1485,9 @@ const json = {
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "gray"
+              "color": "default"
             },
-            "plain_text": "For the code used to render ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "this",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "gray"
-            },
-            "plain_text": "this",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " page’s Title, see ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "gray"
-            },
-            "plain_text": " page’s Title, see ",
+            "plain_text": "See top of this page, rendered by ",
             "href": null
           },
           {
@@ -986,37 +1504,12 @@ const json = {
               "strikethrough": false,
               "underline": false,
               "code": false,
-              "color": "gray"
+              "color": "default"
             },
             "plain_text": "Title.svelte",
             "href": "https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Title.svelte"
           }
         ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "d3d1a805-183c-4d3a-a583-19513c753ee1",
-      "parent": {
-        "type": "page_id",
-        "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
-      },
-      "created_time": "2022-01-27T23:08:00.000Z",
-      "last_edited_time": "2022-01-28T23:12:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": []
       }
     },
     {
@@ -1027,7 +1520,7 @@ const json = {
         "page_id": "2011c59a-e02b-40b6-82f7-ee828c3d51fe"
       },
       "created_time": "2022-01-27T23:08:00.000Z",
-      "last_edited_time": "2022-01-27T23:08:00.000Z",
+      "last_edited_time": "2022-12-08T21:35:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1076,7 +1569,7 @@ const json = {
             "block_id": "2f7f4bed-9692-4017-a0b3-c390cc40422a"
           },
           "created_time": "2022-01-24T06:42:00.000Z",
-          "last_edited_time": "2022-12-08T05:08:00.000Z",
+          "last_edited_time": "2022-12-08T21:35:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
