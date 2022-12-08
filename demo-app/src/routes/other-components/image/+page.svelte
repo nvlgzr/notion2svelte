@@ -76,22 +76,14 @@
 	best-practices, or, perhaps, some sort of extensible API.
 </Paragraph>
 <Header level={1}>1. Notion original</Header>
-<Paragraph
-	blockProps={{
-		pageId: 'e47378442dd540b287a96ce548dd9cf2',
-		id: 'd6364d4c-c70f-4b5b-a691-017fc50f3837',
-		created_time: '2022-01-31T20:37:00.000Z',
-		last_edited_time: '2022-01-31T20:37:00.000Z'
-	}}
-/>
-<Image url="/assets/other-components/image/e10e5954-577c-4705-a961-528e351955aa.png" />
+<Image url="/assets/other-components/image/c8f08868-31f2-4707-a987-5b0f2e660e8f.png" caption="" />
 <Header level={1}>2. Notion API</Header>
 <Paragraph
 	blockProps={{
 		pageId: 'e47378442dd540b287a96ce548dd9cf2',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -148,8 +140,9 @@
 		>Image.svelte</Link
 	>
 </Paragraph>
-<Image url="/assets/other-components/image/64680bf8-12ce-46f7-adfb-2c9822d2346b.jpg"
-	>cyborg tita</Image
+<Image
+	url="/assets/other-components/image/49e27561-bc60-4051-8279-743be252fd51.jpg"
+	caption="Found Art">Found Art</Image
 >
 <Paragraph
 	blockProps={{
