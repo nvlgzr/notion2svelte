@@ -35,48 +35,21 @@
 	<title>Synced Blocks</title>
 </svelte:head>
 
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
+
 <Title>Synced Blocks</Title>
 
 <Paragraph
 	blockProps={{
 		pageId: 'b266b66cecc74e218f494f80f5c820cc',
-		id: '01f3b7de-9853-4455-8784-1eda7287705e',
-		created_time: '2022-01-26T09:05:00.000Z',
-		last_edited_time: '2022-01-26T09:08:00.000Z'
-	}}
->
-	In my experience thus far, synced blocks are something of a mess. Sometimes the API delivers full
-	data on a synced block…and sometimes synced blocks seem to get corrupted, existing in a strange,
-	nigh-unselectable form on a page, detectable primarily because these show up as essentially empty
-	blocks with a “synced_block” type and maybe an ID.
-</Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: 'b266b66cecc74e218f494f80f5c820cc',
-		id: '4a81cc60-f063-414b-be28-307d8cf9335a',
-		created_time: '2022-01-26T09:08:00.000Z',
-		last_edited_time: '2022-01-26T22:18:00.000Z'
-	}}
->
-	In such cases, I find myself having to go into Notion to add a pair of temporary blocks with dummy
-	content which I move around, trying to surround the invisible broken blocks. Once I can see
-	(via&ensp;<em>notion2svelte’s</em>&ensp;output) that my temp blocks have bookended the broken
-	ones, I can select everything between the two temp blocks, inclusive, and delete. Then rerun&ensp;<em
-		>notion2svelte</em
-	>.
-</Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: 'b266b66cecc74e218f494f80f5c820cc',
 		id: '53f19461-f718-4e40-9066-65060b41e408',
 		created_time: '2022-01-26T22:18:00.000Z',
-		last_edited_time: '2022-01-27T07:21:00.000Z'
+		last_edited_time: '2022-12-08T23:00:00.000Z'
 	}}
 >
-	Despite this hassle, I’m using synced blocks, for now,* to consistently generate the end material
-	on every page, which serves as both navigation and, thanks to CSS’s&ensp;<InlineCode
-		code={':visited'}
-	/>, as a map of the docs you’ve read…or at least glanced at.
+	I’m using synced blocks, for now,* to consistently generate the end material on every page, which
+	serves as both navigation and, thanks to CSS’s&ensp;<InlineCode code={':visited'} />, as a map of
+	the docs you’ve read…or at least glanced at.
 </Paragraph>
 <IndentGroup>
 	<Paragraph
@@ -100,26 +73,32 @@
 			pageId: 'b266b66cecc74e218f494f80f5c820cc',
 			id: 'f0e50cbe-e5b7-48d2-9c4c-7a0d2aee0edb',
 			created_time: '2022-01-26T22:26:00.000Z',
-			last_edited_time: '2022-01-26T22:26:00.000Z'
+			last_edited_time: '2022-12-08T23:01:00.000Z'
 		}}
 	>
 		<InlineColor value="gray"
-			>Some of your navigation might simply be hand-coded. There’s probably room to incorporate some
-			sort of Notion-driven nav in&ensp;</InlineColor
+			>Some of your navigation might simply be hand-coded in your&ensp;</InlineColor
+		><InlineColor value="gray"><em>+layout.svelte</em></InlineColor><InlineColor value="gray"
+			>. There’s probably room to incorporate some sort of Notion-driven&ensp;</InlineColor
+		><InlineColor value="gray"><InlineCode code={'Nav'} /></InlineColor><InlineColor value="gray"
+			>&ensp;in&ensp;</InlineColor
 		><InlineColor value="gray"><em>notion2svelte,&ensp;</em></InlineColor><InlineColor value="gray"
 			>but for now, that’s out of scope.</InlineColor
 		>
 	</Paragraph>
 </IndentGroup>
 <Header level={1}>1. Notion original</Header>
-<Image url="/assets/high-level-discussion/synced-blocks/70ee826f-ca3c-4842-a7e1-bc3723d04390.png" />
+<Image
+	url="/assets/high-level-discussion/synced-blocks/70ee826f-ca3c-4842-a7e1-bc3723d04390.png"
+	caption=""
+/>
 <Header level={1}>2. Notion API</Header>
 <Paragraph
 	blockProps={{
 		pageId: 'b266b66cecc74e218f494f80f5c820cc',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -129,11 +108,7 @@
 <Code
 	code={`\{
       &quot;object&quot;: &quot;block&quot;,
-      &quot;id&quot;: &quot;86c3e92c-c510-4fe0-866b-be3b74049989&quot;,
-      &quot;created_time&quot;: &quot;2022-01-26T22:27:00.000Z&quot;,
-      &quot;last_edited_time&quot;: &quot;2022-01-26T22:40:00.000Z&quot;,
-      &quot;has_children&quot;: true,
-      &quot;archived&quot;: false,
+      …
       &quot;type&quot;: &quot;synced_block&quot;,
       &quot;synced_block&quot;: \{
         &quot;synced_from&quot;: null
@@ -202,12 +177,11 @@
 		pageId: 'b266b66cecc74e218f494f80f5c820cc',
 		id: '1f965316-ac10-4b81-82e1-9bb1b6658357',
 		created_time: '2022-01-27T07:27:00.000Z',
-		last_edited_time: '2022-01-28T20:40:00.000Z'
+		last_edited_time: '2022-12-08T23:03:00.000Z'
 	}}
 >
-	At present,&ensp;<em>notion2svelte</em>&ensp;responds to Synced Blocks by simply stripping them
-	away. I wasn’t able to think of a more interesting use for them, given that they are primarily an
-	input tool.
+	At present,&ensp;<em>notion2svelte</em>&ensp;responds to Synced Blocks by simply rendering the
+	enclosed content, stripping away the enclosing&ensp;<InlineCode code={'synced_block'} />&ensp;type
 </Paragraph>
 <Header level={1}>4. Example rendering</Header>
 <Header level={3}>The Original</Header>
@@ -280,8 +254,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link

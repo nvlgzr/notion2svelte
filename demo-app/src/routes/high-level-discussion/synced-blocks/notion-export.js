@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "b266b66c-ecc7-4e21-8f49-4f80f5c820cc",
   "created_time": "2022-01-26T09:05:00.000Z",
-  "last_edited_time": "2022-12-08T05:13:00.000Z",
+  "last_edited_time": "2022-12-08T23:03:00.000Z",
   "created_by": {
     "object": "user",
     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -127,167 +127,13 @@ const json = {
   "blocks": [
     {
       "object": "block",
-      "id": "01f3b7de-9853-4455-8784-1eda7287705e",
-      "parent": {
-        "type": "page_id",
-        "page_id": "b266b66c-ecc7-4e21-8f49-4f80f5c820cc"
-      },
-      "created_time": "2022-01-26T09:05:00.000Z",
-      "last_edited_time": "2022-01-26T09:08:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "In my experience thus far, synced blocks are something of a mess. Sometimes the API delivers full data on a synced block…and sometimes synced blocks seem to get corrupted, existing in a strange, nigh-unselectable form on a page, detectable primarily because these show up as essentially empty blocks with a “synced_block” type and maybe an ID.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "In my experience thus far, synced blocks are something of a mess. Sometimes the API delivers full data on a synced block…and sometimes synced blocks seem to get corrupted, existing in a strange, nigh-unselectable form on a page, detectable primarily because these show up as essentially empty blocks with a “synced_block” type and maybe an ID.",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "4a81cc60-f063-414b-be28-307d8cf9335a",
-      "parent": {
-        "type": "page_id",
-        "page_id": "b266b66c-ecc7-4e21-8f49-4f80f5c820cc"
-      },
-      "created_time": "2022-01-26T09:08:00.000Z",
-      "last_edited_time": "2022-01-26T22:18:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "In such cases, I find myself having to go into Notion to add a pair of temporary blocks with dummy content which I move around, trying to surround the invisible broken blocks. Once I can see (via ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "In such cases, I find myself having to go into Notion to add a pair of temporary blocks with dummy content which I move around, trying to surround the invisible broken blocks. Once I can see (via ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte’s",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte’s",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " output) that my temp blocks have bookended the broken ones, I can select everything between the two temp blocks, inclusive, and delete. Then rerun ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " output) that my temp blocks have bookended the broken ones, I can select everything between the two temp blocks, inclusive, and delete. Then rerun ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ".",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ".",
-            "href": null
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
       "id": "53f19461-f718-4e40-9066-65060b41e408",
       "parent": {
         "type": "page_id",
         "page_id": "b266b66c-ecc7-4e21-8f49-4f80f5c820cc"
       },
       "created_time": "2022-01-26T22:18:00.000Z",
-      "last_edited_time": "2022-01-27T07:21:00.000Z",
+      "last_edited_time": "2022-12-08T23:00:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -305,7 +151,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "Despite this hassle, I’m using synced blocks, for now,* to consistently generate the end material on every page, which serves as both navigation and, thanks to CSS’s ",
+              "content": "I’m using synced blocks, for now,* to consistently generate the end material on every page, which serves as both navigation and, thanks to CSS’s ",
               "link": null
             },
             "annotations": {
@@ -316,7 +162,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "Despite this hassle, I’m using synced blocks, for now,* to consistently generate the end material on every page, which serves as both navigation and, thanks to CSS’s ",
+            "plain_text": "I’m using synced blocks, for now,* to consistently generate the end material on every page, which serves as both navigation and, thanks to CSS’s ",
             "href": null
           },
           {
@@ -475,7 +321,7 @@ const json = {
             "block_id": "53f19461-f718-4e40-9066-65060b41e408"
           },
           "created_time": "2022-01-26T22:26:00.000Z",
-          "last_edited_time": "2022-01-26T22:26:00.000Z",
+          "last_edited_time": "2022-12-08T23:01:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -493,7 +339,7 @@ const json = {
               {
                 "type": "text",
                 "text": {
-                  "content": "Some of your navigation might simply be hand-coded. There’s probably room to incorporate some sort of Notion-driven nav in ",
+                  "content": "Some of your navigation might simply be hand-coded in your ",
                   "link": null
                 },
                 "annotations": {
@@ -504,7 +350,75 @@ const json = {
                   "code": false,
                   "color": "gray"
                 },
-                "plain_text": "Some of your navigation might simply be hand-coded. There’s probably room to incorporate some sort of Notion-driven nav in ",
+                "plain_text": "Some of your navigation might simply be hand-coded in your ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "+layout.svelte",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": "+layout.svelte",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ". There’s probably room to incorporate some sort of Notion-driven ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": ". There’s probably room to incorporate some sort of Notion-driven ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "Nav",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "gray"
+                },
+                "plain_text": "Nav",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " in ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "gray"
+                },
+                "plain_text": " in ",
                 "href": null
               },
               {
@@ -581,7 +495,7 @@ const json = {
             "block_id": "69ec6660-b477-4f8d-8792-5dd924833e8d"
           },
           "created_time": "2022-01-28T20:25:00.000Z",
-          "last_edited_time": "2022-12-08T04:49:00.000Z",
+          "last_edited_time": "2022-12-08T21:25:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -643,7 +557,7 @@ const json = {
         "caption": [],
         "type": "file",
         "file": {
-          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1e646586-646c-49df-a90a-49c085e84bbf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T082600Z&X-Amz-Expires=3600&X-Amz-Signature=78811ec74757bbb84679bab7ef29ff99558450d5b2284c28ca695c19f80b33ac&X-Amz-SignedHeaders=host&x-id=GetObject"
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1e646586-646c-49df-a90a-49c085e84bbf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T230350Z&X-Amz-Expires=3600&X-Amz-Signature=2211f65701b69b620482a4985d8fd7e9c555265ebefc977468eceba9d29ced59&X-Amz-SignedHeaders=host&x-id=GetObject"
         }
       }
     },
@@ -726,7 +640,7 @@ const json = {
             "block_id": "2a06548c-dc0a-4d48-8345-0654d11c8c67"
           },
           "created_time": "2022-01-28T20:26:00.000Z",
-          "last_edited_time": "2022-12-06T22:00:00.000Z",
+          "last_edited_time": "2022-12-08T08:39:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -788,7 +702,7 @@ const json = {
         "page_id": "b266b66c-ecc7-4e21-8f49-4f80f5c820cc"
       },
       "created_time": "2022-01-26T09:05:00.000Z",
-      "last_edited_time": "2022-01-28T20:40:00.000Z",
+      "last_edited_time": "2022-12-08T23:01:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -807,7 +721,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "{\n      \"object\": \"block\",\n      \"id\": \"86c3e92c-c510-4fe0-866b-be3b74049989\",\n      \"created_time\": \"2022-01-26T22:27:00.000Z\",\n      \"last_edited_time\": \"2022-01-26T22:40:00.000Z\",\n      \"has_children\": true,\n      \"archived\": false,\n      \"type\": \"synced_block\",\n      \"synced_block\": {\n        \"synced_from\": null\n      },\n      \"blocks\": [\n        {\n          \"object\": \"block\",\n          \"id\": \"c9fa3a33-f652-4e81-bd97-6b9af4436111\",\n          \"created_time\": \"2022-01-26T22:27:00.000Z\",\n          \"last_edited_time\": \"2022-01-26T22:40:00.000Z\",\n          \"has_children\": false,\n          \"archived\": false,\n          \"type\": \"paragraph\",\n          \"paragraph\": {\n            \"text\": [\n              {\n                \"type\": \"text\",\n                \"text\": {\n                  \"content\": \"I’m syncable!\",\n                  \"link\": null\n                },\n                \"annotations\": {\n                  \"bold\": false,\n                  \"italic\": false,\n                  \"strikethrough\": false,\n                  \"underline\": false,\n                  \"code\": false,\n                  \"color\": \"default\"\n                },\n                \"plain_text\": \"I’m syncable!\",\n                \"href\": null\n              }\n            ]\n          }\n        }\n      ]\n    }",
+              "content": "{\n      \"object\": \"block\",\n      …\n      \"type\": \"synced_block\",\n      \"synced_block\": {\n        \"synced_from\": null\n      },\n      \"blocks\": [\n        {\n          \"object\": \"block\",\n          \"id\": \"c9fa3a33-f652-4e81-bd97-6b9af4436111\",\n          \"created_time\": \"2022-01-26T22:27:00.000Z\",\n          \"last_edited_time\": \"2022-01-26T22:40:00.000Z\",\n          \"has_children\": false,\n          \"archived\": false,\n          \"type\": \"paragraph\",\n          \"paragraph\": {\n            \"text\": [\n              {\n                \"type\": \"text\",\n                \"text\": {\n                  \"content\": \"I’m syncable!\",\n                  \"link\": null\n                },\n                \"annotations\": {\n                  \"bold\": false,\n                  \"italic\": false,\n                  \"strikethrough\": false,\n                  \"underline\": false,\n                  \"code\": false,\n                  \"color\": \"default\"\n                },\n                \"plain_text\": \"I’m syncable!\",\n                \"href\": null\n              }\n            ]\n          }\n        }\n      ]\n    }",
               "link": null
             },
             "annotations": {
@@ -818,7 +732,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "{\n      \"object\": \"block\",\n      \"id\": \"86c3e92c-c510-4fe0-866b-be3b74049989\",\n      \"created_time\": \"2022-01-26T22:27:00.000Z\",\n      \"last_edited_time\": \"2022-01-26T22:40:00.000Z\",\n      \"has_children\": true,\n      \"archived\": false,\n      \"type\": \"synced_block\",\n      \"synced_block\": {\n        \"synced_from\": null\n      },\n      \"blocks\": [\n        {\n          \"object\": \"block\",\n          \"id\": \"c9fa3a33-f652-4e81-bd97-6b9af4436111\",\n          \"created_time\": \"2022-01-26T22:27:00.000Z\",\n          \"last_edited_time\": \"2022-01-26T22:40:00.000Z\",\n          \"has_children\": false,\n          \"archived\": false,\n          \"type\": \"paragraph\",\n          \"paragraph\": {\n            \"text\": [\n              {\n                \"type\": \"text\",\n                \"text\": {\n                  \"content\": \"I’m syncable!\",\n                  \"link\": null\n                },\n                \"annotations\": {\n                  \"bold\": false,\n                  \"italic\": false,\n                  \"strikethrough\": false,\n                  \"underline\": false,\n                  \"code\": false,\n                  \"color\": \"default\"\n                },\n                \"plain_text\": \"I’m syncable!\",\n                \"href\": null\n              }\n            ]\n          }\n        }\n      ]\n    }",
+            "plain_text": "{\n      \"object\": \"block\",\n      …\n      \"type\": \"synced_block\",\n      \"synced_block\": {\n        \"synced_from\": null\n      },\n      \"blocks\": [\n        {\n          \"object\": \"block\",\n          \"id\": \"c9fa3a33-f652-4e81-bd97-6b9af4436111\",\n          \"created_time\": \"2022-01-26T22:27:00.000Z\",\n          \"last_edited_time\": \"2022-01-26T22:40:00.000Z\",\n          \"has_children\": false,\n          \"archived\": false,\n          \"type\": \"paragraph\",\n          \"paragraph\": {\n            \"text\": [\n              {\n                \"type\": \"text\",\n                \"text\": {\n                  \"content\": \"I’m syncable!\",\n                  \"link\": null\n                },\n                \"annotations\": {\n                  \"bold\": false,\n                  \"italic\": false,\n                  \"strikethrough\": false,\n                  \"underline\": false,\n                  \"code\": false,\n                  \"color\": \"default\"\n                },\n                \"plain_text\": \"I’m syncable!\",\n                \"href\": null\n              }\n            ]\n          }\n        }\n      ]\n    }",
             "href": null
           }
         ]
@@ -1009,7 +923,7 @@ const json = {
         "page_id": "b266b66c-ecc7-4e21-8f49-4f80f5c820cc"
       },
       "created_time": "2022-01-27T07:27:00.000Z",
-      "last_edited_time": "2022-01-28T20:40:00.000Z",
+      "last_edited_time": "2022-12-08T23:03:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1061,7 +975,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": " responds to Synced Blocks by simply stripping them away. I wasn’t able to think of a more interesting use for them, given that they are primarily an input tool.",
+              "content": " responds to Synced Blocks by simply rendering the enclosed content, stripping away the enclosing ",
               "link": null
             },
             "annotations": {
@@ -1072,7 +986,41 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": " responds to Synced Blocks by simply stripping them away. I wasn’t able to think of a more interesting use for them, given that they are primarily an input tool.",
+            "plain_text": " responds to Synced Blocks by simply rendering the enclosed content, stripping away the enclosing ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "synced_block",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "synced_block",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " type",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " type",
             "href": null
           }
         ]
@@ -1107,13 +1055,13 @@ const json = {
       "blocks": [
         {
           "object": "block",
-          "id": "14abb64d-4aad-4586-a941-62fdc219a70e",
+          "id": "553986e4-cefc-4232-b36d-8320bd2f2855",
           "parent": {
             "type": "block_id",
             "block_id": "39f58dcd-edff-4eac-ac21-4c54bc1b2e7c"
           },
           "created_time": "2022-01-28T20:29:00.000Z",
-          "last_edited_time": "2022-01-28T21:00:00.000Z",
+          "last_edited_time": "2022-12-08T21:33:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -1462,7 +1410,7 @@ const json = {
             "block_id": "2f7f4bed-9692-4017-a0b3-c390cc40422a"
           },
           "created_time": "2022-01-24T06:42:00.000Z",
-          "last_edited_time": "2022-12-08T05:08:00.000Z",
+          "last_edited_time": "2022-12-08T21:35:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -2111,7 +2059,7 @@ const json = {
                           "code": false,
                           "color": "default"
                         },
-                        "plain_text": "Header (3 types in 1!)",
+                        "plain_text": "Header",
                         "href": "https://www.notion.so/970f68f89f1a4140b76a7ba91a3209cb"
                       }
                     ]
