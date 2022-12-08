@@ -27,25 +27,33 @@
 
 	setContext('pageStuff', {
 		pageId: '970f68f89f1a4140b76a7ba91a3209cb',
-		title: 'Header (3 types in 1!)'
+		title: 'Header'
 	});
 </script>
 
 <svelte:head>
-	<title>Header (3 types in 1!)</title>
+	<title>Header</title>
 </svelte:head>
 
-<Title>Header (3 types in 1!)</Title>
+<Cover coverURL={''} iconEmojiOrURL={'undefined'} />
 
-<Header level={1}>1. Notion original</Header>
-<Image url="/assets/standard-components/header/844a780b-92b5-4442-97e3-4339360c46b7.png" />
+<Title>Header</Title>
+
+<Callout emoji="💡"
+	>Note: A single&ensp;<InlineCode code={'&lt;Header&gt;'} />&ensp;component is tasked with
+	rendering all 3 levels of Notion&ensp;<em>headings.</em></Callout
+><Header level={1}>1. Notion original</Header>
+<Image
+	url="/assets/standard-components/header/844a780b-92b5-4442-97e3-4339360c46b7.png"
+	caption=""
+/>
 <Header level={1}>2. Notion API</Header>
 <Paragraph
 	blockProps={{
 		pageId: '970f68f89f1a4140b76a7ba91a3209cb',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-12-06T22:00:00.000Z'
+		last_edited_time: '2022-12-08T08:39:00.000Z'
 	}}
 >
 	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
@@ -55,11 +63,7 @@
 <Code
 	code={`\{
       &quot;object&quot;: &quot;block&quot;,
-      &quot;id&quot;: &quot;8057b383-2cb7-40f6-aa96-0a2d38be8bb8&quot;,
-      &quot;created_time&quot;: &quot;2022-01-20T00:36:00.000Z&quot;,
-      &quot;last_edited_time&quot;: &quot;2022-01-20T00:41:00.000Z&quot;,
-      &quot;has_children&quot;: false,
-      &quot;archived&quot;: false,
+      …
       &quot;type&quot;: &quot;heading_1&quot;,
       &quot;heading_1&quot;: \{
         &quot;text&quot;: [
@@ -228,8 +232,7 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/standard-components/header">Header (3 types in 1!)</Link
-			></BulletedListItem
+			><Link type="mention" href="/standard-components/header">Header</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/child-page">ChildPage</Link
