@@ -76,8 +76,7 @@
 	>. I don’t ever intend to publish that file here, and so it has no slug, nor have I marked it
 	Publishable before running&ensp;<em>notion2svelte.</em>&ensp;Point being,&ensp;<em
 		>notion2svelte</em
-	>&ensp;doesn’t recognize it, and so it throws an error which, as of this writing, I don’t catch
-	and handle in any useful way.
+	>&ensp;doesn’t recognize it, and so it throws an error.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -87,11 +86,22 @@
 		last_edited_time: '2022-01-31T21:01:00.000Z'
 	}}
 >
-	Point being, as soon as I try to @mention that page, it’ll end up throwing when I run&ensp;<em
-		>notion2svelte</em
-	>, and&ensp;<em>notion2svelte</em>&ensp;will take that error and render it as an&ensp;<InlineCode
+	Rather than bring the entire process to a halt or hoping that you notice an error in the Console,
+	notion2svelte handles the error by rendering it right into your document using the&ensp;<InlineCode
 		code={'Error'}
-	/>&ensp;component in the app.
+	/>&ensp;component. There, you can simply render something hideous and obviously wrong that you
+	couldn’t possibly ship on accident, or you could maybe use the component to pass such errors
+	through to a notification system, or to collate errors into a single report.
+</Paragraph>
+<Paragraph
+	blockProps={{
+		pageId: 'f8b93766ebbc4211a1e74d4475d3d8a4',
+		id: 'e9387481-3d80-4145-a72c-0d246cf05d93',
+		created_time: '2022-12-08T08:56:00.000Z',
+		last_edited_time: '2022-12-08T08:56:00.000Z'
+	}}
+>
+	Ok, enough with the hypotheticals. Time for that demo.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -113,12 +123,55 @@
 >
 	Here we go.
 </Paragraph>
+<Header level={1}>1. Notion original</Header>
+<Paragraph
+	blockProps={{
+		pageId: 'f8b93766ebbc4211a1e74d4475d3d8a4',
+		id: '13d85d1a-f21a-4e07-bbef-61ef5d788e53',
+		created_time: '2022-12-08T08:50:00.000Z',
+		last_edited_time: '2022-12-08T09:07:00.000Z'
+	}}
+>
+	Because&ensp;<Link
+		type="absolute"
+		href="https://notion.so/nvlgzr/README-For-Visitors-4bd575791670432f9125a2fb8d3d8af7"
+		>↓ this page</Link
+	>&ensp;has never been marked Publishable during a local run of&ensp;<em>notion2svelte…</em>
+</Paragraph>
+<Image url="/assets/other-components/error/719944fb-1ec8-42b5-9e29-4d4f54a31f4f.png" />
+<Paragraph
+	blockProps={{
+		pageId: 'f8b93766ebbc4211a1e74d4475d3d8a4',
+		id: 'bb996f3c-5c3b-41e7-a1d7-4b8bff9503a5',
+		created_time: '2022-12-08T08:58:00.000Z',
+		last_edited_time: '2022-12-08T09:10:00.000Z'
+	}}
+>
+	…attempts to link to it fail because&ensp;<em>notion2svelte</em>&ensp;recognizes it as an internal
+	site link, but can’t find a mapping for it in&ensp;<em>notion2svelte_id-to-slug.json.</em
+	>&ensp;You don’t need to understand it. The point is, it’s enough to trigger a rendering error.
+</Paragraph>
+<Header level={1}>2. Example rendering</Header>
 <Paragraph
 	blockProps={{
 		pageId: 'f8b93766ebbc4211a1e74d4475d3d8a4',
 		id: '46e3a8bc-fa08-46a6-882c-d94023fe4e10',
 		created_time: '2022-01-28T00:11:00.000Z',
 		last_edited_time: '2022-01-31T21:02:00.000Z'
+	}}
+>
+	Rendered by <Link
+		type="absolute"
+		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Error.svelte"
+		>Error.svelte</Link
+	>
+</Paragraph>
+<Paragraph
+	blockProps={{
+		pageId: 'f8b93766ebbc4211a1e74d4475d3d8a4',
+		id: '94cefb63-d7d8-4190-a17b-07da543c24a9',
+		created_time: '2022-12-08T08:45:00.000Z',
+		last_edited_time: '2022-12-08T08:49:00.000Z'
 	}}
 >
 	<p
@@ -134,23 +187,9 @@
 <Paragraph
 	blockProps={{
 		pageId: 'f8b93766ebbc4211a1e74d4475d3d8a4',
-		id: 'fb46097d-1bb6-4a02-a4a2-4416bf51964c',
-		created_time: '2022-01-31T21:02:00.000Z',
-		last_edited_time: '2022-01-31T21:02:00.000Z'
-	}}
->
-	↑ Rendered by <Link
-		type="absolute"
-		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Error.svelte"
-		>Error.svelte</Link
-	>
-</Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: 'f8b93766ebbc4211a1e74d4475d3d8a4',
-		id: 'd4ccfaa1-7533-4dc6-b6ca-9af6c2be5439',
-		created_time: '2022-01-28T00:21:00.000Z',
-		last_edited_time: '2022-01-28T00:21:00.000Z'
+		id: 'deb0312e-c7dd-426f-9236-ec48afa175c4',
+		created_time: '2022-12-08T08:35:00.000Z',
+		last_edited_time: '2022-12-08T08:35:00.000Z'
 	}}
 />
 <Divider />

@@ -2,7 +2,7 @@ const json = {
   "object": "page",
   "id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4",
   "created_time": "2022-01-28T00:11:00.000Z",
-  "last_edited_time": "2022-12-08T05:13:00.000Z",
+  "last_edited_time": "2022-12-08T09:10:00.000Z",
   "created_by": {
     "object": "user",
     "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -375,7 +375,7 @@ const json = {
         "page_id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4"
       },
       "created_time": "2022-01-31T20:57:00.000Z",
-      "last_edited_time": "2022-01-31T21:00:00.000Z",
+      "last_edited_time": "2022-12-08T08:51:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -495,7 +495,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": " doesn’t recognize it, and so it throws an error which, as of this writing, I don’t catch and handle in any useful way.",
+              "content": " doesn’t recognize it, and so it throws an error.",
               "link": null
             },
             "annotations": {
@@ -506,7 +506,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": " doesn’t recognize it, and so it throws an error which, as of this writing, I don’t catch and handle in any useful way.",
+            "plain_text": " doesn’t recognize it, and so it throws an error.",
             "href": null
           }
         ]
@@ -520,7 +520,7 @@ const json = {
         "page_id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4"
       },
       "created_time": "2022-01-31T21:00:00.000Z",
-      "last_edited_time": "2022-01-31T21:01:00.000Z",
+      "last_edited_time": "2022-12-08T08:56:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -538,7 +538,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": "Point being, as soon as I try to @mention that page, it’ll end up throwing when I run ",
+              "content": "Rather than bring the entire process to a halt or hoping that you notice an error in the Console, notion2svelte handles the error by rendering it right into your document using the ",
               "link": null
             },
             "annotations": {
@@ -549,75 +549,7 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": "Point being, as soon as I try to @mention that page, it’ll end up throwing when I run ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", and ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", and ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "notion2svelte",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": true,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "notion2svelte",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " will take that error and render it as an ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": " will take that error and render it as an ",
+            "plain_text": "Rather than bring the entire process to a halt or hoping that you notice an error in the Console, notion2svelte handles the error by rendering it right into your document using the ",
             "href": null
           },
           {
@@ -640,7 +572,7 @@ const json = {
           {
             "type": "text",
             "text": {
-              "content": " component in the app.",
+              "content": " component. There, you can simply render something hideous and obviously wrong that you couldn’t possibly ship on accident, or you could maybe use the component to pass such errors through to a notification system, or to collate errors into a single report.",
               "link": null
             },
             "annotations": {
@@ -651,7 +583,50 @@ const json = {
               "code": false,
               "color": "default"
             },
-            "plain_text": " component in the app.",
+            "plain_text": " component. There, you can simply render something hideous and obviously wrong that you couldn’t possibly ship on accident, or you could maybe use the component to pass such errors through to a notification system, or to collate errors into a single report.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "e9387481-3d80-4145-a72c-0d246cf05d93",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4"
+      },
+      "created_time": "2022-12-08T08:56:00.000Z",
+      "last_edited_time": "2022-12-08T08:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ok, enough with the hypotheticals. Time for that demo.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ok, enough with the hypotheticals. Time for that demo.",
             "href": null
           }
         ]
@@ -745,13 +720,398 @@ const json = {
     },
     {
       "object": "block",
+      "id": "f518f49d-aa6b-4ccb-a0c4-c82078179896",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4"
+      },
+      "created_time": "2022-12-08T08:45:00.000Z",
+      "last_edited_time": "2022-12-08T08:47:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "is_toggleable": false,
+        "color": "default",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. Notion original",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. Notion original",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "13d85d1a-f21a-4e07-bbef-61ef5d788e53",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4"
+      },
+      "created_time": "2022-12-08T08:50:00.000Z",
+      "last_edited_time": "2022-12-08T09:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Because ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Because ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "↓ this page",
+              "link": {
+                "url": "https://notion.so/nvlgzr/README-For-Visitors-4bd575791670432f9125a2fb8d3d8af7"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "↓ this page",
+            "href": "https://notion.so/nvlgzr/README-For-Visitors-4bd575791670432f9125a2fb8d3d8af7"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " has never been marked Publishable during a local run of ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " has never been marked Publishable during a local run of ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte…",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte…",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "719944fb-1ec8-42b5-9e29-4d4f54a31f4f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4"
+      },
+      "created_time": "2022-12-08T08:37:00.000Z",
+      "last_edited_time": "2022-12-08T08:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/393f9a64-e136-4ab5-9cca-cb5eba26f4d6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221208T091342Z&X-Amz-Expires=3600&X-Amz-Signature=c533702e4c338061d53951c829e22556d9f5974172d1f1448f2181450db8fbd5&X-Amz-SignedHeaders=host&x-id=GetObject"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "bb996f3c-5c3b-41e7-a1d7-4b8bff9503a5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4"
+      },
+      "created_time": "2022-12-08T08:58:00.000Z",
+      "last_edited_time": "2022-12-08T09:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "…attempts to link to it fail because ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "…attempts to link to it fail because ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " recognizes it as an internal site link, but can’t find a mapping for it in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " recognizes it as an internal site link, but can’t find a mapping for it in ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "notion2svelte_id-to-slug.json.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "notion2svelte_id-to-slug.json.",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " You don’t need to understand it. The point is, it’s enough to trigger a rendering error.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " You don’t need to understand it. The point is, it’s enough to trigger a rendering error.",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "ad194d5c-f231-4727-a00c-d122ec7852d1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4"
+      },
+      "created_time": "2022-12-08T08:48:00.000Z",
+      "last_edited_time": "2022-12-08T08:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "heading_1",
+      "heading_1": {
+        "is_toggleable": false,
+        "color": "default",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. Example rendering",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. Example rendering",
+            "href": null
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
       "id": "46e3a8bc-fa08-46a6-882c-d94023fe4e10",
       "parent": {
         "type": "page_id",
         "page_id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4"
       },
       "created_time": "2022-01-28T00:11:00.000Z",
-      "last_edited_time": "2022-01-31T21:02:00.000Z",
+      "last_edited_time": "2022-12-08T08:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
+      },
+      "has_children": false,
+      "archived": false,
+      "type": "paragraph",
+      "paragraph": {
+        "color": "default",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Rendered by ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Rendered by ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Error.svelte",
+              "link": {
+                "url": "https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Error.svelte"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Error.svelte",
+            "href": "https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Error.svelte"
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "id": "94cefb63-d7d8-4190-a17b-07da543c24a9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4"
+      },
+      "created_time": "2022-12-08T08:45:00.000Z",
+      "last_edited_time": "2022-12-08T08:49:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -790,75 +1150,13 @@ const json = {
     },
     {
       "object": "block",
-      "id": "fb46097d-1bb6-4a02-a4a2-4416bf51964c",
+      "id": "deb0312e-c7dd-426f-9236-ec48afa175c4",
       "parent": {
         "type": "page_id",
         "page_id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4"
       },
-      "created_time": "2022-01-31T21:02:00.000Z",
-      "last_edited_time": "2022-01-31T21:02:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "169a5357-f419-4e33-9165-e91e90a3646d"
-      },
-      "has_children": false,
-      "archived": false,
-      "type": "paragraph",
-      "paragraph": {
-        "color": "default",
-        "text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "↑ Rendered by ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "↑ Rendered by ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "Error.svelte",
-              "link": {
-                "url": "https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Error.svelte"
-              }
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Error.svelte",
-            "href": "https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Error.svelte"
-          }
-        ]
-      }
-    },
-    {
-      "object": "block",
-      "id": "d4ccfaa1-7533-4dc6-b6ca-9af6c2be5439",
-      "parent": {
-        "type": "page_id",
-        "page_id": "f8b93766-ebbc-4211-a1e7-4d4475d3d8a4"
-      },
-      "created_time": "2022-01-28T00:21:00.000Z",
-      "last_edited_time": "2022-01-28T00:21:00.000Z",
+      "created_time": "2022-12-08T08:35:00.000Z",
+      "last_edited_time": "2022-12-08T08:35:00.000Z",
       "created_by": {
         "object": "user",
         "id": "169a5357-f419-4e33-9165-e91e90a3646d"
