@@ -885,7 +885,7 @@ const json = {
             "block_id": "2f7f4bed-9692-4017-a0b3-c390cc40422a"
           },
           "created_time": "2022-01-24T06:42:00.000Z",
-          "last_edited_time": "2022-12-04T07:29:00.000Z",
+          "last_edited_time": "2022-12-08T05:08:00.000Z",
           "created_by": {
             "object": "user",
             "id": "169a5357-f419-4e33-9165-e91e90a3646d"
@@ -923,7 +923,7 @@ const json = {
               {
                 "type": "text",
                 "text": {
-                  "content": " Browse the docs ⚘ ",
+                  "content": " Browse the docs ⚘",
                   "link": null
                 },
                 "annotations": {

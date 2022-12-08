@@ -13,6 +13,7 @@
 	import Header from '$lib/notion2svelte/Header.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
+	import Underline from '$lib/notion2svelte/Underline.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
 	import Equation from '$lib/notion2svelte/Equation.svelte';
@@ -52,15 +53,15 @@
 		last_edited_time: '2022-11-30T10:26:00.000Z'
 	}}
 >
-	In this first version,&nbsp;<em>notion2svelte&nbsp;</em>treats Slugs at face value. If your page
-	has a Slug of “foo/bar/baz,”&nbsp;<em>notion2svelte</em>&nbsp;will save a file at&nbsp;<em
+	In this first version,&ensp;<em>notion2svelte&ensp;</em>treats Slugs at face value. If your page
+	has a Slug of “foo/bar/baz,”&ensp;<em>notion2svelte</em>&ensp;will save a file at&ensp;<em
 		>src/routes/foo/bar/baz/</em
-	><em>+page.svelte</em><em>.</em>&nbsp;This has subtle consequences…which can be&nbsp;<em
+	><em>+page.svelte</em><em>.</em>&ensp;This has subtle consequences…which can be&ensp;<em
 		>ignored</em
-	>&nbsp;if you follow one simple rule:
+	>&ensp;if you follow one simple rule:
 </Paragraph>
 <NumberedListItem number="1">
-	<strong>Use site-relative Slugs, by always starting them with&nbsp;</strong><InlineCode
+	<strong>Use site-relative Slugs, by always starting them with&ensp;</strong><InlineCode
 		code={'/'}
 	/></NumberedListItem
 >
@@ -114,7 +115,7 @@
 	}}
 >
 	Relative links are important because they decouple internal links from the site’s domain. However,
-	there are two kinds of&nbsp;<em>relative</em>: site-relative, and page-relative. Let’s start with
+	there are two kinds of&ensp;<em>relative</em>: site-relative, and page-relative. Let’s start with
 	the more problematic: page-relative links.
 </Paragraph>
 <Header level={3}>❌ Page-relative links</Header>
@@ -126,17 +127,17 @@
 		last_edited_time: '2022-11-30T10:30:00.000Z'
 	}}
 >
-	Say we have a page in our Notion database with the Slug,&nbsp;<InlineCode
+	Say we have a page in our Notion database with the Slug,&ensp;<InlineCode
 		code={'mantis-shrimp'}
-	/>. Running&nbsp;<em>notion2svelte</em>&nbsp;gets you…
+	/>. Running&ensp;<em>notion2svelte</em>&ensp;gets you…
 </Paragraph>
 <BulletedListItem
-	>A Svelte page:&nbsp;<InlineCode
+	>A Svelte page:&ensp;<InlineCode
 		code={'src/routes/mantis-shrimp/+page.svelte'}
 	/></BulletedListItem
 >
 <BulletedListItem
-	>Links to this page will (probably*) look something like:&nbsp;<InlineCode
+	>Links to this page will (probably*) look something like:&ensp;<InlineCode
 		code={'&lt;a href=&quot;link-target&quot;&gt;Link&lt;/a&gt;'}
 	/></BulletedListItem
 >
@@ -149,10 +150,10 @@
 			last_edited_time: '2022-11-30T10:30:00.000Z'
 		}}
 	>
-		*I say&nbsp;<em>probably</em>, because it’s up to you how you implement your&nbsp;<Link
+		*I say&ensp;<em>probably</em>, because it’s up to you how you implement your&ensp;<Link
 			type="mention"
 			href="/annotations/link">Link</Link
-		>&nbsp;component.&nbsp;
+		>&ensp;component.&ensp;
 	</Paragraph>
 </IndentGroup>
 <Paragraph
@@ -163,9 +164,9 @@
 		last_edited_time: '2022-11-30T10:32:00.000Z'
 	}}
 >
-	Now let’s say that you have two pages linking&nbsp;<em>to</em
-	>&nbsp;“link-target”,&nbsp;<InlineColor value="blue"><em>one</em></InlineColor
-	>&nbsp;and&nbsp;<InlineColor value="purple"><em>two</em></InlineColor>, like so
+	Now let’s say that you have two pages linking&ensp;<em>to</em
+	>&ensp;“link-target”,&ensp;<InlineColor value="blue"><em>one</em></InlineColor
+	>&ensp;and&ensp;<InlineColor value="purple"><em>two</em></InlineColor>, like so
 </Paragraph>
 <Code
 	code={`├── src
@@ -184,10 +185,10 @@
 		last_edited_time: '2022-11-30T10:33:00.000Z'
 	}}
 >
-	To keep things concrete, let’s say you publish your site at&nbsp;<em>https://foo.io</em>. When you
-	click the&nbsp;<InlineCode code={'href=&quot;mantis-shrimp&quot;'} />&nbsp;link in the page
-	generated from&nbsp;<em>one.svelte</em>&nbsp;(<em>https://foo.io/one),</em>&nbsp;the URL resolves
-	to&nbsp;<em>https://foo.io</em>&nbsp;+&nbsp;<em>mantis-shrimp</em>&nbsp;⇒&nbsp;<em
+	To keep things concrete, let’s say you publish your site at&ensp;<em>https://foo.io</em>. When you
+	click the&ensp;<InlineCode code={'href=&quot;mantis-shrimp&quot;'} />&ensp;link in the page
+	generated from&ensp;<em>one.svelte</em>&ensp;(<em>https://foo.io/one),</em>&ensp;the URL resolves
+	to&ensp;<em>https://foo.io</em>&ensp;+&ensp;<em>mantis-shrimp</em>&ensp;⇒&ensp;<em
 		>https://foo.io/mantis-shrimp</em
 	>. So far so good!
 </Paragraph>
@@ -199,12 +200,12 @@
 		last_edited_time: '2022-11-30T10:42:00.000Z'
 	}}
 >
-	But now let’s look at the same link (href=”mantis-shrimp”) clicked from&nbsp;<em
+	But now let’s look at the same link (href=”mantis-shrimp”) clicked from&ensp;<em
 		>https://foo.io//subpages/two</em
-	>. Here, the relative root is no longer&nbsp;<em>https://foo.io</em>, but&nbsp;<em
+	>. Here, the relative root is no longer&ensp;<em>https://foo.io</em>, but&ensp;<em
 		>https://foo.io/subpages</em
-	>. Now, when we click the link, it resolves to&nbsp;<em>htttps://foo.io/subpages/mantis-shrimp</em
-	>&nbsp;which, of course, does not exist, leading to a&nbsp;<InlineCode code={'404'} />&nbsp;😥.
+	>. Now, when we click the link, it resolves to&ensp;<em>htttps://foo.io/subpages/mantis-shrimp</em
+	>&ensp;which, of course, does not exist, leading to a&ensp;<InlineCode code={'404'} />&ensp;😥.
 </Paragraph>
 <Header level={3}>🌞👍 Site-relative links</Header>
 <Paragraph
@@ -215,13 +216,13 @@
 		last_edited_time: '2022-01-27T07:17:00.000Z'
 	}}
 >
-	When you prepend a Slug with&nbsp;<InlineCode code={'/'} />,&nbsp;<em>notion2svelte&nbsp;</em
-	>creates&nbsp;<strong>site</strong>-relative links. Now, instead of &nbsp;<InlineCode
+	When you prepend a Slug with&ensp;<InlineCode code={'/'} />,&ensp;<em>notion2svelte&ensp;</em
+	>creates&ensp;<strong>site</strong>-relative links. Now, instead of &ensp;<InlineCode
 		code={'&lt;a href=&quot;link-target&quot;&gt;Link&lt;/a&gt;'}
-	/>, we have &nbsp;<InlineCode
+	/>, we have &ensp;<InlineCode
 		code={'&lt;a href=&quot;/link-target&quot;&gt;Link&lt;/a&gt;'}
-	/>&nbsp;Now, no matter where you link to the ”target” page, the link will be resolved using the
-	site root, leading us infallibly to&nbsp;<InlineCode code={'https://foo.io/link-target'} /><em
+	/>&ensp;Now, no matter where you link to the ”target” page, the link will be resolved using the
+	site root, leading us infallibly to&ensp;<InlineCode code={'https://foo.io/link-target'} /><em
 		>.</em
 	>
 </Paragraph>
@@ -244,71 +245,8 @@
 	}}
 />
 <Divider />
-<Header level={1}>Where to learn more</Header>
-<Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
-<BulletedListItem
-	><Link type="absolute" href="https://github.com/nvlgzr/notion2svelte"
-		>https://github.com/nvlgzr/notion2svelte</Link
-	></BulletedListItem
->
-<Header level={3}>Ready to try it?</Header>
-<Paragraph
-	blockProps={{
-		pageId: '57ec9a2db8544bf694a45f0e2a0b68d1',
-		id: '58ff394d-4eda-4d56-aaea-89d926fcd3da',
-		created_time: '2022-01-26T09:47:00.000Z',
-		last_edited_time: '2022-01-27T05:11:00.000Z'
-	}}
->
-	Open your Terminal.app* and follow along to 👉🏿 “<Link
-		type="absolute"
-		href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
-	>”!
-</Paragraph>
-<IndentGroup>
-	<Paragraph
-		blockProps={{
-			pageId: '57ec9a2db8544bf694a45f0e2a0b68d1',
-			id: 'b77e2c4c-0270-4680-aee3-73500e7e5e95',
-			created_time: '2022-01-26T09:47:00.000Z',
-			last_edited_time: '2022-01-27T05:14:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-		><Link type="absolute" href="https://fishshell.com/"
-			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray"
-			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
-			after all, so it should be pretty portable!</InlineColor
-		>
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: '57ec9a2db8544bf694a45f0e2a0b68d1',
-			id: 'fc7a7eef-1c40-431e-9842-85d97d1e1d49',
-			created_time: '2022-01-27T05:11:00.000Z',
-			last_edited_time: '2022-01-27T05:11:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>**Technically, the video’s shorter than 10 minutes, but you might want to set aside 20-30
-			minutes to allow for your own play time. 🧫</InlineColor
-		>🧪
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: '57ec9a2db8544bf694a45f0e2a0b68d1',
-			id: '86f56fbe-bc18-4df1-90bd-277d0d5a05c5',
-			created_time: '2022-01-27T05:10:00.000Z',
-			last_edited_time: '2022-01-27T05:10:00.000Z'
-		}}
-	/>
-</IndentGroup>
-<Divider />
 <Header level={2}
-	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>&nbsp;</Header
+	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
 >
 <ColumnList cols={2}
 	><Column
@@ -316,7 +254,7 @@
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/flow-diagram"
 				>Where notion2svelte Fits</Link
-			>&nbsp;</BulletedListItem
+			>&ensp;</BulletedListItem
 		>
 		<BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
 		<BulletedListItem
@@ -338,7 +276,7 @@
 		>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link
-			>&nbsp;</BulletedListItem
+			>&ensp;</BulletedListItem
 		>
 		<Header level={3}>Turn-intoable Block Components</Header>
 		<BulletedListItem
@@ -380,7 +318,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&ensp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -391,7 +329,7 @@
 		>
 		<BulletedListItem
 			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link
-			>&nbsp;</BulletedListItem
+			>&ensp;</BulletedListItem
 		>
 		<Header level={3}>Page-level Components</Header>
 		<BulletedListItem
@@ -404,16 +342,18 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode
+			><strong>bold</strong>&ensp;→&ensp;<InlineCode
 				code={'&lt;strong&gt;'}
-			/>&nbsp;</BulletedListItem
+			/>&ensp;</BulletedListItem
 		>
 		<BulletedListItem
-			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+			><em>italic</em>&ensp;→&ensp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
 		>
-		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
+			><s>strikethrough</s>&ensp;→&ensp;<InlineCode code={'&lt;s&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/annotations/underline">Underline</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

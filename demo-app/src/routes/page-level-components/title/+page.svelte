@@ -13,6 +13,7 @@
 	import Header from '$lib/notion2svelte/Header.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
+	import Underline from '$lib/notion2svelte/Underline.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
 	import Equation from '$lib/notion2svelte/Equation.svelte';
@@ -65,7 +66,7 @@
 			}}
 		>
 			There’s nothing much to know about titles, except perhaps that Notion’s default term for this
-			concept is&nbsp;<em>Name</em>, as shown in this screenshot.
+			concept is&ensp;<em>Name</em>, as shown in this screenshot.
 		</Paragraph>
 		<Paragraph
 			blockProps={{
@@ -75,19 +76,19 @@
 				last_edited_time: '2022-01-28T23:38:00.000Z'
 			}}
 		>
-			Since I’m building&nbsp;<em>notion2svelte&nbsp;</em>in the context of publishing written
+			Since I’m building&ensp;<em>notion2svelte&ensp;</em>in the context of publishing written
 			pieces (as opposed to tracking TODOs or any of the other myriad things that a notion Page
-			might be “naming”), I chose&nbsp;<em>Title</em>&nbsp;as the more contextually appropriate
+			might be “naming”), I chose&ensp;<em>Title</em>&ensp;as the more contextually appropriate
 			component name.
 		</Paragraph>
 	</Column><Column
 		><Image url="/assets/page-level-components/title/45f4b177-1575-412a-9686-36a88bc1602b.png" />
 	</Column></ColumnList
 ><Callout emoji="💁🏼"
-	>You don’t have to include a title on every page. In fact, the title of this site’s&nbsp;<Link
+	>You don’t have to include a title on every page. In fact, the title of this site’s&ensp;<Link
 		type="alias"
 		href="/about-notion2svelte">home page</Link
-	>&nbsp;has no title.<span slot="children"
+	>&ensp;has no title.<span slot="children"
 		><Paragraph
 			blockProps={{
 				pageId: '2011c59ae02b40b682f7ee828c3d51fe',
@@ -96,7 +97,7 @@
 				last_edited_time: '2022-01-27T23:00:00.000Z'
 			}}
 		>
-			Every page does, however, need a&nbsp;<Link
+			Every page does, however, need a&ensp;<Link
 				type="alias"
 				href="/high-level-discussion/rules-for-writing-good-slugs">slug</Link
 			>.
@@ -143,7 +144,7 @@
 
 &lt;Title&gt;Title (aka Name)&lt;/Title&gt;`}
 	language="html"
-	>Note that&nbsp;<em>notion2svelte</em>&nbsp;sets both the browser tab title, as well as rendering
+	>Note that&ensp;<em>notion2svelte</em>&ensp;sets both the browser tab title, as well as rendering
 	a Title component</Code
 ><Paragraph
 	blockProps={{
@@ -161,9 +162,9 @@
 		last_edited_time: '2022-01-31T07:55:00.000Z'
 	}}
 >
-	<InlineColor value="gray">For the code used to render&nbsp;</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">For the code used to render&ensp;</InlineColor><InlineColor value="gray"
 		><em>this</em></InlineColor
-	><InlineColor value="gray">&nbsp;page’s Title, see&nbsp;</InlineColor><Link
+	><InlineColor value="gray">&ensp;page’s Title, see&ensp;</InlineColor><Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Title.svelte"
 		><InlineColor value="gray">Title.svelte</InlineColor></Link
@@ -178,80 +179,17 @@
 	}}
 />
 <Divider />
-<Header level={1}>Where to learn more</Header>
-<Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
-<BulletedListItem
-	><Link type="absolute" href="https://github.com/nvlgzr/notion2svelte"
-		>https://github.com/nvlgzr/notion2svelte</Link
-	></BulletedListItem
->
-<Header level={3}>Ready to try it?</Header>
-<Paragraph
-	blockProps={{
-		pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-		id: '58ff394d-4eda-4d56-aaea-89d926fcd3da',
-		created_time: '2022-01-26T09:47:00.000Z',
-		last_edited_time: '2022-01-27T05:11:00.000Z'
-	}}
->
-	Open your Terminal.app* and follow along to 👉🏿 “<Link
-		type="absolute"
-		href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
-	>”!
-</Paragraph>
-<IndentGroup>
-	<Paragraph
-		blockProps={{
-			pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-			id: 'b77e2c4c-0270-4680-aee3-73500e7e5e95',
-			created_time: '2022-01-26T09:47:00.000Z',
-			last_edited_time: '2022-01-27T05:14:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-		><Link type="absolute" href="https://fishshell.com/"
-			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray"
-			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
-			after all, so it should be pretty portable!</InlineColor
-		>
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-			id: 'fc7a7eef-1c40-431e-9842-85d97d1e1d49',
-			created_time: '2022-01-27T05:11:00.000Z',
-			last_edited_time: '2022-01-27T05:11:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>**Technically, the video’s shorter than 10 minutes, but you might want to set aside 20-30
-			minutes to allow for your own play time. 🧫</InlineColor
-		>🧪
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: '2011c59ae02b40b682f7ee828c3d51fe',
-			id: '86f56fbe-bc18-4df1-90bd-277d0d5a05c5',
-			created_time: '2022-01-27T05:10:00.000Z',
-			last_edited_time: '2022-01-27T05:10:00.000Z'
-		}}
-	/>
-</IndentGroup>
-<Divider />
 <Header level={2}
-	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
-</Header>
+	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
+>
 <ColumnList cols={2}
 	><Column
 		><Header level={3}>High-level Discussion</Header>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/flow-diagram"
 				>Where notion2svelte Fits</Link
-			>
-		</BulletedListItem>
+			>&ensp;</BulletedListItem
+		>
 		<BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/rules-for-writing-good-slugs"
@@ -271,8 +209,9 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link>
-		</BulletedListItem>
+			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link
+			>&ensp;</BulletedListItem
+		>
 		<Header level={3}>Turn-intoable Block Components</Header>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/paragraph">Paragraph (aka “Text”)</Link
@@ -313,7 +252,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&ensp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -323,8 +262,9 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link>
-		</BulletedListItem>
+			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link
+			>&ensp;</BulletedListItem
+		>
 		<Header level={3}>Page-level Components</Header>
 		<BulletedListItem
 			><Link type="mention" href="/page-level-components/title">Title (aka Name)</Link
@@ -336,14 +276,18 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
-		</BulletedListItem>
-		<BulletedListItem
-			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+			><strong>bold</strong>&ensp;→&ensp;<InlineCode
+				code={'&lt;strong&gt;'}
+			/>&ensp;</BulletedListItem
 		>
-		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
+			><em>italic</em>&ensp;→&ensp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><s>strikethrough</s>&ensp;→&ensp;<InlineCode code={'&lt;s&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/annotations/underline">Underline</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

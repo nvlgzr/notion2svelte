@@ -13,6 +13,7 @@
 	import Header from '$lib/notion2svelte/Header.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
+	import Underline from '$lib/notion2svelte/Underline.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
 	import Equation from '$lib/notion2svelte/Equation.svelte';
@@ -38,7 +39,7 @@
 <Title>Configuring your .env</Title>
 
 <Callout emoji="🧸"
-	>This information on this page can also be found in&nbsp;<Link
+	>This information on this page can also be found in&ensp;<Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/.env-sample"><em>.env-sample</em></Link
 	></Callout
@@ -51,8 +52,8 @@
 		last_edited_time: '2022-02-18T07:45:00.000Z'
 	}}
 >
-	In order to fetch data from your Notion account,&nbsp;<em>notion2svelte</em>&nbsp;needs a
-	“secret,” which you can generate by following&nbsp;<Link
+	In order to fetch data from your Notion account,&ensp;<em>notion2svelte</em>&ensp;needs a
+	“secret,” which you can generate by following&ensp;<Link
 		type="absolute"
 		href="https://developers.notion.com/docs/getting-started">these instructions</Link
 	>.
@@ -65,10 +66,10 @@
 		last_edited_time: '2022-02-18T07:45:00.000Z'
 	}}
 >
-	<em>notion2svelte</em>&nbsp;is designed to interface with your pages via a Notion database, so
-	make sure that said database is connected to whatever secret you use for&nbsp;<InlineCode
+	<em>notion2svelte</em>&ensp;is designed to interface with your pages via a Notion database, so
+	make sure that said database is connected to whatever secret you use for&ensp;<InlineCode
 		code={'NOTION_API_KEY'}
-	/>&nbsp;via a Notion “Integration”.
+	/>&ensp;via a Notion “Integration”.
 </Paragraph>
 <Header level={1}>Optional keys</Header>
 <Header level={2}>Regular use</Header>
@@ -85,9 +86,9 @@ OUTPUT_STATIC_FOLDER=`}
 		last_edited_time: '2022-02-18T07:45:00.000Z'
 	}}
 >
-	<InlineCode code={'PUBLISHABLE_STATUS'} />&nbsp;defines the string that&nbsp;<em>notion2svelte</em
-	>&nbsp;uses to filter against your pages’&nbsp;<em>Status</em>&nbsp;prop; if&nbsp;<em>Status</em
-	>&nbsp;is not set to (by default)&nbsp;<em>Publishable</em>, the page won’t be included.
+	<InlineCode code={'PUBLISHABLE_STATUS'} />&ensp;defines the string that&ensp;<em>notion2svelte</em
+	>&ensp;uses to filter against your pages’&ensp;<em>Status</em>&ensp;prop; if&ensp;<em>Status</em
+	>&ensp;is not set to (by default)&ensp;<em>Publishable</em>, the page won’t be included.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -97,9 +98,9 @@ OUTPUT_STATIC_FOLDER=`}
 		last_edited_time: '2022-02-18T07:45:00.000Z'
 	}}
 >
-	<InlineCode code={'OUTPUT_PATH'} />&nbsp;tells&nbsp;<em>notion2svelte</em>&nbsp;where to
-	save&nbsp;<em>.svelte</em>&nbsp;files. If left empty (the default),&nbsp;<em>notion2svelte</em
-	>&nbsp;will output to the current directory.
+	<InlineCode code={'OUTPUT_PATH'} />&ensp;tells&ensp;<em>notion2svelte</em>&ensp;where to
+	save&ensp;<em>.svelte</em>&ensp;files. If left empty (the default),&ensp;<em>notion2svelte</em
+	>&ensp;will output to the current directory.
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -109,9 +110,9 @@ OUTPUT_STATIC_FOLDER=`}
 		last_edited_time: '2022-02-18T07:46:00.000Z'
 	}}
 >
-	<InlineCode code={'OUTPUT_STATIC_FOLDER'} />&nbsp;tells&nbsp;<em>notion2svelte</em>&nbsp;where to
-	save&nbsp;<em>media</em>&nbsp;files, esp. images. Again, the default is empty, meaning images will
-	be stored in&nbsp;<em>./static/<page-id>/…</page-id></em>
+	<InlineCode code={'OUTPUT_STATIC_FOLDER'} />&ensp;tells&ensp;<em>notion2svelte</em>&ensp;where to
+	save&ensp;<em>media</em>&ensp;files, esp. images. Again, the default is empty, meaning images will
+	be stored in&ensp;<em>./static/<page-id>/…</page-id></em>
 </Paragraph>
 <Header level={2}>Debugging</Header>
 <Paragraph
@@ -122,7 +123,7 @@ OUTPUT_STATIC_FOLDER=`}
 		last_edited_time: '2022-02-18T07:46:00.000Z'
 	}}
 >
-	While building&nbsp;<em>notion2svelte</em>, I found myself frequently needing to rerun the tool
+	While building&ensp;<em>notion2svelte</em>, I found myself frequently needing to rerun the tool
 	repeatedly on a single page.
 </Paragraph>
 <Paragraph
@@ -149,7 +150,7 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 		last_edited_time: '2022-02-18T07:46:00.000Z'
 	}}
 >
-	<InlineCode code={'NOTION_TEST_PAGE_ID'} />&nbsp;skips the pages-from-database loop, and fetches
+	<InlineCode code={'NOTION_TEST_PAGE_ID'} />&ensp;skips the pages-from-database loop, and fetches
 	just the one page specified.
 </Paragraph>
 <Paragraph
@@ -160,7 +161,7 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 		last_edited_time: '2022-02-18T07:48:00.000Z'
 	}}
 >
-	<InlineCode code={'CACHE_TOKEN'} />&nbsp;helps&nbsp;<em>notion2svelte</em>&nbsp;whether it should
+	<InlineCode code={'CACHE_TOKEN'} />&ensp;helps&ensp;<em>notion2svelte</em>&ensp;whether it should
 	fetch the test page:
 </Paragraph>
 <IndentGroup>
@@ -172,9 +173,9 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 			last_edited_time: '2022-02-18T07:51:00.000Z'
 		}}
 	>
-		<em>If</em>&nbsp;the cache token&nbsp;<em>matches</em>&nbsp;the test page id,&nbsp;<em
+		<em>If</em>&ensp;the cache token&ensp;<em>matches</em>&ensp;the test page id,&ensp;<em
 			>notion2svelte</em
-		>&nbsp;will skip fetching, and instead read the page object from locally-stored* JSON.
+		>&ensp;will skip fetching, and instead read the page object from locally-stored* JSON.
 	</Paragraph>
 	<IndentGroup>
 		<Paragraph
@@ -185,13 +186,13 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 				last_edited_time: '2022-02-18T07:51:00.000Z'
 			}}
 		>
-			<InlineColor value="gray">*In&nbsp;</InlineColor><InlineColor value="gray"
+			<InlineColor value="gray">*In&ensp;</InlineColor><InlineColor value="gray"
 				><em>notion2svelte 0.0.1</em></InlineColor
-			><InlineColor value="gray">, a&nbsp;</InlineColor><InlineColor value="gray"
+			><InlineColor value="gray">, a&ensp;</InlineColor><InlineColor value="gray"
 				><em><slug>.json</slug></em></InlineColor
-			><InlineColor value="gray">&nbsp;precursor file is output with every&nbsp;</InlineColor
+			><InlineColor value="gray">&ensp;precursor file is output with every&ensp;</InlineColor
 			><InlineColor value="gray"><em><slug>.svelte</slug></em></InlineColor><InlineColor
-				value="gray">&nbsp;page.</InlineColor
+				value="gray">&ensp;page.</InlineColor
 			>
 		</Paragraph>
 	</IndentGroup>
@@ -203,9 +204,9 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 			last_edited_time: '2022-02-18T07:50:00.000Z'
 		}}
 	>
-		It’s a bit of a hack because&nbsp;<em>notion2svelte</em>&nbsp;actually&nbsp;<em>updates</em
-		>&nbsp;the CACHE_TOKEN in your&nbsp;<em>.env</em>&nbsp;every time a test page is fetched. It
-		seems wrong to have a tool editing its own&nbsp;<em>.env</em>&nbsp;file, but it worked and it
+		It’s a bit of a hack because&ensp;<em>notion2svelte</em>&ensp;actually&ensp;<em>updates</em
+		>&ensp;the CACHE_TOKEN in your&ensp;<em>.env</em>&ensp;every time a test page is fetched. It
+		seems wrong to have a tool editing its own&ensp;<em>.env</em>&ensp;file, but it worked and it
 		was easy, so for now, this is how it works. ¯\_(ツ)_/¯
 	</Paragraph>
 </IndentGroup>
@@ -217,85 +218,22 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 		last_edited_time: '2022-02-18T07:51:00.000Z'
 	}}
 >
-	<InlineCode code={'FORCE_REFRESH'} />, when set to&nbsp;<InlineCode code={'true'} />, tells&nbsp;<em
+	<InlineCode code={'FORCE_REFRESH'} />, when set to&ensp;<InlineCode code={'true'} />, tells&ensp;<em
 		>notion2svelte</em
-	>&nbsp;to ignore the cache token & hit the Notion API&nbsp;<em>every</em>&nbsp;time.
+	>&ensp;to ignore the cache token & hit the Notion API&ensp;<em>every</em>&ensp;time.
 </Paragraph>
-<Divider />
-<Header level={1}>Where to learn more</Header>
-<Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
-<BulletedListItem
-	><Link type="absolute" href="https://github.com/nvlgzr/notion2svelte"
-		>https://github.com/nvlgzr/notion2svelte</Link
-	></BulletedListItem
->
-<Header level={3}>Ready to try it?</Header>
-<Paragraph
-	blockProps={{
-		pageId: '3c584e911b5c4378b120e3cf62797212',
-		id: '58ff394d-4eda-4d56-aaea-89d926fcd3da',
-		created_time: '2022-01-26T09:47:00.000Z',
-		last_edited_time: '2022-01-27T05:11:00.000Z'
-	}}
->
-	Open your Terminal.app* and follow along to 👉🏿 “<Link
-		type="absolute"
-		href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
-	>”!
-</Paragraph>
-<IndentGroup>
-	<Paragraph
-		blockProps={{
-			pageId: '3c584e911b5c4378b120e3cf62797212',
-			id: 'b77e2c4c-0270-4680-aee3-73500e7e5e95',
-			created_time: '2022-01-26T09:47:00.000Z',
-			last_edited_time: '2022-01-27T05:14:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-		><Link type="absolute" href="https://fishshell.com/"
-			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray"
-			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
-			after all, so it should be pretty portable!</InlineColor
-		>
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: '3c584e911b5c4378b120e3cf62797212',
-			id: 'fc7a7eef-1c40-431e-9842-85d97d1e1d49',
-			created_time: '2022-01-27T05:11:00.000Z',
-			last_edited_time: '2022-01-27T05:11:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>**Technically, the video’s shorter than 10 minutes, but you might want to set aside 20-30
-			minutes to allow for your own play time. 🧫</InlineColor
-		>🧪
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: '3c584e911b5c4378b120e3cf62797212',
-			id: '86f56fbe-bc18-4df1-90bd-277d0d5a05c5',
-			created_time: '2022-01-27T05:10:00.000Z',
-			last_edited_time: '2022-01-27T05:10:00.000Z'
-		}}
-	/>
-</IndentGroup>
 <Divider />
 <Header level={2}
-	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
-</Header>
+	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
+>
 <ColumnList cols={2}
 	><Column
 		><Header level={3}>High-level Discussion</Header>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/flow-diagram"
 				>Where notion2svelte Fits</Link
-			>
-		</BulletedListItem>
+			>&ensp;</BulletedListItem
+		>
 		<BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/rules-for-writing-good-slugs"
@@ -315,8 +253,9 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link>
-		</BulletedListItem>
+			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link
+			>&ensp;</BulletedListItem
+		>
 		<Header level={3}>Turn-intoable Block Components</Header>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/paragraph">Paragraph (aka “Text”)</Link
@@ -357,7 +296,7 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&ensp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -367,8 +306,9 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link>
-		</BulletedListItem>
+			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link
+			>&ensp;</BulletedListItem
+		>
 		<Header level={3}>Page-level Components</Header>
 		<BulletedListItem
 			><Link type="mention" href="/page-level-components/title">Title (aka Name)</Link
@@ -380,14 +320,18 @@ CACHE_TOKEN=b0f0dfbbthisisfakecd9039c7466476
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
-		</BulletedListItem>
-		<BulletedListItem
-			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+			><strong>bold</strong>&ensp;→&ensp;<InlineCode
+				code={'&lt;strong&gt;'}
+			/>&ensp;</BulletedListItem
 		>
-		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
+			><em>italic</em>&ensp;→&ensp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><s>strikethrough</s>&ensp;→&ensp;<InlineCode code={'&lt;s&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/annotations/underline">Underline</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

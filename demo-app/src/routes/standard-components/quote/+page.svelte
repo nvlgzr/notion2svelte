@@ -13,6 +13,7 @@
 	import Header from '$lib/notion2svelte/Header.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
+	import Underline from '$lib/notion2svelte/Underline.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
 	import Equation from '$lib/notion2svelte/Equation.svelte';
@@ -44,21 +45,13 @@
 		pageId: 'aa1322ce4c004737ac1eb3015f393fe5',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-01-28T20:28:00.000Z'
+		last_edited_time: '2022-12-06T22:00:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
-		><em>src/routes/[slug].json</em></InlineColor
+	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
+		><em>src/routes/[slug]/notion-export.js</em></InlineColor
 	>
 </Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: 'aa1322ce4c004737ac1eb3015f393fe5',
-		id: '577562ee-dfd9-42bd-889c-e04479602dd8',
-		created_time: '2022-01-31T20:31:00.000Z',
-		last_edited_time: '2022-01-31T20:31:00.000Z'
-	}}
-/>
 <Code
 	code={`\{
   &quot;object&quot;: &quot;block&quot;,
@@ -132,7 +125,7 @@
 		last_edited_time: '2022-01-28T20:32:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].svelte</em></InlineColor
 	>
 </Paragraph>
@@ -153,7 +146,7 @@
   &lt;/span&gt;
 &lt;/Quote&gt;`}
 	language="html"
-	>This isn’t&nbsp;<em>entirely</em>&nbsp;accurate. Prettier didn’t handle this example as well as
+	>This isn’t&ensp;<em>entirely</em>&ensp;accurate. Prettier didn’t handle this example as well as
 	I’d have liked, so I did a bit of whitespace rearranging here.</Code
 ><Header level={1}>4. Example rendering</Header>
 <Paragraph
@@ -164,7 +157,7 @@
 		last_edited_time: '2022-01-28T22:38:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Rendered by&nbsp;</InlineColor><Link
+	<InlineColor value="gray">Rendered by</InlineColor><Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Quote.svelte"
 		><InlineColor value="gray">Quote.svelte</InlineColor></Link
@@ -192,80 +185,17 @@
 	}}
 />
 <Divider />
-<Header level={1}>Where to learn more</Header>
-<Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
-<BulletedListItem
-	><Link type="absolute" href="https://github.com/nvlgzr/notion2svelte"
-		>https://github.com/nvlgzr/notion2svelte</Link
-	></BulletedListItem
->
-<Header level={3}>Ready to try it?</Header>
-<Paragraph
-	blockProps={{
-		pageId: 'aa1322ce4c004737ac1eb3015f393fe5',
-		id: '58ff394d-4eda-4d56-aaea-89d926fcd3da',
-		created_time: '2022-01-26T09:47:00.000Z',
-		last_edited_time: '2022-01-27T05:11:00.000Z'
-	}}
->
-	Open your Terminal.app* and follow along to 👉🏿 “<Link
-		type="absolute"
-		href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
-	>”!
-</Paragraph>
-<IndentGroup>
-	<Paragraph
-		blockProps={{
-			pageId: 'aa1322ce4c004737ac1eb3015f393fe5',
-			id: 'b77e2c4c-0270-4680-aee3-73500e7e5e95',
-			created_time: '2022-01-26T09:47:00.000Z',
-			last_edited_time: '2022-01-27T05:14:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-		><Link type="absolute" href="https://fishshell.com/"
-			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray"
-			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
-			after all, so it should be pretty portable!</InlineColor
-		>
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: 'aa1322ce4c004737ac1eb3015f393fe5',
-			id: 'fc7a7eef-1c40-431e-9842-85d97d1e1d49',
-			created_time: '2022-01-27T05:11:00.000Z',
-			last_edited_time: '2022-01-27T05:11:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>**Technically, the video’s shorter than 10 minutes, but you might want to set aside 20-30
-			minutes to allow for your own play time. 🧫</InlineColor
-		>🧪
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: 'aa1322ce4c004737ac1eb3015f393fe5',
-			id: '86f56fbe-bc18-4df1-90bd-277d0d5a05c5',
-			created_time: '2022-01-27T05:10:00.000Z',
-			last_edited_time: '2022-01-27T05:10:00.000Z'
-		}}
-	/>
-</IndentGroup>
-<Divider />
 <Header level={2}
-	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
-</Header>
+	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
+>
 <ColumnList cols={2}
 	><Column
 		><Header level={3}>High-level Discussion</Header>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/flow-diagram"
 				>Where notion2svelte Fits</Link
-			>
-		</BulletedListItem>
+			>&ensp;</BulletedListItem
+		>
 		<BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/rules-for-writing-good-slugs"
@@ -285,8 +215,9 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link>
-		</BulletedListItem>
+			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link
+			>&ensp;</BulletedListItem
+		>
 		<Header level={3}>Turn-intoable Block Components</Header>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/paragraph">Paragraph (aka “Text”)</Link
@@ -327,7 +258,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&ensp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -337,8 +268,9 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link>
-		</BulletedListItem>
+			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link
+			>&ensp;</BulletedListItem
+		>
 		<Header level={3}>Page-level Components</Header>
 		<BulletedListItem
 			><Link type="mention" href="/page-level-components/title">Title (aka Name)</Link
@@ -350,14 +282,18 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
-		</BulletedListItem>
-		<BulletedListItem
-			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+			><strong>bold</strong>&ensp;→&ensp;<InlineCode
+				code={'&lt;strong&gt;'}
+			/>&ensp;</BulletedListItem
 		>
-		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
+			><em>italic</em>&ensp;→&ensp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><s>strikethrough</s>&ensp;→&ensp;<InlineCode code={'&lt;s&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/annotations/underline">Underline</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem
@@ -460,8 +396,8 @@
 		}}
 	/>
 	<Image url="/assets/standard-components/quote/92542dea-1308-472a-93ba-2268e94266fa."
-		>Photo:&nbsp;<Link type="absolute" href="https://unsplash.com/@cleipelt">Chris Leipelt</Link
-		>&nbsp;via&nbsp;<Link type="absolute" href="https://unsplash.com/photos/kWd5ER2XpSg"
+		>Photo:&ensp;<Link type="absolute" href="https://unsplash.com/@cleipelt">Chris Leipelt</Link
+		>&ensp;via&ensp;<Link type="absolute" href="https://unsplash.com/photos/kWd5ER2XpSg"
 			>Unsplash</Link
 		></Image
 	>
@@ -474,7 +410,7 @@
 		}}
 	>
 		If you’ve ever felt the sudden urge to leap off of a tall building, you’re already familiar with
-		the concept of&nbsp;<em>l’appel du vide&nbsp;</em>— a French term that literally translates as
+		the concept of&ensp;<em>l’appel du vide&ensp;</em>— a French term that literally translates as
 		“the call of the void” and refers to a sudden but passing urge to engage in self-destructive
 		behavior. I’ve always heard this voice, although its specific suggestions change from time to
 		time. Rather than jumping from a great height, for example, it might tell me to crawl down onto
@@ -489,9 +425,9 @@
 		}}
 	>
 		I’m far from alone in this, however. Researchers from Florida State University estimate
-		that&nbsp;<Link type="absolute" href="https://www.ncbi.nlm.nih.gov/pubmed/22119089"
+		that&ensp;<Link type="absolute" href="https://www.ncbi.nlm.nih.gov/pubmed/22119089"
 			>up to 30%</Link
-		>&nbsp;of people experience similar intrusive thoughts. Ironically, these are rarely linked to
+		>&ensp;of people experience similar intrusive thoughts. Ironically, these are rarely linked to
 		true suicidal behavior. Quite the opposite, in fact — the study found that rather than
 		indicating a death wish, l’appel du vide is simply a misinterpreted message from your brain
 		warning you to not act recklessly.
@@ -551,7 +487,7 @@
 			last_edited_time: '2022-06-06T19:46:00.000Z'
 		}}
 	>
-		The Golden Gate Bridge is one of the&nbsp;<Link
+		The Golden Gate Bridge is one of the&ensp;<Link
 			type="absolute"
 			href="https://en.wikipedia.org/wiki/List_of_suicide_sites"
 			>top suicide sites in the world</Link
@@ -606,11 +542,11 @@
 	>
 		This morbid fascination came to a head in 1995, when the Marin County coroner requested that
 		media outlets stop keeping an official count after several people vied to become the 1,000th
-		person to die by suicide on the Golden Gate Bridge. According to&nbsp;<Link
+		person to die by suicide on the Golden Gate Bridge. According to&ensp;<Link
 			type="absolute"
 			href="https://www.newyorker.com/magazine/2003/10/13/jumpers">the</Link
 		><Link type="absolute" href="https://www.newyorker.com/magazine/2003/10/13/jumpers"
-			><em>&nbsp;New Yorker</em></Link
+			><em>&ensp;New Yorker</em></Link
 		>, “a local disk jockey went so far as to promise a case of Snapple to the family of the
 		victim.” In keeping with recommended suicide prevention guidelines for the media, publications
 		no longer strictly track the number of suicides on the Golden Gate Bridge and rarely report on
@@ -637,10 +573,10 @@
 		}}
 	>
 		You can’t help but feel a sense of wonder when you visit the Golden Gate Bridge. Even on a
-		cloudy day, the view from the bridge is striking (provided that&nbsp;<Link
+		cloudy day, the view from the bridge is striking (provided that&ensp;<Link
 			type="absolute"
 			href="https://twitter.com/KarlTheFog/status/1212117069593862144">Karl</Link
-		>/<Link type="absolute" href="https://twitter.com/fog_karla">Karla</Link>&nbsp;the Fog isn’t
+		>/<Link type="absolute" href="https://twitter.com/fog_karla">Karla</Link>&ensp;the Fog isn’t
 		making an appearance as well). Look out toward the city while standing on it, and you’ll see a
 		magnificent panorama, spanning from the dense vegetation of the Presidio to the austere
 		buildings of the financial district to the lone isle of Alcatraz to the hills of Marin, looming
@@ -657,7 +593,7 @@
 	>
 		It’s a poetic image, to be sure. In the public sphere, this romantic aesthetic is frequently
 		cited as a reason why actively suicidal people are so drawn to the bridge. A 2005 article
-		from&nbsp;<em>SFGate</em>&nbsp;entitled “<Link
+		from&ensp;<em>SFGate</em>&ensp;entitled “<Link
 			type="absolute"
 			href="https://www.sfgate.com/bayarea/article/Lethal-Beauty-The-Allure-Beauty-and-an-easy-3302966.php"
 			>Lethal Beauty</Link
@@ -709,7 +645,7 @@
 	>
 		“Most of the discussion about [the bridge being] ‘romanticized’ has been speculative in nature.
 		As such, it takes away from the central problem — easy access to lethal means,” says Paul
-		Muller, president and founding member of the&nbsp;<Link
+		Muller, president and founding member of the&ensp;<Link
 			type="absolute"
 			href="http://www.bridgerail.net/">Bridge Rail Foundation</Link
 		>, an organization created with the goal of ending suicides on the Golden Gate Bridge.
@@ -767,7 +703,7 @@
 		Another misconception about the Golden Gate is that it serves as an international suicide
 		destination. On the contrary, “85% of bridge jumpers live within an hour’s drive of the bridge,
 		and 92% live in California. Less than 8% are from out of state or abroad,” the Bridge Rail
-		Foundation’s&nbsp;<Link
+		Foundation’s&ensp;<Link
 			type="absolute"
 			href="http://www.bridgerail.net/golden-gate-bridge-suicides/demographics">website states</Link
 		>.
@@ -818,11 +754,11 @@
 			last_edited_time: '2022-06-06T19:46:00.000Z'
 		}}
 	>
-		According to&nbsp;<Link
+		According to&ensp;<Link
 			type="absolute"
 			href="https://www.washingtonpost.com/news/to-your-health/wp/2014/03/27/why-suicide-barriers-work-especially-at-magnets-like-the-golden-gate-bridge/"
 			>one study</Link
-		>&nbsp;that Muller cited, building a barrier at the Duke Ellington Bridge in Washington, D.C.,
+		>&ensp;that Muller cited, building a barrier at the Duke Ellington Bridge in Washington, D.C.,
 		not only stopped suicides from taking place there, but they also did not increase at an
 		unprotected bridge just blocks away. Mounting evidence of barrier effectiveness such as this, in
 		addition to persistent pressure from advocacy organizations, eventually won out. After a
@@ -839,7 +775,7 @@
 	>
 		Construction on the net began in 2019 and was originally projected to be completed in January
 		2021, although the timeline has since been pushed back two years to January 2023 — a delay that
-		is expected to cost an additional&nbsp;<Link
+		is expected to cost an additional&ensp;<Link
 			type="absolute"
 			href="https://www.marinij.com/2020/08/26/golden-gate-bridge-suicide-barrier-delays-to-cost-23m/"
 			>$23 million</Link
@@ -910,7 +846,7 @@
 	>
 		“Where nets have been erected as suicide barriers, they’ve proven to be 100% effective thus
 		far,” Denis Mulligan, CEO and general manager of the Golden Gate Bridge Highway and
-		Transportation District,&nbsp;<Link
+		Transportation District,&ensp;<Link
 			type="absolute"
 			href="https://www.cnn.com/2014/06/27/health/golden-gate-suicide-barrier/index.html"
 			>told CNN in 2014</Link
@@ -944,7 +880,7 @@
 		“The idea that [suicidal ideation] can pass is not well understood in the public,” Muller
 		explains. “<Link type="absolute" href="http://seattlefriends.org/files/seiden_study.pdf"
 			>90% of people</Link
-		>&nbsp;who make an attempt [to jump off the Golden Gate Bridge] and do not die as a result do
+		>&ensp;who make an attempt [to jump off the Golden Gate Bridge] and do not die as a result do
 		not subsequently die by suicide.”
 	</Paragraph>
 	<Paragraph
@@ -956,7 +892,7 @@
 		}}
 	>
 		“A handful of people — fewer than 35 — have survived a jump from the Golden Gate Bridge,” the
-		Bridge Rail Foundation&nbsp;<Link
+		Bridge Rail Foundation&ensp;<Link
 			type="absolute"
 			href="http://www.bridgerail.net/golden-gate-bridge-suicides/demographics">website says</Link
 		>. “Nearly every one said afterward that they wanted to live as soon as they went over the
@@ -989,7 +925,7 @@
 	>
 		It’s impossible to go about your daily life in San Francisco without seeing the Golden Gate
 		Bridge. Even if you don’t live near it, you’re bound to run across it on tourists’ T-shirts,
-		street art, and hell, even the&nbsp;<Link
+		street art, and hell, even the&ensp;<Link
 			type="absolute"
 			href="https://newsroom.cisco.com/feature-content?type=webcontent&articleId=1928468"
 			>Cisco logo</Link
@@ -1007,18 +943,18 @@
 	>
 		<em
 			>Suicide is preventable. Anyone who is experiencing suicidal thoughts or a mental health
-			crisis should immediately reach out for help by calling the&nbsp;</em
+			crisis should immediately reach out for help by calling the&ensp;</em
 		><Link type="absolute" href="https://suicidepreventionlifeline.org/"
 			><em>National Suicide Prevention Lifeline</em></Link
-		><em>&nbsp;at 1(800)273-TALK (8255), or contact the&nbsp;</em><Link
+		><em>&ensp;at 1(800)273-TALK (8255), or contact the&ensp;</em><Link
 			type="absolute"
 			href="https://www.crisistextline.org/"><em>Crisis Text Line</em></Link
-		><em>&nbsp;by texting TALK to 741741. You can also reach out to the local&nbsp;</em><Link
+		><em>&ensp;by texting TALK to 741741. You can also reach out to the local&ensp;</em><Link
 			type="absolute"
 			href="https://www.sfsuicide.org/our-programs/24-hour-crisis-line/"
 			><em>San Francisco Crisis Line</em></Link
 		><em
-			>&nbsp;by calling (415)781–0500 or texting MYLIFE to 741741 for 24/7 confidential support.</em
+			>&ensp;by calling (415)781–0500 or texting MYLIFE to 741741 for 24/7 confidential support.</em
 		>
 	</Paragraph>
 </ChildPage>

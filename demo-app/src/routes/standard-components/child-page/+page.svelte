@@ -13,6 +13,7 @@
 	import Header from '$lib/notion2svelte/Header.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
+	import Underline from '$lib/notion2svelte/Underline.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
 	import Equation from '$lib/notion2svelte/Equation.svelte';
@@ -48,10 +49,10 @@
 	In a traditional file directory, there is a distinction between, well, files and directories. Not
 	so with Notion, where the parent of any given page is either another page or the sidebar. This
 	presents a challenge when mapping Notion pages to files in a directory tree, which is what’s
-	required on the output side of&nbsp;<em>notion2svelte</em>.
+	required on the output side of&ensp;<em>notion2svelte</em>.
 </Paragraph>
 <Callout emoji="🤔"
-	>What is the “right” way to represent a&nbsp;<em>child_page</em>&nbsp;in&nbsp;<em>src/routes</em
+	>What is the “right” way to represent a&ensp;<em>child_page</em>&ensp;in&ensp;<em>src/routes</em
 	>?</Callout
 ><Paragraph
 	blockProps={{
@@ -61,10 +62,10 @@
 		last_edited_time: '2022-01-31T06:49:00.000Z'
 	}}
 >
-	For this first release,&nbsp;<em>notion2svelte&nbsp;</em>gives you more than you probably need
+	For this first release,&ensp;<em>notion2svelte&ensp;</em>gives you more than you probably need
 	when it comes to child pages…enough to render the entire page, in fact (minus the
-	title/cover/icon…)! But this comes with a caveat: it’s&nbsp;<em>not</em>&nbsp;recursive. That
-	means that you’ll get errors wherever&nbsp;<em>notion2svelte&nbsp;</em>encounters a child page
+	title/cover/icon…)! But this comes with a caveat: it’s&ensp;<em>not</em>&ensp;recursive. That
+	means that you’ll get errors wherever&ensp;<em>notion2svelte&ensp;</em>encounters a child page
 	inside another child page.
 </Paragraph>
 <Paragraph
@@ -75,7 +76,7 @@
 		last_edited_time: '2022-01-31T06:50:00.000Z'
 	}}
 >
-	The demo component I made for this site goes the unusual route of&nbsp;<em>inlining</em>&nbsp;the
+	The demo component I made for this site goes the unusual route of&ensp;<em>inlining</em>&ensp;the
 	child page. There’s no practical motivation behind this…it was fast and cheap to do.
 </Paragraph>
 <Paragraph
@@ -95,7 +96,7 @@
 	}}
 >
 	This is one of the components most likely to change in future versions. Got a great idea for how
-	this&nbsp;should work?&nbsp;<Link
+	this&ensp;should work?&ensp;<Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/discussions">Let me know</Link
 	>!
@@ -108,21 +109,13 @@
 		pageId: '991f1062fc784019aea56e890ca04ca2',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-01-28T20:28:00.000Z'
+		last_edited_time: '2022-12-06T22:00:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
-		><em>src/routes/[slug].json</em></InlineColor
+	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
+		><em>src/routes/[slug]/notion-export.js</em></InlineColor
 	>
 </Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: '991f1062fc784019aea56e890ca04ca2',
-		id: '577562ee-dfd9-42bd-889c-e04479602dd8',
-		created_time: '2022-01-31T20:31:00.000Z',
-		last_edited_time: '2022-01-31T20:31:00.000Z'
-	}}
-/>
 <Code
 	code={`\{
       &quot;object&quot;: &quot;block&quot;,
@@ -180,7 +173,7 @@
 		last_edited_time: '2022-01-28T20:32:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].svelte</em></InlineColor
 	>
 </Paragraph>
@@ -196,7 +189,7 @@
     &gt;⚠️ child_page: &lt;span
       style=&quot;font-weight: 600; display: inline; padding: 3px; border-radius: 3px;&quot;
       &gt;I’m the grandchild.&lt;/span
-    &gt; has no content&lt;/p
+    &gt;&amp;nbsp;has no content&lt;/p
   &gt;
   &lt;Error
     pageId=&quot;991f1062fc784019aea56e890ca04ca2&quot;
@@ -216,12 +209,12 @@
   /&gt;
 &lt;/ChildPage&gt;`}
 	language="html"
-	>By including a grandchild page&nbsp;<em>and</em>&nbsp;a link to the same grandchild page, we’ve
+	>By including a grandchild page&ensp;<em>and</em>&ensp;a link to the same grandchild page, we’ve
 	generated two distinct errors. The first (⚠️) is a “warning” generated while rendering “annotated”
 	spans of text. The second (the wiggly one below) is a catch-all for all uncaught errors thrown
-	during&nbsp;<em>notion2svelte&nbsp;</em>execution.
+	during&ensp;<em>notion2svelte&ensp;</em>execution.
 	<br />
-	See <Link type="mention" href="/other-components/error">Error</Link>.</Code
+	See&ensp;<Link type="mention" href="/other-components/error">Error</Link>.</Code
 ><Header level={1}>4. Example rendering</Header>
 <Paragraph
 	blockProps={{
@@ -231,7 +224,7 @@
 		last_edited_time: '2022-01-28T21:03:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Rendered by&nbsp;</InlineColor><Link
+	<InlineColor value="gray">Rendered by</InlineColor><Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/ChildPage.svelte"
 		><InlineColor value="gray">ChildPage.svelte</InlineColor></Link
@@ -274,6 +267,7 @@
 			>&nbsp;No slug found for mention w/text: I’m the grandchild'. Have you imported the target
 			page with notion2svelte yet?
 		</p>
+		&ensp;
 	</Paragraph>
 </ChildPage><Paragraph
 	blockProps={{
@@ -284,7 +278,7 @@
 	}}
 />
 <Callout emoji="🚧"
-	>Just to reiterate: with this current version of&nbsp;<em>notion2svelte</em>, it’s best to either
+	>Just to reiterate: with this current version of&ensp;<em>notion2svelte</em>, it’s best to either
 	avoid nesting child pages, or perhaps just have your ChildPage component generate a link back to
 	the original Notion page?<span slot="children"
 		><Paragraph
@@ -308,80 +302,17 @@
 	}}
 />
 <Divider />
-<Header level={1}>Where to learn more</Header>
-<Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
-<BulletedListItem
-	><Link type="absolute" href="https://github.com/nvlgzr/notion2svelte"
-		>https://github.com/nvlgzr/notion2svelte</Link
-	></BulletedListItem
->
-<Header level={3}>Ready to try it?</Header>
-<Paragraph
-	blockProps={{
-		pageId: '991f1062fc784019aea56e890ca04ca2',
-		id: '58ff394d-4eda-4d56-aaea-89d926fcd3da',
-		created_time: '2022-01-26T09:47:00.000Z',
-		last_edited_time: '2022-01-27T05:11:00.000Z'
-	}}
->
-	Open your Terminal.app* and follow along to 👉🏿 “<Link
-		type="absolute"
-		href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
-	>”!
-</Paragraph>
-<IndentGroup>
-	<Paragraph
-		blockProps={{
-			pageId: '991f1062fc784019aea56e890ca04ca2',
-			id: 'b77e2c4c-0270-4680-aee3-73500e7e5e95',
-			created_time: '2022-01-26T09:47:00.000Z',
-			last_edited_time: '2022-01-27T05:14:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-		><Link type="absolute" href="https://fishshell.com/"
-			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray"
-			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
-			after all, so it should be pretty portable!</InlineColor
-		>
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: '991f1062fc784019aea56e890ca04ca2',
-			id: 'fc7a7eef-1c40-431e-9842-85d97d1e1d49',
-			created_time: '2022-01-27T05:11:00.000Z',
-			last_edited_time: '2022-01-27T05:11:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>**Technically, the video’s shorter than 10 minutes, but you might want to set aside 20-30
-			minutes to allow for your own play time. 🧫</InlineColor
-		>🧪
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: '991f1062fc784019aea56e890ca04ca2',
-			id: '86f56fbe-bc18-4df1-90bd-277d0d5a05c5',
-			created_time: '2022-01-27T05:10:00.000Z',
-			last_edited_time: '2022-01-27T05:10:00.000Z'
-		}}
-	/>
-</IndentGroup>
-<Divider />
 <Header level={2}
-	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
-</Header>
+	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
+>
 <ColumnList cols={2}
 	><Column
 		><Header level={3}>High-level Discussion</Header>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/flow-diagram"
 				>Where notion2svelte Fits</Link
-			>
-		</BulletedListItem>
+			>&ensp;</BulletedListItem
+		>
 		<BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/rules-for-writing-good-slugs"
@@ -401,8 +332,9 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link>
-		</BulletedListItem>
+			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link
+			>&ensp;</BulletedListItem
+		>
 		<Header level={3}>Turn-intoable Block Components</Header>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/paragraph">Paragraph (aka “Text”)</Link
@@ -443,7 +375,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&ensp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -453,8 +385,9 @@
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link>
-		</BulletedListItem>
+			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link
+			>&ensp;</BulletedListItem
+		>
 		<Header level={3}>Page-level Components</Header>
 		<BulletedListItem
 			><Link type="mention" href="/page-level-components/title">Title (aka Name)</Link
@@ -466,14 +399,18 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
-		</BulletedListItem>
-		<BulletedListItem
-			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+			><strong>bold</strong>&ensp;→&ensp;<InlineCode
+				code={'&lt;strong&gt;'}
+			/>&ensp;</BulletedListItem
 		>
-		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
+			><em>italic</em>&ensp;→&ensp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><s>strikethrough</s>&ensp;→&ensp;<InlineCode code={'&lt;s&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/annotations/underline">Underline</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

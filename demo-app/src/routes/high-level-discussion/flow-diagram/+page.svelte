@@ -13,6 +13,7 @@
 	import Header from '$lib/notion2svelte/Header.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
+	import Underline from '$lib/notion2svelte/Underline.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
 	import Equation from '$lib/notion2svelte/Equation.svelte';
@@ -96,8 +97,8 @@
 		last_edited_time: '2022-12-04T01:07:00.000Z'
 	}}
 >
-	Which brings us to&nbsp;<em>notion2svelte,&nbsp;</em>a tool whose sole purpose is transforming
-	Notion pages into&nbsp;<em>.svelte</em>&nbsp;files
+	Which brings us to&ensp;<em>notion2svelte,&ensp;</em>a tool whose sole purpose is transforming
+	Notion pages into&ensp;<em>.svelte</em>&ensp;files
 </Paragraph>
 <Header level={1}>Fetching</Header>
 <Paragraph
@@ -108,10 +109,10 @@
 		last_edited_time: '2022-12-04T01:07:00.000Z'
 	}}
 >
-	I forgot to include it in these diagrams, but you’ll need a&nbsp;<em>.env</em
-	>&nbsp;file,&nbsp;<Link type="alias" href="/high-level-discussion/dot-env"
+	I forgot to include it in these diagrams, but you’ll need a&ensp;<em>.env</em
+	>&ensp;file,&ensp;<Link type="alias" href="/high-level-discussion/dot-env"
 		>properly configured</Link
-	>, and stored wherever you intend to run&nbsp;<InlineCode code={'npx notion2svelte'} />:
+	>, and stored wherever you intend to run&ensp;<InlineCode code={'npx notion2svelte'} />:
 	typically, the root of your Svelte app
 </Paragraph>
 <Paragraph
@@ -122,8 +123,8 @@
 		last_edited_time: '2022-02-17T23:07:00.000Z'
 	}}
 >
-	Anyway, once it’s able to query your document database in Notion,&nbsp;<em>notion2svelte</em
-	>&nbsp;first fetches top-level data for all pages where&nbsp;<em>Status: Publishable*…</em>
+	Anyway, once it’s able to query your document database in Notion,&ensp;<em>notion2svelte</em
+	>&ensp;first fetches top-level data for all pages where&ensp;<em>Status: Publishable*…</em>
 </Paragraph>
 <IndentGroup>
 	<Paragraph
@@ -148,7 +149,7 @@
 		last_edited_time: '2022-02-17T23:07:00.000Z'
 	}}
 >
-	…then, for each fetched page,&nbsp;<em>notion2svelte</em>&nbsp;recursively fetches all blocks
+	…then, for each fetched page,&ensp;<em>notion2svelte</em>&ensp;recursively fetches all blocks
 	needed to render that page
 </Paragraph>
 <Image url="/assets/high-level-discussion/flow-diagram/601efbcd-7b58-4854-b6ec-1e984c227018.png" />
@@ -171,12 +172,12 @@
 			last_edited_time: '2022-02-17T23:12:00.000Z'
 		}}
 	>
-		<InlineColor value="gray">*As of&nbsp;</InlineColor><InlineColor value="gray"
+		<InlineColor value="gray">*As of&ensp;</InlineColor><InlineColor value="gray"
 			><em>notion2svelte 0.0.1</em></InlineColor
-		><InlineColor value="gray">, this object gets serialized to a&nbsp;</InlineColor><InlineColor
+		><InlineColor value="gray">, this object gets serialized to a&ensp;</InlineColor><InlineColor
 			value="gray"><em>.json</em></InlineColor
 		><InlineColor value="gray"
-			>&nbsp;file with the same root filename as the output&nbsp;</InlineColor
+			>&ensp;file with the same root filename as the output&ensp;</InlineColor
 		><InlineColor value="gray"><em>.svelte</em></InlineColor><InlineColor value="gray"
 			>, providing maximum flexibility to the end user with minimal effort on my part 😬</InlineColor
 		>
@@ -191,11 +192,11 @@
 		last_edited_time: '2022-02-17T23:19:00.000Z'
 	}}
 >
-	Once the entire page has been collated,&nbsp;<em>notion2svelte</em>&nbsp;converts every* element
+	Once the entire page has been collated,&ensp;<em>notion2svelte</em>&ensp;converts every* element
 	on the page — title, cover art, icon, and blocks — into a corresponding Svelte component, nesting
-	components as appropriate, and providing imports in a&nbsp;<InlineCode
+	components as appropriate, and providing imports in a&ensp;<InlineCode
 		code={'&lt;script&gt;'}
-	/>&nbsp;tag
+	/>&ensp;tag
 </Paragraph>
 <IndentGroup>
 	<Paragraph
@@ -203,15 +204,19 @@
 			pageId: 'f16dfed7beb54a71b67435e17e7e33e5',
 			id: '149d3bb8-348e-483e-bc7a-487f82c4df60',
 			created_time: '2022-02-17T23:16:00.000Z',
-			last_edited_time: '2022-02-17T23:19:00.000Z'
+			last_edited_time: '2022-12-08T05:20:00.000Z'
 		}}
 	>
-		<InlineColor value="gray"
-			>*Except for newer types not yet implemented (looking at you, Toggle Header blocks & tables!),
-			all the special&nbsp;</InlineColor
-		><InlineColor value="gray"><em>embed-type</em></InlineColor><InlineColor value="gray"
-			>&nbsp;blocks, and page props</InlineColor
-		>
+		<InlineColor value="gray">*Well, not&ensp;</InlineColor><InlineColor value="gray"
+			><em>every</em></InlineColor
+		><InlineColor value="gray"
+			>&ensp;element. I haven’t gotten around to the hybrid Toggle Header blocks, nor to tables. Nor
+			have I looked into supporting any of the custom 3rd party integrations, not having had the
+			need. Oh, and while page props aren’t rendered by notion2svelte, you can do what you wish with
+			them by exposing Notion props as&ensp;</InlineColor
+		><Link type="mention" href="/high-level-discussion/block-props"
+			><InlineColor value="gray">blockProps</InlineColor></Link
+		><InlineColor value="gray">.</InlineColor>
 	</Paragraph>
 </IndentGroup>
 <Image url="/assets/high-level-discussion/flow-diagram/82f08bf6-fa03-4e0a-b758-844225cf9e9e.png" />
@@ -223,7 +228,7 @@
 		last_edited_time: '2022-02-17T23:21:00.000Z'
 	}}
 >
-	You provide the actual component implementations, stored in&nbsp;<em>src/lib/notion2svelte</em>
+	You provide the actual component implementations, stored in&ensp;<em>src/lib/notion2svelte</em>
 </Paragraph>
 <Paragraph
 	blockProps={{
@@ -238,10 +243,10 @@
 </Paragraph>
 <Image url="/assets/high-level-discussion/flow-diagram/66b337c4-3c7c-49ef-8a55-ed177bc39e02.png" />
 <BulletedListItem
-	>You’ve got&nbsp;<em>.svelte</em>&nbsp;files output by&nbsp;<em>notion2svelte</em
+	>You’ve got&ensp;<em>.svelte</em>&ensp;files output by&ensp;<em>notion2svelte</em
 	></BulletedListItem
 >
-<BulletedListItem>These import components from&nbsp;<em>src/lib/notion2svelte</em></BulletedListItem
+<BulletedListItem>These import components from&ensp;<em>src/lib/notion2svelte</em></BulletedListItem
 >
 <Paragraph
 	blockProps={{
@@ -251,8 +256,8 @@
 		last_edited_time: '2022-02-17T23:27:00.000Z'
 	}}
 >
-	Those two banal statements are at the root of&nbsp;<em>notion2svelte’s</em>&nbsp;power. Put
-	another way,&nbsp;<em>notion2svelte</em>&nbsp;is as flexible and as powerful as Svelte, because,
+	Those two banal statements are at the root of&ensp;<em>notion2svelte’s</em>&ensp;power. Put
+	another way,&ensp;<em>notion2svelte</em>&ensp;is as flexible and as powerful as Svelte, because,
 	in the end, Svelte is all you’re really dealing with…and Svelte is forking awesome!
 </Paragraph>
 <Header level={1}>Putting it all together</Header>
@@ -271,7 +276,7 @@
 <Image url="/assets/high-level-discussion/flow-diagram/c0a3133a-068a-49b8-bc3c-0f9bb69bd69f.png"
 	>The full* workflow</Image
 >
-<Header level={3}>The role of&nbsp;<em>Publishable</em></Header>
+<Header level={3}>The role of&ensp;<em>Publishable</em></Header>
 <Paragraph
 	blockProps={{
 		pageId: 'f16dfed7beb54a71b67435e17e7e33e5',
@@ -280,7 +285,7 @@
 		last_edited_time: '2022-02-17T23:34:00.000Z'
 	}}
 >
-	Notion’s API requires a&nbsp;<em>minimum</em>&nbsp;of n+1 fetches for every page, where n is the
+	Notion’s API requires a&ensp;<em>minimum</em>&ensp;of n+1 fetches for every page, where n is the
 	number of blocks on the page
 </Paragraph>
 <Paragraph
@@ -302,8 +307,8 @@
 		last_edited_time: '2022-12-04T00:50:00.000Z'
 	}}
 >
-	As such, you’ll probably want to change each page’s Status to (e.g.)&nbsp;<em>Published</em
-	>&nbsp;once it’s been processed by&nbsp;<em>notion2svelte</em>
+	As such, you’ll probably want to change each page’s Status to (e.g.)&ensp;<em>Published</em
+	>&ensp;once it’s been processed by&ensp;<em>notion2svelte</em>
 </Paragraph>
 <Image url="/assets/high-level-discussion/flow-diagram/72ff9d21-461b-4559-b4f1-b1a9f8357499.png" />
 <Header level={1}>Ejecting</Header>
@@ -315,20 +320,20 @@
 		last_edited_time: '2022-12-04T00:53:00.000Z'
 	}}
 >
-	If you want to keep the pages generated by&nbsp;<em>notion2svelte</em>, but otherwise remove its
+	If you want to keep the pages generated by&ensp;<em>notion2svelte</em>, but otherwise remove its
 	presence from your project:
 </Paragraph>
 <NumberedListItem number="1">
-	Uninstall&nbsp;<em>notion2svelte</em>&nbsp;<InlineCode
+	Uninstall&ensp;<em>notion2svelte</em>&ensp;<InlineCode
 		code={'npm uninstall -g notion2svelte'}
 	/></NumberedListItem
 >
 <NumberedListItem number="2">
-	Remove your&nbsp;<em>.env</em>, or at least the bits relevant to&nbsp;<em>notion2svelte</em
+	Remove your&ensp;<em>.env</em>, or at least the bits relevant to&ensp;<em>notion2svelte</em
 	></NumberedListItem
 >
 <NumberedListItem number="3">
-	Rename the&nbsp;<InlineCode code={'lib/notion2svelte/'} />&nbsp;components directory, and
+	Rename the&ensp;<InlineCode code={'lib/notion2svelte/'} />&ensp;components directory, and
 	references thereto</NumberedListItem
 >
 <Paragraph
@@ -340,69 +345,8 @@
 	}}
 />
 <Divider />
-<Header level={1}>Where to learn more</Header>
-<Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
-<BulletedListItem
-	><Link type="absolute" href="https://github.com/nvlgzr/notion2svelte"
-		>https://github.com/nvlgzr/notion2svelte</Link
-	></BulletedListItem
->
-<Header level={3}>Ready to try it?</Header>
-<Paragraph
-	blockProps={{
-		pageId: 'f16dfed7beb54a71b67435e17e7e33e5',
-		id: '58ff394d-4eda-4d56-aaea-89d926fcd3da',
-		created_time: '2022-01-26T09:47:00.000Z',
-		last_edited_time: '2022-12-03T01:36:00.000Z'
-	}}
->
-	Open your Terminal.app* and follow along to 👉🏿 “<Link
-		type="absolute"
-		href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
-	>”!
-</Paragraph>
-<Toggle
-	><InlineColor value="gray">Caveats</InlineColor>
-	<span slot="children"
-		><Paragraph
-			blockProps={{
-				pageId: 'f16dfed7beb54a71b67435e17e7e33e5',
-				id: 'b77e2c4c-0270-4680-aee3-73500e7e5e95',
-				created_time: '2022-01-26T09:47:00.000Z',
-				last_edited_time: '2022-12-02T06:19:00.000Z'
-			}}
-		>
-			<InlineColor value="gray"
-				>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether
-				it works for you if you’re not running macOS! This is a Node app, after all, so it should be
-				pretty portable.</InlineColor
-			>
-		</Paragraph>
-		<Paragraph
-			blockProps={{
-				pageId: 'f16dfed7beb54a71b67435e17e7e33e5',
-				id: 'fc7a7eef-1c40-431e-9842-85d97d1e1d49',
-				created_time: '2022-01-27T05:11:00.000Z',
-				last_edited_time: '2022-12-02T06:19:00.000Z'
-			}}
-		>
-			<InlineColor value="gray"
-				>**Technically, the video’s shorter than 10 minutes, but you might want to set aside 20-30
-				minutes to allow for experimentation. 🧫</InlineColor
-			>🧪
-		</Paragraph>
-		<Paragraph
-			blockProps={{
-				pageId: 'f16dfed7beb54a71b67435e17e7e33e5',
-				id: '86f56fbe-bc18-4df1-90bd-277d0d5a05c5',
-				created_time: '2022-01-27T05:10:00.000Z',
-				last_edited_time: '2022-12-02T06:19:00.000Z'
-			}}
-		/>
-	</span></Toggle
-><Divider />
 <Header level={2}
-	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>&nbsp;</Header
+	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
 >
 <ColumnList cols={2}
 	><Column
@@ -410,7 +354,7 @@
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/flow-diagram"
 				>Where notion2svelte Fits</Link
-			>&nbsp;</BulletedListItem
+			>&ensp;</BulletedListItem
 		>
 		<BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
 		<BulletedListItem
@@ -432,7 +376,7 @@
 		>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link
-			>&nbsp;</BulletedListItem
+			>&ensp;</BulletedListItem
 		>
 		<Header level={3}>Turn-intoable Block Components</Header>
 		<BulletedListItem
@@ -474,7 +418,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&ensp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -485,7 +429,7 @@
 		>
 		<BulletedListItem
 			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link
-			>&nbsp;</BulletedListItem
+			>&ensp;</BulletedListItem
 		>
 		<Header level={3}>Page-level Components</Header>
 		<BulletedListItem
@@ -498,16 +442,18 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode
+			><strong>bold</strong>&ensp;→&ensp;<InlineCode
 				code={'&lt;strong&gt;'}
-			/>&nbsp;</BulletedListItem
+			/>&ensp;</BulletedListItem
 		>
 		<BulletedListItem
-			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+			><em>italic</em>&ensp;→&ensp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
 		>
-		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
+			><s>strikethrough</s>&ensp;→&ensp;<InlineCode code={'&lt;s&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/annotations/underline">Underline</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

@@ -135,7 +135,7 @@
 </Paragraph>
 <Divider />
 <Header level={2}
-	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘&ensp;</Header
+	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
 >
 <ColumnList cols={2}
 	><Column

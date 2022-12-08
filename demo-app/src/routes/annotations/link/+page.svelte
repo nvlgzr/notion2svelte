@@ -13,6 +13,7 @@
 	import Header from '$lib/notion2svelte/Header.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
+	import Underline from '$lib/notion2svelte/Underline.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
 	import Equation from '$lib/notion2svelte/Equation.svelte';
@@ -46,21 +47,13 @@
 		pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-01-28T20:28:00.000Z'
+		last_edited_time: '2022-12-06T22:00:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
-		><em>src/routes/[slug].json</em></InlineColor
+	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
+		><em>src/routes/[slug]/notion-export.js</em></InlineColor
 	>
 </Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
-		id: '577562ee-dfd9-42bd-889c-e04479602dd8',
-		created_time: '2022-01-31T20:31:00.000Z',
-		last_edited_time: '2022-01-31T20:31:00.000Z'
-	}}
-/>
 <Code
 	code={`\{
       …
@@ -158,22 +151,22 @@
 		<BulletedListItem>2 link styles</BulletedListItem>
 		<IndentGroup>
 			<BulletedListItem
-				><em>relative to root</em>&nbsp;(starts with&nbsp;<InlineCode
+				><em>relative to root</em>&ensp;(starts with&ensp;<InlineCode
 					code={'/'}
 				/>)</BulletedListItem
 			>
 			<BulletedListItem
-				><em>absolute</em>&nbsp;(starts with protocol: http, mailto, et al)</BulletedListItem
+				><em>absolute</em>&ensp;(starts with protocol: http, mailto, et al)</BulletedListItem
 			>
 		</IndentGroup>
 	</IndentGroup>
 	<Toggle
 		>I suspect this situation is the result of some more general structure needed to accommodate
 		Turn-intoable blocks, but maybe it’s just an oversight when they could have just been explicit
-		and had three types:&nbsp;<InlineCode code={'mention'} />,&nbsp;<InlineCode code={'alias'} />,
-		and&nbsp;<InlineCode code={'external'} />. That’s my opinion…and that’s why&nbsp;<em
+		and had three types:&ensp;<InlineCode code={'mention'} />,&ensp;<InlineCode code={'alias'} />,
+		and&ensp;<InlineCode code={'external'} />. That’s my opinion…and that’s why&ensp;<em
 			>notion2svelte</em
-		>&nbsp;does just that! 😎
+		>&ensp;does just that! 😎
 		<span slot="children"
 			><Paragraph
 				blockProps={{
@@ -196,9 +189,9 @@
 					last_edited_time: '2022-01-30T23:23:00.000Z'
 				}}
 			>
-				Of course, if you want to go the other way, nothing’s stopping you from ignoring the&nbsp;<InlineCode
+				Of course, if you want to go the other way, nothing’s stopping you from ignoring the&ensp;<InlineCode
 					code={'type'}
-				/>&nbsp;prop in your Link component:
+				/>&ensp;prop in your Link component:
 			</Paragraph>
 			<Code
 				code={`&lt;script&gt;
@@ -214,14 +207,14 @@
 <BulletedListItem>There’s duplicate data:</BulletedListItem>
 <IndentGroup>
 	<BulletedListItem
-		>As far as I can tell,&nbsp;<InlineCode code={'text[n].text.link.url'} />&nbsp;is&nbsp;<em
+		>As far as I can tell,&ensp;<InlineCode code={'text[n].text.link.url'} />&ensp;is&ensp;<em
 			>always</em
-		>&nbsp;identical to the adjacent&nbsp;<InlineCode code={'text[n].href'} /></BulletedListItem
+		>&ensp;identical to the adjacent&ensp;<InlineCode code={'text[n].href'} /></BulletedListItem
 	>
 	<BulletedListItem
-		><InlineCode code={'text[n].mention.page.id'} />&nbsp;is just&nbsp;<InlineCode
+		><InlineCode code={'text[n].mention.page.id'} />&ensp;is just&ensp;<InlineCode
 			code={'text[n].href'}
-		/>&nbsp;without the host —&nbsp;<em>https://www.notion.so/</em>&nbsp;— sliced off</BulletedListItem
+		/>&ensp;without the host —&ensp;<em>https://www.notion.so/</em>&ensp;— sliced off</BulletedListItem
 	>
 	<Paragraph
 		blockProps={{
@@ -231,9 +224,9 @@
 			last_edited_time: '2022-01-30T23:34:00.000Z'
 		}}
 	>
-		<em>notion2svelte</em>&nbsp;reduces these duplications to a single&nbsp;<InlineCode
+		<em>notion2svelte</em>&ensp;reduces these duplications to a single&ensp;<InlineCode
 			code={'href'}
-		/>&nbsp;prop.
+		/>&ensp;prop.
 	</Paragraph>
 </IndentGroup>
 <Header level={1}>3. Svelte output</Header>
@@ -245,7 +238,7 @@
 		last_edited_time: '2022-01-28T20:32:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].svelte</em></InlineColor
 	>
 </Paragraph>
@@ -275,8 +268,8 @@
     &lt;/Link&gt;
 &lt;/BulletedListItem&gt;`}
 	language="html"
-	>The&nbsp;<em>type</em>&nbsp;prop can be either&nbsp;<em>mention</em>,&nbsp;<em>alias</em
-	>&nbsp;or&nbsp;<em>external</em>.</Code
+	>The&ensp;<em>type</em>&ensp;prop can be either&ensp;<em>mention</em>,&ensp;<em>alias</em
+	>&ensp;or&ensp;<em>external</em>.</Code
 ><Header level={1}>4. Example rendering</Header>
 <Paragraph
 	blockProps={{
@@ -368,15 +361,15 @@
 			}}
 		>
 			Notion’s handling of links is buggy. Specifically, as soon as you start applying styles
-			to&nbsp;<em>parts</em>&nbsp;of the link, you suddenly end up with&nbsp;<em
+			to&ensp;<em>parts</em>&ensp;of the link, you suddenly end up with&ensp;<em
 				>more than one link</em
-			>! Don’t believe me? Follow along by opening this page’s&nbsp;<Link
+			>! Don’t believe me? Follow along by opening this page’s&ensp;<Link
 				type="alias"
 				href="/annotations/link">original in Notion</Link
 			>, and inspect the raw source for these examples ↓
 		</Paragraph>
 		<NumberedListItem number="1">
-			Let’s begin with our&nbsp;<em>internal alias</em>&nbsp;example:&nbsp;<Link
+			Let’s begin with our&ensp;<em>internal alias</em>&ensp;example:&ensp;<Link
 				type="alias"
 				href="/high-level-discussion/rules-for-writing-good-slugs">Writing Good Snails</Link
 			>. Stripping Notion’s HTML to its structural bones, we see that this link is rendered as:</NumberedListItem
@@ -397,13 +390,13 @@
 			</Paragraph>
 		</IndentGroup>
 		<NumberedListItem number="2">
-			Now let’s add some internal emphasis:&nbsp;<Link
+			Now let’s add some internal emphasis:&ensp;<Link
 				type="alias"
-				href="/high-level-discussion/rules-for-writing-good-slugs">Writing&nbsp;</Link
+				href="/high-level-discussion/rules-for-writing-good-slugs">Writing&ensp;</Link
 			><Link type="alias" href="/high-level-discussion/rules-for-writing-good-slugs"
 				><em>Great!</em></Link
 			><Link type="alias" href="/high-level-discussion/rules-for-writing-good-slugs"
-				>&nbsp;Snails</Link
+				>&ensp;Snails</Link
 			>. In Notion, this still appears, at first glance, to be a single link because the underlines
 			touch.</NumberedListItem
 		>
@@ -442,7 +435,7 @@
 &lt;a&gt;&lt;span&gt;Great! &lt;/span&gt;&lt;/a&gt;
 &lt;a&gt;&lt;span&gt;Snails&lt;/span&gt;&lt;/a&gt;`}
 				language="html"
-				><em><strong>The cake is a lie!&nbsp;</strong></em>🙀
+				><em><strong>The cake is a lie!&ensp;</strong></em>🙀
 			</Code>
 		</IndentGroup>
 		<Paragraph
@@ -466,7 +459,7 @@
 			If this bothers you, let Notion know. I don’t think my solo complaint is likely to move the
 			needle on something that probably affects their entire stack. 😬
 		</Paragraph>
-		<Header level={3}>How this affects&nbsp;<em>notion2svelte</em></Header>
+		<Header level={3}>How this affects&ensp;<em>notion2svelte</em></Header>
 		<Paragraph
 			blockProps={{
 				pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
@@ -475,9 +468,9 @@
 				last_edited_time: '2022-01-30T06:39:00.000Z'
 			}}
 		>
-			I can see a future where I get sick of this situation and complicate&nbsp;<em
+			I can see a future where I get sick of this situation and complicate&ensp;<em
 				>notion2svelte</em
-			>&nbsp;by having it stitch together adjacent links if they share a target URL. In these early
+			>&ensp;by having it stitch together adjacent links if they share a target URL. In these early
 			days, however, it’s just too much scope for this little tool, so this is the kind of thing
 			you’re looking at if you venture outside of Notion’s implicit rejection of links with margins.
 		</Paragraph>
@@ -490,23 +483,23 @@
 			}}
 		/>
 		<BulletedListItem
-			>Internal alias with styled text:&nbsp;<Link
+			>Internal alias with styled text:&ensp;<Link
 				type="alias"
-				href="/high-level-discussion/rules-for-writing-good-slugs">Writing&nbsp;</Link
+				href="/high-level-discussion/rules-for-writing-good-slugs">Writing&ensp;</Link
 			><Link type="alias" href="/high-level-discussion/rules-for-writing-good-slugs"
 				><InlineColor value="red">Great!</InlineColor></Link
 			><Link type="alias" href="/high-level-discussion/rules-for-writing-good-slugs"
-				>&nbsp;Snails</Link
+				>&ensp;Snails</Link
 			></BulletedListItem
 		>
 		<BulletedListItem
-			>External link with styled text:&nbsp;<Link
+			>External link with styled text:&ensp;<Link
 				type="absolute"
-				href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F">Writing&nbsp;</Link
+				href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F">Writing&ensp;</Link
 			><Link type="absolute" href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
 				><InlineColor value="red">Great!</InlineColor></Link
 			><Link type="absolute" href="https://en.wikipedia.org/wiki/What_Are_Little_Boys_Made_Of%3F"
-				>&nbsp;Puppy Dog Tales</Link
+				>&ensp;Puppy Dog Tales</Link
 			></BulletedListItem
 		>
 		<Paragraph
@@ -517,11 +510,11 @@
 				last_edited_time: '2022-01-30T06:44:00.000Z'
 			}}
 		>
-			Thanks to multiplying links, my choice to emulate&nbsp;<Link
+			Thanks to multiplying links, my choice to emulate&ensp;<Link
 				type="absolute"
 				href="https://practicaltypography.com/free-fonts.html">Matthew Butterick’s</Link
-			>&nbsp;links — removing all special formatting from links except for a cheeky little º in
-			the&nbsp;<InlineCode code={'a::after'} />&nbsp;styles — comes off suddenly looking more
+			>&ensp;links — removing all special formatting from links except for a cheeky little º in
+			the&ensp;<InlineCode code={'a::after'} />&ensp;styles — comes off suddenly looking more
 			amateur than class. Ah, well. 😞
 		</Paragraph>
 		<Paragraph
@@ -542,71 +535,8 @@
 	}}
 />
 <Divider />
-<Header level={1}>Where to learn more</Header>
-<Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
-<BulletedListItem
-	><Link type="absolute" href="https://github.com/nvlgzr/notion2svelte"
-		>https://github.com/nvlgzr/notion2svelte</Link
-	></BulletedListItem
->
-<Header level={3}>Ready to try it?</Header>
-<Paragraph
-	blockProps={{
-		pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
-		id: '58ff394d-4eda-4d56-aaea-89d926fcd3da',
-		created_time: '2022-01-26T09:47:00.000Z',
-		last_edited_time: '2022-01-27T05:11:00.000Z'
-	}}
->
-	Open your Terminal.app* and follow along to 👉🏿 “<Link
-		type="absolute"
-		href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
-	>”!
-</Paragraph>
-<IndentGroup>
-	<Paragraph
-		blockProps={{
-			pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
-			id: 'b77e2c4c-0270-4680-aee3-73500e7e5e95',
-			created_time: '2022-01-26T09:47:00.000Z',
-			last_edited_time: '2022-01-27T05:14:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-		><Link type="absolute" href="https://fishshell.com/"
-			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray"
-			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
-			after all, so it should be pretty portable!</InlineColor
-		>
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
-			id: 'fc7a7eef-1c40-431e-9842-85d97d1e1d49',
-			created_time: '2022-01-27T05:11:00.000Z',
-			last_edited_time: '2022-01-27T05:11:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>**Technically, the video’s shorter than 10 minutes, but you might want to set aside 20-30
-			minutes to allow for your own play time. 🧫</InlineColor
-		>🧪
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: '0a81110f311a4b2f858a65ea1a45ab3a',
-			id: '86f56fbe-bc18-4df1-90bd-277d0d5a05c5',
-			created_time: '2022-01-27T05:10:00.000Z',
-			last_edited_time: '2022-01-27T05:10:00.000Z'
-		}}
-	/>
-</IndentGroup>
-<Divider />
 <Header level={2}
-	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>&nbsp;</Header
+	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
 >
 <ColumnList cols={2}
 	><Column
@@ -614,7 +544,7 @@
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/flow-diagram"
 				>Where notion2svelte Fits</Link
-			>&nbsp;</BulletedListItem
+			>&ensp;</BulletedListItem
 		>
 		<BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
 		<BulletedListItem
@@ -636,7 +566,7 @@
 		>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link
-			>&nbsp;</BulletedListItem
+			>&ensp;</BulletedListItem
 		>
 		<Header level={3}>Turn-intoable Block Components</Header>
 		<BulletedListItem
@@ -678,7 +608,7 @@
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&ensp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -689,7 +619,7 @@
 		>
 		<BulletedListItem
 			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link
-			>&nbsp;</BulletedListItem
+			>&ensp;</BulletedListItem
 		>
 		<Header level={3}>Page-level Components</Header>
 		<BulletedListItem
@@ -702,16 +632,18 @@
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode
+			><strong>bold</strong>&ensp;→&ensp;<InlineCode
 				code={'&lt;strong&gt;'}
-			/>&nbsp;</BulletedListItem
+			/>&ensp;</BulletedListItem
 		>
 		<BulletedListItem
-			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+			><em>italic</em>&ensp;→&ensp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
 		>
-		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
+			><s>strikethrough</s>&ensp;→&ensp;<InlineCode code={'&lt;s&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/annotations/underline">Underline</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem

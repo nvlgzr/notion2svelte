@@ -13,6 +13,7 @@
 	import Header from '$lib/notion2svelte/Header.svelte';
 	import Image from '$lib/notion2svelte/Image.svelte';
 	import IndentGroup from '$lib/notion2svelte/IndentGroup.svelte';
+	import Underline from '$lib/notion2svelte/Underline.svelte';
 	import InlineCode from '$lib/notion2svelte/InlineCode.svelte';
 	import InlineColor from '$lib/notion2svelte/InlineColor.svelte';
 	import Equation from '$lib/notion2svelte/Equation.svelte';
@@ -47,21 +48,13 @@
 		pageId: 'ef8517977d17431889a3ae09285cfef8',
 		id: '0538fec5-3bc6-4c24-815d-78b5ce846819',
 		created_time: '2022-01-28T20:26:00.000Z',
-		last_edited_time: '2022-01-28T20:28:00.000Z'
+		last_edited_time: '2022-12-06T22:00:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
-		><em>src/routes/[slug].json</em></InlineColor
+	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
+		><em>src/routes/[slug]/notion-export.js</em></InlineColor
 	>
 </Paragraph>
-<Paragraph
-	blockProps={{
-		pageId: 'ef8517977d17431889a3ae09285cfef8',
-		id: '577562ee-dfd9-42bd-889c-e04479602dd8',
-		created_time: '2022-01-31T20:31:00.000Z',
-		last_edited_time: '2022-01-31T20:31:00.000Z'
-	}}
-/>
 <Header level={3}>Inline</Header>
 <Code
 	code={`\{
@@ -137,7 +130,7 @@
 		last_edited_time: '2022-01-28T20:32:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Partial output of&nbsp;</InlineColor><InlineColor value="gray"
+	<InlineColor value="gray">Partial output of&ensp;</InlineColor><InlineColor value="gray"
 		><em>src/routes/[slug].svelte</em></InlineColor
 	>
 </Paragraph>
@@ -169,14 +162,14 @@ C @= D
 		last_edited_time: '2022-01-28T22:44:00.000Z'
 	}}
 >
-	<InlineColor value="gray">Rendered by&nbsp;</InlineColor><Link
+	<InlineColor value="gray">Rendered by</InlineColor><Link
 		type="absolute"
 		href="https://github.com/nvlgzr/notion2svelte/blob/main/demo-app/src/lib/notion2svelte/Equation.svelte"
 		><InlineColor value="gray">Equation.svelte</InlineColor></Link
-	><InlineColor value="gray">, which relies on&nbsp;</InlineColor><Link
+	><InlineColor value="gray">, which relies on&ensp;</InlineColor><Link
 		type="absolute"
 		href="https://katex.org/"><InlineColor value="gray">katex</InlineColor></Link
-	><InlineColor value="gray">&nbsp;for typesetting</InlineColor>
+	><InlineColor value="gray">&ensp;for typesetting</InlineColor>
 </Paragraph>
 <Header level={3}>Inline</Header>
 <Paragraph
@@ -187,8 +180,8 @@ C @= D
 		last_edited_time: '2022-01-28T23:50:00.000Z'
 	}}
 >
-	Although&nbsp;<Equation block={false} katexString="E=mc^2" />&nbsp;might be the most well-known
-	equation on the planet, I’m slightly more fond of&nbsp;<Equation
+	Although&ensp;<Equation block={false} katexString="E=mc^2" />&ensp;might be the most well-known
+	equation on the planet, I’m slightly more fond of&ensp;<Equation
 		block={false}
 		katexString="e^{'{'}iπ}=-1"
 	/>. Euler needs better branding.
@@ -210,80 +203,17 @@ C @= D
 	}}
 />
 <Divider />
-<Header level={1}>Where to learn more</Header>
-<Header level={3}>Find the code, start a discussion, or report an issue on GitHub</Header>
-<BulletedListItem
-	><Link type="absolute" href="https://github.com/nvlgzr/notion2svelte"
-		>https://github.com/nvlgzr/notion2svelte</Link
-	></BulletedListItem
->
-<Header level={3}>Ready to try it?</Header>
-<Paragraph
-	blockProps={{
-		pageId: 'ef8517977d17431889a3ae09285cfef8',
-		id: '58ff394d-4eda-4d56-aaea-89d926fcd3da',
-		created_time: '2022-01-26T09:47:00.000Z',
-		last_edited_time: '2022-01-27T05:11:00.000Z'
-	}}
->
-	Open your Terminal.app* and follow along to 👉🏿 “<Link
-		type="absolute"
-		href="https://www.youtube.com/watch?v=xvV8-R_uUHg&t=12s">notion2svelte in 10** minutes</Link
-	>”!
-</Paragraph>
-<IndentGroup>
-	<Paragraph
-		blockProps={{
-			pageId: 'ef8517977d17431889a3ae09285cfef8',
-			id: 'b77e2c4c-0270-4680-aee3-73500e7e5e95',
-			created_time: '2022-01-26T09:47:00.000Z',
-			last_edited_time: '2022-01-27T05:14:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>*I have no clue how this thing performs on Linux, let alone Windows. Kinda curious whether it
-			works for you if you’re not running macOS! That said, I suspect my reliance on&nbsp;</InlineColor
-		><Link type="absolute" href="https://fishshell.com/"
-			><InlineColor value="gray">fish shell</InlineColor></Link
-		><InlineColor value="gray"
-			>&nbsp;is as likely to cause issues as my platform-of-choice/priviilege. This is a Node app,
-			after all, so it should be pretty portable!</InlineColor
-		>
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: 'ef8517977d17431889a3ae09285cfef8',
-			id: 'fc7a7eef-1c40-431e-9842-85d97d1e1d49',
-			created_time: '2022-01-27T05:11:00.000Z',
-			last_edited_time: '2022-01-27T05:11:00.000Z'
-		}}
-	>
-		<InlineColor value="gray"
-			>**Technically, the video’s shorter than 10 minutes, but you might want to set aside 20-30
-			minutes to allow for your own play time. 🧫</InlineColor
-		>🧪
-	</Paragraph>
-	<Paragraph
-		blockProps={{
-			pageId: 'ef8517977d17431889a3ae09285cfef8',
-			id: '86f56fbe-bc18-4df1-90bd-277d0d5a05c5',
-			created_time: '2022-01-27T05:10:00.000Z',
-			last_edited_time: '2022-01-27T05:10:00.000Z'
-		}}
-	/>
-</IndentGroup>
-<Divider />
 <Header level={2}
-	>Browse the docs ⚘&nbsp;<Link type="alias" href="/about-notion2svelte">🏠</Link>
-</Header>
+	><Link type="alias" href="/about-notion2svelte">🏠</Link>&ensp;Browse the docs ⚘</Header
+>
 <ColumnList cols={2}
 	><Column
 		><Header level={3}>High-level Discussion</Header>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/flow-diagram"
 				>Where notion2svelte Fits</Link
-			>
-		</BulletedListItem>
+			>&ensp;</BulletedListItem
+		>
 		<BulletedListItem><Link type="mention" href="/components">Components</Link></BulletedListItem>
 		<BulletedListItem
 			><Link type="mention" href="/high-level-discussion/rules-for-writing-good-slugs"
@@ -303,8 +233,9 @@ C @= D
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link>
-		</BulletedListItem>
+			><Link type="mention" href="/high-level-discussion/dot-env">Configuring your .env</Link
+			>&ensp;</BulletedListItem
+		>
 		<Header level={3}>Turn-intoable Block Components</Header>
 		<BulletedListItem
 			><Link type="mention" href="/standard-components/paragraph">Paragraph (aka “Text”)</Link
@@ -345,7 +276,7 @@ C @= D
 			><Link type="mention" href="/standard-components/equation">Equation</Link></BulletedListItem
 		>
 		<BulletedListItem
-			>Toggle Headings<InlineColor value="gray">&nbsp;(not yet implemented)</InlineColor
+			>Toggle Headings<InlineColor value="gray">&ensp;(not yet implemented)</InlineColor
 			></BulletedListItem
 		>
 	</Column><Column
@@ -355,8 +286,9 @@ C @= D
 			></BulletedListItem
 		>
 		<BulletedListItem
-			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link>
-		</BulletedListItem>
+			><Link type="mention" href="/layout-only-components/columns">Column & ColumnList</Link
+			>&ensp;</BulletedListItem
+		>
 		<Header level={3}>Page-level Components</Header>
 		<BulletedListItem
 			><Link type="mention" href="/page-level-components/title">Title (aka Name)</Link
@@ -368,14 +300,18 @@ C @= D
 		>
 		<Header level={3}>Annotation Components</Header>
 		<BulletedListItem
-			><strong>bold</strong>&nbsp;→&nbsp;<InlineCode code={'&lt;strong&gt;'} />
-		</BulletedListItem>
-		<BulletedListItem
-			><em>italic</em>&nbsp;→&nbsp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+			><strong>bold</strong>&ensp;→&ensp;<InlineCode
+				code={'&lt;strong&gt;'}
+			/>&ensp;</BulletedListItem
 		>
-		<BulletedListItem><s>strikethrough</s>&nbsp;→ NYI</BulletedListItem>
 		<BulletedListItem
-			><span style="text-decoration:underline;">underline</span>&nbsp;→ NYI</BulletedListItem
+			><em>italic</em>&ensp;→&ensp;<InlineCode code={'&lt;em&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><s>strikethrough</s>&ensp;→&ensp;<InlineCode code={'&lt;s&gt;'} /></BulletedListItem
+		>
+		<BulletedListItem
+			><Link type="mention" href="/annotations/underline">Underline</Link></BulletedListItem
 		>
 		<BulletedListItem
 			><Link type="mention" href="/annotations/inline-code">InlineCode</Link></BulletedListItem
