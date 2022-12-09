@@ -35,5 +35,8 @@
   "dependencies": {
     "katex": "^0.16.3",
     "svelte-keystroke": "^1.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
